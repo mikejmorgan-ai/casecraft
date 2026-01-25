@@ -1,0 +1,24 @@
+{
+  "project": "CaseCraft",
+  "ultimate_goal": "Legal case management with AI assistance",
+  "milestones": [
+    {"id": 1, "name": "Foundation", "status": "complete"},
+    {"id": 2, "name": "Case Management", "status": "in_progress"},
+    {"id": 3, "name": "MVP", "status": "pending"},
+    {"id": 4, "name": "AI Integration", "status": "pending"},
+    {"id": 5, "name": "Beta Firms", "status": "pending"},
+    {"id": 6, "name": "Launch", "status": "pending"}
+  ],
+  "current_milestone": 2,
+  "mvp_milestone": 3,
+  "launch_milestone": 6,
+  "mvp_completed_date": "",
+  "launch_eta": "Q2 2026",
+  "last_client_update": "Internal",
+  "blockers": [],
+  "kpis": [
+    {"name": "Cases Tracked", "current": 0, "goal": 100, "unit": ""},
+    {"name": "Law Firms", "current": 0, "goal": 5, "unit": ""},
+    {"name": "MRR", "current": 0, "goal": 5000, "unit": "$"}
+  ]
+}
