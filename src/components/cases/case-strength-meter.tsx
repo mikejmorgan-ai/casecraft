@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useCallback, useEffect, useRef } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Progress } from '@/components/ui/progress'
 import { Badge } from '@/components/ui/badge'
@@ -9,9 +9,7 @@ import { Scale, TrendingUp, TrendingDown, Minus, AlertTriangle, CheckCircle, XCi
 import type { CaseFact } from '@/lib/types'
 
 interface CaseStrengthMeterProps {
-  caseId: string
   facts: CaseFact[]
-  caseName: string
   plaintiffName?: string
   defendantName?: string
 }
@@ -30,68 +28,69 @@ interface StrengthAnalysis {
   keyIssues: string[]
 }
 
+// Generic fact analysis patterns (no hardcoded case-specific logic)
+const PLAINTIFF_PATTERNS = [
+  { pattern: /preempt|supersede|override/i, weight: 8, label: 'Preemption argument' },
+  { pattern: /vested|grandfathered|established right/i, weight: 8, label: 'Vested rights claim' },
+  { pattern: /successor|assign|transfer/i, weight: 6, label: 'Successor status' },
+  { pattern: /patent|deed|title/i, weight: 5, label: 'Title documentation' },
+  { pattern: /documented|historical|continuous/i, weight: 4, label: 'Historical evidence' },
+  { pattern: /permit|license|authorization/i, weight: 5, label: 'Regulatory compliance' },
+]
+
+const DEFENDANT_PATTERNS = [
+  { pattern: /no permit|without authorization|unlicensed/i, weight: 6, label: 'Regulatory violation' },
+  { pattern: /zoning|ordinance|regulation/i, weight: 5, label: 'Regulatory authority' },
+  { pattern: /environmental|safety|public/i, weight: 4, label: 'Public interest' },
+  { pattern: /gap|discontinu|abandon/i, weight: 5, label: 'Continuity issues' },
+  { pattern: /recent|acquired|new/i, weight: 3, label: 'Recent acquisition' },
+]
+
 export function CaseStrengthMeter({
-  caseId,
   facts,
-  caseName,
   plaintiffName = 'Plaintiff',
   defendantName = 'Defendant',
 }: CaseStrengthMeterProps) {
   const [analysis, setAnalysis] = useState<StrengthAnalysis | null>(null)
   const [isAnalyzing, setIsAnalyzing] = useState(false)
+  const hasAnalyzedRef = useRef(false)
 
-  const analyzeCase = async () => {
+  const analyzeCase = useCallback(() => {
     setIsAnalyzing(true)
 
-    // Analyze facts locally
+    // Analyze facts by category
     const undisputedFacts = facts.filter((f) => f.category === 'undisputed' || f.category === 'stipulated')
     const disputedFacts = facts.filter((f) => f.category === 'disputed' || f.is_disputed)
     const evidenceFacts = facts.filter((f) => f.category === 'evidence_based')
 
-    // Calculate scores based on fact patterns
+    // Calculate scores based on generic fact patterns
     let plaintiffScore = 50
     let defenseScore = 50
+    const matchedPlaintiffFactors: string[] = []
+    const matchedDefenseFactors: string[] = []
 
-    // Analyze fact content for Tree Farm case specifics
     facts.forEach((fact) => {
-      const text = fact.fact_text.toLowerCase()
+      const text = fact.fact_text
 
-      // Favorable to plaintiff (Tree Farm)
-      if (text.includes('preempt') || text.includes('17-41-402')) {
-        plaintiffScore += 8
-      }
-      if (text.includes('vested right') || text.includes('17-41-501')) {
-        plaintiffScore += 8
-      }
-      if (text.includes('successor') || text.includes('17-41-101')) {
-        plaintiffScore += 6
-      }
-      if (text.includes('1895') && text.includes('patent')) {
-        plaintiffScore += 5
-      }
-      if (text.includes('mining') && (text.includes('documented') || text.includes('historical'))) {
-        plaintiffScore += 4
-      }
-      if (text.includes('portland cement') || text.includes('lone star')) {
-        plaintiffScore += 5
-      }
+      // Check plaintiff patterns
+      PLAINTIFF_PATTERNS.forEach(({ pattern, weight, label }) => {
+        if (pattern.test(text)) {
+          plaintiffScore += weight
+          if (!matchedPlaintiffFactors.includes(label)) {
+            matchedPlaintiffFactors.push(label)
+          }
+        }
+      })
 
-      // Favorable to defense (County)
-      if (text.includes('no permit') || text.includes('never held')) {
-        defenseScore += 6
-      }
-      if (text.includes('zoning authority') || text.includes('valid exercise')) {
-        defenseScore += 5
-      }
-      if (text.includes('environmental') || text.includes('water quality')) {
-        defenseScore += 4
-      }
-      if (text.includes('gap') || text.includes('discontinu')) {
-        defenseScore += 5
-      }
-      if (text.includes('2021') && text.includes('acquired')) {
-        defenseScore += 3 // Recent acquisition
-      }
+      // Check defendant patterns
+      DEFENDANT_PATTERNS.forEach(({ pattern, weight, label }) => {
+        if (pattern.test(text)) {
+          defenseScore += weight
+          if (!matchedDefenseFactors.includes(label)) {
+            matchedDefenseFactors.push(label)
+          }
+        }
+      })
 
       // Disputed facts reduce certainty for both
       if (fact.is_disputed) {
@@ -105,84 +104,83 @@ export function CaseStrengthMeter({
     defenseScore = Math.min(100, Math.max(0, defenseScore))
 
     // Calculate overall score (plaintiff advantage)
-    const overallScore = Math.round(
-      50 + ((plaintiffScore - defenseScore) / 2)
-    )
+    const overallScore = Math.round(50 + ((plaintiffScore - defenseScore) / 2))
 
-    // Build analysis
+    // Build dynamic categories based on case type and matched patterns
+    const categories = [
+      {
+        name: 'Documentary Evidence',
+        score: evidenceFacts.length > 3 ? 80 : evidenceFacts.length > 0 ? 60 : 40,
+        factors: [
+          `${evidenceFacts.length} evidence-based facts documented`,
+          `${undisputedFacts.length} undisputed facts established`,
+        ],
+      },
+      {
+        name: 'Legal Foundation',
+        score: matchedPlaintiffFactors.length > 2 ? 75 : matchedPlaintiffFactors.length > 0 ? 55 : 40,
+        factors: matchedPlaintiffFactors.length > 0
+          ? matchedPlaintiffFactors.map(f => `${f} established in record`)
+          : ['Legal foundation needs strengthening'],
+      },
+      {
+        name: 'Opposition Strength',
+        score: 100 - (matchedDefenseFactors.length > 2 ? 70 : matchedDefenseFactors.length > 0 ? 55 : 30),
+        factors: matchedDefenseFactors.length > 0
+          ? matchedDefenseFactors.map(f => `Defense argues: ${f}`)
+          : ['Limited opposition arguments identified'],
+      },
+      {
+        name: 'Risk Assessment',
+        score: Math.max(0, 100 - (disputedFacts.length * 10)),
+        factors: [
+          `${disputedFacts.length} disputed facts requiring resolution`,
+          disputedFacts.length > 2 ? 'High factual uncertainty' : 'Manageable factual disputes',
+        ],
+      },
+    ]
+
+    // Build dynamic strengths/weaknesses
+    const strengths = [
+      ...matchedPlaintiffFactors.slice(0, 3).map(f => `Strong ${f.toLowerCase()} in record`),
+      `${undisputedFacts.length} facts are undisputed or stipulated`,
+    ]
+
+    const weaknesses = [
+      ...matchedDefenseFactors.slice(0, 3).map(f => `Potential vulnerability: ${f.toLowerCase()}`),
+      `${disputedFacts.length} key facts remain disputed`,
+    ]
+
+    const keyIssues = [
+      ...matchedPlaintiffFactors.slice(0, 2).map(f => `Can ${f.toLowerCase()} be proven definitively?`),
+      ...matchedDefenseFactors.slice(0, 1).map(f => `How to address ${f.toLowerCase()} argument?`),
+    ]
+
     const strengthAnalysis: StrengthAnalysis = {
       overallScore: Math.min(100, Math.max(0, overallScore)),
       plaintiffStrength: plaintiffScore,
       defenseStrength: defenseScore,
-      categories: [
-        {
-          name: 'State Preemption',
-          score: facts.some((f) => f.fact_text.toLowerCase().includes('17-41-402')) ? 75 : 50,
-          factors: [
-            'Utah Code §17-41-402 expressly preempts county mining regulation',
-            facts.some((f) => f.fact_text.toLowerCase().includes('preempt'))
-              ? 'Preemption argument documented in case facts'
-              : 'Preemption argument needs strengthening',
-          ],
-        },
-        {
-          name: 'Vested Rights',
-          score: facts.some((f) => f.fact_text.toLowerCase().includes('successor')) ? 70 : 45,
-          factors: [
-            'Successor status under §17-41-101(13)',
-            'Historical mining operations documented from 1906',
-            facts.some((f) => f.is_disputed && f.fact_text.toLowerCase().includes('successor'))
-              ? 'County disputes successor status'
-              : 'Successor chain established',
-          ],
-        },
-        {
-          name: 'Documentary Evidence',
-          score: evidenceFacts.length > 3 ? 80 : evidenceFacts.length > 0 ? 60 : 40,
-          factors: [
-            `${evidenceFacts.length} evidence-based facts documented`,
-            `${undisputedFacts.length} undisputed facts established`,
-            'Chain of title spans 126 years with 62 transactions',
-          ],
-        },
-        {
-          name: 'Legal Risk',
-          score: 100 - (disputedFacts.length * 8),
-          factors: [
-            `${disputedFacts.length} disputed facts requiring resolution`,
-            'County may argue lack of continuous operations',
-            'Regulatory taking claim requires showing no viable use',
-          ],
-        },
-      ],
-      strengths: [
-        'Mining rights trace to 1895 federal land patents',
-        'Utah Code §17-41-402 provides strong preemption language',
-        'Historical operations well-documented (Portland Cement, Lone Star)',
-        `${undisputedFacts.length} facts are undisputed or stipulated`,
-      ],
-      weaknesses: [
-        'Gap in active mining operations between 1990s and 2021',
-        'No current mining permits held',
-        'County argues valid zoning authority',
-        `${disputedFacts.length} key facts remain disputed`,
-      ],
-      keyIssues: [
-        'Does successor status under §17-41-101(13) apply to Tree Farm?',
-        'Was mining activity continuous enough to establish vesting?',
-        'Does Ordinance 1895 constitute a regulatory taking?',
-      ],
+      categories,
+      strengths: strengths.filter(Boolean),
+      weaknesses: weaknesses.filter(Boolean),
+      keyIssues: keyIssues.length > 0 ? keyIssues : ['Analyze case facts to identify key issues'],
     }
 
     setAnalysis(strengthAnalysis)
     setIsAnalyzing(false)
-  }
-
-  useEffect(() => {
-    if (facts.length > 0 && !analysis) {
-      analyzeCase()
-    }
   }, [facts])
+
+  // Auto-analyze on mount if facts exist (using ref to prevent re-runs)
+  useEffect(() => {
+    if (facts.length > 0 && !hasAnalyzedRef.current) {
+      hasAnalyzedRef.current = true
+      // Use setTimeout to avoid setState during render
+      const timeoutId = setTimeout(() => {
+        analyzeCase()
+      }, 0)
+      return () => clearTimeout(timeoutId)
+    }
+  }, [facts, analyzeCase])
 
   const getScoreColor = (score: number) => {
     if (score >= 70) return 'text-green-600'

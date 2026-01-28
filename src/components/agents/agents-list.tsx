@@ -20,7 +20,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog'
-import { Plus, Gavel, Scale, Shield, FileText, User, GraduationCap, Handshake, Loader2, Pencil, Trash2, BookOpen, Archive, Mountain, MessageCircle, Play, Sparkles, Volume2, VolumeX } from 'lucide-react'
+import { Plus, Gavel, Scale, Shield, FileText, User, GraduationCap, Handshake, Loader2, Pencil, BookOpen, Archive, Mountain, MessageCircle, Play, Sparkles, Volume2, VolumeX } from 'lucide-react'
 import { AGENT_ROLE_TEMPLATES, AGENT_ROLE_LABELS } from '@/lib/ai/prompts'
 import type { Agent, AgentRole } from '@/lib/types'
 
@@ -40,10 +40,9 @@ const ROLE_ICONS: Record<AgentRole, React.ElementType> = {
 interface AgentsListProps {
   caseId: string
   agents: Agent[]
-  facts?: { id: string; fact_text: string; is_disputed: boolean }[]
 }
 
-export function AgentsList({ caseId, agents, facts }: AgentsListProps) {
+export function AgentsList({ caseId, agents }: AgentsListProps) {
   const [editingAgent, setEditingAgent] = useState<Agent | null>(null)
   const [chattingAgent, setChattingAgent] = useState<Agent | null>(null)
   const [runningAnalysis, setRunningAnalysis] = useState(false)

@@ -62,6 +62,17 @@ export async function POST(
       }, { status: 404 })
     }
 
+    // Pinecone metadata type
+    interface PineconeDocMetadata {
+      doc_id?: string
+      doc_name?: string
+      doc_type?: string
+      content?: string
+      filed_by?: string
+      filed_date?: string
+      [key: string]: string | number | boolean | undefined
+    }
+
     // Group chunks by document ID
     const documentMap = new Map<string, {
       doc_id: string
@@ -70,12 +81,12 @@ export async function POST(
       content_chunks: string[]
       filed_by: string
       filed_date: string
-      metadata: Record<string, any>
+      metadata: Record<string, string | number | boolean | undefined>
     }>()
 
     for (const match of queryResponse.matches) {
-      const metadata = match.metadata as any
-      const docId = metadata.doc_id
+      const metadata = match.metadata as PineconeDocMetadata
+      const docId = metadata.doc_id || match.id
 
       if (!documentMap.has(docId)) {
         documentMap.set(docId, {
@@ -103,7 +114,7 @@ export async function POST(
       })
       .map(doc => ({
         name: doc.doc_name,
-        doc_type: (doc.doc_type as any) || 'other',
+        doc_type: doc.doc_type as 'complaint' | 'answer' | 'motion' | 'brief' | 'discovery' | 'deposition' | 'exhibit' | 'order' | 'judgment' | 'other' || 'other',
         content_text: doc.content_chunks.join('\n\n'),
         metadata: {
           filed_by: doc.filed_by,

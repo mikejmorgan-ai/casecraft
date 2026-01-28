@@ -17,15 +17,143 @@ interface TurnResult {
   reasoning: string
 }
 
-interface TurboResult {
-  total_turns: number
-  plaintiff_score: number
-  defendant_score: number
-  win_probability: number
-  critical_evidence: { doc: string; status: string; impact: string }[]
-  vulnerabilities: string[]
-  path_to_100: string[]
-  turns: TurnResult[]
+interface SimulationResponse {
+  turns?: TurnResult[]
+  plaintiff_final_score?: number
+  defendant_final_score?: number
+  vulnerabilities?: string[]
+  path_to_100?: string[]
+}
+
+interface CaseData {
+  id: string
+  name: string
+  case_number?: string | null
+  case_type?: string | null
+  jurisdiction?: string | null
+  summary?: string | null
+  plaintiff_name?: string | null
+  defendant_name?: string | null
+  case_facts?: { fact_text: string }[]
+}
+
+/**
+ * Build dynamic evidence queries based on case type and available data
+ */
+function buildEvidenceQueries(caseData: CaseData): string[] {
+  const queries: string[] = []
+  const caseType = caseData.case_type || 'civil'
+
+  // Generic queries that apply to all case types
+  queries.push('key evidence supporting plaintiff claims')
+  queries.push('key evidence supporting defendant position')
+  queries.push('expert witness testimony declarations')
+  queries.push('discovery responses document production')
+
+  // Add case-type specific queries
+  switch (caseType) {
+    case 'property':
+      queries.push('property rights ownership chain of title')
+      queries.push('zoning ordinance land use regulations')
+      queries.push('survey records property boundaries')
+      queries.push('permits licenses governmental approval')
+      break
+    case 'contract':
+      queries.push('contract terms conditions agreement')
+      queries.push('breach of contract damages evidence')
+      queries.push('performance obligations delivery')
+      queries.push('communications negotiations correspondence')
+      break
+    case 'tort':
+      queries.push('negligence duty of care breach')
+      queries.push('causation damages injuries')
+      queries.push('liability insurance coverage')
+      queries.push('medical records expert opinions')
+      break
+    case 'criminal':
+      queries.push('evidence chain of custody')
+      queries.push('witness statements testimony')
+      queries.push('police reports investigation')
+      queries.push('alibi defense evidence')
+      break
+    case 'family':
+      queries.push('custody best interests child')
+      queries.push('financial records income assets')
+      queries.push('parenting agreements visitation')
+      queries.push('domestic relations support')
+      break
+    case 'constitutional':
+      queries.push('constitutional rights violations')
+      queries.push('statutory interpretation precedent')
+      queries.push('governmental action authority')
+      queries.push('civil liberties due process')
+      break
+    case 'administrative':
+      queries.push('agency decision administrative record')
+      queries.push('regulatory compliance violations')
+      queries.push('permit denial appeal')
+      queries.push('procedural requirements notice')
+      break
+    default:
+      // Civil and other types
+      queries.push('liability damages evidence')
+      queries.push('statutory requirements compliance')
+      queries.push('precedent case law authority')
+      queries.push('procedural motions rulings')
+  }
+
+  // Add queries based on party names if available
+  if (caseData.plaintiff_name) {
+    queries.push(`${caseData.plaintiff_name} claims evidence`)
+  }
+  if (caseData.defendant_name) {
+    queries.push(`${caseData.defendant_name} defense evidence`)
+  }
+
+  return queries
+}
+
+/**
+ * Build case summary from database fields
+ */
+function buildCaseSummary(caseData: CaseData): string {
+  // If summary exists, use it
+  if (caseData.summary) {
+    return caseData.summary
+  }
+
+  // Build summary from available fields
+  const parts: string[] = []
+
+  // Party names
+  if (caseData.plaintiff_name && caseData.defendant_name) {
+    parts.push(`This case involves ${caseData.plaintiff_name} (plaintiff) against ${caseData.defendant_name} (defendant).`)
+  } else if (caseData.plaintiff_name) {
+    parts.push(`The plaintiff in this case is ${caseData.plaintiff_name}.`)
+  } else if (caseData.defendant_name) {
+    parts.push(`The defendant in this case is ${caseData.defendant_name}.`)
+  }
+
+  // Case type and jurisdiction
+  if (caseData.case_type && caseData.jurisdiction) {
+    parts.push(`This is a ${caseData.case_type} case in ${caseData.jurisdiction}.`)
+  } else if (caseData.case_type) {
+    parts.push(`This is a ${caseData.case_type} case.`)
+  } else if (caseData.jurisdiction) {
+    parts.push(`This case is in ${caseData.jurisdiction}.`)
+  }
+
+  // If we have case facts, summarize the key disputed and undisputed facts
+  if (caseData.case_facts && caseData.case_facts.length > 0) {
+    const factCount = caseData.case_facts.length
+    parts.push(`The case involves ${factCount} documented fact${factCount > 1 ? 's' : ''}.`)
+  }
+
+  if (parts.length === 0) {
+    return 'Analyze the evidence and case facts to determine the strength of each party\'s position.'
+  }
+
+  return parts.join(' ')
 }
 
 export async function POST(
@@ -52,17 +180,8 @@ export async function POST(
       return NextResponse.json({ error: 'Case not found' }, { status: 404 })
     }
 
-    // Pull key evidence from Pinecone
-    const evidenceQueries = [
-      'vested mining rights proof continuous operations',
-      'chain of title ownership transfer successor',
-      'mining permits DOGM reclamation records',
-      'Ordinance 1895 mining prohibition validity',
-      'abandonment of mining operations evidence',
-      'expert witness Hilberg mining history testimony',
-      'Salt Lake County discovery responses deficiencies',
-      'Utah Code 17-41-501 statutory interpretation',
-    ]
+    // Build dynamic evidence queries based on case data
+    const evidenceQueries = buildEvidenceQueries(caseData)
 
     const allEvidence: { query: string; docs: { source: string; content: string; score: number }[] }[] = []
     let totalDocsFound = 0
@@ -95,11 +214,14 @@ export async function POST(
       `\n### ${e.query}\n${e.docs.map(d => `- [${d.source}] (${(d.score * 100).toFixed(0)}%): ${d.content.substring(0, 200)}...`).join('\n')}`
     ).join('\n')
 
-    // Have Judge Stormont simulate the trial with turns
-    const simulationPrompt = `You are Judge Charles A. Stormont presiding over Tree Farm LLC v. Salt Lake County (Case #220902840).
+    // Build case summary from database fields
+    const caseSummary = buildCaseSummary(caseData)
+
+    // Have the judge simulate the trial with turns
+    const simulationPrompt = `You are presiding as judge over ${caseData.name}${caseData.case_number ? ` (Case #${caseData.case_number})` : ''}.
 
 CASE SUMMARY:
-Tree Farm LLC claims vested mining rights on property in the Oquirrh Mountains based on continuous mining operations since 1903. Salt Lake County enacted Ordinance 1895 prohibiting mining. Tree Farm seeks declaratory judgment that their vested rights supersede the ordinance under Utah Code 17-41-501.
+${caseSummary}
 
 EVIDENCE FROM CASE FILES:
 ${evidenceSummary}
@@ -116,17 +238,17 @@ Return ONLY valid JSON in this exact format:
     {
       "turn": 1,
       "party": "plaintiff",
-      "action": "Moves to admit Hilberg affidavit on mining history",
-      "evidence_cited": "2024.06.21_Am_Complaint_Pet_for_Judicial_Review.pdf",
+      "action": "Moves to admit key evidence",
+      "evidence_cited": "document_name.pdf",
       "judge_ruling": "admitted",
       "impact": "favorable",
-      "reasoning": "Relevant to establishing continuous mining operations"
+      "reasoning": "Relevant to the central claims in this case"
     }
   ],
   "plaintiff_final_score": 83,
   "defendant_final_score": 17,
-  "vulnerabilities": ["Chain of title gaps in 1970s", "Limited production records"],
-  "path_to_100": ["Obtain county recorder deed showing unbroken ownership", "DOGM permit records confirming active status"]
+  "vulnerabilities": ["Weakness 1", "Weakness 2"],
+  "path_to_100": ["Action to strengthen case 1", "Action to strengthen case 2"]
 }
 
 Be realistic. Use actual document names from the evidence. Score must total 100.`
@@ -141,11 +263,11 @@ Be realistic. Use actual document names from the evidence. Score must total 100.
     const aiResponse = response.choices[0]?.message?.content || '{}'
 
     // Parse JSON from response
-    let parsed: any
+    let parsed: SimulationResponse
     try {
       // Extract JSON from response (handle markdown code blocks)
       const jsonMatch = aiResponse.match(/\{[\s\S]*\}/)
-      parsed = jsonMatch ? JSON.parse(jsonMatch[0]) : { turns: [], plaintiff_final_score: 50, defendant_final_score: 50 }
+      parsed = jsonMatch ? JSON.parse(jsonMatch[0]) as SimulationResponse : { turns: [], plaintiff_final_score: 50, defendant_final_score: 50 }
     } catch {
       parsed = { turns: [], plaintiff_final_score: 50, defendant_final_score: 50, vulnerabilities: [], path_to_100: [] }
     }

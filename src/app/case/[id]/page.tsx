@@ -2,9 +2,8 @@ import { createServerSupabase } from '@/lib/supabase/server'
 import { redirect, notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
 import { ArrowLeft, Users, FileText, MessageSquare, Scale, ClipboardList, Gavel } from 'lucide-react'
 import { AgentsList } from '@/components/agents/agents-list'
 import { DocumentsList } from '@/components/documents/documents-list'
@@ -175,9 +174,7 @@ export default async function CaseDetailPage({
 
               <div className="md:col-span-2">
                 <CaseStrengthMeter
-                  caseId={id}
                   facts={caseData.case_facts || []}
-                  caseName={caseData.name}
                   plaintiffName={caseData.plaintiff_name}
                   defendantName={caseData.defendant_name}
                 />

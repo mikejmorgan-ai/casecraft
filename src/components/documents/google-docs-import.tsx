@@ -184,7 +184,7 @@ export function GoogleDocsImport({ caseId, onImportComplete }: GoogleDocsImportP
               </p>
             )}
             <p className="text-xs text-muted-foreground">
-              Document must be shared with "anyone with the link" or be publicly viewable
+              Document must be shared with &quot;anyone with the link&quot; or be publicly viewable
             </p>
           </div>
 
