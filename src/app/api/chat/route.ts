@@ -6,6 +6,8 @@ import { searchByRole, formatResultsForContext } from '@/lib/pinecone/search'
 import { openai } from '@ai-sdk/openai'
 import { streamText, createUIMessageStream, createUIMessageStreamResponse } from 'ai'
 import type { AgentRole } from '@/lib/types'
+import { applyRateLimit } from '@/lib/rate-limit'
+import { enforceUsageLimit } from '@/lib/usage/limits'
 
 // All cases use Pinecone for RAG (39K+ Tree Farm documents indexed)
 const USE_PINECONE = true
@@ -13,6 +15,10 @@ const USE_PINECONE = true
 export const maxDuration = 60
 
 export async function POST(request: NextRequest) {
+  // Apply rate limiting (AI operations: 10 req/min)
+  const rateLimitResponse = await applyRateLimit(request, 'ai')
+  if (rateLimitResponse) return rateLimitResponse
+
   try {
     const supabase = await createServerSupabase()
     const serviceSupabase = createServiceSupabase()
@@ -21,6 +27,10 @@ export async function POST(request: NextRequest) {
     if (!user) {
       return new Response('Unauthorized', { status: 401 })
     }
+
+    // Enforce usage limits
+    const usageLimitResponse = await enforceUsageLimit(user.id, 'chat_messages')
+    if (usageLimitResponse) return usageLimitResponse
 
     const {
       messages: rawMessages,

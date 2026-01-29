@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createServerSupabase } from '@/lib/supabase/server'
 import { searchAll } from '@/lib/pinecone/search'
 import OpenAI from 'openai'
+import { applyRateLimit } from '@/lib/rate-limit'
+import { enforceUsageLimit } from '@/lib/usage/limits'
 
 const openai = new OpenAI()
 
@@ -160,6 +162,10 @@ export async function POST(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
 ) {
+  // Apply rate limiting (AI operations: 10 req/min)
+  const rateLimitResponse = await applyRateLimit(request, 'ai')
+  if (rateLimitResponse) return rateLimitResponse
+
   try {
     const { id: caseId } = await params
     const supabase = await createServerSupabase()
@@ -168,6 +174,10 @@ export async function POST(
     if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
+
+    // Enforce usage limits for simulations
+    const usageLimitResponse = await enforceUsageLimit(user.id, 'turbo_simulations')
+    if (usageLimitResponse) return usageLimitResponse
 
     // Get case data
     const { data: caseData } = await supabase

@@ -10,6 +10,8 @@ import {
   buildHearingPrompt,
 } from '@/lib/hearing/orchestrator'
 import type { AgentRole } from '@/lib/types'
+import { applyRateLimit } from '@/lib/rate-limit'
+import { enforceUsageLimit } from '@/lib/usage/limits'
 
 export const maxDuration = 300 // 5 minutes for full hearing
 
@@ -23,6 +25,10 @@ interface HearingTurn {
 }
 
 export async function POST(request: NextRequest) {
+  // Apply rate limiting (AI operations: 10 req/min)
+  const rateLimitResponse = await applyRateLimit(request, 'ai')
+  if (rateLimitResponse) return rateLimitResponse
+
   try {
     const supabase = await createServerSupabase()
     const { data: { user } } = await supabase.auth.getUser()
@@ -30,6 +36,10 @@ export async function POST(request: NextRequest) {
     if (!user) {
       return new Response('Unauthorized', { status: 401 })
     }
+
+    // Enforce usage limits for hearings
+    const usageLimitResponse = await enforceUsageLimit(user.id, 'hearings')
+    if (usageLimitResponse) return usageLimitResponse
 
     const {
       case_id,
