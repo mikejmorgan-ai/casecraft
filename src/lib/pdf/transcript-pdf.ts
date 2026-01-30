@@ -342,8 +342,8 @@ export function generateTranscriptPDF(options: TranscriptPDFOptions): void {
 
   // Generate filename and download
   const sanitizedCaseName = caseName.replace(/[^a-zA-Z0-9]/g, '_').slice(0, 30)
-  const dateSlug = now.toISOString().split('T')[0]
-  const filename = `transcript_${sanitizedCaseName}_${dateSlug}.pdf`
+  const timestampSlug = now.toISOString().replace(/[:.]/g, '-')
+  const filename = `transcript_${sanitizedCaseName}_${timestampSlug}.pdf`
 
   doc.save(filename)
 }

@@ -13,6 +13,8 @@ export interface KeyboardShortcut {
   category: 'navigation' | 'chat' | 'hearing' | 'global'
   /** If true, the shortcut will work even when typing in an input */
   allowInInput?: boolean
+  /** If true, allows shift key to be pressed even when not explicitly required */
+  allowShift?: boolean
 }
 
 interface UseKeyboardShortcutsOptions {
@@ -90,7 +92,7 @@ export function useKeyboardShortcuts({
 
       // Check shift key
       if (shortcut.shiftKey && !e.shiftKey) continue
-      if (!shortcut.shiftKey && e.shiftKey && shortcutKey !== '?') continue
+      if (!shortcut.shiftKey && !shortcut.allowShift && e.shiftKey) continue
 
       // Check alt key
       if (shortcut.altKey && !e.altKey) continue

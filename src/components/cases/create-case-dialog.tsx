@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useMemo } from 'react'
 import { useRouter } from 'next/navigation'
 import { toast } from 'sonner'
 import { Button } from '@/components/ui/button'
@@ -237,6 +237,34 @@ export function CreateCaseDialog() {
     return shouldShowError(field) ? 'border-red-500 focus-visible:ring-red-500' : ''
   }
 
+  // Memoized field handlers to prevent unnecessary re-renders
+  const fieldHandlers = useMemo(() => ({
+    name: {
+      onChange: (e: React.ChangeEvent<HTMLInputElement>) => updateField('name', e.target.value),
+      onBlur: () => handleBlur('name'),
+    },
+    case_number: {
+      onChange: (e: React.ChangeEvent<HTMLInputElement>) => updateField('case_number', e.target.value),
+      onBlur: () => handleBlur('case_number'),
+    },
+    jurisdiction: {
+      onChange: (e: React.ChangeEvent<HTMLInputElement>) => updateField('jurisdiction', e.target.value),
+      onBlur: () => handleBlur('jurisdiction'),
+    },
+    plaintiff_name: {
+      onChange: (e: React.ChangeEvent<HTMLInputElement>) => updateField('plaintiff_name', e.target.value),
+      onBlur: () => handleBlur('plaintiff_name'),
+    },
+    defendant_name: {
+      onChange: (e: React.ChangeEvent<HTMLInputElement>) => updateField('defendant_name', e.target.value),
+      onBlur: () => handleBlur('defendant_name'),
+    },
+    summary: {
+      onChange: (e: React.ChangeEvent<HTMLTextAreaElement>) => updateField('summary', e.target.value),
+      onBlur: () => handleBlur('summary'),
+    },
+  }), [updateField, handleBlur])
+
   return (
     <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogTrigger asChild>
@@ -261,8 +289,8 @@ export function CreateCaseDialog() {
                 id="input-case-name"
                 placeholder="e.g., Smith v. Jones"
                 value={formData.name}
-                onChange={(e) => updateField('name', e.target.value)}
-                onBlur={() => handleBlur('name')}
+                onChange={fieldHandlers.name.onChange}
+                onBlur={fieldHandlers.name.onBlur}
                 aria-invalid={shouldShowError('name')}
                 aria-describedby={shouldShowError('name') ? 'name-error' : undefined}
                 className={`h-11 sm:h-10 ${getErrorInputClass('name')}`}
@@ -301,8 +329,8 @@ export function CreateCaseDialog() {
                   id="input-case-number"
                   placeholder="e.g., 2024-CV-00123"
                   value={formData.case_number || ''}
-                  onChange={(e) => updateField('case_number', e.target.value)}
-                  onBlur={() => handleBlur('case_number')}
+                  onChange={fieldHandlers.case_number.onChange}
+                  onBlur={fieldHandlers.case_number.onBlur}
                   aria-invalid={shouldShowError('case_number')}
                   aria-describedby={shouldShowError('case_number') ? 'case-number-error' : undefined}
                   className={`h-11 sm:h-10 ${getErrorInputClass('case_number')}`}
@@ -319,8 +347,8 @@ export function CreateCaseDialog() {
                 id="input-jurisdiction"
                 placeholder="e.g., Federal - Northern District of California"
                 value={formData.jurisdiction || ''}
-                onChange={(e) => updateField('jurisdiction', e.target.value)}
-                onBlur={() => handleBlur('jurisdiction')}
+                onChange={fieldHandlers.jurisdiction.onChange}
+                onBlur={fieldHandlers.jurisdiction.onBlur}
                 aria-invalid={shouldShowError('jurisdiction')}
                 className={`h-11 sm:h-10 ${getErrorInputClass('jurisdiction')}`}
               />
@@ -336,8 +364,8 @@ export function CreateCaseDialog() {
                   id="input-plaintiff"
                   placeholder="Plaintiff name"
                   value={formData.plaintiff_name || ''}
-                  onChange={(e) => updateField('plaintiff_name', e.target.value)}
-                  onBlur={() => handleBlur('plaintiff_name')}
+                  onChange={fieldHandlers.plaintiff_name.onChange}
+                  onBlur={fieldHandlers.plaintiff_name.onBlur}
                   aria-invalid={shouldShowError('plaintiff_name')}
                   className={`h-11 sm:h-10 ${getErrorInputClass('plaintiff_name')}`}
                 />
@@ -352,8 +380,8 @@ export function CreateCaseDialog() {
                   id="input-defendant"
                   placeholder="Defendant name"
                   value={formData.defendant_name || ''}
-                  onChange={(e) => updateField('defendant_name', e.target.value)}
-                  onBlur={() => handleBlur('defendant_name')}
+                  onChange={fieldHandlers.defendant_name.onChange}
+                  onBlur={fieldHandlers.defendant_name.onBlur}
                   aria-invalid={shouldShowError('defendant_name')}
                   className={`h-11 sm:h-10 ${getErrorInputClass('defendant_name')}`}
                 />
@@ -374,8 +402,8 @@ export function CreateCaseDialog() {
                 id="input-summary"
                 placeholder="Brief description of the case..."
                 value={formData.summary || ''}
-                onChange={(e) => updateField('summary', e.target.value)}
-                onBlur={() => handleBlur('summary')}
+                onChange={fieldHandlers.summary.onChange}
+                onBlur={fieldHandlers.summary.onBlur}
                 rows={3}
                 aria-invalid={shouldShowError('summary')}
                 aria-describedby={shouldShowError('summary') ? 'summary-error' : undefined}

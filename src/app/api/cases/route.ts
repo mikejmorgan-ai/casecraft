@@ -26,7 +26,7 @@ const createCaseSchema = z.object({
     .nullable()
     .transform(val => val || undefined),
   summary: z.string()
-    .max(5000, 'Summary must be less than 5000 characters')
+    .max(1000, 'Summary must be less than 1000 characters')
     .optional()
     .nullable()
     .transform(val => val || undefined),

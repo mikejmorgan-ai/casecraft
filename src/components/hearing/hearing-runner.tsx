@@ -83,7 +83,7 @@ export function HearingRunner({
     }
   }, [transcript])
 
-  const playAudio = async (text: string, agentRole: AgentRole): Promise<void> => {
+  const playAudio = useCallback(async (text: string, agentRole: AgentRole): Promise<void> => {
     if (!voiceEnabled) return
 
     try {
@@ -118,9 +118,9 @@ export function HearingRunner({
     } catch (err) {
       console.error('Audio playback error:', err)
     }
-  }
+  }, [voiceEnabled])
 
-  const startHearing = async () => {
+  const startHearing = useCallback(async () => {
     setIsRunning(true)
     setTranscript([])
     abortRef.current = new AbortController()
@@ -177,9 +177,9 @@ export function HearingRunner({
       setIsRunning(false)
       setCurrentSpeaker(null)
     }
-  }
+  }, [caseId, conversationId, hearingType, playAudio])
 
-  const stopHearing = () => {
+  const stopHearing = useCallback(() => {
     if (abortRef.current) {
       abortRef.current.abort()
     }
@@ -188,7 +188,7 @@ export function HearingRunner({
     }
     setIsRunning(false)
     setCurrentSpeaker(null)
-  }
+  }, [])
 
   const downloadTranscript = () => {
     if (transcript.length === 0) return
@@ -240,7 +240,7 @@ export function HearingRunner({
     URL.revokeObjectURL(url)
   }
 
-  const downloadPDF = () => {
+  const downloadPDF = useCallback(() => {
     if (transcript.length === 0) return
 
     generateTranscriptPDF({
@@ -252,7 +252,7 @@ export function HearingRunner({
       plaintiffName,
       defendantName,
     })
-  }
+  }, [transcript, caseName, caseNumber, hearingType, jurisdiction, plaintiffName, defendantName])
 
   // Toggle hearing start/stop
   const toggleHearing = useCallback(() => {
@@ -261,7 +261,7 @@ export function HearingRunner({
     } else {
       startHearing()
     }
-  }, [isRunning])
+  }, [isRunning, stopHearing, startHearing])
 
   // Toggle mute
   const toggleMute = useCallback(() => {

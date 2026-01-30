@@ -60,7 +60,18 @@ jest.mock('@/lib/supabase/server', () => ({
 }))
 
 // Mock fetch for API calls
-global.fetch = jest.fn()
+global.fetch = jest.fn().mockImplementation(() =>
+  Promise.resolve({
+    ok: true,
+    status: 200,
+    statusText: 'OK',
+    json: async () => ({}),
+    text: async () => '',
+    blob: async () => new Blob(),
+    arrayBuffer: async () => new ArrayBuffer(0),
+    headers: new Headers(),
+  } as Response)
+)
 
 // Mock window.matchMedia
 Object.defineProperty(window, 'matchMedia', {
