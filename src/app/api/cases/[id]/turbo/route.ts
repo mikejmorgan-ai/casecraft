@@ -140,12 +140,21 @@ Be realistic. Use actual document names from the evidence. Score must total 100.
 
     const aiResponse = response.choices[0]?.message?.content || '{}'
 
+    // Define response interface
+    interface SimulationResponse {
+      turns: TurnResult[]
+      plaintiff_final_score: number
+      defendant_final_score: number
+      vulnerabilities: string[]
+      path_to_100: string[]
+    }
+
     // Parse JSON from response
-    let parsed: any
+    let parsed: SimulationResponse
     try {
       // Extract JSON from response (handle markdown code blocks)
       const jsonMatch = aiResponse.match(/\{[\s\S]*\}/)
-      parsed = jsonMatch ? JSON.parse(jsonMatch[0]) : { turns: [], plaintiff_final_score: 50, defendant_final_score: 50 }
+      parsed = jsonMatch ? JSON.parse(jsonMatch[0]) : { turns: [], plaintiff_final_score: 50, defendant_final_score: 50, vulnerabilities: [], path_to_100: [] }
     } catch {
       parsed = { turns: [], plaintiff_final_score: 50, defendant_final_score: 50, vulnerabilities: [], path_to_100: [] }
     }

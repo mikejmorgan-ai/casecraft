@@ -1,6 +1,7 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { CreateCaseDialog } from '@/components/cases/create-case-dialog'
+import { toast } from 'sonner'
 
 // Mock the fetch function
 const mockPush = jest.fn()
@@ -20,6 +21,8 @@ jest.mock('sonner', () => ({
     error: jest.fn(),
   },
 }))
+
+const mockedToast = jest.mocked(toast)
 
 // Mock the API error handler
 jest.mock('@/lib/api-error', () => ({
@@ -180,7 +183,6 @@ describe('CreateCaseDialog', () => {
 
   it('handles API error gracefully', async () => {
     const user = userEvent.setup()
-    const { toast } = require('sonner')
 
     ;(global.fetch as jest.Mock).mockResolvedValueOnce({
       ok: false,
@@ -200,7 +202,7 @@ describe('CreateCaseDialog', () => {
 
     // Should show error toast
     await waitFor(() => {
-      expect(toast.error).toHaveBeenCalled()
+      expect(mockedToast.error).toHaveBeenCalled()
     })
   })
 
@@ -292,7 +294,6 @@ describe('CreateCaseDialog', () => {
 
   it('displays toast on successful case creation', async () => {
     const user = userEvent.setup()
-    const { toast } = require('sonner')
 
     ;(global.fetch as jest.Mock).mockResolvedValueOnce({
       ok: true,
@@ -306,7 +307,7 @@ describe('CreateCaseDialog', () => {
     await user.click(screen.getByRole('button', { name: /create case/i }))
 
     await waitFor(() => {
-      expect(toast.success).toHaveBeenCalledWith(
+      expect(mockedToast.success).toHaveBeenCalledWith(
         'Case created successfully',
         expect.objectContaining({
           description: expect.stringContaining('New Test Case'),
