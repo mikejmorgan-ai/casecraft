@@ -462,9 +462,8 @@ export function generateCaseReportPDF(options: CaseReportPDFOptions): void {
 
   // Generate filename and download
   const sanitizedCaseName = caseData.name.replace(/[^a-zA-Z0-9]/g, '_').slice(0, 30)
-  const dateSlug = now.toISOString().split('T')[0]
-  const timeSlug = now.toISOString().split('T')[1].replace(/[:.Z]/g, '').slice(0, 6)
-  const filename = `case_report_${sanitizedCaseName}_${dateSlug}_${timeSlug}.pdf`
+  const timestampSlug = now.toISOString().replace(/[:.]/g, '-')
+  const filename = `case_report_${sanitizedCaseName}_${timestampSlug}.pdf`
 
   doc.save(filename)
 }
