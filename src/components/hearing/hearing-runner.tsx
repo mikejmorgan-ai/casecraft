@@ -1,14 +1,16 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, useMemo, useCallback } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Badge } from '@/components/ui/badge'
 import { Avatar, AvatarFallback } from '@/components/ui/avatar'
-import { Play, Square, Volume2, VolumeX, Loader2, Gavel, Scale, Shield, FileText, User, GraduationCap, Handshake, Download, BookOpen, Archive, Mountain } from 'lucide-react'
+import { Play, Square, Volume2, VolumeX, Loader2, Gavel, Scale, Shield, FileText, User, GraduationCap, Handshake, Download, BookOpen, Archive, Mountain, FileDown } from 'lucide-react'
 import type { Agent, AgentRole } from '@/lib/types'
+import { useKeyboardShortcuts, type KeyboardShortcut } from '@/lib/hooks/use-keyboard-shortcuts'
+import { generateTranscriptPDF } from '@/lib/pdf/transcript-pdf'
 
 const ROLE_ICONS: Record<AgentRole, React.ElementType> = {
   judge: Gavel,
@@ -49,9 +51,23 @@ interface HearingRunnerProps {
   caseId: string
   conversationId: string
   agents: Agent[]
+  caseName?: string
+  caseNumber?: string
+  jurisdiction?: string
+  plaintiffName?: string
+  defendantName?: string
 }
 
-export function HearingRunner({ caseId, conversationId, agents }: HearingRunnerProps) {
+export function HearingRunner({
+  caseId,
+  conversationId,
+  agents,
+  caseName = 'Mock Legal Case',
+  caseNumber,
+  jurisdiction,
+  plaintiffName,
+  defendantName,
+}: HearingRunnerProps) {
   const [hearingType, setHearingType] = useState('motion_hearing')
   const [isRunning, setIsRunning] = useState(false)
   const [voiceEnabled, setVoiceEnabled] = useState(true)
@@ -224,6 +240,72 @@ export function HearingRunner({ caseId, conversationId, agents }: HearingRunnerP
     URL.revokeObjectURL(url)
   }
 
+  const downloadPDF = () => {
+    if (transcript.length === 0) return
+
+    generateTranscriptPDF({
+      caseName,
+      caseNumber,
+      hearingType,
+      transcript,
+      jurisdiction,
+      plaintiffName,
+      defendantName,
+    })
+  }
+
+  // Toggle hearing start/stop
+  const toggleHearing = useCallback(() => {
+    if (isRunning) {
+      stopHearing()
+    } else {
+      startHearing()
+    }
+  }, [isRunning])
+
+  // Toggle mute
+  const toggleMute = useCallback(() => {
+    setVoiceEnabled(prev => !prev)
+  }, [])
+
+  // Keyboard shortcuts for hearing
+  const hearingShortcuts: KeyboardShortcut[] = useMemo(() => [
+    {
+      key: ' ',
+      action: toggleHearing,
+      description: 'Start/Stop hearing',
+      category: 'hearing',
+    },
+    {
+      key: 'm',
+      action: toggleMute,
+      description: 'Toggle mute',
+      category: 'hearing',
+    },
+    {
+      key: 'd',
+      action: () => {
+        if (transcript.length > 0 && !isRunning) {
+          downloadTranscript()
+        }
+      },
+      description: 'Download transcript',
+      category: 'hearing',
+    },
+    {
+      key: 'p',
+      action: () => {
+        if (transcript.length > 0 && !isRunning) {
+          downloadPDF()
+        }
+      },
+      description: 'Download PDF',
+      category: 'hearing',
+    },
+  ], [toggleHearing, toggleMute, transcript.length, isRunning, downloadPDF])
+
+  useKeyboardShortcuts({ shortcuts: hearingShortcuts })
+
   if (agents.length < 2) {
     return (
       <Card>
@@ -238,17 +320,17 @@ export function HearingRunner({ caseId, conversationId, agents }: HearingRunnerP
   }
 
   return (
-    <Card id="hearing-runner-container" className="h-[calc(100vh-200px)] flex flex-col">
-      <CardHeader id="hearing-controls" className="flex-shrink-0 border-b">
-        <div className="flex items-center justify-between">
-          <CardTitle className="flex items-center gap-2">
+    <Card id="hearing-runner-container" className="h-[calc(100vh-280px)] sm:h-[calc(100vh-200px)] flex flex-col">
+      <CardHeader id="hearing-controls" className="flex-shrink-0 border-b p-3 sm:p-6">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <CardTitle className="flex items-center gap-2 text-base sm:text-lg">
             <Gavel className="h-5 w-5" />
             Mock Hearing
           </CardTitle>
 
-          <div className="flex items-center gap-3">
+          <div className="flex flex-wrap items-center gap-2 sm:gap-3">
             <Select value={hearingType} onValueChange={setHearingType} disabled={isRunning}>
-              <SelectTrigger id="select-hearing-type" className="w-48">
+              <SelectTrigger id="select-hearing-type" className="w-full sm:w-48 h-11 sm:h-10">
                 <SelectValue />
               </SelectTrigger>
               <SelectContent>
@@ -259,32 +341,42 @@ export function HearingRunner({ caseId, conversationId, agents }: HearingRunnerP
               </SelectContent>
             </Select>
 
-            <Button
-              id="btn-toggle-voice"
-              variant="outline"
-              size="icon"
-              onClick={() => setVoiceEnabled(!voiceEnabled)}
-            >
-              {voiceEnabled ? <Volume2 className="h-4 w-4" /> : <VolumeX className="h-4 w-4" />}
-            </Button>
+            <div className="flex items-center gap-2 w-full sm:w-auto">
+              <Button
+                id="btn-toggle-voice"
+                variant="outline"
+                size="icon"
+                onClick={() => setVoiceEnabled(!voiceEnabled)}
+                title={`${voiceEnabled ? 'Mute' : 'Unmute'} (M)`}
+                className="h-11 w-11 sm:h-10 sm:w-10"
+              >
+                {voiceEnabled ? <Volume2 className="h-4 w-4" /> : <VolumeX className="h-4 w-4" />}
+              </Button>
 
-            {isRunning ? (
-              <Button id="btn-stop-hearing" variant="destructive" onClick={stopHearing}>
-                <Square className="h-4 w-4 mr-2" />
-                Stop
-              </Button>
-            ) : (
-              <Button id="btn-start-hearing" onClick={startHearing}>
-                <Play className="h-4 w-4 mr-2" />
-                Start Hearing
-              </Button>
-            )}
+              {isRunning ? (
+                <Button id="btn-stop-hearing" variant="destructive" onClick={stopHearing} title="Stop hearing (Space)" className="flex-1 sm:flex-none h-11 sm:h-10">
+                  <Square className="h-4 w-4 mr-2" />
+                  Stop
+                </Button>
+              ) : (
+                <Button id="btn-start-hearing" onClick={startHearing} title="Start hearing (Space)" className="flex-1 sm:flex-none h-11 sm:h-10">
+                  <Play className="h-4 w-4 mr-2" />
+                  <span className="hidden xs:inline">Start </span>Hearing
+                </Button>
+              )}
+            </div>
 
             {transcript.length > 0 && !isRunning && (
-              <Button id="btn-download-transcript" variant="outline" onClick={downloadTranscript}>
-                <Download className="h-4 w-4 mr-2" />
-                Download Transcript
-              </Button>
+              <div className="flex items-center gap-2 w-full sm:w-auto">
+                <Button id="btn-download-transcript" variant="outline" onClick={downloadTranscript} title="Download transcript (D)" className="flex-1 sm:flex-none h-11 sm:h-10">
+                  <Download className="h-4 w-4 sm:mr-2" />
+                  <span className="hidden sm:inline">Transcript</span>
+                </Button>
+                <Button id="btn-download-pdf" variant="outline" onClick={downloadPDF} title="Download PDF (P)" className="flex-1 sm:flex-none h-11 sm:h-10">
+                  <FileDown className="h-4 w-4 sm:mr-2" />
+                  <span className="hidden sm:inline">PDF</span>
+                </Button>
+              </div>
             )}
           </div>
         </div>
@@ -299,7 +391,7 @@ export function HearingRunner({ caseId, conversationId, agents }: HearingRunnerP
         )}
       </CardHeader>
 
-      <ScrollArea id="hearing-transcript" className="flex-1 p-4" ref={scrollRef}>
+      <ScrollArea id="hearing-transcript" className="flex-1 p-3 sm:p-4" ref={scrollRef}>
         <div className="space-y-4">
           {transcript.length === 0 && !isRunning && (
             <div className="text-center py-12 text-muted-foreground">
@@ -316,23 +408,23 @@ export function HearingRunner({ caseId, conversationId, agents }: HearingRunnerP
             const bgColor = ROLE_COLORS[turn.role] || 'bg-gray-600'
 
             return (
-              <div key={i} id={`hearing-turn-${i}`} className="flex gap-3">
-                <Avatar className={bgColor}>
+              <div key={i} id={`hearing-turn-${i}`} className="flex gap-2 sm:gap-3">
+                <Avatar className={`${bgColor} h-8 w-8 sm:h-10 sm:w-10 shrink-0`}>
                   <AvatarFallback className="text-white">
-                    <Icon className="h-4 w-4" />
+                    <Icon className="h-3 w-3 sm:h-4 sm:w-4" />
                   </AvatarFallback>
                 </Avatar>
 
-                <div className="flex-1">
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="font-medium text-sm">{turn.agentName}</span>
-                    <Badge variant="outline" className="text-xs">
+                <div className="flex-1 min-w-0">
+                  <div className="flex flex-wrap items-center gap-1 sm:gap-2 mb-1">
+                    <span className="font-medium text-xs sm:text-sm">{turn.agentName}</span>
+                    <Badge variant="outline" className="text-[10px] sm:text-xs">
                       {turn.phase.replace('_', ' ')}
                     </Badge>
                   </div>
                   <Card className="bg-white">
-                    <CardContent className="p-3">
-                      <p className="text-sm whitespace-pre-wrap">{turn.content}</p>
+                    <CardContent className="p-2 sm:p-3">
+                      <p className="text-xs sm:text-sm whitespace-pre-wrap">{turn.content}</p>
                     </CardContent>
                   </Card>
                 </div>

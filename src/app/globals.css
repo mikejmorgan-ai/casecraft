@@ -145,3 +145,53 @@
   font-family: Georgia, 'Times New Roman', serif;
   font-weight: 700;
 }
+
+/* Mobile-friendly utilities */
+
+/* Hide scrollbar but maintain functionality */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Extra-small breakpoint utilities (for phones < 480px) */
+@media (min-width: 480px) {
+  .xs\:inline {
+    display: inline !important;
+  }
+  .xs\:hidden {
+    display: none !important;
+  }
+}
+
+/* Mobile touch-friendly sizing */
+@media (max-width: 639px) {
+  /* Ensure minimum touch target sizes on mobile */
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Better tap highlighting */
+  button,
+  [role="button"],
+  a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Improve readability on mobile */
+@media (max-width: 639px) {
+  .prose {
+    font-size: 0.9375rem;
+    line-height: 1.6;
+  }
+
+  .prose p {
+    margin-bottom: 0.75rem;
+  }
+}

@@ -3,6 +3,8 @@ import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import { Scale, LayoutDashboard, LogOut } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { KeyboardShortcutsHelp } from '@/components/keyboard-shortcuts-help'
+import { GlobalKeyboardShortcuts } from '@/components/global-keyboard-shortcuts'
 
 export default async function DashboardLayout({
   children,
@@ -55,6 +57,10 @@ export default async function DashboardLayout({
 
       {/* Main Content */}
       <main id="dashboard-main">{children}</main>
+
+      {/* Keyboard Shortcuts */}
+      <KeyboardShortcutsHelp />
+      <GlobalKeyboardShortcuts />
     </div>
   )
 }

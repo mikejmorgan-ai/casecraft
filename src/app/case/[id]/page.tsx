@@ -17,7 +17,8 @@ import { HearingRunner } from '@/components/hearing/hearing-runner'
 import { CaseStrengthMeter } from '@/components/cases/case-strength-meter'
 import { TurboSimulator } from '@/components/cases/turbo-simulator'
 import { CaseActions } from '@/components/cases/case-actions'
-import type { CaseStatus, CaseType } from '@/lib/types'
+import { ExportCaseButton } from '@/components/cases/export-case-button'
+import type { CaseStatus, CaseType, Case, Agent, Document, CaseFact } from '@/lib/types'
 
 const STATUS_COLORS: Record<CaseStatus, string> = {
   draft: 'bg-gray-100 text-gray-800',
@@ -67,72 +68,82 @@ export default async function CaseDetailPage({
   return (
     <div id="case-detail-page-container" className="min-h-screen bg-[var(--color-legal-cream)]">
       {/* Header */}
-      <header id="case-detail-header" className="bg-primary text-primary-foreground py-6">
-        <div className="container mx-auto px-6">
-          <Link href="/dashboard" className="inline-flex items-center text-sm text-gray-300 hover:text-white mb-4">
+      <header id="case-detail-header" className="bg-primary text-primary-foreground py-4 sm:py-6">
+        <div className="container mx-auto px-4 sm:px-6">
+          <Link href="/dashboard" className="inline-flex items-center text-sm text-gray-300 hover:text-white mb-3 sm:mb-4">
             <ArrowLeft className="h-4 w-4 mr-1" />
             Back to Dashboard
           </Link>
 
-          <div className="flex items-start justify-between">
-            <div>
-              <div className="flex items-center gap-3 mb-2">
-                <h1 className="text-2xl font-serif font-bold">{caseData.name}</h1>
-                <Badge className={STATUS_COLORS[caseData.status as CaseStatus]}>
+          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
+            <div className="min-w-0 flex-1">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 mb-2">
+                <h1 className="text-xl sm:text-2xl font-serif font-bold truncate">{caseData.name}</h1>
+                <Badge className={`${STATUS_COLORS[caseData.status as CaseStatus]} shrink-0 w-fit`}>
                   {caseData.status}
                 </Badge>
               </div>
 
-              <div className="flex items-center gap-4 text-gray-300 text-sm">
+              <div className="flex flex-wrap items-center gap-2 sm:gap-4 text-gray-300 text-xs sm:text-sm">
                 {caseData.case_number && <span>{caseData.case_number}</span>}
                 <span>{TYPE_LABELS[caseData.case_type as CaseType]}</span>
-                {caseData.jurisdiction && <span>{caseData.jurisdiction}</span>}
+                {caseData.jurisdiction && <span className="hidden sm:inline">{caseData.jurisdiction}</span>}
               </div>
 
               {caseData.plaintiff_name && caseData.defendant_name && (
-                <p className="text-secondary mt-2">
+                <p className="text-secondary mt-2 text-sm sm:text-base truncate">
                   {caseData.plaintiff_name} v. {caseData.defendant_name}
                 </p>
               )}
             </div>
-            <CaseActions caseId={id} caseName={caseData.name} />
+            <div className="flex items-center gap-2 shrink-0">
+              <ExportCaseButton
+                caseId={id}
+                caseData={caseData as Case}
+                agents={caseData.agents as Agent[]}
+                documents={caseData.documents as Document[]}
+                facts={caseData.case_facts as CaseFact[]}
+              />
+              <CaseActions caseId={id} caseName={caseData.name} />
+            </div>
           </div>
         </div>
       </header>
 
       {/* Content */}
-      <main id="case-detail-content" className="container mx-auto px-6 py-8">
-        <Tabs defaultValue="overview" className="space-y-6">
-          <TabsList id="case-detail-tabs" className="bg-white border">
-            <TabsTrigger value="overview" className="flex items-center gap-2">
-              <Scale className="h-4 w-4" />
-              Overview
+      <main id="case-detail-content" className="container mx-auto px-4 sm:px-6 py-4 sm:py-8">
+        <Tabs defaultValue="overview" className="space-y-4 sm:space-y-6">
+          <TabsList id="case-detail-tabs" className="bg-white border w-full overflow-x-auto flex justify-start sm:justify-center no-scrollbar">
+            <TabsTrigger value="overview" className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm px-2 sm:px-3 shrink-0">
+              <Scale className="h-3 w-3 sm:h-4 sm:w-4" />
+              <span className="hidden xs:inline">Overview</span>
+              <span className="xs:hidden">Info</span>
             </TabsTrigger>
-            <TabsTrigger value="agents" className="flex items-center gap-2">
-              <Users className="h-4 w-4" />
-              Agents ({caseData.agents?.length || 0})
+            <TabsTrigger value="agents" className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm px-2 sm:px-3 shrink-0">
+              <Users className="h-3 w-3 sm:h-4 sm:w-4" />
+              <span className="hidden sm:inline">Agents</span> ({caseData.agents?.length || 0})
             </TabsTrigger>
-            <TabsTrigger value="documents" className="flex items-center gap-2">
-              <FileText className="h-4 w-4" />
-              Documents ({caseData.documents?.length || 0})
+            <TabsTrigger value="documents" className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm px-2 sm:px-3 shrink-0">
+              <FileText className="h-3 w-3 sm:h-4 sm:w-4" />
+              <span className="hidden sm:inline">Docs</span> ({caseData.documents?.length || 0})
             </TabsTrigger>
-            <TabsTrigger value="facts" className="flex items-center gap-2">
-              <ClipboardList className="h-4 w-4" />
-              Facts ({caseData.case_facts?.length || 0})
+            <TabsTrigger value="facts" className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm px-2 sm:px-3 shrink-0">
+              <ClipboardList className="h-3 w-3 sm:h-4 sm:w-4" />
+              <span className="hidden sm:inline">Facts</span> ({caseData.case_facts?.length || 0})
             </TabsTrigger>
-            <TabsTrigger value="conversations" className="flex items-center gap-2">
-              <MessageSquare className="h-4 w-4" />
-              Conversations ({caseData.conversations?.length || 0})
+            <TabsTrigger value="conversations" className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm px-2 sm:px-3 shrink-0">
+              <MessageSquare className="h-3 w-3 sm:h-4 sm:w-4" />
+              <span className="hidden sm:inline">Chat</span> ({caseData.conversations?.length || 0})
             </TabsTrigger>
-            <TabsTrigger value="hearing" className="flex items-center gap-2">
-              <Gavel className="h-4 w-4" />
-              Mock Hearing
+            <TabsTrigger value="hearing" className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm px-2 sm:px-3 shrink-0">
+              <Gavel className="h-3 w-3 sm:h-4 sm:w-4" />
+              <span className="hidden sm:inline">Hearing</span>
             </TabsTrigger>
           </TabsList>
 
           {/* Overview Tab */}
           <TabsContent value="overview">
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
               <Card id="case-overview-summary">
                 <CardHeader>
                   <CardTitle>Case Summary</CardTitle>
@@ -164,11 +175,11 @@ export default async function CaseDetailPage({
                   <CardTitle>Quick Stats</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="grid grid-cols-4 gap-4 text-center">
-                    <StatBox label="Agents" value={caseData.agents?.length || 0} icon={<Users className="h-5 w-5" />} />
-                    <StatBox label="Documents" value={caseData.documents?.length || 0} icon={<FileText className="h-5 w-5" />} />
-                    <StatBox label="Facts" value={caseData.case_facts?.length || 0} icon={<ClipboardList className="h-5 w-5" />} />
-                    <StatBox label="Conversations" value={caseData.conversations?.length || 0} icon={<MessageSquare className="h-5 w-5" />} />
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 text-center">
+                    <StatBox label="Agents" value={caseData.agents?.length || 0} icon={<Users className="h-4 w-4 sm:h-5 sm:w-5" />} />
+                    <StatBox label="Documents" value={caseData.documents?.length || 0} icon={<FileText className="h-4 w-4 sm:h-5 sm:w-5" />} />
+                    <StatBox label="Facts" value={caseData.case_facts?.length || 0} icon={<ClipboardList className="h-4 w-4 sm:h-5 sm:w-5" />} />
+                    <StatBox label="Conversations" value={caseData.conversations?.length || 0} icon={<MessageSquare className="h-4 w-4 sm:h-5 sm:w-5" />} />
                   </div>
                 </CardContent>
               </Card>
@@ -234,6 +245,11 @@ export default async function CaseDetailPage({
               caseId={id}
               conversationId={caseData.conversations?.[0]?.id || ''}
               agents={caseData.agents?.filter((a: { is_active: boolean }) => a.is_active) || []}
+              caseName={caseData.name}
+              caseNumber={caseData.case_number}
+              jurisdiction={caseData.jurisdiction}
+              plaintiffName={caseData.plaintiff_name}
+              defendantName={caseData.defendant_name}
             />
           </TabsContent>
         </Tabs>
@@ -253,10 +269,10 @@ function DetailRow({ label, value }: { label: string; value: string }) {
 
 function StatBox({ label, value, icon }: { label: string; value: number; icon: React.ReactNode }) {
   return (
-    <div className="p-4 bg-primary/5 rounded-lg">
-      <div className="flex justify-center text-primary mb-2">{icon}</div>
-      <p className="text-2xl font-bold text-primary">{value}</p>
-      <p className="text-sm text-muted-foreground">{label}</p>
+    <div className="p-3 sm:p-4 bg-primary/5 rounded-lg">
+      <div className="flex justify-center text-primary mb-1 sm:mb-2">{icon}</div>
+      <p className="text-xl sm:text-2xl font-bold text-primary">{value}</p>
+      <p className="text-xs sm:text-sm text-muted-foreground">{label}</p>
     </div>
   )
 }

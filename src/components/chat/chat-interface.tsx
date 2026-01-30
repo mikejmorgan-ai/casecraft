@@ -1,6 +1,6 @@
 'use client'
 
-import { useRef, useEffect, useState, useMemo } from 'react'
+import { useRef, useEffect, useState, useMemo, useCallback } from 'react'
 import { useChat } from '@ai-sdk/react'
 import { DefaultChatTransport } from 'ai'
 import { Card, CardContent } from '@/components/ui/card'
@@ -12,6 +12,7 @@ import { ScrollArea } from '@/components/ui/scroll-area'
 import { Send, User, Gavel, Scale, Shield, FileText, GraduationCap, Handshake, Loader2, BookOpen, Archive, Mountain } from 'lucide-react'
 import ReactMarkdown from 'react-markdown'
 import type { Agent, AgentRole, Message as StoredMessage } from '@/lib/types'
+import { useKeyboardShortcuts, type KeyboardShortcut } from '@/lib/hooks/use-keyboard-shortcuts'
 
 const ROLE_ICONS: Record<AgentRole, React.ElementType> = {
   judge: Gavel,
@@ -65,6 +66,7 @@ export function ChatInterface({
   initialMessages,
 }: ChatInterfaceProps) {
   const messagesEndRef = useRef<HTMLDivElement>(null)
+  const textareaRef = useRef<HTMLTextAreaElement>(null)
   const [selectedAgentId, setSelectedAgentId] = useState(agents[0]?.id || '')
   const [inputValue, setInputValue] = useState('')
 
@@ -105,6 +107,36 @@ export function ChatInterface({
     await sendMessage({ text })
   }
 
+  // Clear input handler
+  const clearInput = useCallback(() => {
+    setInputValue('')
+  }, [])
+
+  // Focus input handler
+  const focusInput = useCallback(() => {
+    textareaRef.current?.focus()
+  }, [])
+
+  // Keyboard shortcuts for chat
+  const chatShortcuts: KeyboardShortcut[] = useMemo(() => [
+    {
+      key: 'Escape',
+      action: clearInput,
+      description: 'Clear input',
+      category: 'chat',
+      allowInInput: true,
+    },
+    {
+      key: '/',
+      ctrlKey: true,
+      action: focusInput,
+      description: 'Focus message input',
+      category: 'chat',
+    },
+  ], [clearInput, focusInput])
+
+  useKeyboardShortcuts({ shortcuts: chatShortcuts })
+
   if (agents.length === 0) {
     return (
       <Card className="h-[600px] flex items-center justify-center">
@@ -122,16 +154,16 @@ export function ChatInterface({
   const selectedAgent = agents.find(a => a.id === selectedAgentId)
 
   return (
-    <Card id="chat-interface-container" className="h-[calc(100vh-200px)] flex flex-col">
+    <Card id="chat-interface-container" className="h-[calc(100vh-280px)] sm:h-[calc(100vh-200px)] flex flex-col">
       {/* Agent Selector */}
-      <div id="chat-agent-selector" className="p-4 border-b bg-white flex-shrink-0">
-        <div className="flex items-center gap-4">
+      <div id="chat-agent-selector" className="p-3 sm:p-4 border-b bg-white flex-shrink-0">
+        <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
           <span className="text-sm font-medium">Responding Agent:</span>
           <Select
             value={selectedAgentId}
             onValueChange={setSelectedAgentId}
           >
-            <SelectTrigger id="select-responding-agent" className="w-64">
+            <SelectTrigger id="select-responding-agent" className="w-full sm:w-64 h-11 sm:h-10">
               <SelectValue placeholder="Select agent" />
             </SelectTrigger>
             <SelectContent>
@@ -152,7 +184,7 @@ export function ChatInterface({
       </div>
 
       {/* Messages */}
-      <ScrollArea id="chat-messages-container" className="flex-1 p-4">
+      <ScrollArea id="chat-messages-container" className="flex-1 p-3 sm:p-4">
         <div className="space-y-4">
           {messages.length === 0 && (
             <div className="text-center py-12 text-muted-foreground">
@@ -186,7 +218,7 @@ export function ChatInterface({
                   </AvatarFallback>
                 </Avatar>
 
-                <div className={`max-w-[70%] ${isUser ? 'text-right' : ''}`}>
+                <div className={`max-w-[85%] sm:max-w-[70%] ${isUser ? 'text-right' : ''}`}>
                   {!isUser && agent && (
                     <p className="text-xs font-medium text-primary mb-1">
                       {agent.name}
@@ -240,18 +272,24 @@ export function ChatInterface({
       <form
         id="chat-input-form"
         onSubmit={handleSubmit}
-        className="p-4 border-t bg-white flex-shrink-0"
+        className="p-3 sm:p-4 border-t bg-white flex-shrink-0"
       >
         <div className="flex gap-2">
           <Textarea
+            ref={textareaRef}
             id="chat-message-input"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
             placeholder="Type your message..."
             disabled={isLoading}
-            className="min-h-[60px] max-h-[120px] resize-none"
+            className="min-h-[50px] sm:min-h-[60px] max-h-[100px] sm:max-h-[120px] resize-none text-base sm:text-sm"
             onKeyDown={(e) => {
+              // Send on Enter or Ctrl/Cmd + Enter
               if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault()
+                handleSubmit(e)
+              }
+              if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
                 e.preventDefault()
                 handleSubmit(e)
               }
@@ -261,7 +299,8 @@ export function ChatInterface({
             id="btn-send-message"
             type="submit"
             disabled={isLoading || !inputValue.trim()}
-            className="h-auto"
+            className="h-auto min-w-[44px] sm:min-w-[40px]"
+            title="Send message (Enter or Ctrl+Enter)"
           >
             {isLoading ? (
               <Loader2 className="h-4 w-4 animate-spin" />
@@ -270,8 +309,8 @@ export function ChatInterface({
             )}
           </Button>
         </div>
-        <p className="text-xs text-muted-foreground mt-2">
-          Press Enter to send, Shift+Enter for new line
+        <p className="text-xs text-muted-foreground mt-2 hidden sm:block">
+          Press Enter to send, Shift+Enter for new line, Escape to clear, Ctrl+/ to focus
         </p>
       </form>
     </Card>
