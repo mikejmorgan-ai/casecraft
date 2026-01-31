@@ -72,18 +72,18 @@ export default async function DashboardPage() {
   }
 
   return (
-    <div id="dashboard-page-container" className="container mx-auto px-6 py-8">
+    <div id="dashboard-page-container" className="container mx-auto px-4 sm:px-6 py-6 sm:py-8">
       {/* Header */}
-      <div id="dashboard-header" className="flex items-center justify-between mb-8">
+      <div id="dashboard-header" className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
         <div>
-          <h1 className="text-3xl font-serif font-bold text-primary">Dashboard</h1>
-          <p className="text-muted-foreground">Manage your legal simulations</p>
+          <h1 className="text-2xl sm:text-3xl font-serif font-bold text-primary">Dashboard</h1>
+          <p className="text-sm sm:text-base text-muted-foreground">Manage your legal simulations</p>
         </div>
         <CreateCaseDialog />
       </div>
 
       {/* Stats */}
-      <div id="dashboard-stats" className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+      <div id="dashboard-stats" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-8">
         <StatCard
           icon={<Briefcase className="h-5 w-5" />}
           label="Total Cases"
@@ -160,39 +160,39 @@ function CaseCard({ caseData }: { caseData: CaseWithCounts }) {
   return (
     <Link href={`/case/${caseData.id}`}>
       <Card id={`case-card-${caseData.id}`} className="hover:shadow-md transition-shadow cursor-pointer">
-        <CardHeader className="pb-2">
-          <div className="flex items-start justify-between">
-            <div>
-              <CardTitle className="text-lg">{caseData.name}</CardTitle>
-              <CardDescription>
+        <CardHeader className="pb-2 p-4 sm:p-6 sm:pb-2">
+          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
+            <div className="min-w-0 flex-1">
+              <CardTitle className="text-base sm:text-lg truncate">{caseData.name}</CardTitle>
+              <CardDescription className="text-xs sm:text-sm">
                 {caseData.case_number && <span>{caseData.case_number} &bull; </span>}
                 {TYPE_LABELS[caseData.case_type]}
-                {caseData.jurisdiction && <span> &bull; {caseData.jurisdiction}</span>}
+                {caseData.jurisdiction && <span className="hidden sm:inline"> &bull; {caseData.jurisdiction}</span>}
               </CardDescription>
             </div>
-            <Badge className={STATUS_COLORS[caseData.status]}>
+            <Badge className={`${STATUS_COLORS[caseData.status]} shrink-0`}>
               {caseData.status}
             </Badge>
           </div>
         </CardHeader>
-        <CardContent>
+        <CardContent className="p-4 sm:p-6 pt-0 sm:pt-0">
           {caseData.plaintiff_name && caseData.defendant_name && (
-            <p className="text-sm text-muted-foreground mb-3">
+            <p className="text-xs sm:text-sm text-muted-foreground mb-3 truncate">
               {caseData.plaintiff_name} v. {caseData.defendant_name}
             </p>
           )}
 
-          <div className="flex gap-6 text-sm text-muted-foreground">
+          <div className="flex flex-wrap gap-3 sm:gap-6 text-xs sm:text-sm text-muted-foreground">
             <span className="flex items-center gap-1">
-              <Users className="h-4 w-4" />
+              <Users className="h-3 w-3 sm:h-4 sm:w-4" />
               {agentCount} agents
             </span>
             <span className="flex items-center gap-1">
-              <FileText className="h-4 w-4" />
+              <FileText className="h-3 w-3 sm:h-4 sm:w-4" />
               {docCount} documents
             </span>
             <span className="flex items-center gap-1">
-              <MessageSquare className="h-4 w-4" />
+              <MessageSquare className="h-3 w-3 sm:h-4 sm:w-4" />
               {convCount} conversations
             </span>
           </div>
