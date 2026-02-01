@@ -40,6 +40,30 @@ const createCaseSchema = z.object({
     .optional()
     .nullable()
     .transform(val => val || undefined),
+  // Blind test fields
+  status: z.enum(['draft', 'active', 'closed', 'archived'])
+    .optional()
+    .default('draft'),
+  is_blind_test: z.boolean()
+    .optional()
+    .default(false),
+  actual_ruling: z.string()
+    .max(100, 'Ruling must be less than 100 characters')
+    .optional()
+    .nullable()
+    .transform(val => val || undefined),
+  actual_ruling_date: z.string()
+    .optional()
+    .nullable()
+    .transform(val => val || undefined),
+  actual_ruling_summary: z.string()
+    .max(5000, 'Ruling summary must be less than 5000 characters')
+    .optional()
+    .nullable()
+    .transform(val => val || undefined),
+  ruling_revealed: z.boolean()
+    .optional()
+    .default(false),
 })
 
 /**

@@ -18,6 +18,8 @@ import { CaseStrengthMeter } from '@/components/cases/case-strength-meter'
 import { TurboSimulator } from '@/components/cases/turbo-simulator'
 import { CaseActions } from '@/components/cases/case-actions'
 import { ExportCaseButton } from '@/components/cases/export-case-button'
+import { BlindPrediction } from '@/components/predictions/blind-prediction'
+import { Target } from 'lucide-react'
 import type { CaseStatus, CaseType, Case, Agent, Document, CaseFact } from '@/lib/types'
 
 const STATUS_COLORS: Record<CaseStatus, string> = {
@@ -139,6 +141,10 @@ export default async function CaseDetailPage({
               <Gavel className="h-3 w-3 sm:h-4 sm:w-4" />
               <span className="hidden sm:inline">Hearing</span>
             </TabsTrigger>
+            <TabsTrigger value="predict" className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm px-2 sm:px-3 shrink-0">
+              <Target className="h-3 w-3 sm:h-4 sm:w-4" />
+              <span className="hidden sm:inline">Predict</span>
+            </TabsTrigger>
           </TabsList>
 
           {/* Overview Tab */}
@@ -251,6 +257,33 @@ export default async function CaseDetailPage({
               plaintiffName={caseData.plaintiff_name}
               defendantName={caseData.defendant_name}
             />
+          </TabsContent>
+
+          {/* Predict Tab */}
+          <TabsContent value="predict">
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Target className="h-5 w-5" />
+                  Case Outcome Prediction
+                </CardTitle>
+                <CardDescription>
+                  {caseData.is_blind_test 
+                    ? 'Generate a prediction and compare against the actual ruling'
+                    : 'Use AI to predict the likely outcome based on case documents and facts'}
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <BlindPrediction
+                  caseId={id}
+                  caseName={caseData.name}
+                  isBlindTest={caseData.is_blind_test || false}
+                  rulingRevealed={caseData.ruling_revealed || false}
+                  actualRuling={caseData.actual_ruling}
+                  actualRulingSummary={caseData.actual_ruling_summary}
+                />
+              </CardContent>
+            </Card>
           </TabsContent>
         </Tabs>
       </main>
