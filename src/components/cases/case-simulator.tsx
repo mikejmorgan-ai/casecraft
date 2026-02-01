@@ -193,7 +193,7 @@ export function CaseSimulator({ caseId, caseName }: CaseSimulatorProps) {
                 <div className="flex items-start gap-3">
                   <Lightbulb className="h-6 w-6 text-blue-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-blue-900 mb-2">Judge Stormont's Strategic Assessment</h4>
+                    <h4 className="font-semibold text-blue-900 mb-2">Judge Stormont&apos;s Strategic Assessment</h4>
                     <p className="text-blue-800">{result.strategic_advice}</p>
                   </div>
                 </div>
