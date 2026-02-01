@@ -2,50 +2,22 @@ import { createServerSupabase } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { Plus, Briefcase, FileText, Users, MessageSquare } from 'lucide-react'
-import { CreateCaseDialog } from '@/components/cases/create-case-dialog'
-import type { CaseStatus, CaseType } from '@/lib/types'
-
-// Type for case with aggregate counts
-interface CaseWithCounts {
-  id: string
-  user_id: string
-  name: string
-  case_number: string | null
-  case_type: CaseType
-  jurisdiction: string | null
-  status: CaseStatus
-  summary: string | null
-  plaintiff_name: string | null
-  defendant_name: string | null
-  filed_date: string | null
-  metadata: Record<string, unknown>
-  created_at: string
-  updated_at: string
-  agents: { count: number }[]
-  documents: { count: number }[]
-  conversations: { count: number }[]
-}
-
-const STATUS_COLORS: Record<CaseStatus, string> = {
-  draft: 'bg-gray-100 text-gray-800',
-  active: 'bg-green-100 text-green-800',
-  closed: 'bg-blue-100 text-blue-800',
-  archived: 'bg-gray-100 text-gray-500',
-}
-
-const TYPE_LABELS: Record<CaseType, string> = {
-  civil: 'Civil',
-  criminal: 'Criminal',
-  family: 'Family',
-  contract: 'Contract',
-  tort: 'Tort',
-  property: 'Property',
-  constitutional: 'Constitutional',
-  administrative: 'Administrative',
-}
+import { Badge } from '@/components/ui/badge'
+import {
+  Briefcase,
+  FileText,
+  Target,
+  Play,
+  AlertTriangle,
+  Plus,
+  ArrowRight,
+  Upload,
+  Clock,
+  CheckCircle,
+  Scale,
+  TrendingUp,
+} from 'lucide-react'
 
 export default async function DashboardPage() {
   const supabase = await createServerSupabase()
@@ -53,98 +25,305 @@ export default async function DashboardPage() {
   const { data: { user } } = await supabase.auth.getUser()
   if (!user) redirect('/login')
 
-  const { data } = await supabase
-    .from('cases')
-    .select(`
-      *,
-      agents(count),
-      documents(count),
-      conversations(count)
-    `)
-    .order('updated_at', { ascending: false })
+  // Fetch dashboard data
+  const [casesResult, predictionsResult, documentsResult] = await Promise.all([
+    supabase
+      .from('cases')
+      .select('*, case_predictions(count)')
+      .order('updated_at', { ascending: false })
+      .limit(5),
+    supabase
+      .from('case_predictions')
+      .select('*, cases(name)')
+      .order('created_at', { ascending: false })
+      .limit(5),
+    supabase
+      .from('documents')
+      .select('count')
+      .single(),
+  ])
 
-  const cases = data as CaseWithCounts[] | null
+  const cases = casesResult.data || []
+  const predictions = predictionsResult.data || []
+  const totalDocs = documentsResult.data?.count || 0
 
-  const caseStats = {
-    total: cases?.length || 0,
-    active: cases?.filter(c => c.status === 'active').length || 0,
-    draft: cases?.filter(c => c.status === 'draft').length || 0,
-  }
+  // Calculate stats
+  const totalCases = cases.length
+  const blindTests = cases.filter((c: { is_blind_test: boolean }) => c.is_blind_test).length
+  const avgAccuracy = predictions.length > 0
+    ? Math.round(predictions.reduce((acc: number, p: { accuracy_score: number | null }) => acc + (p.accuracy_score || 0), 0) / predictions.filter((p: { accuracy_score: number | null }) => p.accuracy_score !== null).length) || 0
+    : 0
 
   return (
-    <div id="dashboard-page-container" className="container mx-auto px-4 sm:px-6 py-6 sm:py-8">
+    <div className="p-6 lg:p-8 space-y-8">
       {/* Header */}
-      <div id="dashboard-header" className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-serif font-bold text-primary">Dashboard</h1>
-          <p className="text-sm sm:text-base text-muted-foreground">Manage your legal simulations</p>
+          <h1 className="text-3xl font-bold">Dashboard</h1>
+          <p className="text-muted-foreground mt-1">
+            Welcome back. Here&apos;s your litigation intelligence overview.
+          </p>
         </div>
-        <CreateCaseDialog />
+        <div className="flex gap-3">
+          <Link href="/import-test">
+            <Button variant="outline" className="gap-2">
+              <Upload className="h-4 w-4" />
+              Import Test Case
+            </Button>
+          </Link>
+          <Link href="/dashboard/cases">
+            <Button className="gap-2">
+              <Plus className="h-4 w-4" />
+              New Case
+            </Button>
+          </Link>
+        </div>
       </div>
 
-      {/* Stats */}
-      <div id="dashboard-stats" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-8">
+      {/* Stats Grid */}
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         <StatCard
+          title="Total Cases"
+          value={totalCases}
           icon={<Briefcase className="h-5 w-5" />}
-          label="Total Cases"
-          value={caseStats.total}
+          trend="+2 this week"
+          color="primary"
         />
         <StatCard
-          icon={<Briefcase className="h-5 w-5 text-green-600" />}
-          label="Active Cases"
-          value={caseStats.active}
+          title="Documents"
+          value={totalDocs}
+          icon={<FileText className="h-5 w-5" />}
+          trend="39,457 vectors"
+          color="accent"
         />
         <StatCard
-          icon={<Briefcase className="h-5 w-5 text-gray-400" />}
-          label="Draft Cases"
-          value={caseStats.draft}
+          title="Blind Tests"
+          value={blindTests}
+          icon={<Target className="h-5 w-5" />}
+          trend="Predictions ready"
+          color="secondary"
+        />
+        <StatCard
+          title="Avg Accuracy"
+          value={`${avgAccuracy}%`}
+          icon={<TrendingUp className="h-5 w-5" />}
+          trend={avgAccuracy >= 80 ? 'Excellent' : avgAccuracy >= 60 ? 'Good' : 'Needs data'}
+          color={avgAccuracy >= 80 ? 'success' : avgAccuracy >= 60 ? 'warning' : 'muted'}
         />
       </div>
 
-      {/* Cases List */}
-      <section id="dashboard-cases-section">
-        <h2 className="text-xl font-semibold text-primary mb-4">Your Cases</h2>
+      {/* Quick Actions */}
+      <div className="grid md:grid-cols-3 gap-4">
+        <QuickActionCard
+          title="Run Prediction"
+          description="Analyze case documents and predict outcomes"
+          icon={<Target className="h-6 w-6" />}
+          href="/dashboard/predictions"
+          color="primary"
+        />
+        <QuickActionCard
+          title="Start Simulation"
+          description="Mock trial with AI attorneys and judge"
+          icon={<Play className="h-6 w-6" />}
+          href="/dashboard/simulations"
+          color="accent"
+        />
+        <QuickActionCard
+          title="Find Weaknesses"
+          description="Identify gaps and strategic fixes"
+          icon={<AlertTriangle className="h-6 w-6" />}
+          href="/dashboard/weaknesses"
+          color="destructive"
+        />
+      </div>
 
-        {cases && cases.length > 0 ? (
-          <div className="grid gap-4">
-            {cases.map((caseItem) => (
-              <CaseCard key={caseItem.id} caseData={caseItem} />
-            ))}
+      {/* Two Column Layout */}
+      <div className="grid lg:grid-cols-2 gap-6">
+        {/* Recent Cases */}
+        <Card>
+          <CardHeader className="flex flex-row items-center justify-between pb-2">
+            <div>
+              <CardTitle className="text-lg">Recent Cases</CardTitle>
+              <CardDescription>Your active litigation matters</CardDescription>
+            </div>
+            <Link href="/dashboard/cases">
+              <Button variant="ghost" size="sm" className="gap-1">
+                View All <ArrowRight className="h-4 w-4" />
+              </Button>
+            </Link>
+          </CardHeader>
+          <CardContent className="space-y-3">
+            {cases.length === 0 ? (
+              <div className="text-center py-8 text-muted-foreground">
+                <Scale className="h-12 w-12 mx-auto mb-3 opacity-50" />
+                <p>No cases yet</p>
+                <Link href="/dashboard/cases">
+                  <Button variant="link" className="mt-2">Create your first case</Button>
+                </Link>
+              </div>
+            ) : (
+              cases.map((c: {
+                id: string
+                name: string
+                status: string
+                case_type: string
+                is_blind_test?: boolean
+                updated_at: string
+              }) => (
+                <Link key={c.id} href={`/case/${c.id}`}>
+                  <div className="flex items-center justify-between p-3 rounded-lg hover:bg-muted/50 transition-colors cursor-pointer group">
+                    <div className="flex items-center gap-3 min-w-0">
+                      <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                        <Briefcase className="h-5 w-5 text-primary" />
+                      </div>
+                      <div className="min-w-0">
+                        <p className="font-medium truncate group-hover:text-primary transition-colors">
+                          {c.name}
+                        </p>
+                        <p className="text-xs text-muted-foreground">
+                          {c.case_type} • {new Date(c.updated_at).toLocaleDateString()}
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-2 shrink-0">
+                      {c.is_blind_test && (
+                        <Badge variant="outline" className="text-xs">Blind Test</Badge>
+                      )}
+                      <Badge variant={c.status === 'active' ? 'default' : 'secondary'} className="text-xs">
+                        {c.status}
+                      </Badge>
+                    </div>
+                  </div>
+                </Link>
+              ))
+            )}
+          </CardContent>
+        </Card>
+
+        {/* Recent Predictions */}
+        <Card>
+          <CardHeader className="flex flex-row items-center justify-between pb-2">
+            <div>
+              <CardTitle className="text-lg">Recent Predictions</CardTitle>
+              <CardDescription>AI outcome analysis results</CardDescription>
+            </div>
+            <Link href="/dashboard/predictions">
+              <Button variant="ghost" size="sm" className="gap-1">
+                View All <ArrowRight className="h-4 w-4" />
+              </Button>
+            </Link>
+          </CardHeader>
+          <CardContent className="space-y-3">
+            {predictions.length === 0 ? (
+              <div className="text-center py-8 text-muted-foreground">
+                <Target className="h-12 w-12 mx-auto mb-3 opacity-50" />
+                <p>No predictions yet</p>
+                <Link href="/dashboard/predictions">
+                  <Button variant="link" className="mt-2">Run your first prediction</Button>
+                </Link>
+              </div>
+            ) : (
+              predictions.map((p: {
+                id: string
+                predicted_outcome: string
+                confidence_score: number
+                is_correct: boolean | null
+                accuracy_score: number | null
+                created_at: string
+                cases: { name: string } | null
+              }) => (
+                <div key={p.id} className="flex items-center justify-between p-3 rounded-lg hover:bg-muted/50 transition-colors">
+                  <div className="flex items-center gap-3 min-w-0">
+                    <div className={`h-10 w-10 rounded-lg flex items-center justify-center shrink-0 ${
+                      p.is_correct === true ? 'bg-green-500/10' :
+                      p.is_correct === false ? 'bg-red-500/10' :
+                      'bg-primary/10'
+                    }`}>
+                      {p.is_correct === true ? (
+                        <CheckCircle className="h-5 w-5 text-green-500" />
+                      ) : p.is_correct === false ? (
+                        <AlertTriangle className="h-5 w-5 text-red-500" />
+                      ) : (
+                        <Target className="h-5 w-5 text-primary" />
+                      )}
+                    </div>
+                    <div className="min-w-0">
+                      <p className="font-medium truncate">
+                        {p.cases?.name || 'Unknown Case'}
+                      </p>
+                      <p className="text-xs text-muted-foreground">
+                        {p.predicted_outcome} • {p.confidence_score}% confidence
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2 shrink-0">
+                    {p.accuracy_score !== null && (
+                      <Badge variant={p.accuracy_score >= 80 ? 'default' : 'secondary'} className="text-xs">
+                        {p.accuracy_score}% accurate
+                      </Badge>
+                    )}
+                    <span className="text-xs text-muted-foreground">
+                      {new Date(p.created_at).toLocaleDateString()}
+                    </span>
+                  </div>
+                </div>
+              ))
+            )}
+          </CardContent>
+        </Card>
+      </div>
+
+      {/* Keyboard Shortcuts */}
+      <Card className="bg-muted/30">
+        <CardContent className="py-4">
+          <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
+            <span className="flex items-center gap-2">
+              <kbd className="px-2 py-1 rounded bg-background border text-xs font-mono">⌘K</kbd>
+              Quick Search
+            </span>
+            <span className="flex items-center gap-2">
+              <kbd className="px-2 py-1 rounded bg-background border text-xs font-mono">⌘N</kbd>
+              New Case
+            </span>
+            <span className="flex items-center gap-2">
+              <kbd className="px-2 py-1 rounded bg-background border text-xs font-mono">⌘P</kbd>
+              Run Prediction
+            </span>
+            <span className="flex items-center gap-2">
+              <kbd className="px-2 py-1 rounded bg-background border text-xs font-mono">⌘/</kbd>
+              Shortcuts Help
+            </span>
           </div>
-        ) : (
-          <Card id="dashboard-empty-state" className="text-center py-12">
-            <CardContent>
-              <Briefcase className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
-              <h3 className="text-lg font-semibold mb-2">No cases yet</h3>
-              <p className="text-muted-foreground mb-4">
-                Create your first case to start simulating legal proceedings.
-              </p>
-              <CreateCaseDialog />
-            </CardContent>
-          </Card>
-        )}
-      </section>
+        </CardContent>
+      </Card>
     </div>
   )
 }
 
 function StatCard({
-  icon,
-  label,
+  title,
   value,
+  icon,
+  trend,
+  color,
 }: {
+  title: string
+  value: string | number
   icon: React.ReactNode
-  label: string
-  value: number
+  trend: string
+  color: string
 }) {
   return (
     <Card>
       <CardContent className="pt-6">
-        <div className="flex items-center gap-4">
-          <div className="p-2 bg-primary/10 rounded-lg">{icon}</div>
+        <div className="flex items-center justify-between">
           <div>
-            <p className="text-2xl font-bold text-primary">{value}</p>
-            <p className="text-sm text-muted-foreground">{label}</p>
+            <p className="text-sm text-muted-foreground">{title}</p>
+            <p className="text-2xl font-bold mt-1">{value}</p>
+            <p className="text-xs text-muted-foreground mt-1">{trend}</p>
+          </div>
+          <div className={`h-12 w-12 rounded-lg flex items-center justify-center bg-${color}/10 text-${color}`}>
+            {icon}
           </div>
         </div>
       </CardContent>
@@ -152,50 +331,28 @@ function StatCard({
   )
 }
 
-function CaseCard({ caseData }: { caseData: CaseWithCounts }) {
-  const agentCount = caseData.agents?.[0]?.count || 0
-  const docCount = caseData.documents?.[0]?.count || 0
-  const convCount = caseData.conversations?.[0]?.count || 0
-
+function QuickActionCard({
+  title,
+  description,
+  icon,
+  href,
+  color,
+}: {
+  title: string
+  description: string
+  icon: React.ReactNode
+  href: string
+  color: string
+}) {
   return (
-    <Link href={`/case/${caseData.id}`}>
-      <Card id={`case-card-${caseData.id}`} className="hover:shadow-md transition-shadow cursor-pointer">
-        <CardHeader className="pb-2 p-4 sm:p-6 sm:pb-2">
-          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
-            <div className="min-w-0 flex-1">
-              <CardTitle className="text-base sm:text-lg truncate">{caseData.name}</CardTitle>
-              <CardDescription className="text-xs sm:text-sm">
-                {caseData.case_number && <span>{caseData.case_number} &bull; </span>}
-                {TYPE_LABELS[caseData.case_type]}
-                {caseData.jurisdiction && <span className="hidden sm:inline"> &bull; {caseData.jurisdiction}</span>}
-              </CardDescription>
-            </div>
-            <Badge className={`${STATUS_COLORS[caseData.status]} shrink-0`}>
-              {caseData.status}
-            </Badge>
+    <Link href={href}>
+      <Card className="hover:border-primary/50 transition-colors cursor-pointer group h-full">
+        <CardContent className="pt-6">
+          <div className={`h-12 w-12 rounded-lg flex items-center justify-center bg-${color}/10 text-${color} mb-4 group-hover:scale-110 transition-transform`}>
+            {icon}
           </div>
-        </CardHeader>
-        <CardContent className="p-4 sm:p-6 pt-0 sm:pt-0">
-          {caseData.plaintiff_name && caseData.defendant_name && (
-            <p className="text-xs sm:text-sm text-muted-foreground mb-3 truncate">
-              {caseData.plaintiff_name} v. {caseData.defendant_name}
-            </p>
-          )}
-
-          <div className="flex flex-wrap gap-3 sm:gap-6 text-xs sm:text-sm text-muted-foreground">
-            <span className="flex items-center gap-1">
-              <Users className="h-3 w-3 sm:h-4 sm:w-4" />
-              {agentCount} agents
-            </span>
-            <span className="flex items-center gap-1">
-              <FileText className="h-3 w-3 sm:h-4 sm:w-4" />
-              {docCount} documents
-            </span>
-            <span className="flex items-center gap-1">
-              <MessageSquare className="h-3 w-3 sm:h-4 sm:w-4" />
-              {convCount} conversations
-            </span>
-          </div>
+          <h3 className="font-semibold group-hover:text-primary transition-colors">{title}</h3>
+          <p className="text-sm text-muted-foreground mt-1">{description}</p>
         </CardContent>
       </Card>
     </Link>
