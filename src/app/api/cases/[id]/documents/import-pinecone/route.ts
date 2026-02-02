@@ -64,7 +64,7 @@ export async function POST(
 
     // Define metadata interface
     interface PineconeDocMetadata {
-      doc_id: string
+      doc_id?: string
       doc_name?: string
       doc_type?: string
       content?: string
@@ -84,8 +84,8 @@ export async function POST(
     }>()
 
     for (const match of queryResponse.matches) {
-      const metadata = match.metadata as PineconeDocMetadata
-      const docId = metadata.doc_id
+      const metadata = match.metadata as unknown as PineconeDocMetadata
+      const docId = metadata.doc_id || match.id
 
       if (!documentMap.has(docId)) {
         documentMap.set(docId, {
