@@ -103,18 +103,12 @@ export default function LoginPage() {
               )}
             </Button>
 
-            <Button
-              id="btn-dev-bypass"
-              type="button"
-              variant="outline"
-              className="w-full border-dashed border-yellow-500 text-yellow-500 hover:bg-yellow-500/10"
-              onClick={async () => {
-                await fetch('/api/dev-bypass', { method: 'POST' });
-                window.location.href = '/dashboard';
-              }}
+            <a
+              href="/demo"
+              className="w-full inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 border border-dashed border-yellow-500 text-yellow-500 hover:bg-yellow-500/10 h-9 px-4 py-2"
             >
-              Dev Bypass (Skip Auth)
-            </Button>
+              View Demo (Skip Auth)
+            </a>
 
             <p className="text-sm text-muted-foreground text-center">
               Don&apos;t have an account?{' '}
