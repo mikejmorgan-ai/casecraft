@@ -39,8 +39,8 @@ export default function LoginPage() {
   }
 
   return (
-    <div id="login-page-container" className="min-h-screen flex items-center justify-center bg-[var(--color-legal-cream)] p-4">
-      <Card id="login-card" className="w-full max-w-md">
+    <div id="login-page-container" className="dark min-h-screen flex items-center justify-center bg-background p-4">
+      <Card id="login-card" className="w-full max-w-md bg-card border-border">
         <CardHeader id="login-header" className="text-center">
           <div className="flex justify-center mb-4">
             <div className="p-3 bg-primary rounded-full">
