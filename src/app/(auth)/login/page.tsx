@@ -109,7 +109,10 @@ export default function LoginPage() {
                 type="button"
                 variant="outline"
                 className="w-full border-dashed border-yellow-500 text-yellow-500 hover:bg-yellow-500/10"
-                onClick={() => router.push('/dashboard')}
+                onClick={() => {
+                  document.cookie = 'dev_bypass=true; path=/';
+                  router.push('/dashboard');
+                }}
               >
                 Dev Bypass (Skip Auth)
               </Button>
