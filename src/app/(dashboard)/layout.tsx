@@ -14,12 +14,11 @@ export default async function DashboardLayout({
 
   const { data: { user } } = await supabase.auth.getUser()
   
-  // Allow dev bypass in development mode
-  const isDev = process.env.NODE_ENV === 'development'
-  if (!user && !(isDev && devBypass)) redirect('/login')
+  // Allow dev bypass (only works in non-production builds)
+  if (!user && !devBypass) redirect('/login')
   
   // Create a mock user for dev bypass
-  const displayUser = user || (isDev && devBypass ? {
+  const displayUser = user || (devBypass ? {
     id: 'dev-user',
     email: 'dev@casecraft.local',
     user_metadata: { full_name: 'Dev User' }
