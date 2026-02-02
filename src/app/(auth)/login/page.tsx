@@ -103,6 +103,18 @@ export default function LoginPage() {
               )}
             </Button>
 
+            {process.env.NODE_ENV === 'development' && (
+              <Button
+                id="btn-dev-bypass"
+                type="button"
+                variant="outline"
+                className="w-full border-dashed border-yellow-500 text-yellow-500 hover:bg-yellow-500/10"
+                onClick={() => router.push('/dashboard')}
+              >
+                Dev Bypass (Skip Auth)
+              </Button>
+            )}
+
             <p className="text-sm text-muted-foreground text-center">
               Don&apos;t have an account?{' '}
               <Link href="/signup" className="text-primary hover:underline">
