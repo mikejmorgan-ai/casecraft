@@ -7,7 +7,7 @@ AI-powered legal simulation platform for running mock hearings, depositions, and
 - **Multi-Agent Legal Simulation**: Configure AI agents (Judge, Plaintiff Attorney, Defense Attorney, etc.) with customizable personas
 - **Document RAG**: Upload case documents, auto-embed with OpenAI, and have agents reference them during conversations
 - **Case Management**: Track cases, facts, documents, and conversations
-- **Streaming Chat**: Real-time streaming responses via Vercel AI SDK
+- **Streaming Chat**: Real-time streaming responses via AI SDK
 - **Professional UI**: Navy/Gold legal aesthetic with shadcn/ui components
 
 ## Tech Stack
@@ -22,7 +22,7 @@ AI-powered legal simulation platform for running mock hearings, depositions, and
 | Storage | Supabase Storage |
 | LLM | OpenAI GPT-4o |
 | Embeddings | text-embedding-3-small |
-| Streaming | Vercel AI SDK |
+| Streaming | AI SDK |
 
 ## Setup
 
@@ -125,7 +125,13 @@ casecraft/
 
 ## Deployment
 
-### Vercel (Recommended)
+### Replit
+
+1. Import the repository into Replit
+2. Set environment variables in the Replit Secrets tab
+3. Run `npm run build && npm start` or use the dev server with `npm run dev`
+
+### Alternative (Vercel)
 
 ```bash
 vercel deploy --prod

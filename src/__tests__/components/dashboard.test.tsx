@@ -1,29 +1,43 @@
 /**
  * Dashboard Component Tests
  *
- * Note: The DashboardPage is an async server component that fetches data from Supabase.
- * We test it by mocking the Supabase client and rendering the component with mocked data.
+ * The DashboardPage is an async server component that fetches data from Supabase.
+ * It queries three tables: cases, case_predictions, and documents.
+ * We mock the Supabase client and render the component with mocked data.
  */
 
 import { render, screen } from '@testing-library/react'
 
-// Mock the Supabase server client
+// Build chainable query mocks per table
+function createChainMock(resolvedValue: { data: unknown; error: unknown }) {
+  const chain: Record<string, jest.Mock> = {}
+  chain.select = jest.fn().mockReturnValue(chain)
+  chain.order = jest.fn().mockReturnValue(chain)
+  chain.limit = jest.fn().mockResolvedValue(resolvedValue)
+  chain.single = jest.fn().mockResolvedValue(resolvedValue)
+  // Allow .then() so Promise.all works on the chain directly
+  chain.then = jest.fn((resolve: (v: unknown) => void) => resolve(resolvedValue))
+  return chain
+}
+
+let casesChain: ReturnType<typeof createChainMock>
+let predictionsChain: ReturnType<typeof createChainMock>
+let documentsChain: ReturnType<typeof createChainMock>
+
 const mockGetUser = jest.fn()
-const mockFrom = jest.fn()
-const mockSelect = jest.fn()
-const mockOrder = jest.fn()
 
 jest.mock('@/lib/supabase/server', () => ({
-  createServerSupabase: jest.fn().mockResolvedValue({
+  createServerSupabase: jest.fn().mockImplementation(async () => ({
     auth: {
       getUser: () => mockGetUser(),
     },
-    from: () => ({
-      select: () => ({
-        order: () => mockOrder(),
-      }),
-    }),
-  }),
+    from: (table: string) => {
+      if (table === 'cases') return casesChain
+      if (table === 'case_predictions') return predictionsChain
+      if (table === 'documents') return documentsChain
+      return createChainMock({ data: null, error: null })
+    },
+  })),
 }))
 
 // Mock next/navigation
@@ -35,15 +49,18 @@ jest.mock('next/navigation', () => ({
   }),
 }))
 
+// Mock next/link
+jest.mock('next/link', () => {
+  return ({ children, href }: { children: React.ReactNode; href: string }) => (
+    <a href={href}>{children}</a>
+  )
+})
+
 // Import after mocks are set up
 import DashboardPage from '@/app/(dashboard)/dashboard/page'
 import { redirect } from 'next/navigation'
 
 describe('DashboardPage', () => {
-  beforeEach(() => {
-    jest.clearAllMocks()
-  })
-
   const mockUser = {
     id: 'user-123',
     email: 'test@example.com',
@@ -52,49 +69,67 @@ describe('DashboardPage', () => {
   const mockCases = [
     {
       id: 'case-1',
-      user_id: 'user-123',
       name: 'Smith v. Jones',
       case_number: '2024-CV-001',
-      case_type: 'civil' as const,
-      jurisdiction: 'Federal Court',
-      status: 'active' as const,
-      summary: 'A civil dispute',
-      plaintiff_name: 'John Smith',
-      defendant_name: 'Jane Jones',
-      filed_date: '2024-01-15',
-      metadata: {},
-      created_at: '2024-01-15T10:00:00Z',
+      case_type: 'civil',
+      status: 'active',
+      is_blind_test: false,
       updated_at: '2024-01-20T10:00:00Z',
-      agents: [{ count: 3 }],
-      documents: [{ count: 5 }],
-      conversations: [{ count: 2 }],
+      case_predictions: [{ count: 1 }],
     },
     {
       id: 'case-2',
-      user_id: 'user-123',
       name: 'Doe v. State',
       case_number: '2024-CR-002',
-      case_type: 'criminal' as const,
-      jurisdiction: 'State Court',
-      status: 'draft' as const,
-      summary: 'A criminal case',
-      plaintiff_name: 'State',
-      defendant_name: 'John Doe',
-      filed_date: null,
-      metadata: {},
-      created_at: '2024-01-10T10:00:00Z',
+      case_type: 'criminal',
+      status: 'draft',
+      is_blind_test: true,
       updated_at: '2024-01-12T10:00:00Z',
-      agents: [{ count: 2 }],
-      documents: [{ count: 0 }],
-      conversations: [{ count: 0 }],
+      case_predictions: [{ count: 0 }],
     },
   ]
 
-  it('redirects to login if user is not authenticated', async () => {
+  const mockPredictions = [
+    {
+      id: 'pred-1',
+      predicted_outcome: 'plaintiff',
+      confidence_score: 75,
+      is_correct: true,
+      accuracy_score: 85,
+      created_at: '2024-01-18T10:00:00Z',
+      cases: { name: 'Smith v. Jones' },
+    },
+  ]
+
+  function setupMocks(options?: {
+    user?: typeof mockUser | null
+    cases?: typeof mockCases | null
+    predictions?: typeof mockPredictions | null
+    totalDocs?: number
+  }) {
+    const {
+      user = mockUser,
+      cases = mockCases,
+      predictions = mockPredictions,
+      totalDocs = 10,
+    } = options || {}
+
     mockGetUser.mockResolvedValueOnce({
-      data: { user: null },
+      data: { user },
       error: null,
     })
+
+    casesChain = createChainMock({ data: cases, error: null })
+    predictionsChain = createChainMock({ data: predictions, error: null })
+    documentsChain = createChainMock({ data: { count: totalDocs }, error: null })
+  }
+
+  beforeEach(() => {
+    jest.clearAllMocks()
+  })
+
+  it('redirects to login if user is not authenticated', async () => {
+    setupMocks({ user: null })
 
     try {
       await DashboardPage()
@@ -106,180 +141,102 @@ describe('DashboardPage', () => {
   })
 
   it('renders dashboard header', async () => {
-    mockGetUser.mockResolvedValueOnce({
-      data: { user: mockUser },
-      error: null,
-    })
-    mockOrder.mockResolvedValueOnce({
-      data: mockCases,
-      error: null,
-    })
+    setupMocks()
 
     const page = await DashboardPage()
     render(page)
 
     expect(screen.getByText('Dashboard')).toBeInTheDocument()
-    expect(screen.getByText('Manage your legal simulations')).toBeInTheDocument()
+    expect(screen.getByText(/litigation intelligence overview/i)).toBeInTheDocument()
   })
 
-  it('renders stats cards with correct counts', async () => {
-    mockGetUser.mockResolvedValueOnce({
-      data: { user: mockUser },
-      error: null,
-    })
-    mockOrder.mockResolvedValueOnce({
-      data: mockCases,
-      error: null,
-    })
+  it('renders stat cards with correct labels', async () => {
+    setupMocks()
 
     const page = await DashboardPage()
     render(page)
 
-    // Check for stat labels
     expect(screen.getByText('Total Cases')).toBeInTheDocument()
-    expect(screen.getByText('Active Cases')).toBeInTheDocument()
-    expect(screen.getByText('Draft Cases')).toBeInTheDocument()
-
-    // Check for stat values (2 total, 1 active, 1 draft)
-    expect(screen.getByText('2')).toBeInTheDocument() // Total
-    const oneElements = screen.getAllByText('1')
-    expect(oneElements.length).toBeGreaterThanOrEqual(2) // Active and Draft
+    expect(screen.getByText('Documents')).toBeInTheDocument()
+    expect(screen.getByText('Blind Tests')).toBeInTheDocument()
+    expect(screen.getByText('Avg Accuracy')).toBeInTheDocument()
   })
 
-  it('renders case cards with case information', async () => {
-    mockGetUser.mockResolvedValueOnce({
-      data: { user: mockUser },
-      error: null,
-    })
-    mockOrder.mockResolvedValueOnce({
-      data: mockCases,
-      error: null,
-    })
+  it('renders correct total cases count', async () => {
+    setupMocks()
 
     const page = await DashboardPage()
     render(page)
 
-    // Check for case names
-    expect(screen.getByText('Smith v. Jones')).toBeInTheDocument()
+    // 2 cases total, 1 blind test
+    const totalCasesCard = screen.getByText('Total Cases').closest('[class]')
+    expect(totalCasesCard).toBeInTheDocument()
+    expect(screen.getByText('2')).toBeInTheDocument()
+  })
+
+  it('renders blind test count correctly', async () => {
+    setupMocks()
+
+    const page = await DashboardPage()
+    render(page)
+
+    // 1 case has is_blind_test: true
+    expect(screen.getByText('1')).toBeInTheDocument()
+  })
+
+  it('renders quick action cards', async () => {
+    setupMocks()
+
+    const page = await DashboardPage()
+    render(page)
+
+    // These appear in both quick actions and keyboard shortcuts, so use getAllByText
+    expect(screen.getAllByText('Run Prediction').length).toBeGreaterThanOrEqual(1)
+    expect(screen.getByText('Start Simulation')).toBeInTheDocument()
+    expect(screen.getByText('Find Weaknesses')).toBeInTheDocument()
+    // Check descriptions unique to quick action cards
+    expect(screen.getByText('Analyze case documents and predict outcomes')).toBeInTheDocument()
+    expect(screen.getByText('Mock trial with AI attorneys and judge')).toBeInTheDocument()
+    expect(screen.getByText('Identify gaps and strategic fixes')).toBeInTheDocument()
+  })
+
+  it('renders recent cases section with case names', async () => {
+    setupMocks()
+
+    const page = await DashboardPage()
+    render(page)
+
+    expect(screen.getByText('Recent Cases')).toBeInTheDocument()
+    // "Smith v. Jones" appears in both Recent Cases and Recent Predictions
+    expect(screen.getAllByText('Smith v. Jones').length).toBeGreaterThanOrEqual(1)
     expect(screen.getByText('Doe v. State')).toBeInTheDocument()
+  })
 
-    // Check for case types
-    expect(screen.getByText(/Civil/)).toBeInTheDocument()
-    expect(screen.getByText(/Criminal/)).toBeInTheDocument()
+  it('renders case cards with status badges', async () => {
+    setupMocks()
 
-    // Check for status badges
+    const page = await DashboardPage()
+    render(page)
+
     expect(screen.getByText('active')).toBeInTheDocument()
     expect(screen.getByText('draft')).toBeInTheDocument()
   })
 
-  it('renders case card with party names', async () => {
-    mockGetUser.mockResolvedValueOnce({
-      data: { user: mockUser },
-      error: null,
-    })
-    mockOrder.mockResolvedValueOnce({
-      data: mockCases,
-      error: null,
-    })
+  it('renders blind test badge for blind test cases', async () => {
+    setupMocks()
 
     const page = await DashboardPage()
     render(page)
 
-    // Check for party names display
-    expect(screen.getByText('John Smith v. Jane Jones')).toBeInTheDocument()
-    expect(screen.getByText('State v. John Doe')).toBeInTheDocument()
-  })
-
-  it('renders case card with agent, document, and conversation counts', async () => {
-    mockGetUser.mockResolvedValueOnce({
-      data: { user: mockUser },
-      error: null,
-    })
-    mockOrder.mockResolvedValueOnce({
-      data: mockCases,
-      error: null,
-    })
-
-    const page = await DashboardPage()
-    render(page)
-
-    // Check for counts
-    expect(screen.getByText('3 agents')).toBeInTheDocument()
-    expect(screen.getByText('5 documents')).toBeInTheDocument()
-    expect(screen.getByText('2 conversations')).toBeInTheDocument()
-
-    // Second case counts
-    expect(screen.getByText('2 agents')).toBeInTheDocument()
-    expect(screen.getByText('0 documents')).toBeInTheDocument()
-    expect(screen.getByText('0 conversations')).toBeInTheDocument()
-  })
-
-  it('renders empty state when no cases exist', async () => {
-    mockGetUser.mockResolvedValueOnce({
-      data: { user: mockUser },
-      error: null,
-    })
-    mockOrder.mockResolvedValueOnce({
-      data: [],
-      error: null,
-    })
-
-    const page = await DashboardPage()
-    render(page)
-
-    expect(screen.getByText('No cases yet')).toBeInTheDocument()
-    expect(
-      screen.getByText('Create your first case to start simulating legal proceedings.')
-    ).toBeInTheDocument()
-  })
-
-  it('renders empty state when cases data is null', async () => {
-    mockGetUser.mockResolvedValueOnce({
-      data: { user: mockUser },
-      error: null,
-    })
-    mockOrder.mockResolvedValueOnce({
-      data: null,
-      error: null,
-    })
-
-    const page = await DashboardPage()
-    render(page)
-
-    expect(screen.getByText('No cases yet')).toBeInTheDocument()
-  })
-
-  it('renders "New Case" button in header', async () => {
-    mockGetUser.mockResolvedValueOnce({
-      data: { user: mockUser },
-      error: null,
-    })
-    mockOrder.mockResolvedValueOnce({
-      data: mockCases,
-      error: null,
-    })
-
-    const page = await DashboardPage()
-    render(page)
-
-    const newCaseButtons = screen.getAllByRole('button', { name: /new case/i })
-    expect(newCaseButtons.length).toBeGreaterThan(0)
+    expect(screen.getByText('Blind Test')).toBeInTheDocument()
   })
 
   it('renders case cards as links to case detail pages', async () => {
-    mockGetUser.mockResolvedValueOnce({
-      data: { user: mockUser },
-      error: null,
-    })
-    mockOrder.mockResolvedValueOnce({
-      data: mockCases,
-      error: null,
-    })
+    setupMocks()
 
     const page = await DashboardPage()
     render(page)
 
-    // Check for links to case detail pages
     const links = screen.getAllByRole('link')
     const caseLinks = links.filter(
       (link) => link.getAttribute('href')?.includes('/case/')
@@ -289,47 +246,64 @@ describe('DashboardPage', () => {
     expect(caseLinks[1]).toHaveAttribute('href', '/case/case-2')
   })
 
-  it('displays zero stats when there are no cases', async () => {
-    mockGetUser.mockResolvedValueOnce({
-      data: { user: mockUser },
-      error: null,
-    })
-    mockOrder.mockResolvedValueOnce({
-      data: [],
-      error: null,
-    })
+  it('renders empty state when no cases exist', async () => {
+    setupMocks({ cases: [], predictions: [] })
 
     const page = await DashboardPage()
     render(page)
 
-    // All stats should be 0
-    const zeros = screen.getAllByText('0')
-    expect(zeros.length).toBe(3) // Total, Active, Draft
+    expect(screen.getByText('No cases yet')).toBeInTheDocument()
+    expect(screen.getByText('Create your first case')).toBeInTheDocument()
   })
 
-  it('correctly calculates active and draft case counts', async () => {
-    const mixedCases = [
-      { ...mockCases[0], status: 'active' as const },
-      { ...mockCases[1], status: 'draft' as const },
-      { ...mockCases[0], id: 'case-3', status: 'active' as const },
-      { ...mockCases[1], id: 'case-4', status: 'closed' as const },
-    ]
-
-    mockGetUser.mockResolvedValueOnce({
-      data: { user: mockUser },
-      error: null,
-    })
-    mockOrder.mockResolvedValueOnce({
-      data: mixedCases,
-      error: null,
-    })
+  it('renders empty state for predictions when none exist', async () => {
+    setupMocks({ predictions: [] })
 
     const page = await DashboardPage()
     render(page)
 
-    // Total: 4, Active: 2, Draft: 1
-    expect(screen.getByText('4')).toBeInTheDocument()
-    expect(screen.getByText('2')).toBeInTheDocument()
-    expect(screen.getByText('1')).toBeInTheDocument()
+    expect(screen.getByText('No predictions yet')).toBeInTheDocument()
+    expect(screen.getByText('Run your first prediction')).toBeInTheDocument()
+  })
+
+  it('renders recent predictions section with prediction data', async () => {
+    setupMocks()
+
+    const page = await DashboardPage()
+    render(page)
+
+    expect(screen.getByText('Recent Predictions')).toBeInTheDocument()
+    expect(screen.getByText(/plaintiff/)).toBeInTheDocument()
+    expect(screen.getByText(/75% confidence/)).toBeInTheDocument()
+  })
+
+  it('renders New Case and Import Test Case buttons', async () => {
+    setupMocks()
+
+    const page = await DashboardPage()
+    render(page)
+
+    // "New Case" appears in both header button and keyboard shortcuts
+    expect(screen.getAllByText('New Case').length).toBeGreaterThanOrEqual(1)
+    expect(screen.getByText('Import Test Case')).toBeInTheDocument()
+  })
+
+  it('renders keyboard shortcuts section', async () => {
+    setupMocks()
+
+    const page = await DashboardPage()
+    render(page)
+
+    expect(screen.getByText('Quick Search')).toBeInTheDocument()
+    expect(screen.getByText('Shortcuts Help')).toBeInTheDocument()
+  })
+
+  it('handles null cases data gracefully', async () => {
+    setupMocks({ cases: null, predictions: null })
+
+    const page = await DashboardPage()
+    render(page)
+
+    expect(screen.getByText('No cases yet')).toBeInTheDocument()
   })
 })

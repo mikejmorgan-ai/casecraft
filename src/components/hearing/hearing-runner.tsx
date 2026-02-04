@@ -261,7 +261,7 @@ export function HearingRunner({
     } else {
       startHearing()
     }
-  }, [isRunning])
+  }, [isRunning, startHearing, stopHearing])
 
   // Toggle mute
   const toggleMute = useCallback(() => {

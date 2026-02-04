@@ -316,7 +316,7 @@ ROLE:
   }
 
   console.log('🎉 Tree Farm case setup complete!')
-  console.log(`\nAccess at: https://casecraft-neon.vercel.app/case/${caseId}`)
+  console.log(`\nAccess at: /case/${caseId}`)
 }
 
 seedTreeFarmCase().catch(console.error)
