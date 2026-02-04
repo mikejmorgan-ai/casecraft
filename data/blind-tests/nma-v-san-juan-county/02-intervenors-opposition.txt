@@ -1,0 +1,2163 @@
+Paul W. Shakespear (14113)
+Elizabeth M. Brereton (14950)
+SNELL & WILMER L.L.P.
+15 West South Temple, Suite 1200
+Salt Lake City, Utah 84101
+Telephone: 801.257.1900
+Facsimile: 801.257.1800
+Email: pshakespear@swlaw.com
+lbrereton@swlaw.com
+Attorneys for Intervening Respondents
+Sustainable Power Group, LLC and Latigo Wind Park, LLC
+
+IN THE SEVENTH JUDICIAL DISTRICT COURT
+IN AND FOR SAN JUAN COUNTY, STATE OF UTAH
+
+NORTHERN MONTICELLO ALLIANCE,
+INC., a Utah limited liability company,
+Plaintiff/Petitioner,
+vs.
+SAN JUAN COUNTY COMMISSION, a
+political subdivision of the State of Utah and
+SAN JUAN COUNTY, a political subdivision
+of the State of Utah,
+
+SUSTAINABLE POWER GROUP, LLC
+AND LATIGO WIND PARK, LLC’S
+MEMORANDUM IN OPPOSITION TO
+NORTHERN MONTICELLO ALLIANCE,
+LLC’S MOTION FOR SUMMARY
+JUDGMENT
+
+Case No. 170700006
+Defendants/Respondents,
+Judge Lyle Anderson
+SUSTAINABLE POWER GROUP, LLC and
+LATIGO WIND PARK, LLC,
+Intervening Respondents.
+
+Pursuant to Rules 7 and 56 of the Utah Rules of Civil Procedure, Intervening
+Respondents, Sustainable Power Group, LLC (“sPower”) and Latigo Wind Project, LLC
+
+4845-6230-7157
+
+(“Latigo”), through counsel, hereby submit the following Memorandum in Opposition to Motion
+for Summary Judgment and Supporting Memorandum, filed on October 18, 2017, by
+Plaintiff Northern Monticello Alliance, LLC (“NMA”).
+
+ii
+
+TABLE OF CONTENTS
+Page
+I.
+
+SUMMARY ....................................................................................................................... 1
+
+II.
+
+RESPONSES TO PLAINTIFF’S STATEMENT OF MATERIAL FACTS .................... 3
+
+III.
+
+SUMMARY JUDGMENT STANDARD ....................................................................... 30
+
+IV.
+
+ARGUMENT ................................................................................................................... 31
+
+V.
+
+A.
+
+The County Commission’s Remand Decision issued on February 21,
+2017, is not Arbitrary or Capricious ................................................................... 32
+
+B.
+
+There is substantial evidence on the record supporting the County
+Commission’s decision affirming that sPower is in Compliance with its
+CUP ...................................................................................................................... 40
+
+C.
+
+The County Commission’s Remand Decision does not violate due process
+rights protected under the Fourteenth Amendment ............................................... 2
+
+D.
+
+The Commission’s Remand Decision was procedurally proper and lawful ......... 5
+
+CONCLUSION .................................................................................................................. 7
+
+i-
+
+Cases
+2017 UT ¶ 41 .................................................................................................................... 39, 42, 43
+510 U.S. 43 (1993) .......................................................................................................................... 3
+Board of Regents v. Roth,
+408 U.S. 564, 92 S.Ct. 2701, 33 L.Ed.2d 548 (1972) ................................................................. 3
+Bradley v. Payson City Corp.,
+2003 UT 16 ............................................................................................................................... 31
+Carrier v. Salt Lake County,
+2004 UT 98 ............................................................................................................................... 31
+Crown Point I, LLC v. Intermountain Rural Elec. Ass'n,
+319 F.3d 1211 (10th Cir. 2003) .............................................................................................. 3, 4
+Fox v. Park City,
+2008 UT 85 ............................................................................................................................... 31
+Fuller v. Springville City,
+2015 UT App 177 ..................................................................................................................... 30
+Heideman v. Washington City,
+2007 UT App 11, 155 P.3d 900 .................................................................................................. 3
+IHC Health Services, Inc. v. D & K Management, Inc.,
+2008 UT 73, 196 P.3d 588 ................................................................................................ 38, 6, 7
+Jacobs, Visconsi & Jacobs, Co. v City of Lawrence Kan.,
+927 F.2d 1111, (10th Cir. 1991) ................................................................................................. 4
+McElhaney v. City of Moab,
+2017 UT 65 ........................................................................................................................ passim
+McElhaney,
+2017 UT ¶36 ............................................................................................................................. 37
+Morra v. Grand Cnty.,
+2010 UT 21 ............................................................................................................................... 30
+O’Dea v. Olea,
+2009 UT 46 ............................................................................................................................... 33
+Orvis v. Johnson,
+2008 UT 2, 177 P.3d 600 .................................................................................................... 30, 32
+Patterson v. American Fork City,
+2003 UT 7, 67 P.3d 466 .............................................................................................................. 3
+Patterson,
+2003 UT ¶23 ............................................................................................................................... 3
+Salt Lake City Corp. v. Jordan River Restoration Network,
+2012 UT 84, 299 P.3d 990 .......................................................................................................... 5
+State v. Johnson,
+2017 UT 76 ............................................................................................................................... 33
+Suarez v. Grand County,
+2012 UT 72 ............................................................................................................................... 30
+
+ii
+
+Utah Physicians for a Heathly Env’t v. Exec. Dir. Of the Utah Dep’t of Envtl. Quality,
+2016 UT 49, 391 P.3d ................................................................................................... 35, 36, 37
+Wilson v. Hodel,
+758 F.2d 1369 (10th Cir. 1985) .......................................................................................... 33, 35
+Statutes
+§17-27a-801 ............................................................................................................................ 34, 37
+42 U.S.C. §1983 .............................................................................................................................. 3
+U.S. Const. amend. XIV, sec. 1 ...................................................................................................... 2
+Utah Code 17-27a-705 .................................................................................................................. 40
+Utah Code Ann. § 17-27a-301 ........................................................................................................ 3
+Utah Code Ann. § 17-27a-701(1) ................................................................................................... 3
+Utah Code Ann. § 17-27a-708 ................................................................................................ 25, 26
+Utah Code Ann. §§ 10-9a-801 and 17-27a-801 ............................................................................ 34
+Utah Code Ann. §17-27a-506(2)(a) .............................................................................................. 43
+Utah Code Ann. §17-27a-701 ....................................................................................................... 32
+Utah Code Ann. §17-27a-707 ....................................................................................................... 36
+Utah Code Ann. §17-27a-801(3)(a) ........................................................................................ 30, 31
+Utah Code Ann. §17-27a-801(3)(d) .............................................................................................. 31
+Rules
+Rules 7 and 56 of the Utah Rules of Civil Procedure ...................................................................... i
+
+iii
+
+I.
+
+SUMMARY
+On appeal for the second time, NMA asks this Court to disregard the law of the case, to
+
+ignore the certified administrative record; and to excuse NMA’s failure to carry its burden before
+the County Commission and before this Court to demonstrate that the County Commission’s
+Decision is arbitrary and capricious because it is unsupported by substantial evidence.
+On September 9, 2016, this Court issued its decision remanding NMA’s 2016 appeal to the
+San Juan County Board of Commissioners (“County Commission”). This Court determined that:
+(1) the County Commission’s Amended Decision issued on December 3, 2015, is supported by
+substantial evidence and was not arbitrary or capricious; and, (2) that the County Commission has
+the inherent authority to “reconsider a decision and correct its mistakes” through the issuance of its
+Amended Decision.
+
+But, this Court also determined that notwithstanding the County
+
+Commission’s authority to correct its mistakes, the County Commission must observe procedural
+due process requirements in doing so. This Court determined that County Commission’s Amended
+Decision was illegal because the County Commission did not provide NMA with notice and the
+opportunity to be heard on sPower’s request for reconsideration and amendment of the County
+Commission’s Written Decision issued on December 3, 2016. The matter was remanded back to
+the County Commission to provide NMA with opportunity to respond to sPower’s request.
+On January 3, 2017, the San Juan County Commission (“Commission”) considered briefing
+and heard oral arguments on sPower’s request for reconsideration. sPower argued that the County
+Commission’s original Written Decision was issued in error because it did not acknowledge or
+consider substantial evidence presented to the County Commission demonstrating sPower’s CUP
+compliance. Consistent with this Court’s decision, sPower also argued that the County had the
+authority to reconsider its original Written Decision and to issue an amendment thereto. sPower
+1
+
+requested that the County Commission exercise its authority and reconsider its decision in light of
+substantial evidence presented by sPower demonstrating CUP compliance.
+Predictably, NMA did not use its “opportunity” to respond to sPower’s request for
+reconsideration. NMA did not challenge sPower’s request. Moreover, NMA did not dispute
+County Commission’s authority to issue an amended decision. NMA did not dispute that sPower
+previously presented the County Commission with two three-ringed binders that included evidence
+demonstrating that sPower implemented as much “flicker, sound and light mitigation as possible.”
+In fact, NMA’s pre-hearing brief fails to make a single reference to sPower’s request for
+reconsideration. Instead, NMA took the opportunity to relitigate its appeal and claim that the
+Planning Commission’s decision was arbitrary and capricious, and that evidence provided sPower
+did not demonstrate CUP compliance. Further, NMA claimed that the only possible way for
+sPower to comply with the CUP was for sPower to satisfy non-existent “financial mitigation
+conditions” and purchase NMA members’ property at 360% above the appraised market value.
+On February 21, 2017, the County Commission issued its “Amended Written Decision on
+Remand.” The Commission granted sPower’s request and considered evidence properly before the
+Commission. The County Commission held that sPower presented substantial evidence supporting
+CUP compliance to the County Commission and to the Planning Commission. The Commission
+determined that NMA failed to meet its burden on appeal to demonstrate that the Planning
+Commission’s was arbitrary or capricious of that sPower did not comply with its CUP. The
+County Commission, again, vacated its Written Decision issued in error and issued its Amended
+Written Decision on Remand.
+sPower respectfully asks this court to deny NMA’s Motion based on the substantial and
+undisputed evidence that the Board’s decision to issue an amended decision on remand upholding
+2
+
+the Planning Commission’s compliance determination is not arbitrary or capricious and is
+supported by substantial evidence and is not illegal.
+II.
+
+RESPONSES TO PLAINTIFF’S STATEMENT OF MATERIAL FACTS
+1.
+
+NMA Members own approximately 70 acres of land (the “NMA Property”) in San
+
+Juan County, Utah (the “County”), adjacent to and abutting an operating wind turbine electric
+generating facility (the “Wind Facility”). (R0349, R0779.)
+RESPONSE:
+
+sPower does not dispute that NMA’s current members separately own 70
+
+acres of uninhabited, undeveloped property in the area of the Latigo Wind Project. R0349.
+2.
+
+NMA is a limited liability company of the State of Utah, formed to protect the
+
+property interests and rights of its Members, who each own real property in San Juan County,
+Utah adjacent to and surrounded by the Wind Facility. (R0809-0812.)
+RESPONSE:
+
+sPower disputes that NMA was formed to protect property interests and
+
+rights of its members. R0809-0812 cites to public testimony presented by NMA representative,
+Dan Bingham, stating that NMA was formed for the purpose of negotiating the sale of its
+“members” property at the highest price. R0812. sPower also disputes that NMA has any legal
+right or protectable property interest in developing its members’ inholding property for residential
+use in an A-1 zone. R0430.
+3.
+
+San Juan County (the “County”) is a political subdivision of the State of Utah. The
+
+San Juan County Commission (the “Commission”) is the Land Use Appeal Authority for San Juan
+County under Utah Code Ann. § 17-27a-701(1) and Section 2.2(1) of the Zoning Ordinance of San
+Juan County, Utah (the “Zoning Ordinance”). (See R0826.) The San Juan County Planning and
+Zoning Commission (the “Planning Commission”) is the “Land Use Authority” of the County
+pursuant to Utah Code Ann. § 17-27a-301.
+3
+
+RESPONSE:
+4.
+
+Undisputed.
+
+The Wind Facility is located in the A-1 zone of the County. In an A-1 zone,
+
+residential use is a permitted use and the construction and operation of the Wind Facility is a
+conditional use that must be approved through the issuance of a Conditional Use Permit by the
+Planning Commission. (R0750.)
+RESPONSE:
+
+sPower does not dispute that the Latigo Wind Park and NMA members’
+
+property are both located in the A-1 zone of San Juan County wherein, under the County’s Zoning
+Ordinance, a Wind Facility falls within the County’s definition of an accepted “conditional use.”
+R0431. sPower disputes that residential subdivision and development planned by NMA is a
+permitted use. R0043, R0524.
+5.
+
+On July 5, 2012, the Planning Commission held a hearing and verbally granted the
+
+original applicant, Latigo Wind Park, LLC (“Latigo”) a Conditional Use Permit (the “July
+CUP”) to construct and operate the Wind Facility. (R1193.)
+RESPONSE:
+6.
+
+Not Disputed.
+
+The Wind Facility as originally approved through the issuance of the July CUP
+
+included a total of 27 wind turbines (“Turbines”) that were up to 500 feet tall, with blades that
+were 381 feet in diameter. (R0733–0734.) The Wind Facility as constructed consists of 27 Turbines
+that are approximately 453 feet tall – taller than any other building in the entire state of Utah –
+and entirely surrounds the NMA Property. (See R1629-1630, R1647.)
+RESPONSE:
+property.
+
+sPower disputes that the project “entirely surrounds” NMA owners’
+
+No single parcel of members’ property is “entirely surrounded” by above ground
+
+facilities visible to NMA members on their property. See R1649. Moreover, the portion of the
+
+4
+
+record cited by NMA is not factual evidence. Page R1629 referenced by NMA, is a portion of
+NMA’s own written appeal to the County Board submitted on November 5, 2015.
+7.
+
+Reasonably anticipated detrimental effects of the Turbines on the NMA Property
+
+include:
+RESPONSE:
+
+sPower disputes that there are any “anticipated detrimental effects” to
+
+NMA members’ property from the Latigo Wind Project. The Planning Commission determined
+that evidence on the record demonstrated there are no detrimental effects to “persons residing or
+working in the vicinity or injurious to property or improvements in the vicinity.” R0751. NMA
+members do not even live or work in the vicinity. R0062, R0524. Moreover NMA has not
+presented any evidence of detrimental effects to its members’ undeveloped and uninhabited land
+that calls the Planning Commission’s determination into question. There is no evidence that NMA
+members’ current use of the land, or use that is permitted under existing county zoning ordinances,
+is impacted by the Latigo Project. R0614, R0625, R0923.
+(a)
+
+Flicker from the shadow of the 381-foot diameter turbine blades (“Flicker”)
+(R0750);
+
+RESPONSE:
+
+sPower disputes that NMA members’ undeveloped and uninhabited
+
+property is detrimentally affected by flicker. Evidence on the record cited by NMA at R0750
+demonstrates that NMA’s members are not affected by Flicker. Rather, evidence cited by NMA at
+R0750 demonstrates that detrimental impacts are limited to “potential for shadow flicker impacts
+on one existing residence and one commercial property” neither of which are sited on NMA
+property. R0750. The record cited to by NMA does not evidence any “detrimental affect” to
+NMA members or their property. There is no standard for flicker on vacant, agricultural land.
+R0923.
+5
+
+(b)
+
+bright flashing red aviation warning lights placed on top of several Turbines
+to warn aircraft of the 453-foot-tall turbines during the night (“Light”)
+(R0751);
+
+RESPONSE:
+
+sPower disputes that NMA members’ uninhabited and undeveloped
+
+property is affected by aviation lights placed on turbines. Further, the portion of the record cited
+by NMA at R0751 does not reference lighting placed on turbines. Rather, language found at
+R0751 imposes lighting restrictions on substation lighting stating that the Latigo Project is required
+to provide “dark-night recommendations to lighting at the project substation…” R0751 at
+(C)(2)(a). NMA’s statement is on of fact supported by the record. There is no evidence on record
+that found NMA members’ uninhabited and unimproved property is impacted by lighting.
+(c)
+
+a loud buzzing sound generated by the spinning turbine blades, which can
+be as loud as 108 decibels for a single Turbine, as well as noise generated in
+the gearbox and a rhythmic low frequency noise from the pressure change
+as each of the three blades passes the tower (“Sound” (R0589, R1631); and
+
+RESPONSE:
+
+sPower disputes that sound generated by the Latigo Project reaches sound
+
+levels of 107.5 on any adjacent properties. Sound measurements cited by NMA at R0589 are taken
+out of context. The 107.5 dB sound level cited by NMA is sound measured at the turbine site
+immediately below the turbine. R0589. Evidence and studies presented by sPower to the Planning
+Commission and County Commission demonstrate that sound levels on NMA property do not
+exceed 55 dBA. R0645. Moreover, sPower’s updated sound report, dated July 28, 2015, presented
+to the Planning Commission and County Commission indicates that with a new turbine design,
+noise levels have been further mitigated by 1dBA. R0641. Evidence on the record, therefore,
+
+6
+
+demonstrates that sound from turbines on NMA members’ property falls at or below 55 dB and
+that sPower has implemented appropriate sound mitigation. R0654.
+(d)
+
+Ice throw, which occurs when ice buildup on the Turbine blades is hurled off
+the blades and away from the Turbine (“Ice Throw”). (R0750.)
+
+RESPONSE:
+
+sPower disputes that NMA members’ property is affected by Ice Throw.
+
+Although the Planning Commission identified a “nominal risk of ice throw on one undeveloped
+agricultural property” at R0750, this does not constitute evidence of “detrimental effects” to NMA
+members’ property. Risk of ice-throw was identified on a portion of County Road 196. R0750.
+The Planning Commission determined that sPower addressed the potential impact. Id. There was
+no finding by the Commission, or evidence produced by NMA demonstrating that “ice throw” is a
+detrimental effect, and vacant agricultural land that is largely inaccessible in the winter.
+8.
+
+Following a written complaint by NMA and others that the CUP had been approved
+
+and issued without reasonable public notice and comment, the Planning Commission held a second
+public hearing on October 4, 2012. (R 0776–0862.)
+RESPONSE:
+
+sPower does not dispute that a Planning Commission hearing was held on
+
+October 4, 2012.
+9.
+
+Following the close of the second public hearing, during which NMA Members
+
+offered evidence of the reasonably anticipated detrimental effects of Flicker, Light, and Sound to
+the NMA Property adjacent to and surrounded by the then-proposed Wind Facility, the Planning
+Commission verbally issued an Amended Conditional Use Permit (“Amended CUP”), which
+replaced and superseded the July CUP. (R1809.)
+RESPONSE:
+
+sPower disputes that NMA members offered any evidence of “reasonably
+
+anticipated detrimental effects” of flicker, light, and sound, to NMA property.
+7
+
+The record
+
+demonstrates that the only NMA spokesperson, Dan Bingham merely provided public comment.
+R1808. The Meeting summary minutes referenced at R1809, describe Bingham as presenting a
+“highly emotional” presentation. This is not evidence.
+10.
+
+The Amended CUP included the condition, set forth in the meeting minutes, that “as
+
+much flicker, light, sound, mitigation as possible” be implemented at the Wind Facility. (R.0855,
+R.1809.) The Amended CUP further required Latigo, and any successor to Latigo, to meet all
+mitigation standards prior to the issuance of any building permit. (R0819–0821).
+RESPONSE:
+
+sPower does not dispute that the Planning Commission amended the CUP
+
+to “incorporate as much flicker, light, sound, mitigation as possible and to meet all industry
+standards of those challenges.” R0855. There was no requirement that sPower mitigate for vacant
+agricultural land. These standards only apply to existing residences and businesses. R0752.
+11.
+
+The Amended CUP also required Latigo to follow certain so-called “self-imposed
+
+conditions” that were set forth in the original CUP application on June 29, 2012, during the
+hearing for the Amended CUP, or through later promises. (R0066, R0068–0069, R0803–0804,
+R0860– 0861.) The self-imposed conditions were expressly made binding upon all future owners or
+developers—including sPower. (R.1808.)
+RESPONSE:
+
+sPower disputes that the record cited by NMA evidences “self-imposed
+
+conditions that were set forth in the original CUP Application...or through later promises.” Pages
+R0066 and R0068-R0069 refer to NMA member Mike Cole’s testimony before the County Board
+on November 10, 2015. This does not evidence any term of the CUP. Pages R803-804 reference
+the October 4, 2012, Planning Commission hearing transcript wherein the Planning Commission
+Chairwoman generally refers to “self-imposed mitigation plans.” There is no reference to “self-
+
+8
+
+imposed conditions” in the CUP. The CUP adopts standards proposed by Wasatch Wind for sound
+and flicker, but does not include any unstated “self-imposed conditions.”
+12.
+
+One self-imposed condition made part of the Amended CUP was to limit the decibel
+
+level of the Turbines at the boundary of the Wind Facility and NMA Property, so that it would not
+exceed 55 decibels. (R0027, R1633.)
+RESPONSE:
+
+sPower disputes that any condition requiring specific mitigation to NMA
+
+Property exists. This Court, the County Commission, and the San Juan Planning Commission have
+all determined that the CUP only requires sPower to provide “as much flicker, light, sound,
+mitigation as possible” without reference to any single landowner, or group of landowners.
+Further, sPower denies that portions of the record cited by NMA at R0027 and R1633 are evidence
+of any such “self-imposed condition.” R0027 cites to a letter from sPower demonstrating that
+existing residences and businesses do not experience sound levels of 55 decibel or more. NMA’s
+undeveloped property does not have any residence or business sited on it.
+
+The “evidence”
+
+referenced by NMA at R1633 is NMA’s written appeal to the San Juan County Board submitted on
+November 5, 2015 wherein NMA claims that noise levels may exceed the 55 dB standard for the
+property’s “intended use,”
+
+but do not reference any noise level relevant to undeveloped,
+
+uninhabitable property currently owned by NMA. For purposes of clarification, the CUP issued by
+the Planning Commission is found at R0748-R0752. The CUP identifies only one undeveloped
+agricultural property wherein certain areas may exceed 55 dB. R0750 and R0930. sPower has
+offered to provide the landowner of this parcel with $4,000 for each residence constructed for
+“installation of additional insulation or other sound-proofing solutions.” R0930. To date, the
+parcel identified in the CUP remains undeveloped, uninhabited agricultural land without any
+residence.
+9
+
+13.
+
+An additional self-imposed condition made part of the Amended CUP, consistent
+
+with the purpose of the Zoning Ordinance, is that Ice Throw from the Turbines would not impact
+persons residing or working in the vicinity, or injure adjacent property. (R0926–0927.)
+RESPONSE:
+
+sPower disputes that the CUP contains a requirement mitigating ice-
+
+throw. Ice throw was determined by the County not to have any impact on persons residing or
+working in the vicinity. R0750. The CUP did not contain any mitigation requirement for icethrow. References to R0926-0927 cites to the Supplemental Information provided by Wasatch
+Wind in September of 2012. That information clearly states that “ice throw would not have an
+impact on persons residing or working in the vicinity.” R0927. Further, the evidence on the record
+demonstrates that the risk of ice throw identified by Wasatch Wind was on County Road 196
+“during winter months and at a time when County Road 196 is not maintained or plowed by the
+county.” Id. Although Wasatch Wind determined that the risk of harm from ice throw was remote
+on an unplowed road, Wasatch Wind committed to installing ice throw warning signs in areas at
+risk of ice throw on County Road 196, thereby mitigating the risk of ice-throw. R0750.
+14.
+
+A letter report dated September 27, 2012 (the “Ice Throw Summary”) obtained by
+
+the original Applicant, Wasatch Wind, from DNV Renewables (USA) Inc., showed that the NMA
+Property was just outside the Ice Throw risk area of the authorized location of some of the
+Turbines. (Id.)
+RESPONSE:
+
+sPower does not dispute that R1126-1129 contains a letter addressed to
+
+Wasatch Wind from DNV Renewables. sPower also does not dispute that the map at R1128 does
+not identify any ice-throw risk to NMA property.
+15.
+
+However, without any approval from the County or any further amendment to the
+
+Amended CUP, sPower constructed 15 Turbines substantially closer to the NMA Property than
+10
+
+was approved in the Amended CUP. There is no updated Ice Throw Summary showing the “risk
+area” for the current location of the Turbines. (R0001-R2205.)
+RESPONSE:
+
+sPower disputes that 15 Turbines were constructed “substantially closer
+
+to NMA Property than was approved.” sPower maintains that there is no requirement to mitigate
+ice-throw risk to NMA property or to update ice-throw studies to examine impacts of ice throw to
+NMA members’ uninhabitable, undeveloped land that is largely inaccessible in the winter. To
+date, NMA has not presented any evidence to substantiate its claims that sPower has not mitigated
+light, sound, and flicker impacts to existing residences and businesses as required under the CUP.
+Further, NMA’s broad reference to over two thousand pages of the administrative record does not
+evidence terms and conditions of the CUP, turbine location, or the impacts of ice throw.
+16.
+
+Additionally, during the hearing for the Amended CUP, Latigo’s legal counsel
+
+stated that Latigo, sPower’s predecessor, would provide certain financial mitigation to adjacent
+property owners, including the purchase of NMA Member’s Property if a purchase agreement was
+reached. (R0820–0821.)
+RESPONSE:
+
+sPower does not deny that during the October 4, 2012 hearing, Wasatch
+
+Wind may have expressed interest in buying adjacent properties if mitigation could not be
+achieved, and the parties could “come into agreement on price.” R0821. sPower denies that this
+statement was made exclusively to NMA members or constitutes an offer of purchase by Wasatch
+Wind or a CUP condition.
+17.
+
+On or about February 12, 2013, NMA Members as Sellers and Latigo as Buyer
+
+entered into a Written Purchase Agreement Option (“Option Agreement”), obligating Latigo to
+purchase the NMA Property for $10,450.00 per acre “prior to commencing any significant
+
+11
+
+construction activities of any wind farm project on parcels adjacent to the Property.” (emphasis
+added) (R0476-0500.)
+RESPONSE:
+
+sPower does not dispute that the Option Agreement referenced at R0476-
+
+500 conveyed to Latigo Wind, LLC, and its parent Company, Wasatch Wind, the option to
+purchase NMA members’ property for $10,450/acre. This represents a price 360% above the
+appraised FMV. The Option Agreement expired on February 22, 2015, and was not extended by
+NMA or Wasatch Wind. sPower purchased the Latigo Project from Wasatch Wind on June 1,
+2015, after the Option Agreement expired.
+18.
+
+The two-year Option Agreement was intended to apply throughout the entirety of
+
+the timetable during which Latigo or its successor could legally commence significant construction
+activities under the Latigo CUP. (R0477, R1809.)
+RESPONSE:
+
+sPower disputes that the Option Agreement was intended to apply beyond
+
+the date on which it expired by its own terms, February 22, 2015.
+19.
+
+In 2013, Wasatch Wind and its subsidiary Latigo sold their interests in the Wind
+
+Facility, and assigned the Amended CUP along with the Option Agreement, to Sustainable Power
+Group, LLC (“sPower,” sometimes referred to as “s*Power”).
+RESPONSE:
+20.
+
+Disputed. sPower purchased the Latigo Wind Project on June 1, 2015.
+
+The Amended CUP required that, at the time the building permit was issued by the
+
+County to construct the Wind Facility, the County would verify that all the conditions imposed by
+the Amended CUP had been instituted in the construction plans and would be included as part of
+the Wind Facility. (R. R0751–0752, R0819–0821.)
+
+12
+
+RESPONSE:
+
+sPower does not deny that technical documents and mitigation payment
+
+or offers of mitigation payment were verified at the time of building permit issuance to the extent
+required by the County. R0751.
+21.
+
+sPower, as the assignee and successor to the Amended CUP, sought a building
+
+permit from the County to construct the Wind Facility, which was issued by Greg Adams of the
+County Building Department on February 3, 2014. (R1178.)
+RESPONSE:
+
+sPower disputes that it sought or received a building permit from San
+
+Juan County in February of 2014. sPower was not the assignee or holder of the Amended CUP in
+February 2014, and did not apply for or receive a building permit for the Latigo Wind Project.
+sPower acquired Latigo from Wasatch Wind on June 1, 2015, over a year after the building
+permit was issued.
+22.
+
+However, at the time the building permit was issued, no effort was made by the
+
+County, the Planning Commission, the County Commission, or Mr. Adams, to verify if the
+Amended CUP conditions were met prior to issuing the building permit. (R0085, R1615, R1796.)
+RESPONSE:
+
+sPower disputes NMA’s assertion that the Building Permit was not issued
+
+in compliance with the CUP. NMA’s citation to R1796 references NMA’s own appeal letter to the
+County Commission submitted on November 5, 2015. NMA offers no evidence demonstrating
+that the Building permit was improperly issued.
+23.
+
+Despite obtaining a building permit and commencing significant construction
+
+activities thereunder an entire year before the Option Agreement expired, sPower waited until
+after the Option Agreement expired before offering to purchase the NMA Property at a price
+significantly discounted from the agreed-upon price in the Option Agreement. sPower also failed
+to make any other mitigation payments, as required by the Amended CUP. (R1642.)
+13
+
+RESPONSE:
+
+sPower strongly disputes NMA’s claims that sPower had any rights under
+
+the NMA-Wasatch Wind Option Agreement. sPower did not acquire the Latigo Project until June
+1, 2015, after NMA’s Option Agreement with Wasatch Wind expired and after the project’s
+building permit was issued. R0477. sPower has repeatedly informed NMA that statements made
+in the paragraph above are untrue and are not factual during proceedings before the Planning
+Commission, the County Commission, and this Court. sPower purchased the Latigo Project on
+June 1, 2015. The Option Agreement expired on February 22, 2015.
+24.
+
+The Wind Facility, as constructed, does not include many of the conditions to
+
+mitigate Flicker, Light, Sound, and Ice Throw required by the Amended CUP as set forth in detail
+below. (R1629–1639.)
+RESPONSE:
+
+sPower disputes this allegation. As described below, all flicker, light, and
+
+sound requirements were satisfied. Further, as discussed above, there was no condition requiring
+ice throw mitigation. NMA’s reference to R1629-1639, cites to its own allegations put forward in
+its appeal to the County Board on November 5, 2015, and does not constitute “evidence” of such a
+condition.
+25.
+
+The Federal Aviation Administration (“FAA”) requires that red flashing aircraft
+
+warning lights be visible on the top of wind turbines for a distance of 3.1 miles. (R0919.)
+RESPONSE:
+
+sPower does not dispute that FAA imposes lighting requirements
+
+applicable to wind project turbines.
+26.
+
+To mitigate Light, Tracy Livingston of Wasatch Wind, the original developer,
+
+committed to install radio-controlled dark sky lighting (“Dark Sky Technology”) on the towers at
+the Wind Facility. (R0063-0064.)
+
+14
+
+RESPONSE:
+
+sPower disputes NMA’s claim that Wasatch Wind made any such
+
+commitment. Further, R0063-0064 does not cite to evidence in support of such a claim. The
+portion of the record cited by NMA references its own arguments made by NMA members Mike
+Cole and Dan Bingham during the appeal hearing before the County Commission on November
+10, 2015.
+
+Further, statements made by Mike Cole and Dan Bingham do not refer to any
+
+commitment by Wasatch Wind to implement specific technology on every wind turbine.
+27.
+
+Dark Sky Technology uses radar technology to control the red flashing aircraft
+
+warning lights on 500-foot-tall Turbines so that they are only turned on when an aircraft is in the
+area, instead of all night. (Id.)
+RESPONSE:
+
+sPower disputes that “Dark Sky Technology” was a condition of the
+
+CUP. There is no evidence in the record to suggest that the technology was commercially viable at
+the time the CUP was issued or even when the FAA approved Latigo’s turbine lighting plan, likely
+because the reality is that the technology was not commercially viable when the CUP was issued or
+when the FAA approved Latigo’s plan.
+
+NMA testimony cited at R0063-R0064, asking the
+
+Planning Commission to impose Dark Sky technology, does not evidence any such condition. The
+CUP did require that sPower implement dark sky recommendations, not technology, at its
+substation. R0751. sPower went beyond dark sky recommendations however, requiring that all
+substation lighting remain off at night. R1608-1609.
+28.
+
+Michelle Stevens of Wasatch Wind committed to the Planning Commission on
+
+October 4, 2012, to “select FAA approved lighting for towers that minimizes impact to the
+surrounding area” and to “work with the best technology that we can.” (R0787.)
+RESPONSE:
+
+Not Disputed.
+
+15
+
+29.
+
+sPower uses Dark Sky Technology at sPower’s Pioneer Wind Park in Glenrock,
+
+Wyoming, (R0064-0065), however, sPower’s plan for the Wind Facility failed to incorporate Dark
+Sky technology.
+RESPONSE:
+
+sPower disputes that the record cited above evidences that sPower used
+
+Dark Sky Technology at Pioneer Wind Park. Again, NMA cites its own unfounded statements
+made before the County Commission as evidence of sPower’s CUP conditions and CUP
+noncompliance. R0064-R0065 references Dan Bingham’s confused statements regarding dark sky
+technology and OCAS technology. This statement is inadmissible.
+30.
+
+Consequently, the red flashing aircraft warning lights on 500-foot-tall Turbines
+
+flash continually throughout the night and can be seen for a distance of at least 3.1 miles.
+RESPONSE:
+
+sPower cannot provide a response to this statement. NMA does not
+
+identify a project to which it is referring. To the extent a response is required, sPower disputes this
+statement. Lighting on the turbines at Latigo is regulated and required by the FAA.
+31.
+
+Further, sPower’s representation that it had mitigated detrimental Light as much as
+
+possible by negotiating with the FAA to reduce the number of Turbines required to be lit from 27 to
+14 is belied by Wasatch Wind’s Supplemental Statement in Support of the Conditional Use Permit
+Application for the Latigo Wind Park dated September 28, 2012, which acknowledges that the FAA
+does not typically require that all turbines be lit – it typically requires only that turbines on the
+perimeter be lit. (R0919.) There is no evidence in the record of any negotiations or agreements
+with the FAA to reduce turbine lighting – only arguments of counsel.
+RESPONSE:
+
+sPower disputes NMA’s claims that no negotiations with FAA occurred.
+
+sPower worked diligently with FAA to meet safety requirements. While FAA requirements may
+vary depending on the project, FAA’s practice to work with project owners to meet these
+16
+
+requirements does not negate sPower’s coordination with FAA to minimize lighting impacts to
+neighboring residents and business owners.
+32.
+
+With respect to Sound, Latigo had considered turbines with sound power ratings
+
+ranging between 105 and 107.5 decibels. (R0589, R0921.)
+RESPONSE:
+
+Disputed. Wasatch Wind considered turbine technology including, but
+
+not limited to turbines with sound power ratings between 105 and 108 dBA. R0921
+33.
+
+sPower ultimately selected a GE 2.3 MW Turbine with a sound power rating of
+
+107.5 decibels – the highest rating of any turbine previously under consideration, and within
+rounding of sPower’s 108dB “worst case scenario.” (R0061, R1607, R1631.)
+RESPONSE:
+
+Disputed. sPower considered a number of turbine technologies for the
+
+Latigo Wind Project. sPower selected the GE 2.3 MW turbine because, among other reasons, the
+turbines’ sound level was less than those previously studied by Wasatch Wind. R1607. Further,
+by selecting the GE 2.3 MW turbine, revised sound studies show that sound levels were reduced
+across all affected parcels by 1 decibel. Id.
+34.
+
+GE offers a low noise blade for the GE 2.3 MW Turbine that would have decreased
+
+the sound level to 105 decibels; however, sPower failed to use the low noise blade. (R0061.)
+RESPONSE:
+
+Disputed.
+
+Turbine technology is evolving at a rapid pace.
+
+Turbine
+
+technology used to construct the Latigo Wind Project was selected based on technology available
+at the time and appropriate for the Project. Further, the latest turbine technology for GE 2-2.5 MW
+turbines have a sound level ranging between 105 and 107.5 dBA. General Electric 2.3 MW wind
+turbines installed by sPower also have a sound power level rating between 105-107.5 dBA.
+Further, in selecting a turbine technology for the Latigo project, sPower considered all impacts,
+including noise, flicker and light to neighboring businesses and residences.
+17
+
+35.
+
+The Amended CUP and its requirement of mitigating the detrimental effects of
+
+Flicker, Light, Sound, and Ice Throw were based on specifically approved Turbine sites subject
+only to “micrositing." (R1651.) A map showing the approved Turbine locations and the
+constructed Turbine locations is attached as Exhibit A.
+RESPONSE:
+turbine sites.
+
+Disputed. The CUP did not require construction based on pre-approved
+
+The only conditions imposed under the CUP is that the project owner would
+
+implement “as much flicker, light, and sound mitigation as possible.” The CUP does not require
+that turbines be built in specific locations. NMA’s citation to R16051 is to a map prepared by
+NMA that was submitted to the County Commission on November 5, 2015. sPower disputes the
+map’s accuracy. Further, NMA failed to argue that there is any “micrositing” condition in the CUP
+in proceedings before Planning Commission or the County Commission. This is the first instance
+in which NMA has claimed that turbine siting is a condition of the CUP. NMA’s argument is a
+legal one that is not supported by the record and is precluded from consideration by this court on
+appeal.
+36.
+
+However, when sPower began the construction of the Wind Facility, several
+
+Turbines were relocated substantially closer to the NMA Property, increasing the detrimental
+effects of Flicker, Light, Sound, and Ice Throw to the NMA Property. (R1634, 1638.)
+RESPONSE:
+
+As discussed below, there is no evidence of detrimental impacts to NMA
+
+property. Page R1634 references unfounded allegations made by NMA in its November 5, 2015,
+appeal to the San Juan County Board. Page R1638 references the same appeal letter. This letter is
+not evidence. At best it represents NMA’s repeated attempt to lob unfounded allegations against
+sPower. Evidence on the record demonstrates that there are no detrimental impacts to NMA
+property. The Latigo project is harmonious with neighboring uses. R0750. The project is not
+18
+
+detrimental to health, safety or general welfare. Id. The project is not injurious to property or
+improvements in the vicinity. Id. All light, flicker, and sound mitigation has been performed as
+required under the CUP. R0002-R004. sPower also disputes that the turbines “were relocated
+substantially closer to the NMA Property,” particularly as “evidence” relied upon at R1638 is not a
+certified map. NMA has not demonstrated how sPower’s turbine location has any detrimental
+effect to the existing use under San Juan County Code and Utah Code.
+37.
+
+A Noise Contour Map prepared in December of 2013 as part of the Revised Wind
+
+Turbine Sound Assessment for Latigo Wind Park dated December 23, 2013, demonstrates that,
+with the new Turbine locations, the sound levels from the Vestas turbines under consideration in
+2013 were over 55 decibels on four lots in two different areas of the NMA Property. (R0600.) The
+Noise Contour Map is attached as Exhibit B.
+RESPONSE:
+
+sPower disputes that the “Updated Noise Study Map” shows sound levels
+
+exceed 55 dB. There is no evidence that sound levels exceed 55 dB on NMA’s property. The map
+depicted at R1793 was prepared in 2013. That map shows that sound levels on NMA property
+reach a maximum level of 55 dB, but do not exceed 55 dB. R1793. Moreover, this study was
+updated on July 28, 2015. R0641. The updated study shows that the project is 1 dB quieter than
+the design studied in 2013. Id. Sound levels on NMA property, therefore, do not exceed 55 dB.
+Id. NMA has not presented any evidence demonstrating that sound exceeds 55 dBA on any
+member’s property.
+38.
+
+The Updated Noise Study Map does not, however, analyze the effects of the GE 2.3
+
+MW Turbines that are currently used in the Wind Farm. (R1793.)
+
+19
+
+RESPONSE:
+
+Disputed. The Updated Noise Study and Noise Study Map assumed
+
+sound power levels of 107.5 DBA, the maximum sound power level of GE 2.3 MW turbines.
+R0641.
+39.
+
+The relocation of the Turbines closer to NMA Property created an Ice Throw
+
+danger on the NMA Property and increased the Ice Throw danger to County Road 196. (R1638.)
+RESPONSE:
+
+Disputed: There is no evidence that turbine relocation created an “Ice
+
+Throw danger” on undeveloped, and uninhabitable property owned by NMA members that is
+largely inaccessible in the winter. Again, the portion of the record, at R1638, cited by NMA
+references its own unsubstantiated claims made in its November 5, 2015, appeal letter submitted to
+the County Commission. NMA’s claims do not constitute a statement of fact or evidence.
+40.
+
+On August 13, 2015, after NMA and its Members complained that sPower had not
+
+mitigated the negative impacts as much as possible, the Planning Commission voted to hold a
+hearing on September 9, 2015, to determine whether the Amended CUP should be revoked due to
+sPower’s failure to comply with the mitigation conditions of the Amended CUP. (R0032.)
+RESPONSE:
+41.
+
+Undisputed.
+
+Zoning Ordinance 6-10 provides for the revocation of conditional use permits if any
+
+conditions of the CUP are not observed: A conditional use permit shall be revocable by the
+Planning Commission at any time due to failure of the permittee to observe any condition specified
+or failure to observe other requirements of this Ordinance in regard to the maintenance and
+improvements or conduct of the use or business as approved. The County shall also have a right of
+action to compel offending structures or uses to be removed at the cost of the violator or owner.
+
+20
+
+RESPONSE:
+
+San Juan County Zoning Ordinance 6-10 speaks for itself.
+
+sPower
+
+disputes any statement or representation made by NMA that is inconsistent with the language
+contained therein..
+42.
+
+The Planning Commission convened a Public Hearing on September 9, 2015.
+
+(R0578–0579.)
+RESPONSE:
+
+Undisputed that the Planning Commission held a hearing on September
+
+9, 2015.
+43.
+
+Notwithstanding its stated intent to have sPower answer questions of NMA and its
+
+Members at the Public Hearing on the revocation of the Amended CUP, the Planning Commission,
+refused to allow the NMA or its Members to speak or present any verbal testimony, argument, or
+written evidence to the Planning Commission during the Public Hearing. (R0568-0569.)
+RESPONSE:
+
+sPower disputes that the Commission “refused to allow NMA or its
+
+Members to speak.” There is no evidence that NMA or its members attempted to speak at the
+September 9, 2015 hearing. NMA had already raised its questions and presented whatever
+evidence it had to the planning commission in filing its complaint in August 2015. The September
+9th hearing was a Revocation Hearing held under San Juan County Ordinance, Sec. 6-10. A
+Revocation hearing’s sole purpose is to investigate a permittees compliance with conditions
+imposed under a CUP. Under Sec. 6-10, only the permittee is allowed to present evidence of CUP
+compliance.
+
+Moreover, the portion of the record cited by NMA at R0569 does not demonstrate
+
+that the purpose of the hearing was to provide NMA with another opportunity to make unsupported
+allegations as to the conditions of the Latigo CUP and sPower’s CUP compliance. Rather, it
+merely demonstrates that the September 9th hearing was a revocation hearing.
+
+21
+
+44.
+
+NMA was precluded from offering and arguing evidence regarding sPower’s
+
+failures to observe the conditions of the Amended CUP, including: (a) sPower’s failure to mitigate
+Light by failing to implement Dark Sky Technology, moving Turbines closer to the NMA Property,
+and failing to “work with the best technology that we can”; (b) sPower’s failure to mitigate Sound
+by selecting the Turbine with the highest sound power rating of any Turbines it considered, failing
+to use the low noise blade offered by GE, and moving the Turbines closer to the NMA Property; (c)
+sPower’s failure to mitigate Flicker on the NMA Property by moving Turbines closer to the NMA
+Property; (d) sPower’s failure to mitigate Ice Throw by moving Turbines closer to the NMA
+Property and to County Road 196; (e) sPower’s failure to provide any financial mitigation to
+NMA, as required by the Amended CUP. (R0093-0096.)
+RESPONSE:
+
+Disputed. To date, NMA has not presented any such evidence and there
+
+is no reason to believe that such evidence exists. Further, NMA was not precluded from presenting
+evidence. NMA had the opportunity to present evidence of CUP violations or noncompliance with
+its “Complaint” allegedly submitted to the Planning Commission on August 13, 2015. NMA did
+not submit any such evidence with its Complaint. Further, NMA did not attempt to provide such
+evidence to the Planning Commission prior to the September 9, 2015 hearing. And, NMA did not
+attempt to provide any such evidence during or after that Planning Commission meeting. Simply
+put, the only reason NMA may have been “precluded” from providing evidence of sPower’s
+alleged CUP noncompliance is because NMA does not have any such evidence.
+45.
+
+After hearing evidence presented by sPower, the Planning Commission postponed
+
+making any ruling on whether to revoke the Amended CUP until September 14, 2015, so
+“additional information” could be reviewed. (R0578–0579.)
+RESPONSE:
+
+Undisputed.
+22
+
+46.
+
+On September 14, 2015, the Planning Commission, again without allowing NMA or
+
+its Members to participate by presenting evidence and testimony, voted not to revoke the Amended
+CUP (the “P&Z Decision”). (R0581.)
+RESPONSE:
+
+Undisputed that the Planning Commission concluded sPower complied
+
+with the Amended CUP.
+47.
+
+The Planning Commission failed to identify what “additional information,” if any,
+
+it reviewed between September 9, 2015, and September 14, 2015. In fact, the Planning Commission
+failed to identify any evidence upon which it relied. (R0581.)
+RESPONSE:
+
+Although immaterial (for reasons discussed below), the Planning
+
+Commission’s decision is explained in its minutes.
+48.
+
+The Planning Commission failed to make detailed findings of fact or conclusions of
+
+law regarding (a) whether sPower had mitigated Flicker, Light, Sound and Ice Throw “as much as
+possible”; (b) whether sPower had provided any financial mitigation to NMA Members; and (c)
+whether sPower’s relocation of the Turbines was consistent with Zoning Ordinance § 6-4, which
+requires that a conditional use, such as the Wind Facility, not “be detrimental to the health, safety
+or general welfare of persons residing or working in the vicinity, or injurious to property or
+improvements in the vicinity as much as possible.” (R0578-0579, R0581.)
+RESPONSE:
+
+Disputed. The Planning Commission issued a written brief outlining its
+
+rationale for its decision not to revoke sPower’s CUP. Further, a representative of the Planning
+Commission addressed the County Commission. As described below, the Planning Commission is
+not subject to the requirements of McElhaney v. City of Moab, 2017 UT 65, ---P.3d---.
+RESPONSE:
+
+In fact, the Planning Commission failed to issue a written decision or
+
+make any express findings of fact or conclusions of law. (R0003, R0581).
+23
+
+RESPONSE:
+
+Disputed. The Planning Commission issued a written brief outlining its
+
+rationale for its decision not to revoke sPower’s CUP. Further, a representative of the Planning
+Commission addressed the County Commission.
+
+As described further below, the Planning
+
+Commission is not subject to the requirements of McElhaney v. City of Moab, 2017 UT 65, --P.3d---.
+49.
+
+By letter dated September 23, 2015, after the Planning Commission had already
+
+made the P&Z Decision, sPower, through its counsel Sean McBride, submitted Flicker, Light, and
+Sound studies to Greg Adams of the County Building Department, who had already issued
+sPower’s building permit a year and a half earlier, without confirming that sPower was in
+compliance with any of the conditions of the Amended CUP. (R1605-1612, R0085.)
+RESPONSE:
+
+Disputed. The letter dated September 23, 2015, was submitted to San
+
+Juan County Attorney Kendall Laws, not Greg Adams. The letter was provided to the County
+Attorney, to summarize reports and evidence presented to the County by sPower during the
+compliance hearing held on September 9, 2015. Further, sPower restates that it did not own Latigo
+when the building permit was obtained; it did not purchase Latigo until June 1, 2015.
+50.
+
+There is nothing in the record to demonstrate that the Planning Commission
+
+considered the Flicker, Light and Sound studies submitted by Mr. McBride in making the P&Z
+Decision. (R0018.) The Planning Commission failed to identify any documents upon which it
+relied. (R0581.)
+RESPONSE:
+
+Disuted: The Planning Commission considered studies submitted by Sean
+
+McBride, sPower’s general counsel. Planning Commission Minutes from September 9, 2015 state
+that the Planning Commission considered “studies [that] were done related to sound flicker and
+
+24
+
+light.
+
+Thresholds were determined and affected lands were indicated.” R0578-R0579.
+
+“Mitigation for lands affected was determined and compensation amounts decided.” Id.
+51.
+
+On October 13, 2015, NMA timely appealed the P&Z Decision (“NMA’s 2015
+
+Appeal”). (R1629–1825.) On December 2, 2015, the Commission issued its Final Written Decision
+pursuant to Utah Code Ann. § 17-27a-708. (R0030–0042).
+RESPONSE:
+
+sPower does not dispute that NMA appealed the Planning Commission’s
+
+September 14, 2015 decision.
+
+52.
+
+The Final Written Decision reversed the Planning Commission’s decision not to
+
+revoke the Amended CUP, remanded consideration of revocation of the Amended CUP back to the
+Planning Commission, and instructed the Planning Commission to allow NMA to provide evidence
+to the Planning Commission in support of the revocation of the Amended CUP and require sPower
+to submit evidence that it had met the mitigation requirements of the Amended CUP. (R0030–
+0042.) The Final Written decision is attached as Exhibit C.
+RESPONSE:
+
+sPower disputes that the County Commission issued any document entitled
+
+as a “Final Written Decision.” On November 23, 2015, the County Commission issued a “Written
+Decision.”
+
+R0030-R0042.
+
+That decision entirely failed to acknowledge or consider substantial
+
+evidence provided by sPower demonstrating CUP compliance.
+
+53.
+
+The Final Written Decision further noted the “technical aspect of [the Flicker,
+
+Light, and Sound] condition” and “observe[d] that whether s*Power is satisfying it might be
+beyond the skill and knowledge of the Commission and the County Planning and Zoning
+Department staff.” (R0036.) Accordingly, the Final Written Decision further instructed the
+Planning Commission to, “if it considers it helpful and necessary, retain appropriate expert
+
+25
+
+assistance to evaluate whether s*Power is complying with the condition to mitigate sound, light,
+and flicker as much as possible.” (R0036.)
+RESPONSE:
+
+sPower does not dispute that because the Written Decision failed to
+
+consider any form of the record or evidence presented by sPower to the Planning Commission of
+sPower’s CUP compliance, the Written Decision erroneously concluded that there was no such
+evidence. See R0002-R0004.
+54.
+
+The Final Written Decision specifically stated that “any person aggrieved by this
+
+written decision shall have thirty days from its issuance to file a petition for review with the district
+court” pursuant to Utah Code §§ 17-27a-708 and -801(2)(a). (R0041.)
+RESPONSE:
+
+The Written Decision speaks for itself. sPower denies any allegations
+
+contained in paragraph 54 that are inconsistent with or misconstrue the statements in the Written
+Decision.
+55.
+
+On December 3, 2015, the day after the issuance of the Final Written Decision,
+
+sPower, through counsel, sent an ex parte letter (the “Request for Reconsideration”) to the
+Commission threatening a $100 million damage claim against the County and demanding that the
+Commission reconsider and amend the Final Written Decision. (R0025–0029.)
+RESPONSE:
+
+sPower denies that it threatened legal action unless the County amended
+
+its Written Decision. sPower requested that the County Board consider the evidence already on
+record. The County Board determined that it erred when it stated that sPower did not present
+evidence of compliance in its Written Decision. R0002. The County granted sPower’s request to
+correct a highly prejudicial mistake of not examining mitigation evidence.
+56.
+
+On December 7, 2015, the Commission, in a closed executive session, reconsidered
+
+the Final Written Decision, although neither Utah Code nor County Ordinance provide for
+26
+
+reconsideration. (R0002.) On December 8, 2015, the Commission issued an “amendment” to the
+Final Written Decision (“Amended Decision”). (R0001–0006.)
+RESPONSE:
+
+sPower does not dispute that on December 7, 2015, the County Board
+
+met in executive session and considered sPower’s mitigation evidence that the County Board had
+originally missed, demonstrating sPower’s compliance with the Latigo CUP conditions. The
+remaining allegations call for legal conclusions that are addressed below.
+57.
+
+The Amended Decision reversed the Final Written Decision and upheld “the
+
+Planning Commission’s decision in its entirety,” depriving NMA of any opportunity to present
+evidence and testify to the Planning Commission on why the Amended CUP should be revoked.
+(R0002.)
+RESPONSE:
+
+sPower admits that the Amendment to the Written Decision corrected
+
+errors in the Written Decision and upheld the Planning Commission’s September 14, 2015
+decision. R0002. sPower disputes that NMA was deprived of any opportunity to present evidence
+and testify to the Planning Commission.
+58.
+
+NMA timely appealed the Amended Decision to the Seventh District Court in and
+
+for San Juan County by filing a Complaint and Petition for Judicial Review, Case No. 160700001,
+on January 7, 2016. The parties, including sPower as intervenor, subsequently filed competing
+motions for summary judgment, based solely on the record on appeal.
+RESPONSE:
+
+sPower does not dispute that NMA filed an appeal with the Seventh
+
+District Court. The remaining allegations call for legal conclusions.
+59.
+
+On September 9, 2016, the District Court entered its Memorandum of Decision on
+
+the August 30, 2016 Hearing (“Memorandum Decision”), holding that, while the Amended
+Decision appeared to be supported by substantial evidence, the Amended Decision was illegal
+27
+
+because the County violated NMA’s due process rights by denying NMA the opportunity to be
+heard prior to issuing the Amended Decision.
+RESPONSE:
+60.
+
+Not disputed.
+
+The District Court issued a judgment, and a subsequent Amended Judgment,
+
+vacating the Amended Decision and remanding the matter to the Commission, rather than the
+Planning Commission, for “proceedings consistent with the Court’s [Memorandum] Decision.”
+RESPONSE:
+
+Not Disputed. sPower would like to clarify that the “matter” remanded
+
+was the Commission’s consideration and decision on sPower’s request for reconsideration.
+Remand did not allow NMA to relitigate the entire case.
+61.
+
+By letter dated November 14, 2016, the County gave notice of a hearing to be
+
+convened on December 5, 2016. (R2204-05.)
+RESPONSE:
+
+sPower does not dispute that by letter dated November 14, 2016, the
+
+County issued notice of a rehearing before the County Commission. R2204-R2205.
+62.
+
+The Commission convened the hearing on January 3, 2017, at which time NMA was
+
+permitted to present only argument on evidence already in the record. NMA was not permitted to
+present any new evidence in rebuttal of sPower’s false representations or evidence of sPower’s
+continuing failures to comply with the Amended CUP. (R1834.)
+RESPONSE:
+
+sPower disputes the assertion that NMA’s was not permitted to present
+
+additional evidence or argument not already on the record. NMA had the opportunity to present
+evidence to the County Commission in its pre-hearing brief filed on December 23, 2017, and
+during oral argument before County Commission on January 3, 2017. For the first time NMA
+presented a chart identifying distances between turbines and NMA property lines. NMA counsel
+presented the County Commission with a handout for the first time. R1834.
+28
+
+63.
+
+NMA was also prohibited from making arguments regarding sPower’s failure to
+
+satisfy the Amended CUP conditions other than the requirement to provide “as much flicker, light,
+sound mitigation as possible.” (R1834.)
+RESPONSE:
+
+sPower disputes that NMA was prohibited from or failed to make such
+
+arguments. The record shows that NMA did make such arguments. On January 3, 2017, NMA
+counsel argued that NMA property was impacted by ice throw. R1849. NMA counsel also
+presented argument to the Commission in which he alleged the CUP required that sPower purchase
+NMA property. R1884-1868. Further, on December 23, 2017, NMA provided the Commission
+with a brief in which it argued that sPower was in violation of its CUP because sPower did not
+purchase NMA property. R2099-2101. NMA also argued that sPower did not mitigate impacts of
+ice throw. R2098-R2099. sPower disputes that the Amended CUP includes “conditions other than
+the requirement to provide as much flicker, light, [and] sound mitigation, as possible.”
+64.
+
+On February 21, 2017, the Commission issued the Remand Decision, which vacated
+
+the Final Written Decision, and affirmed the P&Z Decision. (R1836.)
+RESPONSE:
+
+sPower does not dispute that on February 21, 2017, the Commission
+
+unanimously issued a decision that found its Written Decision was issued in error because it failed
+to consider substantial evidence on the record demonstrating sPower’s compliance with the
+requirements of its Amended CUP.
+65.
+
+The Commission considered no current evidence of sPower’s failure to comply with
+
+all the conditions of the Amended CUP. The Commission made no detailed findings of fact or
+conclusions of law regarding any “substantial evidence” supporting the P&Z Decision.
+
+29
+
+RESPONSE:
+“failure to comply.”
+
+sPower disputes that there is any “current evidence” that demonstrates a
+NMA has not cited to or presented any such evidence.
+
+NMA’s bare
+
+assertions alleging sPower’s noncompliance are not evidence.
+66.
+
+Nevertheless, the Commission concluded that, in light of unidentified record
+
+evidence, some which would have been nearly two years old, sPower “has and is meeting the
+Latigo CUP’s conditions.” (R1835.)
+RESPONSE:
+
+sPower disputes that the Commission’s conclusion was based on an
+
+“unidentified record of evidence.” The record before the Commission is clearly identified and
+provided to this court. R0001-R1826. In fact, in briefing provided to the County Commission on
+remand, NMA cites to evidence in the record and provided additional information. R2090-R2103.
+III.
+
+SUMMARY JUDGMENT STANDARD
+“A district court should grant summary judgment only when, viewing all facts and
+
+reasonable inferences therefrom in the light most favorable to the nonmoving party, there is no
+genuine issue as to any material fact and … the moving party is entitled to a judgment as a matter
+of law.” Suarez v. Grand County, 2012 UT 72, ¶18 (quoting Morra v. Grand Cnty., 2010 UT 21,
+12). Where the moving party would bear the burden of proof at trial, the movant must establish
+each element of his claim in order to show that he is entitled to judgement as a matter of law.
+Orvis v. Johnson, 2008 UT 2, ¶10, 177 P.3d 600.
+In an appeal of a county’s land use decision, “[t]he courts shall: (i) presume that a decision,
+ordinance, or regulation made under the authority of this chapter is valid; and (ii) determine only
+whether or not the decision, ordinance, or regulation is arbitrary, capricious, or illegal.” Fuller v.
+Springville City, 2015 UT App 177, ¶ 17 (quoting Utah Code Ann. §17-27a-801(3)(a)). A decision
+is valid if it is supported by substantial evidence in the record and is not arbitrary, capricious, or
+30
+
+illegal. Utah Code Ann. §17-27a-801(3)(a). Substantial evidence is defined as “that quantum and
+quality of relevant evidence that is adequate to convince a reasonable mind to support a
+conclusion.” Bradley v. Payson City Corp., 2003 UT 16, ¶ 10. A determination of illegality
+requires a determination that the decision violates a law, statute or ordinance at the time the
+decision was made. Utah Code Ann. §17-27a-801(3)(d). “Because a determination of illegality is
+based on the land use authority’s interpretation of zoning ordinances, [courts] review such
+determinations for correctness, but we ‘also afford some level of non-binding deference to the
+interpretation advanced by’ the land use authority.” Fox v. Park City, 2008 UT 85, ¶ 11 (quoting
+Carrier v. Salt Lake County, 2004 UT 98, ¶ 17).
+IV.
+
+ARGUMENT
+The Court must deny NMA’s Motion for the reason that NMA cannot meet its burden of
+
+proving the County Commission’s decision was arbitrary and capricious. In fact, the record
+supports the opposite conclusion—that the County Commission’s decision was well reasoned and
+based on substantial evidence.
+Notwithstanding binding decisions previously rendered by this Court and the County
+Commission during the course of NMA’s successive appeals, NMA’s Complaint and Motion
+attempt to relitigate claims and factual allegations as matters of first impression. Many of NMA’s
+allegations are either outside the scope of this review, or have already been rejected by the County
+Commission and this Court. Further, sPower disputes facts and legal conclusions put forward by
+NMA. In this case there is a fundamental dispute between NMA and sPower as to (1) facts alleged
+by NMA; (2) the “final decision” actually on appeal; (3) the appellate authority of the County
+Commission; (4) the issues decided by the County Commission on remand; (5) the scope of the
+
+31
+
+District Court’s appellate review; (6) and, the District Court’s authority to provide the relief
+requested by NMA.
+A.
+
+The County Commission’s Remand Decision issued on February 21, 2017,
+is not Arbitrary or Capricious.
+
+Citing McElhaney v. Moab, NMA claims that the County Commission’s written decision
+issued on February 21, 2017, was arbitrary and capricious because the Planning Commission did
+not issue a written decision that included “findings of fact and conclusions of law.” 2017 UT 65.
+NMA disingenuously alleges, for the first time, that absent a written decision from the Planning
+Commission “the [Board] did not know what documents the Planning Commission consulted when
+it made the P&Z Decision, much less what the rationale for that decision was.” NMA Motion, at
+page 14.
+
+NMA claims that under the holding in McElhaney the Planning Commission was
+
+required to issue a written decision “supporting its decision not to revoke sPower’s Amended
+CUP.” Id. at 15. Absent a written decision from the Planning Commission, NMA argues that the
+County Commission did not have the authority to hear NMA’s own appeal and to issue a decision.
+Id. Rather, NMA contends that the County Commission was required to remand the matter back to
+the Planning Commission and require that the Planning Commission issue a written order
+including “findings of fact and conclusions of law capable of appellate review.” Id. at 15. Until
+September 29, 2017, NMA never expressed a concern that the Planning Commission’s decision
+was flawed because it was not, allegedly, described in sufficient detail.
+NMA’s claim misconstrues the holding in McElhaney, disregards the facts on the record,
+and undermines the County Commission’s appellate authority under Utah Code Ann. §17-27a-701.
+Moreover, NMA’s claim is oblivious to the fact that the County Commission’s decision, which is
+the subject of this appeal, is entirely consistent with McElhaney. The County Commission’s final
+32
+
+written decision includes specific findings of facts and conclusions of law that are supported by
+substantial evidence.
+1.
+
+NMA Failed to Preserve Any Argument Regarding the Sufficiency of the
+Planning and Zoning Commission’s September 14, 2015 Decision.
+
+To be able to pursue an issue on appeal, a litigant must preserve the alleged error for appeal
+by presenting it to the lower court or tribunal. “To provide the court with this opportunity, ‘the
+issue must be specifically raised [by the party asserting error], in a timely manner, and must be
+supported by evidence and relevant legal authority.’” State v. Johnson, 2017 UT 76, ¶15 (citation
+omitted); see also O’Dea v. Olea, 2009 UT 46, ¶ 18 (To preserve an issue: “(1) the issue must be
+raised in a timely fashion; (2) the issue must be specifically raised; and (3) a party must introduce
+supporting evidence or relevant legal authority.” (citation omitted)); Wilson v. Hodel, 758 F.2d
+1369, 1372–73 (10th Cir. 1985) (“absent exceptional circumstances, a reviewing court will not
+consider contentions which were not pressed upon the administrative agency.” (citation omitted)).
+Here, NMA did not argue, prior to the September 21, 2017 issuance of McEhaney, that the
+Planning and Zoning Commision’s decision was defective because it was not in writing or did not
+contain sufficient explanation of the facts and law to allow for meaningful appellate review. See
+e.g. Compl., ¶¶ 74-86. NMA has, therefore, failed to preserve the issue for appeal. The recent
+issuance of McElhaney does not provide NMA a blank check to make new arguments at this stage
+of the proceedings. If NMA truly had a concern with the format or content of the Planning and
+Zoning Commission’s decision, it had an obligation to raise those concerns with its appeal to the
+County Commission in 2015, not two years after the fact.
+2.
+
+The “final decision” at issue in this proceeding is County Commission’s
+Amended Written Decision on Remand, not the Planning Commission’s
+CUP revocation determination.
+33
+
+McElhaney does not establish any bright line rule applicable to all land use decisions.
+Rather, the scope McElhaney is limited to final land use decisions on appeal before the District
+Court under Utah Code Ann. §§ 10-9a-801 and 17-27a-801. Under §17-27a-801, the District
+Court may only review a “final decision” that is brought after administrative remedies have been
+exhausted. A “final decision” is a written decision issued by a county appeal authority designated
+under §17-27a-707. The McElhaney Court determined that the “[a] final decision of a land use
+authority or an appeal authority is valid if the decision is supported by substantial evidence in the
+record and is not arbitrary, capricious, or illegal.” 1
+The McElhaney case largely turns on the fact that the Moab City Council decision to deny
+McElhaney’s CUP was the only decision and the “final decision” reviewed by the District Court.
+In McElhaney, the “final decision” consisted of council members’ “yay” or “nay” votes announced
+at the conclusion of a public hearing. Municipal Code implemented by Moab City does not
+establish a municipal appeal authority. As the Court is likely aware, Moab’s zoning ordinance
+identifies the City Council’s decision on the CUP as the City’s “final decision” that “may be
+appeal[ed] to the Grand County District Court.” MOAB, UTAH, MUN. CODE §17.09.530(M)(1).
+After being denied a CUP by a 3 to 1 vote, McElhaney did not have the ability to appeal the City
+Council’s decision to a municipal appeal authority. Unlike the Petitioners in this case, McElhaney
+did not have the benefit of further review or fact-finding under a municipal appeal process that
+must be exhausted before seeking remedies from the Court.
+
+1
+
+sPower also notes another distinction between this case and McElhaney. In McElhaney, Moab denied the applicants’
+ability to use their property in a way contemplated by Moab’s land use ordinance, subject to issuance of a conditional
+use permit, while the decision subject to review here allows sPower (and other long time land owners) to use their
+property as they see fit and as allowed by the County Ordinance. Denying a land owner of a permitted use, as in
+McElhaney, is inherently different than allowing the use with specified conditions, as is the case here.
+
+34
+
+In this case, however, the “final decision” under review is issued by San Juan County’s
+appeal authority, the County Commission.
+
+Here, San Juan County Code vests the Planning
+
+Commission, not the County Commission, with the authority to revoke a Conditional Use Permit
+(“CUP”) at any time after the permittee has been given notice and an opportunity for hearing.
+Section 6-10. “Upon conclusion of the hearing, the Planning Commission shall determine whether
+the permit should be revoked.” Id. But, the Planning Commission’s determination is not a “final
+decision” subject to District Court review. Before seeking review before the District Court,
+aggrieved parties are required to appeal the Planning Commission’s decision to the County
+Commission. Only the County Commission may issue a “final decision” subject to District Court
+review. “The decision of the Board of County Commissioners may be appealed to the District
+Court.” Section 6-7.
+The issue to be decided by this court is whether or not the County Commission’s final
+decision issued on February 21, 2017 includes findings of fact and conclusions of law supported by
+substantial evidence. The Planning Commission’s compliance determination is, rightfully, part of
+the record informing this Court’s review, it is not the “final decision” under review. Therefore, the
+Planning Commission determination is not a “final decision” subject to the requirements in
+McElhaney and under the jurisdiction of this Court’s review.
+In determining the scope of the court’s appellate review under Titles 10 and 17 of the Utah
+Code, the Court in McElhaney examined the holding in Utah Physicians for a Heathly Env’t v.
+Exec. Dir. Of the Utah Dep’t of Envtl. Quality, 2016 UT 49, 391 P.3d 14. In Utah Physicians, the
+Utah Supreme Court was presented with two decisions: (1) a permit decision issued by the
+Director of the Utah Division of Air Quality (“UDAQ”); and (2) a final order issued by the
+Executive Director of the Utah Department of Environment Quality (“UDEQ”) upholding that
+35
+
+permit decision on administrative appeal. The petitioners in Utah Physicians claimed that the
+Executive Director’s final order was arbitrary and capricious because the underlying agency action,
+UDAQ’s permit decision, was “legally insufficient.”
+
+The petitioners claimed that factual
+
+determinations made by the UDAQ were not supported by substantial evidence and that the
+Executive Director’s final order affirming UDAQ’s determinations was, by extension, arbitrary
+and capricious.
+In dismissing the petitioner’s action, the Utah Physicians Court held that it is statutorily
+bound to review the UDEQ’s final order, not the initial permit decision issued by UDAQ. The
+Court held that it “does not go back to before the final order ... to reconsider the actions of the
+[UDAQ].” Id. at ¶32. The court refused to “undertake an independent evaluation of the [UDAQ]’s
+permitting decision based on the administrative record.” Id. at ¶17. The court concluded that it
+was authorized, however, to review the final order of the UDEQ and that alleged legal
+insufficiencies of the permit decision upheld by the UDEQ’s order were irrelevant to its review. Id.
+at ¶18.
+Like the petitioners in Utah Physicians, NMA claims that this court should “go back before
+the final order” and invalidate the County Commission’s final decision based on alleged
+deficiencies in the Planning Commission’s actions. NMA claims that even though the County’s
+decision is based on substantial evidence on the record, this Court should determine it is arbitrary
+and capricious because it is based on “an unwritten and unsupported P&Z Decision.” This is
+contrary to McEhaney and Utah Physicians.
+The Court must reject NMA’s claims based on the holdings in Utah Physicians and
+McElhaney. This Court, like the court in Utah Physicians, does not have the authority to disregard
+the County Commission’s Decision.
+
+Pursuant to Utah Code Ann. §17-27a-707, the County
+36
+
+Commission’s decision is the “final decision.” The Court’s authority is limited to reviewing “final
+decisions” under Utah Code Ann. §17-27a-801. To disregard such a final decision violates the
+appeal process under Title 17, Part 7 and would put this Court well outside the jurisdictional limits
+established by the state legislature under Part 8.
+3.
+
+The County’s Final Written Decision satisfies requirements put forward in
+McElhaney
+
+Under the standard articulated in McElhaney, land use authority’s final decision must be
+supported by explicit “findings of fact and conclusions of law.” Id. at ¶41. The land use decision
+must show that the appeal authority “created findings revealing the evidence upon which it relies,
+the law upon which it relies, and its interpretation of the law.” McElhaney, 2017 UT at ¶36.
+Beyond substantive requirements, NMA construes McElhaney as also requiring a written decision.
+sPower disagrees that a written decision is required. But, even if this court imbued the McElhaney
+decision with such a requirement, the County Commission’s decision is a written one.
+Substantively, NMA claims that the County Commission’s remand decision is “devoid of
+any findings of fact or rationale for upholding the P&Z Decision.” Such a characterization ignores
+the contents of the ten-page decision. Further, this argument disregards the scope of the issues
+before the County Commission on remand.
+a.
+
+The scope of rehearing on remand was limited to sPower’s request
+for reconsideration.
+
+On remand this Court instructed the County to provide NMA with the opportunity to
+respond to sPower’s request for rehearing. Contrary to arguments made by NMA, remand and
+rehearing ordered by this Court did not invite NMA to relitigate every claim in its original appeal.
+Rather, remand and rehearing was for the specific purpose of providing NMA with “the
+opportunity to be heard in opposition to sPower’s request for reconsideration and rehearing.”
+37
+
+Memorandum of Order, page 7. The issues before the Commission on remand were, therefor,
+limited to determining whether reconsideration was warranted.
+Predictably, NMA did not address the actual issue on remand. In pre-hearing briefing
+requested by the County, NMA did not dispute the fact that sPower previously presented the
+County Commission with two three ring binders of information including studies and evidence
+assessing flicker, light, and sound mitigation. NMA did not dispute that the County Commission
+erred when it failed to consider this evidence before issuing a decision. NMA did not dispute that
+the County Commission has the authority to reconsider and to correct such a decision.
+b.
+
+The County Commission was not required to readdress issues that
+had previously been decided with respect to the actual requirements
+of the CUP and sPowers compliance therewith.
+
+“The law of the case doctrine encompasses several different principles related to the
+binding effect of a decision on subsequent proceedings in the same case.” IHC Health Services,
+Inc. v. D & K Management, Inc., 2008 UT 73, ¶26, 196 P.3d 588. “Simply stated, under the law of
+the case doctrine, a decision made on an issue during one stage of a case is binding in successive
+stages of the same litigation.” Id. There are three “exceptional circumstances in which the law of
+the case doctrine does not apply: (1) when there has been an intervening change of controlling
+authority; (2) when new evidence has become available; or (3) when the court is convinced that its
+prior decision was clearly erroneous and would work a manifest injustice.” Id. at ¶34.
+Here, the County Commission was not required to examine NMA’s claims that (1) that the
+conditional use permit included unarticulated “self-imposed conditions;” (2) that sPower was
+required to purchase NMA property at 360% market value based on such conditions; (3) that
+substantial evidence did not demonstrate sPower’s CUP compliance; and (4) that the Planning
+Commission’s decision to uphold sPower’s CUP was arbitrary or capricious.
+38
+
+The County
+
+Commission had already rejected each of these claims in its Amended Written Decision issued on
+December 2, 2015. Further, this Court affirmed the County Commission’s decision to reject
+NMA’s claims. In its written decision issued on September 9, 2016, the Court considered the
+administrative record in its entirety as well as briefing provided by the County, NMA, and sPower.
+This court determined that the County’s Amended decision was not arbitrary or capricious. This
+Court affirmed that the County’s decision “was not unsupported by substantial evidence.”
+Memorandum of Decision, at page 6.
+In issuing its Remand Decision, the County Commission was not required to reconsider its
+determinations made in its Amended Decision because none of the three “exceptional
+circumstances” to the law of the case doctrine apply here. First, there has been no change in
+controlling authority. Second, NMA did not present any “new evidence.” Third, NMA did not
+provide any argument or evidence demonstrating that the Commission’s determinations in the
+Amended Decision and this Court’s findings were “clearly erroneous.”
+The County Commission’s Amended Written Decision on Remand was, therefore, properly
+limited to sPower’s request for reconsideration. In the absence of any new argument or evidence
+presented by NMA, the Commission was not required repeat its earlier determinations already
+affirmed by this Court.
+c.
+
+The County Commission’s Amended Written Decision on Remand
+included findings of fact and conclusions of law required under
+McElhaney.
+
+In McElhaney, the Court determined that the land use authority’s decision was arbitrary and
+capricious because it did not cite to findings fact and conclusions of law to support its decision.
+2017 UT at ¶ 41. Rather, the planning authority in that case simply rendered its decision by a posthearing vote. Moreover, there was no written decision. Records reviewed by the court, including
+39
+
+transcripts and meeting minutes indicated that in making its decision, the County did not reference
+the record or the applicable standard under which its decision must be made. Further, the planning
+authority’s decision appeared to be issued in contravention of evidence on the record that appeared
+to require CUP issuance.
+By contrast, the County Commission’s final decision includes findings of fact and
+conclusions of law that permit meaningful appellate review. The County Commission determined
+that under San Juan County code, Section 2-2, “we must presume that the Planning Commission’s
+decision is valid and may overturn it only if we determine that it was not supported by substantial
+evidence.” Further, citing to Utah Code 17-27a-705, the County stated that “it is the appellant’s
+burden to provide that the land use authority’s decision was issued in error.”
+The County Commission determined that NMA failed to meet its burden demonstrating that
+sPower’s CUP should be revoked or that sPower’s request for reconsideration should be denied.
+Absent any argument or evidence to the contrary, the County Commission determined that it issued
+its original Written Decision in error. The County Commission stated that it did not consider the
+record before it when issuing its Written Decision. The County Commission, therefore, granted
+sPower’s request for reconsideration. Citing to the record properly before it, the County affirmed
+its earlier determination that the Planning Commission’s decision was supported by the evidence
+and was not arbitrary or capricious. The County Commission’s Amended Decision includes
+findings of fact and conclusions of law required under McElhaney.
+B.
+
+There is substantial evidence on the record supporting the County
+Commission’s decision affirming that sPower is in Compliance with its CUP.
+
+Since acquiring the Latigo Project in June 2015, sPower has worked cooperatively with
+neighbors, San Juan County, the Planning Commission, and the City of Monticello to provide as
+40
+
+much sound, flicker, and light mitigation as possible to residents and businesses in the area of
+the Latigo Wind Park. The site design and turbine placement was revised to distance turbines
+farther from the City of Monticello than the original designs. 2 These changes were undertaken
+in cooperation with San Juan County, the Planning Commission, and the Federal Aviation
+Administration, in accordance with best industry practices, and at no small cost to the Project.
+Because the single largest component of flicker and sound impact is proximity to the turbine
+locations, these new sites decreased the impact of flicker and sound to existing residents and
+businesses and demonstrate the Project’s commitment to mitigation.
+Additionally, sPower constructed the project using a quieter GE turbine as opposed to the
+Vestas turbine originally discussed in the CUP. The GE turbine utilizes a quieter technology
+with shorter hub height that minimizes sound, light, and flicker impacts to the City of Monticello
+and neighboring properties. This, in combination with turbine relocation, has reduced light and
+sound impacts to existing residences and businesses as well as to agricultural properties in the
+area. sPower commissioned updated sound and flicker studies to identify any properties that
+may be affected. The following summarizes evidence presented to the Planning Commission,
+and reviewed by the County Board, demonstrating sPower’s compliance with the CUP
+conditions requiring light, sound and flicker mitigation.
+1.
+sPower provided substantial evidence demonstrating that it is in
+full compliance with its CUP.
+
+2
+
+The final site layout incorporates the relocation of Turbine 10 due to concerns related to the proximity of the turbine
+to the City of Monticello. Additionally, per direction of San Juan County, the final site plan included shifts in turbine
+locations. The Latigo Project stretches north approximately 2.1 miles to NEl/4 of the NWl/4 of S15 T33S R238. The
+southernmost turbine is located in the SWl/4 of the NE 1/4 of Sect ion 27 T33S R23E. The easternmost turbine is now
+located at the western edge of the SWl/4 of the SW1/4 of S24 T33S R23E and the westernmost turbine is less than
+three miles to the west in the SW l/4 of SW ll4 of S21 T33S R23E. Per the CUP, Latigo Wind Park constructed the
+turbines no further east or further south than the furthest east turbine (#9) and southern (toward the City of Monticello)
+turbine locations shown in the site plan in the October 4, 2012 application
+
+41
+
+The Amended CUP approved by the Planning Commission in 2012, imposes a single
+condition requiring the permit holder to provide as much “flicker, light, and sound mitigation as
+possible subject to industry standards.” R0751-52. Where impacts of flicker, light, and sound
+could not be mitigated to current residents or businesses, the record shows that sPower voluntarily
+provided financial mitigation to offset mitigation costs implemented on a case by case basis.
+R0752.
+a.
+Evidence demonstrates that sPower mitigated
+shadow flicker impacts as required under the CUP.
+
+Neither San Juan County nor the State has adopted flicker shadow limits. As presented in
+its Supplemental Statement to the CUP, sPower based flicker mitigation on parameters established
+by the Massachusetts Department of Environmental Protection (MDEP). R0923.
+Wasatch Wind retained DNV KEMA to conduct onsite Flicker studies in 2012. These
+flicker studies assumed construction using a Vestas turbine with a 90 ft. hub height. Based on the
+results of those studies, Wasatch Wind identified two properties that could experience flicker
+shadow exceeding recommended limits identified above. One existing residence was identified as
+possibly experiencing shadow flicker exceeding thirty minutes per day for eleven days of the year.
+See R0924. The study also identified the Discovery Center School as potentially experiencing
+flicker shadow impacts thirty minutes per day up to seventeen days a year. Id.
+As noted above, after acquiring the Latigo Project in June of 2015, sPower selected a
+shorter GE turbine with an 80 foot hub height. sPower also changed turbine locations to mitigate
+flicker impacts to neighboring properties. In July of 2015, sPower engaged DNV KEMA to update
+the 2012 flicker analysis, to account for a shorter hub height of the GE turbine and new turbine
+locations. See R0620-R0630. The updated report identified the Discovery School as the only
+42
+
+property that may experience shadow flicker in excess of thirty minutes per day or thirty hours per
+year assuming a “worst case scenario.” R0620-R0630. The Report ultimately determined that there
+were no residences or other businesses that were impacted by shadow flicker beyond MDEP
+parameters under expected conditions. R0629.
+Where siting or technical changes could not mitigate impacts of shadow flicker to the
+identified levels, sPower voluntarily offered financial mitigation in the amount of $4,000 for each
+residence or business affected. The only property identified in the 2015 flicker study that may
+experience shadow flicker above the CUP standard (under the worst case scenario) is the
+Discovery School. 3 sPower, therefore, paid the Discovery School $4,000 for window shades and
+tree planting to mitigate flicker impacts at the Discovery School. Further, in the spirit of being a
+good neighbor, and recognizing the importance of the Discovery School in the local community,
+sPower paid an additional $250,000 over five years for the purpose of funding any additional
+mitigation or student programs. See R0585.
+Neither the Supplemental Statement nor the CUP required the Project to provide financial
+mitigation for “vacant agricultural lands.” 4 In fact, based on the Massachusetts flicker standards,
+there is no flicker limit for vacant agricultural land. NMA generally alleges that flicker negatively
+impacts its members’ property but does not provide any evidence that flicker interferes with their
+current property use, or exceeds the flicker limits established under the CUP. Moreover, NMA has
+not alleged that sPower failed to provide financial mitigation payments to pay for window shades
+and landscaping to be installed on its unimproved (and uninhabited) agricultural property. In fact,
+
+3
+
+Note that the Discovery School only exceeds CUP flicker limits under “extreme conditions.” R0628. Under expected
+conditions, flicker impacts are expected to be well below CUP limits. Id.
+4
+sPower is not required to mitigate for “future” residential construction that may or may not take place on NMA
+members’ undeveloped, uninhabitable property zoned for agricultural use. Utah Code Ann. §17-27a-506(2)(a) requires
+that reasonable conditions may be imposed on a conditional use in accordance with County Zoning
+
+43
+
+sPower offered “financial mitigation” in the amount of $4,000/per residence to be placed in escrow
+to reimburse future NMA homeowners, should they actually build on their currently vacant land,
+for window coverings and landscaping costs to minimize flicker impacts. See R0329. NMA,
+however, refused mitigation payments, demanding that sPower purchase its’ members property
+outright at 360% FMV. See R0327.
+sPower presented the revised site maps, the updated flicker shadow report and a summary
+of shadow-flicker mitigation activities to the Planning Commission and County Commission . The
+2015 Shadow Flicker Study and Mitigation Summary are referenced above and are included in the
+administrative record at R0620-R0630. sPower also presented evidence of financial mitigation
+paid to the Discovery School in the amount of $250,000. The Planning Commission determined
+that through turbine relocation, the selection of a lower-impact technology, and financial mitigation
+to the Discovery School, sPower provided as much shadow flicker mitigation “as possible” and
+determined that sPower is in compliance with this CUP condition.
+sPower has satisfied all CUP conditions requiring light
+mitigation.
+NMA alleges that the Planning Commission illegally upheld sPower’s CUP after sPower
+b.
+
+failed to install Dark Sky Technology purportedly required under its CUP. NMA does not cite to
+any condition in the CUP requiring “Dark Sky Technology.” Rather NMA cites to its own appeal
+letter submitted to the County Board at R1635. NMA, again, misstates the facts and misrepresents
+the record. The only reference to a Dark Sky Technology requirement is NMA’s unsupported
+allegations that the technology was required under the CUP. And, even if one were to assume it
+was a requirement, NMA fails to present evidence to suggest that Dark Sky Technology was
+commercially viable when Latigo obtained FAA approval. Indeed, the technology was not even
+commercially viable when the FAA approved the Latigo turbine lighting plan.
+44
+
+The CUP Condition requires sPower to provide as much light mitigation as possible. To
+that end, sPower implemented dark-night recommendations to the lighting at the project substation
+and to assure as an operating standard that the substation is only lit at night if employees require
+access to the substation.”
+
+R0751.
+
+sPower developed a lighting plan at the substation and
+
+operations building to eliminate as much light as possible. See R1609. Substation and operations
+lighting is turned off at night. Both sites use employee-controlled lighting that is pointed down
+wherever possible to avoid light pollution. When employees do not need to access these facilities
+the lights are turned off.
+sPower also worked to minimize light impacts from its turbines. The FAA typically
+requires that each turbine tower is lit with a red safety light. sPower worked with FAA to develop
+a lighting plan that reduces the number of turbine lights. FAA approved a plan that requires
+lighting on only fourteen of the twenty-seven turbines. Although the lights, by necessity, are
+visible to aircraft and residents at night, light pollution from the project is limited in a manner that
+does not compromise safety or violate federal standards.
+In presentations made to the Planning Commission and County Board, sPower presented its
+site plan and identified towers that were equipped with lighting. Further, sPower verified that
+operating procedures at the substation and support building require all lighting to be turned off at
+night unless an employee requires access to the facilities. The Planning Commission determined
+that sPower appropriately mitigated light impacts and was in compliance with CUP Condition.
+R0751.
+c.
+
+sPower has satisfied all CUP conditions requiring sound
+mitigation.
+45
+
+NMA also argues that sPower failed to satisfy sound mitigation conditions. NMA alleges
+that sound on its uninhabited, agricultural property exceeds standards applicable to residential
+limits. NMA does not provide sound studies or cite to sPower’s updated sound report provided to
+the Planning Commission on September 9, 2015 to support this claim. Moreover, NMA misstates
+what is required for sound mitigation under the CUP.
+The CUP requires that sPower implement as much sound mitigation “as possible.” Because
+neither San Juan County nor the State has a sound ordinance applicable to wind developments, the
+CUP establishes sound limits based on U.S. Environmental Protection Agency (“EPA”) and
+MDEP guidelines. To that end, sPower implemented sound standards as described in Section VIIA(b) of the Supplemental Statement and implement site-specific mitigation strategies for potential
+sound impacts as described in Section VII-B(a) of the Supplemental Statement. R0751-R0752.
+The Supplemental Statement refers to the following sound standards:
+
+Recommended Sound Limit
+from Wind Farm at
+agricultural land with no
+future plans for a residence
+(U.S. FHWA) 5
+No recommendation needs
+to be suggested because
+there are no sound impacts
+possible on vacant lands not
+restricted for sensitive uses
+
+Recommended Sound Limit
+from Wind Farm over a 24
+hour period at agricultural
+and undeveloped land (U.S.
+EPA)
+
+Recommended Sound Limit
+from Wind Farm at existing
+residences and places of
+business during day time
+(Massachusetts EPA)
+
+Recommended Sound Limit
+from Wind Farm at existing
+residences in rural areas
+during nighttime
+(Massachusetts EPA)
+
+Recommended Sound Limit
+from Wind Farm at exiting
+residences in a residential
+area during nighttime
+(Massachusetts EPA)
+
+49 dBA
+
+47 dBA
+
+42 dBA
+
+37 dBA
+
+Based on the sound study conducted in 2012 that assumed Latigo project would use Vestas
+turbines, Wasatch Wind estimated that no neighboring properties with existing residences or
+businesses exceeded adopted sound limits. R0922. There is no sound limit for vacant, agricultural
+land. R0932. “[A]gricultural lands are generally considered to be noise-generators due to the
+typical use of agricultural equipment.” R1060. For purposes of assessing potential future impacts,
+however, Wasatch Wind considered sound impacts limited to 49 dBA on undeveloped, agricultural
+46
+
+properties. R0921 and R0932. Wasatch Wind determined that small areas of one vacant parcel
+owned by NMA members may experience sound impacts that exceed 47 dBA, the limit applied to
+residential properties. R0930. The remaining eight parcels did not experience sound above 47
+dBA. Under Supplemental Statement Section VII-B(a) Wasatch Wind, offered to provide up to
+$4,000 for additional insulation to the NMA property owner in the event the property was rezoned
+and the residences constructed experienced sound impacts above 47 dBA. Id.
+In July of 2015, sPower commissioned an updated sound assessment based on its selection
+of a shorter, quieter turbine manufactured by GE. R0587. The study determined that sound
+impacts were estimated to be “approximately 1 dB quieter than the previous design due to the use
+of a quieter turbine and shorter tower.” Id. The report determined that with a shorter hub height
+and quieter turbine, the sound generated by the turbines is quieter. Given the new technology
+selection and turbine siting, the updated report did not identify any existing residences or
+businesses that would experience sound above the levels established under the CUP. Id. One
+inholding property located in the northeast corner of the project was identified as possibly
+experiencing sound limits that exceeded residential limits in the event the parcel was rezoned and
+developed for residential use in the future. R0639. sPower has offered to provide the landowner
+$4,000 to be placed in escrow for future construction costs associated with sound mitigation on the
+property.
+sPower presented its site map, sound reports, and updated sound report to the Planning
+Commission and County Board. Although not required under the CUP, sPower again offered to
+pay $4,000/residence to NMA members to be held in escrow for added insulation costs, assuming
+NMA members were ever able to construct houses and they were built in areas that exceeded
+residential sound limits. R0639. Again, NMA rejected sPower’s offer and demanded that sPower
+47
+
+purchase NMA property for $9,000/acre. R0328. The Planning Commission and County Board
+determined that through selection of a quieter turbine and turbine relocation, sPower mitigated
+sound impacts as required under the CUP.
+2.
+
+The CUP does not contain a condition for mitigating ice-throw.
+
+NMA alleges sPower failed to satisfy “self-imposed ice throw standards.” NMA claims
+that relocation of a turbine closer to NMA property causes NMA to be in the area of ice throw.
+But, there is no such CUP condition or reference to any “self-imposed” condition requiring
+mitigation of ice-throw to undeveloped, uninhabited agricultural land on the record.
+Studies performed in 2012 based on the taller Vestas turbine, indicate that icing events at
+the project are possible up to three times a year for a period of less than six hours each, a total of
+18 hours a year. R0927. Given the shorter hub height of the GE turbine selected in 2015, the ice
+throw has a smaller risk area. Even using the risk area identified in 2012, the only property
+identified as being at risk for ice-throw is a small stretch of County Road 196. Id. This road is not
+plowed in the winter and the Planning Commission and the Project determined that there was only
+a very small risk of injury.
+NMA has not demonstrated that ice-throw presents any risk of injury on uninhabited
+agricultural land that is inaccessible in the winter. Moreover, NMA does not claim that ice-throw
+limits their access or use of their property in the winter. sPower is not required to mitigate for
+unidentified ice-throw risks to vacant property under the CUP.
+3.
+
+The CUP does not include a condition that requires sPower
+to purchase NMA Property
+
+48
+
+Contrary to NMA’s allegations, the CUP contains no provision that requires sPower to
+purchase NMA members’ property. Further, the administrative record demonstrates that the
+Planning Commission did not intend to impose any such condition. NMA’s argument that the
+CUP required sPower to purchase NMA property is unfounded and must be dismissed.
+NMA cannot point to any condition in the CUP, or any part of the administrative record
+that states or even implies that the project developer must purchase NMA members’ property.
+NMA’s Motion vaguely refers to two pages of the October 4, 2012, Planning Commission hearing
+transcript at R0820-21 as evidence that such a condition existed. That transcript, however,
+demonstrates that the Commission adamantly refused to include a CUP condition that would
+require the project developer to purchase NMA property:
+airwoman: Just to clarify, you’re not saying that you have
+to buy the property, but you’re saying, if you’ve come into
+agreement.
+Ellison:
+
+That’s correct. If we’re able to come into
+
+agreement, we will buy it, but otherwise, we’re offering a
+C
+value reduction mitigation payment, based on appraisal
+h
+standard.
+The Planning Commission refused to consider a mandatory purchase provision stating that “this
+Board cannot regulate private deals.” R0819. When pressed by NMA member Dan Bingham
+that the CUP require a mandatory purchase or a condition that would set mandatory “mitigation”
+payments to NMA, the Planning Commission Chairwoman dismissed Bingham’s request stating
+that:
+
+49
+
+I’m going to stop this right here, and refer to the idea that we’re
+not part of this deal making. We can perhaps, if we decide to do so
+include some sort of condition that might say the landowners must
+have all been spoken to …but this is the discussion that you
+gentlemen should have amongst yourselves because it doesn’t
+pertain to our decision.
+R0827. Consistent with this position, the Planning Commission’s Summary and Conclusions
+approving the CUP does not include any condition requiring that the project developer purchase
+NMA property. R0748-R0752.
+NMA has failed to demonstrate how the Latigo Wind Project impacts legal use of its
+members’ uninhabited and undeveloped property zoned for agricultural use. Notably, there are
+no industry standards that limit flight, flicker, and sound impacts on agricultural land. Mitigation
+efforts undertaken by sPower, therefore, exceed industry standards with respect to NMA’s
+property. The County’s validation of sPower’s CUP permit is, therefore, supported by substantial
+evidence and is not arbitrary or capricious.
+C.
+
+The County Commission’s Remand Decision does not violate due
+process rights protected under the Fourteenth Amendment.
+
+The Fourteenth Amendment of the United States Constitution provides that no state shall
+deprive any person of property without due process of law. 3 See U.S. Const. amend. XIV, sec.
+1. While the Constitution guarantees due process before the deprivation of property interests,
+such interests are not created by the Constitution. Rather, property interests “are created and
+their dimensions are defined by existing rules or understandings that stem from an independent
+
+source such as state law.” Board of Regents v. Roth, 408 U.S. 564, 577, 92 S.Ct. 2701, 2709, 33
+L.Ed.2d 548 (1972).
+Generally, the Utah Supreme Court has held that local land use decisions do not trigger a
+14th Amendment Claim under 42 U.S.C. §1983. Patterson v. American Fork City, 2003 UT 7,
+¶25, 67 P.3d 466 (“absent invidious discrimination, such as proof of racial animus, the
+‘conventional planning dispute is a matter primarily of concern to the state and does not
+implicate the Constitution.”); see also Crown Point I, LLC v. Intermountain Rural Elec. Ass'n,
+319 F.3d 1211, 1217 (10th Cir. 2003) (“[W]here the governing body retains discretion and the
+outcome of the proceeding is not determined by the particular procedure at issue, no property
+interest is implicated.”). Under the due process clause of the 14th amendment, “to state a
+cognizable substantive due process claim, plaintiffs must first allege sufficient facts to show a
+property or liberty interest warranting due process protection. Patterson, 2003 UT 7, ¶23, 67
+P.3d 466. In order to have a valid property interest in a state-created right, a plaintiff must have
+more than “an abstract need for or a unilateral expectation of a benefit.” Heideman v.
+Washington City, 2007 UT App 11, ¶17, 155 P.3d 900. Instead, the plaintiffs must have a
+“legitimate claim of entitlement to it.” Patterson, 2003 UT at ¶23.
+
+Here, NMA’s 14th
+
+Amendment claim is wholly unfounded.
+NMA has not demonstrated that is has a protectable property interest within scope of 14th
+Amendment protection and has not demonstrated that it has been deprived of such an interest by
+the County Commission’s final decision. Citing to United States v. James Daniel Good Real
+Prop., NMA argues that its members have a “property interest in the unrestricted use and
+enjoyment their property.” 510 U.S. 43, 54 (1993). But the court in James¸ referred to the
+
+“unrestricted use and enjoyment” of an individual’s home. James does not stand for the idea that
+real property ownership conveys a right of “unrestricted use and enjoyment.”
+
+NMA has
+
+previously claimed that its members intended to subdivide their property and develop the area for
+residential use. But, NMA properties are zoned for Agricultural A-1 and are undeveloped.
+Development contemplated by NMA requires that its members obtain a CUP. None of NMA’s
+members applied to subdivide their property. Moreover, none of NMA’s members have applied
+for any kind of building permit. NMA’s property remains uninhabitable, undeveloped land that
+is not zoned for residential subdivisions. NMA’s future hope to develop such a property is not a
+protectable property interest under the Fourteenth Amendment. See Crown Point I, LLC v.
+Intermountain Rural Elec. Ass’n, 319 F.3d 1211, 1216 (10th Cir. 2003) (holding that a
+developer’s expectation to prevail before a land use authority and block transmission line
+construction through his property was not a “constitutionally protected interest”)
+Further, NMA’s procedural due process right to participate in a land use hearing is not
+protected under the 14th Amendment. See id. (“State procedural failure alone does not create a
+violation of constitutional proportions.”); Jacobs, Visconsi & Jacobs, Co. v City of Lawrence
+Kan., 927 F.2d 1111, (10th Cir. 1991) (“The Supreme Court has recognized that the mere
+existence of an entitlement to hearing under state law without further substantive limitations,
+does not give rise to an independent substantive liberty interest protected by the Fourteenth
+Amendment.”). Even if, however, NMA had such an interest, it has not demonstrated how the
+County’s compliance determination constitutes property deprivation. There is no evidence that
+NMA members cannot, with necessary approvals, develop their property for residential use. The
+Planning Commission may issue a building permit or CUP to NMA at its discretion. Further,
+
+because there has been no development on the property, NMA members current use and
+enjoyment has not been impacted by the County Commission’s decision to uphold sPower’s
+CUP.
+Case law cited by NMA demonstrates that its due process rights have been met. “Due
+process requires, at a minimum, adequate notice and an opportunity to be heard in a meaningful
+manner.” Salt Lake City Corp. v. Jordan River Restoration Network, 2012 UT 84, ¶111, 299
+P.3d 990 (internal citations omitted).
+
+“The type of hearing required depends on the
+
+circumstances of each case.” Id. “Typically, a hearing must provide parties the opportunity to
+present ‘evidence, objects and arguments to the end that the court may be enabled to fairly and
+intelligently pass upon and determine the questions presented for decision.” Id. Such a hearing is
+not always required, however, as the San Juan County Code recognizes.
+Here, proceedings before the County Commission have satisfied NMA’s procedural due
+process right. NMA has been given proper notice of all proceedings. Further, NMA has been
+given multiple opportunities to be heard in a meaningful manner before the County Commission,
+and before this very Court. NMA has been given the opportunity to present evidence, testimony
+and argument before the County Commission. NMA cannot, therefore, argue that it has been
+deprived of any procedural due process right.
+D.
+
+The Commission’s Remand Decision was procedurally proper and lawful.
+
+NMA’s claim that the Commission’s Remand Decision is procedurally improper and
+illegal has already been litigated before this court and is barred under the law of the case
+doctrine.
+
+“The law of the case doctrine encompasses several different principles related to the
+binding effect of a decision on subsequent proceedings in the same case.” IHC Health Services,
+Inc. v. D & K Management, Inc., 2008 UT 73, ¶26, 196 P.3d 588. “Simply stated, under the law
+of the case doctrine, a decision made on an issue during one stage of a case is binding in
+successive stages of the same litigation.” Id. There are three “exceptional circumstances in
+which the law of the case doctrine does not apply: (1) when there has been an intervening change
+of controlling authority; (2) when new evidence has become available; or (3) when the court is
+convinced that its prior decision was clearly erroneous and would work a manifest injustice.” Id.
+at ¶34.
+Here, NMA claims that San Juan County’s Amended Written Decision is illegal because
+the County Commission does not have the authority to reconsider and amend its decision under
+Utah Code Ann 17-27a and Sections 2-3 and 6-7 of the San Juan County Zoning Ordinance.
+This claim is identical to NMA’s claim that was heard and decided by this Court. Previously, on
+February 10, 2016, NMA Filed an Amended Complaint with this Court (Case No. 160700001)
+claiming that the San Juan County Commission did not have the authority to amend or
+reconsider its “Final Written Decision” and issue an Amended Decision. This Court rejected
+NMA’s claim and held that the County Commission’s authority to reconsider a decision is
+“inherent in the power to make an administrative decision.” Memorandum of decision page 7.
+Further, NMA’s claim presents none of the exceptional circumstances in which the law of
+the case doctrine does not apply. There has been no intervening change in the controlling
+authority. NMA has not presented any new evidence. NMA does not make any legal argument
+or factual allegation that would suggest this court’s prior decision was clearly erroneous. This
+
+Court is therefore bound by its prior decision holding that the County Commission has the
+internet authority to “fix its own mistakes.” Id.
+V.
+
+CONCLUSION
+The Court must deny NMA’s Motion for Summary Judgment. NMA’s purported facts
+
+are merely allegations in their appellate briefs and other filings that are directly contradicted by
+evidence contained in the administrative record. The County Commission erred in issuing its
+Written Decision of December 2, 2016. The record demonstrates that the County Commission’s
+decision to grant sPower’s request for reconsideration and to issue an amended decision is
+supported by substation evidence. sPower complied with all conditions imposed under the CUP.
+It selected a quieter wind turbine with a shorter hub height to minimize shadow flicker, light and
+sound impacts to adjacent residents and businesses and the City of Monticello. sPower
+implemented substation lighting plans to minimize light pollution generated on site. Where
+sPower could not mitigate all impacts of light, sound and flicker to existing residences and
+businesses, sPower provided financial mitigation above and beyond that which was required
+under the CUP. Further, sPower offered, although not required to do so, to provide financial
+mitigation to offset impacts to speculative residential development on NMA property in the
+future, or to compensate NMA for FMV property loss based on a certified appraisal.
+The County Commission’s final decision is supported by substantial evidence and is not
+arbitrary or capricious. Moreover, the County Commission’s decision satisfies the standard set
+forth in McElhaney v. City of Moab, 2017 UT 65. It includes findings of fact and conclusions of
+law that provide for meaningful appellate review. Further, the County Commission’s decision
+was issued pursuant to proceedings in which NMA was afforded full due process.
+
+sPower respectfully asks this court to deny NMA’s Motion based on the substantial and
+undisputed evidence that the Board’s decision to issue an amended decision on remand
+upholding the Planning Commission’s compliance determination is not arbitrary or capricious
+and is supported by substantial evidence.
+
+DATED this 20th day of November, 2017.
+SNELL & WILMER L.L.P.
+
+/s/ Paul W. Shakespear
+Paul W Shakespear Elizabeth M.
+Brereton Attorneys for Intervenor
+Sustainable Power Group, LLC
+
+CERTIFICATE OF SERVICE
+
+On this 20th day of November, I caused the foregoing SUSTAINABLE POWER
+GROUP, LLC AND LATIGO WIND PARK, LLC’S MEMORANDUM IN OPPOSITION TO
+NORTHERN MONTICELLO ALLIANCE, LLC’S MOTION FOR SUMMARY JUDGMENT
+
+to be filed via e-mail with the Court. The foregoing has also been e-mailed to the
+following:
+J. Craig Smith
+SMITH HARTVIGSEN, PLLC
+mcsmith@shutah.law
+Attorneys for Plaintiffs/Petitioners
+Barton H. Kunz, II
+GOEBEL ANDERSON, P.C.
+bkunz@gapclaw.com
+Attorney for Defendants
+San Juan County Commission
+and San Juan County
+
+/s/ Paul W. Shakespear
+
+
