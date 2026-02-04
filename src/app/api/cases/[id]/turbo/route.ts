@@ -2,31 +2,11 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createServerSupabase } from '@/lib/supabase/server'
 import { searchAll } from '@/lib/pinecone/search'
 import OpenAI from 'openai'
+import { TurnResult, SimulationResponse } from '@/lib/types'
 
 const openai = new OpenAI()
 
 export const maxDuration = 120
-
-interface TurnResult {
-  turn: number
-  party: 'plaintiff' | 'defendant'
-  action: string
-  evidence_cited: string
-  judge_ruling: 'sustained' | 'overruled' | 'admitted' | 'excluded' | 'granted' | 'denied'
-  impact: 'favorable' | 'unfavorable' | 'neutral'
-  reasoning: string
-}
-
-interface TurboResult {
-  total_turns: number
-  plaintiff_score: number
-  defendant_score: number
-  win_probability: number
-  critical_evidence: { doc: string; status: string; impact: string }[]
-  vulnerabilities: string[]
-  path_to_100: string[]
-  turns: TurnResult[]
-}
 
 export async function POST(
   request: NextRequest,
@@ -139,15 +119,6 @@ Be realistic. Use actual document names from the evidence. Score must total 100.
     })
 
     const aiResponse = response.choices[0]?.message?.content || '{}'
-
-    // Define response interface
-    interface SimulationResponse {
-      turns: TurnResult[]
-      plaintiff_final_score: number
-      defendant_final_score: number
-      vulnerabilities: string[]
-      path_to_100: string[]
-    }
 
     // Parse JSON from response
     let parsed: SimulationResponse
