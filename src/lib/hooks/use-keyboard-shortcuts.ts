@@ -81,20 +81,20 @@ export function useKeyboardShortcuts({
       // Check if the key matches
       if (pressedKey !== shortcutKey) continue
 
-      // Check modifier keys
+      // Check primary modifier keys (Ctrl/Meta)
       const needsModifier = shortcut.ctrlKey || shortcut.metaKey
       const hasModifier = isModifierPressed(e)
 
       if (needsModifier && !hasModifier) continue
       if (!needsModifier && hasModifier) continue
 
-      // Check shift key
+      // Check shift key - only enforce if the shortcut explicitly requires it
       if (shortcut.shiftKey && !e.shiftKey) continue
-      if (!shortcut.shiftKey && e.shiftKey && shortcutKey !== '?') continue
+      if (shortcut.shiftKey === false && e.shiftKey) continue
 
       // Check alt key
       if (shortcut.altKey && !e.altKey) continue
-      if (!shortcut.altKey && e.altKey) continue
+      if (shortcut.altKey === false && e.altKey) continue
 
       // Execute the action
       e.preventDefault()
