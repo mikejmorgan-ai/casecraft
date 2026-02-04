@@ -172,6 +172,25 @@ export interface CaseWithRelations extends Case {
   case_facts?: CaseFact[]
 }
 
+// Turbo Simulation Types
+export interface TurnResult {
+  turn: number
+  party: 'plaintiff' | 'defendant'
+  action: string
+  evidence_cited: string
+  judge_ruling: 'sustained' | 'overruled' | 'admitted' | 'excluded' | 'granted' | 'denied'
+  impact: 'favorable' | 'unfavorable' | 'neutral'
+  reasoning: string
+}
+
+export interface SimulationResponse {
+  turns: TurnResult[]
+  plaintiff_final_score: number
+  defendant_final_score: number
+  vulnerabilities: string[]
+  path_to_100: string[]
+}
+
 // Database type for Supabase client
 export interface Database {
   public: {
