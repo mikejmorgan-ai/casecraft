@@ -4,12 +4,7 @@ import { z } from 'zod'
 import { AGENT_ROLE_TEMPLATES } from '@/lib/ai/prompts'
 import { ApiError, ErrorCodes, type FieldError } from '@/lib/api-error'
 import type { AgentRole } from '@/lib/types'
-
-const caseTypes = [
-  'civil', 'criminal', 'family', 'contract',
-  'tort', 'property', 'constitutional', 'administrative'
-] as const
-
+import { caseTypes } from '@/lib/validations/case'
 const createCaseSchema = z.object({
   name: z.string()
     .min(1, 'Case name is required')
