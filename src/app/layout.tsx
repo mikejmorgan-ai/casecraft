@@ -1,22 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { Toaster } from "@/components/ui/sonner";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrains-mono",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "CaseCraft - AI Legal Simulation Platform",
-  description: "Practice case strategy with AI-powered legal agents. Run mock hearings, depositions, and strategy sessions.",
+  title: "CaseCraft - Legal Simulation Platform",
+  description: "Practice case strategy with AI-powered agents. Run mock hearings, depositions, and strategy sessions.",
 };
 
 export default function RootLayout({
@@ -26,13 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <TooltipProvider delayDuration={300}>
-          {children}
-        </TooltipProvider>
-        <Toaster position="top-right" richColors />
+      <body className={`${jetbrainsMono.variable} font-sans antialiased`}>
+        {children}
       </body>
     </html>
   );

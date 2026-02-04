@@ -52,8 +52,8 @@ export default function SignupPage() {
   }
 
   return (
-    <div id="signup-page-container" className="min-h-screen flex items-center justify-center bg-[var(--color-legal-cream)] p-4">
-      <Card id="signup-card" className="w-full max-w-md">
+    <div id="signup-page-container" className="dark min-h-screen flex items-center justify-center bg-background p-4">
+      <Card id="signup-card" className="w-full max-w-md bg-card border-border">
         <CardHeader id="signup-header" className="text-center">
           <div className="flex justify-center mb-4">
             <div className="p-3 bg-primary rounded-full">
