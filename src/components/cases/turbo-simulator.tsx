@@ -18,16 +18,7 @@ import {
   Scale,
   Shield,
 } from 'lucide-react'
-
-interface TurnResult {
-  turn: number
-  party: 'plaintiff' | 'defendant'
-  action: string
-  evidence_cited: string
-  judge_ruling: string
-  impact: 'favorable' | 'unfavorable' | 'neutral'
-  reasoning: string
-}
+import { TurnResult } from '@/lib/types'
 
 interface TurboResult {
   success: boolean
