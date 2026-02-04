@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
+import { TurnResult, TurboSimulationResult } from '@/lib/types'
 import {
   Zap,
   CheckCircle,
@@ -19,45 +20,13 @@ import {
   Shield,
 } from 'lucide-react'
 
-interface TurnResult {
-  turn: number
-  party: 'plaintiff' | 'defendant'
-  action: string
-  evidence_cited: string
-  judge_ruling: string
-  impact: 'favorable' | 'unfavorable' | 'neutral'
-  reasoning: string
-}
-
-interface TurboResult {
-  success: boolean
-  error?: string
-  warning?: string
-  stats: {
-    total_turns: number
-    favorable: number
-    unfavorable: number
-    neutral: number
-    plaintiff_score: number
-    defendant_score: number
-    win_probability: number
-    gap_to_100: number
-    documents_searched: number
-  }
-  vulnerabilities: string[]
-  path_to_100: string[]
-  critical_evidence: { doc: string; status: string; impact: string }[]
-  turns: TurnResult[]
-  evidence_sources: string[]
-}
-
 interface TurboSimulatorProps {
   caseId: string
 }
 
 export function TurboSimulator({ caseId }: TurboSimulatorProps) {
   const [running, setRunning] = useState(false)
-  const [result, setResult] = useState<TurboResult | null>(null)
+  const [result, setResult] = useState<TurboSimulationResult | null>(null)
   const [error, setError] = useState<string | null>(null)
 
   const runTurbo = async () => {
