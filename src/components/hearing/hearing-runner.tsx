@@ -240,7 +240,7 @@ export function HearingRunner({
     URL.revokeObjectURL(url)
   }
 
-  const downloadPDF = () => {
+  const downloadPDF = useCallback(() => {
     if (transcript.length === 0) return
 
     generateTranscriptPDF({
@@ -252,7 +252,7 @@ export function HearingRunner({
       plaintiffName,
       defendantName,
     })
-  }
+  }, [transcript, caseName, caseNumber, hearingType, jurisdiction, plaintiffName, defendantName])
 
   // Toggle hearing start/stop
   const toggleHearing = useCallback(() => {
