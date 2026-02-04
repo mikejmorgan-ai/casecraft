@@ -38,6 +38,46 @@ export interface Case {
   metadata: Record<string, unknown>
   created_at: string
   updated_at: string
+  // Blind test fields
+  is_blind_test?: boolean
+  actual_ruling?: string | null
+  actual_ruling_date?: string | null
+  actual_ruling_summary?: string | null
+  ruling_revealed?: boolean
+}
+
+export type PredictionOutcome = 'plaintiff' | 'defendant' | 'dismissed' | 'settled' | 'moot'
+
+export interface CasePrediction {
+  id: string
+  case_id: string
+  user_id: string
+  predicted_outcome: PredictionOutcome
+  predicted_ruling_summary: string
+  confidence_score: number
+  key_factors: KeyFactor[]
+  reasoning: string | null
+  citations: PredictionCitation[]
+  is_correct: boolean | null
+  accuracy_score: number | null
+  comparison_notes: string | null
+  missed_factors: string[]
+  model_used: string
+  prediction_mode: 'standard' | 'multi_agent' | 'monte_carlo'
+  created_at: string
+  revealed_at: string | null
+}
+
+export interface KeyFactor {
+  factor: string
+  weight: 'high' | 'medium' | 'low'
+  favors: 'plaintiff' | 'defendant' | 'neutral'
+  evidence: string
+}
+
+export interface PredictionCitation {
+  source: string
+  relevance: number
 }
 
 export interface Agent {

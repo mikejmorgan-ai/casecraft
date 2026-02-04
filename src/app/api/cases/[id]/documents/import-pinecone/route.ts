@@ -84,7 +84,7 @@ export async function POST(
     }>()
 
     for (const match of queryResponse.matches) {
-      const metadata = (match.metadata || {}) as unknown as PineconeDocMetadata
+      const metadata = match.metadata as PineconeDocMetadata
       const docId = metadata.doc_id
 
       if (!documentMap.has(docId)) {

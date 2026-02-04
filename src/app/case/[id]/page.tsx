@@ -2,9 +2,10 @@ import { createServerSupabase } from '@/lib/supabase/server'
 import { redirect, notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Users, FileText, MessageSquare, Scale, ClipboardList, Gavel, Home, AlertTriangle, CheckCircle2, Clock, Archive } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import { ArrowLeft, Users, FileText, MessageSquare, Scale, ClipboardList, Gavel } from 'lucide-react'
 import { AgentsList } from '@/components/agents/agents-list'
 import { DocumentsList } from '@/components/documents/documents-list'
 import { DocumentUpload } from '@/components/documents/document-upload'
@@ -17,44 +18,9 @@ import { CaseStrengthMeter } from '@/components/cases/case-strength-meter'
 import { TurboSimulator } from '@/components/cases/turbo-simulator'
 import { CaseActions } from '@/components/cases/case-actions'
 import { ExportCaseButton } from '@/components/cases/export-case-button'
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from '@/components/ui/breadcrumb'
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
+import { BlindPrediction } from '@/components/predictions/blind-prediction'
+import { Target } from 'lucide-react'
 import type { CaseStatus, CaseType, Case, Agent, Document, CaseFact } from '@/lib/types'
-
-// Status alert configuration
-const STATUS_ALERTS: Record<CaseStatus, { icon: React.ElementType; variant: 'default' | 'warning' | 'success' | 'info'; title: string; message: string }> = {
-  draft: {
-    icon: Clock,
-    variant: 'warning',
-    title: 'Draft Case',
-    message: 'This case is in draft mode. Add documents and facts to prepare for simulation.',
-  },
-  active: {
-    icon: CheckCircle2,
-    variant: 'success',
-    title: 'Active Case',
-    message: 'This case is active and ready for mock hearings and simulations.',
-  },
-  closed: {
-    icon: Archive,
-    variant: 'info',
-    title: 'Case Closed',
-    message: 'This case has been closed. You can still view and export documents.',
-  },
-  archived: {
-    icon: Archive,
-    variant: 'default',
-    title: 'Archived Case',
-    message: 'This case has been archived for reference.',
-  },
-}
 
 const STATUS_COLORS: Record<CaseStatus, string> = {
   draft: 'bg-gray-100 text-gray-800',
@@ -106,33 +72,10 @@ export default async function CaseDetailPage({
       {/* Header */}
       <header id="case-detail-header" className="bg-primary text-primary-foreground py-4 sm:py-6">
         <div className="container mx-auto px-4 sm:px-6">
-          {/* Breadcrumb Navigation */}
-          <Breadcrumb className="mb-3 sm:mb-4">
-            <BreadcrumbList>
-              <BreadcrumbItem>
-                <BreadcrumbLink asChild>
-                  <Link href="/dashboard" className="text-gray-300 hover:text-white flex items-center gap-1">
-                    <Home className="h-3.5 w-3.5" />
-                    <span className="hidden sm:inline">Dashboard</span>
-                  </Link>
-                </BreadcrumbLink>
-              </BreadcrumbItem>
-              <BreadcrumbSeparator className="text-gray-400" />
-              <BreadcrumbItem>
-                <BreadcrumbLink asChild>
-                  <Link href="/dashboard" className="text-gray-300 hover:text-white">
-                    Cases
-                  </Link>
-                </BreadcrumbLink>
-              </BreadcrumbItem>
-              <BreadcrumbSeparator className="text-gray-400" />
-              <BreadcrumbItem>
-                <BreadcrumbPage className="text-white font-medium truncate max-w-[200px] sm:max-w-none">
-                  {caseData.name}
-                </BreadcrumbPage>
-              </BreadcrumbItem>
-            </BreadcrumbList>
-          </Breadcrumb>
+          <Link href="/dashboard" className="inline-flex items-center text-sm text-gray-300 hover:text-white mb-3 sm:mb-4">
+            <ArrowLeft className="h-4 w-4 mr-1" />
+            Back to Dashboard
+          </Link>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
             <div className="min-w-0 flex-1">
@@ -198,23 +141,14 @@ export default async function CaseDetailPage({
               <Gavel className="h-3 w-3 sm:h-4 sm:w-4" />
               <span className="hidden sm:inline">Hearing</span>
             </TabsTrigger>
+            <TabsTrigger value="predict" className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm px-2 sm:px-3 shrink-0">
+              <Target className="h-3 w-3 sm:h-4 sm:w-4" />
+              <span className="hidden sm:inline">Predict</span>
+            </TabsTrigger>
           </TabsList>
 
           {/* Overview Tab */}
           <TabsContent value="overview">
-            {/* Status Alert */}
-            {(() => {
-              const statusConfig = STATUS_ALERTS[caseData.status as CaseStatus]
-              const StatusIcon = statusConfig.icon
-              return (
-                <Alert variant={statusConfig.variant} className="mb-4 sm:mb-6">
-                  <StatusIcon className="h-4 w-4" />
-                  <AlertTitle>{statusConfig.title}</AlertTitle>
-                  <AlertDescription>{statusConfig.message}</AlertDescription>
-                </Alert>
-              )
-            })()}
-
             <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
               <Card id="case-overview-summary">
                 <CardHeader>
@@ -323,6 +257,33 @@ export default async function CaseDetailPage({
               plaintiffName={caseData.plaintiff_name}
               defendantName={caseData.defendant_name}
             />
+          </TabsContent>
+
+          {/* Predict Tab */}
+          <TabsContent value="predict">
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Target className="h-5 w-5" />
+                  Case Outcome Prediction
+                </CardTitle>
+                <CardDescription>
+                  {caseData.is_blind_test 
+                    ? 'Generate a prediction and compare against the actual ruling'
+                    : 'Use AI to predict the likely outcome based on case documents and facts'}
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <BlindPrediction
+                  caseId={id}
+                  caseName={caseData.name}
+                  isBlindTest={caseData.is_blind_test || false}
+                  rulingRevealed={caseData.ruling_revealed || false}
+                  actualRuling={caseData.actual_ruling}
+                  actualRulingSummary={caseData.actual_ruling_summary}
+                />
+              </CardContent>
+            </Card>
           </TabsContent>
         </Tabs>
       </main>
