@@ -28,10 +28,12 @@ interface PredictionResult {
   citations: Array<{ source: string; relevance: number }>
   risks: string[]
   missedConsiderations?: string[]
+  proceduralViolations?: string[]
+  reversalIndicators?: string[]
 }
 
 // Generic legal analysis prompt that works on any case
-const JUDGE_SYSTEM_PROMPT = `You are an experienced federal judge tasked with predicting case outcomes based on the evidence presented.
+const JUDGE_SYSTEM_PROMPT = `You are an experienced appellate judge tasked with predicting case outcomes based on the evidence presented.
 
 Your analysis must be:
 1. EVIDENCE-BASED - Only cite facts from the provided documents
@@ -39,9 +41,43 @@ Your analysis must be:
 3. PROCEDURALLY AWARE - Consider procedural posture and burdens
 4. OBJECTIVE - No advocacy, just prediction
 
+## CRITICAL LEGAL DOCTRINES
+
+### STATUTORY SUPREMACY
+- Mandatory statutory procedures (like public hearings) CANNOT be waived by contract
+- Government entities are BOUND to follow their own ordinances and regulations
+- When a statute says "shall" do something, that is MANDATORY, not discretionary
+- Settlement agreements and contracts cannot circumvent mandatory statutory procedures
+
+### CONTRACT ZONING DOCTRINE (Land Use Cases)
+- "Contract zoning" = when a municipality contracts to zone property in a particular way
+- Contract zoning is ILLEGAL in most U.S. jurisdictions
+- Rationale: Zoning power is LEGISLATIVE and cannot be bargained away
+- A contract that effectively amends zoning without required procedures is VOID
+- Courts will NOT enforce contracts that circumvent zoning procedures
+
+### APPELLATE REVIEW PRINCIPLES
+- Appellate courts DO reverse lower courts, especially on legal questions
+- Questions of statutory interpretation are reviewed DE NOVO (no deference)
+- If the lower court misapplied the law, reversal is appropriate
+- Government deference does NOT apply when the government violated its own procedures
+
+### PROCEDURAL REQUIREMENTS
+- Public hearings serve fundamental democratic purposes
+- Citizens have a RIGHT to participate in government decisions affecting them
+- This right cannot be contracted away by the government
+- Failure to follow required procedures is grounds for reversal
+
+## REVERSAL INDICATORS (for appeals)
+- Government admitted one thing, then acted contrary to that admission
+- No required hearing was held when statute/ordinance mandated one
+- Agreement's explicit purpose was to avoid required procedures
+- Clear statutory language mandating procedures was ignored
+- Lower court gave improper deference on legal questions
+
 Consider these potential outcomes:
-- plaintiff: Plaintiff prevails on the merits
-- defendant: Defendant prevails on the merits  
+- plaintiff: Plaintiff/Appellant prevails on the merits
+- defendant: Defendant/Appellee prevails on the merits
 - dismissed: Case dismissed on procedural grounds (standing, mootness, ripeness, jurisdiction)
 - settled: Likely settlement before ruling
 - moot: Case becomes moot due to changed circumstances
@@ -65,10 +101,12 @@ Output your analysis as JSON matching this structure:
       "evidence": "Specific evidence supporting this"
     }
   ],
-  "reasoning": "Detailed legal reasoning",
+  "reasoning": "Detailed legal reasoning applying the doctrines above",
   "citations": [{"source": "Document name", "relevance": 0-100}],
   "risks": ["Potential issues that could change outcome"],
-  "proceduralFlags": ["Any mootness, standing, or jurisdictional concerns"]
+  "proceduralFlags": ["Any mootness, standing, or jurisdictional concerns"],
+  "proceduralViolations": ["Any violations of mandatory procedures"],
+  "reversalIndicators": ["Factors suggesting appellate reversal (if applicable)"]
 }`
 
 export async function POST(
@@ -203,6 +241,8 @@ Return your analysis as valid JSON.`
         reasoning: includeReasoning ? prediction.reasoning : undefined,
         citations: prediction.citations,
         risks: prediction.risks,
+        proceduralViolations: prediction.proceduralViolations,
+        reversalIndicators: prediction.reversalIndicators,
       },
       isBlindTest: caseData.is_blind_test && !caseData.ruling_revealed,
     })
@@ -237,6 +277,8 @@ async function runStandardPrediction(prompt: string): Promise<PredictionResult> 
       reasoning: parsed.reasoning || '',
       citations: parsed.citations || [],
       risks: [...(parsed.risks || []), ...(parsed.proceduralFlags || [])],
+      proceduralViolations: parsed.proceduralViolations || [],
+      reversalIndicators: parsed.reversalIndicators || [],
     }
   } catch {
     return {
@@ -247,6 +289,8 @@ async function runStandardPrediction(prompt: string): Promise<PredictionResult> 
       reasoning: content,
       citations: [],
       risks: ['Prediction parsing failed'],
+      proceduralViolations: [],
+      reversalIndicators: [],
     }
   }
 }
@@ -300,8 +344,8 @@ ${prompt}`
   return {
     outcome: judgeResult.outcome || 'defendant',
     confidence: Math.round(
-      (judgeResult.confidence * 0.5) + 
-      (plaintiffView.confidence * 0.25) + 
+      (judgeResult.confidence * 0.5) +
+      (plaintiffView.confidence * 0.25) +
       (defenseView.confidence * 0.25)
     ),
     summary: judgeResult.summary || 'Multi-agent analysis complete',
@@ -320,5 +364,7 @@ ${prompt}`
       ...(judgeResult.risks || []),
       consensus < 3 ? `Split decision (${consensus}/3 agree on outcome)` : null,
     ].filter(Boolean) as string[],
+    proceduralViolations: judgeResult.proceduralViolations || [],
+    reversalIndicators: judgeResult.reversalIndicators || [],
   }
 }
