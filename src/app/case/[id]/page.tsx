@@ -6,6 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, Users, FileText, MessageSquare, Scale, ClipboardList, Gavel } from 'lucide-react'
+import { CaseSharing } from '@/components/cases/case-sharing'
 import { AgentsList } from '@/components/agents/agents-list'
 import { DocumentsList } from '@/components/documents/documents-list'
 import { DocumentUpload } from '@/components/documents/document-upload'
@@ -99,6 +100,11 @@ export default async function CaseDetailPage({
               )}
             </div>
             <div className="flex items-center gap-2 shrink-0">
+              <CaseSharing
+                caseId={id}
+                caseName={caseData.name}
+                isOwner={caseData.user_id === user.id}
+              />
               <ExportCaseButton
                 caseId={id}
                 caseData={caseData as Case}
