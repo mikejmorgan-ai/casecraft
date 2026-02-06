@@ -1,12 +1,22 @@
--- CaseCraft Database Schema
+-- ============================================================
+-- CaseCraft - Complete Database Setup
+-- Run this entire file in Supabase SQL Editor
+-- Safe to run multiple times (all statements are idempotent)
+-- ============================================================
 
--- Enable pgcrypto for gen_random_uuid (if not already enabled)
+-- STEP 0: Remove any failing triggers on auth.users
+DROP TRIGGER IF EXISTS on_auth_user_created ON auth.users;
+DROP FUNCTION IF EXISTS public.handle_new_user();
+
+-- ============================================================
+-- STEP 1: Extensions
+-- ============================================================
 CREATE EXTENSION IF NOT EXISTS "pgcrypto";
-
--- Enable pgvector extension for embeddings
 CREATE EXTENSION IF NOT EXISTS vector;
 
--- ENUMS (idempotent - safe to run multiple times)
+-- ============================================================
+-- STEP 2: Enum Types (idempotent)
+-- ============================================================
 
 DO $$ BEGIN
   IF NOT EXISTS (SELECT 1 FROM pg_type t JOIN pg_namespace n ON n.oid = t.typnamespace
@@ -67,9 +77,10 @@ DO $$ BEGIN
   END IF;
 END $$;
 
--- TABLES
+-- ============================================================
+-- STEP 3: Tables
+-- ============================================================
 
--- Cases table
 CREATE TABLE IF NOT EXISTS cases (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id UUID NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
@@ -82,12 +93,16 @@ CREATE TABLE IF NOT EXISTS cases (
   plaintiff_name VARCHAR(255),
   defendant_name VARCHAR(255),
   filed_date DATE,
+  is_blind_test BOOLEAN DEFAULT false,
+  actual_ruling TEXT,
+  actual_ruling_date DATE,
+  actual_ruling_summary TEXT,
+  ruling_revealed BOOLEAN DEFAULT false,
   metadata JSONB DEFAULT '{}',
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
--- Agents table
 CREATE TABLE IF NOT EXISTS agents (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   case_id UUID NOT NULL REFERENCES cases(id) ON DELETE CASCADE,
@@ -102,7 +117,6 @@ CREATE TABLE IF NOT EXISTS agents (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
--- Documents table
 CREATE TABLE IF NOT EXISTS documents (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   case_id UUID NOT NULL REFERENCES cases(id) ON DELETE CASCADE,
@@ -118,7 +132,6 @@ CREATE TABLE IF NOT EXISTS documents (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
--- Document chunks for RAG
 CREATE TABLE IF NOT EXISTS document_chunks (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   document_id UUID NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
@@ -130,7 +143,6 @@ CREATE TABLE IF NOT EXISTS document_chunks (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
--- Conversations table
 CREATE TABLE IF NOT EXISTS conversations (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   case_id UUID NOT NULL REFERENCES cases(id) ON DELETE CASCADE,
@@ -143,7 +155,6 @@ CREATE TABLE IF NOT EXISTS conversations (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
--- Messages table
 CREATE TABLE IF NOT EXISTS messages (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   conversation_id UUID NOT NULL REFERENCES conversations(id) ON DELETE CASCADE,
@@ -155,7 +166,6 @@ CREATE TABLE IF NOT EXISTS messages (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
--- Case facts table
 CREATE TABLE IF NOT EXISTS case_facts (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   case_id UUID NOT NULL REFERENCES cases(id) ON DELETE CASCADE,
@@ -169,7 +179,31 @@ CREATE TABLE IF NOT EXISTS case_facts (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
--- INDEXES
+CREATE TABLE IF NOT EXISTS case_predictions (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  case_id UUID REFERENCES cases(id) ON DELETE CASCADE NOT NULL,
+  user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE NOT NULL,
+  predicted_outcome TEXT NOT NULL,
+  predicted_ruling_summary TEXT NOT NULL,
+  confidence_score INTEGER CHECK (confidence_score >= 0 AND confidence_score <= 100),
+  key_factors JSONB DEFAULT '[]'::jsonb,
+  reasoning TEXT,
+  citations JSONB DEFAULT '[]'::jsonb,
+  is_correct BOOLEAN,
+  accuracy_score INTEGER,
+  comparison_notes TEXT,
+  missed_factors JSONB DEFAULT '[]'::jsonb,
+  model_used TEXT DEFAULT 'gpt-4o',
+  prediction_mode TEXT DEFAULT 'standard',
+  raw_response JSONB,
+  created_at TIMESTAMPTZ DEFAULT now(),
+  revealed_at TIMESTAMPTZ
+);
+
+-- ============================================================
+-- STEP 4: Indexes
+-- ============================================================
+
 CREATE INDEX IF NOT EXISTS idx_cases_user_id ON cases(user_id);
 CREATE INDEX IF NOT EXISTS idx_cases_status ON cases(status);
 CREATE INDEX IF NOT EXISTS idx_agents_case_id ON agents(case_id);
@@ -180,8 +214,13 @@ CREATE INDEX IF NOT EXISTS idx_conversations_case_id ON conversations(case_id);
 CREATE INDEX IF NOT EXISTS idx_messages_conversation_id ON messages(conversation_id);
 CREATE INDEX IF NOT EXISTS idx_messages_created_at ON messages(created_at);
 CREATE INDEX IF NOT EXISTS idx_case_facts_case_id ON case_facts(case_id);
+CREATE INDEX IF NOT EXISTS idx_predictions_case ON case_predictions(case_id);
+CREATE INDEX IF NOT EXISTS idx_predictions_user ON case_predictions(user_id);
 
--- ROW LEVEL SECURITY
+-- ============================================================
+-- STEP 5: Row Level Security
+-- ============================================================
+
 ALTER TABLE cases ENABLE ROW LEVEL SECURITY;
 ALTER TABLE agents ENABLE ROW LEVEL SECURITY;
 ALTER TABLE documents ENABLE ROW LEVEL SECURITY;
@@ -189,8 +228,9 @@ ALTER TABLE document_chunks ENABLE ROW LEVEL SECURITY;
 ALTER TABLE conversations ENABLE ROW LEVEL SECURITY;
 ALTER TABLE messages ENABLE ROW LEVEL SECURITY;
 ALTER TABLE case_facts ENABLE ROW LEVEL SECURITY;
+ALTER TABLE case_predictions ENABLE ROW LEVEL SECURITY;
 
--- RLS Policies for cases
+-- Cases policies
 DO $$ BEGIN
   IF NOT EXISTS (SELECT 1 FROM pg_policies WHERE tablename = 'cases' AND policyname = 'Users can view own cases') THEN
     CREATE POLICY "Users can view own cases" ON cases FOR SELECT USING (auth.uid() = user_id);
@@ -215,7 +255,7 @@ DO $$ BEGIN
   END IF;
 END $$;
 
--- RLS Policies for agents
+-- Agents policies
 DO $$ BEGIN
   IF NOT EXISTS (SELECT 1 FROM pg_policies WHERE tablename = 'agents' AND policyname = 'Users can manage case agents') THEN
     CREATE POLICY "Users can manage case agents" ON agents FOR ALL USING (
@@ -224,7 +264,7 @@ DO $$ BEGIN
   END IF;
 END $$;
 
--- RLS Policies for documents
+-- Documents policies
 DO $$ BEGIN
   IF NOT EXISTS (SELECT 1 FROM pg_policies WHERE tablename = 'documents' AND policyname = 'Users can manage case documents') THEN
     CREATE POLICY "Users can manage case documents" ON documents FOR ALL USING (
@@ -233,7 +273,7 @@ DO $$ BEGIN
   END IF;
 END $$;
 
--- RLS Policies for document_chunks
+-- Document chunks policies
 DO $$ BEGIN
   IF NOT EXISTS (SELECT 1 FROM pg_policies WHERE tablename = 'document_chunks' AND policyname = 'Users can view document chunks') THEN
     CREATE POLICY "Users can view document chunks" ON document_chunks FOR ALL USING (
@@ -246,7 +286,7 @@ DO $$ BEGIN
   END IF;
 END $$;
 
--- RLS Policies for conversations
+-- Conversations policies
 DO $$ BEGIN
   IF NOT EXISTS (SELECT 1 FROM pg_policies WHERE tablename = 'conversations' AND policyname = 'Users can manage case conversations') THEN
     CREATE POLICY "Users can manage case conversations" ON conversations FOR ALL USING (
@@ -255,7 +295,7 @@ DO $$ BEGIN
   END IF;
 END $$;
 
--- RLS Policies for messages
+-- Messages policies
 DO $$ BEGIN
   IF NOT EXISTS (SELECT 1 FROM pg_policies WHERE tablename = 'messages' AND policyname = 'Users can manage conversation messages') THEN
     CREATE POLICY "Users can manage conversation messages" ON messages FOR ALL USING (
@@ -268,7 +308,7 @@ DO $$ BEGIN
   END IF;
 END $$;
 
--- RLS Policies for case_facts
+-- Case facts policies
 DO $$ BEGIN
   IF NOT EXISTS (SELECT 1 FROM pg_policies WHERE tablename = 'case_facts' AND policyname = 'Users can manage case facts') THEN
     CREATE POLICY "Users can manage case facts" ON case_facts FOR ALL USING (
@@ -277,9 +317,29 @@ DO $$ BEGIN
   END IF;
 END $$;
 
--- FUNCTIONS
+-- Predictions policies
+DO $$ BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_policies WHERE tablename = 'case_predictions' AND policyname = 'Users can view own predictions') THEN
+    CREATE POLICY "Users can view own predictions" ON case_predictions FOR SELECT USING (auth.uid() = user_id);
+  END IF;
+END $$;
 
--- Vector similarity search function
+DO $$ BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_policies WHERE tablename = 'case_predictions' AND policyname = 'Users can create predictions') THEN
+    CREATE POLICY "Users can create predictions" ON case_predictions FOR INSERT WITH CHECK (auth.uid() = user_id);
+  END IF;
+END $$;
+
+DO $$ BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_policies WHERE tablename = 'case_predictions' AND policyname = 'Users can update own predictions') THEN
+    CREATE POLICY "Users can update own predictions" ON case_predictions FOR UPDATE USING (auth.uid() = user_id);
+  END IF;
+END $$;
+
+-- ============================================================
+-- STEP 6: Functions
+-- ============================================================
+
 CREATE OR REPLACE FUNCTION match_document_chunks(
   query_embedding vector(1536),
   match_case_id UUID,
@@ -312,7 +372,6 @@ BEGIN
 END;
 $$;
 
--- Auto-update timestamps trigger function
 CREATE OR REPLACE FUNCTION update_updated_at()
 RETURNS TRIGGER AS $$
 BEGIN
@@ -321,28 +380,82 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- Apply timestamp triggers (idempotent)
+CREATE OR REPLACE FUNCTION calculate_prediction_accuracy(
+  p_prediction_id UUID
+) RETURNS INTEGER AS $$
+DECLARE
+  v_prediction RECORD;
+  v_case RECORD;
+  v_accuracy INTEGER := 0;
+BEGIN
+  SELECT * INTO v_prediction FROM case_predictions WHERE id = p_prediction_id;
+  SELECT * INTO v_case FROM cases WHERE id = v_prediction.case_id;
+  
+  IF v_case.actual_ruling IS NOT NULL THEN
+    IF lower(v_prediction.predicted_outcome) = lower(v_case.actual_ruling) THEN
+      v_accuracy := 100;
+    ELSIF v_prediction.predicted_outcome IN ('plaintiff', 'defendant')
+      AND v_case.actual_ruling IN ('plaintiff', 'defendant') THEN
+      v_accuracy := 0;
+    ELSIF v_case.actual_ruling IN ('dismissed', 'moot') THEN
+      v_accuracy := 30;
+    ELSE
+      v_accuracy := 50;
+    END IF;
+  END IF;
+  
+  UPDATE case_predictions
+  SET
+    is_correct = (v_accuracy >= 80),
+    accuracy_score = v_accuracy,
+    revealed_at = now()
+  WHERE id = p_prediction_id;
+  
+  RETURN v_accuracy;
+END;
+$$ LANGUAGE plpgsql SECURITY DEFINER;
+
+-- ============================================================
+-- STEP 7: Triggers (idempotent)
+-- ============================================================
+
 DROP TRIGGER IF EXISTS update_cases_updated_at ON cases;
 CREATE TRIGGER update_cases_updated_at
-  BEFORE UPDATE ON cases
-  FOR EACH ROW EXECUTE FUNCTION update_updated_at();
+  BEFORE UPDATE ON cases FOR EACH ROW EXECUTE FUNCTION update_updated_at();
 
 DROP TRIGGER IF EXISTS update_agents_updated_at ON agents;
 CREATE TRIGGER update_agents_updated_at
-  BEFORE UPDATE ON agents
-  FOR EACH ROW EXECUTE FUNCTION update_updated_at();
+  BEFORE UPDATE ON agents FOR EACH ROW EXECUTE FUNCTION update_updated_at();
 
 DROP TRIGGER IF EXISTS update_documents_updated_at ON documents;
 CREATE TRIGGER update_documents_updated_at
-  BEFORE UPDATE ON documents
-  FOR EACH ROW EXECUTE FUNCTION update_updated_at();
+  BEFORE UPDATE ON documents FOR EACH ROW EXECUTE FUNCTION update_updated_at();
 
 DROP TRIGGER IF EXISTS update_conversations_updated_at ON conversations;
 CREATE TRIGGER update_conversations_updated_at
-  BEFORE UPDATE ON conversations
-  FOR EACH ROW EXECUTE FUNCTION update_updated_at();
+  BEFORE UPDATE ON conversations FOR EACH ROW EXECUTE FUNCTION update_updated_at();
 
 DROP TRIGGER IF EXISTS update_case_facts_updated_at ON case_facts;
 CREATE TRIGGER update_case_facts_updated_at
-  BEFORE UPDATE ON case_facts
-  FOR EACH ROW EXECUTE FUNCTION update_updated_at();
+  BEFORE UPDATE ON case_facts FOR EACH ROW EXECUTE FUNCTION update_updated_at();
+
+-- Add agent roles from migration 002
+DO $$ BEGIN
+  ALTER TYPE agent_role ADD VALUE IF NOT EXISTS 'law_clerk';
+EXCEPTION WHEN duplicate_object THEN NULL;
+END $$;
+
+DO $$ BEGIN
+  ALTER TYPE agent_role ADD VALUE IF NOT EXISTS 'county_recorder';
+EXCEPTION WHEN duplicate_object THEN NULL;
+END $$;
+
+DO $$ BEGIN
+  ALTER TYPE agent_role ADD VALUE IF NOT EXISTS 'dogm_agent';
+EXCEPTION WHEN duplicate_object THEN NULL;
+END $$;
+
+-- ============================================================
+-- DONE! Your database is ready.
+-- Now go to Authentication > Users > Add user to create a user.
+-- ============================================================
