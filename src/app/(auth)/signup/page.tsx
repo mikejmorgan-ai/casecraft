@@ -7,6 +7,7 @@ import { createClient } from '@/lib/supabase/client'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
+import { Checkbox } from '@/components/ui/checkbox'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
 import { Scale, Loader2 } from 'lucide-react'
 
@@ -14,6 +15,7 @@ export default function SignupPage() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
+  const [acceptedTerms, setAcceptedTerms] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
   const router = useRouter()
@@ -22,6 +24,12 @@ export default function SignupPage() {
     e.preventDefault()
     setLoading(true)
     setError(null)
+
+    if (!acceptedTerms) {
+      setError('You must accept the Terms of Service to create an account')
+      setLoading(false)
+      return
+    }
 
     if (password !== confirmPassword) {
       setError('Passwords do not match')
@@ -39,6 +47,12 @@ export default function SignupPage() {
     const { error } = await supabase.auth.signUp({
       email,
       password,
+      options: {
+        emailRedirectTo: `${window.location.origin}/verify-email`,
+        data: {
+          terms_accepted_at: new Date().toISOString(),
+        },
+      },
     })
 
     if (error) {
@@ -47,8 +61,8 @@ export default function SignupPage() {
       return
     }
 
-    router.push('/dashboard')
-    router.refresh()
+    // Redirect to verify email page
+    router.push(`/verify-email?email=${encodeURIComponent(email)}`)
   }
 
   return (
@@ -109,6 +123,28 @@ export default function SignupPage() {
                 required
                 disabled={loading}
               />
+            </div>
+
+            <div className="flex items-start space-x-2">
+              <Checkbox
+                id="terms"
+                checked={acceptedTerms}
+                onCheckedChange={(checked) => setAcceptedTerms(checked === true)}
+                disabled={loading}
+              />
+              <label
+                htmlFor="terms"
+                className="text-sm text-muted-foreground leading-relaxed cursor-pointer"
+              >
+                I agree to the{' '}
+                <Link href="/terms" className="text-primary hover:underline">
+                  Terms of Service
+                </Link>{' '}
+                and{' '}
+                <Link href="/privacy" className="text-primary hover:underline">
+                  Privacy Policy
+                </Link>
+              </label>
             </div>
           </CardContent>
 
