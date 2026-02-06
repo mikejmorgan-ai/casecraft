@@ -9,12 +9,21 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Checkbox } from '@/components/ui/checkbox'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { Scale, Loader2 } from 'lucide-react'
+import { Scale, Loader2, Briefcase, FileText, User, Search } from 'lucide-react'
+import { type UserRole, ROLE_INFO } from '@/lib/auth/rbac'
+
+const SIGNUP_ROLES: { role: UserRole; icon: React.ReactNode }[] = [
+  { role: 'attorney', icon: <Briefcase className="h-5 w-5" /> },
+  { role: 'paralegal', icon: <FileText className="h-5 w-5" /> },
+  { role: 'client', icon: <User className="h-5 w-5" /> },
+  { role: 'researcher', icon: <Search className="h-5 w-5" /> },
+]
 
 export default function SignupPage() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
+  const [selectedRole, setSelectedRole] = useState<UserRole>('attorney')
   const [acceptedTerms, setAcceptedTerms] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
@@ -50,6 +59,7 @@ export default function SignupPage() {
       options: {
         emailRedirectTo: `${window.location.origin}/verify-email`,
         data: {
+          role: selectedRole,
           terms_accepted_at: new Date().toISOString(),
         },
       },
@@ -123,6 +133,33 @@ export default function SignupPage() {
                 required
                 disabled={loading}
               />
+            </div>
+
+            <div className="space-y-2">
+              <Label>I am a...</Label>
+              <div className="grid grid-cols-2 gap-2">
+                {SIGNUP_ROLES.map(({ role, icon }) => (
+                  <button
+                    key={role}
+                    type="button"
+                    onClick={() => setSelectedRole(role)}
+                    disabled={loading}
+                    className={`flex items-center gap-2 p-3 rounded-lg border text-left transition-colors ${
+                      selectedRole === role
+                        ? 'border-primary bg-primary/10 text-primary'
+                        : 'border-border hover:border-primary/50 text-muted-foreground hover:text-foreground'
+                    }`}
+                  >
+                    {icon}
+                    <div>
+                      <div className="font-medium text-sm">{ROLE_INFO[role].label}</div>
+                    </div>
+                  </button>
+                ))}
+              </div>
+              <p className="text-xs text-muted-foreground mt-1">
+                {ROLE_INFO[selectedRole].description}
+              </p>
             </div>
 
             <div className="flex items-start space-x-2">
