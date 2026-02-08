@@ -1,7 +1,7 @@
 import { createServerSupabase } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import Link from 'next/link'
-import { Card, CardContent } from '@/components/ui/card'
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import {
   Briefcase,
@@ -9,8 +9,10 @@ import {
   Scale,
   FileText,
   Target,
+  Sparkles,
 } from 'lucide-react'
 import { CasesListClient } from '@/components/cases/cases-list-client'
+import { CaseTemplates } from '@/components/cases/case-templates'
 import { getUserProfile } from '@/lib/auth/check-permission'
 import { hasPermission } from '@/lib/auth/rbac'
 
@@ -127,6 +129,24 @@ export default async function CasesPage() {
           </CardContent>
         </Card>
       </div>
+
+      {/* Quick Start Templates - Show for users who can create cases */}
+      {canCreateCase && (
+        <Card>
+          <CardHeader>
+            <div className="flex items-center gap-2">
+              <Sparkles className="h-5 w-5 text-primary" />
+              <CardTitle className="text-lg">Quick Start Templates</CardTitle>
+            </div>
+            <CardDescription>
+              Create a new case using one of our Utah-focused legal templates
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <CaseTemplates featured />
+          </CardContent>
+        </Card>
+      )}
 
       {/* Cases List with Client-Side Filtering */}
       <CasesListClient cases={casesList} canCreateCase={canCreateCase} />
