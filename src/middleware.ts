@@ -37,7 +37,9 @@ export async function middleware(request: NextRequest) {
     request.nextUrl.pathname.startsWith(path)
   )
 
-  if (isProtectedPath && !user) {
+  const hasBetaBypass = request.cookies.get('beta_bypass')?.value === 'true'
+
+  if (isProtectedPath && !user && !hasBetaBypass) {
     const url = request.nextUrl.clone()
     url.pathname = '/login'
     return NextResponse.redirect(url)

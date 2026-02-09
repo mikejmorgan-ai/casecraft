@@ -111,6 +111,19 @@ export default function LoginPage() {
               )}
             </Button>
 
+            <Button
+              id="btn-beta-bypass"
+              type="button"
+              variant="outline"
+              className="w-full border-dashed border-yellow-600 text-yellow-500 hover:bg-yellow-500/10 hover:text-yellow-400"
+              onClick={() => {
+                document.cookie = 'beta_bypass=true; path=/'
+                router.push('/dashboard')
+              }}
+            >
+              Beta Bypass (Skip Login)
+            </Button>
+
             <p className="text-sm text-muted-foreground text-center">
               Don&apos;t have an account?{' '}
               <Link href="/signup" className="text-primary hover:underline">
