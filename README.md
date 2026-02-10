@@ -131,14 +131,6 @@ casecraft/
 2. Set environment variables in the Replit Secrets tab
 3. Run `npm run build && npm start` or use the dev server with `npm run dev`
 
-### Alternative (Vercel)
-
-```bash
-vercel deploy --prod
-```
-
-Set environment variables in Vercel dashboard.
-
 ## License
 
 MIT
