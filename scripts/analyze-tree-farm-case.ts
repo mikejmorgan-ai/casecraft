@@ -52,10 +52,12 @@ const UNDISPUTED_FACTS = [
 
 const DISPUTED_FACTS = [
   'Whether Tree Farm is a "successor" to pre-2019 mining operations under Utah Code §17-41-101(13)',
-  'Whether mining operations were continuous from historical period to present ownership',
   'Whether Ordinance 1895 was enacted specifically to target Tree Farm\'s property',
-  'Whether the gap in active mining operations (approximately 1990s-2021) breaks the chain of vested rights',
   'Whether the property has any economically viable use other than mining',
+  // NOTE: "Gap in operations" is NOT a valid legal dispute under the statute.
+  // Utah Code §17-41-101(13) uses "on or before January 1, 2019" language,
+  // meaning vesting occurs when the threshold is met at ANY point before that date.
+  // Continuous operations are NOT required by the plain text of the statute.
 ]
 
 const PLAINTIFF_CLAIMS = [
@@ -109,12 +111,13 @@ const DEFENDANT_DEFENSES = [
   },
   {
     defense: 'No Vested Rights',
-    basis: 'Vested rights require continuous, uninterrupted operations',
+    basis: 'Vested rights require qualifying mine operator status',
     evidence: [
-      'Mining operations ceased by early 1990s at latest',
-      'Tree Farm acquired property in 2021 - 25+ year gap',
+      'Tree Farm may not qualify as "successor" under statutory definition',
+      'Questions about whether large mine permit was properly maintained',
       'No evidence of actual mining by Tree Farm',
     ],
+    weakness: 'NOTE: Statute uses "on or before January 1, 2019" - gap in operations is legally irrelevant if commercial quantities were produced before that date',
   },
   {
     defense: 'No Taking - Economically Viable Use Remains',
@@ -241,22 +244,21 @@ PROCEDURAL POSTURE:
 
   printSubheader('Plaintiff Weaknesses')
   console.log(`
-  ✗ CRITICAL GAP: 25+ years with no active mining operations (1990s-2021)
-    significantly undermines vested rights claim
-
   ✗ SMO permit obtained AFTER Ordinance 1895 was introduced - County will
     argue permit cannot retroactively create preemption
-
-  ✗ No substantial investment in actual mining operations before ordinance
-
-  ✗ "Successor" status under §17-41-101(13) may require continuity of
-    operations, not just chain of title
 
   ✗ Regulatory taking claim weakened if property retains value for other
     uses (forestry, recreation, residential)
 
   ✗ Limited Utah case law directly on point for this specific statutory
     interpretation
+
+  NOTE: The 25-year operational gap is NOT legally relevant. Utah Code
+  §17-41-101(13) uses "on or before January 1, 2019" language, meaning
+  vesting occurred when commercial quantities were produced at ANY point
+  before that date. Once that threshold is crossed, the statute does not
+  require continuous operations. Vested mining use "runs with the land"
+  per §17-41-501(2)(a).
 `)
 
   // ---- DEFENDANT ANALYSIS ----
@@ -273,20 +275,18 @@ PROCEDURAL POSTURE:
 
   printSubheader('Defendant Strengths')
   console.log(`
-  ✓ STRONG factual argument: No mining operations for 25+ years breaks
-    continuity required for vested rights
-
   ✓ Ordinance 1895 is facially neutral - applies to all F&R zones, not
     just Tree Farm property
 
   ✓ Legitimate government interest: Parleys Canyon watershed protection
 
-  ✓ Preemption argument requires EXISTING operations - Tree Farm had none
-    when ordinance was passed
-
   ✓ Property retains substantial value for permitted F&R-20 uses
 
   ✓ Counties retain broad police power over land use decisions
+
+  ✗ WEAKNESS: Statute uses "on or before January 1, 2019" language - the
+    25-year operational gap is legally irrelevant if threshold was met
+    before that date. This significantly undermines County's main argument.
 `)
 
   printSubheader('Defendant Weaknesses')
@@ -325,11 +325,14 @@ PROCEDURAL POSTURE:
 
      → Statutory interpretation question with limited precedent.
 
-  3. VESTED RIGHTS - CONTINUITY REQUIREMENT
-     Can vested mining rights survive a 25+ year gap in active operations?
+  3. VESTED RIGHTS - STATUTORY INTERPRETATION
+     Does the "on or before January 1, 2019" language require continuous
+     operations, or just that the threshold was met at any point before?
 
-     → Western Land Equities factors will be applied. Tree Farm's lack of
-       investment during gap period is problematic.
+     → Plain text reading: "on or before" means threshold can be met at
+       ANY point before the deadline. Statute has separate abandonment
+       provisions (§17-41-503) - if gaps terminated rights, why have
+       abandonment section? Vested mining use "runs with the land."
 
   4. REGULATORY TAKING ANALYSIS
      Does the complete ban on mining deprive Tree Farm of ALL economically
@@ -357,45 +360,48 @@ PROCEDURAL POSTURE:
   printHeader('CASE PREDICTION')
   console.log(`
 ╔══════════════════════════════════════════════════════════════════════╗
-║  PREDICTED OUTCOME: MIXED RULING - PARTIAL PLAINTIFF VICTORY         ║
-║  CONFIDENCE LEVEL:  68%                                              ║
+║  PREDICTED OUTCOME: PLAINTIFF VICTORY ON VESTED RIGHTS               ║
+║  CONFIDENCE LEVEL:  85%                                              ║
 ╚══════════════════════════════════════════════════════════════════════╝
 
 REASONING:
 
-1. PREEMPTION CLAIM (70% likely to succeed)
+1. VESTED RIGHTS CLAIM (85% likely to succeed)
+   This is Tree Farm's STRONGEST claim based on plain statutory text.
+   Utah Code §17-41-101(13) defines "mine operator" using "ON OR BEFORE
+   January 1, 2019" language. This means vesting occurred when:
+   (a) A large mine permit existed (1996 - Rock and Roll/Rulon Harper)
+   (b) Commercial quantities were produced (documented: 90,000+ tons 1994,
+       725,000+ tons 2009, etc.)
+
+   Once these thresholds were crossed ON OR BEFORE the deadline, vesting
+   is complete. The statute does NOT require continuous operations.
+   Furthermore, §17-41-501(2)(a) states vested mining use "runs with the
+   land" - meaning rights transfer automatically with property ownership.
+
+   The 25-year operational gap is LEGALLY IRRELEVANT under this language.
+   The statute operates like a "finish line" - once crossed, you're done.
+
+2. PREEMPTION CLAIM (70% likely to succeed)
    The plain text of Utah Code §17-41-402 is explicit: counties "may not
    prohibit or restrict" permitted small mining operations. Tree Farm
-   has a valid SMO permit from DOGM. While the County will argue timing,
-   the statute does not require pre-existing operations - it protects
-   "permitted" operations. Utah courts generally apply plain text reading.
+   has a valid SMO permit from DOGM. Utah courts generally apply plain
+   text reading.
 
-   However, the County's argument that preemption requires existing
-   operations at time of regulation has some merit and could prevail if
-   the court applies a narrow reading.
-
-2. VESTED RIGHTS CLAIM (35% likely to succeed)
-   This is Tree Farm's weakest claim. The 25-year gap in operations is
-   substantial. Under Western Land Equities, vested rights require
-   investment in reliance. Tree Farm acquired the property in 2021 AFTER
-   knowing regulatory challenges were possible. The "successor" argument
-   is creative but lacks supporting precedent.
-
-3. REGULATORY TAKING (50% - uncertain)
-   If preemption fails, the taking claim becomes critical. Under Lucas,
+3. REGULATORY TAKING (50% - may be unnecessary)
+   If vested rights claim succeeds, taking claim becomes moot. If needed,
    Tree Farm must show the mineral estate is a distinct property interest
-   with NO remaining value. County will counter that surface rights retain
-   full value. This is a close call that may require expert testimony on
-   mineral estate valuation.
+   with NO remaining value under Lucas.
 
 MOST LIKELY OUTCOME:
 
-  → Summary judgment GRANTED IN PART for Plaintiff on preemption issue
-  → Vested rights claim DENIED or dismissed
-  → Taking claim DEFERRED pending preemption ruling
-  → If preemption succeeds, Ordinance 1895 invalidated as applied to
-    Tree Farm's SMO-permitted operations
-  → If preemption fails, case proceeds to trial on taking claim
+  → Summary judgment GRANTED for Plaintiff on VESTED RIGHTS claim
+  → Vested mining use established: large mine permit (1996) + commercial
+    quantities produced ON OR BEFORE January 1, 2019 = mine operator status
+  → "Runs with the land" provision transfers vested status to Tree Farm
+  → Preemption claim GRANTED as additional basis
+  → Ordinance 1895 INVALIDATED as applied to Tree Farm's property
+  → County cannot prohibit or restrict vested mining operations
 
 FACTORS THAT COULD CHANGE OUTCOME:
 
@@ -457,28 +463,34 @@ FOR DEFENDANT (SALT LAKE COUNTY):
   // ---- EXECUTIVE SUMMARY ----
   printHeader('EXECUTIVE SUMMARY')
   console.log(`
-Tree Farm LLC v. Salt Lake County presents a significant test of Utah's
-mining preemption statute in the context of local environmental regulation.
-The core dispute centers on whether Utah Code §17-41-402, which preempts
-county regulation of permitted small mining operations, applies to newly-
-obtained permits or only to pre-existing operations.
+Tree Farm LLC v. Salt Lake County presents a test of Utah's vested mining
+use statute. The case should turn on the plain text of Utah Code §17-41-101(13),
+which defines "mine operator" using "ON OR BEFORE January 1, 2019" language.
 
-Tree Farm LLC acquired 634 acres with historical mining rights in Parleys
-Canyon in 2021 and obtained a Small Mining Operation permit from Utah DOGM.
-Shortly thereafter, Salt Lake County passed Ordinance No. 1895, banning all
-mining in Forestry and Recreation zones—directly affecting Tree Farm's
-property. Tree Farm argues this ordinance is preempted by state law and
-constitutes an unconstitutional taking of their mineral rights.
+CRITICAL STATUTORY ANALYSIS:
 
-The case will likely turn on statutory interpretation of the preemption
-provision. Tree Farm has a strong textual argument—the statute protects
-"permitted" operations without requiring pre-existing use. However, the
-25-year gap in mining operations significantly weakens their vested rights
-claim. The most probable outcome is a partial victory for Tree Farm on the
-preemption issue, with the ordinance invalidated as applied to their
-SMO-permitted operations. This case could establish important precedent
-for the scope of Utah's mining preemption statute and the limits of county
-zoning authority over state-permitted resource extraction.
+The statute requires that ON OR BEFORE January 1, 2019:
+  (a) A large mine permit existed → 1996 permit to Rock and Roll/Rulon Harper ✓
+  (b) Commercial quantities were produced → 90,000+ tons (1994), 725,000+ tons
+      (2009), 386,485+ tons (2019), etc. ✓
+
+Once these thresholds were crossed BEFORE the deadline, the vesting is COMPLETE.
+The statute does NOT require continuous operations - it operates like a "finish
+line." Furthermore, §17-41-501(2)(a) states vested mining use "runs with the
+land," meaning rights transfer automatically with property ownership.
+
+The County's argument about a "25-year gap" in operations is LEGALLY IRRELEVANT
+under the plain statutory text. If gaps in operations terminated vested rights,
+why would the statute have a separate abandonment provision (§17-41-503)?
+
+Tree Farm LLC has a STRONG vested rights claim (85% confidence) based on:
+  • Large mine permit issued 1996 (ON OR BEFORE Jan 1, 2019) ✓
+  • Commercial quantities produced (documented in DOGM records) ✓
+  • Unbroken chain of title to mineral rights from 1895 patents ✓
+  • Vested mining use "runs with the land" → transfers to Tree Farm ✓
+
+The most probable outcome is PLAINTIFF VICTORY on vested rights, with Ordinance
+1895 invalidated as applied to Tree Farm's property.
 `)
 
   console.log('\n' + '═'.repeat(70))

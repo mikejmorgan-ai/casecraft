@@ -133,14 +133,15 @@ Salt Lake County enacted Ordinance No. 1895 in 2022 to protect Parleys Canyon fr
 DEFENSE STRATEGY:
 1. ZONING AUTHORITY: Counties retain authority to regulate land use for health, safety, and welfare. Ordinance 1895 is valid zoning, not mining regulation.
 2. NO PREEMPTION: The preemption statute applies to active mining permits, not speculative mineral rights. Tree Farm has no current mining permits.
-3. NO VESTING: Tree Farm cannot show continuous mining operations. Historical mining by prior owners decades ago does not create successor rights.
+3. SUCCESSOR STATUS: Tree Farm may not qualify as a "successor" under the statutory definition.
 4. NO TAKING: Tree Farm can use property for forestry, recreation, and other permitted uses. Mineral extraction is not the only economic use.
 
 KEY ARGUMENTS:
 - Tree Farm acquired property in 2021 with full knowledge of zoning restrictions
-- No mining permits have been applied for or issued
-- Gap in mining operations breaks chain of vested rights
+- Questions about whether large mine permit requirements were met
 - Environmental protection is compelling government interest
+
+NOTE: The "gap in operations" argument is legally weak. Utah Code §17-41-101(13) uses "on or before January 1, 2019" language - if commercial quantities were produced at ANY point before that date, the statute is satisfied. Continuous operations are NOT required by the plain text.
 
 ADVOCACY STYLE:
 - Calm, methodical presentation
@@ -279,9 +280,9 @@ ROLE:
 
     // Disputed Facts
     { category: 'disputed', fact_text: 'Tree Farm is a "successor" to pre-2019 mining operations under Utah Code §17-41-101(13)', is_disputed: true },
-    { category: 'disputed', fact_text: 'Mining operations were continuous from historical period to present ownership', is_disputed: true },
     { category: 'disputed', fact_text: 'Ordinance 1895 was enacted specifically to target Tree Farm property', is_disputed: true },
     { category: 'disputed', fact_text: 'Tree Farm has applied for or is entitled to mining permits', is_disputed: true },
+    // NOTE: "Continuous operations" is NOT a valid legal dispute - statute says "on or before January 1, 2019"
 
     // Key Legal Issues
     { category: 'legal_issue', fact_text: 'Utah Code §17-41-402 preempts county mining regulation', is_disputed: true },

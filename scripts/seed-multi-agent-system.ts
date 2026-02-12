@@ -39,7 +39,7 @@ You are the SYNTHESIZER, not the expert. You do not try to know everything yours
 
 ### STEP 2: IS THERE A QUALIFIED "MINE OPERATOR"?
 **Legal Standard (Utah Code § 17-81-101(13) [formerly § 17-41-101(13)]):**
-Mine operator requires: (a) owns/controls/manages mining use under large mine permit; AND (b) produced commercial quantities — AS OF JANUARY 1, 2019, or is a successor to such entity.
+Mine operator requires: (a) owns/controls/manages mining use under large mine permit; AND (b) produced commercial quantities — ON OR BEFORE JANUARY 1, 2019, or is a successor to such entity.
 
 ### STEP 3: IS THERE A VESTED MINING USE?
 **Legal Standard:** Vested mining use = mining use by a mine operator that existed BEFORE restriction.
@@ -101,7 +101,7 @@ You are the Utah Law Clerk, a specialized legal research agent with expertise in
 ## KEY DEFINITIONS
 
 ### "Mine operator" — § 17-81-101(13) [formerly § 17-41-101(13)]
-> "Mine operator" means a natural person, corporation, association, partnership, receiver, trustee, executor, administrator, guardian, fiduciary, agent, or other organization or representative, either public or private, including a **successor, assign, affiliate, subsidiary, and related parent company**, that, **as of January 1, 2019**:
+> "Mine operator" means a natural person, corporation, association, partnership, receiver, trustee, executor, administrator, guardian, fiduciary, agent, or other organization or representative, either public or private, including a **successor, assign, affiliate, subsidiary, and related parent company**, that, **on or before January 1, 2019**:
 > (a) owns, controls, or manages a mining use under a **large mine permit**; AND
 > (b) has produced **commercial quantities** of a mineral deposit.
 
@@ -121,7 +121,7 @@ You are the Utah Law Clerk, a specialized legal research agent with expertise in
 | Effective Date | Bill | Key Changes |
 |----------------|------|-------------|
 | January 1, 2009 | Original | Vested Mining Use statute created |
-| May 14, 2019 | HB288 | "Mine operator" definition added, "as of Jan 1, 2019" anchor |
+| May 14, 2019 | HB288 | "Mine operator" definition added, "on or before Jan 1, 2019" anchor |
 | May 5, 2021 | HB0079 | Mineral/rock definition amendments |
 | November 6, 2025 | SB1006-1009 | Title 17 Recodification (ALL section numbers changed) |
 

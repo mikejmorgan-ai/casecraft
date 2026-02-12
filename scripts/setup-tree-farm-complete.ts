@@ -150,8 +150,10 @@ CLIENT: Salt Lake County enacted Ordinance No. 1895 in 2022 to protect Parleys C
 DEFENSE STRATEGY:
 1. ZONING AUTHORITY: Counties retain authority to regulate land use
 2. NO PREEMPTION: Preemption applies to active mining permits, not speculative rights
-3. NO VESTING: Tree Farm cannot show continuous mining operations
+3. SUCCESSOR STATUS: Tree Farm may not qualify as "successor" under statutory definition
 4. NO TAKING: Property can be used for forestry, recreation
+
+NOTE: The "continuous operations" argument is legally weak - statute uses "on or before January 1, 2019" language.
 
 ADVOCACY STYLE: Calm, methodical, challenges documentary evidence.`,
     },
@@ -222,8 +224,8 @@ ROLE: Track deadlines, confirm procedural requirements, maintain case record. Do
     { category: 'undisputed', fact_text: 'Salt Lake County passed Ordinance No. 1895 in 2022 banning mining in Forestry and Recreation zones', is_disputed: false },
     { category: 'undisputed', fact_text: 'Union Portland Cement Company operated mining on the property from early 1900s', is_disputed: false },
     { category: 'disputed', fact_text: 'Tree Farm is a "successor" to pre-2019 mining operations under Utah Code §17-41-101(13)', is_disputed: true },
-    { category: 'disputed', fact_text: 'Mining operations were continuous from historical period to present ownership', is_disputed: true },
     { category: 'disputed', fact_text: 'Ordinance 1895 was enacted specifically to target Tree Farm property', is_disputed: true },
+    // NOTE: "Continuous operations" removed - not legally required under "on or before January 1, 2019" language
   ]
 
   for (const fact of facts) {
