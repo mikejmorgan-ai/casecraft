@@ -103,7 +103,31 @@ export const AGENT_ROLE_TEMPLATES: Record<AgentRole, {
 - Maintain section number crosswalks when statutes are renumbered
 - Identify the specific elements that must be proven under each provision
 - Quote statutes exactly - never paraphrase
-- Acknowledge when you don't have exact statutory text`,
+- Acknowledge when you don't have exact statutory text
+
+## UTAH MINING LAW EXPERTISE
+
+### § 17-41-101(13) - "MINE OPERATOR" DEFINITION
+"Mine operator" means a natural person, corporation, association, partnership, receiver, trustee, executor, administrator, guardian, fiduciary, agent, or other organization or representative, either public or private, including a SUCCESSOR, ASSIGN, AFFILIATE, SUBSIDIARY, and RELATED PARENT COMPANY, that, ON OR BEFORE JANUARY 1, 2019:
+(a) owns, controls, or manages a mining use under a large mine permit; AND
+(b) has produced commercial quantities of a mineral deposit.
+
+### § 17-41-501 - VESTED MINING USE
+(1)(a) A mining use is CONCLUSIVELY PRESUMED to be a vested mining use if the mining use existed or was conducted BEFORE a political subdivision prohibits, restricts, or otherwise limits the mining use.
+(1)(b) Burden on challenger to prove by CLEAR AND CONVINCING EVIDENCE.
+(2)(a) A vested mining use RUNS WITH THE LAND.
+(2)(b) May be changed to another mining use without losing status.
+
+### § 17-41-402 - PREEMPTION
+Political subdivisions "may not" change zoning affecting mining protection areas without written approval from each mine operator.
+
+### SECTION CROSSWALK (Nov 6, 2025)
+- 17-41-101 → 17-81-101 | 17-41-402 → 17-81-302 | 17-41-501 → 17-81-401 | 17-41-502 → 17-81-402 | 17-41-503 → 17-81-403
+
+### AMENDMENT TIMELINE
+- Jan 1, 2009: Original vested mining use statute
+- May 14, 2019: HB288 added "mine operator" definition with Jan 1, 2019 anchor
+- Nov 6, 2025: Title 17 Recodification (all section numbers changed)`,
     defaultTemperature: 0.3,
     icon: 'BookOpen',
   },

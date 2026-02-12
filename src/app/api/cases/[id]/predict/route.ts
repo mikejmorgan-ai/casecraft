@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createServerSupabase } from '@/lib/supabase/server'
 import { searchAll, searchByRole } from '@/lib/pinecone/search'
+import { getUtahMiningLawContext } from '@/lib/legal/utah-mining-statutes'
 import OpenAI from 'openai'
 
 const openai = new OpenAI()
@@ -74,6 +75,52 @@ Your analysis must be:
 - Agreement's explicit purpose was to avoid required procedures
 - Clear statutory language mandating procedures was ignored
 - Lower court gave improper deference on legal questions
+
+## UTAH MINING LAW (For Utah Cases)
+
+### § 17-41-101(13) - "MINE OPERATOR" DEFINITION
+"Mine operator" means a natural person, corporation, or other entity, including a SUCCESSOR, ASSIGN, AFFILIATE, SUBSIDIARY, and RELATED PARENT COMPANY, that, ON OR BEFORE JANUARY 1, 2019:
+(a) owns, controls, or manages a mining use under a large mine permit; AND
+(b) has produced commercial quantities of a mineral deposit.
+
+CRITICAL: The "on or before January 1, 2019" language is a ONE-TIME threshold. Once met, status is permanent. Continuous operations are NOT required.
+
+### § 17-41-402 - PREEMPTION OF LOCAL REGULATION
+"A political subdivision may not change the zoning designation of or a zoning regulation affecting land within a mining protection area unless the political subdivision receives written approval for the change from each mine operator within the area."
+
+For critical infrastructure materials (sand, gravel, rock): Counties "may not adopt, enact, or amend an existing land use regulation, ordinance, or regulation that would prohibit, restrict, regulate, or otherwise limit critical infrastructure materials operations."
+
+### § 17-41-501 - VESTED MINING USE
+(1)(a) A mining use is CONCLUSIVELY PRESUMED to be a vested mining use if the mining use existed or was conducted BEFORE a political subdivision prohibits, restricts, or otherwise limits the mining use.
+
+(1)(b) Anyone claiming that a vested mining use has NOT been established has the BURDEN OF PROOF to show by CLEAR AND CONVINCING EVIDENCE that the vested mining use has not been established.
+
+(2)(a) A vested mining use RUNS WITH THE LAND.
+
+(2)(b) A vested mining use may be changed to another mining use without losing its status.
+
+CRITICAL PROVISIONS:
+1. "CONCLUSIVELY PRESUMED" = strongest legal protection, cannot be rebutted
+2. Burden on CHALLENGER to prove by clear and convincing evidence
+3. "RUNS WITH THE LAND" = automatic transfer to successors
+4. Permit boundaries do NOT limit vested rights
+
+### § 17-41-502 - RIGHTS OF MINE OPERATOR
+Mine operators with vested mining use have rights to "progress, extend, enlarge, grow, or expand" to any land they own or control, NOTWITHSTANDING local restrictions adopted after vesting.
+
+### STATUTORY CONSTRUCTION - ABANDONMENT
+The existence of a SEPARATE abandonment provision (§ 17-41-503) implies that gaps in operations do NOT automatically terminate vested rights. If gaps terminated vesting, no abandonment statute would be needed.
+
+### SECTION CROSSWALK (Nov 6, 2025 Recodification)
+- § 17-41-101 → § 17-81-101 (Definitions)
+- § 17-41-402 → § 17-81-302 (Preemption)
+- § 17-41-501 → § 17-81-401 (Vested mining use)
+- § 17-41-502 → § 17-81-402 (Rights of mine operator)
+- § 17-41-503 → § 17-81-403 (Abandonment)
+
+### KEY UTAH CASE LAW
+- Gibbons & Reed Co. v. North Salt Lake City, 431 P.2d 559 (Utah 1967): "Doctrine of diminishing assets" - extractive uses can expand beyond original boundaries
+- Jordan v. Jensen, 2017 UT 1: Mineral rights owners have vested property rights protected by due process
 
 Consider these potential outcomes:
 - plaintiff: Plaintiff/Appellant prevails on the merits

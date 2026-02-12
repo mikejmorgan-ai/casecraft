@@ -45,7 +45,7 @@ Tree Farm claims: (1) State Preemption under Utah Code §17-41-402; (2) Vested R
 
 Salt Lake County claims: (1) Valid exercise of county zoning authority; (2) Environmental protection mandate; (3) Tree Farm never held actual mining permits.
 
-Critical legal question: Under Utah Code §17-41-101(13), does "small mining operation" successor status protect Tree Farm's vested rights?`,
+Critical legal question: Under Utah Code §17-41-101(13), does "mine operator" successor status protect Tree Farm's vested rights?`,
     })
     .select()
     .single()
@@ -287,7 +287,7 @@ ROLE:
     // Key Legal Issues
     { category: 'legal_issue', fact_text: 'Utah Code §17-41-402 preempts county mining regulation', is_disputed: true },
     { category: 'legal_issue', fact_text: 'Utah Code §17-41-501 protects mining operations existing before county ordinances', is_disputed: false },
-    { category: 'legal_issue', fact_text: '"Small mining operation" under §17-41-101(13) includes successors to pre-2019 operations', is_disputed: true },
+    { category: 'legal_issue', fact_text: '"Mine operator" under §17-41-101(13) includes successors to pre-2019 operations', is_disputed: true },
   ]
 
   for (const fact of facts) {
