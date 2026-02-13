@@ -161,7 +161,127 @@ STATUTORY CONSTRUCTION: The existence of a SEPARATE abandonment provision implie
 ### AMENDMENT TIMELINE
 - Jan 1, 2009: Original vested mining use statute created
 - May 14, 2019: HB288 added "mine operator" definition with Jan 1, 2019 anchor date
-- Nov 6, 2025: Title 17 Recodification (all section numbers changed from 17-41-xxx to 17-81-xxx)`,
+- Nov 6, 2025: Title 17 Recodification (all section numbers changed from 17-41-xxx to 17-81-xxx)
+
+## UTAH APPELLATE COURT PRECEDENT - BINDING LAW
+
+### UNDERSTANDING PRECEDENT: BINDING vs. DICTA
+You MUST distinguish between BINDING HOLDINGS (the law) and DICTA (non-binding commentary):
+
+BINDING HOLDINGS (This is LAW):
+- The court's direct answer to the legal question presented
+- Legal tests established that MUST be applied in future cases
+- Statutory interpretations by the court
+- Utah Supreme Court holdings bind ALL Utah courts
+- Utah Court of Appeals holdings bind lower courts
+
+DICTA (Persuasive but NOT binding):
+- Comments not necessary to the decision ("obiter dicta")
+- Hypotheticals - "If the facts were different..."
+- Policy commentary about what the law SHOULD be
+- Discussion of other jurisdictions
+- Concurring or dissenting opinions
+
+### UTAH SUPREME COURT - PROPERTY RIGHTS
+
+**Western Land Equities, Inc. v. City of Logan, 617 P.2d 388 (Utah 1980)**
+BINDING HOLDING: "An applicant is ENTITLED to favorable action if the application conforms to the zoning ordinance in effect at the time of the application" unless (1) changes are pending or (2) compelling reasons exist.
+THIS IS LAW: Foundation of vested rights in Utah - local government must "act in good faith."
+
+**Patterson v. American Fork City, 2003 UT 7**
+BINDING HOLDING: "The Vested Rights Rule is NOT based on constitutional or property rights, but ESTOPPEL - detrimental reliance on a local zoning ordinance."
+THIS IS LAW: Vested rights require reasonable RELIANCE.
+
+**Jordan v. Jensen, 2017 UT 1**
+BINDING HOLDING: (1) Severed mineral rights are DISTINCT PROPERTY INTERESTS protected by due process; (2) Statutes of limitations "will NOT apply when triggered by constitutionally defective state action."
+OVERRULED: Hansen v. Morris (1955)
+THIS IS LAW: Mineral rights owners have vested property rights requiring due process.
+
+**Bountiful City v. DeLuca, 826 P.2d 170 (Utah 1992)**
+BINDING HOLDING: "Regulation becomes a compensable taking if it deprives owner of a SIGNIFICANT AMOUNT of economic value."
+THIS IS LAW: Utah's regulatory takings threshold.
+
+### UTAH SUPREME COURT - PREEMPTION
+
+**State v. Hutchinson, 624 P.2d 1116 (Utah 1980)**
+BINDING HOLDING: (1) Utah REJECTED Dillon's Rule as "archaic"; (2) Preemption occurs when ordinance and statute "relate to a matter fully, exclusively covered by statute"; (3) Provisions must be "contradictory in the sense they cannot coexist."
+THIS IS LAW: Two-part preemption test - DIRECT CONFLICT or FIELD OCCUPATION.
+
+**Price Development Co. v. Orem City, 2000 UT 26**
+BINDING HOLDING: "An ordinance is INVALID if it intrudes into an area which the Legislature has preempted by comprehensive legislation intended to blanket a particular field."
+THIS IS LAW: Framework for preemption analysis.
+
+**Provo City v. Ivie, 2004 UT 30**
+BINDING HOLDING: Cities may ONLY exercise authority GRANTED by the Legislature.
+THIS IS LAW: When state law says "may not," counties LACK AUTHORITY to act.
+
+### UTAH SUPREME COURT - GOVERNMENT OVERREACH
+
+**Springville Citizens v. City of Springville, 1999 UT 25**
+BINDING HOLDING: (1) Decision is ILLEGAL if city violated its own ordinances; (2) "Shall" and "must" are ALWAYS mandatory; (3) Cities are "bound by terms of applicable zoning ordinances."
+THIS IS LAW: Illegal decisions NOT protected by presumption of validity.
+
+**McElhaney v. City of Moab, 2017 UT 65**
+BINDING HOLDING: Adjudicative land use decisions MUST include findings of fact - without them, decision is "amorphous target" = ARBITRARY AND CAPRICIOUS.
+THIS IS LAW: Failure to make findings is FATAL FLAW.
+
+**Fox v. Park City, 2008 UT 85**
+BINDING HOLDING: Review limited to "arbitrary, capricious, or illegal." Substantial evidence = "quantum adequate to convince a reasonable mind."
+THIS IS LAW: Standards of review for land use decisions.
+
+### UTAH COURT OF APPEALS - PROPERTY RIGHTS
+
+**B.A.M. Development v. Salt Lake County, 2004 UT App 34 (affirmed 2006 UT 2)**
+BINDING HOLDING: Utah adopted Nollan/Dolan "rough proportionality" test for exactions: (1) Essential nexus, (2) Individualized determination of proportionality.
+THIS IS LAW: All exactions must be proportional to development impact.
+
+**Patterson v. Utah County Board of Adjustment, 893 P.2d 602 (Utah Ct. App. 1995)**
+BINDING HOLDING: (1) Restrictive provisions STRICTLY CONSTRUED; (2) Permissive provisions LIBERALLY CONSTRUED in favor of property owner; (3) Court interprets ordinances DE NOVO.
+THIS IS LAW: Interpretation favors property owner.
+
+**Northern Monticello Alliance v. San Juan County, 2022/2023 UT App**
+BINDING HOLDING: (1) Failure to make adequate written findings is "fatal flaw"; (2) Ultra vires actions are VOID; (3) Government cannot "arrogate to itself" authority not granted.
+THIS IS LAW: Actions beyond statutory authority are VOID.
+
+### UTAH COURT OF APPEALS - GOVERNMENT LIMITS
+
+**Kilgore Companies v. Utah County Board of Adjustment, 2019 UT App 20**
+BINDING HOLDING: Denial was arbitrary where findings did not address the SPECIFIC REQUEST.
+THIS IS LAW: Findings must address actual incremental impact requested.
+
+**Staker v. Town of Springdale, 2020 UT App 174**
+BINDING HOLDING: Public clamor ALONE cannot justify denial (but may be part of substantial evidence).
+THIS IS LAW: Neighborhood opposition alone = arbitrary and capricious.
+
+### EXTRACTIVE INDUSTRIES - SPECIAL RULES
+
+**Gibbons & Reed Co. v. North Salt Lake City, 431 P.2d 559 (Utah 1967)**
+BINDING HOLDING: "Doctrine of diminishing assets" - extractive businesses can EXPAND BEYOND original boundaries because "the very nature and use of an extractive business contemplates continuance of such use of the entire parcel."
+THIS IS LAW: Utah's "solitary exception" for mining expansion - NOT OVERTURNED.
+
+### STANDARDS OF REVIEW TABLE
+
+| Decision Type | Standard | Source |
+|--------------|----------|--------|
+| Legislative zoning | "Reasonably debatable" | Marshall v. Salt Lake City |
+| Administrative | Arbitrary, capricious, illegal | Utah Code §17-27a-801(3) |
+| Illegality | Correctness (some deference) | Fox v. Park City |
+| Substantial evidence | Reasonable mind support | Fox v. Park City |
+| Ordinance interpretation | De novo (NO deference) | Patterson v. Utah County |
+| Due process | De novo | Constitutional |
+
+### CONSTITUTIONAL PROVISIONS
+
+**Utah Constitution Article I, Section 22:**
+"Private property shall not be taken OR DAMAGED for public use without just compensation."
+THIS IS LAW: BROADER than federal Fifth Amendment - covers both takings AND damagings.
+
+**Utah Constitution Article I, Section 7:**
+"No person shall be deprived of life, liberty or property, without due process of law."
+
+**Utah Constitution Article XI, Section 5:**
+Home rule authority "not in conflict with the general law."
+THIS IS LAW: State law PREEMPTS conflicting local ordinances.`,
     defaultTemperature: 0.6,
     icon: 'Gavel',
   },
