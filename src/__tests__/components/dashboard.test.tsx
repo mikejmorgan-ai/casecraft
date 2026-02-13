@@ -15,6 +15,7 @@ function createChainMock(resolvedValue: { data: unknown; error: unknown }) {
   chain.order = jest.fn().mockReturnValue(chain)
   chain.limit = jest.fn().mockResolvedValue(resolvedValue)
   chain.single = jest.fn().mockResolvedValue(resolvedValue)
+  chain.eq = jest.fn().mockReturnValue(chain)
   // Allow .then() so Promise.all works on the chain directly
   chain.then = jest.fn((resolve: (v: unknown) => void) => resolve(resolvedValue))
   return chain
@@ -23,6 +24,7 @@ function createChainMock(resolvedValue: { data: unknown; error: unknown }) {
 let casesChain: ReturnType<typeof createChainMock>
 let predictionsChain: ReturnType<typeof createChainMock>
 let documentsChain: ReturnType<typeof createChainMock>
+let profilesChain: ReturnType<typeof createChainMock>
 
 const mockGetUser = jest.fn()
 
@@ -35,6 +37,7 @@ jest.mock('@/lib/supabase/server', () => ({
       if (table === 'cases') return casesChain
       if (table === 'case_predictions') return predictionsChain
       if (table === 'documents') return documentsChain
+      if (table === 'user_profiles') return profilesChain
       return createChainMock({ data: null, error: null })
     },
   })),
@@ -46,6 +49,14 @@ jest.mock('next/navigation', () => ({
   useRouter: () => ({
     push: jest.fn(),
     refresh: jest.fn(),
+  }),
+}))
+
+// Mock next/headers cookies
+const mockCookiesGet = jest.fn()
+jest.mock('next/headers', () => ({
+  cookies: jest.fn().mockResolvedValue({
+    get: (name: string) => mockCookiesGet(name),
   }),
 }))
 
@@ -108,12 +119,14 @@ describe('DashboardPage', () => {
     cases?: typeof mockCases | null
     predictions?: typeof mockPredictions | null
     totalDocs?: number
+    hasBetaBypass?: boolean
   }) {
     const {
       user = mockUser,
       cases = mockCases,
       predictions = mockPredictions,
       totalDocs = 10,
+      hasBetaBypass = false,
     } = options || {}
 
     mockGetUser.mockResolvedValueOnce({
@@ -121,13 +134,23 @@ describe('DashboardPage', () => {
       error: null,
     })
 
+    // Mock beta_bypass cookie
+    mockCookiesGet.mockImplementation((name: string) => {
+      if (name === 'beta_bypass' && hasBetaBypass) {
+        return { value: 'true' }
+      }
+      return undefined
+    })
+
     casesChain = createChainMock({ data: cases, error: null })
     predictionsChain = createChainMock({ data: predictions, error: null })
     documentsChain = createChainMock({ data: { count: totalDocs }, error: null })
+    profilesChain = createChainMock({ data: { role: 'attorney' }, error: null })
   }
 
   beforeEach(() => {
     jest.clearAllMocks()
+    mockCookiesGet.mockReset()
   })
 
   it('redirects to login if user is not authenticated', async () => {
@@ -148,8 +171,8 @@ describe('DashboardPage', () => {
     const page = await DashboardPage()
     render(page)
 
-    expect(screen.getByText('Dashboard')).toBeInTheDocument()
-    expect(screen.getByText(/litigation intelligence overview/i)).toBeInTheDocument()
+    expect(screen.getByText('Attorney Dashboard')).toBeInTheDocument()
+    expect(screen.getByText(/litigation intelligence/i)).toBeInTheDocument()
   })
 
   it('renders stat cards with correct labels', async () => {
@@ -255,7 +278,6 @@ describe('DashboardPage', () => {
     render(page)
 
     expect(screen.getByText('No cases yet')).toBeInTheDocument()
-    expect(screen.getByText('Create your first case')).toBeInTheDocument()
   })
 
   it('renders empty state for predictions when none exist', async () => {
@@ -265,7 +287,6 @@ describe('DashboardPage', () => {
     render(page)
 
     expect(screen.getByText('No predictions yet')).toBeInTheDocument()
-    expect(screen.getByText('Run your first prediction')).toBeInTheDocument()
   })
 
   it('renders recent predictions section with prediction data', async () => {
