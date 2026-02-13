@@ -1,12 +1,12 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { Scale, Mail, CheckCircle, Loader2, AlertCircle } from 'lucide-react'
+import { Mail, CheckCircle, Loader2, AlertCircle } from 'lucide-react'
 
 export default function VerifyEmailPage() {
   const [status, setStatus] = useState<'pending' | 'verifying' | 'success' | 'error'>('pending')
@@ -16,17 +16,7 @@ export default function VerifyEmailPage() {
   const searchParams = useSearchParams()
   const email = searchParams.get('email')
 
-  useEffect(() => {
-    // Check if we have a token hash (user clicked email link)
-    const tokenHash = searchParams.get('token_hash')
-    const type = searchParams.get('type')
-
-    if (tokenHash && type === 'email') {
-      verifyEmail(tokenHash)
-    }
-  }, [searchParams])
-
-  const verifyEmail = async (tokenHash: string) => {
+  const verifyEmail = useCallback(async (tokenHash: string) => {
     setStatus('verifying')
     const supabase = createClient()
 
@@ -41,12 +31,21 @@ export default function VerifyEmailPage() {
     } else {
       setStatus('success')
       setMessage('Email verified successfully!')
-      // Redirect to dashboard after 2 seconds
       setTimeout(() => {
         router.push('/dashboard')
       }, 2000)
     }
-  }
+  }, [router])
+
+  useEffect(() => {
+    const tokenHash = searchParams.get('token_hash')
+    const type = searchParams.get('type')
+
+    if (tokenHash && type === 'email') {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      verifyEmail(tokenHash)
+    }
+  }, [searchParams, verifyEmail])
 
   const resendVerification = async () => {
     if (!email) return

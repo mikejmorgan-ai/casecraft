@@ -5,7 +5,7 @@ const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
 )
 
-const { data, error } = await supabase.auth.signUp({
+const { error } = await supabase.auth.signUp({
   email: 'mike@casecraft.dev',
   password: 'Jckson'
 })

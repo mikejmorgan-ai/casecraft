@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createServerSupabase } from '@/lib/supabase/server'
-import { searchAll, searchByRole } from '@/lib/pinecone/search'
-import { getUtahMiningLawContext } from '@/lib/legal/utah-mining-statutes'
+import { searchAll } from '@/lib/pinecone/search'
 import OpenAI from 'openai'
 
 const openai = new OpenAI()
@@ -343,8 +342,8 @@ async function runStandardPrediction(prompt: string): Promise<PredictionResult> 
 }
 
 async function runMultiAgentPrediction(
-  prompt: string, 
-  caseData: Record<string, unknown>
+  prompt: string,
+  _caseData: Record<string, unknown>
 ): Promise<PredictionResult> {
   // Run parallel predictions from different perspectives
   const perspectives = [
