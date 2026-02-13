@@ -158,3 +158,78 @@ export function InlineErrorFallback({
     </div>
   )
 }
+
+/**
+ * ErrorAlert - Display error messages in a dismissible alert
+ */
+export function ErrorAlert({
+  error,
+  onDismiss,
+  className = '',
+}: {
+  error: string | Error | null
+  onDismiss?: () => void
+  className?: string
+}) {
+  if (!error) return null
+
+  const message = typeof error === 'string' ? error : error.message
+
+  return (
+    <div className={`flex items-start gap-3 p-4 rounded-lg bg-destructive/10 border border-destructive/20 ${className}`}>
+      <AlertTriangle className="h-5 w-5 text-destructive shrink-0 mt-0.5" />
+      <div className="flex-1 min-w-0">
+        <p className="text-sm text-destructive font-medium">Error</p>
+        <p className="text-sm text-destructive/80 mt-1">{message}</p>
+      </div>
+      {onDismiss && (
+        <Button
+          variant="ghost"
+          size="sm"
+          onClick={onDismiss}
+          className="shrink-0 text-destructive hover:text-destructive hover:bg-destructive/10"
+        >
+          Dismiss
+        </Button>
+      )}
+    </div>
+  )
+}
+
+/**
+ * SuccessAlert - Display success messages in a dismissible alert
+ */
+export function SuccessAlert({
+  message,
+  onDismiss,
+  className = '',
+}: {
+  message: string | null
+  onDismiss?: () => void
+  className?: string
+}) {
+  if (!message) return null
+
+  return (
+    <div className={`flex items-start gap-3 p-4 rounded-lg bg-green-500/10 border border-green-500/20 ${className}`}>
+      <div className="h-5 w-5 rounded-full bg-green-500 flex items-center justify-center shrink-0 mt-0.5">
+        <svg className="h-3 w-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+        </svg>
+      </div>
+      <div className="flex-1 min-w-0">
+        <p className="text-sm text-green-700 dark:text-green-400">{message}</p>
+      </div>
+      {onDismiss && (
+        <Button
+          variant="ghost"
+          size="sm"
+          onClick={onDismiss}
+          className="shrink-0 text-green-700 dark:text-green-400 hover:bg-green-500/10"
+        >
+          Dismiss
+        </Button>
+      )}
+    </div>
+  )
+}

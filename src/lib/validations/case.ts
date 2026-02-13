@@ -1,7 +1,7 @@
 import { z } from 'zod'
 
 // Case type enum for validation
-const caseTypes = [
+export const caseTypes = [
   'civil', 'criminal', 'family', 'contract',
   'tort', 'property', 'constitutional', 'administrative'
 ] as const

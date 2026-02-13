@@ -5,6 +5,8 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
+import { Badge } from '@/components/ui/badge'
+import { type UserRole, ROLE_INFO, hasPermission, type Permission } from '@/lib/auth/rbac'
 import {
   Briefcase,
   FileText,
@@ -25,42 +27,64 @@ import {
   Home,
   Upload,
   History,
-  Gavel,
+  Users,
+  MessageSquare,
 } from 'lucide-react'
 
 interface SidebarNavProps {
   user?: { email?: string }
+  userRole?: UserRole
 }
 
-const navItems = [
+// Navigation items with required permissions
+const navItems: { href: string; label: string; icon: React.ElementType; permission?: Permission }[] = [
   { href: '/dashboard', label: 'Dashboard', icon: Home },
-  { href: '/dashboard/cases', label: 'Cases', icon: Briefcase },
-  { href: '/dashboard/documents', label: 'Documents', icon: FileText },
-  { href: '/dashboard/analysis', label: 'Analysis', icon: BarChart3 },
-  { href: '/dashboard/simulations', label: 'Simulations', icon: Play },
-  { href: '/dashboard/predictions', label: 'Predictions', icon: Target },
-  { href: '/dashboard/weaknesses', label: 'Weaknesses', icon: AlertTriangle },
+  { href: '/dashboard/cases', label: 'Cases', icon: Briefcase, permission: 'cases:read' },
+  { href: '/dashboard/documents', label: 'Documents', icon: FileText, permission: 'documents:read' },
+  { href: '/dashboard/analysis', label: 'Analysis', icon: BarChart3, permission: 'predictions:read' },
+  { href: '/dashboard/simulations', label: 'Simulations', icon: Play, permission: 'hearings:run' },
+  { href: '/dashboard/predictions', label: 'Predictions', icon: Target, permission: 'predictions:run' },
+  { href: '/dashboard/weaknesses', label: 'Weaknesses', icon: AlertTriangle, permission: 'cases:read' },
 ]
 
-const secondaryItems = [
-  { href: '/import-test', label: 'Import Test Case', icon: Upload },
-  { href: '/dashboard/timeline', label: 'Timeline', icon: History },
-  { href: '/dashboard/discovery', label: 'Discovery', icon: Search },
+const secondaryItems: { href: string; label: string; icon: React.ElementType; permission?: Permission }[] = [
+  { href: '/import-test', label: 'Import Test Case', icon: Upload, permission: 'cases:create' },
+  { href: '/dashboard/timeline', label: 'Timeline', icon: History, permission: 'cases:read' },
+  { href: '/dashboard/discovery', label: 'Discovery', icon: Search, permission: 'documents:read' },
 ]
 
-export function SidebarNav({ user }: SidebarNavProps) {
+const adminItems: { href: string; label: string; icon: React.ElementType; permission?: Permission }[] = [
+  { href: '/admin/users', label: 'User Management', icon: Users, permission: 'admin:users' },
+  { href: '/admin/analytics', label: 'Analytics', icon: BarChart3, permission: 'admin:analytics' },
+  { href: '/admin/settings', label: 'System Settings', icon: Settings, permission: 'admin:settings' },
+]
+
+const clientItems: { href: string; label: string; icon: React.ElementType }[] = [
+  { href: '/dashboard', label: 'Dashboard', icon: Home },
+  { href: '/dashboard/cases', label: 'My Cases', icon: Briefcase },
+  { href: '/dashboard/messages', label: 'Messages', icon: MessageSquare },
+]
+
+export function SidebarNav({ user, userRole = 'attorney' }: SidebarNavProps) {
   const pathname = usePathname()
   const [collapsed, setCollapsed] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [isDark, setIsDark] = useState(true) // Default to dark
 
+  // Initialize theme from localStorage on mount
+  const [mounted, setMounted] = useState(false)
+
   useEffect(() => {
     // Check for saved preference or default to dark
     const saved = localStorage.getItem('theme')
     const prefersDark = saved === 'dark' || (!saved && true) // Default dark
-    setIsDark(prefersDark)
+    if (prefersDark !== isDark) {
+      setIsDark(prefersDark)
+    }
     document.documentElement.classList.toggle('dark', prefersDark)
-  }, [])
+    setMounted(true)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mounted])
 
   const toggleTheme = () => {
     const newIsDark = !isDark
@@ -68,6 +92,19 @@ export function SidebarNav({ user }: SidebarNavProps) {
     document.documentElement.classList.toggle('dark', newIsDark)
     localStorage.setItem('theme', newIsDark ? 'dark' : 'light')
   }
+
+  // Filter nav items based on user permissions
+  const filteredNavItems = userRole === 'client'
+    ? clientItems
+    : navItems.filter(item => !item.permission || hasPermission(userRole, item.permission))
+
+  const filteredSecondaryItems = userRole === 'client'
+    ? []
+    : secondaryItems.filter(item => !item.permission || hasPermission(userRole, item.permission))
+
+  const filteredAdminItems = adminItems.filter(item =>
+    !item.permission || hasPermission(userRole, item.permission)
+  )
 
   const NavLink = ({ href, label, icon: Icon }: { href: string; label: string; icon: React.ElementType }) => {
     const isActive = pathname === href || pathname.startsWith(href + '/')
@@ -136,19 +173,43 @@ export function SidebarNav({ user }: SidebarNavProps) {
 
         {/* Primary Navigation */}
         <nav className="flex-1 overflow-y-auto p-3 space-y-1">
+          {/* Role Badge */}
+          {!collapsed && (
+            <div className="px-3 py-2 mb-3">
+              <Badge variant="outline" className="text-xs w-full justify-center py-1">
+                {ROLE_INFO[userRole].label}
+              </Badge>
+            </div>
+          )}
+
           <div className={cn('text-xs font-medium text-sidebar-foreground/50 uppercase tracking-wider mb-2', collapsed && 'sr-only')}>
             Main
           </div>
-          {navItems.map((item) => (
+          {filteredNavItems.map((item) => (
             <NavLink key={item.href} {...item} />
           ))}
 
-          <div className={cn('text-xs font-medium text-sidebar-foreground/50 uppercase tracking-wider mt-6 mb-2', collapsed && 'sr-only')}>
-            Tools
-          </div>
-          {secondaryItems.map((item) => (
-            <NavLink key={item.href} {...item} />
-          ))}
+          {filteredSecondaryItems.length > 0 && (
+            <>
+              <div className={cn('text-xs font-medium text-sidebar-foreground/50 uppercase tracking-wider mt-6 mb-2', collapsed && 'sr-only')}>
+                Tools
+              </div>
+              {filteredSecondaryItems.map((item) => (
+                <NavLink key={item.href} {...item} />
+              ))}
+            </>
+          )}
+
+          {filteredAdminItems.length > 0 && (
+            <>
+              <div className={cn('text-xs font-medium text-sidebar-foreground/50 uppercase tracking-wider mt-6 mb-2', collapsed && 'sr-only')}>
+                Admin
+              </div>
+              {filteredAdminItems.map((item) => (
+                <NavLink key={item.href} {...item} />
+              ))}
+            </>
+          )}
         </nav>
 
         {/* Footer */}

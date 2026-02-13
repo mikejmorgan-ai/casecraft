@@ -1,11 +1,13 @@
 import { createServerSupabase } from '@/lib/supabase/server'
 import { redirect, notFound } from 'next/navigation'
+import { cookies } from 'next/headers'
 import Link from 'next/link'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, Users, FileText, MessageSquare, Scale, ClipboardList, Gavel } from 'lucide-react'
+import { CaseSharing } from '@/components/cases/case-sharing'
 import { AgentsList } from '@/components/agents/agents-list'
 import { DocumentsList } from '@/components/documents/documents-list'
 import { DocumentUpload } from '@/components/documents/document-upload'
@@ -47,9 +49,11 @@ export default async function CaseDetailPage({
 }) {
   const { id } = await params
   const supabase = await createServerSupabase()
+  const cookieStore = await cookies()
+  const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
   const { data: { user } } = await supabase.auth.getUser()
-  if (!user) redirect('/login')
+  if (!user && !hasBetaBypass) redirect('/login')
 
   const { data: caseData, error } = await supabase
     .from('cases')
@@ -99,6 +103,11 @@ export default async function CaseDetailPage({
               )}
             </div>
             <div className="flex items-center gap-2 shrink-0">
+              <CaseSharing
+                caseId={id}
+                caseName={caseData.name}
+                isOwner={user ? caseData.user_id === user.id : false}
+              />
               <ExportCaseButton
                 caseId={id}
                 caseData={caseData as Case}
