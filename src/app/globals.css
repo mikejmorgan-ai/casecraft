@@ -147,3 +147,129 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
   }
 }
+
+/* ===== LANDING PAGE STYLES ===== */
+
+/* Royal Blue Neon Icon Effect */
+.icon-neon {
+  color: #4169E1;
+  filter: drop-shadow(0 0 8px rgba(65, 105, 225, 0.6));
+  transition: filter 0.3s ease;
+}
+
+.icon-neon:hover {
+  filter: drop-shadow(0 0 12px rgba(65, 105, 225, 0.8)) drop-shadow(0 0 20px rgba(65, 105, 225, 0.4));
+}
+
+/* Feature Card Hover Animations */
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 40px rgba(65, 105, 225, 0.15), 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Sticky Header Glass Effect */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sticky-header.scrolled {
+  background-color: rgba(20, 20, 30, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* CTA Button Hover Animation */
+.cta-button {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(65, 105, 225, 0.5), 0 0 40px rgba(65, 105, 225, 0.3);
+}
+
+.cta-button::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(65, 105, 225, 0.5), rgba(100, 149, 237, 0.5));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.cta-button:hover::before {
+  opacity: 1;
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.02);
+  }
+}
+
+/* How It Works Section */
+.how-it-works-step {
+  position: relative;
+}
+
+.how-it-works-step::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -2rem;
+  width: 4rem;
+  height: 2px;
+  background: linear-gradient(90deg, #4169E1, transparent);
+  transform: translateY(-50%);
+}
+
+.how-it-works-step:last-child::after {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .how-it-works-step::after {
+    display: none;
+  }
+}
+
+/* Judge glow effect */
+.judge-glow {
+  box-shadow: 0 0 30px rgba(65, 105, 225, 0.4), 0 0 60px rgba(65, 105, 225, 0.2);
+  animation: judge-pulse 3s ease-in-out infinite;
+}
+
+@keyframes judge-pulse {
+  0%, 100% {
+    box-shadow: 0 0 30px rgba(65, 105, 225, 0.4), 0 0 60px rgba(65, 105, 225, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(65, 105, 225, 0.6), 0 0 80px rgba(65, 105, 225, 0.3);
+  }
+}
+
+/* Royal blue color variables */
+:root {
+  --color-royal-blue: #4169E1;
+  --color-royal-blue-light: #6495ED;
+  --color-royal-blue-dark: #3158C9;
+  --color-legal-cream: #FAF8F5;
+  --color-legal-navy-dark: #0F172A;
+}
