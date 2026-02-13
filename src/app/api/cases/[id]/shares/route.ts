@@ -113,13 +113,6 @@ export async function POST(
       return NextResponse.json({ error: 'You cannot share a case with yourself' }, { status: 400 })
     }
 
-    // Check if user exists
-    const { data: existingUsers } = await supabase
-      .from('user_profiles')
-      .select('id')
-      .eq('id', (await supabase.rpc('get_user_id_by_email', { user_email: email })).data)
-      .single()
-
     // Check for existing share
     const { data: existingShare } = await supabase
       .from('case_shares')
@@ -132,13 +125,14 @@ export async function POST(
       return NextResponse.json({ error: 'This case is already shared with this user' }, { status: 409 })
     }
 
-    // Create the share
+    // Create the share - we share by email, the user doesn't need to exist yet.
+    // When the user signs up/logs in, they can claim shares by matching email.
     const { data: share, error: shareError } = await supabase
       .from('case_shares')
       .insert({
         case_id: caseId,
         shared_with_email: email.toLowerCase(),
-        shared_with_user_id: existingUsers?.id || null,
+        shared_with_user_id: null,
         permission_level,
         expires_at: expires_at || null,
         shared_by: user.id,

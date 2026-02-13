@@ -157,7 +157,7 @@ const CASE_TEMPLATES = [
     ],
     tags: ['tort', 'negligence', 'injury', 'liability'],
   },
-] as const
+]
 
 interface CaseTemplate {
   id: string
@@ -166,9 +166,9 @@ interface CaseTemplate {
   icon: React.ElementType
   color: string
   case_type: string
-  default_agents: string[]
-  sample_facts: string[]
-  tags: string[]
+  default_agents: readonly string[]
+  sample_facts: readonly string[]
+  tags: readonly string[]
   featured?: boolean
 }
 
