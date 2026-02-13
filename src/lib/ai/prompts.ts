@@ -146,12 +146,59 @@ Mine operators with vested mining use have rights to "progress, extend, enlarge,
 ### § 17-41-503 - ABANDONMENT (Now § 17-81-403)
 STATUTORY CONSTRUCTION: The existence of a SEPARATE abandonment provision implies that gaps in operations do NOT automatically terminate vested rights. If gaps terminated vesting, no abandonment statute would be needed.
 
-### SECTION CROSSWALK (November 6, 2025 Recodification)
-- § 17-41-101 → § 17-81-101 (Definitions)
-- § 17-41-402 → § 17-81-302 (Preemption)
-- § 17-41-501 → § 17-81-401 (Vested mining use)
-- § 17-41-502 → § 17-81-402 (Rights of mine operator)
-- § 17-41-503 → § 17-81-403 (Abandonment)
+### SECTION CROSSWALK (November 6, 2025 Recodification - SB1006)
+
+When documents cite OLD numbers, you MUST recognize they refer to the NEW numbers (and vice versa).
+
+**CORE VESTED MINING SECTIONS:**
+| Subject | OLD | NEW |
+|---------|-----|-----|
+| Definitions (mine operator, vested mining use, etc.) | § 17-41-101 | § 17-81-101 |
+| Vested mining use (conclusive presumption, runs with land) | § 17-41-501 | § 17-81-401 |
+| Rights of mine operator (expand, modernize, etc.) | § 17-41-502 | § 17-81-402 |
+| Abandonment (when vesting is lost) | § 17-41-503 | § 17-81-403 |
+| Limits on political subdivisions | § 17-41-402.5 | § 17-81-303 |
+
+**CRITICAL INFRASTRUCTURE MATERIALS SECTIONS:**
+| Subject | OLD | NEW |
+|---------|-----|-----|
+| Vested critical infrastructure materials use | § 17-27a-1002 | § 17-81-701 |
+| Rights of critical infrastructure materials operator | § 17-27a-1003 | § 17-81-702 |
+| Abandonment of vested critical infrastructure use | § 17-27a-1005 | § 17-81-703 |
+
+**PROTECTION AREA SECTIONS:**
+| Subject | OLD | NEW |
+|---------|-----|-----|
+| Protection area advisory board | § 17-41-201 | § 17-81-102 |
+| Proposal and creation of protection area | § 17-41-301 | § 17-81-201 |
+| Limitations on local regulations (preemption) | § 17-41-402 | § 17-81-302 |
+| Nuisances | § 17-41-403 | § 17-81-304 |
+| Eminent domain restrictions | § 17-41-405 | § 17-81-305 |
+
+**QUICK CONVERSION RULE:**
+Old Chapter 17-41 → New Chapter 17-81:
+- 17-41-1XX → 17-81-1XX (Definitions)
+- 17-41-2XX → 17-81-1XX or 17-81-2XX (Protection Areas)
+- 17-41-3XX → 17-81-2XX (Proposal/Creation)
+- 17-41-4XX → 17-81-3XX (Protections)
+- 17-41-5XX → 17-81-4XX (Vested Mining Use)
+
+**KEY DEFINITIONS - § 17-81-101 (formerly § 17-41-101):**
+| Term | Subsection | Key Elements |
+|------|------------|--------------|
+| Mine operator | (13) | Entity + as of Jan 1, 2019 + large mine permit + commercial quantities + OR successor |
+| Mining use | (14) | Use of land for extraction of mineral deposit |
+| Vested mining use | (26) | Mining use + by mine operator + existed before restriction |
+| Large mine permit | (8) | Permit from DOGM for operations disturbing 5+ acres |
+| Commercial quantities | (3) | Production for sale or commercial purpose |
+
+**CRITICAL DATES:**
+| Date | Significance |
+|------|-------------|
+| January 1, 2009 | Vested Mining Use statute CREATED — impossible to qualify before this |
+| January 1, 2019 | Anchor date for mine operator qualification ("as of") |
+| May 14, 2019 | HB288 effective - added "mine operator" definition |
+| November 6, 2025 | Title 17 recodification — section numbers changed |
 
 ### KEY UTAH CASE LAW
 - Gibbons & Reed Co. v. North Salt Lake City, 431 P.2d 559 (Utah 1967) - "Doctrine of diminishing assets" for extractive uses
@@ -387,13 +434,16 @@ THIS IS LAW: State law PREEMPTS conflicting local ordinances.`,
 ### § 17-41-402 - PREEMPTION
 Political subdivisions "may not" change zoning affecting mining protection areas without written approval from each mine operator.
 
-### SECTION CROSSWALK (Nov 6, 2025)
-- 17-41-101 → 17-81-101 | 17-41-402 → 17-81-302 | 17-41-501 → 17-81-401 | 17-41-502 → 17-81-402 | 17-41-503 → 17-81-403
+### SECTION CROSSWALK (Nov 6, 2025 - SB1006)
+Core Mining: 17-41-101→17-81-101 | 17-41-501→17-81-401 | 17-41-502→17-81-402 | 17-41-503→17-81-403 | 17-41-402.5→17-81-303
+Protection Areas: 17-41-402→17-81-302 | 17-41-201→17-81-102 | 17-41-301→17-81-201 | 17-41-403→17-81-304 | 17-41-405→17-81-305
+Critical Infrastructure: 17-27a-1002→17-81-701 | 17-27a-1003→17-81-702 | 17-27a-1005→17-81-703
 
-### AMENDMENT TIMELINE
-- Jan 1, 2009: Original vested mining use statute
-- May 14, 2019: HB288 added "mine operator" definition with Jan 1, 2019 anchor
-- Nov 6, 2025: Title 17 Recodification (all section numbers changed)`,
+### CRITICAL DATES
+- Jan 1, 2009: Vested mining statute CREATED (impossible to qualify before this)
+- Jan 1, 2019: Anchor date for mine operator qualification
+- May 14, 2019: HB288 effective - added "mine operator" definition
+- Nov 6, 2025: Title 17 Recodification (17-41-xxx → 17-81-xxx)`,
     defaultTemperature: 0.3,
     icon: 'BookOpen',
   },

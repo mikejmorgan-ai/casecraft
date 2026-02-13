@@ -16,14 +16,43 @@
 // =============================================================================
 
 export const SECTION_CROSSWALK = {
-  // Old Section -> New Section
-  '17-41-101': '17-81-101',  // Definitions
-  '17-41-402': '17-81-302',  // Limitations on local regulations
+  // ==========================================================================
+  // CORE VESTED MINING SECTIONS
+  // ==========================================================================
+  '17-41-101': '17-81-101',   // Definitions (mine operator, vested mining use, etc.)
+  '17-41-501': '17-81-401',   // Vested mining use (conclusive presumption, runs with land)
+  '17-41-502': '17-81-402',   // Rights of mine operator (expand, modernize, etc.)
+  '17-41-503': '17-81-403',   // Abandonment (when vesting is lost)
   '17-41-402.5': '17-81-303', // Limits on political subdivisions
-  '17-41-501': '17-81-401',  // Vested mining use - Conclusive presumption
-  '17-41-502': '17-81-402',  // Rights of mine operator
-  '17-41-503': '17-81-403',  // Abandonment
+
+  // ==========================================================================
+  // CRITICAL INFRASTRUCTURE MATERIALS SECTIONS
+  // ==========================================================================
+  '17-27a-1002': '17-81-701', // Vested critical infrastructure materials use
+  '17-27a-1003': '17-81-702', // Rights of critical infrastructure materials operator
+  '17-27a-1005': '17-81-703', // Abandonment of vested critical infrastructure use
+
+  // ==========================================================================
+  // PROTECTION AREA SECTIONS
+  // ==========================================================================
+  '17-41-201': '17-81-102',   // Protection area advisory board
+  '17-41-301': '17-81-201',   // Proposal and creation of protection area
+  '17-41-402': '17-81-302',   // Limitations on local regulations (preemption)
+  '17-41-403': '17-81-304',   // Nuisances
+  '17-41-405': '17-81-305',   // Eminent domain restrictions
 } as const
+
+// Quick conversion rule: Old Chapter 17-41 → New Chapter 17-81
+// 17-41-1XX → 17-81-1XX (Definitions)
+// 17-41-2XX → 17-81-1XX or 17-81-2XX (Protection Areas)
+// 17-41-3XX → 17-81-2XX (Proposal/Creation)
+// 17-41-4XX → 17-81-3XX (Protections)
+// 17-41-5XX → 17-81-4XX (Vested Mining Use)
+
+// Reverse lookup: New Section -> Old Section
+export const REVERSE_CROSSWALK = Object.fromEntries(
+  Object.entries(SECTION_CROSSWALK).map(([old, newSec]) => [newSec, old])
+) as Record<string, string>
 
 // =============================================================================
 // AMENDMENT TIMELINE
@@ -434,11 +463,38 @@ Mine operators with vested mining use have rights to "progress, extend, enlarge,
 ### STATUTORY CONSTRUCTION
 The existence of a SEPARATE abandonment provision (§ 17-41-503) implies that gaps in operations do NOT automatically terminate vested rights. If gaps terminated vesting, no abandonment statute would be needed.
 
-### SECTION CROSSWALK (Nov 6, 2025 Recodification)
+### SECTION CROSSWALK (Nov 6, 2025 Recodification - SB1006)
+
+CORE VESTED MINING:
 - § 17-41-101 → § 17-81-101 (Definitions)
-- § 17-41-402 → § 17-81-302 (Preemption)
 - § 17-41-501 → § 17-81-401 (Vested mining use)
 - § 17-41-502 → § 17-81-402 (Rights of mine operator)
 - § 17-41-503 → § 17-81-403 (Abandonment)
+- § 17-41-402.5 → § 17-81-303 (Limits on political subdivisions)
+
+CRITICAL INFRASTRUCTURE MATERIALS:
+- § 17-27a-1002 → § 17-81-701 (Vested critical infrastructure materials use)
+- § 17-27a-1003 → § 17-81-702 (Rights of critical infrastructure materials operator)
+- § 17-27a-1005 → § 17-81-703 (Abandonment of vested critical infrastructure use)
+
+PROTECTION AREAS:
+- § 17-41-201 → § 17-81-102 (Protection area advisory board)
+- § 17-41-301 → § 17-81-201 (Proposal and creation)
+- § 17-41-402 → § 17-81-302 (Limitations on local regulations)
+- § 17-41-403 → § 17-81-304 (Nuisances)
+- § 17-41-405 → § 17-81-305 (Eminent domain restrictions)
+
+KEY DEFINITIONS - § 17-81-101 (formerly § 17-41-101):
+- (3) Commercial quantities = production for sale or commercial purpose
+- (8) Large mine permit = permit from DOGM for operations disturbing 5+ acres
+- (13) Mine operator = entity + as of Jan 1, 2019 + large mine permit + commercial quantities + OR successor
+- (14) Mining use = use of land for extraction of mineral deposit
+- (26) Vested mining use = mining use + by mine operator + existed before restriction
+
+CRITICAL DATES:
+- January 1, 2009: Vested Mining Use statute CREATED
+- January 1, 2019: Anchor date for mine operator qualification ("as of")
+- May 14, 2019: HB288 effective - added "mine operator" definition
+- November 6, 2025: Title 17 recodification — section numbers changed
 `
 }
