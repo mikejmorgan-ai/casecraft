@@ -1,5 +1,6 @@
 import { createServerSupabase } from '@/lib/supabase/server'
 import { redirect, notFound } from 'next/navigation'
+import { cookies } from 'next/headers'
 import Link from 'next/link'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
@@ -48,9 +49,11 @@ export default async function CaseDetailPage({
 }) {
   const { id } = await params
   const supabase = await createServerSupabase()
+  const cookieStore = await cookies()
+  const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
   const { data: { user } } = await supabase.auth.getUser()
-  if (!user) redirect('/login')
+  if (!user && !hasBetaBypass) redirect('/login')
 
   const { data: caseData, error } = await supabase
     .from('cases')
@@ -103,7 +106,7 @@ export default async function CaseDetailPage({
               <CaseSharing
                 caseId={id}
                 caseName={caseData.name}
-                isOwner={caseData.user_id === user.id}
+                isOwner={user ? caseData.user_id === user.id : false}
               />
               <ExportCaseButton
                 caseId={id}

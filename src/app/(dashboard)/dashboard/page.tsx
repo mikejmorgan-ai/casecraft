@@ -1,24 +1,28 @@
 import { createServerSupabase } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
+import { cookies } from 'next/headers'
 import { Card, CardContent } from '@/components/ui/card'
 import { RoleDashboard } from '@/components/dashboard/role-dashboards'
 import { type UserRole } from '@/lib/auth/rbac'
 
 export default async function DashboardPage() {
   const supabase = await createServerSupabase()
+  const cookieStore = await cookies()
+  const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
   const { data: { user } } = await supabase.auth.getUser()
-  if (!user) redirect('/login')
+  if (!user && !hasBetaBypass) redirect('/login')
 
-  // Fetch user profile to get role
-  const { data: profile } = await supabase
-    .from('user_profiles')
-    .select('role')
-    .eq('id', user.id)
-    .single()
-
-  // Default to attorney if no profile exists yet
-  const userRole: UserRole = (profile?.role as UserRole) || 'attorney'
+  // Fetch user profile to get role (skip if beta bypass without user)
+  let userRole: UserRole = 'attorney'
+  if (user) {
+    const { data: profile } = await supabase
+      .from('user_profiles')
+      .select('role')
+      .eq('id', user.id)
+      .single()
+    userRole = (profile?.role as UserRole) || 'attorney'
+  }
 
   // Fetch dashboard data
   const [casesResult, predictionsResult, documentsResult] = await Promise.all([

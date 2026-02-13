@@ -1,5 +1,6 @@
 import { createServerSupabase } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
+import { cookies } from 'next/headers'
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
@@ -18,12 +19,14 @@ import { hasPermission } from '@/lib/auth/rbac'
 
 export default async function CasesPage() {
   const supabase = await createServerSupabase()
+  const cookieStore = await cookies()
+  const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
   const { data: { user } } = await supabase.auth.getUser()
-  if (!user) redirect('/login')
+  if (!user && !hasBetaBypass) redirect('/login')
 
-  // Get user profile for permissions
-  const profile = await getUserProfile()
+  // Get user profile for permissions (default to attorney for beta bypass)
+  const profile = user ? await getUserProfile() : null
   const userRole = profile?.role || 'attorney'
   const canCreateCase = hasPermission(userRole, 'cases:create')
 
