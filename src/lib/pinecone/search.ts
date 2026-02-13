@@ -194,7 +194,8 @@ export async function searchByRole(
   role: AgentRole,
   options: SearchOptions = {}
 ): Promise<SearchResult[]> {
-  const { topK = 10, minScore = 0.65 } = options
+  // Increased topK for Claude's larger context window (200K+)
+  const { topK = 20, minScore = 0.60 } = options
 
   const embedding = await generateEmbedding(query)
   const index = getPineconeIndex()
@@ -243,7 +244,8 @@ export async function searchAll(
   query: string,
   options: SearchOptions = {}
 ): Promise<SearchResult[]> {
-  const { topK = 10, minScore = 0.65 } = options
+  // Increased topK for Claude's larger context window (200K+)
+  const { topK = 20, minScore = 0.60 } = options
 
   const embedding = await generateEmbedding(query)
   const index = getPineconeIndex()

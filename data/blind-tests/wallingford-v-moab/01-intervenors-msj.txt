@@ -1,0 +1,798 @@
+JODY K BURNETT (0499)
+ROBERT C. KELLER (4861)
+SNOW CHRISTENSEN & MARTINEAU
+10 Exchange Place, 11th Floor
+P. O. Box 45000
+Salt Lake City, Utah 84111
+Phone: 801-521-9000
+Facsimile: 801-363-0400
+jkb@scmlaw.com
+rck@scmlaw.com
+Attorneys for Defendant Intervenors the Utah School and
+Institutional Trust Lands Administration and LB Moab Land
+Company, LLC
+
+IN THE SEVENTH JUDICIAL DISTRICT COURT IN AND FOR
+GRAND COUNTY, STATE OF UTAH
+
+LUCY WALLINGFORD, KILEY MILLER,
+JOHN RZECZYCKI, CAROL MAYER,
+DAVID BODNER, MEECHE BODNER,
+SARAH STOCK, JOSEPHINE KOVASH,
+individuals, LIVING RIVERS, a nonprofit
+corporation,
+Plaintiffs
+
+INTERVENOR DEFENDANTS’ MOTION
+FOR SUMMARY JUDGMENT
+
+Civil No. 170700009
+
+v.
+
+Judge Lyle R. Anderson
+
+MOAB CITY, MOAB CITY COUNCIL,
+Defendants and
+THE UTAH SCHOOL AND
+INSTITUTIONAL TRUST LANDS
+ADMINISTRATION and LB MOAB LAND
+COMPANY LLC,
+Intervenor Defendants.
+
+1
+
+CONCISE STATEMENT OF RELIEF REQUESTED AND GROUNDS
+Pursuant to Utah R. Civ. P. 56 and Utah Code Ann. §10-9a-801, Intervenor-Defendants
+Utah School and Institutional Trust Lands Administration (“SITLA”) and LB Moab Land
+Company, LLC (“LB Moab”) (collectively the “Intervenors”) request that the Court grant
+summary judgment dismissing Plaintiffs’ Amended Complaint and Petition for Review.1
+The Lionsback Resort is a hotel/condominium project located on state school trust lands
+leased by LB Moab from SITLA. The Lionsback project was originally entitled by the City in
+2008. See R737. After unsuccessful litigation brought by the Moab Local Green Party delayed
+the project for over four years, LB Moab approached the City in 2013 and proposed modifications
+to the site plan. See id. 738.
+After meetings with City Manager Donna Metzler and city staff, staff informed LB Moab
+in writing in April 2014 that the proposed modifications were acceptable, and LB Moab invested
+significant funds in design and engineering to move the project towards construction. See R 450451, 738. Unfortunately for all involved, a new City Manager changed the City’s position,
+determining that the 2014 project go-ahead from City staff was not valid. See id. 828-829.
+The City instead informed LB Moab in summer 2016 that it would be required to resubmit
+the revised project for public hearings and discretionary approvals by both the city planning
+
+1
+
+Section 10-9a-801 requires that the City transmit the record of its proceedings to the District
+Court for its review, and limits review to that record. See Utah Code Ann. §10-9a-801(7)(a),
+(8)(a). The City has compiled and paginated the record with Bates numbers R1 through R858,
+and has provided copies of the record to all counsel appearing in this action. Intervenors
+understand the City is in the process of filing the record with the Court as the statute requires,
+and in the meantime Intervenors have compiled and file herewith an Appendix containing the
+record documents it relies upon for this motion, including the specific portions of the record that
+are cited in this memorandum.
+2
+
+commission and the city council. See R739. At the same time, local contacts informed LB Moab
+that the new City Manager intended to kill the project if possible. See id. 736.
+Faced with what it perceived were hostile and inconsistent actions by the City, SITLA
+informed the City that it intended to withdraw the Lionsback project from City zoning jurisdiction,
+and proceed to develop the project under applicable state law, which exempts state trust lands from
+local zoning, and provides an alternate pathway for permitting and development. See R847-849.
+The parties came to view the underlying dispute, as well as the statutory exemption issues, as ripe
+for difficult litigation, and felt that a cooperative resolution of the dispute through settlement to be
+preferable. See id. 816.
+Subsequently, SITLA and the City entered negotiations which led – as a settlement of their
+dispute over the appropriate path forward for approval of the revisions – to a settlement document
+entitled “Zoning Status Agreement” (the “ZSA”). See R850-857. The ZSA acknowledges that
+there were disputes over applicable facts and law, and implements a negotiated process for
+resolving them. Id..
+Pursuant to the agreement, SITLA reversed its decision to withdraw from local zoning, and
+the LB Moab made negotiated concessions to the City on other issues. In return, the City agreed
+to process the project revisions as a minor plan amendment, consistent with the City’s April 2014
+communication to LB Moab. Id. Other than this procedural concession, the ZSA maintains all
+substantive requirements of existing zoning ordinances and approvals for the project. Id.
+Thus this case involves a settlement agreement between the City, SITLA and LB Moab
+concerning how the City would process a plan amendment for the Lionsback Resort. Plaintiffs
+claim that the agreement is inconsistent with City ordinances, and therefore arbitrary, capricious
+3
+
+and illegal. But Plaintiffs’ challenge to the agreement misses a key legal point – it is a settlement
+agreement resolving disputes over multiple issues, including the City’s authority over zoningexempt state trust lands.
+Municipalities have the inherent power to compromise disputed claims, and Utah law
+specifically encourages the settlement of disputes. In reviewing such settlements, courts do not
+inquire into the precise legal rights of the parties, but merely ascertain that the settlement is fair
+and reasonable. The City’s decision to enter the ZSA is fully legal, entitled to substantial deference
+by the Court, and neither arbitrary nor capricious under the circumstances. It can and should be
+upheld as a matter of law.
+STATEMENT OF UNDISPUTED MATERIAL FACTS DERIVED FROM THE
+RECORD WITH APPROPRIATE CITATIONS
+Introduction
+By law, this is an appeal on the record below only. See Utah Code Ann. §10-9a-801(8)(a).
+The Court will note that the facts and the record itself are not “undisputed” in the traditional sense
+because the parties will suggest that the Court draw sometimes diametrical different inferences
+and conclusions from the proceedings below.
+In contrast to a more traditional summary judgment analysis, however, the Court’s task
+here is not to determine whether the facts reflected by the record are undisputed, but only whether
+it demonstrates a sufficient quantum of evidence that the decision by the City was not arbitrary,
+capricious or illegal under the appropriate standards of review:
+In reviewing the Board’s decision, it is not this court’s role to re-weigh the evidence and
+determine if the outcome was correct. Rather, we are charged with determining whether
+there was substantial evidence supporting the Board’s decision, and whether such evidence
+is adequate to convince a reasonable mind to support such conclusion.
+4
+
+Carr v. Dep’t of Workforce Services, 2011 UT App 33, ¶ 4 (citation omitted). See also Pen &
+Ink v. Alpine City, 2010 UT App 203, ¶ 14 (“On appeal, we typically review the district court’s
+assessment of whether a genuine issue of material fact required a trial. However, when the
+district court reviews a land use authority’s decision, the scope of its review is curtailed by Utah
+Code section 10-9a-801(8).”).
+Background
+1.
+
+The State of Utah, through SITLA, is the owner of the real property located in
+
+Grand County, Utah, that is the subject of this case (the “Subject Property”). See R1. In June,
+2006, the Intervenors entered into a Lease and Development Agreement which allowed LB Moab
+to develop and construct a Mixed Use Master Planned Development (“MPD”) for the Lionsback
+Resort (the “Project”) on the Subject Property. See id. 1-2.
+2.
+
+In October, 2008, the City and LB Moab, joined by SITLA, entered into a Pre-
+
+Annexation Agreement to annex the Subject Property into the City. See R1-23. The Agreement
+addressed the parties’ development rights and obligations, including the annexation process, land
+use and planning processes, subdivision improvements, water and sanitary sewer services, utilities
+and roads, as well as drinking water source protections. Id. The agreement was accompanied by
+a detailed preliminary Master Planned Development (“MDP”) plan. Id.
+3.
+
+Following annexation the City and LB Moab entered a Development and Phasing
+
+Agreement dated July 28, 2009. See R386. This agreement authorized development of 188 single
+family lots, 18 employee units, and 50 Lodge/Commercial Lots/Units. See id. 310, 391.
+4.
+
+The Moab Local Green Party, current plaintiff Living Rivers, and several
+
+individuals sued the City in October, 2008 challenging the City’s annexation and preliminary MDP
+5
+
+Plan for the Project. See R. 295. The District Court upheld the City’s decision, the Utah Court of
+Appeals affirmed the District Court’s decision, and on October 2, 2012, the Utah Supreme Court
+denied the plaintiffs’ petition for certiorari. See Moab Local Green Party et al v. Moab City, 2012
+UT App 113, 276 P. 3d 1230 (Utah App. 2012), cert. den. 288 P. 3d 1045 (Utah 2012).
+Updates to the Project Concept
+5.
+
+After completion of the Moab Local Green Party litigation, LB Moab and SITLA
+
+began discussions with the City in 2013 about more detailed planning and engineering for the
+project. See R311, 738. Based on updated market analysis, LB Moab presented a somewhat
+revised concept for the project to City staff and the City mayor in September and October, 2013.
+See id. 310-312. The proposed revision consolidated the hotel units in one building (instead of nine
+separate buildings), and moved the parking lot to the rear of the hotel instead of placing it in front
+of the development. Id.
+6.
+
+At the time of the September 2013 meeting, City staff indicated that the proposed
+
+revisions would be considered a minor amendment to the existing preliminary MPD plan, and
+could be approved by staff. See R311.
+7.
+
+One aspect of the proposed revisions was the design of the lodge/condominium
+
+units as three bedroom condominiums with “lockout” doors allowing individual bedrooms that
+could be rented separately. See R710-712. In light of this, the City and LB Moab identified
+ambiguities in the original hotel approvals. See id. 479.
+8.
+
+The body of the Development and Phasing Agreement describes “50
+
+Lodge/Commercial Lots/Units.” See R391. See also id. 822 (Sketch depicting “Condo 2 Bedroom
+Hotel Suites”). In the “Phasing Table (Exhibit C) of the same agreement, the Hotel units are
+
+6
+
+described as “Hotel Facilities (50 Hotel Rooms . . .”). See id. 403. Conversely, the Subdivision
+Improvements Schedule (Exhibit E) states that 50 Hotel Guest Condominium Units will be
+constructed with the Hotel and will be available for sale to third party purchasers. See id. 406.
+Sketch plans submitted at the time of the initial development proposals for the hotel contemplate
+the multi-bedroom lockout concept. See id. 422.
+9.
+
+On April 2, 2014, the City’s Planning Director, Jeff Reinhart, sent LB Moab a
+
+confirmatory email indicating that he had spoken with City Manager Donna Metzler and that the
+three-bedroom lockoff concept for the hotel condominium units was acceptable. See R451. The
+full text of the April 2, 2014, email from the City to LB Moab is as follows.
+Hello Mike,
+I spoke with Donna [Metzler] about the hotel use and we cannot identify
+any issues with how the hotel units or rooms are owned. Whether or not the
+hotel units are sold as individual condos in the future is an option you can
+pursue, or not at your discretion. The density or number of proposed units
+is the important thing for us and not the way the units are owned. It is our
+understanding that your current plan is for 50 hotel units which will each
+have three bedrooms. Each bedroom will be treated as a hotel lock off room
+like you have done at the Gonzo Inn so there will be a total of 150 hotel
+rooms. If you need more than this email, please let me know.
+Id. (emphasis added).
+10.
+
+In reliance upon the series of favorable discussions and communications with the
+
+City about the design update, LB Moab invested approximately $500,000 in updated architectural
+and engineering as it prepared to complete financing and move toward construction of the project.
+See R735-736.
+
+7
+
+Dispute Between City and Intervenors.
+11.
+
+In summer 2015, LB Moab began to hear rumors that the new Moab City Manager,
+
+Rebecca Davidson, opposed the Lionsback project and intended to stop the development. See
+R736. SITLA sent a letter to Ms. Davidson on November 23, 2015, requesting confirmation of
+the City’s position on project entitlements, agreements, and status. See id. 452-454. SITLA never
+received a written response to this correspondence. Id. 739.
+12.
+
+On April 6, 2016, outside legal counsel for the City sent a letter to legal counsel for
+
+LB Moab memorializing a meeting held by the parties on March 14, 2016. See R458-459. The
+letter stated “At that meeting all parties acknowledged that there are ambiguities in the
+Development Agreement.” Id. The City’s counsel further stated the City’s position that LB Moab
+could not reasonably rely on past statements made by City staff with respect to the design of the
+hotel, and that LB Moab should submit an application to the City for approval of the hotel
+modification in accordance with Moab’s Master Planned Development Ordinance, Chapter 17.65
+of the Moab Municipal Code. Id.
+13.
+
+In response, on June 30, 2016, LB Moab filed an Amended Preliminary Site Plan
+
+with the City together with an application to amend its approved preliminary master planned
+development. See R470-509. SITLA joined in this application. See id. 483. The application
+noted the City’s prior approval of the revised hotel configuration, together with the City attorney’s
+more recent statement that the prior staff approval could not be relied upon. See id. 479. The
+application expressly reserved all rights and claims with regard to the matter. Id.
+14.
+
+On August 11, 2016, LB Moab and SITLA met with the Moab Mayor and City
+
+Manager to discuss the processing of the amendment application. See R533-535. SITLA and LB
+8
+
+Moab understood that the Mayor and City Manager committed at this meeting that the amendment
+application would be processed by the City as a minor plan amendment under applicable
+provisions of the Moab Municipal Code. Id.
+15.
+
+On September 12, 2016, legal counsel for the City wrote a letter to legal counsel
+
+for LB Moab disavowing the position LB Moab and SITLA thought the Mayor and City Manager
+had taken in the August 11, 2016, meeting, and concluding that the amendment application would
+have to be processed as a major plan amendment under MMC 17.65.130. See R538-539. During
+this time period, City staff made several requests for documents and reports that went beyond any
+matters being considered under the amendment application, giving the impression to the
+development parties that all entitlements for the project were in question. See id. 739.
+SITLA Determines to Pull Project from Local Zoning
+16.
+
+Based on its perception that the City was backtracking on commitments made to
+
+LB Moab with respect to the hotel configuration, and the processing of any required change as a
+minor amendment, SITLA informed legal counsel for the City by telephone on October 13, 2016,
+that it intended to pull the project from municipal jurisdiction if the outstanding issues could not
+be addressed, with a follow-up email communication on October 25, 2016. See R552-553. The
+parties contemporaneously discussed a compromise of the dispute that acknowledged SITLA’s
+statutory exemption from local zoning, but represented a compromise of the underlying issues.
+See id. 553.
+The Zoning Status Agreement
+17.
+
+The compromise of the outstanding dispute was set forth in a draft document called
+
+the Zoning Status Agreement. See R556-561. The draft Zoning Status Agreement was negotiated
+9
+
+back and forth by the parties over a period of weeks in October and November 2016. See id. 562574. The City’s responsive draft of the Zoning Status Agreement contained multiple negotiated
+changes to the original draft SITLA had presented to the City that substantially bettered the City’s
+position compared to the status quo. Id; see also R592-596, R607-609, R786.
+18.
+
+Recitals M and N of the revised Zoning Status Agreement acknowledged SITLA’s
+
+position that it has the right and authority to withdraw its consent to local planning and zoning
+jurisdiction pursuant to Utah Code Ann. 10-9a-304, and further acknowledged the existence of a
+potential legal dispute between SITLA and the City with respect to the scope of SITLA’s zoning
+exemption. See R576.
+Approval of the Zoning Status Agreement by the City Council
+19.
+
+The proposed Zoning Status Agreement was first presented to the Moab City
+
+Council for approval on December 13, 2016. See R779-791. After a lengthy public discussion,
+the Council tabled approval until January, 2017. Id.
+20.
+
+On February 1, 2017, the City Council held a special public workshop meeting to
+
+discuss the Lionsback development and the proposed Zoning Status Agreement. See R792-816.
+This meeting included opportunity for public comment, which was received by the Council. See
+id. 792-795. The Council considered the ZSA again on February 14, 2017 (see R817-833), and
+again on February 28, 2017, at which time the Council approved the Zoning Status Agreement by
+a 3-2 vote. See id. 834-845.
+21.
+
+The City Council’s consideration of the Zoning Status Agreement included, but
+
+was not limited to, consideration of alternate legal means by which SITLA and LB Moab could
+develop the project outside of City jurisdiction (see R829, 849); the prior commitments of the City
+10
+
+to approve the hotel configuration or process the change as a minor amendment (id. 813-816, 827828); ambiguities in the prior agreements as to the number of hotel units already permitted (id.
+814-815); the fact that the City Code allows City staff to decide which amendments are minor (id.
+815, R828); the developer’s expenditure of funds in reliance on the City’s representations (id. 814,
+847-848); the overall timeline of the project (id. 734-741); and additional substantive commitments
+made by SITLA and LB Moab in the ZSA. See id. R838, 840, 848.
+22.
+
+The final Zoning Status Agreement was executed by the parties and became
+
+effective March 3, 2017. See R850-857.
+Plaintiffs’ Appeal
+23.
+
+On March 30, 2017, Plaintiffs filed this action in the 7th District Court. See Doc.
+
+Entry 3-30-2017.
+24.
+
+On the same date, Plaintiffs sought to appeal the City’s decision to enter into the
+
+ZSA to the City’s Appeal Authority. See R633-642. On June 5, 2017, the City denied this
+request, determining that the requested appeal was not within the jurisdiction of the City’s
+Appeal Authority because:
+(1) the ZSA settles a bona fide legal dispute between the City and SITLA concerning
+whether the City's land use ordinances apply in the first instance, and therefore is not reviewable
+by the Appeal Authority since only decisions applying the zoning ordinance may be appealed to
+the Appeal Authority;
+(2) the ZSA concerns the scope of SITLA's local land use exemption pursuant to U.C.A.
+§ 10-9a-304, a matter which is beyond the jurisdiction of the Appeal Authority; and
+
+11
+
+(3) the current dispute centers on the legality and enforceability of a contract between a
+local government and the State of Utah and, as such, raises questions as to the interpretation of
+various state enabling statutes -- questions which go beyond the interpretation and application of
+the City's zoning ordinance. See R655-656.
+25.
+
+On July 5, 2017, Plaintiffs filed an Amended Complaint and Petition for Review
+
+with this Court. Doc. Entry 07-05-2017.
+STANDARD OF REVIEW
+A municipality's land use decisions are entitled to a great deal of deference. Springville
+Citizens for a Better Comm. v. Springville City, 1999 UT 25 ¶ 24 (“We . . . determine whether, in
+light of the evidence before the City, a reasonable mind could reach the same conclusion as the
+City. We do not, however, weigh the evidence anew or substitute our judgment for that of the
+municipality.”); Grace Drilling Co. v. Board of Review, 776 P.2d 63, 68 (Utah Ct. App. 1989)
+(“Substantial evidence is more than a mere scintilla of evidence . . . though something less than
+the weight of the evidence. Substantial evidence is such relevant evidence as a reasonable mind
+might accept as adequate to support a conclusion.”).
+Moreover, a party challenging a land use decision must “marshal all of the evidence in
+support thereof and show that despite the supporting facts, and in light of conflicting and
+contradictory evidence, the findings and decision are not supported by substantial evidence.” Save
+our Canyons, et al. v. Board of Adjustment of Salt Lake County, et al., 2005 UT App 285¶ 16
+(citation omitted); see also Utah Code Ann. § 10-9a-705 (“The appellant has the burden of proving
+that the land use authority erred.”).
+
+12
+
+Finally, a “City's failure to pass the legality requirement of section [10-9a-801] . . . does
+not automatically entitle plaintiffs to the relief they request. Rather, plaintiffs must establish that
+they were prejudiced by the City's noncompliance with its ordinances or, in other words, how, if
+at all, the City's decision would have been different and what relief, if any, they are entitled to as
+a result.” Springville Citizens, 1999 UT 25, ¶ 31. See also Decker Lake Ventures, LLC v. Utah
+State Tax Comm'n, 2015 UT 66 ¶ 23 (“The mere identification of error does not alone sustain a
+judgment of reversal. In an administrative appeal, like most any other, we must also consider the
+question of prejudice. Thus, notwithstanding an error by the commission, we may reverse only if
+the agency's error was “not harmless.”) (citation omitted).
+ARGUMENT
+I.
+
+THE CITY’S DECISION WAS NOT ARBITRARY OR CAPRICIOUS.
+
+A.
+
+The Background of the Dispute.
+Plaintiffs allege that the City’s decision was arbitrary, capricious and illegal because it
+
+purportedly allowed the Intervenors to avoid full application of the City’s Master Planned
+Development Ordinance:
+Notwithstanding the Zoning Status Agreement, the City has no authority to enter into an
+agreement that is contrary to the City’s Master Planned Development Ordinance and
+proposed for the sole purpose of avoiding the application of the City’s Master Planned
+Development Ordinance and in order to benefit a single project. On their face the proposed
+project changes cannot be deemed minor, and a public hearing cannot be avoided.
+Amended Complaint ¶ 52; see also id. ¶¶ 71-83 (asserting the City’s decision was “arbitrary,
+capricious and illegal” because the City “is bound to comply with its own ordinances.”).
+Plaintiffs’ allegations miss the point. There was a dispute between the City and Intervenors
+over the applicability and legal effect of any of the City ordinances in the first place. As discussed
+13
+
+below, state law permits SITLA and its lessees to exempt themselves from the local zoning
+ordinance. The ZSA set the condition upon which SITLA would allow the applicability of Moab’s
+ordinances – the processing of the plan revisions as a minor amendment (as Intervenors felt the
+City had previously committed to do in any event). See R847, ¶8 (negotiation between City and
+SITLA on satisfactory process).
+Even absent the issue of state immunity, there was a further legitimate dispute between the
+parties over the extent of the City’s prior approvals. The City elected to settle both disputes
+through an agreement that provided it with negotiated benefits above and beyond what it already
+had.
+For example, the City ordinance in question, MMC 17.65.130, directs major amendments
+to master-planned communities to the land use authority for public hearings and approval. In
+contrast, MMC 17.65.130.A allows City staff to process minor amendments without approval from
+the City Council or planning commission. Critically, MMC 17.65.130.A provides:
+When in question, the Moab City planning staff may determine whether the changes
+shall be classified as minor or major, or may refer the question to the land use
+authority, if deemed necessary.
+After the prior project litigation was concluded, LB Moab went to the City with project
+revisions that consolidated the first phase “casitas” into a hotel structure with 50 condominium
+units with three bedroom lockouts, while maintaining identical overall project density. See R313.
+At meetings with the Mayor and city staff, the City indicated that changes would be processed as
+a minor amendment at the staff level. See id. 311. The City’s planning director subsequently
+informed LB Moab in writing on April 2, 2014, that the proposed hotel concept was acceptable
+
+14
+
+without further action. See id. 451. LB Moab then expended upwards of $500,000 in additional
+engineering and design to advance the project. See id. 735-736.
+The City, under a new manager, subsequently changed its position, and in 2016 determined
+that the proposed revisions were major revisions under MMC 17.65.130, requiring new public
+hearings, and approvals at the Planning Commission and City Council level. At the same time,
+the City Attorney acknowledged that there were ambiguities as to whether the multi-unit hotel
+units had in fact been approved at the time of original project approval. See R458, R815.
+Concurrently, there were local indications that the new City Manager intended to kill the project
+entirely if possible. See id. 735-736. Subsequently, the conclusions of a meeting held by the
+developer and the Mayor to resolve the budding dispute on August 11, 2016, were reversed by the
+City Attorney by letter dated September 12, 2016. See id. 533-535, 538-539.
+B.
+
+SITLA’s Zoning Exemption.
+Based on its dissatisfaction with conduct by the City that it perceived to be inconsistent,
+
+SITLA informed the City that it intended to allow the Developer to develop the project outside
+City jurisdiction. See Statement of Facts (“SOF”) ¶ 13. Section 9.4.4 of the Pre-Annexation
+Agreement between the City, LB Moab and SITLA allows the disconnection of the Property from
+the City in the event of a dispute of this nature. See R1, 17.
+The subject property is state school trust land, and the Utah Municipal Land Use
+Development Management Act (“MLUDMA”) provides that nothing in MLUDMA gives
+municipalities jurisdiction over state lands. See Utah Code Ann. §10-9a-304. Under MLUDMA,
+a “specified public agency” (defined by §10-9a-103(49)(a) as including the State) intending to
+
+15
+
+develop its land need only submit a development plan and schedule to local government no later
+than the commencement of construction. Id.
+Separate provisions of state law allow SITLA to subdivide state trust lands outside the
+MLUDMA process, and create mechanisms for state-level building permitting and inspection.
+Utah Code Ann. §53C-4-102(4); Utah Code Ann. §63A-5-206(6). Improvements on state lands –
+including improvements constructed by non-state entities – are not subject to local zoning. See
+Utah Code Ann. §63A-5-206(6)(d) (emphasis added). SITLA’s position concerning the zoning
+immunity of state trust lands is consistent with the law in other western states. See State ex rel
+Kempthorne v. Blaine County, 79 P. 3d 707 (Id. 2003); County of Santa Fe v. Milagro Wireless,
+LLC, 32 P.3d 214 (N.M. App. 2001).
+C.
+
+Negotiated Settlement – The Zoning Status Agreement.
+Faced with disputes at several levels, the parties entered into settlement discussions for
+
+good reason. There were ambiguities in the original project approvals for the hotel, ambiguities
+in the City’s prior course of conduct as to minor vs. major amendments under MMC 17.65.130,
+and legal and business risk to all over the zoning immunity issue. As the City Attorney explained
+to the City Council:
+If we want to lawyer up and try to litigate these issues it would be a big
+mess. And I don’t frankly, I don’t know who will win. But what I want to
+do is try to solve problems cooperatively, and we’ve certainly engaged in
+that effort here to try to do that.
+R792.
+At the same time, the City negotiated for and obtained additional benefits from the ZSA
+that it would not otherwise have obtained under its ordinances and prior approvals. Again, as the
+City Attorney told the City Council:
+16
+
+Agreed and to be fair to SITLA, I would say that we have engaged in a significant
+kind of back and forth process identifying issues. City staff, we have requested
+changes to that Zoning Status Agreement, and yeah, it’s very different from the
+way it was originally presented to the City. So, in terms of conceptually what’s
+before you tonight is there is this request to go forward with this Zoning Status
+Agreement. Which would commit the City to: A: process the change as a minor,
+staff-level change; and then also make some changes to the wastewater treatment
+system within the development which would now be private lines as opposed to
+public lines under the original entitlements; and 3rd some changes to the traffic
+review and traffic studies which would mandate some review and additional traffic
+studies at the conclusion of phase 1.
+R804.
+The negotiated benefits the City obtained are significant. The ZSA provides that the
+developer will assume ownership of and operational responsibility for wastewater treatment
+service lines and equipment, in contrast the prior agreements, which placed this responsibility on
+the City. See ZSA ¶ 4; R852-853; cf. R7-8. The ZSA provides for additional traffic studies, and
+the possibility of additional traffic-related improvements not contained in the City Approvals. See
+id. ¶ 5; R853. The ZSA provides that SITLA will indemnify the City for future litigation costs.
+See id ¶ 9, R853. Finally, it is important to note that all other requirements of the prior City
+approvals remain in place; the developer is not freed from any substantive requirements. See e.g.
+id. Exhibit B (Outstanding Items), R857.
+D.
+
+The Settlement Was Supported by Substantial Evidence, and Therefore Not Arbitrary or
+Capricious.
+By failing to even address the issues described above, Plaintiffs have failed to carry their
+
+burden to “show that despite the supporting facts, and in light of conflicting and contradictory
+evidence, the findings and decision are not supported by substantial evidence.” Save our Canyons,
+et al., 2005 UT App 285, ¶ 16 (citation omitted). On the contrary the record demonstrates that
+after careful review and study, and substantial public input, the City approved the ZSA in order to
+17
+
+resolve legitimate legal and factual issues that arose between the parties concerning ambiguity in
+the parties’ previous agreements, ambiguity in City ordinances, likely estoppel claims and state
+statutes potentially divesting the City of all jurisdiction over development of the Project.
+Stated more succinctly, the City entered into the ZSA, not to avoid application of its
+ordinances, but to maintain the maximum application of its land use ordinances and resolve the
+wholly uncertain issues between the parties, not the least of which was SITLA’s statutory
+exemption. The ability of the City to resolve a significant dispute and obtain the additional benefits
+provided by the ZSA – documented through a voluminous written record and multiple public
+hearings – provide substantial evidence supporting the City’s decision challenged here.
+The decision was thus not arbitrary or capricious as defined by statute and well-settled law.
+See Springville Citizens, 1999 UT 25 ¶ 25 (“In short, the undisputed evidence reveals without
+question that substantial evidence supported the City's decision and that a reasonable person could
+have reached the same decision as the City.”); Patterson v. Utah County Bd. of Adjustment, 893
+P.2d 602, 604 (UT App. 1995) (“We must simply determine, in light of the evidence before the
+Board, whether a reasonable mind could reach the same conclusion as the Board. It is not our
+prerogative to weigh the evidence anew.”).
+
+See also Utah Code Ann. 10-9a-801(3)(c)(i)
+
+(“arbitrary and capricious” defined by lack of substantial evidence).
+II.
+
+THE ZSA IS LEGAL BECAUSE THE CITY HAS THE STATUTORY AND
+COMMON LAW POWER TO ENTER AGREEMENTS IN SETTLEMENT OF
+DISPUTES
+
+A.
+
+Cities Have Legal Power to Enter Agreements Concerning Development.
+The provisions of the MLUDMA, pursuant to which Plaintiffs petition for review, provides
+
+in pertinent part:
+18
+
+To accomplish the purposes of this chapter, municipalities may enact all ordinances,
+resolutions, and rules and may enter into other forms of land use controls and development
+agreements that they consider necessary or appropriate for the use and development of
+land within the municipality, including ordinances, resolutions, rules, restrictive covenants,
+easements, and development agreements governing uses, density, open spaces, structures,
+buildings, energy efficiency, light and air, air quality, transportation and public or
+alternative transportation, infrastructure, street and building orientation and width
+requirements, public facilities, fundamental fairness in land use regulation, considerations
+of surrounding land uses and the balance of the foregoing purposes with a landowner's
+private property interests, … unless expressly prohibited by law.
+Utah Code Ann. § 10-9a-102(2) (emphasis added). See also id. § 10-1-202 (“Municipalities may
+sue and be sued, [and] enter into contracts . . . .”).
+State statute also gives the City authority to enter intergovernmental agreements with state
+entities such as SITLA, and to exempt the state entity from requirements that may be otherwise
+required by local ordinance:
+(3)(a) In an agreement under Subsection (1), a public agency that is a party to the agreement
+may agree:
+(i) to restrict its authority to issue permits to or assess fees from another public
+agency that is a party to the agreement; and
+(ii) to exempt another public agency that is a party to the agreement from permit or
+fee requirements.
+Utah Code Ann. § 11-13-202.
+The City also has the inherent power to settle legitimate disputes, unless the same is
+expressly forbidden by law:
+Unless forbidden by charter or applicable general law, a municipal or other public
+corporation has the power to settle and compromise disputed claims in its favor or against
+it before or after suit has begun on it, and at any time before final judgment. A municipal
+government's authority to sue and be sued, by necessary implication, carries with it the
+authority to compromise disputed claims. . . . Power to compromise disputed claims may
+be expressly conferred or may be implied, as from the power to sue and be sued, or as a
+necessary incident of its power to contract. A municipality has no power to compromise a
+claim which is not doubtful and upon which the city could not be held liable. . . . .
+19
+
+17 McQuillin Mun. Corp., Power to compromise claims, § 48:20 (3d ed.).
+B.
+
+Plaintiffs Assume that the ZSA Violates MMC 17.65.130, But that Was an Issue the
+Parties Resolved Through the ZSA.
+The core of the Plaintiffs’ argument in this case is that the proposed revisions to the project
+
+MPD were major amendments under MMC 17.65.130, and that the City could not legally enter
+into a settlement agreement that allowed the revisions to be processed as minor amendments. This
+is incorrect for two reasons.
+First, there were legitimate disputes between the parties over whether the revisions were in
+fact major or minor, what number of hotel units had been approved in the first place, and what the
+legal effect was of the City’s prior course of conduct in deeming the revisions approvable at the
+staff level. Plaintiffs ignore these facts and simply assume these disputes away.
+Second, even if the Court assumes that the revisions were in fact major under the MMC,
+the City would be entitled to depart from its ordinance in determining the terms under which a
+zoning-exempt state entity such as SITLA would elect to remain within City jurisdiction. Put
+another way, Plaintiffs’ allegations that the project revisions were major, when that was one of the
+issues in dispute, cannot be used to invalidate the settlement agreement here.
+In reviewing the legality of a public body’s decision to settle a claim, the court by definition
+does not determine the legalities of the matter in dispute:
+The trial court in approving a settlement need not inquire into the precise legal rights of the
+parties nor reach and resolve the merits of the claims or controversy, but need only
+determine that the settlement is fair, adequate, reasonable and appropriate under the
+particular facts and that there has been valid consent by the concerned parties.
+Citizens for a Better Environment v. Gorsuch, 718 F. 2d 1117, 1126 (D.C. Cir. 1983), quoting
+Metropolitan Housing Development Corp. v. Village of Arlington Heights, 616 F.2d 1006, 1014
+20
+
+(7th Cir. 1980).
+The Court specifically does not reach the merits of a disputed claim; public policy
+expressly favors the ability of the parties and the public to save time and money from voluntary
+settlement of litigation. Id at 1126. The Utah Supreme Court has consistently expressed this same
+policy:
+We have long held that the public policy of Utah is to encourage settlements. The purpose
+behind this policy is to “‘promote harmony and to prevent the waste of assets.’” When
+parties agree to settle their claims, they move their dispute outside the realm of the judicial
+process. In so doing, they effectively agree to forego the assistance of the court in exchange
+for the immediacy and certainty of a settlement.
+Iron Head Const. Inc. v. Gurney, 2009 UT 25, ¶ 20 (citations omitted).
+In approving the Zoning Status Agreement, the City Council was doing just that – avoiding
+manifest uncertainty over multiple issues, including whether the revisions were minor, major, or
+previously approved. See SOF, ¶ 18. The Plaintiffs’ arguments fail because they simply assume
+that their legal position on the minor-major issue governs the decision of the City Council to
+resolve a dispute, when it does not.
+By entering the ZSA, the City “agree[d] to forego the assistance of the court in exchange
+for the immediacy and certainty of a settlement.” Iron Head Const. Inc., 2009 UT 25, ¶ 20.
+Because Plaintiffs fail to establish there was no genuine dispute between the City and Intervenors,
+Plaintiffs fail to establish that the ZSA was “illegal” as beyond the City’s authority. Id.
+Plaintiffs’ failure to address the genuine issues between the parties to the ZSA is doubly
+problematic because of the state statutes divesting the City of land use jurisdiction. See, e.g., Utah
+Code Ann. § 10-9a-304(1) (“Unless otherwise provided by law, nothing contained in this chapter
+may be construed as giving a municipality jurisdiction over property owned by the state or the
+21
+
+United States.”); Utah Code Ann. § 63A-5-206(6)(d) (“The use of state property and any
+improvements constructed on state property, including improvements constructed by nonstate
+entities, is not subject to the zoning authority of local governments . . . .”).
+Plaintiffs don’t allege, or even imply, that these statues are unconstitutional or are
+otherwise inapplicable under the circumstances. Under the facts of this case, even if the Court
+were to find that the proposed changes were “major” changes under the MMC, Plaintiffs do not
+allege why SITLA could not then withdraw its consent to be bound by the City’s ordinance
+pursuant to state law. The Project would then proceed without the “major” review process sought
+by Plaintiffs.
+For this reason, Plaintiffs fail to demonstrate, how, if at all, the decision would ultimately
+be different but for the City’s alleged procedural error. See Springville Citizens, 1999 UT 25, ¶ 31
+(The “City’s failure to pass the legality requirement of section [10-9a-801] . . . does not
+automatically entitle plaintiffs to the relief they request. Rather, plaintiffs must establish that they
+were prejudiced by the City’s noncompliance with its ordinances or, in other words, how, if at all,
+the City’s decision would have been different and what relief, if any, they are entitled to as a
+result.”).
+In short, the ZSA cannot be “illegal” for violating ordinances which by state statute
+expressly do not apply to the property which is the subject of the agreement. By ignoring the
+provisions of the state code and focusing solely on City ordinance, Plaintiffs have failed to plead
+or otherwise demonstrate the City’s decision to enter the ZSA was illegal. Nor can this Court, in
+determining whether a settlement is legal, rely solely on Plaintiffs’ view of the law – it need not
+
+22
+
+“inquire into the precise legal rights of the parties in determining if the settlement is valid. Citizens,
+supra, 718 F. 2d at 1126.
+III.
+
+PLAINTIFFS ARE NOT ENTITLED TO MANDAMUS ORDERING AN APPEAL
+TO THE CITY’S ADMINISTRATIVE APPEAL AUTHORITY.
+Plaintiffs’ Petition raises one other claim – that they are entitled to mandamus ordering the
+
+Moab City Appeal Authority hear their administrative appeal. See Amended Complaint, Prayer
+for Relief ¶ 1.
+In this regard, Plaintiffs filed their administrative appeal on the same date as the Complaint
+in this action. See SOF, ¶¶ 23-24. The City determined that the requested appeal was not within
+the jurisdiction of the City’s Appeal Authority because the ZSA concerns the scope of SITLA's
+local land use exemption pursuant to U.C.A. § 10-9a-304, a matter which is beyond the jurisdiction
+of the Appeal Authority; and because the current dispute centers on the legality and enforceability
+of a contract between a local government and the State of Utah and so raises questions as to the
+interpretation of various state enabling statutes -- questions which go beyond the interpretation and
+application of the City's zoning ordinance. See SOF ¶ 24; R655-656.
+Addressing the requirements for mandamus relief, the Utah Supreme Court has stated:
+In order to obtain extraordinary relief under rule 65B(d), a petitioner must establish two
+things: (1) “a clear legal right to the performance of the act demanded,” and (2) “a plain
+duty of the officer, board, or other tribunal to perform as demanded.” Even if a petitioner
+can meet both prongs of the test, the court has the discretion to deny extraordinary relief.
+To determine whether to grant relief, “a court must look to the nature of the relief sought,
+the circumstances alleged in the petition, and the purpose of the type of writ sought.”
+Hogs R Us v. Town of Fairfield, 2009 UT 21, ¶ 12 (citations omitted); see also 17 McQuillin Mun.
+Corp. Necessity of clear legal right to performance, § 51:13 (3d ed.) (“According to the
+
+23
+
+overwhelming weight of authority, the writ will not issue to compel the performance of an official
+act unless the petitioner shows a clear legal right to have the act performed by the defendant.”).
+In this case, Plaintiffs right to an appeal to the City’s Appeal Authority is anything but
+clear. At the time Plaintiffs attempted the appeal to the Appeal Authority, the City’s Code
+provided, in pertinent part that "any . . . person . . . adversely affected by a decision administering
+or interpreting a zoning ordinance may appeal that decision applying the zoning ordinance . . .")
+Moab Municipal Code (“MMC”) §17.72.150(A)(1)( emphasis added); see also Utah Code Ann.
+§10-9a-707(4)(“Only those decisions in which a land use authority has applied a land use
+ordinance to a particular application, person or parcel may be appealed to an appeal authority.”).
+As Plaintiffs themselves allege, however, by entering into the ZSA the City agreed that
+processing of the Intervenors’ proposed changes would not be processed according to the City’s
+interpretation of section 17.65.130. See Amended Complaint ¶¶ 48-52. Instead, in light of the
+state statutes divesting the City from land use jurisdiction over the subject property and the other
+issues discussed above, the City and Intervenors “enter[ed] into this [ZSA] to reflect the manner
+that the City Approvals Amendments Application as well as future land use applications
+concerning the Property and the Project would be handled by the Parties.” ZSA Recital O, R851.
+By its terms, therefore, the ZSA was not a decision “administering or interpreting” or
+“applying” section 17.65.130. Id. Rather, it was a decision to resolve a more global dispute in
+light of competing legal and policy considerations, which was indeed and necessarily contrary to
+the City’s own application or interpretation of its ordinance. Neither state code nor City ordinances
+provide for internal administrative appeal of such a decision. See MMC §§17.72.150(A)(1); Utah
+Code Ann. §10-9a-707(4)(“Only those decisions in which a land use authority has applied a land
+24
+
+use ordinance to a particular application, person or parcel may be appealed to an appeal
+authority.”).
+Plaintiffs’ characterizations of the ZSA as “applying” the City’s ordinances therefore fail
+to provide any clear right to mandamus.2 See Hogs R Us, 2009 UT 21, ¶ 12. And again, Plaintiffs
+pleadings fail to address state statutes divesting the City of land-use jurisdiction over the Project.
+Accordingly, they fail to address how the result would be different if the Court found that City
+ordinances required a hearing, only to have SITLA withdraw its consent to the City’s land use
+authority. The City correctly determined that the matters in this case were beyond the jurisdiction
+of the local appeal authority. Under the circumstances Plaintiffs’ mandamus claim fails as a matter
+of law.
+CONCLUSION
+For the reasons stated above, Intervenors respectfully request this Court’s Order dismissing
+Plaintiffs’ Amended Complaint and Petition for Review, with prejudice and on the merits.
+
+Indeed, Plaintiffs’ own pleading is internally inconsistent on this point. They allege that the
+City entered the ZSA for the sole purpose of avoiding application of section 17.65.130
+(Complaint ¶ 52), while going on to allege that by entering the ZSA the City “applied” that
+section. Id. ¶ 68.
+2
+
+25
+
+DATED this 17th day of January, 2018.
+SNOW CHRISTENSEN & MARTINEAU
+
+/s/ Robert C. Keller
+JODY K BURNETT
+ROBERT C. KELLER
+Attorneys for Defendant Intervenors
+The Utah School and Institutional Trust Lands
+Administration and LB Moab Land Company,
+LLC
+
+26
+
+CERTIFICATE OF SERVICE
+I hereby certify that a true and correct copy of the attached INTERVENOR
+DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT in Case No. 170700009 before
+the Seventh Judicial District Court in and for Grand County, State of Utah, was served upon the
+parties listed below via electronic notification from the clerk of court on the 17th day of January,
+2018.
+Attorneys for Plaintiff
+Barbara K. Polich
+George Poulton
+ANTCZAK POLICH LAW LLC
+324 South 400 West, Suite 225
+Salt Lake City, Utah 84101
+Attorney for Moab City
+Christopher G. McAnany
+Dufford, Waldeck, Milburn & Krohn, LLP
+744 Horizon Court, Suite 300
+Grand Junction, Colorado 81506
+mcanany@dwmk.com
+
+/s/ Zachary B. Hoddy
+Legal Assistant
+
+4840-5240-4058, v. 1
+
+
