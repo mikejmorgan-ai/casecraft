@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createServerSupabase } from '@/lib/supabase/server'
-import { searchAll, searchByRole } from '@/lib/pinecone/search'
-import { getUtahMiningLawContext } from '@/lib/legal/utah-mining-statutes'
+import { searchAll } from '@/lib/pinecone/search'
 import OpenAI from 'openai'
 
 const openai = new OpenAI()
@@ -209,7 +208,7 @@ export async function POST(
     // Search Pinecone for relevant precedents
     const searchQuery = `${caseData.name} ${caseData.summary || ''} key legal issues ruling`
     const pineconeResults = await searchAll(searchQuery, { topK: 10, minScore: 0.6 })
-    
+
     const precedentContext = pineconeResults.length > 0
       ? pineconeResults.map(r => `[${r.source}]\n${r.content}`).join('\n\n')
       : 'No additional precedents found in knowledge base.'
@@ -313,7 +312,7 @@ async function runStandardPrediction(prompt: string): Promise<PredictionResult> 
   })
 
   const content = response.choices[0]?.message?.content || '{}'
-  
+
   try {
     const parsed = JSON.parse(content)
     return {
@@ -343,8 +342,8 @@ async function runStandardPrediction(prompt: string): Promise<PredictionResult> 
 }
 
 async function runMultiAgentPrediction(
-  prompt: string, 
-  caseData: Record<string, unknown>
+  prompt: string,
+  _caseData: Record<string, unknown>
 ): Promise<PredictionResult> {
   // Run parallel predictions from different perspectives
   const perspectives = [

@@ -215,12 +215,12 @@ function AddFactDialog({ caseId, documents }: { caseId: string; documents: Docum
           {documents.length > 0 && (
             <div className="grid gap-2">
               <Label>Source Document (optional)</Label>
-              <Select value={sourceDocId || ''} onValueChange={(v) => setSourceDocId(v || null)}>
+              <Select value={sourceDocId || 'none'} onValueChange={(v) => setSourceDocId(v === 'none' ? null : v)}>
                 <SelectTrigger id="select-fact-source">
                   <SelectValue placeholder="Select source document" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">None</SelectItem>
+                  <SelectItem value="none">None</SelectItem>
                   {documents.map((doc) => (
                     <SelectItem key={doc.id} value={doc.id}>
                       {doc.name}
