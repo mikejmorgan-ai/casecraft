@@ -208,7 +208,7 @@ export async function POST(
     // Search Pinecone for relevant precedents
     const searchQuery = `${caseData.name} ${caseData.summary || ''} key legal issues ruling`
     const pineconeResults = await searchAll(searchQuery, { topK: 10, minScore: 0.6 })
-    
+
     const precedentContext = pineconeResults.length > 0
       ? pineconeResults.map(r => `[${r.source}]\n${r.content}`).join('\n\n')
       : 'No additional precedents found in knowledge base.'
@@ -312,7 +312,7 @@ async function runStandardPrediction(prompt: string): Promise<PredictionResult> 
   })
 
   const content = response.choices[0]?.message?.content || '{}'
-  
+
   try {
     const parsed = JSON.parse(content)
     return {

@@ -31,6 +31,7 @@ export default function VerifyEmailPage() {
     } else {
       setStatus('success')
       setMessage('Email verified successfully!')
+      // Redirect to dashboard after 2 seconds
       setTimeout(() => {
         router.push('/dashboard')
       }, 2000)
@@ -42,7 +43,6 @@ export default function VerifyEmailPage() {
     const type = searchParams.get('type')
 
     if (tokenHash && type === 'email') {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
       verifyEmail(tokenHash)
     }
   }, [searchParams, verifyEmail])
