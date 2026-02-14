@@ -29,8 +29,21 @@ import {
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
+interface CaseTemplate {
+  id: string
+  name: string
+  description: string
+  icon: React.ElementType
+  color: string
+  case_type: string
+  default_agents: readonly string[]
+  sample_facts: readonly string[]
+  tags: readonly string[]
+  featured?: boolean
+}
+
 // Case templates for common Utah case types
-const CASE_TEMPLATES = [
+const CASE_TEMPLATES: CaseTemplate[] = [
   {
     id: 'property-rights',
     name: 'Property Rights Dispute',
@@ -156,19 +169,6 @@ const CASE_TEMPLATES = [
   },
 ]
 
-interface CaseTemplate {
-  id: string
-  name: string
-  description: string
-  icon: React.ElementType
-  color: string
-  case_type: string
-  default_agents: readonly string[]
-  sample_facts: readonly string[]
-  tags: readonly string[]
-  featured?: boolean
-}
-
 interface CaseTemplatesProps {
   onSelect?: (template: CaseTemplate, caseName: string) => void
   featured?: boolean
@@ -227,7 +227,7 @@ export function CaseTemplates({ onSelect, featured = false }: CaseTemplatesProps
               key={template.id}
               className="hover:border-primary/50 cursor-pointer transition-all group relative overflow-hidden"
               onClick={() => {
-                setSelectedTemplate(template as CaseTemplate)
+                setSelectedTemplate(template)
                 setCaseName(`${template.name} - New Case`)
               }}
             >

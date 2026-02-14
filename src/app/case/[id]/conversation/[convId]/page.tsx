@@ -14,6 +14,8 @@ const CONV_TYPE_LABELS: Record<ConversationType, string> = {
   strategy_session: 'Strategy Session',
   research: 'Research',
   general: 'General',
+  statutory_quiz: 'Statutory Quiz',
+  voice_call: 'Voice Call',
 }
 
 export default async function ConversationPage({
