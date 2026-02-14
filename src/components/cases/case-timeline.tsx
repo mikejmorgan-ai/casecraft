@@ -15,7 +15,6 @@ import {
   Plus,
   ChevronDown,
   ChevronUp,
-  Filter,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
@@ -92,9 +91,7 @@ export function CaseTimeline({ events, onEventClick, onAddEvent }: CaseTimelineP
     ? sortedEvents.filter(e => e.type === filter)
     : sortedEvents
 
-  // Find today's position in timeline
   const today = new Date()
-  const todayIndex = sortedEvents.findIndex(e => new Date(e.date) > today)
 
   return (
     <Card>
@@ -162,7 +159,7 @@ export function CaseTimeline({ events, onEventClick, onAddEvent }: CaseTimelineP
 
               {/* Events */}
               <div className="space-y-4">
-                {filteredEvents.map((event, index) => {
+                {filteredEvents.map((event) => {
                   const config = typeConfig[event.type]
                   const Icon = config.icon
                   const isPast = new Date(event.date) < today

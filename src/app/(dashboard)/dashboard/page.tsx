@@ -6,45 +6,56 @@ import { RoleDashboard } from '@/components/dashboard/role-dashboards'
 import { type UserRole } from '@/lib/auth/rbac'
 
 export default async function DashboardPage() {
-  const supabase = await createServerSupabase()
   const cookieStore = await cookies()
   const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user && !hasBetaBypass) redirect('/login')
-
-  // Fetch user profile to get role (skip if beta bypass without user)
   let userRole: UserRole = 'attorney'
-  if (user) {
-    const { data: profile } = await supabase
-      .from('user_profiles')
-      .select('role')
-      .eq('id', user.id)
-      .single()
-    userRole = (profile?.role as UserRole) || 'attorney'
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let cases: any[] = []
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let predictions: any[] = []
+  let totalDocs = 0
+
+  try {
+    const supabase = await createServerSupabase()
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user && !hasBetaBypass) redirect('/login')
+
+    // Fetch user profile to get role (skip if beta bypass without user)
+    if (user) {
+      const { data: profile } = await supabase
+        .from('user_profiles')
+        .select('role')
+        .eq('id', user.id)
+        .single()
+      userRole = (profile?.role as UserRole) || 'attorney'
+    }
+
+    // Fetch dashboard data
+    const [casesResult, predictionsResult, documentsResult] = await Promise.all([
+      supabase
+        .from('cases')
+        .select('*, case_predictions(count)')
+        .order('updated_at', { ascending: false })
+        .limit(5),
+      supabase
+        .from('case_predictions')
+        .select('*, cases(name)')
+        .order('created_at', { ascending: false })
+        .limit(5),
+      supabase
+        .from('documents')
+        .select('count')
+        .single(),
+    ])
+
+    cases = casesResult.data || []
+    predictions = predictionsResult.data || []
+    totalDocs = documentsResult.data?.count || 0
+  } catch {
+    // Supabase unreachable - allow beta bypass users through with empty data
+    if (!hasBetaBypass) redirect('/login')
   }
-
-  // Fetch dashboard data
-  const [casesResult, predictionsResult, documentsResult] = await Promise.all([
-    supabase
-      .from('cases')
-      .select('*, case_predictions(count)')
-      .order('updated_at', { ascending: false })
-      .limit(5),
-    supabase
-      .from('case_predictions')
-      .select('*, cases(name)')
-      .order('created_at', { ascending: false })
-      .limit(5),
-    supabase
-      .from('documents')
-      .select('count')
-      .single(),
-  ])
-
-  const cases = casesResult.data || []
-  const predictions = predictionsResult.data || []
-  const totalDocs = documentsResult.data?.count || 0
 
   // Calculate stats
   const totalCases = cases.length

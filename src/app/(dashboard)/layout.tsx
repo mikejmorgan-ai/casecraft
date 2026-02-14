@@ -9,22 +9,31 @@ export default async function DashboardLayout({
 }: {
   children: React.ReactNode
 }) {
-  const supabase = await createServerSupabase()
   const cookieStore = await cookies()
   const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user && !hasBetaBypass) redirect('/login')
-
-  // Fetch user profile to get role (skip if beta bypass without user)
+  let user = null
   let userRole: UserRole = 'attorney'
-  if (user) {
-    const { data: profile } = await supabase
-      .from('user_profiles')
-      .select('role')
-      .eq('id', user.id)
-      .single()
-    userRole = (profile?.role as UserRole) || 'attorney'
+
+  try {
+    const supabase = await createServerSupabase()
+    const { data } = await supabase.auth.getUser()
+    user = data.user
+
+    if (!user && !hasBetaBypass) redirect('/login')
+
+    // Fetch user profile to get role (skip if beta bypass without user)
+    if (user) {
+      const { data: profile } = await supabase
+        .from('user_profiles')
+        .select('role')
+        .eq('id', user.id)
+        .single()
+      userRole = (profile?.role as UserRole) || 'attorney'
+    }
+  } catch (err) {
+    // If Supabase is unreachable, allow beta bypass users through with defaults
+    if (!hasBetaBypass) redirect('/login')
   }
 
   return (

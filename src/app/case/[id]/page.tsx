@@ -5,7 +5,6 @@ import Link from 'next/link'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
 import { ArrowLeft, Users, FileText, MessageSquare, Scale, ClipboardList, Gavel } from 'lucide-react'
 import { CaseSharing } from '@/components/cases/case-sharing'
 import { AgentsList } from '@/components/agents/agents-list'
@@ -48,26 +47,42 @@ export default async function CaseDetailPage({
   params: Promise<{ id: string }>
 }) {
   const { id } = await params
-  const supabase = await createServerSupabase()
   const cookieStore = await cookies()
   const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user && !hasBetaBypass) redirect('/login')
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let user: any = null
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let caseData: any = null
 
-  const { data: caseData, error } = await supabase
-    .from('cases')
-    .select(`
-      *,
-      agents (*),
-      documents (*),
-      conversations (*),
-      case_facts (*)
-    `)
-    .eq('id', id)
-    .single()
+  try {
+    const supabase = await createServerSupabase()
+    const { data } = await supabase.auth.getUser()
+    user = data.user
+    if (!user && !hasBetaBypass) redirect('/login')
 
-  if (error || !caseData) {
+    const { data: caseResult, error } = await supabase
+      .from('cases')
+      .select(`
+        *,
+        agents (*),
+        documents (*),
+        conversations (*),
+        case_facts (*)
+      `)
+      .eq('id', id)
+      .single()
+
+    if (error || !caseResult) {
+      notFound()
+    }
+    caseData = caseResult
+  } catch (err) {
+    if (!hasBetaBypass) redirect('/login')
+    notFound()
+  }
+
+  if (!caseData) {
     notFound()
   }
 

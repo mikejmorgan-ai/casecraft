@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Avatar, AvatarFallback } from '@/components/ui/avatar'
@@ -14,10 +14,8 @@ import {
   Pause,
   SkipForward,
   RotateCcw,
-  Loader2,
   Volume2,
   VolumeX,
-  Settings,
   MessageSquare,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -88,7 +86,6 @@ export function MockTrialChat({
   const [isRunning, setIsRunning] = useState(false)
   const [isPaused, setIsPaused] = useState(false)
   const [currentTurn, setCurrentTurn] = useState(0)
-  const [loading, setLoading] = useState(false)
   const [soundEnabled, setSoundEnabled] = useState(false)
   const scrollRef = useRef<HTMLDivElement>(null)
   const abortRef = useRef<AbortController | null>(null)

@@ -43,7 +43,9 @@ export default function VerifyEmailPage() {
     const type = searchParams.get('type')
 
     if (tokenHash && type === 'email') {
-      verifyEmail(tokenHash)
+      // Email verification on page load is a valid use case for effect-based state updates
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      void verifyEmail(tokenHash)
     }
   }, [searchParams, verifyEmail])
 

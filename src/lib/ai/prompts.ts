@@ -1,4 +1,4 @@
-import type { AgentRole } from '@/lib/types'
+import type { AgentRole, ConversationType } from '@/lib/types'
 
 export const AGENT_ROLE_TEMPLATES: Record<AgentRole, {
   defaultName: string
@@ -477,7 +477,8 @@ export function buildAgentSystemPrompt(
   agent: { role: AgentRole; name: string; persona_prompt: string },
   caseContext: { name: string; case_type: string; summary: string | null; plaintiff_name: string | null; defendant_name: string | null },
   relevantFacts: string[],
-  documentContext?: string
+  documentContext?: string,
+  conversationType?: ConversationType
 ): string {
   const partyInfo = caseContext.plaintiff_name && caseContext.defendant_name
     ? `\nParties: ${caseContext.plaintiff_name} v. ${caseContext.defendant_name}`
@@ -491,13 +492,58 @@ export function buildAgentSystemPrompt(
     ? `\n\nRELEVANT DOCUMENT EXCERPTS:\n${documentContext}`
     : ''
 
+  // Statutory quiz mode: reinforce judge's obligation to demonstrate deep Utah mining law knowledge
+  const quizInstructions = conversationType === 'statutory_quiz' && agent.role === 'judge'
+    ? `\n\nSTATUTORY QUIZ MODE ACTIVE:
+You are being quizzed on your knowledge of Utah mining law. You MUST demonstrate mastery of:
+
+1. UTAH STATUTES - Quote verbatim from Utah Code Title 17, Chapter 41 (now Chapter 81 after recodification):
+   - § 17-41-101 / § 17-81-101: ALL definitions including "mine operator" (13), "vested mining use" (26), "mining protection area" (18), "critical infrastructure materials" (5), "large mine permit" (8), "commercial quantities" (3)
+   - § 17-41-402 / § 17-81-302: Preemption and limitations on local regulations
+   - § 17-41-501 / § 17-81-401: Vested mining use with conclusive presumption
+   - § 17-41-502 / § 17-81-402: Rights of mine operator (expand, extend, enlarge, grow, progress)
+   - § 17-41-503 / § 17-81-403: Abandonment statute
+
+2. MINING RIGHTS - Explain with precision:
+   - Vested mining rights and conclusive presumption doctrine
+   - "Runs with the land" property law doctrine
+   - Burden of proof (clear and convincing evidence on the challenger)
+   - Permit boundary limitations (do NOT limit vested rights)
+
+3. MINERAL RIGHTS - Demonstrate knowledge of:
+   - Severed mineral rights as distinct property interests (Jordan v. Jensen, 2017 UT 1)
+   - Constitutional protections (Utah Art. I § 22 - takings AND damagings)
+   - Due process requirements for mineral rights owners
+
+4. LARGE MINE MINING RIGHTS - Explain:
+   - Large mine permit definition (DOGM: 5+ acres OR 1,000+ tons/year)
+   - How large mine permits relate to mine operator qualification
+   - That permit boundaries do NOT limit vested rights scope (§ 17-41-501(3))
+
+5. VESTED MINING RIGHTS - Master these concepts:
+   - "On or before January 1, 2019" is a ONE-TIME threshold, not ongoing
+   - Conclusive presumption = strongest legal protection, cannot be rebutted
+   - Successors, assigns, affiliates, subsidiaries all qualify
+   - Gaps in operations do NOT terminate vesting (existence of abandonment statute proves this)
+   - HB288 Critical Infrastructure Materials Operations Act (2019)
+   - Section crosswalk: 17-41-xxx → 17-81-xxx (Nov 6, 2025 recodification)
+
+6. KEY CASE LAW:
+   - Gibbons & Reed Co. v. North Salt Lake City (doctrine of diminishing assets)
+   - Jordan v. Jensen, 2017 UT 1 (mineral rights constitutional protection)
+   - Snake Creek Mining & Tunnel Co. (vested rights doctrine)
+   - Western Land Equities v. City of Logan (vested rights foundation)
+
+Answer every question with VERBATIM statutory citations. Never paraphrase. Demonstrate that you know the exact text of each provision.`
+    : ''
+
   return `${agent.persona_prompt}
 
 CASE CONTEXT:
 Case: ${caseContext.name}
 Type: ${caseContext.case_type}${partyInfo}
 Summary: ${caseContext.summary || 'No summary provided'}
-${factsSection}${docsSection}
+${factsSection}${docsSection}${quizInstructions}
 
 You are ${agent.name}. Stay in character throughout the conversation. When citing case documents, reference them specifically by name. Provide thoughtful, legally sound responses appropriate to your role.`
 }

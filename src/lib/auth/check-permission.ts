@@ -84,19 +84,35 @@ export async function checkCaseAccess(
     }
   }
 
-  // Check direct share
-  const { data: share } = await supabase
-    .from('case_shares')
-    .select('permission_level')
-    .eq('case_id', caseId)
-    .eq('shared_with_user_id', user.id)
-    .or('expires_at.is.null,expires_at.gt.now()')
-    .single()
-
-  if (!share) return false
-
+  // Check direct share (by user ID or email for pending invites)
   const permissionHierarchy = ['view', 'comment', 'edit', 'admin']
-  return permissionHierarchy.indexOf(share.permission_level) >=
+  const userEmail = user.email?.toLowerCase()
+
+  const recipientFilter = userEmail
+    ? `shared_with_user_id.eq.${user.id},shared_with_email.eq.${userEmail}`
+    : `shared_with_user_id.eq.${user.id}`
+
+  const { data: shares } = await supabase
+    .from('case_shares')
+    .select('permission_level, expires_at')
+    .eq('case_id', caseId)
+    .or(recipientFilter)
+
+  if (!shares || shares.length === 0) return false
+
+  // Filter out expired shares and find the highest permission level
+  const now = new Date()
+  const validShares = shares.filter(s => !s.expires_at || new Date(s.expires_at) > now)
+
+  if (validShares.length === 0) return false
+
+  const bestShare = validShares.reduce((best, current) => {
+    const bestIdx = permissionHierarchy.indexOf(best.permission_level)
+    const currentIdx = permissionHierarchy.indexOf(current.permission_level)
+    return currentIdx > bestIdx ? current : best
+  }, validShares[0])
+
+  return permissionHierarchy.indexOf(bestShare.permission_level) >=
          permissionHierarchy.indexOf(requiredPermission)
 }
 

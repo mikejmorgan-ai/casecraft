@@ -31,9 +31,7 @@ interface StrengthAnalysis {
 }
 
 export function CaseStrengthMeter({
-  caseId,
   facts,
-  caseName,
   plaintiffName = 'Plaintiff',
   defendantName = 'Defendant',
 }: CaseStrengthMeterProps) {

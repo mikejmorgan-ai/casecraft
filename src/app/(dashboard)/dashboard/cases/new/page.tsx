@@ -5,19 +5,25 @@ import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { CaseWizard } from '@/components/cases/case-wizard'
 import { getUserProfile } from '@/lib/auth/check-permission'
-import { hasPermission } from '@/lib/auth/rbac'
+import { hasPermission, type UserRole } from '@/lib/auth/rbac'
 
 export default async function NewCasePage() {
-  const supabase = await createServerSupabase()
   const cookieStore = await cookies()
   const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user && !hasBetaBypass) redirect('/login')
+  let userRole: UserRole = 'attorney'
 
-  // Check permissions (default to attorney for beta bypass)
-  const profile = user ? await getUserProfile() : null
-  const userRole = profile?.role || 'attorney'
+  try {
+    const supabase = await createServerSupabase()
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user && !hasBetaBypass) redirect('/login')
+
+    // Check permissions (default to attorney for beta bypass)
+    const profile = user ? await getUserProfile() : null
+    userRole = profile?.role || 'attorney'
+  } catch {
+    if (!hasBetaBypass) redirect('/login')
+  }
 
   if (!hasPermission(userRole, 'cases:create')) {
     redirect('/dashboard')

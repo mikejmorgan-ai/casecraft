@@ -57,7 +57,7 @@ interface CaseSimulatorProps {
   caseName: string
 }
 
-export function CaseSimulator({ caseId, caseName }: CaseSimulatorProps) {
+export function CaseSimulator({ caseId }: CaseSimulatorProps) {
   const [iterations, setIterations] = useState(20)
   const [running, setRunning] = useState(false)
   const [result, setResult] = useState<SimulationResult | null>(null)

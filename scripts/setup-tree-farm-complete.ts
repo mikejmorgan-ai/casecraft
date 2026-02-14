@@ -12,8 +12,8 @@ async function setupTreeFarmCase() {
 
   // 1. Create or get test user
   console.log('Creating test user...')
-  const testEmail = 'mike@mmivip.com'
-  const testPassword = 'treefarm2024!'
+  const testEmail = process.env.TEST_USER_EMAIL || 'test@example.com'
+  const testPassword = process.env.TEST_USER_PASSWORD || 'change-me-in-env'
 
   // Check if user exists
   const { data: existingUsers } = await supabase.auth.admin.listUsers()
@@ -243,9 +243,9 @@ ROLE: Track deadlines, confirm procedural requirements, maintain case record. Do
   console.log('✅ Created strategy conversation')
 
   console.log('\n🎉 Tree Farm case setup complete!')
-  console.log(`\n📋 Login credentials:`)
+  console.log(`\n📋 Login with:`)
   console.log(`   Email: ${testEmail}`)
-  console.log(`   Password: ${testPassword}`)
+  console.log(`   (Password from TEST_USER_PASSWORD env var)`)
   console.log(`\n🔗 Access case at: /case/${caseId}`)
   console.log(`\n⚖️  This is set up as a BLIND TEST case for prediction validation.`)
 }

@@ -15,38 +15,47 @@ import {
 import { CasesListClient } from '@/components/cases/cases-list-client'
 import { CaseTemplates } from '@/components/cases/case-templates'
 import { getUserProfile } from '@/lib/auth/check-permission'
-import { hasPermission } from '@/lib/auth/rbac'
+import { hasPermission, type UserRole } from '@/lib/auth/rbac'
 
 export default async function CasesPage() {
-  const supabase = await createServerSupabase()
   const cookieStore = await cookies()
   const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user && !hasBetaBypass) redirect('/login')
+  let userRole: UserRole = 'attorney'
+  let canCreateCase = hasPermission(userRole, 'cases:create')
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let casesList: any[] = []
 
-  // Get user profile for permissions (default to attorney for beta bypass)
-  const profile = user ? await getUserProfile() : null
-  const userRole = profile?.role || 'attorney'
-  const canCreateCase = hasPermission(userRole, 'cases:create')
+  try {
+    const supabase = await createServerSupabase()
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user && !hasBetaBypass) redirect('/login')
 
-  // Fetch cases with counts
-  const { data: cases, error } = await supabase
-    .from('cases')
-    .select(`
-      *,
-      agents(count),
-      documents(count),
-      conversations(count),
-      case_predictions(count)
-    `)
-    .order('updated_at', { ascending: false })
+    // Get user profile for permissions (default to attorney for beta bypass)
+    const profile = user ? await getUserProfile() : null
+    userRole = profile?.role || 'attorney'
+    canCreateCase = hasPermission(userRole, 'cases:create')
 
-  if (error) {
-    console.error('Error fetching cases:', error)
+    // Fetch cases with counts
+    const { data: cases, error } = await supabase
+      .from('cases')
+      .select(`
+        *,
+        agents(count),
+        documents(count),
+        conversations(count),
+        case_predictions(count)
+      `)
+      .order('updated_at', { ascending: false })
+
+    if (error) {
+      console.error('Error fetching cases:', error)
+    }
+
+    casesList = cases || []
+  } catch {
+    if (!hasBetaBypass) redirect('/login')
   }
-
-  const casesList = cases || []
 
   // Calculate stats
   const totalCases = casesList.length

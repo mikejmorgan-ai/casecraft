@@ -68,20 +68,36 @@ export default function LoginPage() {
     setLoading(true)
     setError(null)
 
-    const supabase = createClient()
-    const { error } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    })
+    try {
+      const supabase = createClient()
+      const { error } = await supabase.auth.signInWithPassword({
+        email,
+        password,
+      })
 
-    if (error) {
-      setError(error.message)
+      if (error) {
+        // Provide user-friendly error messages
+        const message = error.message.toLowerCase()
+        if (message.includes('invalid login credentials') || message.includes('invalid')) {
+          setError('Invalid email or password. Please try again.')
+        } else if (message.includes('email not confirmed')) {
+          setError('Please verify your email address before signing in.')
+        } else if (message.includes('too many requests')) {
+          setError('Too many login attempts. Please wait a moment and try again.')
+        } else {
+          setError(error.message)
+        }
+        setLoading(false)
+        return
+      }
+
+      router.push('/dashboard')
+      router.refresh()
+    } catch (err) {
+      console.error('Login error:', err)
+      setError('An unexpected error occurred. Please try again.')
       setLoading(false)
-      return
     }
-
-    router.push('/dashboard')
-    router.refresh()
   }
 
   return (
@@ -191,7 +207,8 @@ export default function LoginPage() {
             variant="outline"
             className="w-full border-dashed border-yellow-600 text-yellow-500 hover:bg-yellow-500/10 hover:text-yellow-400"
             onClick={() => {
-              document.cookie = 'beta_bypass=true; path=/; SameSite=Strict; Secure'
+              // Note: Don't use Secure flag as it prevents cookie from being set on HTTP (localhost)
+              document.cookie = 'beta_bypass=true; path=/; SameSite=Lax'
               router.push('/dashboard')
             }}
           >

@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createServerSupabase } from '@/lib/supabase/server'
 import { z } from 'zod'
 import { AGENT_ROLE_TEMPLATES } from '@/lib/ai/prompts'
-import { ApiError, ErrorCodes, type FieldError } from '@/lib/api-error'
+import { ErrorCodes, type FieldError } from '@/lib/api-error'
 import type { AgentRole } from '@/lib/types'
 import { caseTypes } from '@/lib/validations/case'
 const createCaseSchema = z.object({

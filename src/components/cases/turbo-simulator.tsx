@@ -9,7 +9,6 @@ import {
   CheckCircle,
   XCircle,
   MinusCircle,
-  TrendingUp,
   AlertTriangle,
   Target,
   Loader2,
