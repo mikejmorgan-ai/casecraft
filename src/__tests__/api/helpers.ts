@@ -120,7 +120,7 @@ export function buildRequest(
   } = {}
 ) {
   const { method = 'GET', body } = options
-  const init: RequestInit = { method }
+  const init: Parameters<typeof NextRequest>[1] = { method }
 
   if (body !== undefined) {
     init.body = JSON.stringify(body)

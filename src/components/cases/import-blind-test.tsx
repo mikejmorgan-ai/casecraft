@@ -13,7 +13,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select'
-import { Switch } from '@/components/ui/switch'
 import { Upload, FileText, Scale, Loader2, CheckCircle } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 

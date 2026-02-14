@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Progress } from '@/components/ui/progress'
@@ -78,7 +78,7 @@ const severityConfig = {
   minor: { icon: Info, color: 'text-blue-500', bg: 'bg-blue-500/10', border: 'border-blue-500/30' },
 }
 
-export function WeaknessAnalysis({ caseId, caseName }: WeaknessAnalysisProps) {
+export function WeaknessAnalysis({ caseId }: WeaknessAnalysisProps) {
   const [loading, setLoading] = useState(false)
   const [result, setResult] = useState<AnalysisResult | null>(null)
   const [expandedIds, setExpandedIds] = useState<Set<string>>(new Set())

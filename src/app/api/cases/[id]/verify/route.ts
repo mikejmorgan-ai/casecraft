@@ -7,18 +7,6 @@ const openai = new OpenAI()
 
 export const maxDuration = 120
 
-interface VerificationResult {
-  claim: string
-  status: 'verified' | 'contradicted' | 'unverified' | 'partially_verified'
-  confidence: number
-  sources: Array<{
-    document: string
-    excerpt: string
-    relevance: number
-  }>
-  notes: string
-}
-
 const VERIFICATION_PROMPT = `You are a legal fact-checker with zero tolerance for hallucination. Your job is to verify claims against provided source documents.
 
 For each claim:
