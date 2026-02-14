@@ -1,4 +1,4 @@
-import type { AgentRole } from '@/lib/types'
+import type { AgentRole, ConversationType } from '@/lib/types'
 
 export const AGENT_ROLE_TEMPLATES: Record<AgentRole, {
   defaultName: string

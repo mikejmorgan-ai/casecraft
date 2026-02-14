@@ -18,6 +18,7 @@ export type DocumentType =
 export type ConversationType =
   | 'hearing' | 'deposition' | 'mediation'
   | 'strategy_session' | 'research' | 'general'
+  | 'statutory_quiz' | 'voice_call'
 
 export type FactCategory =
   | 'undisputed' | 'disputed' | 'evidence_based'
@@ -162,6 +163,38 @@ export interface CaseFact {
   metadata: Record<string, unknown>
   created_at: string
   updated_at: string
+}
+
+// Retell Voice Call Types
+export type CallStatus = 'registered' | 'ongoing' | 'ended' | 'error'
+
+export interface RetellAgentMapping {
+  id: string
+  casecraft_agent_id: string
+  retell_agent_id: string
+  voice_id: string
+  voice_provider: 'elevenlabs' | 'openai' | 'deepgram'
+  created_at: string
+  updated_at: string
+}
+
+export interface VoiceCall {
+  id: string
+  conversation_id: string
+  case_id: string
+  agent_id: string
+  retell_call_id: string
+  retell_agent_id: string
+  call_status: CallStatus
+  from_number: string | null
+  to_number: string | null
+  call_duration_seconds: number | null
+  call_summary: string | null
+  recording_url: string | null
+  metadata: Record<string, unknown>
+  started_at: string | null
+  ended_at: string | null
+  created_at: string
 }
 
 // Extended types for queries with relations
