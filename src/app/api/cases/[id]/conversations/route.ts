@@ -4,7 +4,7 @@ import { z } from 'zod'
 
 const createConversationSchema = z.object({
   name: z.string().min(1).max(255),
-  conversation_type: z.enum(['hearing', 'deposition', 'mediation', 'strategy_session', 'research', 'general']),
+  conversation_type: z.enum(['hearing', 'deposition', 'mediation', 'strategy_session', 'research', 'general', 'statutory_quiz', 'voice_call']),
   participants: z.array(z.string().uuid()).optional(),
 })
 

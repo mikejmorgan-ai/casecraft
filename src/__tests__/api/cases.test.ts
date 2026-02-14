@@ -24,10 +24,10 @@ var mockFrom = jest.fn()
 /* eslint-enable no-var */
 
 jest.mock('@/lib/supabase/server', () => ({
-  createServerSupabase: jest.fn().mockResolvedValue({
+  createServerSupabase: jest.fn(() => Promise.resolve({
     auth: { getUser: mockAuthGetUser },
     from: mockFrom,
-  }),
+  })),
 }))
 
 jest.mock('@/lib/ai/prompts', () => ({

@@ -6,7 +6,6 @@
  * Tests for /api/cases/[id]/conversations route (GET, POST, DELETE)
  */
 import {
-  createMockSupabase,
   createChainMock,
   buildRequest,
   parseResponse,
@@ -15,13 +14,19 @@ import {
 } from './helpers'
 
 // ---------------------------------------------------------------------------
-// Mocks
+// Mocks – use var so jest.mock hoisting can reference them
 // ---------------------------------------------------------------------------
 
-const mockSupabase = createMockSupabase()
+/* eslint-disable no-var */
+var mockAuthGetUser = jest.fn().mockResolvedValue(AUTHENTICATED_USER)
+var mockFrom = jest.fn()
+/* eslint-enable no-var */
 
 jest.mock('@/lib/supabase/server', () => ({
-  createServerSupabase: jest.fn().mockResolvedValue(mockSupabase),
+  createServerSupabase: jest.fn(() => Promise.resolve({
+    auth: { getUser: mockAuthGetUser },
+    from: mockFrom,
+  })),
 }))
 
 // Import route handlers AFTER mocks are set up
@@ -61,11 +66,11 @@ function makeParams(id: string = CASE_ID) {
 describe('GET /api/cases/[id]/conversations', () => {
   beforeEach(() => {
     jest.clearAllMocks()
-    mockSupabase.auth.getUser.mockResolvedValue(AUTHENTICATED_USER)
+    mockAuthGetUser.mockResolvedValue(AUTHENTICATED_USER)
   })
 
   it('returns 401 when user is not authenticated', async () => {
-    mockSupabase.auth.getUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
+    mockAuthGetUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
 
     const request = buildRequest(`/api/cases/${CASE_ID}/conversations`)
     const response = await GET(request, makeParams())
@@ -78,7 +83,7 @@ describe('GET /api/cases/[id]/conversations', () => {
   it('returns list of conversations on success', async () => {
     const conversations = [MOCK_CONVERSATION]
     const chain = createChainMock({ data: conversations, error: null })
-    mockSupabase.from.mockReturnValueOnce(chain)
+    mockFrom.mockReturnValueOnce(chain)
 
     const request = buildRequest(`/api/cases/${CASE_ID}/conversations`)
     const response = await GET(request, makeParams())
@@ -86,7 +91,7 @@ describe('GET /api/cases/[id]/conversations', () => {
 
     expect(response.status).toBe(200)
     expect(body).toEqual(conversations)
-    expect(mockSupabase.from).toHaveBeenCalledWith('conversations')
+    expect(mockFrom).toHaveBeenCalledWith('conversations')
   })
 
   it('returns 500 for database errors', async () => {
@@ -94,7 +99,7 @@ describe('GET /api/cases/[id]/conversations', () => {
       data: null,
       error: { message: 'query failed' },
     })
-    mockSupabase.from.mockReturnValueOnce(chain)
+    mockFrom.mockReturnValueOnce(chain)
 
     const request = buildRequest(`/api/cases/${CASE_ID}/conversations`)
     const response = await GET(request, makeParams())
@@ -112,11 +117,11 @@ describe('GET /api/cases/[id]/conversations', () => {
 describe('POST /api/cases/[id]/conversations', () => {
   beforeEach(() => {
     jest.clearAllMocks()
-    mockSupabase.auth.getUser.mockResolvedValue(AUTHENTICATED_USER)
+    mockAuthGetUser.mockResolvedValue(AUTHENTICATED_USER)
   })
 
   it('returns 401 when user is not authenticated', async () => {
-    mockSupabase.auth.getUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
+    mockAuthGetUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
 
     const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
       method: 'POST',
@@ -131,7 +136,7 @@ describe('POST /api/cases/[id]/conversations', () => {
 
   it('returns 404 when case does not exist', async () => {
     const casesChain = createChainMock({ data: null, error: null })
-    mockSupabase.from.mockReturnValueOnce(casesChain)
+    mockFrom.mockReturnValueOnce(casesChain)
 
     const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
       method: 'POST',
@@ -146,7 +151,7 @@ describe('POST /api/cases/[id]/conversations', () => {
 
   it('returns 400 for validation errors', async () => {
     const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
-    mockSupabase.from.mockReturnValueOnce(casesChain)
+    mockFrom.mockReturnValueOnce(casesChain)
 
     const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
       method: 'POST',
@@ -162,7 +167,7 @@ describe('POST /api/cases/[id]/conversations', () => {
   it('creates a conversation on success', async () => {
     const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
     const convsChain = createChainMock({ data: MOCK_CONVERSATION, error: null })
-    mockSupabase.from
+    mockFrom
       .mockReturnValueOnce(casesChain)
       .mockReturnValueOnce(convsChain)
 
@@ -175,8 +180,8 @@ describe('POST /api/cases/[id]/conversations', () => {
 
     expect(response.status).toBe(201)
     expect(body).toEqual(MOCK_CONVERSATION)
-    expect(mockSupabase.from).toHaveBeenCalledWith('cases')
-    expect(mockSupabase.from).toHaveBeenCalledWith('conversations')
+    expect(mockFrom).toHaveBeenCalledWith('cases')
+    expect(mockFrom).toHaveBeenCalledWith('conversations')
   })
 
   it('returns 500 for database insert errors', async () => {
@@ -185,7 +190,7 @@ describe('POST /api/cases/[id]/conversations', () => {
       data: null,
       error: { message: 'insert failed' },
     })
-    mockSupabase.from
+    mockFrom
       .mockReturnValueOnce(casesChain)
       .mockReturnValueOnce(convsChain)
 
@@ -203,7 +208,7 @@ describe('POST /api/cases/[id]/conversations', () => {
   it('accepts optional participants array', async () => {
     const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
     const convsChain = createChainMock({ data: MOCK_CONVERSATION, error: null })
-    mockSupabase.from
+    mockFrom
       .mockReturnValueOnce(casesChain)
       .mockReturnValueOnce(convsChain)
 
@@ -221,7 +226,7 @@ describe('POST /api/cases/[id]/conversations', () => {
 
   it('validates conversation_type enum', async () => {
     const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
-    mockSupabase.from.mockReturnValueOnce(casesChain)
+    mockFrom.mockReturnValueOnce(casesChain)
 
     const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
       method: 'POST',
@@ -230,6 +235,38 @@ describe('POST /api/cases/[id]/conversations', () => {
     const response = await POST(request, makeParams())
 
     expect(response.status).toBe(400)
+  })
+
+  it('accepts statutory_quiz conversation type', async () => {
+    const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
+    const convsChain = createChainMock({ data: { ...MOCK_CONVERSATION, conversation_type: 'statutory_quiz' }, error: null })
+    mockFrom
+      .mockReturnValueOnce(casesChain)
+      .mockReturnValueOnce(convsChain)
+
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
+      method: 'POST',
+      body: { name: 'Quiz the Judge', conversation_type: 'statutory_quiz' },
+    })
+    const response = await POST(request, makeParams())
+
+    expect(response.status).toBe(201)
+  })
+
+  it('accepts voice_call conversation type', async () => {
+    const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
+    const convsChain = createChainMock({ data: { ...MOCK_CONVERSATION, conversation_type: 'voice_call' }, error: null })
+    mockFrom
+      .mockReturnValueOnce(casesChain)
+      .mockReturnValueOnce(convsChain)
+
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
+      method: 'POST',
+      body: { name: 'Voice Session', conversation_type: 'voice_call' },
+    })
+    const response = await POST(request, makeParams())
+
+    expect(response.status).toBe(201)
   })
 })
 
@@ -240,7 +277,7 @@ describe('POST /api/cases/[id]/conversations', () => {
 describe('DELETE /api/cases/[id]/conversations', () => {
   beforeEach(() => {
     jest.clearAllMocks()
-    mockSupabase.auth.getUser.mockResolvedValue(AUTHENTICATED_USER)
+    mockAuthGetUser.mockResolvedValue(AUTHENTICATED_USER)
   })
 
   it('returns 400 when convId query param is missing', async () => {
@@ -255,7 +292,7 @@ describe('DELETE /api/cases/[id]/conversations', () => {
   })
 
   it('returns 401 when user is not authenticated', async () => {
-    mockSupabase.auth.getUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
+    mockAuthGetUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
 
     const request = buildRequest(
       `/api/cases/${CASE_ID}/conversations?convId=${CONV_ID}`,
@@ -270,7 +307,7 @@ describe('DELETE /api/cases/[id]/conversations', () => {
 
   it('deletes a conversation on success', async () => {
     const chain = createChainMock({ data: null, error: null })
-    mockSupabase.from.mockReturnValueOnce(chain)
+    mockFrom.mockReturnValueOnce(chain)
 
     const request = buildRequest(
       `/api/cases/${CASE_ID}/conversations?convId=${CONV_ID}`,
@@ -281,7 +318,7 @@ describe('DELETE /api/cases/[id]/conversations', () => {
 
     expect(response.status).toBe(200)
     expect(body.success).toBe(true)
-    expect(mockSupabase.from).toHaveBeenCalledWith('conversations')
+    expect(mockFrom).toHaveBeenCalledWith('conversations')
   })
 
   it('returns 500 for database errors', async () => {
@@ -289,7 +326,7 @@ describe('DELETE /api/cases/[id]/conversations', () => {
       data: null,
       error: { message: 'delete failed' },
     })
-    mockSupabase.from.mockReturnValueOnce(chain)
+    mockFrom.mockReturnValueOnce(chain)
 
     const request = buildRequest(
       `/api/cases/${CASE_ID}/conversations?convId=${CONV_ID}`,

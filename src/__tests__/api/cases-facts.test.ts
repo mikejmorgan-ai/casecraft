@@ -23,10 +23,10 @@ var mockFrom = jest.fn()
 /* eslint-enable no-var */
 
 jest.mock('@/lib/supabase/server', () => ({
-  createServerSupabase: jest.fn().mockResolvedValue({
+  createServerSupabase: jest.fn(() => Promise.resolve({
     auth: { getUser: mockAuthGetUser },
     from: mockFrom,
-  }),
+  })),
 }))
 
 // Import route handlers AFTER mocks are set up
