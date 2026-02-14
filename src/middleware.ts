@@ -27,9 +27,7 @@ export async function middleware(request: NextRequest) {
     }
   )
 
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
+  const hasBetaBypass = request.cookies.get('beta_bypass')?.value === 'true'
 
   // Protected routes
   const protectedPaths = ['/dashboard', '/case']
@@ -37,7 +35,20 @@ export async function middleware(request: NextRequest) {
     request.nextUrl.pathname.startsWith(path)
   )
 
-  const hasBetaBypass = request.cookies.get('beta_bypass')?.value === 'true'
+  // Try to get user from Supabase, but handle failures gracefully
+  let user = null
+  try {
+    const { data } = await supabase.auth.getUser()
+    user = data.user
+  } catch {
+    // Supabase unreachable - allow beta bypass users through, redirect others to login
+    if (isProtectedPath && !hasBetaBypass) {
+      const url = request.nextUrl.clone()
+      url.pathname = '/login'
+      return NextResponse.redirect(url)
+    }
+    return supabaseResponse
+  }
 
   if (isProtectedPath && !user && !hasBetaBypass) {
     const url = request.nextUrl.clone()
