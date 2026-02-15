@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createServerSupabase } from '@/lib/supabase/server'
-import { searchAll, searchByRole } from '@/lib/pinecone/search'
+import { searchAll } from '@/lib/pinecone/search'
 import OpenAI from 'openai'
 
 const openai = new OpenAI()

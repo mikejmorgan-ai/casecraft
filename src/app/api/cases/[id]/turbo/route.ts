@@ -17,7 +17,8 @@ interface TurnResult {
   reasoning: string
 }
 
-interface TurboResult {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+type _TurboResult = {
   total_turns: number
   plaintiff_score: number
   defendant_score: number

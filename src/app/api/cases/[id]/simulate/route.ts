@@ -106,7 +106,7 @@ export async function POST(
     }
 
     const body = await request.json()
-    const { iterations = 20, mode = 'turbo' } = body
+    const { iterations = 20 } = body
 
     // Get case data
     const { data: caseData } = await supabase

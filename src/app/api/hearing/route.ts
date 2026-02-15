@@ -1,5 +1,5 @@
 import { NextRequest } from 'next/server'
-import { createServerSupabase, createServiceSupabase } from '@/lib/supabase/server'
+import { createServerSupabase } from '@/lib/supabase/server'
 import { openai } from '@ai-sdk/openai'
 import { generateText } from 'ai'
 import {
@@ -8,9 +8,7 @@ import {
   getNextSpeaker,
   getCurrentPhase,
   buildHearingPrompt,
-  PHASE_PROMPTS,
 } from '@/lib/hearing/orchestrator'
-import { buildAgentSystemPrompt } from '@/lib/ai/prompts'
 import type { AgentRole } from '@/lib/types'
 
 export const maxDuration = 300 // 5 minutes for full hearing

@@ -18,41 +18,51 @@ import { getUserProfile } from '@/lib/auth/check-permission'
 import { hasPermission } from '@/lib/auth/rbac'
 
 export default async function CasesPage() {
-  const supabase = await createServerSupabase()
   const cookieStore = await cookies()
   const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user && !hasBetaBypass) redirect('/login')
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let casesList: any[] = []
+  let canCreateCase = true
+  let userRole = 'attorney'
 
-  // Get user profile for permissions (default to attorney for beta bypass)
-  const profile = user ? await getUserProfile() : null
-  const userRole = profile?.role || 'attorney'
-  const canCreateCase = hasPermission(userRole, 'cases:create')
+  try {
+    const supabase = await createServerSupabase()
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user && !hasBetaBypass) redirect('/login')
 
-  // Fetch cases with counts
-  const { data: cases, error } = await supabase
-    .from('cases')
-    .select(`
-      *,
-      agents(count),
-      documents(count),
-      conversations(count),
-      case_predictions(count)
-    `)
-    .order('updated_at', { ascending: false })
+    // Get user profile for permissions (default to attorney for beta bypass)
+    const profile = user ? await getUserProfile() : null
+    userRole = profile?.role || 'attorney'
+    canCreateCase = hasPermission(userRole, 'cases:create')
 
-  if (error) {
-    console.error('Error fetching cases:', error)
+    // Fetch cases with counts
+    const { data: cases, error } = await supabase
+      .from('cases')
+      .select(`
+        *,
+        agents(count),
+        documents(count),
+        conversations(count),
+        case_predictions(count)
+      `)
+      .order('updated_at', { ascending: false })
+
+    if (error) {
+      console.error('Error fetching cases:', error)
+    }
+
+    casesList = cases || []
+  } catch {
+    // Supabase unreachable — show empty cases for beta bypass users
+    if (!hasBetaBypass) redirect('/login')
   }
-
-  const casesList = cases || []
 
   // Calculate stats
   const totalCases = casesList.length
-  const activeCases = casesList.filter(c => c.status === 'active').length
-  const draftCases = casesList.filter(c => c.status === 'draft').length
-  const blindTests = casesList.filter(c => c.is_blind_test).length
+  const activeCases = casesList.filter((c: { status: string }) => c.status === 'active').length
+  const draftCases = casesList.filter((c: { status: string }) => c.status === 'draft').length
+  const blindTests = casesList.filter((c: { is_blind_test: boolean }) => c.is_blind_test).length
 
   return (
     <div className="p-6 lg:p-8 space-y-8">

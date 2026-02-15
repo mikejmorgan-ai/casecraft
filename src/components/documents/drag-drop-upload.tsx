@@ -110,6 +110,7 @@ export function DragDropUpload({ caseId, onUploadComplete }: DragDropUploadProps
     } else {
       processFiles(e.dataTransfer.files)
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [processFiles])
 
   const traverseDirectory = (dirEntry: FileSystemDirectoryEntry): Promise<File>[] => {

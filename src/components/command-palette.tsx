@@ -10,8 +10,6 @@ import {
   Plus,
   Scale,
   Search,
-  Settings,
-  User,
   Zap,
 } from 'lucide-react'
 

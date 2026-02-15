@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from 'react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import {
@@ -14,7 +13,6 @@ import {
   AlertCircle,
   HelpCircle,
   FileText,
-  ExternalLink,
   ChevronRight,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -235,8 +233,6 @@ interface VerifiedTextProps {
 }
 
 export function VerifiedText({ children, status, sources, notes }: VerifiedTextProps) {
-  const config = statusConfig[status]
-
   return (
     <Popover>
       <PopoverTrigger asChild>

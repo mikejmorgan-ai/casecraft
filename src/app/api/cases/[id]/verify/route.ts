@@ -7,7 +7,8 @@ const openai = new OpenAI()
 
 export const maxDuration = 120
 
-interface VerificationResult {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+type _VerificationResult = {
   claim: string
   status: 'verified' | 'contradicted' | 'unverified' | 'partially_verified'
   confidence: number

@@ -92,7 +92,8 @@ const ROLE_SOURCE_FILTERS: Record<AgentRole, RegExp[] | null> = {
 }
 
 // Extended roles for Tree Farm case
-const EXTENDED_ROLE_FILTERS: Record<string, RegExp[]> = {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const _EXTENDED_ROLE_FILTERS: Record<string, RegExp[]> = {
   // County Clerk - county records and ordinances
   'county_clerk': [
     /SL County/i,

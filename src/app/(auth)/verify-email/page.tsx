@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState, useCallback } from 'react'
+import { useEffect, useState, useCallback, useRef } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
@@ -15,6 +15,7 @@ export default function VerifyEmailPage() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const email = searchParams.get('email')
+  const verificationAttempted = useRef(false)
 
   const verifyEmail = useCallback(async (tokenHash: string) => {
     setStatus('verifying')
@@ -42,8 +43,10 @@ export default function VerifyEmailPage() {
     const tokenHash = searchParams.get('token_hash')
     const type = searchParams.get('type')
 
-    if (tokenHash && type === 'email') {
-      verifyEmail(tokenHash)
+    if (tokenHash && type === 'email' && !verificationAttempted.current) {
+      verificationAttempted.current = true
+      // Schedule outside effect to avoid synchronous setState warning
+      setTimeout(() => verifyEmail(tokenHash), 0)
     }
   }, [searchParams, verifyEmail])
 

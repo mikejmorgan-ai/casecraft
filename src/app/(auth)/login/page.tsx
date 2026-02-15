@@ -191,7 +191,8 @@ export default function LoginPage() {
             variant="outline"
             className="w-full border-dashed border-yellow-600 text-yellow-500 hover:bg-yellow-500/10 hover:text-yellow-400"
             onClick={() => {
-              document.cookie = 'beta_bypass=true; path=/; SameSite=Strict; Secure'
+              // Don't use Secure flag — prevents cookie from being set on HTTP (localhost)
+              document.cookie = 'beta_bypass=true; path=/; SameSite=Lax'
               router.push('/dashboard')
             }}
           >

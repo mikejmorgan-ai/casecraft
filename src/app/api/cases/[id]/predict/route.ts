@@ -343,7 +343,7 @@ async function runStandardPrediction(prompt: string): Promise<PredictionResult> 
 
 async function runMultiAgentPrediction(
   prompt: string,
-  _caseData: Record<string, unknown>
+  _caseData: Record<string, unknown> // eslint-disable-line @typescript-eslint/no-unused-vars
 ): Promise<PredictionResult> {
   // Run parallel predictions from different perspectives
   const perspectives = [
