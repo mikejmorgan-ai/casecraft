@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState, useCallback, useRef } from 'react'
+import { Suspense, useEffect, useState, useCallback, useRef } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
@@ -9,6 +9,14 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Mail, CheckCircle, Loader2, AlertCircle } from 'lucide-react'
 
 export default function VerifyEmailPage() {
+  return (
+    <Suspense>
+      <VerifyEmailPageContent />
+    </Suspense>
+  )
+}
+
+function VerifyEmailPageContent() {
   const [status, setStatus] = useState<'pending' | 'verifying' | 'success' | 'error'>('pending')
   const [message, setMessage] = useState('')
   const [resending, setResending] = useState(false)

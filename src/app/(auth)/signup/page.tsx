@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
@@ -46,6 +46,14 @@ const SIGNUP_ROLES: { role: UserRole; icon: React.ReactNode }[] = [
 ]
 
 export default function SignupPage() {
+  return (
+    <Suspense>
+      <SignupPageContent />
+    </Suspense>
+  )
+}
+
+function SignupPageContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
 
