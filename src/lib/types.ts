@@ -29,6 +29,8 @@ export type ReliefType =
   | 'damages' | 'restitution' | 'specific_performance'
   | 'attorneys_fees' | 'other'
 
+export type EvidenceRelevance = 'direct' | 'corroborative' | 'circumstantial' | 'impeachment'
+
 export interface Case {
   id: string
   user_id: string
@@ -183,6 +185,22 @@ export interface ClaimForRelief {
   metadata: Record<string, unknown>
   created_at: string
   updated_at: string
+  // Joined evidence (populated via query)
+  evidence?: ClaimEvidence[]
+}
+
+export interface ClaimEvidence {
+  id: string
+  claim_id: string
+  fact_id: string | null
+  document_id: string | null
+  relevance: EvidenceRelevance
+  discovery_file: string | null
+  tier: number | null
+  description: string | null
+  is_smoking_gun: boolean
+  created_at: string
+  updated_at: string
 }
 
 // Retell Voice Call Types
@@ -269,6 +287,11 @@ export interface Database {
         Row: ClaimForRelief
         Insert: Omit<ClaimForRelief, 'id' | 'created_at' | 'updated_at'> & { id?: string }
         Update: Partial<Omit<ClaimForRelief, 'id' | 'created_at' | 'updated_at'>>
+      }
+      claim_evidence: {
+        Row: ClaimEvidence
+        Insert: Omit<ClaimEvidence, 'id' | 'created_at' | 'updated_at'> & { id?: string }
+        Update: Partial<Omit<ClaimEvidence, 'id' | 'created_at' | 'updated_at'>>
       }
     }
     Functions: {
