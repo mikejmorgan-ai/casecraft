@@ -24,6 +24,11 @@ export type FactCategory =
   | 'undisputed' | 'disputed' | 'evidence_based'
   | 'testimony' | 'expert_opinion' | 'stipulated'
 
+export type ReliefType =
+  | 'declaratory' | 'injunctive' | 'regulatory_taking'
+  | 'damages' | 'restitution' | 'specific_performance'
+  | 'attorneys_fees' | 'other'
+
 export interface Case {
   id: string
   user_id: string
@@ -165,6 +170,21 @@ export interface CaseFact {
   updated_at: string
 }
 
+export interface ClaimForRelief {
+  id: string
+  case_id: string
+  claim_number: number
+  title: string
+  relief_type: ReliefType
+  description: string
+  legal_basis: string | null
+  is_alternative: boolean
+  alternative_to: number | null
+  metadata: Record<string, unknown>
+  created_at: string
+  updated_at: string
+}
+
 // Retell Voice Call Types
 export type CallStatus = 'registered' | 'ongoing' | 'ended' | 'error'
 
@@ -203,6 +223,7 @@ export interface CaseWithRelations extends Case {
   documents?: Document[]
   conversations?: Conversation[]
   case_facts?: CaseFact[]
+  claims_for_relief?: ClaimForRelief[]
 }
 
 // Database type for Supabase client
@@ -243,6 +264,11 @@ export interface Database {
         Row: CaseFact
         Insert: Omit<CaseFact, 'id' | 'created_at' | 'updated_at'> & { id?: string }
         Update: Partial<Omit<CaseFact, 'id' | 'created_at' | 'updated_at'>>
+      }
+      claims_for_relief: {
+        Row: ClaimForRelief
+        Insert: Omit<ClaimForRelief, 'id' | 'created_at' | 'updated_at'> & { id?: string }
+        Update: Partial<Omit<ClaimForRelief, 'id' | 'created_at' | 'updated_at'>>
       }
     }
     Functions: {
