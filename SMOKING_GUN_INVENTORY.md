@@ -306,12 +306,35 @@ The Mayor drafted an "applauds" press statement BEFORE the public hearing and vo
 
 ### Evidence Files:
 
-**SLCo011001** (discovery-0004) — PRESS RELEASE DRAFTED BEFORE VOTE
-- Internal email chain, April 5, 2022 (the day of the vote)
-- At 1:21 PM, Communications Director Katy Fleury writes: *"the mayor talked with Ralph then drafted the quote and wants to send her statement before the vote. And also for it to be handed out to the public."*
-- The pre-drafted statement: *"Salt Lake County Mayor Jenny Wilson Applauds Council's Vote to Prohibit Mining in Canyons"*
-- **The public hearing had not yet started (it was set for 4 PM) but the Mayor already had her victory statement ready to hand out**
-- This is definitive proof the outcome was predetermined — why draft a "we applaud the vote" press release before the public has even spoken?
+### COMPLETE APRIL 5, 2022 PRESS RELEASE TIMELINE:
+
+| Time | Event | File |
+|------|-------|------|
+| 11:09 AM | News clips circulated noting KUER report: public hearing at 4 PM | SLCo010996 |
+| **1:15 PM** | **Fleury initiates: "New statement for before and after vote"** | SLCo011001 |
+| **1:21 PM** | **Fleury: "the mayor talked with Ralph then drafted the quote and wants to send her statement before the vote. And also for it to be handed out to the public."** | SLCo011001 |
+| **1:32 PM** | **Jordan Carroll: "Lisa and I just made these edits together!"** | SLCo011001 |
+| **1:46 PM** | **"BEFORE" press release sent: Mayor "Urges Council to Prohibit Mining"** | SLCo010998 |
+| 2:29 PM | Hartman forwards "before" release to Kanter | SLCo010999 |
+| **2:51 PM** | **Fleury sends pre-drafted "AFTER" victory release: "the mayor drafted so it's approved by her." Mayor "Applauds Council's Vote"** | SLCo011001 |
+| 2:53 PM | Hartman forwards full chain + attachment to Kanter | SLCo011001 |
+| **4:00 PM** | **PUBLIC HEARING BEGINS** | — |
+| ~5:00 PM | Vote takes place | — |
+| 5:01 PM | Tree Farm publicist Matt Lusty issues counter-statement | SLCo007455 |
+| **5:34 PM** | **"AFTER" victory release sent — virtually identical to 2:51 PM pre-draft** | SLCo011006 |
+| 5:41 PM | Hartman forwards "after" release to Kanter | SLCo011007 |
+
+**Key quotes proving predetermined outcome:**
+1. **"the mayor talked with Ralph then drafted the quote"** — Mayor consulted DA Chamness BEFORE drafting, not after hearing public comment
+2. **"the mayor drafted so it's approved by her"** — Mayor personally authored the victory statement
+3. **"wants to send her statement before the vote. And also for it to be handed out to the public"** — intended for public distribution BEFORE the hearing
+4. **"New statement for before and after vote"** — the subject line itself treats the outcome as already decided
+5. **No alternative outcome was contemplated** — no draft exists for "if the vote fails"
+6. **Final release matched the 2:51 PM pre-draft almost exactly** — only trivial edits between the pre-draft and the 5:34 PM official release
+
+**SLCo011003** (discovery-0004) — PRESS RELEASE ATTACHMENT PRODUCED IN DISCOVERY
+- The Word document `PR_Mining_ordinance_draft_4.5.22_jc_edits.docx` was produced as SLCo011003
+- Contains both "before" and "after" press releases in a single file, confirming both existed before 2:51 PM
 
 **SLCo011047** (discovery-0004) — KANTER: "OUR MESSAGING CONTINUES TO EVOLVE"
 - Kanter to Communications staff, April 14, 2022
