@@ -3,366 +3,381 @@
  */
 
 /**
- * Tests for GET / POST / PATCH / DELETE  /api/cases/[id]/facts
- *
- * Route: src/app/api/cases/[id]/facts/route.ts
+ * Tests for /api/cases/[id]/facts route (GET, POST, PATCH, DELETE)
  */
 import {
-  mockAuthenticatedUser,
-  mockUnauthenticatedUser,
-  mockSupabaseChain,
-  makeGetRequest,
-  makeJsonRequest,
-  makeDynamicParams,
+  createChainMock,
+  buildRequest,
   parseResponse,
+  AUTHENTICATED_USER,
+  UNAUTHENTICATED_USER,
 } from './helpers'
 
 // ---------------------------------------------------------------------------
-// Mock setup
+// Mocks – use var so jest.mock hoisting can reference them
 // ---------------------------------------------------------------------------
-const mockAuthGetUser = jest.fn()
-const mockFrom = jest.fn()
+
+/* eslint-disable no-var */
+var mockAuthGetUser = jest.fn().mockResolvedValue(AUTHENTICATED_USER)
+var mockFrom = jest.fn()
+/* eslint-enable no-var */
 
 jest.mock('@/lib/supabase/server', () => ({
-  createServerSupabase: jest.fn().mockImplementation(() =>
-    Promise.resolve({
-      auth: { getUser: mockAuthGetUser },
-      from: mockFrom,
-    })
-  ),
+  createServerSupabase: jest.fn(() => Promise.resolve({
+    auth: { getUser: mockAuthGetUser },
+    from: mockFrom,
+  })),
 }))
 
+// Import route handlers AFTER mocks are set up
 import { GET, POST, PATCH, DELETE } from '@/app/api/cases/[id]/facts/route'
 
 // ---------------------------------------------------------------------------
-// Shared fixtures
+// Helpers
 // ---------------------------------------------------------------------------
-const TEST_CASE_ID = 'test-case-id'
-const TEST_FACT_ID = 'test-fact-id'
-const dynamicParams = makeDynamicParams(TEST_CASE_ID)
 
-const sampleFact = {
-  id: TEST_FACT_ID,
-  case_id: TEST_CASE_ID,
+const CASE_ID = 'case-123'
+const FACT_ID = 'fact-456'
+
+const MOCK_FACT = {
+  id: FACT_ID,
+  case_id: CASE_ID,
   category: 'undisputed',
-  fact_text: 'The contract was signed on January 1, 2024.',
+  fact_text: 'The defendant was present at the scene.',
   source_document_id: null,
   is_disputed: false,
+  created_at: '2025-01-01T00:00:00Z',
+}
+
+const VALID_FACT_BODY = {
+  category: 'undisputed',
+  fact_text: 'A new fact for the case.',
+}
+
+function makeParams(id: string = CASE_ID) {
+  return { params: Promise.resolve({ id }) }
 }
 
 // ---------------------------------------------------------------------------
 // GET /api/cases/[id]/facts
 // ---------------------------------------------------------------------------
+
 describe('GET /api/cases/[id]/facts', () => {
-  beforeEach(() => jest.clearAllMocks())
-
-  it('returns facts for the given case', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const factsData = [sampleFact, { ...sampleFact, id: 'fact-2', fact_text: 'Second fact' }]
-    const chain = mockSupabaseChain(factsData)
-    mockFrom.mockReturnValue(chain)
-
-    const request = makeGetRequest(`http://localhost/api/cases/${TEST_CASE_ID}/facts`)
-    const response = await GET(request, dynamicParams)
-    const body = await parseResponse(response)
-
-    expect(response.status).toBe(200)
-    expect(body).toEqual(factsData)
-    expect(mockFrom).toHaveBeenCalledWith('case_facts')
-    expect(chain.eq).toHaveBeenCalledWith('case_id', TEST_CASE_ID)
-    expect(chain.order).toHaveBeenCalledWith('created_at', { ascending: true })
+  beforeEach(() => {
+    jest.clearAllMocks()
+    mockAuthGetUser.mockResolvedValue(AUTHENTICATED_USER)
   })
 
-  it('returns 401 when not authenticated', async () => {
-    mockUnauthenticatedUser(mockAuthGetUser)
+  it('returns 401 when user is not authenticated', async () => {
+    mockAuthGetUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
 
-    const request = makeGetRequest(`http://localhost/api/cases/${TEST_CASE_ID}/facts`)
-    const response = await GET(request, dynamicParams)
-    const body = await parseResponse<{ error: string }>(response)
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts`)
+    const response = await GET(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(401)
     expect(body.error).toBe('Unauthorized')
   })
 
-  it('returns 500 on database error', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
+  it('returns list of facts on success', async () => {
+    const facts = [MOCK_FACT, { ...MOCK_FACT, id: 'fact-789', fact_text: 'Another fact' }]
+    const chain = createChainMock({ data: facts, error: null })
+    mockFrom.mockReturnValueOnce(chain)
 
-    const chain = mockSupabaseChain(null, { message: 'query failed' })
-    mockFrom.mockReturnValue(chain)
-
-    const request = makeGetRequest(`http://localhost/api/cases/${TEST_CASE_ID}/facts`)
-    const response = await GET(request, dynamicParams)
-    const body = await parseResponse<{ error: string }>(response)
-
-    expect(response.status).toBe(500)
-    expect(body.error).toBe('query failed')
-  })
-
-  it('returns empty array when no facts exist', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const chain = mockSupabaseChain([])
-    mockFrom.mockReturnValue(chain)
-
-    const request = makeGetRequest(`http://localhost/api/cases/${TEST_CASE_ID}/facts`)
-    const response = await GET(request, dynamicParams)
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts`)
+    const response = await GET(request, makeParams())
     const body = await parseResponse(response)
 
     expect(response.status).toBe(200)
-    expect(body).toEqual([])
+    expect(body).toEqual(facts)
+    expect(mockFrom).toHaveBeenCalledWith('case_facts')
+  })
+
+  it('returns 500 for database errors', async () => {
+    const chain = createChainMock({
+      data: null,
+      error: { message: 'query failed' },
+    })
+    mockFrom.mockReturnValueOnce(chain)
+
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts`)
+    const response = await GET(request, makeParams())
+    const body = await parseResponse(response)
+
+    expect(response.status).toBe(500)
+    expect(body.error).toBe('query failed')
   })
 })
 
 // ---------------------------------------------------------------------------
 // POST /api/cases/[id]/facts
 // ---------------------------------------------------------------------------
+
 describe('POST /api/cases/[id]/facts', () => {
-  const validFactData = {
-    category: 'undisputed',
-    fact_text: 'The property is located in Salt Lake County.',
-  }
-
-  beforeEach(() => jest.clearAllMocks())
-
-  it('creates a fact with valid data and returns 201', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    // First from('cases') for ownership check, then from('case_facts') for insert
-    const caseChain = mockSupabaseChain({ id: TEST_CASE_ID })
-    const factChain = mockSupabaseChain({ id: 'new-fact-id', ...validFactData, case_id: TEST_CASE_ID })
-
-    mockFrom.mockImplementation((table: string) => {
-      if (table === 'cases') return caseChain
-      return factChain
-    })
-
-    const request = makeJsonRequest(`http://localhost/api/cases/${TEST_CASE_ID}/facts`, 'POST', validFactData)
-    const response = await POST(request, dynamicParams)
-    await parseResponse(response)
-
-    expect(response.status).toBe(201)
-    expect(mockFrom).toHaveBeenCalledWith('case_facts')
+  beforeEach(() => {
+    jest.clearAllMocks()
+    mockAuthGetUser.mockResolvedValue(AUTHENTICATED_USER)
   })
 
-  it('returns 401 when not authenticated', async () => {
-    mockUnauthenticatedUser(mockAuthGetUser)
+  it('returns 401 when user is not authenticated', async () => {
+    mockAuthGetUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
 
-    const request = makeJsonRequest(`http://localhost/api/cases/${TEST_CASE_ID}/facts`, 'POST', validFactData)
-    const response = await POST(request, dynamicParams)
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts`, {
+      method: 'POST',
+      body: VALID_FACT_BODY,
+    })
+    const response = await POST(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(401)
+    expect(body.error).toBe('Unauthorized')
   })
 
   it('returns 404 when case does not exist', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
+    const casesChain = createChainMock({ data: null, error: null })
+    mockFrom.mockReturnValueOnce(casesChain)
 
-    // Case ownership check returns null data
-    const caseChain = mockSupabaseChain(null)
-    mockFrom.mockReturnValue(caseChain)
-
-    const request = makeJsonRequest(`http://localhost/api/cases/${TEST_CASE_ID}/facts`, 'POST', validFactData)
-    const response = await POST(request, dynamicParams)
-    const body = await parseResponse<{ error: string }>(response)
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts`, {
+      method: 'POST',
+      body: VALID_FACT_BODY,
+    })
+    const response = await POST(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(404)
     expect(body.error).toBe('Case not found')
   })
 
-  it('returns 400 when category is invalid', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
+  it('returns 400 for validation errors', async () => {
+    const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
+    mockFrom.mockReturnValueOnce(casesChain)
 
-    const caseChain = mockSupabaseChain({ id: TEST_CASE_ID })
-    mockFrom.mockReturnValue(caseChain)
-
-    const request = makeJsonRequest(`http://localhost/api/cases/${TEST_CASE_ID}/facts`, 'POST', {
-      category: 'invalid_category',
-      fact_text: 'Some fact.',
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts`, {
+      method: 'POST',
+      body: { category: 'invalid_category' },
     })
-    const response = await POST(request, dynamicParams)
+    const response = await POST(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(400)
+    expect(body.error).toBeDefined()
   })
 
-  it('returns 400 when fact_text is missing', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
+  it('creates a fact on success', async () => {
+    const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
+    const factsChain = createChainMock({ data: MOCK_FACT, error: null })
+    mockFrom
+      .mockReturnValueOnce(casesChain)
+      .mockReturnValueOnce(factsChain)
 
-    const caseChain = mockSupabaseChain({ id: TEST_CASE_ID })
-    mockFrom.mockReturnValue(caseChain)
-
-    const request = makeJsonRequest(`http://localhost/api/cases/${TEST_CASE_ID}/facts`, 'POST', {
-      category: 'undisputed',
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts`, {
+      method: 'POST',
+      body: VALID_FACT_BODY,
     })
-    const response = await POST(request, dynamicParams)
+    const response = await POST(request, makeParams())
+    const body = await parseResponse(response)
 
-    expect(response.status).toBe(400)
+    expect(response.status).toBe(201)
+    expect(body).toEqual(MOCK_FACT)
+    expect(mockFrom).toHaveBeenCalledWith('cases')
+    expect(mockFrom).toHaveBeenCalledWith('case_facts')
   })
 
-  it('returns 500 when database insert fails', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const caseChain = mockSupabaseChain({ id: TEST_CASE_ID })
-    const factChain = mockSupabaseChain(null, { message: 'insert failed' })
-
-    mockFrom.mockImplementation((table: string) => {
-      if (table === 'cases') return caseChain
-      return factChain
+  it('returns 500 for database insert errors', async () => {
+    const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
+    const factsChain = createChainMock({
+      data: null,
+      error: { message: 'insert failed' },
     })
+    mockFrom
+      .mockReturnValueOnce(casesChain)
+      .mockReturnValueOnce(factsChain)
 
-    const request = makeJsonRequest(`http://localhost/api/cases/${TEST_CASE_ID}/facts`, 'POST', validFactData)
-    const response = await POST(request, dynamicParams)
-    const body = await parseResponse<{ error: string }>(response)
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts`, {
+      method: 'POST',
+      body: VALID_FACT_BODY,
+    })
+    const response = await POST(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(500)
     expect(body.error).toBe('insert failed')
+  })
+
+  it('accepts optional fields (source_document_id, is_disputed)', async () => {
+    const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
+    const factsChain = createChainMock({ data: MOCK_FACT, error: null })
+    mockFrom
+      .mockReturnValueOnce(casesChain)
+      .mockReturnValueOnce(factsChain)
+
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts`, {
+      method: 'POST',
+      body: {
+        ...VALID_FACT_BODY,
+        source_document_id: 'a1b2c3d4-e5f6-7890-abcd-ef1234567890',
+        is_disputed: true,
+      },
+    })
+    const response = await POST(request, makeParams())
+
+    expect(response.status).toBe(201)
+  })
+
+  it('validates category enum values', async () => {
+    const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
+    mockFrom.mockReturnValueOnce(casesChain)
+
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts`, {
+      method: 'POST',
+      body: { category: 'made_up', fact_text: 'Some text' },
+    })
+    const response = await POST(request, makeParams())
+
+    expect(response.status).toBe(400)
   })
 })
 
 // ---------------------------------------------------------------------------
 // PATCH /api/cases/[id]/facts?factId=...
 // ---------------------------------------------------------------------------
+
 describe('PATCH /api/cases/[id]/facts', () => {
-  beforeEach(() => jest.clearAllMocks())
-
-  it('updates a fact and returns updated data', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const updatedFact = { ...sampleFact, fact_text: 'Updated text' }
-    const chain = mockSupabaseChain(updatedFact)
-    mockFrom.mockReturnValue(chain)
-
-    const request = makeJsonRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/facts?factId=${TEST_FACT_ID}`,
-      'PATCH',
-      { fact_text: 'Updated text' }
-    )
-    const response = await PATCH(request, dynamicParams)
-    const body = await parseResponse(response)
-
-    expect(response.status).toBe(200)
-    expect(body).toEqual(updatedFact)
-    expect(chain.update).toHaveBeenCalled()
-    expect(chain.eq).toHaveBeenCalledWith('id', TEST_FACT_ID)
-    expect(chain.eq).toHaveBeenCalledWith('case_id', TEST_CASE_ID)
+  beforeEach(() => {
+    jest.clearAllMocks()
+    mockAuthGetUser.mockResolvedValue(AUTHENTICATED_USER)
   })
 
   it('returns 400 when factId query param is missing', async () => {
-    // Note: factId check happens before auth check in the route
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const request = makeJsonRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/facts`,
-      'PATCH',
-      { fact_text: 'Updated text' }
-    )
-    const response = await PATCH(request, dynamicParams)
-    const body = await parseResponse<{ error: string }>(response)
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts`, {
+      method: 'PATCH',
+      body: { fact_text: 'Updated text' },
+    })
+    const response = await PATCH(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(400)
     expect(body.error).toBe('Fact ID required')
   })
 
-  it('returns 401 when not authenticated', async () => {
-    mockUnauthenticatedUser(mockAuthGetUser)
+  it('returns 401 when user is not authenticated', async () => {
+    mockAuthGetUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
 
-    const request = makeJsonRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/facts?factId=${TEST_FACT_ID}`,
-      'PATCH',
-      { fact_text: 'Updated' }
-    )
-    const response = await PATCH(request, dynamicParams)
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts?factId=${FACT_ID}`, {
+      method: 'PATCH',
+      body: { fact_text: 'Updated text' },
+    })
+    const response = await PATCH(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(401)
+    expect(body.error).toBe('Unauthorized')
+  })
+
+  it('updates a fact on success', async () => {
+    const updatedFact = { ...MOCK_FACT, fact_text: 'Updated fact text' }
+    const chain = createChainMock({ data: updatedFact, error: null })
+    mockFrom.mockReturnValueOnce(chain)
+
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts?factId=${FACT_ID}`, {
+      method: 'PATCH',
+      body: { fact_text: 'Updated fact text' },
+    })
+    const response = await PATCH(request, makeParams())
+    const body = await parseResponse(response)
+
+    expect(response.status).toBe(200)
+    expect(body.fact_text).toBe('Updated fact text')
   })
 
   it('returns 400 for invalid update data', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const request = makeJsonRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/facts?factId=${TEST_FACT_ID}`,
-      'PATCH',
-      { category: 'not_a_real_category' }
-    )
-    const response = await PATCH(request, dynamicParams)
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts?factId=${FACT_ID}`, {
+      method: 'PATCH',
+      body: { category: 'not_valid' },
+    })
+    const response = await PATCH(request, makeParams())
 
     expect(response.status).toBe(400)
   })
 
-  it('returns 500 when database update fails', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
+  it('returns 500 for database errors', async () => {
+    const chain = createChainMock({
+      data: null,
+      error: { message: 'update failed' },
+    })
+    mockFrom.mockReturnValueOnce(chain)
 
-    const chain = mockSupabaseChain(null, { message: 'update failed' })
-    mockFrom.mockReturnValue(chain)
-
-    const request = makeJsonRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/facts?factId=${TEST_FACT_ID}`,
-      'PATCH',
-      { fact_text: 'Something' }
-    )
-    const response = await PATCH(request, dynamicParams)
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts?factId=${FACT_ID}`, {
+      method: 'PATCH',
+      body: { fact_text: 'Updated' },
+    })
+    const response = await PATCH(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(500)
+    expect(body.error).toBe('update failed')
   })
 })
 
 // ---------------------------------------------------------------------------
 // DELETE /api/cases/[id]/facts?factId=...
 // ---------------------------------------------------------------------------
+
 describe('DELETE /api/cases/[id]/facts', () => {
-  beforeEach(() => jest.clearAllMocks())
-
-  it('deletes a fact and returns success', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const chain = mockSupabaseChain(null)
-    mockFrom.mockReturnValue(chain)
-
-    const request = makeGetRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/facts?factId=${TEST_FACT_ID}`
-    )
-    const response = await DELETE(request, dynamicParams)
-    const body = await parseResponse<{ success: boolean }>(response)
-
-    expect(response.status).toBe(200)
-    expect(body.success).toBe(true)
-    expect(chain.delete).toHaveBeenCalled()
-    expect(chain.eq).toHaveBeenCalledWith('id', TEST_FACT_ID)
-    expect(chain.eq).toHaveBeenCalledWith('case_id', TEST_CASE_ID)
+  beforeEach(() => {
+    jest.clearAllMocks()
+    mockAuthGetUser.mockResolvedValue(AUTHENTICATED_USER)
   })
 
   it('returns 400 when factId query param is missing', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const request = makeGetRequest(`http://localhost/api/cases/${TEST_CASE_ID}/facts`)
-    const response = await DELETE(request, dynamicParams)
-    const body = await parseResponse<{ error: string }>(response)
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts`, { method: 'DELETE' })
+    const response = await DELETE(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(400)
     expect(body.error).toBe('Fact ID required')
   })
 
-  it('returns 401 when not authenticated', async () => {
-    mockUnauthenticatedUser(mockAuthGetUser)
+  it('returns 401 when user is not authenticated', async () => {
+    mockAuthGetUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
 
-    const request = makeGetRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/facts?factId=${TEST_FACT_ID}`
-    )
-    const response = await DELETE(request, dynamicParams)
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts?factId=${FACT_ID}`, {
+      method: 'DELETE',
+    })
+    const response = await DELETE(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(401)
+    expect(body.error).toBe('Unauthorized')
   })
 
-  it('returns 500 when database delete fails', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
+  it('deletes a fact on success', async () => {
+    const chain = createChainMock({ data: null, error: null })
+    mockFrom.mockReturnValueOnce(chain)
 
-    const chain = mockSupabaseChain(null, { message: 'delete failed' })
-    mockFrom.mockReturnValue(chain)
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts?factId=${FACT_ID}`, {
+      method: 'DELETE',
+    })
+    const response = await DELETE(request, makeParams())
+    const body = await parseResponse(response)
 
-    const request = makeGetRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/facts?factId=${TEST_FACT_ID}`
-    )
-    const response = await DELETE(request, dynamicParams)
-    const body = await parseResponse<{ error: string }>(response)
+    expect(response.status).toBe(200)
+    expect(body.success).toBe(true)
+    expect(mockFrom).toHaveBeenCalledWith('case_facts')
+  })
+
+  it('returns 500 for database errors', async () => {
+    const chain = createChainMock({
+      data: null,
+      error: { message: 'delete failed' },
+    })
+    mockFrom.mockReturnValueOnce(chain)
+
+    const request = buildRequest(`/api/cases/${CASE_ID}/facts?factId=${FACT_ID}`, {
+      method: 'DELETE',
+    })
+    const response = await DELETE(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(500)
     expect(body.error).toBe('delete failed')

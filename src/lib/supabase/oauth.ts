@@ -120,11 +120,19 @@ export async function signInWithOAuth(
       }
     }
 
-    // If we get here with a URL, the OAuth flow was initiated successfully
-    // The user will be redirected to the provider's auth page
+    // If Supabase returned a URL but didn't redirect, manually redirect
+    if (data?.url) {
+      window.location.href = data.url
+      return {
+        success: true,
+        url: data.url,
+      }
+    }
+
+    // If no URL and no error, something unexpected happened
     return {
-      success: true,
-      url: data?.url,
+      success: false,
+      error: 'Failed to initiate sign-in. Please try again.',
     }
   } catch (err) {
     console.error(`Unexpected OAuth ${provider} error:`, err)

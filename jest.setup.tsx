@@ -62,8 +62,7 @@ jest.mock('@/lib/supabase/server', () => ({
 // Mock fetch for API calls
 global.fetch = jest.fn()
 
-// Browser-only mocks: guard with typeof window check so the setup file
-// also works when tests opt into @jest-environment node (e.g. API routes).
+// Browser-specific mocks (only in jsdom environment)
 if (typeof window !== 'undefined') {
   // Mock window.matchMedia
   Object.defineProperty(window, 'matchMedia', {
@@ -79,8 +78,10 @@ if (typeof window !== 'undefined') {
       dispatchEvent: jest.fn(),
     })),
   })
+}
 
-  // Mock ResizeObserver
+// Mock ResizeObserver
+if (typeof globalThis.ResizeObserver === 'undefined') {
   class MockResizeObserver {
     observe = jest.fn()
     unobserve = jest.fn()
@@ -88,8 +89,10 @@ if (typeof window !== 'undefined') {
   }
 
   global.ResizeObserver = MockResizeObserver as unknown as typeof ResizeObserver
+}
 
-  // Mock IntersectionObserver
+// Mock IntersectionObserver
+if (typeof globalThis.IntersectionObserver === 'undefined') {
   class MockIntersectionObserver {
     observe = jest.fn()
     unobserve = jest.fn()

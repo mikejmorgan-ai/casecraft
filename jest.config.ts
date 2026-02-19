@@ -41,10 +41,10 @@ const config: Config = {
     '^.+\\.module\\.(css|sass|scss)$',
   ],
 
-  // Ignore helper/utility files inside __tests__ directories
+  // Ignore non-test files picked up by testMatch
   testPathIgnorePatterns: [
     '/node_modules/',
-    '<rootDir>/src/__tests__/.*/helpers\\.ts$',
+    '<rootDir>/src/__tests__/api/helpers\\.ts$',
   ],
 
   // Clear mocks between tests

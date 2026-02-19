@@ -248,7 +248,7 @@ Return your analysis as valid JSON.`
     let prediction: PredictionResult
 
     if (mode === 'multi_agent') {
-      prediction = await runMultiAgentPrediction(analysisPrompt, caseData)
+      prediction = await runMultiAgentPrediction(analysisPrompt)
     } else {
       prediction = await runStandardPrediction(analysisPrompt)
     }
@@ -342,8 +342,7 @@ async function runStandardPrediction(prompt: string): Promise<PredictionResult> 
 }
 
 async function runMultiAgentPrediction(
-  prompt: string,
-  _caseData: Record<string, unknown> // eslint-disable-line @typescript-eslint/no-unused-vars
+  prompt: string
 ): Promise<PredictionResult> {
   // Run parallel predictions from different perspectives
   const perspectives = [

@@ -91,45 +91,6 @@ const ROLE_SOURCE_FILTERS: Record<AgentRole, RegExp[] | null> = {
   ],
 }
 
-// Extended roles for Tree Farm case
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const _EXTENDED_ROLE_FILTERS: Record<string, RegExp[]> = {
-  // County Clerk - county records and ordinances
-  'county_clerk': [
-    /SL County/i,
-    /ordinance/i,
-    /county.*rec/i,
-    /zoning/i,
-  ],
-
-  // County Recorder - deeds, chain of title
-  'county_recorder': [
-    /SL County Rec Docs/i,
-    /04_PROPERTY_HISTORY/i,
-    /deed/i,
-    /patent/i,
-    /chain.*title/i,
-    /conveyance/i,
-  ],
-
-  // DOGM Agent - mining specific
-  'dogm_agent': [
-    /08_TECHNICAL_DOCS/i,
-    /mining/i,
-    /dogm/i,
-    /reclamation/i,
-    /Portland.*Cement/i,
-    /geological/i,
-  ],
-
-  // Judge's Clerk - case management
-  'judges_clerk': [
-    /scheduling/i,
-    /order/i,
-    /calendar/i,
-  ],
-}
-
 // Check if a source path matches the role's allowed patterns
 function sourceMatchesRole(source: string, role: AgentRole): boolean {
   const patterns = ROLE_SOURCE_FILTERS[role]

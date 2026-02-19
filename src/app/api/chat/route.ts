@@ -5,7 +5,7 @@ import { buildAgentSystemPrompt } from '@/lib/ai/prompts'
 import { searchByRole, formatResultsForContext } from '@/lib/pinecone/search'
 import { openai } from '@ai-sdk/openai'
 import { streamText, createUIMessageStream, createUIMessageStreamResponse } from 'ai'
-import type { AgentRole } from '@/lib/types'
+import type { AgentRole, ConversationType } from '@/lib/types'
 
 // All cases use Pinecone for RAG (39K+ Tree Farm documents indexed)
 const USE_PINECONE = true
@@ -61,6 +61,17 @@ export async function POST(request: NextRequest) {
 
     if (!agent) {
       return new Response('Agent not found', { status: 404 })
+    }
+
+    // Fetch conversation to determine type (e.g., statutory_quiz)
+    let conversationType: ConversationType | null = null
+    if (conversation_id) {
+      const { data: convData } = await supabase
+        .from('conversations')
+        .select('conversation_type')
+        .eq('id', conversation_id)
+        .single()
+      conversationType = convData?.conversation_type as ConversationType | null
     }
 
     // Fetch case facts
@@ -155,7 +166,8 @@ export async function POST(request: NextRequest) {
       { role: agent.role as AgentRole, name: agent.name, persona_prompt: agent.persona_prompt },
       caseData,
       facts?.map(f => f.fact_text) || [],
-      documentContext || undefined
+      documentContext || undefined,
+      conversationType || undefined
     )
 
     // Stream response using UI message stream for v4 SDK

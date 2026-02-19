@@ -51,16 +51,17 @@ export default async function CaseDetailPage({
   const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let user: any = null
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let caseData: any = null
-  let user = null
 
   try {
     const supabase = await createServerSupabase()
-    const { data: { user: authUser } } = await supabase.auth.getUser()
-    user = authUser
+    const { data } = await supabase.auth.getUser()
+    user = data.user
     if (!user && !hasBetaBypass) redirect('/login')
 
-    const { data, error } = await supabase
+    const { data: caseResult, error } = await supabase
       .from('cases')
       .select(`
         *,
@@ -72,12 +73,16 @@ export default async function CaseDetailPage({
       .eq('id', id)
       .single()
 
-    if (error || !data) {
+    if (error || !caseResult) {
       notFound()
     }
-    caseData = data
-  } catch {
+    caseData = caseResult
+  } catch (err) {
     if (!hasBetaBypass) redirect('/login')
+    notFound()
+  }
+
+  if (!caseData) {
     notFound()
   }
 

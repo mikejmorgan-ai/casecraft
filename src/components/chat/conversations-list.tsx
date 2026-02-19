@@ -28,6 +28,8 @@ const CONV_TYPE_LABELS: Record<ConversationType, string> = {
   strategy_session: 'Strategy Session',
   research: 'Research',
   general: 'General',
+  statutory_quiz: 'Statutory Quiz',
+  voice_call: 'Voice Call',
 }
 
 const CONV_TYPE_COLORS: Record<ConversationType, string> = {
@@ -37,6 +39,8 @@ const CONV_TYPE_COLORS: Record<ConversationType, string> = {
   strategy_session: 'bg-blue-100 text-blue-800',
   research: 'bg-purple-100 text-purple-800',
   general: 'bg-gray-100 text-gray-800',
+  statutory_quiz: 'bg-yellow-100 text-yellow-800',
+  voice_call: 'bg-teal-100 text-teal-800',
 }
 
 interface ConversationsListProps {

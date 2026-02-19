@@ -19,9 +19,9 @@ export default async function DashboardPage() {
   try {
     const supabase = await createServerSupabase()
     const { data: { user } } = await supabase.auth.getUser()
-
     if (!user && !hasBetaBypass) redirect('/login')
 
+    // Fetch user profile to get role (skip if beta bypass without user)
     if (user) {
       const { data: profile } = await supabase
         .from('user_profiles')
@@ -31,6 +31,7 @@ export default async function DashboardPage() {
       userRole = (profile?.role as UserRole) || 'attorney'
     }
 
+    // Fetch dashboard data
     const [casesResult, predictionsResult, documentsResult] = await Promise.all([
       supabase
         .from('cases')
@@ -52,7 +53,7 @@ export default async function DashboardPage() {
     predictions = predictionsResult.data || []
     totalDocs = documentsResult.data?.count || 0
   } catch {
-    // Supabase unreachable — show empty dashboard for beta bypass users
+    // Supabase unreachable - allow beta bypass users through with empty data
     if (!hasBetaBypass) redirect('/login')
   }
 

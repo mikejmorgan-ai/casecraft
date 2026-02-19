@@ -1,6 +1,6 @@
 'use client'
 
-import { Suspense, useEffect, useState, useCallback, useRef } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
@@ -9,21 +9,12 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Mail, CheckCircle, Loader2, AlertCircle } from 'lucide-react'
 
 export default function VerifyEmailPage() {
-  return (
-    <Suspense>
-      <VerifyEmailPageContent />
-    </Suspense>
-  )
-}
-
-function VerifyEmailPageContent() {
   const [status, setStatus] = useState<'pending' | 'verifying' | 'success' | 'error'>('pending')
   const [message, setMessage] = useState('')
   const [resending, setResending] = useState(false)
   const router = useRouter()
   const searchParams = useSearchParams()
   const email = searchParams.get('email')
-  const verificationAttempted = useRef(false)
 
   const verifyEmail = useCallback(async (tokenHash: string) => {
     setStatus('verifying')
@@ -51,10 +42,10 @@ function VerifyEmailPageContent() {
     const tokenHash = searchParams.get('token_hash')
     const type = searchParams.get('type')
 
-    if (tokenHash && type === 'email' && !verificationAttempted.current) {
-      verificationAttempted.current = true
-      // Schedule outside effect to avoid synchronous setState warning
-      setTimeout(() => verifyEmail(tokenHash), 0)
+    if (tokenHash && type === 'email') {
+      // Email verification on page load is a valid use case for effect-based state updates
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      void verifyEmail(tokenHash)
     }
   }, [searchParams, verifyEmail])
 

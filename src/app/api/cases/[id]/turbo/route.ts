@@ -17,18 +17,6 @@ interface TurnResult {
   reasoning: string
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-type _TurboResult = {
-  total_turns: number
-  plaintiff_score: number
-  defendant_score: number
-  win_probability: number
-  critical_evidence: { doc: string; status: string; impact: string }[]
-  vulnerabilities: string[]
-  path_to_100: string[]
-  turns: TurnResult[]
-}
-
 export async function POST(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }

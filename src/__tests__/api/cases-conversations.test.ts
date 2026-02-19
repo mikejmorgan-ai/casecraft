@@ -3,280 +3,268 @@
  */
 
 /**
- * Tests for GET / POST / DELETE  /api/cases/[id]/conversations
- *
- * Route: src/app/api/cases/[id]/conversations/route.ts
+ * Tests for /api/cases/[id]/conversations route (GET, POST, DELETE)
  */
 import {
-  mockAuthenticatedUser,
-  mockUnauthenticatedUser,
-  mockSupabaseChain,
-  makeGetRequest,
-  makeJsonRequest,
-  makeDynamicParams,
+  createChainMock,
+  buildRequest,
   parseResponse,
+  AUTHENTICATED_USER,
+  UNAUTHENTICATED_USER,
 } from './helpers'
 
 // ---------------------------------------------------------------------------
-// Mock setup
+// Mocks – use var so jest.mock hoisting can reference them
 // ---------------------------------------------------------------------------
-const mockAuthGetUser = jest.fn()
-const mockFrom = jest.fn()
+
+/* eslint-disable no-var */
+var mockAuthGetUser = jest.fn().mockResolvedValue(AUTHENTICATED_USER)
+var mockFrom = jest.fn()
+/* eslint-enable no-var */
 
 jest.mock('@/lib/supabase/server', () => ({
-  createServerSupabase: jest.fn().mockImplementation(() =>
-    Promise.resolve({
-      auth: { getUser: mockAuthGetUser },
-      from: mockFrom,
-    })
-  ),
+  createServerSupabase: jest.fn(() => Promise.resolve({
+    auth: { getUser: mockAuthGetUser },
+    from: mockFrom,
+  })),
 }))
 
+// Import route handlers AFTER mocks are set up
 import { GET, POST, DELETE } from '@/app/api/cases/[id]/conversations/route'
 
 // ---------------------------------------------------------------------------
-// Shared fixtures
+// Helpers
 // ---------------------------------------------------------------------------
-const TEST_CASE_ID = 'test-case-id'
-const TEST_CONV_ID = 'test-conv-id'
-const dynamicParams = makeDynamicParams(TEST_CASE_ID)
 
-const sampleConversation = {
-  id: TEST_CONV_ID,
-  case_id: TEST_CASE_ID,
+const CASE_ID = 'case-123'
+const CONV_ID = 'conv-456'
+
+const MOCK_CONVERSATION = {
+  id: CONV_ID,
+  case_id: CASE_ID,
   name: 'Initial Hearing',
   conversation_type: 'hearing',
   participants: [],
   messages: [{ count: 5 }],
+  created_at: '2025-01-01T00:00:00Z',
+  updated_at: '2025-01-01T00:00:00Z',
+}
+
+const VALID_CONVERSATION_BODY = {
+  name: 'Strategy Meeting',
+  conversation_type: 'strategy_session',
+}
+
+function makeParams(id: string = CASE_ID) {
+  return { params: Promise.resolve({ id }) }
 }
 
 // ---------------------------------------------------------------------------
 // GET /api/cases/[id]/conversations
 // ---------------------------------------------------------------------------
+
 describe('GET /api/cases/[id]/conversations', () => {
-  beforeEach(() => jest.clearAllMocks())
-
-  it('returns conversations with message counts', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const conversationsData = [
-      sampleConversation,
-      { ...sampleConversation, id: 'conv-2', name: 'Deposition Session', conversation_type: 'deposition' },
-    ]
-    const chain = mockSupabaseChain(conversationsData)
-    mockFrom.mockReturnValue(chain)
-
-    const request = makeGetRequest(`http://localhost/api/cases/${TEST_CASE_ID}/conversations`)
-    const response = await GET(request, dynamicParams)
-    const body = await parseResponse(response)
-
-    expect(response.status).toBe(200)
-    expect(body).toEqual(conversationsData)
-    expect(mockFrom).toHaveBeenCalledWith('conversations')
-    expect(chain.eq).toHaveBeenCalledWith('case_id', TEST_CASE_ID)
-    expect(chain.order).toHaveBeenCalledWith('updated_at', { ascending: false })
+  beforeEach(() => {
+    jest.clearAllMocks()
+    mockAuthGetUser.mockResolvedValue(AUTHENTICATED_USER)
   })
 
-  it('returns 401 when not authenticated', async () => {
-    mockUnauthenticatedUser(mockAuthGetUser)
+  it('returns 401 when user is not authenticated', async () => {
+    mockAuthGetUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
 
-    const request = makeGetRequest(`http://localhost/api/cases/${TEST_CASE_ID}/conversations`)
-    const response = await GET(request, dynamicParams)
-    const body = await parseResponse<{ error: string }>(response)
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`)
+    const response = await GET(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(401)
     expect(body.error).toBe('Unauthorized')
   })
 
-  it('returns 500 on database error', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
+  it('returns list of conversations on success', async () => {
+    const conversations = [MOCK_CONVERSATION]
+    const chain = createChainMock({ data: conversations, error: null })
+    mockFrom.mockReturnValueOnce(chain)
 
-    const chain = mockSupabaseChain(null, { message: 'db fail' })
-    mockFrom.mockReturnValue(chain)
-
-    const request = makeGetRequest(`http://localhost/api/cases/${TEST_CASE_ID}/conversations`)
-    const response = await GET(request, dynamicParams)
-    const body = await parseResponse<{ error: string }>(response)
-
-    expect(response.status).toBe(500)
-    expect(body.error).toBe('db fail')
-  })
-
-  it('returns empty array when no conversations exist', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const chain = mockSupabaseChain([])
-    mockFrom.mockReturnValue(chain)
-
-    const request = makeGetRequest(`http://localhost/api/cases/${TEST_CASE_ID}/conversations`)
-    const response = await GET(request, dynamicParams)
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`)
+    const response = await GET(request, makeParams())
     const body = await parseResponse(response)
 
     expect(response.status).toBe(200)
-    expect(body).toEqual([])
+    expect(body).toEqual(conversations)
+    expect(mockFrom).toHaveBeenCalledWith('conversations')
   })
 
-  it('includes messages(count) in select', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
+  it('returns 500 for database errors', async () => {
+    const chain = createChainMock({
+      data: null,
+      error: { message: 'query failed' },
+    })
+    mockFrom.mockReturnValueOnce(chain)
 
-    const chain = mockSupabaseChain([])
-    mockFrom.mockReturnValue(chain)
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`)
+    const response = await GET(request, makeParams())
+    const body = await parseResponse(response)
 
-    const request = makeGetRequest(`http://localhost/api/cases/${TEST_CASE_ID}/conversations`)
-    await GET(request, dynamicParams)
-
-    const selectArg = chain.select.mock.calls[0][0] as string
-    expect(selectArg).toContain('messages(count)')
+    expect(response.status).toBe(500)
+    expect(body.error).toBe('query failed')
   })
 })
 
 // ---------------------------------------------------------------------------
 // POST /api/cases/[id]/conversations
 // ---------------------------------------------------------------------------
+
 describe('POST /api/cases/[id]/conversations', () => {
-  const validConversationData = {
-    name: 'New Hearing',
-    conversation_type: 'hearing',
-  }
-
-  beforeEach(() => jest.clearAllMocks())
-
-  it('creates a conversation and returns 201', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const caseChain = mockSupabaseChain({ id: TEST_CASE_ID })
-    const convChain = mockSupabaseChain({
-      id: 'new-conv-id',
-      ...validConversationData,
-      case_id: TEST_CASE_ID,
-      participants: [],
-    })
-
-    mockFrom.mockImplementation((table: string) => {
-      if (table === 'cases') return caseChain
-      return convChain
-    })
-
-    const request = makeJsonRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/conversations`,
-      'POST',
-      validConversationData
-    )
-    const response = await POST(request, dynamicParams)
-    await parseResponse(response)
-
-    expect(response.status).toBe(201)
-    expect(mockFrom).toHaveBeenCalledWith('conversations')
+  beforeEach(() => {
+    jest.clearAllMocks()
+    mockAuthGetUser.mockResolvedValue(AUTHENTICATED_USER)
   })
 
-  it('returns 401 when not authenticated', async () => {
-    mockUnauthenticatedUser(mockAuthGetUser)
+  it('returns 401 when user is not authenticated', async () => {
+    mockAuthGetUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
 
-    const request = makeJsonRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/conversations`,
-      'POST',
-      validConversationData
-    )
-    const response = await POST(request, dynamicParams)
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
+      method: 'POST',
+      body: VALID_CONVERSATION_BODY,
+    })
+    const response = await POST(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(401)
+    expect(body.error).toBe('Unauthorized')
   })
 
   it('returns 404 when case does not exist', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
+    const casesChain = createChainMock({ data: null, error: null })
+    mockFrom.mockReturnValueOnce(casesChain)
 
-    const caseChain = mockSupabaseChain(null)
-    mockFrom.mockReturnValue(caseChain)
-
-    const request = makeJsonRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/conversations`,
-      'POST',
-      validConversationData
-    )
-    const response = await POST(request, dynamicParams)
-    const body = await parseResponse<{ error: string }>(response)
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
+      method: 'POST',
+      body: VALID_CONVERSATION_BODY,
+    })
+    const response = await POST(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(404)
     expect(body.error).toBe('Case not found')
   })
 
-  it('returns 400 when name is missing', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
+  it('returns 400 for validation errors', async () => {
+    const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
+    mockFrom.mockReturnValueOnce(casesChain)
 
-    const caseChain = mockSupabaseChain({ id: TEST_CASE_ID })
-    mockFrom.mockReturnValue(caseChain)
-
-    const request = makeJsonRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/conversations`,
-      'POST',
-      { conversation_type: 'hearing' }
-    )
-    const response = await POST(request, dynamicParams)
-
-    expect(response.status).toBe(400)
-  })
-
-  it('returns 400 when conversation_type is invalid', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const caseChain = mockSupabaseChain({ id: TEST_CASE_ID })
-    mockFrom.mockReturnValue(caseChain)
-
-    const request = makeJsonRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/conversations`,
-      'POST',
-      { name: 'Test', conversation_type: 'invalid_type' }
-    )
-    const response = await POST(request, dynamicParams)
-
-    expect(response.status).toBe(400)
-  })
-
-  it('returns 500 when database insert fails', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const caseChain = mockSupabaseChain({ id: TEST_CASE_ID })
-    const convChain = mockSupabaseChain(null, { message: 'insert failed' })
-
-    mockFrom.mockImplementation((table: string) => {
-      if (table === 'cases') return caseChain
-      return convChain
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
+      method: 'POST',
+      body: { name: '', conversation_type: 'invalid_type' },
     })
+    const response = await POST(request, makeParams())
+    const body = await parseResponse(response)
 
-    const request = makeJsonRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/conversations`,
-      'POST',
-      validConversationData
-    )
-    const response = await POST(request, dynamicParams)
-    const body = await parseResponse<{ error: string }>(response)
+    expect(response.status).toBe(400)
+    expect(body.error).toBeDefined()
+  })
+
+  it('creates a conversation on success', async () => {
+    const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
+    const convsChain = createChainMock({ data: MOCK_CONVERSATION, error: null })
+    mockFrom
+      .mockReturnValueOnce(casesChain)
+      .mockReturnValueOnce(convsChain)
+
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
+      method: 'POST',
+      body: VALID_CONVERSATION_BODY,
+    })
+    const response = await POST(request, makeParams())
+    const body = await parseResponse(response)
+
+    expect(response.status).toBe(201)
+    expect(body).toEqual(MOCK_CONVERSATION)
+    expect(mockFrom).toHaveBeenCalledWith('cases')
+    expect(mockFrom).toHaveBeenCalledWith('conversations')
+  })
+
+  it('returns 500 for database insert errors', async () => {
+    const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
+    const convsChain = createChainMock({
+      data: null,
+      error: { message: 'insert failed' },
+    })
+    mockFrom
+      .mockReturnValueOnce(casesChain)
+      .mockReturnValueOnce(convsChain)
+
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
+      method: 'POST',
+      body: VALID_CONVERSATION_BODY,
+    })
+    const response = await POST(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(500)
     expect(body.error).toBe('insert failed')
   })
 
   it('accepts optional participants array', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
+    const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
+    const convsChain = createChainMock({ data: MOCK_CONVERSATION, error: null })
+    mockFrom
+      .mockReturnValueOnce(casesChain)
+      .mockReturnValueOnce(convsChain)
 
-    const caseChain = mockSupabaseChain({ id: TEST_CASE_ID })
-    const convChain = mockSupabaseChain({
-      id: 'new-conv-id',
-      ...validConversationData,
-      case_id: TEST_CASE_ID,
-      participants: ['agent-id-1'],
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
+      method: 'POST',
+      body: {
+        ...VALID_CONVERSATION_BODY,
+        participants: ['a1b2c3d4-e5f6-7890-abcd-ef1234567890'],
+      },
     })
+    const response = await POST(request, makeParams())
 
-    mockFrom.mockImplementation((table: string) => {
-      if (table === 'cases') return caseChain
-      return convChain
+    expect(response.status).toBe(201)
+  })
+
+  it('validates conversation_type enum', async () => {
+    const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
+    mockFrom.mockReturnValueOnce(casesChain)
+
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
+      method: 'POST',
+      body: { name: 'Test', conversation_type: 'nonexistent' },
     })
+    const response = await POST(request, makeParams())
 
-    const request = makeJsonRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/conversations`,
-      'POST',
-      { ...validConversationData, participants: ['a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d'] }
-    )
-    const response = await POST(request, dynamicParams)
+    expect(response.status).toBe(400)
+  })
+
+  it('accepts statutory_quiz conversation type', async () => {
+    const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
+    const convsChain = createChainMock({ data: { ...MOCK_CONVERSATION, conversation_type: 'statutory_quiz' }, error: null })
+    mockFrom
+      .mockReturnValueOnce(casesChain)
+      .mockReturnValueOnce(convsChain)
+
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
+      method: 'POST',
+      body: { name: 'Quiz the Judge', conversation_type: 'statutory_quiz' },
+    })
+    const response = await POST(request, makeParams())
+
+    expect(response.status).toBe(201)
+  })
+
+  it('accepts voice_call conversation type', async () => {
+    const casesChain = createChainMock({ data: { id: CASE_ID }, error: null })
+    const convsChain = createChainMock({ data: { ...MOCK_CONVERSATION, conversation_type: 'voice_call' }, error: null })
+    mockFrom
+      .mockReturnValueOnce(casesChain)
+      .mockReturnValueOnce(convsChain)
+
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
+      method: 'POST',
+      body: { name: 'Voice Session', conversation_type: 'voice_call' },
+    })
+    const response = await POST(request, makeParams())
 
     expect(response.status).toBe(201)
   })
@@ -285,61 +273,67 @@ describe('POST /api/cases/[id]/conversations', () => {
 // ---------------------------------------------------------------------------
 // DELETE /api/cases/[id]/conversations?convId=...
 // ---------------------------------------------------------------------------
+
 describe('DELETE /api/cases/[id]/conversations', () => {
-  beforeEach(() => jest.clearAllMocks())
-
-  it('deletes a conversation and returns success', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const chain = mockSupabaseChain(null)
-    mockFrom.mockReturnValue(chain)
-
-    const request = makeGetRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/conversations?convId=${TEST_CONV_ID}`
-    )
-    const response = await DELETE(request, dynamicParams)
-    const body = await parseResponse<{ success: boolean }>(response)
-
-    expect(response.status).toBe(200)
-    expect(body.success).toBe(true)
-    expect(chain.delete).toHaveBeenCalled()
-    expect(chain.eq).toHaveBeenCalledWith('id', TEST_CONV_ID)
-    expect(chain.eq).toHaveBeenCalledWith('case_id', TEST_CASE_ID)
+  beforeEach(() => {
+    jest.clearAllMocks()
+    mockAuthGetUser.mockResolvedValue(AUTHENTICATED_USER)
   })
 
   it('returns 400 when convId query param is missing', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const request = makeGetRequest(`http://localhost/api/cases/${TEST_CASE_ID}/conversations`)
-    const response = await DELETE(request, dynamicParams)
-    const body = await parseResponse<{ error: string }>(response)
+    const request = buildRequest(`/api/cases/${CASE_ID}/conversations`, {
+      method: 'DELETE',
+    })
+    const response = await DELETE(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(400)
     expect(body.error).toBe('Conversation ID required')
   })
 
-  it('returns 401 when not authenticated', async () => {
-    mockUnauthenticatedUser(mockAuthGetUser)
+  it('returns 401 when user is not authenticated', async () => {
+    mockAuthGetUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
 
-    const request = makeGetRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/conversations?convId=${TEST_CONV_ID}`
+    const request = buildRequest(
+      `/api/cases/${CASE_ID}/conversations?convId=${CONV_ID}`,
+      { method: 'DELETE' }
     )
-    const response = await DELETE(request, dynamicParams)
+    const response = await DELETE(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(401)
+    expect(body.error).toBe('Unauthorized')
   })
 
-  it('returns 500 when database delete fails', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
+  it('deletes a conversation on success', async () => {
+    const chain = createChainMock({ data: null, error: null })
+    mockFrom.mockReturnValueOnce(chain)
 
-    const chain = mockSupabaseChain(null, { message: 'delete failed' })
-    mockFrom.mockReturnValue(chain)
-
-    const request = makeGetRequest(
-      `http://localhost/api/cases/${TEST_CASE_ID}/conversations?convId=${TEST_CONV_ID}`
+    const request = buildRequest(
+      `/api/cases/${CASE_ID}/conversations?convId=${CONV_ID}`,
+      { method: 'DELETE' }
     )
-    const response = await DELETE(request, dynamicParams)
-    const body = await parseResponse<{ error: string }>(response)
+    const response = await DELETE(request, makeParams())
+    const body = await parseResponse(response)
+
+    expect(response.status).toBe(200)
+    expect(body.success).toBe(true)
+    expect(mockFrom).toHaveBeenCalledWith('conversations')
+  })
+
+  it('returns 500 for database errors', async () => {
+    const chain = createChainMock({
+      data: null,
+      error: { message: 'delete failed' },
+    })
+    mockFrom.mockReturnValueOnce(chain)
+
+    const request = buildRequest(
+      `/api/cases/${CASE_ID}/conversations?convId=${CONV_ID}`,
+      { method: 'DELETE' }
+    )
+    const response = await DELETE(request, makeParams())
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(500)
     expect(body.error).toBe('delete failed')

@@ -15,16 +15,16 @@ import {
 import { CasesListClient } from '@/components/cases/cases-list-client'
 import { CaseTemplates } from '@/components/cases/case-templates'
 import { getUserProfile } from '@/lib/auth/check-permission'
-import { hasPermission } from '@/lib/auth/rbac'
+import { hasPermission, type UserRole } from '@/lib/auth/rbac'
 
 export default async function CasesPage() {
   const cookieStore = await cookies()
   const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
+  let userRole: UserRole = 'attorney'
+  let canCreateCase = hasPermission(userRole, 'cases:create')
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let casesList: any[] = []
-  let canCreateCase = true
-  let userRole = 'attorney'
 
   try {
     const supabase = await createServerSupabase()
@@ -54,15 +54,14 @@ export default async function CasesPage() {
 
     casesList = cases || []
   } catch {
-    // Supabase unreachable — show empty cases for beta bypass users
     if (!hasBetaBypass) redirect('/login')
   }
 
   // Calculate stats
   const totalCases = casesList.length
-  const activeCases = casesList.filter((c: { status: string }) => c.status === 'active').length
-  const draftCases = casesList.filter((c: { status: string }) => c.status === 'draft').length
-  const blindTests = casesList.filter((c: { is_blind_test: boolean }) => c.is_blind_test).length
+  const activeCases = casesList.filter(c => c.status === 'active').length
+  const draftCases = casesList.filter(c => c.status === 'draft').length
+  const blindTests = casesList.filter(c => c.is_blind_test).length
 
   return (
     <div className="p-6 lg:p-8 space-y-8">

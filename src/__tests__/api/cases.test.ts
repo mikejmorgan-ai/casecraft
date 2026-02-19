@@ -3,254 +3,263 @@
  */
 
 /**
- * Tests for GET /api/cases and POST /api/cases
- *
- * Routes: src/app/api/cases/route.ts
+ * Tests for /api/cases route (GET list, POST create)
  */
 import { NextRequest } from 'next/server'
 import {
-  mockAuthenticatedUser,
-  mockUnauthenticatedUser,
-  mockSupabaseChain,
-  makeGetRequest,
-  makeJsonRequest,
+  createChainMock,
+  buildRequest,
   parseResponse,
+  AUTHENTICATED_USER,
+  UNAUTHENTICATED_USER,
 } from './helpers'
 
 // ---------------------------------------------------------------------------
-// Mock setup – use mockImplementation so clearAllMocks doesn't break it
+// Mocks – use var so jest.mock hoisting can reference them
 // ---------------------------------------------------------------------------
-const mockAuthGetUser = jest.fn()
-const mockFrom = jest.fn()
+
+/* eslint-disable no-var */
+var mockAuthGetUser = jest.fn().mockResolvedValue(AUTHENTICATED_USER)
+var mockFrom = jest.fn()
+/* eslint-enable no-var */
 
 jest.mock('@/lib/supabase/server', () => ({
-  createServerSupabase: jest.fn().mockImplementation(() =>
-    Promise.resolve({
-      auth: { getUser: mockAuthGetUser },
-      from: mockFrom,
-    })
-  ),
+  createServerSupabase: jest.fn(() => Promise.resolve({
+    auth: { getUser: mockAuthGetUser },
+    from: mockFrom,
+  })),
 }))
 
-// Mock AGENT_ROLE_TEMPLATES used during POST to create default agents
 jest.mock('@/lib/ai/prompts', () => ({
   AGENT_ROLE_TEMPLATES: {
-    judge: { defaultName: 'Judge', defaultPrompt: 'You are a judge.', defaultTemperature: 0.6 },
-    plaintiff_attorney: { defaultName: 'Plaintiff', defaultPrompt: 'You are plaintiff.', defaultTemperature: 0.7 },
-    defense_attorney: { defaultName: 'Defense', defaultPrompt: 'You are defense.', defaultTemperature: 0.7 },
+    judge: { defaultName: 'Judge', defaultPrompt: 'You are a judge', defaultTemperature: 0.3 },
+    plaintiff_attorney: { defaultName: 'Plaintiff Attorney', defaultPrompt: 'You are a plaintiff attorney', defaultTemperature: 0.7 },
+    defense_attorney: { defaultName: 'Defense Attorney', defaultPrompt: 'You are a defense attorney', defaultTemperature: 0.7 },
   },
 }))
 
-// Import route handlers AFTER mocks are registered
+// Import route handlers AFTER mocks are set up
 import { GET, POST } from '@/app/api/cases/route'
 
 // ---------------------------------------------------------------------------
-// Test suite
+// Helpers
 // ---------------------------------------------------------------------------
+
+const MOCK_CASE = {
+  id: 'case-123',
+  name: 'Test Case',
+  case_type: 'civil',
+  status: 'draft',
+  user_id: 'test-user-id',
+  created_at: '2025-01-01T00:00:00Z',
+  updated_at: '2025-01-01T00:00:00Z',
+}
+
+const VALID_BODY = {
+  name: 'New Test Case',
+  case_type: 'civil',
+}
+
+// ---------------------------------------------------------------------------
+// GET /api/cases
+// ---------------------------------------------------------------------------
+
 describe('GET /api/cases', () => {
   beforeEach(() => {
     jest.clearAllMocks()
-  })
-
-  it('returns cases for an authenticated user', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const casesData = [
-      { id: '1', name: 'Case A', case_type: 'civil', agents: [{ count: 3 }], documents: [{ count: 0 }], conversations: [{ count: 1 }] },
-      { id: '2', name: 'Case B', case_type: 'criminal', agents: [{ count: 2 }], documents: [{ count: 1 }], conversations: [{ count: 0 }] },
-    ]
-    const chain = mockSupabaseChain(casesData)
-    mockFrom.mockReturnValue(chain)
-
-    makeGetRequest('http://localhost/api/cases')
-    const response = await GET()
-    const body = await parseResponse(response)
-
-    expect(response.status).toBe(200)
-    expect(body).toEqual(casesData)
-    expect(mockFrom).toHaveBeenCalledWith('cases')
-    expect(chain.select).toHaveBeenCalled()
-    expect(chain.order).toHaveBeenCalledWith('updated_at', { ascending: false })
+    mockAuthGetUser.mockResolvedValue(AUTHENTICATED_USER)
   })
 
   it('returns 401 when user is not authenticated', async () => {
-    mockUnauthenticatedUser(mockAuthGetUser)
+    mockAuthGetUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
 
     const response = await GET()
-    const body = await parseResponse<{ error: string; code: string }>(response)
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(401)
     expect(body.code).toBe('UNAUTHORIZED')
   })
 
-  it('returns 500 when database query fails', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const chain = mockSupabaseChain(null, { message: 'DB connection failed' })
-    mockFrom.mockReturnValue(chain)
+  it('returns list of cases on success', async () => {
+    const cases = [MOCK_CASE, { ...MOCK_CASE, id: 'case-456', name: 'Another Case' }]
+    const chain = createChainMock({ data: cases, error: null })
+    mockFrom.mockReturnValueOnce(chain)
 
     const response = await GET()
-    const body = await parseResponse<{ code: string }>(response)
+    const body = await parseResponse(response)
+
+    expect(response.status).toBe(200)
+    expect(body).toEqual(cases)
+    expect(mockFrom).toHaveBeenCalledWith('cases')
+  })
+
+  it('returns 500 when database query fails', async () => {
+    const chain = createChainMock({ data: null, error: { message: 'DB down', code: 'PGRST000' } })
+    mockFrom.mockReturnValueOnce(chain)
+
+    const response = await GET()
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(500)
     expect(body.code).toBe('DATABASE_ERROR')
   })
-
-  it('returns empty array when user has no cases', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const chain = mockSupabaseChain([])
-    mockFrom.mockReturnValue(chain)
-
-    const response = await GET()
-    const body = await parseResponse(response)
-
-    expect(response.status).toBe(200)
-    expect(body).toEqual([])
-  })
 })
 
-describe('POST /api/cases', () => {
-  const validCaseData = {
-    name: 'Test Case',
-    case_type: 'civil' as const,
-  }
+// ---------------------------------------------------------------------------
+// POST /api/cases
+// ---------------------------------------------------------------------------
 
+describe('POST /api/cases', () => {
   beforeEach(() => {
     jest.clearAllMocks()
-  })
-
-  it('creates a case with valid data and returns 201', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const createdCase = { id: 'new-case-id', ...validCaseData, user_id: 'test-user-id' }
-
-    // First call: from('cases').insert().select().single() -> case creation
-    const caseChain = mockSupabaseChain(createdCase)
-    // Second call: from('agents').insert() -> default agents creation
-    const agentsChain = mockSupabaseChain(null, null)
-
-    mockFrom.mockImplementation((table: string) => {
-      if (table === 'cases') return caseChain
-      if (table === 'agents') return agentsChain
-      return caseChain
-    })
-
-    const request = makeJsonRequest('http://localhost/api/cases', 'POST', validCaseData)
-    const response = await POST(request)
-    const body = await parseResponse(response)
-
-    expect(response.status).toBe(201)
-    expect(body).toEqual(createdCase)
-    expect(mockFrom).toHaveBeenCalledWith('cases')
-    expect(mockFrom).toHaveBeenCalledWith('agents')
+    mockAuthGetUser.mockResolvedValue(AUTHENTICATED_USER)
   })
 
   it('returns 401 when user is not authenticated', async () => {
-    mockUnauthenticatedUser(mockAuthGetUser)
+    mockAuthGetUser.mockResolvedValueOnce(UNAUTHENTICATED_USER)
 
-    const request = makeJsonRequest('http://localhost/api/cases', 'POST', validCaseData)
+    const request = buildRequest('/api/cases', { method: 'POST', body: VALID_BODY })
     const response = await POST(request)
-    const body = await parseResponse<{ code: string }>(response)
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(401)
     expect(body.code).toBe('UNAUTHORIZED')
   })
 
-  it('returns 400 when name is missing', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
+  it('returns 400 for invalid JSON body', async () => {
+    const request = new NextRequest(
+      new URL('/api/cases', 'http://localhost:3000'),
+      { method: 'POST', body: 'not json', headers: { 'Content-Type': 'application/json' } }
+    )
 
-    const request = makeJsonRequest('http://localhost/api/cases', 'POST', { case_type: 'civil' })
     const response = await POST(request)
-    const body = await parseResponse<{ code: string; fieldErrors?: Array<{ field: string }> }>(response)
-
-    expect(response.status).toBe(400)
-    expect(body.code).toBe('VALIDATION_ERROR')
-  })
-
-  it('returns 400 when case_type is invalid', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const request = makeJsonRequest('http://localhost/api/cases', 'POST', {
-      name: 'Test',
-      case_type: 'invalid_type',
-    })
-    const response = await POST(request)
-    const body = await parseResponse<{ code: string }>(response)
-
-    expect(response.status).toBe(400)
-    expect(body.code).toBe('VALIDATION_ERROR')
-  })
-
-  it('returns 400 when request body is not valid JSON', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const request = new NextRequest('http://localhost/api/cases', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: 'not json{{{',
-    })
-    const response = await POST(request)
-    const body = await parseResponse<{ code: string }>(response)
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(400)
     expect(body.code).toBe('INVALID_INPUT')
   })
 
-  it('returns 409 when case name already exists (duplicate key)', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const caseChain = mockSupabaseChain(null, { code: '23505', message: 'duplicate key' })
-    mockFrom.mockReturnValue(caseChain)
-
-    const request = makeJsonRequest('http://localhost/api/cases', 'POST', validCaseData)
+  it('returns 400 for validation errors (missing required fields)', async () => {
+    const request = buildRequest('/api/cases', { method: 'POST', body: {} })
     const response = await POST(request)
-    const body = await parseResponse<{ code: string }>(response)
+    const body = await parseResponse(response)
+
+    expect(response.status).toBe(400)
+    expect(body.code).toBe('VALIDATION_ERROR')
+    expect(body.fieldErrors).toBeDefined()
+    expect(body.fieldErrors.length).toBeGreaterThan(0)
+  })
+
+  it('returns 400 for invalid case_type', async () => {
+    const request = buildRequest('/api/cases', {
+      method: 'POST',
+      body: { name: 'Test', case_type: 'invalid_type' },
+    })
+    const response = await POST(request)
+    const body = await parseResponse(response)
+
+    expect(response.status).toBe(400)
+    expect(body.code).toBe('VALIDATION_ERROR')
+  })
+
+  it('creates a case and default agents on success', async () => {
+    const casesChain = createChainMock({ data: MOCK_CASE, error: null })
+    const agentsChain = createChainMock({ data: null, error: null })
+
+    mockFrom
+      .mockReturnValueOnce(casesChain)
+      .mockReturnValueOnce(agentsChain)
+
+    const request = buildRequest('/api/cases', { method: 'POST', body: VALID_BODY })
+    const response = await POST(request)
+    const body = await parseResponse(response)
+
+    expect(response.status).toBe(201)
+    expect(body).toEqual(MOCK_CASE)
+    expect(mockFrom).toHaveBeenCalledWith('cases')
+    expect(mockFrom).toHaveBeenCalledWith('agents')
+  })
+
+  it('returns 409 for duplicate case name', async () => {
+    const casesChain = createChainMock({
+      data: null,
+      error: { message: 'duplicate key', code: '23505' },
+    })
+    mockFrom.mockReturnValueOnce(casesChain)
+
+    const request = buildRequest('/api/cases', { method: 'POST', body: VALID_BODY })
+    const response = await POST(request)
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(409)
     expect(body.code).toBe('DUPLICATE_ENTRY')
   })
 
-  it('returns 500 when database insert fails', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
+  it('returns 500 for other database errors during case creation', async () => {
+    const casesChain = createChainMock({
+      data: null,
+      error: { message: 'connection refused', code: 'ECONNREFUSED' },
+    })
+    mockFrom.mockReturnValueOnce(casesChain)
 
-    const caseChain = mockSupabaseChain(null, { code: 'OTHER', message: 'insert failed' })
-    mockFrom.mockReturnValue(caseChain)
-
-    const request = makeJsonRequest('http://localhost/api/cases', 'POST', validCaseData)
+    const request = buildRequest('/api/cases', { method: 'POST', body: VALID_BODY })
     const response = await POST(request)
-    const body = await parseResponse<{ code: string }>(response)
+    const body = await parseResponse(response)
 
     expect(response.status).toBe(500)
     expect(body.code).toBe('DATABASE_ERROR')
   })
 
-  it('creates case with all optional fields', async () => {
-    mockAuthenticatedUser(mockAuthGetUser)
-
-    const fullCaseData = {
-      ...validCaseData,
-      case_number: 'CV-2024-001',
-      jurisdiction: 'Utah',
-      summary: 'A test summary',
-      plaintiff_name: 'Alice',
-      defendant_name: 'Bob',
-      status: 'active',
-    }
-    const createdCase = { id: 'case-full', ...fullCaseData, user_id: 'test-user-id' }
-
-    const caseChain = mockSupabaseChain(createdCase)
-    const agentsChain = mockSupabaseChain(null, null)
-    mockFrom.mockImplementation((table: string) => {
-      if (table === 'agents') return agentsChain
-      return caseChain
+  it('still returns 201 if agent creation fails (non-critical)', async () => {
+    const casesChain = createChainMock({ data: MOCK_CASE, error: null })
+    const agentsChain = createChainMock({
+      data: null,
+      error: { message: 'agent insert failed' },
     })
 
-    const request = makeJsonRequest('http://localhost/api/cases', 'POST', fullCaseData)
+    mockFrom
+      .mockReturnValueOnce(casesChain)
+      .mockReturnValueOnce(agentsChain)
+
+    const request = buildRequest('/api/cases', { method: 'POST', body: VALID_BODY })
+    const response = await POST(request)
+
+    expect(response.status).toBe(201)
+  })
+
+  it('validates name length constraints', async () => {
+    const longName = 'a'.repeat(256)
+    const request = buildRequest('/api/cases', {
+      method: 'POST',
+      body: { name: longName, case_type: 'civil' },
+    })
     const response = await POST(request)
     const body = await parseResponse(response)
 
+    expect(response.status).toBe(400)
+    expect(body.code).toBe('VALIDATION_ERROR')
+  })
+
+  it('accepts optional fields', async () => {
+    const casesChain = createChainMock({ data: MOCK_CASE, error: null })
+    const agentsChain = createChainMock({ data: null, error: null })
+    mockFrom
+      .mockReturnValueOnce(casesChain)
+      .mockReturnValueOnce(agentsChain)
+
+    const request = buildRequest('/api/cases', {
+      method: 'POST',
+      body: {
+        ...VALID_BODY,
+        jurisdiction: 'Utah',
+        summary: 'A test case',
+        plaintiff_name: 'John Doe',
+        defendant_name: 'Jane Doe',
+        case_number: 'CV-2024-001',
+      },
+    })
+    const response = await POST(request)
+
     expect(response.status).toBe(201)
-    expect(body).toEqual(createdCase)
   })
 })

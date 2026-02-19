@@ -5,13 +5,13 @@ import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { CaseWizard } from '@/components/cases/case-wizard'
 import { getUserProfile } from '@/lib/auth/check-permission'
-import { hasPermission } from '@/lib/auth/rbac'
+import { hasPermission, type UserRole } from '@/lib/auth/rbac'
 
 export default async function NewCasePage() {
   const cookieStore = await cookies()
   const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
-  let userRole = 'attorney'
+  let userRole: UserRole = 'attorney'
 
   try {
     const supabase = await createServerSupabase()
@@ -22,7 +22,6 @@ export default async function NewCasePage() {
     const profile = user ? await getUserProfile() : null
     userRole = profile?.role || 'attorney'
   } catch {
-    // Supabase unreachable — allow beta bypass users through
     if (!hasBetaBypass) redirect('/login')
   }
 

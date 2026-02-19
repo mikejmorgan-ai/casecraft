@@ -17,9 +17,12 @@ export default async function DashboardLayout({
 
   try {
     const supabase = await createServerSupabase()
-    const { data: { user: authUser } } = await supabase.auth.getUser()
-    user = authUser
+    const { data } = await supabase.auth.getUser()
+    user = data.user
 
+    if (!user && !hasBetaBypass) redirect('/login')
+
+    // Fetch user profile to get role (skip if beta bypass without user)
     if (user) {
       const { data: profile } = await supabase
         .from('user_profiles')
@@ -28,11 +31,10 @@ export default async function DashboardLayout({
         .single()
       userRole = (profile?.role as UserRole) || 'attorney'
     }
-  } catch {
-    // Supabase unreachable — use defaults for beta bypass users
+  } catch (err) {
+    // If Supabase is unreachable, allow beta bypass users through with defaults
+    if (!hasBetaBypass) redirect('/login')
   }
-
-  if (!user && !hasBetaBypass) redirect('/login')
 
   return (
     <div className="min-h-screen bg-background flex">

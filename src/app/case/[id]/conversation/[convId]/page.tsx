@@ -38,29 +38,31 @@ export default async function ConversationPage({
     if (!user && !hasBetaBypass) redirect('/login')
 
     // Fetch case with agents
-    const { data: cData } = await supabase
+    const { data: caseResult } = await supabase
       .from('cases')
       .select('*, agents(*)')
       .eq('id', caseId)
       .single()
 
-    if (!cData) notFound()
-    caseData = cData
+    if (!caseResult) notFound()
+    caseData = caseResult
 
     // Fetch conversation with messages
-    const { data: conv } = await supabase
+    const { data: convResult } = await supabase
       .from('conversations')
       .select('*, messages(*)')
       .eq('id', convId)
       .eq('case_id', caseId)
       .single()
 
-    if (!conv) notFound()
-    conversation = conv
-  } catch {
+    if (!convResult) notFound()
+    conversation = convResult
+  } catch (err) {
     if (!hasBetaBypass) redirect('/login')
     notFound()
   }
+
+  if (!caseData || !conversation) notFound()
 
   const activeAgents = caseData.agents?.filter((a: { is_active: boolean }) => a.is_active) || []
 

@@ -48,13 +48,16 @@ export async function GET(request: Request) {
         })
       }
 
-      // Log the error for debugging (don't expose details to user)
+      // Log the error for debugging
       console.error('Code exchange error:', exchangeError.message)
+      const errorMessage = encodeURIComponent(exchangeError.message || 'code_exchange_failed')
+      return NextResponse.redirect(`${origin}/login?error=${errorMessage}`)
     } catch (err) {
       console.error('Unexpected error during code exchange:', err)
+      return NextResponse.redirect(`${origin}/login?error=unexpected_error`)
     }
   }
 
-  // Default: redirect to login with error
-  return NextResponse.redirect(`${origin}/login?error=auth_failed`)
+  // No code provided - redirect to login with error
+  return NextResponse.redirect(`${origin}/login?error=no_auth_code`)
 }

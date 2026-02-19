@@ -66,11 +66,8 @@ interface BlindPredictionProps {
 
 export function BlindPrediction({
   caseId,
-  caseName, // eslint-disable-line @typescript-eslint/no-unused-vars
   isBlindTest,
   rulingRevealed,
-  actualRuling, // eslint-disable-line @typescript-eslint/no-unused-vars
-  actualRulingSummary, // eslint-disable-line @typescript-eslint/no-unused-vars
   onPredictionComplete,
 }: BlindPredictionProps) {
   const [loading, setLoading] = useState(false)
