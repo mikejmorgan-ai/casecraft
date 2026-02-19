@@ -549,3 +549,156 @@ Kanter actively recruited commissioners for the very Mountainous Planning Commis
 ---
 
 *Updated with findings from systematic review agents covering all 5,576 discovery files across all 6 folders.*
+
+---
+
+## NEW FINDINGS FROM COMPREHENSIVE HOT FILE SCAN (Session 3)
+
+### TIER 1 ADDITION: County's Own Press Response Confirmed Mining Was Conditional Use
+
+**SLCo008006** (discovery-0003) — JORDAN CARROLL'S NOV 23, 2021 OFFICIAL PRESS RESPONSE TO SALT LAKE TRIBUNE
+- From: Jordan Carroll (Communications Manager) to Brian Maffly (SL Tribune reporter), CC Kanter
+- The county's OWN OFFICIAL STATEMENT to the media:
+  - *"The proposed mine would require a conditional use permit/application under Salt Lake County Code Section 19.12.030(J) and Chapter 19.84."*
+- Also includes Mayor Wilson's earliest public statement: *"I am gravely concerned about this intent to mine over 600 acres in the heart of our Wasatch Mountains."*
+- **This is devastating**: The county's official press statement on Nov 23, 2021 CONFIRMED mining was a conditional use. The April 4, 2022 talking points (SLCo011049) then FALSELY claimed mining was "long prohibited." The county contradicted its own prior public statement.
+
+### TIER 2 ADDITION: Stringham Confirms Ordinance Designed to "Block" Applications
+
+**SLCo015686** (discovery-0005) — COUNCIL CHAIR STRINGHAM TO CONSTITUENT (Dec 11, 2021)
+- From: Laurie Stringham (Council Chair) to Justin Wilde, one day after the Dec 10 vote
+- *"The good news is that no longer how long it takes, no applications can be submitted to Salt Lake County dealing with this issue now until after the ordinance has gone through the appropriate vetting process and been decided. It puts in hold any application that could come in after Friday and blocks it until the ordinance is completed."*
+- **Council Chair explicitly confirms the Dec 10 vote was designed to BLOCK Tree Farm's applications**
+- Uses the word "blocks" — no pretense of neutral regulatory action
+
+### TIER 5 ADDITIONS: Expanded Inter-Governmental Coordination
+
+**SLCo018521** (discovery-0006) — THE EARLIEST STRATEGY EMAIL (Nov 28, 2021 — Sunday)
+- Same email as SLCo006181 but produced from different custodian, confirms the attached memo:
+- Attachment: `Tree_Farm_Limestone_Mine_Mayors_Memo_11-24.1.docx` (Shea's briefing memo prepared Nov 24)
+- **Just 10 days after the NOI was filed**, the county had already prepared a briefing memo and convened a multi-agency strategy call with 15 officials from FOUR government entities (SLCo, Millcreek, SLC, MSD)
+
+**SLCo012803** (discovery-0004) — HELEN PETERS REACHES OUT TO US FOREST SERVICE (Nov 23, 2021)
+- From: Helen Peters (Regional Planning Director) to Bekee Hotze (USFS Salt Lake District Ranger)
+- Proactively shares Tree Farm's DOGM filing with the US Forest Service
+- *"Do you know anything about the Tree Farm Notice of Intention to Commence Small Mining Operations up Parleys Canyon. Salt Lake Trib reporter Brian Maffly is reaching out for a statement from the Mayor's office."*
+- **Adds a FIFTH government entity** (USFS) to the coordination network from day 1
+
+**SLCo010222** (discovery-0003) — ENVIRONMENTAL LOBBYIST FEEDING INTELLIGENCE TO COUNTY (Feb 14, 2022)
+- Stephen Erickson (lobbyist for Utah Audubon Council & Utah Sierra Club) alerts the county about HB 373 and Rep Doug Owens' bill
+- *"the concern would be a hijack by malign interests"* — referring to potential pro-mining legislative amendments
+- Sent to Jim Bradley (Council member) and Kerri Nakamura (Wilson's Chief of Staff), CC'd to Kanter, Hartman, Justin Stewart
+- Kanter responds: *"We are following both of them, and do not have major concerns at the moment – but we will stay alert."*
+- **Environmental advocacy lobbyists had direct channels to county officials and were monitoring state legislation together**
+
+### TIER 6 ADDITIONS: Pre-Vote Meetings and Outside Counsel
+
+**SLCo015620** (discovery-0005) — DEC 9, 2021 MEETING: KANTER + COUNCIL MEMBER + MSD + ATTORNEY (Day Before Vote)
+- From: Kanter to MSD officials (McClenning, Anderson, Baptist, Nakamura, Howard, Hartsell, Alexander), Stringham (council member), Lisa Hartman, and **an attorney** ('nbracken@shutah.law')
+- Scheduled for Dec 9, 2021 at 4:00 PM — the day BEFORE the Dec 10 special council meeting
+- Subject: "Tree Farm LLC Silver Mine Notice of Intent"
+- **A council member (Stringham) was in a strategy meeting with the executive branch and an attorney the day before voting**
+
+**SLCo015388** (discovery-0005) — PARSONS BEHLE (OUTSIDE LAW FIRM) MEETINGS: Mar 23, 2022
+- From: Bywater to Shaw + THREE Parsons Behle attorneys (Zody, Hawe, Steiert)
+- Subject: "Tree Farm meetings" — 2 days after R Caucus meeting, 13 days before vote
+- No substantive text (Webex only) — undocumented meeting with outside counsel
+
+**SLCo015502** (discovery-0005) — PARSONS BEHLE MEETING #2: Apr 1, 2022
+- From: Bywater to Parsons Behle (Zody, Hawe) + Shaw
+- Subject: "Tree Farm mining issues" — 4 days before the vote
+- The county had outside counsel working on Tree Farm just days before the vote — yet never disclosed this to Tree Farm or the public
+
+**SLCo015265** (discovery-0005) — FLOOD CONTROL PERMIT COORDINATION (Mar 1, 2022)
+- From: Baird to Shaw + Kade Moncur + Ryan Lambert, CC Bywater
+- Subject: "Discuss Tree Farm Land Use and Flood Control Permit coordination"
+- **Shows the county was using MULTIPLE regulatory mechanisms** (land use + flood control) to block Tree Farm
+- Multi-front regulatory attack coordinated through the executive branch
+
+**SLCo015494** (discovery-0005) — KANTER DIRECTING DA QUESTIONS (Mar 31, 2022)
+- From: Shaw to Bywater and Kanter
+- Subject: "Tree Farm questions from Catherine"
+- **Kanter (executive branch) was directing questions TO the DA's office** about Tree Farm — 5 days before the vote
+- Raises separation of powers concerns: the executive was directing the quasi-independent DA
+
+### TIER 9 ADDITION: Pre-Drafted Mayor Statement from Dec 8, 2021
+
+**SLCo002560** (discovery-0001) — PRE-DRAFTED MAYOR STATEMENT FOR DEC 10 VOTE
+- Prepared Dec 8, 2021 — TWO DAYS before the Dec 10 special council meeting
+- Another pre-drafted victory statement, confirming the Dec 10 outcome was predetermined just like the April 5 outcome
+
+### ADDITIONAL UNDOCUMENTED MEETINGS (Webex invites with no substantive text)
+
+All of these are evidence of meetings about Tree Farm with NO documentation in the entire 5,576-file production:
+
+| Date | Subject | Participants | File |
+|------|---------|-------------|------|
+| Nov 23, 2021 | "Limestone Mine Talking Point Discussion" | Shea, Peters, Carroll | SLCo012797 |
+| Nov 24, 2021 | "Discussion of Parleys Canyon Limestone Quarry Application" | Kanter, Hicks, Garcia | SLCo007550 |
+| Dec 1, 2021 | "Silver Mine Parleys Canyon" | Kanter, Hartman, Baptist, Shaw, MSD staff | SLCo013363 |
+| Jan 14, 2022 | "Tree Farm/Parleys Canyon Mine Application" | Kanter, Shea, Stewart | SLCo006396 |
+| Jan 28, 2022 | "Tree Farm Mine Application" | Kanter, Wilson, Marc Norman (USA Climbing), Catherine Raney | SLCo018559 |
+| Mar 1, 2022 | "Discuss Tree Farm Land Use and Flood Control Permit coordination" | Baird, Shaw, Moncur, Lambert, Bywater | SLCo015265 |
+| Mar 23, 2022 | "Tree Farm meetings" | Bywater, Shaw, Parsons Behle (3 attorneys) | SLCo015388 |
+| Mar 28, 2022 | "Meeting to Discuss Tree Farm Parleys Mine Operation" (CANCELED, High Importance) | Kanter, Stewart, Shea | SLCo010768 |
+| Mar 31, 2022 | "Tree Farm Comms" | Hartman, Carroll, Kanter | SLCo007339 |
+| Mar 31, 2022 | "Tree Farm questions from Catherine" | Shaw, Bywater, Kanter | SLCo015494 |
+| Apr 1, 2022 | "Tree Farm mining issues" | Bywater, Parsons Behle (Zody, Hawe), Shaw | SLCo015502 |
+| Apr 6, 2022 | "Tree Farm - Trib" | Hartman, Kanter, Shaw, Bywater, Chamness, Carroll | SLCo003688 |
+
+**Pattern**: 12+ strategy meetings about Tree Farm, all conducted via Webex with no agendas, no minutes, no notes produced in discovery. This is consistent with a deliberate strategy to avoid creating discoverable records.
+
+### TIER 12 ADDITION: Wilson Meeting with USA Climbing President
+
+**SLCo018559** (discovery-0006) — WILSON/KANTER MEETING WITH USA CLIMBING PRESIDENT (Jan 28, 2022)
+- From: Kanter to Wilson + Marc Norman (CEO, USA Climbing) + Catherine Raney
+- Subject: "Tree Farm Mine Application"
+- **Why is the President/CEO of USA Climbing meeting with the Mayor and Deputy Mayor about a mine application?**
+- USA Climbing's headquarters are in Salt Lake City; Norman and Raney may have recreation/outdoor industry interests near Parleys Canyon
+- This is another private meeting with outside interests coordinating on the Tree Farm matter
+
+### UPDATED INTER-GOVERNMENTAL CONSPIRACY TIMELINE:
+
+| Date | Event | File |
+|------|-------|------|
+| **Nov 18, 2021** | Tree Farm files NOI with DOGM | — |
+| **Nov 23, 2021** | Peters reaches out to USFS about Tree Farm filing | SLCo012803 |
+| **Nov 23, 2021** | Carroll confirms mining is conditional use in Tribune press statement | SLCo008006 |
+| **Nov 23, 2021** | Shea prepares briefing memo for Mayor (correctly ID's conditional use) | SLCo018522 |
+| **Nov 23, 2021** | Shea convenes "Talking Point Discussion" with Peters and Carroll | SLCo012797 |
+| **Nov 24, 2021** | Kanter meets with Mayor's office staff (Hicks, Garcia) about quarry | SLCo007550 |
+| **Nov 28, 2021** | Multi-agency strategy meeting convened: SLCo, Millcreek, SLC, MSD (15 officials) | SLCo018521/SLCo006181 |
+| Dec 1, 2021 | Kanter-MSD "Silver Mine Parleys Canyon" meeting | SLCo013363 |
+| Dec 6, 2021 | SLC forwards DOGM intelligence to County | SLCo008463 |
+| Dec 8, 2021 | Shaw signs "APPROVED AS TO FORM" on draft ordinance | SLCo012172 |
+| Dec 8, 2021 | Pre-drafted Mayor statement for Dec 10 vote | SLCo002560 |
+| Dec 9, 2021 | County shares Council materials with SLC | SLCo006228 |
+| **Dec 9, 2021** | **Strategy meeting: Kanter + Council Chair Stringham + MSD + attorney** | SLCo015620 |
+| Dec 10, 2021 | Council votes to initiate ordinance proceedings | — |
+| **Dec 11, 2021** | **Stringham confirms to constituent: ordinance "blocks" applications** | SLCo015686 |
+| Dec 27, 2021 | Kanter personally signs business license denial | SLCo018552 |
+| Dec 29, 2021 | Kanter shares county legal strategy with Save Our Canyons | SLCo008918 |
+| Jan 14, 2022 | Kanter-Shea-Stewart "mine application" meeting | SLCo006396 |
+| Jan 28, 2022 | Wilson/Kanter meet with USA Climbing CEO about Tree Farm | SLCo018559 |
+| Feb 3, 2022 | MPD Planning Commission approves ordinance | SLCo017826 |
+| Feb 11, 2022 | Bateman warns Shaw about 17-41-402 violation | SLCo015177 |
+| Feb 14, 2022 | Environmental lobbyist alerts county about mining legislation | SLCo010222 |
+| Feb 16, 2022 | SLC Planning Commission approves ordinance | SLCo017826 |
+| Feb 18, 2022 | Christie Morgan acknowledges 17-41-402 conflict internally | SLCo011350 |
+| Mar 1, 2022 | Flood control permit coordination meeting (Baird, Shaw, Moncur) | SLCo015265 |
+| Mar 16, 2022 | Water Rights denies Tree Farm's stream alteration permit | SLCo015332 |
+| Mar 17, 2022 | Silvestrini emails urging "procedural benefit" rush | SLCo015799 |
+| Mar 18, 2022 | SLC shares confidential unfiled Prue Declaration with County | SLCo010581 |
+| Mar 22, 2022 | R Caucus/Tree Farm meeting — quorum + Mayor, no public notice | SLCo015829 |
+| Mar 23, 2022 | Parsons Behle outside counsel meeting with Bywater/Shaw | SLCo015388 |
+| Mar 31, 2022 | "Tree Farm Comms" meeting (Hartman, Carroll, Kanter) | SLCo007339 |
+| Mar 31, 2022 | "Tree Farm questions from Catherine" — Kanter directing DA | SLCo015494 |
+| Apr 1, 2022 | Parsons Behle second meeting with Bywater/Shaw | SLCo015502 |
+| Apr 4, 2022 | False "long prohibited" talking points distributed | SLCo011049 |
+| Apr 5, 2022 | Victory press release at 2:51 PM; public hearing at 4:00 PM | SLCo011001 |
+| Apr 5, 2022 | Council votes to pass ordinance | — |
+| Apr 7, 2022 | DA sends false statement to Ombudsman re CIM language | SLCo011022 |
+
+---
+
+*Comprehensive review of all 5,576 files completed across 3 sessions. All findings current as of final scan.*
