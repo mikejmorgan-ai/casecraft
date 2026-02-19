@@ -234,7 +234,28 @@ The county simultaneously denied Tree Farm a business license for lacking a Cond
 
 ---
 
-## TIER 9: FALSE PUBLIC STATEMENTS / MISREPRESENTATIONS
+## TIER 9: PRE-DRAFTED VICTORY PRESS RELEASE (Before the Vote)
+
+The Mayor drafted an "applauds" press statement BEFORE the public hearing and vote, confirming the outcome was predetermined.
+
+### Evidence Files:
+
+**SLCo011001** (discovery-0004) — PRESS RELEASE DRAFTED BEFORE VOTE
+- Internal email chain, April 5, 2022 (the day of the vote)
+- At 1:21 PM, Communications Director Katy Fleury writes: *"the mayor talked with Ralph then drafted the quote and wants to send her statement before the vote. And also for it to be handed out to the public."*
+- The pre-drafted statement: *"Salt Lake County Mayor Jenny Wilson Applauds Council's Vote to Prohibit Mining in Canyons"*
+- **The public hearing had not yet started (it was set for 4 PM) but the Mayor already had her victory statement ready to hand out**
+- This is definitive proof the outcome was predetermined — why draft a "we applaud the vote" press release before the public has even spoken?
+
+**SLCo011047** (discovery-0004) — KANTER: "OUR MESSAGING CONTINUES TO EVOLVE"
+- Kanter to Communications staff, April 14, 2022
+- *"Our messaging continues to 'evolve' as we work through this process."*
+- Katy Fleury confirms the prepared deflection: *"I can't comment on hypothetical legal cases."*
+- Shows deliberate management of the narrative and pre-scripted legal deflection
+
+---
+
+## TIER 10: FALSE PUBLIC STATEMENTS / MISREPRESENTATIONS
 
 County officials made demonstrably false statements about the ordinance to the public.
 
@@ -362,6 +383,17 @@ Kanter actively recruited commissioners for the very Mountainous Planning Commis
 - She acknowledged her "team is working through" the issue 9 days before any public process
 - She attended the March 22 R Caucus/Tree Farm meeting (quorum meeting without public notice)
 - Her visceral "Uggggh" reaction shows personal opposition, not regulatory neutrality
+
+---
+
+### Shea Briefing Memo (Nov 23, 2021):
+**SLCo018522** (discovery-0006) — THE ORIGINAL STRATEGY DOCUMENT
+- Michael Shea's briefing memo to Mayor Wilson and Kanter, prepared Nov 23, 2021
+- **Correctly identifies mining as a CONDITIONAL USE**: *"The proposed mine would require a conditional use permit/application under Salt Lake County Code Section 19.12.030(J)"*
+- This directly contradicts the April 2022 talking points falsely claiming mining had been "long prohibited"
+- Recommendation was only to *"issue a statement citing potential concerns"* — but within days it escalated to a 15-person multi-agency strategy meeting and ultimately an ordinance change
+- Even acknowledges benefits: *"The mine would provide tax revenue for the MSD and jobs for residents of SLCo."*
+- **This is the county's own internal analysis confirming that mining was a permitted conditional use, not prohibited — making the later "long prohibited" talking points knowingly false**
 
 ---
 
