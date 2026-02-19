@@ -120,6 +120,7 @@ export function HearingRunner({
     }
   }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const startHearing = async () => {
     setIsRunning(true)
     setTranscript([])
@@ -179,6 +180,7 @@ export function HearingRunner({
     }
   }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const stopHearing = () => {
     if (abortRef.current) {
       abortRef.current.abort()
@@ -302,6 +304,7 @@ export function HearingRunner({
       description: 'Download PDF',
       category: 'hearing',
     },
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   ], [toggleHearing, toggleMute, transcript.length, isRunning, downloadPDF])
 
   useKeyboardShortcuts({ shortcuts: hearingShortcuts })

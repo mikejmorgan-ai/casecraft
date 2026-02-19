@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
@@ -46,6 +46,14 @@ const SIGNUP_ROLES: { role: UserRole; icon: React.ReactNode }[] = [
 ]
 
 export default function SignupPage() {
+  return (
+    <Suspense>
+      <SignupPageContent />
+    </Suspense>
+  )
+}
+
+function SignupPageContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
 
@@ -303,6 +311,20 @@ export default function SignupPage() {
         </CardContent>
 
         <CardFooter id="signup-footer" className="flex flex-col gap-4">
+          <Button
+            id="btn-beta-bypass"
+            type="button"
+            variant="outline"
+            className="w-full border-dashed border-yellow-600 text-yellow-500 hover:bg-yellow-500/10 hover:text-yellow-400"
+            onClick={() => {
+              // Don't use Secure flag — prevents cookie from being set on HTTP (localhost)
+              document.cookie = 'beta_bypass=true; path=/; SameSite=Lax'
+              router.push('/dashboard')
+            }}
+          >
+            Beta Bypass (Skip Login)
+          </Button>
+
           <p className="text-sm text-muted-foreground text-center">
             Already have an account?{' '}
             <Link href="/login" className="text-primary hover:underline">

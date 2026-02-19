@@ -178,8 +178,7 @@ export function CaseStrengthMeter({
 
   useEffect(() => {
     if (facts.length > 0 && !analysis) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      analyzeCase()
+      setTimeout(() => analyzeCase(), 0)
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [facts])

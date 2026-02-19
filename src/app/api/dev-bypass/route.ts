@@ -3,7 +3,7 @@ import { cookies } from 'next/headers'
 
 export async function GET(request: NextRequest) {
   const cookieStore = await cookies()
-  cookieStore.set('dev_bypass', 'true', {
+  cookieStore.set('beta_bypass', 'true', {
     path: '/',
     httpOnly: false,
     secure: false,

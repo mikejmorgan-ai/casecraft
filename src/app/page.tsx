@@ -16,17 +16,16 @@ export default function HomePage() {
             <span className="text-xl font-serif font-bold">CaseCraft</span>
           </div>
           <div className="flex gap-4">
-            <Link href="/login">
-              <Button
-                variant="ghost"
-                className="text-primary-foreground hover:text-primary-foreground hover:bg-white/10"
-              >
-                Sign In
-              </Button>
-            </Link>
-            <Link href="/signup">
-              <Button variant="secondary">Get Started</Button>
-            </Link>
+            <Button
+              variant="ghost"
+              className="text-primary-foreground hover:text-primary-foreground hover:bg-white/10"
+              asChild
+            >
+              <Link href="/login">Sign In</Link>
+            </Button>
+            <Button variant="secondary" asChild>
+              <Link href="/signup">Get Started</Link>
+            </Button>
           </div>
         </div>
       </StickyHeader>
@@ -41,11 +40,9 @@ export default function HomePage() {
             Sharpen your courtroom skills with AI-powered simulations. Practice hearings, depositions,
             and case strategy sessions in a risk-free environment designed for legal professionals.
           </p>
-          <Link href="/signup">
-            <Button size="lg" variant="secondary" className="text-lg px-8 cta-button">
-              Start Your Free Trial
-            </Button>
-          </Link>
+          <Button size="lg" variant="secondary" className="text-lg px-8 cta-button" asChild>
+            <Link href="/signup">Start Your Free Trial</Link>
+          </Button>
         </div>
       </section>
 
@@ -93,11 +90,9 @@ export default function HomePage() {
           <p className="text-gray-300 mb-8 max-w-xl mx-auto">
             Join thousands of legal professionals who are sharpening their skills with CaseCraft. Start your free trial and experience the future of legal preparation.
           </p>
-          <Link href="/signup">
-            <Button size="lg" variant="secondary" className="cta-button">
-              Start Free Trial
-            </Button>
-          </Link>
+          <Button size="lg" variant="secondary" className="cta-button" asChild>
+            <Link href="/signup">Start Free Trial</Link>
+          </Button>
         </div>
       </section>
 
