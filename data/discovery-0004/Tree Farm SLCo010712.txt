@@ -1,0 +1,12 @@
+Event: DOGM Tree Farm Hearing
+Start Date: 2022-03-23 10:00:00 -0600
+End Date: 2022-03-23 10:30:00 -0600
+Organizer: Catherine Kanter <CKanter@slco.org>
+Class: X-PERSONAL
+Date Created: 2022-03-15 14:23:28 -0600
+Date Modified: 2022-06-23 18:37:01 -0600
+Priority: 5
+Alarm: Display the following message 15m before start
+Reminder
+
+

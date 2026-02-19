@@ -1,0 +1,47 @@
+Event: Tree Farm Comms
+Start Date: 2022-04-01 11:30:00 -0600
+End Date: 2022-04-01 12:00:00 -0600
+Organizer: Lisa Hartman <LHartman@slco.org>
+Location: https://slco.webex.com/slco/j.php?MTID=mb8800e7644ffd1c8f05696bf9105fa32
+Class: X-PERSONAL
+Date Created: 2022-03-31 15:26:58 -0600
+Date Modified: 2022-03-31 15:27:00 -0600
+Priority: 5
+DTSTAMP: 2022-03-31 15:26:58 -0600
+Attendee: Jordan Carroll <JCarroll@slco.org>; Catherine Kanter <CKanter@slco.org>
+Alarm: Display the following message 15m before start
+Reminder
+
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-- Do not delete or change any of the following text. --
+
+When it's time, join your Webex meeting here.
+
+Join meeting
+More ways to join:
+Join from the meeting link
+
+https://slco.webex.com/slco/j.php?MTID=mb8800e7644ffd1c8f05696bf9105fa32
+Join by meeting number
+
+Meeting number (access code): 2490 544 5158
+Meeting password: Xa8vWHQS5V3
+
+Tap to join from a mobile device (attendees only)
+
++1-213-306-3065,,24905445158## United States Toll (Los Angeles)
++1-602-666-0783,,24905445158## United States Toll (Phoenix)
+Join by phone
+
++1-213-306-3065 United States Toll (Los Angeles)
++1-602-666-0783 United States Toll (Phoenix)
+Global call-in numbers
+Join from a video system or application
+
+Dial 24905445158@slco.webex.com
+You can also dial 173.243.2.68 and enter your meeting number.
+
+If you are a host, click here to view host information.
+
+Need help? Go to https://help.webex.com
+
+

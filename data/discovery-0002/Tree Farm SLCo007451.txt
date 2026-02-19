@@ -1,0 +1,12 @@
+Event: Accepted: Tree Farm - Trib
+Start Date: 2022-04-11 12:00:00 -0600
+End Date: 2022-04-11 12:30:00 -0600
+Organizer: Lisa Hartman <LHartman@slco.org>
+Location: https://slco.webex.com/slco/j.php?MTID=m1248c3df705ec2f3f8a2bb6eb35e4423
+Class: X-PERSONAL
+Date Created: 2022-04-06 12:52:35 -0600
+Date Modified: 2022-04-07 08:32:10 -0600
+Priority: 5
+DTSTAMP: 2022-04-06 12:52:31 -0600
+
+

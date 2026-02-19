@@ -1,0 +1,58 @@
+Event: Helen Peters 1:1
+Start Date: 2022-03-22 11:00:00 -0600
+End Date: 2022-03-22 11:45:00 -0600
+Organizer: Tiffany Marquez <TMarquez@slco.org>
+Class: X-PERSONAL
+Date Created: 2022-03-22 08:13:31 -0600
+Date Modified: 2022-03-22 09:39:07 -0600
+Priority: 5
+DTSTAMP: 2021-09-16 13:29:51 -0600
+Attendee: Helen Peters <HPeters@slco.org>; Dina Blaes <DBlaes@slco.org>; Zachary Shaw
+<ZShaw@slco.org>
+Alarm: Display the following message 10m before start
+Reminder
+Zach, please join us at the top of our regular weekly meeting to discuss, very briefly, the FR ordinance Granicus entry.
+-----Original Appointment----From: Tiffany Marquez <TMarquez@slco.org>
+Sent: Thursday, August 26, 2021 2:34 PM
+To: Tiffany Marquez; Helen Peters; Dina Blaes
+Subject: Helen Peters 1:1
+When: Tuesday, March 22, 2022 11:00 AM-11:45 AM (UTC-07:00) Mountain Time (US & Canada).
+Where:
+
+-- Do not delete or change any of the following text. --
+
+When it's time, join your Webex meeting here.
+
+Join meeting
+More ways to join:
+Join from the meeting link
+
+https://slco.webex.com/slco/j.php?MTID=m05f42f906db4ac6f0ee302ff860d9284
+
+Join by meeting number
+
+Meeting number (access code): 1469 70 2657
+Meeting password: eUJHcMUd433
+Tap to join from a mobile device (attendees only)
+
++1-213-306-3065,,1469702657## United States Toll (Los Angeles)
++1-602-666-0783,,1469702657## United States Toll (Phoenix)
+Join by phone
+
++1-213-306-3065 United States Toll (Los Angeles)
++1-602-666-0783 United States Toll (Phoenix)
+Global call-in numbers
+Join from a video system or application
+
+Dial 1469702657@slco.webex.com
+You can also dial 173.243.2.68 and enter your meeting number.
+
+Join using Microsoft Lync or Microsoft Skype for Business
+
+Dial 1469702657.slco@lync.webex.com
+
+If you are a host, click here to view host information.
+
+Need help? Go to https://help.webex.com
+
+

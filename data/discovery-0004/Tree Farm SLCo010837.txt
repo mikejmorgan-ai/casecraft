@@ -1,0 +1,11 @@
+Event: Accepted: Tree Farm questions from Catherine
+Start Date: 2022-04-01 09:30:00 -0600
+End Date: 2022-04-01 10:00:00 -0600
+Organizer: Zachary Shaw <ZShaw@slco.org>
+Class: X-PERSONAL
+Date Created: 2022-03-31 17:36:02 -0600
+Date Modified: 2022-03-31 17:36:05 -0600
+Priority: 5
+DTSTAMP: 2022-03-31 17:36:01 -0600
+
+

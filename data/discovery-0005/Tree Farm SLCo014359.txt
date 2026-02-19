@@ -1,0 +1,13 @@
+Event
+Start Date: 2022-06-29 12:00:00 -0600
+End Date: 2022-06-29 13:00:00 -0600
+Class: X-PERSONAL
+Date Created: 2022-07-06 13:12:28 -0600
+Date Modified: 2025-05-14 19:36:14 -0600
+Priority: 5
+Attendee: Catherine Kanter <CKanter@slco.org>; Zachary Shaw <ZShaw@slco.org>; Ralph
+Chamness <RChamness@slco.org>; Helen Peters <HPeters@slco.org>; Scott Baird
+<SBaird@slco.org>; Lisa Hartman <LHartman@slco.org>; Dina Blaes <DBlaes@slco.org>; Michael
+Shea <MShea@slco.org>; Tim Bywater <TBywater@slco.org>
+
+

@@ -1,0 +1,10 @@
+Event: Tree Farm w/ 2 D's
+Start Date: 2022-03-08 13:00:00 -0700
+End Date: 2022-03-08 14:00:00 -0700
+Organizer: Catherine Kanter <CKanter@slco.org>
+Class: X-PERSONAL
+Date Created: 2022-03-17 14:23:36 -0600
+Date Modified: 2022-03-17 14:26:11 -0600
+Priority: 5
+
+

@@ -1,0 +1,12 @@
+Event: Accepted: Meeting to Discuss Tree Farm Parleys Mine Operation
+Start Date: 2022-03-28 10:00:00 -0600
+End Date: 2022-03-28 11:00:00 -0600
+Location: WebEx
+Class: X-PERSONAL
+Date Created: 2022-03-24 07:27:12 -0600
+Date Modified: 2022-03-24 07:27:15 -0600
+Priority: 5
+DTSTAMP: 2022-03-24 07:27:12 -0600
+Attendee: Catherine Kanter <CKanter@slco.org>
+
+

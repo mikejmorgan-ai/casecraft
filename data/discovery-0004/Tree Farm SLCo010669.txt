@@ -1,0 +1,30 @@
+Event: HOLD: R Caucus/Tree Farm
+Start Date: 2022-03-22 16:30:00 -0600
+End Date: 2022-03-22 17:30:00 -0600
+Organizer: Lisa Hartman <LHartman@slco.org>
+Location: In person - Council Conference Room
+Class: X-PERSONAL
+Date Created: 2022-03-21 14:33:12 -0600
+Date Modified: 2022-03-21 17:28:51 -0600
+Priority: 5
+DTSTAMP: 2022-03-21 09:06:00 -0600
+Attendee: Laurie L. Stringham <LLStringham@slco.org>; Steven L. DeBry <SLDeBry@slco.org>;
+Richard Snelgrove <RSnelgrove@slco.org>; David Alvord <DAlvord@slco.org>; Dea H. Theodore
+<DHTheodore@slco.org>; Mitch Park <MPark@slco.org>; Abby Evans <AMEvans@slco.org>; Sam
+Klemm <sklemm@slco.org>; Kyler J. Brower <KJBrower@slco.org>; Danielle Wallace
+<DWallace@slco.org>; Corinne L. Johnson <CLJohnson@slco.org>; Catherine Kanter
+<CKanter@slco.org>; Zachary Shaw <ZShaw@slco.org>; Tim Bywater <TBywater@slco.org>;
+Christie Morgan <CMorgan@slco.org>
+Alarm: Display the following message 15m before start
+Reminder
+
+________________________________________________________________________________
+
+Microsoft Teams meeting
+Join on your computer or mobile app
+Click here to join the meeting
+Learn More | Meeting options
+
+________________________________________________________________________________
+
+

@@ -1,0 +1,12 @@
+Event: Tentative: Meeting re: Tree Farm Application Status
+Start Date: 2022-01-05 12:00:00 -0700
+End Date: 2022-01-05 13:00:00 -0700
+Organizer: Catherine Kanter <CKanter@slco.org>
+Location: webex
+Class: X-PERSONAL
+Date Created: 2022-01-03 10:49:03 -0700
+Date Modified: 2022-06-23 18:35:34 -0600
+Priority: 5
+DTSTAMP: 2022-01-03 10:49:01 -0700
+
+

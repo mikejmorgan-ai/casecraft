@@ -1,0 +1,12 @@
+Event: Accepted: Meeting re: Tree Farm Application Status
+Start Date: 2022-01-05 12:00:00 -0700
+End Date: 2022-01-05 13:00:00 -0700
+Location: webex
+Class: X-PERSONAL
+Date Created: 2022-01-03 10:09:54 -0700
+Date Modified: 2022-06-23 18:35:30 -0600
+Priority: 5
+DTSTAMP: 2022-01-03 10:09:45 -0700
+Attendee: Catherine Kanter <CKanter@slco.org>
+
+

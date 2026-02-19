@@ -1,0 +1,12 @@
+Event: Accepted: Tree Farm Status
+Start Date: 2022-03-23 12:15:00 -0600
+End Date: 2022-03-23 13:15:00 -0600
+Class: X-PERSONAL
+Comment: When: Mar 23, 2022 12:15:00 PM
+Date Created: 2022-03-23 12:01:33 -0600
+Date Modified: 2022-06-23 18:39:00 -0600
+Priority: 5
+DTSTAMP: 2022-03-23 12:01:31 -0600
+Attendee: Catherine Kanter <CKanter@slco.org>
+
+

@@ -1,0 +1,16 @@
+Event: Declined: Tree Farm Status
+Start Date: 2022-01-12 12:00:00 -0700
+End Date: 2022-01-12 13:00:00 -0700
+Organizer: Catherine Kanter <CKanter@slco.org>
+Location: WebEx
+Class: X-PERSONAL
+Date Created: 2022-01-06 10:33:21 -0700
+Date Modified: 2022-06-23 18:34:16 -0600
+Priority: 5
+DTSTAMP: 2022-01-06 10:32:47 -0700
+Recurs: Weekly on WE until 2022-03-31
+Catherine,
+Helen and I will not be able to attend this meeting. We have the Planning Commission training event from 10-2 that day.
+Dina
+
+

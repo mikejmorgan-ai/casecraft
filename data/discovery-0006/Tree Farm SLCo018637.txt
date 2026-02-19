@@ -1,0 +1,33 @@
+Event: FW: HOLD: R Caucus/Tree Farm
+Start Date: 2022-03-22 16:30:00 -0600
+End Date: 2022-03-22 17:30:00 -0600
+Organizer: Lisa Hartman <LHartman@slco.org>
+Location: In person - Council Conference Room
+Class: X-PERSONAL
+Date Created: 2022-03-22 10:01:53 -0600
+Date Modified: 2022-04-22 04:34:37 -0600
+Priority: 5
+DTSTAMP: 2022-03-22 10:00:24 -0600
+Attendee: Jenny Wilson <JWilson@slco.org>
+Alarm: Display the following message 15m before start
+Reminder
+
+-----Original Appointment----From: Lisa Hartman <LHartman@slco.org>
+Sent: Tuesday, March 22, 2022 10:00 AM
+To: Lisa Hartman; Abigail Roberson; Steven L. DeBry; Kyler J. Brower; Danielle Wallace; Richard Snelgrove; Corinne L.
+Johnson; Zachary Shaw; Catherine Kanter; Abby Evans; Sam Klemm; Tim Bywater; Mitch Park; Dea H. Theodore; David
+Alvord; Laurie L. Stringham; Christie Morgan
+Subject: HOLD: R Caucus/Tree Farm
+When: Tuesday, March 22, 2022 4:30 PM-5:30 PM (UTC-07:00) Mountain Time (US & Canada).
+Where: In person - Council Conference Room
+
+________________________________________________________________________________
+
+Microsoft Teams meeting
+Join on your computer or mobile app
+Click here to join the meeting
+Learn More | Meeting options
+
+________________________________________________________________________________
+
+

@@ -1,0 +1,14 @@
+Event: Meeting re: Tree Farm
+Start Date: 2022-02-01 16:00:00 -0700
+End Date: 2022-02-01 17:00:00 -0700
+Organizer: Catherine Kanter <CKanter@slco.org>
+Location: Mayor's Office Large Conference Room (In Person)
+Class: X-PERSONAL
+Date Created: 2022-01-28 13:42:29 -0700
+Date Modified: 2022-02-02 09:50:20 -0700
+Priority: 5
+DTSTAMP: 2022-01-28 13:42:27 -0700
+Attendee: Gregory Baptist <GBaptist@msd.utah.gov>; Tim Bywater <TBywater@slco.org>;
+Melissa Anderson <MAnderson@msd.utah.gov>
+
+

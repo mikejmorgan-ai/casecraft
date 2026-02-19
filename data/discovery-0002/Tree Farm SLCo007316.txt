@@ -1,0 +1,15 @@
+From: "DoNotReply@Granicus.com" <DoNotReply@Granicus.com>
+To: <Lhartman@slco.org>
+Subject: Approval Tracking - Alternate Approver Not Available
+Date: Sat, 26 Mar 2022 00:08:58 -0600
+Importance: Normal
+
+Vanessa Nelson,
+The system attempted to escalate a proposed Discussion Items, 22-0286: Presentation and Public Hearing for the Ordinance
+Amendment of Section 19.12.030 of the Salt Lake County Code Related to Mineral Extraction and Processing in the
+Forestry and Recreation Zone but found that no alternate approver has been setup for Lisa Hartman. Please contact a
+system administrator to set one up for you, or take action on your part.
+This is an automatic notice from your Legistar® Approval Tracking System. Please do not ‘Reply’ to this email. Thank
+you.
+
+

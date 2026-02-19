@@ -1,0 +1,12 @@
+Event: Accepted: Tree Farm
+Start Date: 2022-03-22 13:00:00 -0600
+End Date: 2022-03-22 14:00:00 -0600
+Organizer: Lisa Hartman <LHartman@slco.org>
+Location: In Person - Mayor's Large Conference Room
+Class: X-PERSONAL
+Date Created: 2022-03-18 10:38:41 -0600
+Date Modified: 2023-01-13 21:28:39 -0700
+Priority: 5
+DTSTAMP: 2022-03-18 10:38:38 -0600
+
+

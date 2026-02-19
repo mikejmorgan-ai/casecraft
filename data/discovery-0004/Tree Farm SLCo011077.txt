@@ -1,0 +1,16 @@
+Event: Declined: Tree Farm Status
+Start Date: 2022-04-27 12:00:00 -0600
+End Date: 2022-04-27 13:00:00 -0600
+Organizer: Catherine Kanter <CKanter@slco.org>
+Location: WebEx
+Class: X-PERSONAL
+Date Created: 2022-04-27 08:43:36 -0600
+Date Modified: 2022-06-23 18:37:58 -0600
+Priority: 5
+DTSTAMP: 2022-04-27 08:42:09 -0600
+Recurs: Weekly on WE until 2022-09-28
+Catherine – I have the HCD/Lead Program process mapping meeting with the Lead Program team and will not be able to
+attend this meeting. This morning, I forwarded the email I received from Chris Merritt at the Division of State History but
+have not had a chance to look at any of the resources he mentioned/attached.
+
+

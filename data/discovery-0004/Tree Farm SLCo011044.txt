@@ -1,0 +1,13 @@
+Event: Accepted: Tree Farm Status
+Start Date: 2022-01-12 12:00:00 -0700
+End Date: 2022-01-12 13:00:00 -0700
+Organizer: Catherine Kanter <CKanter@slco.org>
+Location: WebEx
+Class: X-PERSONAL
+Date Created: 2022-04-13 15:28:47 -0600
+Date Modified: 2022-06-23 18:37:29 -0600
+Priority: 5
+DTSTAMP: 2022-04-13 15:28:42 -0600
+Recurs: Weekly on WE until 2022-09-28
+
+

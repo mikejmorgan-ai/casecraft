@@ -1,0 +1,14 @@
+Event: Declined: Tree Farm Status
+Start Date: 2022-05-11 12:00:00 -0600
+End Date: 2022-05-11 13:00:00 -0600
+Organizer: Catherine Kanter <CKanter@slco.org>
+Location: WebEx
+Class: X-PERSONAL
+Date Created: 2022-05-11 09:22:27 -0600
+Date Modified: 2022-06-23 18:38:24 -0600
+Priority: 5
+DTSTAMP: 2022-05-11 09:21:42 -0600
+Recurs: Weekly on WE until 2022-09-28
+I have a conflict today and wont be able to make the meeting. Tim can fill everyone in on the historical mining claims.
+
+

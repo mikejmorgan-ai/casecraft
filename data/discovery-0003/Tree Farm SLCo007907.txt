@@ -1,0 +1,15 @@
+Event
+Start Date: 2022-09-01 13:30:00 -0600
+End Date: 2022-09-01 14:30:00 -0600
+Organizer: Schedule Mayor <ScheduleMayor@slco.org>
+Location: Webex; https://slco.webex.com/slco/j.php?
+MTID=mf9b9a8dcf6b7529cddcfce481227dcce
+Class: X-PERSONAL
+Date Created: 2024-08-15 14:11:16 -0600
+Date Modified: 2024-08-15 14:11:16 -0600
+Priority: 5
+DTSTAMP: 2022-08-18 10:56:13 -0600
+Attendee: Jenny Wilson <JWilson@slco.org>; Erin Litvack <ELitvack@slco.org>; Abigail Roberson
+<ARoberson@slco.org>
+
+
