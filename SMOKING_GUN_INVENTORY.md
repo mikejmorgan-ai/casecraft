@@ -170,6 +170,22 @@ Multiple government agencies coordinated strategy against a private landowner's 
 - *"Pursuant to our conversation this morning, please find our affidavit (not filed) regarding Tree Farm's water rights. I am sharing with you so you have clarification about the water rights that Tree Farm holds, and how tenuous those rights are in the context of operating a mine. While this is confidential at this time, I hope that it helps Salt Lake County in its strategic land use considerations."*
 - Salt Lake City sharing confidential, unfiled litigation materials with the county for "strategic land use considerations"
 
+**SLCo008918** (discovery-0003) — KANTER COORDINATING WITH SAVE OUR CANYONS
+- From: Kanter to Carl Fisher (Executive Director, Save Our Canyons), Dec 29, 2021
+- Fisher asks about the ordinance timeline and the 2004 Supreme Court ruling on Harper Construction
+- Kanter responds: *"I'm glad you reached out – b/c I would like to discuss what you mention at the end of your message. We have similar concerns that the applicant intends to rely upon an existing use argument."*
+- Kanter shares the county's internal ordinance timeline graphic and sets up a private phone call
+- **The Deputy Mayor is sharing the county's legal strategy concerns ("existing use argument") with an outside advocacy group that would later intervene against Tree Farm at DOGM**
+
+**SLCo006190** (discovery-0002) — MSD PLANNER CONFIRMS MINING IS CONDITIONAL USE
+- From: Gregory Baptist (MSD) to Dave Carrier, Dec 1, 2021
+- *"Salt Lake County Code provides for 'Mineral Extraction and Processing' in the FR zone through the Conditional Use Permit process (per 19.12.030(J))."*
+- Another county official confirming mining was a permitted conditional use — contradicting the later "long prohibited" talking points
+
+**SLCo018552** (discovery-0006) — KANTER PERSONALLY SIGNS BUSINESS LICENSE DENIAL
+- Kanter personally signed and issued the denial of Tree Farm's Business License Application #COM21-1590 on Dec 27, 2021
+- The same person organizing the multi-agency strategy meetings, recruiting MPC commissioners, and coordinating with outside opponents was ALSO the person who formally denied Tree Farm's business license
+
 ---
 
 ## TIER 6: EX PARTE CONTACTS / PRIVATE BRIEFINGS
