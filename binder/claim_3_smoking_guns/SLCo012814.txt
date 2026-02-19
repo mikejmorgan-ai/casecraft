@@ -1,0 +1,3905 @@
+Enrolled Copy
+
+H.B. 288
+
+1
+
+CRITICAL INFRASTRUCTURE MATERIALS
+
+2
+
+2019 GENERAL SESSION
+
+3
+
+STATE OF UTAH
+
+4
+
+Chief Sponsor: Logan Wilde
+
+5
+
+Senate Sponsor: David P. Hinkins
+
+6
+7
+
+LONG TITLE
+
+8
+
+General Description:
+
+9
+
+This bill addresses critical infrastructure materials.
+
+10
+
+Highlighted Provisions:
+
+11
+
+This bill:
+
+12
+
+< enacts provisions related to vested critical infrastructure materials operations;
+
+13
+
+< amends a definition provision;
+
+14
+
+< addresses advisory boards;
+
+15
+
+< provides for the creation of critical infrastructure materials protection areas;
+
+16
+
+< addresses adding land to or removing land from a critical infrastructure materials
+
+17
+
+protection area;
+
+18
+
+< requires review of a critical infrastructure materials protection area;
+
+19
+
+< limits local regulation of a critical infrastructure materials protection area;
+
+20
+
+< addresses nuisances;
+
+21
+
+< requires certain recordings with the county recorder;
+
+22
+
+< addresses actions of state agencies related to critical infrastructure materials
+
+23
+
+protection areas;
+
+24
+
+< restricts eminent domain; and
+
+25
+
+< makes technical and conforming changes.
+
+26
+27
+28
+29
+
+Money Appropriated in this Bill:
+None
+Other Special Clauses:
+None
+
+H.B. 288
+30
+
+Utah Code Sections Affected:
+
+31
+
+AMENDS:
+
+Enrolled Copy
+
+32
+
+17-41-101, as last amended by Laws of Utah 2015, Chapter 352
+
+33
+
+17-41-201, as last amended by Laws of Utah 2007, Chapter 179
+
+34
+
+17-41-301, as last amended by Laws of Utah 2011, Chapter 297
+
+35
+
+17-41-302, as last amended by Laws of Utah 2009, Chapter 388
+
+36
+
+17-41-303, as last amended by Laws of Utah 2006, Chapter 194
+
+37
+
+17-41-304, as last amended by Laws of Utah 2010, Chapter 90
+
+38
+
+17-41-305, as last amended by Laws of Utah 2006, Chapter 194
+
+39
+
+17-41-306, as last amended by Laws of Utah 2009, Chapter 376
+
+40
+
+17-41-307, as last amended by Laws of Utah 2017, Chapter 92
+
+41
+
+17-41-402, as last amended by Laws of Utah 2009, Chapter 376
+
+42
+
+17-41-403, as last amended by Laws of Utah 2009, Chapter 376
+
+43
+
+17-41-404, as last amended by Laws of Utah 2006, Chapter 194
+
+44
+
+17-41-405, as last amended by Laws of Utah 2010, Chapter 90
+
+45
+
+17-41-406, as last amended by Laws of Utah 2008, Chapter 168
+
+46
+
+76-10-803, as last amended by Laws of Utah 2009, Chapter 21
+
+47
+
+78B-6-1101, as last amended by Laws of Utah 2010, Chapter 193
+
+48
+
+ENACTS:
+
+49
+
+10-9a-901, Utah Code Annotated 1953
+
+50
+
+10-9a-902, Utah Code Annotated 1953
+
+51
+
+10-9a-903, Utah Code Annotated 1953
+
+52
+
+10-9a-904, Utah Code Annotated 1953
+
+53
+
+10-9a-905, Utah Code Annotated 1953
+
+54
+
+17-27a-1001, Utah Code Annotated 1953
+
+55
+
+17-27a-1002, Utah Code Annotated 1953
+
+56
+
+17-27a-1003, Utah Code Annotated 1953
+
+57
+
+17-27a-1004, Utah Code Annotated 1953
+
+-2-
+
+Enrolled Copy
+
+H.B. 288
+
+58
+
+17-27a-1005, Utah Code Annotated 1953
+
+59
+
+78B-6-1115, Utah Code Annotated 1953
+
+60
+61
+62
+
+Be it enacted by the Legislature of the state of Utah:
+Section 1. Section 10-9a-901 is enacted to read:
+
+63
+
+Part 9. Vested Critical Infrastructure Materials Operations
+
+64
+
+10-9a-901. Definitions.
+
+65
+
+As used in this part:
+
+66
+
+(1) "Critical infrastructure materials" means sand, gravel, or rock aggregate.
+
+67
+
+(2) "Critical infrastructure materials operations" means the extraction, excavation,
+
+68
+
+processing, or reprocessing of critical infrastructure materials.
+
+69
+
+(3) "Critical infrastructure materials operator" means a natural person, corporation,
+
+70
+
+association, partnership, receiver, trustee, executor, administrator, guardian, fiduciary, agent, or
+
+71
+
+other organization or representative, either public or private, including a successor, assign,
+
+72
+
+affiliate, subsidiary, and related parent company, that:
+
+73
+
+(a) owns, controls, or manages a critical infrastructure materials operations; and
+
+74
+
+(b) has produced commercial quantities of critical infrastructure materials from the
+
+75
+76
+
+critical infrastructure materials operations.
+(4) "Vested critical infrastructure materials operations" means critical infrastructure
+
+77
+
+materials operations operating in accordance with a legal nonconforming use or a permit issued
+
+78
+
+by the municipality that existed or was conducted or otherwise engaged in before:
+
+79
+80
+
+(a) a political subdivision prohibits, restricts, or otherwise limits the critical
+infrastructure materials operations; and
+
+81
+
+(b) January 1, 2019.
+
+82
+
+Section 2. Section 10-9a-902 is enacted to read:
+
+83
+
+10-9a-902. Vested critical infrastructure materials operations -- Conclusive
+
+84
+85
+
+presumption.
+(1) (a) Critical infrastructure materials operations operating in accordance with a legal
+
+-3-
+
+H.B. 288
+
+Enrolled Copy
+
+86
+
+nonconforming use or a permit issued by the municipality are conclusively presumed to be
+
+87
+
+vested critical infrastructure materials operations if the critical infrastructure materials
+
+88
+
+operations permitted by the municipality, existed or was conducted or otherwise engaged in
+
+89
+
+before January 1, 2019 and before when a political subdivision prohibits, restricts, or otherwise
+
+90
+
+limits the critical infrastructure materials operations.
+
+91
+
+(b) A person claiming that a vested critical infrastructure materials operations has been
+
+92
+
+established has the burden of proof to show by the preponderance of the evidence that the
+
+93
+
+vested critical infrastructure materials operations has been established.
+
+94
+
+(2) A vested critical infrastructure materials operations:
+
+95
+
+(a) runs with the land; and
+
+96
+
+(b) may be changed to another critical infrastructure materials operations conducted
+
+97
+
+within the scope of a legal nonconforming use or the permit for the vested critical infrastructure
+
+98
+
+materials operations without losing its status as a vested critical infrastructure materials
+
+99
+
+operations.
+
+100
+
+Section 3. Section 10-9a-903 is enacted to read:
+
+101
+
+10-9a-903. Rights of a critical infrastructure materials operator with a vested
+
+102
+103
+
+critical infrastructure materials operations.
+Notwithstanding a political subdivision's prohibition, restriction, or other limitation on
+
+104
+
+a critical infrastructure materials operations adopted after the establishment of the critical
+
+105
+
+infrastructure materials operations, the rights of a critical infrastructure materials operator with
+
+106
+
+vested critical infrastructure materials operations include the right to:
+
+107
+108
+109
+110
+
+(1) use, operate, construct, reconstruct, restore, maintain, repair, alter, substitute,
+modernize, upgrade, and replace equipment, processes, facilities, and buildings; and
+(2) discontinue, suspend, terminate, deactivate, or continue and reactivate, temporarily
+or permanently, all or any part of the critical infrastructure materials operations.
+
+111
+
+Section 4. Section 10-9a-904 is enacted to read:
+
+112
+
+10-9a-904. Notice.
+
+113
+
+For any new subdivision development located in whole or in part within 1,000 feet of
+
+-4-
+
+Enrolled Copy
+
+H.B. 288
+
+114
+
+the boundary of a vested critical infrastructure materials operations, the owner of the
+
+115
+
+development shall provide notice on any plat filed with the county recorder the following
+
+116
+
+notice:
+
+117
+
+"Vested Critical Infrastructure Materials Operations
+
+118
+
+This property is located in the vicinity of an established vested critical infrastructure
+
+119
+
+materials operations in which critical infrastructure materials operations have been afforded the
+
+120
+
+highest priority use status. It can be anticipated that such operations may now or in the future
+
+121
+
+be conducted on property included in the critical infrastructure materials protection area. The
+
+122
+
+use and enjoyment of this property is expressly conditioned on acceptance of any annoyance or
+
+123
+
+inconvenience that may result from such normal critical infrastructure materials operations."
+
+124
+
+Section 5. Section 10-9a-905 is enacted to read:
+
+125
+
+10-9a-905. Abandonment of a vested critical infrastructure materials operations.
+
+126
+
+(1) A critical infrastructure materials operator may abandon some or all of a vested
+
+127
+128
+
+critical infrastructure materials operations use only as provided in this section.
+(2) To abandon some or all of a vested critical infrastructure materials operations, a
+
+129
+
+critical infrastructure materials operator shall record a written declaration of abandonment with
+
+130
+
+the recorder of the county in which the vested critical infrastructure materials operations being
+
+131
+
+abandoned is located.
+
+132
+
+(3) The written declaration of abandonment under Subsection (2) shall specify the
+
+133
+
+vested critical infrastructure materials operations or the portion of the vested critical
+
+134
+
+infrastructure materials operations being abandoned.
+
+135
+136
+
+Section 6. Section 17-27a-1001 is enacted to read:
+Part 10. Vested Critical Infrastructure Materials Operations
+
+137
+
+17-27a-1001. Definitions.
+
+138
+
+As used in this part:
+
+139
+
+(1) "Critical infrastructure materials" means sand, gravel, or rock aggregate.
+
+140
+
+(2) "Critical infrastructure materials operations" means the extraction, excavation,
+
+141
+
+processing, or reprocessing of critical infrastructure materials.
+
+-5-
+
+H.B. 288
+
+Enrolled Copy
+
+142
+
+(3) "Critical infrastructure materials operator" means a natural person, corporation,
+
+143
+
+association, partnership, receiver, trustee, executor, administrator, guardian, fiduciary, agent, or
+
+144
+
+other organization or representative, either public or private, including a successor, assign,
+
+145
+
+affiliate, subsidiary, and related parent company, that:
+
+146
+
+(a) owns, controls, or manages a critical infrastructure materials operations; and
+
+147
+
+(b) has produced commercial quantities of critical infrastructure materials from the
+
+148
+149
+
+critical infrastructure materials operations.
+(4) "Vested critical infrastructure materials operations" means critical infrastructure
+
+150
+
+materials operations operating in accordance with a legal nonconforming use or a permit issued
+
+151
+
+by the county that existed or was conducted or otherwise engaged in before:
+
+152
+153
+
+(a) a political subdivision prohibits, restricts, or otherwise limits the critical
+infrastructure materials operations; and
+
+154
+
+(b) January 1, 2019.
+
+155
+
+Section 7. Section 17-27a-1002 is enacted to read:
+
+156
+
+17-27a-1002. Vested critical infrastructure materials operations -- Conclusive
+
+157
+158
+
+presumption.
+(1) (a) Critical infrastructure materials operations operating in accordance with a legal
+
+159
+
+nonconforming use or a permit issued by the county are conclusively presumed to be vested
+
+160
+
+critical infrastructure materials operations if the critical infrastructure materials operations
+
+161
+
+permitted by the county, existed or was conducted or otherwise engaged in before January 1,
+
+162
+
+2019 and before when a political subdivision prohibits, restricts, or otherwise limits the critical
+
+163
+
+infrastructure materials operations.
+
+164
+
+(b) A person claiming that a vested critical infrastructure materials operations has been
+
+165
+
+established has the burden of proof to show by the preponderance of the evidence that the
+
+166
+
+vested critical infrastructure materials operations has been established.
+
+167
+
+(2) A vested critical infrastructure materials operations:
+
+168
+
+(a) runs with the land; and
+
+169
+
+(b) may be changed to another critical infrastructure materials operations conducted
+
+-6-
+
+Enrolled Copy
+
+H.B. 288
+
+170
+
+within the scope of a legal nonconforming use or the permit for the vested critical infrastructure
+
+171
+
+materials operations without losing its status as a vested critical infrastructure materials
+
+172
+
+operations.
+
+173
+
+Section 8. Section 17-27a-1003 is enacted to read:
+
+174
+
+17-27a-1003. Rights of a critical infrastructure materials operator with a vested
+
+175
+
+critical infrastructure materials operations.
+
+176
+
+Notwithstanding a political subdivision's prohibition, restriction, or other limitation on
+
+177
+
+a critical infrastructure materials operations adopted after the establishment of the critical
+
+178
+
+infrastructure materials operations, the rights of a critical infrastructure materials operator with
+
+179
+
+vested critical infrastructure materials operations include the right to:
+
+180
+181
+
+(1) use, operate, construct, reconstruct, restore, maintain, repair, alter, substitute,
+modernize, upgrade, and replace equipment, processes, facilities, and buildings; and
+
+182
+183
+
+(2) discontinue, suspend, terminate, deactivate, or continue and reactivate, temporarily
+or permanently, all or any part of the critical infrastructure materials operations.
+
+184
+
+Section 9. Section 17-27a-1004 is enacted to read:
+
+185
+
+17-27a-1004. Notice.
+
+186
+
+For any new subdivision development located in whole or in part within 1,000 feet of
+
+187
+
+the boundary of a vested critical infrastructure materials operations, the owner of the
+
+188
+
+development shall provide notice on any plat filed with the county recorder the following
+
+189
+
+notice:
+
+190
+
+"Vested Critical Infrastructure Materials Operations
+
+191
+
+This property is located in the vicinity of an established vested critical infrastructure
+
+192
+
+materials operations in which critical infrastructure materials operations have been afforded the
+
+193
+
+highest priority use status. It can be anticipated that such operations may now or in the future
+
+194
+
+be conducted on property included in the critical infrastructure materials operations. The use
+
+195
+
+and enjoyment of this property is expressly conditioned on acceptance of any annoyance or
+
+196
+
+inconvenience that may result from such normal critical infrastructure materials operations."
+
+197
+
+Section 10. Section 17-27a-1005 is enacted to read:
+
+-7-
+
+H.B. 288
+198
+199
+200
+201
+202
+
+Enrolled Copy
+
+17-27a-1005. Abandonment of a vested critical infrastructure materials
+operations.
+(1) A critical infrastructure materials operator may abandon some or all of a vested
+critical infrastructure materials operations use only as provided in this section.
+(2) To abandon some or all of a vested critical infrastructure materials operations, a
+
+203
+
+critical infrastructure materials operator shall record a written declaration of abandonment with
+
+204
+
+the recorder of the county in which the vested critical infrastructure materials operations being
+
+205
+
+abandoned is located.
+
+206
+
+(3) The written declaration of abandonment under Subsection (2) shall specify the
+
+207
+
+vested critical infrastructure materials operations or the portion of the vested critical
+
+208
+
+infrastructure materials operations being abandoned.
+
+209
+
+Section 11. Section 17-41-101 is amended to read:
+
+210
+
+CHAPTER 41. AGRICULTURE, INDUSTRIAL, OR CRITICAL
+
+211
+
+INFRASTRUCTURE MATERIALS PROTECTION AREAS
+
+212
+
+17-41-101. Definitions.
+
+213
+
+As used in this chapter:
+
+214
+
+(1) "Advisory board" means:
+
+215
+
+(a) for an agriculture protection area, the agriculture protection area advisory board
+
+216
+217
+218
+219
+220
+221
+222
+223
+
+created as provided in Section 17-41-201; [and]
+(b) for an industrial protection area, the industrial protection area advisory board
+created as provided in Section 17-41-201[.]; and
+(c) for a critical infrastructure materials protection area, the critical infrastructure
+materials protection area advisory board created as provided in Section 17-41-201.
+(2) (a) "Agriculture production" means production for commercial purposes of crops,
+livestock, and livestock products.
+(b) "Agriculture production" includes the processing or retail marketing of any crops,
+
+224
+
+livestock, and livestock products when more than 50% of the processed or merchandised
+
+225
+
+products are produced by the farm operator.
+
+-8-
+
+Enrolled Copy
+226
+227
+
+H.B. 288
+
+(3) "Agriculture protection area" means a geographic area created under the authority
+of this chapter that is granted the specific legal protections contained in this chapter.
+
+228
+
+(4) "Applicable legislative body" means:
+
+229
+
+(a) with respect to a proposed agriculture protection area [or], industrial protection
+
+230
+
+area, or critical infrastructure materials protection area:
+
+231
+
+(i) the legislative body of the county in which the land proposed to be included in [an
+
+232
+
+agriculture protection area or industrial] the relevant protection area is located, if the land is
+
+233
+
+within the unincorporated part of the county; or
+
+234
+235
+236
+237
+
+(ii) the legislative body of the city or town in which the land proposed to be included in
+[an agriculture protection area or industrial] the relevant protection area is located; and
+(b) with respect to an existing agriculture protection area [or], industrial protection
+area, or critical infrastructure materials protection area:
+
+238
+
+(i) the legislative body of the county in which the [agriculture protection area or
+
+239
+
+industrial] relevant protection area is located, if the [agriculture protection area or industrial]
+
+240
+
+relevant protection area is within the unincorporated part of the county; or
+
+241
+242
+
+(ii) the legislative body of the city or town in which the[ agriculture protection area or
+industrial] relevant protection area is located.
+
+243
+
+(5) "Board" means the Board of Oil, Gas, and Mining created in Section 40-6-4.
+
+244
+
+(6) "Critical infrastructure materials" means sand, gravel, or rock aggregate.
+
+245
+
+(7) "Critical infrastructure materials operations" means the extraction, excavation,
+
+246
+
+processing, or reprocessing of critical infrastructure materials.
+
+247
+
+(8) "Critical infrastructure materials operator" means a natural person, corporation,
+
+248
+
+association, partnership, receiver, trustee, executor, administrator, guardian, fiduciary, agent, or
+
+249
+
+other organization or representative, either public or private, including a successor, assign,
+
+250
+
+affiliate, subsidiary, and related parent company, that:
+
+251
+
+(a) owns, controls, or manages a critical infrastructure materials operation; and
+
+252
+
+(b) has produced commercial quantities of critical infrastructure materials from the
+
+253
+
+critical infrastructure materials operations.
+
+-9-
+
+H.B. 288
+
+Enrolled Copy
+
+254
+
+(9) "Critical infrastructure materials protection area" means a geographic area created
+
+255
+
+under the authority of this chapter on or after May 14, 2019, that is granted the specific legal
+
+256
+
+protections contained in this chapter.
+
+257
+
+[(6)] (10) "Crops, livestock, and livestock products" includes:
+
+258
+
+(a) land devoted to the raising of useful plants and animals with a reasonable
+
+259
+
+expectation of profit, including:
+
+260
+
+(i) forages and sod crops;
+
+261
+
+(ii) grains and feed crops;
+
+262
+
+(iii) livestock as defined in Section 59-2-102;
+
+263
+
+(iv) trees and fruits; or
+
+264
+
+(v) vegetables, nursery, floral, and ornamental stock; or
+
+265
+
+(b) land devoted to and meeting the requirements and qualifications for payments or
+
+266
+
+other compensation under a crop-land retirement program with an agency of the state or federal
+
+267
+
+government.
+
+268
+269
+
+[(7)] (11) "Division" means the Division of Oil, Gas, and Mining created in Section
+40-6-15.
+
+270
+
+[(8)] (12) "Industrial protection area" means a geographic area created under the
+
+271
+
+authority of this chapter that is granted the specific legal protections contained in this chapter.
+
+272
+
+[(9)] (13) "Mine operator" means a natural person, corporation, association,
+
+273
+
+partnership, receiver, trustee, executor, administrator, guardian, fiduciary, agent, or other
+
+274
+
+organization or representative, either public or private, including a successor, assign, affiliate,
+
+275
+
+subsidiary, and related parent company, that, as of January 1, 2009:
+
+276
+277
+
+(a) owns, controls, or manages a mining use under a large mine permit issued by the
+division or the board; and
+
+278
+
+(b) has produced commercial quantities of a mineral deposit from the mining use.
+
+279
+
+[(10)] (14) "Mineral deposit" has the same meaning as defined in Section 40-8-4, but
+
+280
+281
+
+excludes:
+(a) building stone, decorative rock, and landscaping rock; and
+
+- 10 -
+
+Enrolled Copy
+
+H.B. 288
+
+282
+
+(b) consolidated rock that:
+
+283
+
+(i) is not associated with another deposit of minerals;
+
+284
+
+(ii) is or may be extracted from land; and
+
+285
+
+(iii) is put to uses similar to the uses of sand, gravel, and other aggregates.
+
+286
+
+[(11)] (15) "Mining protection area" means land where a vested mining use occurs,
+
+287
+
+including each surface or subsurface land or mineral estate that a mine operator with a vested
+
+288
+
+mining use owns or controls.
+
+289
+
+[(12)] (16) "Mining use":
+
+290
+
+(a) means:
+
+291
+
+(i) the full range of activities, from prospecting and exploration to reclamation and
+
+292
+293
+
+closure, associated with the exploitation of a mineral deposit; and
+(ii) the use of the surface and subsurface and groundwater and surface water of an area
+
+294
+
+in connection with the activities described in Subsection [(12)] (16)(a)(i) that have been, are
+
+295
+
+being, or will be conducted; and
+
+296
+
+(b) includes, whether conducted on-site or off-site:
+
+297
+
+(i) any sampling, staking, surveying, exploration, or development activity;
+
+298
+
+(ii) any drilling, blasting, excavating, or tunneling;
+
+299
+
+(iii) the removal, transport, treatment, deposition, and reclamation of overburden,
+
+300
+
+development rock, tailings, and other waste material;
+
+301
+
+(iv) any removal, transportation, extraction, beneficiation, or processing of ore;
+
+302
+
+(v) any smelting, refining, autoclaving, or other primary or secondary processing
+
+303
+304
+305
+
+operation;
+(vi) the recovery of any mineral left in residue from a previous extraction or processing
+operation;
+
+306
+
+(vii) a mining activity that is identified in a work plan or permitting document;
+
+307
+
+(viii) the use, operation, maintenance, repair, replacement, or alteration of a building,
+
+308
+
+structure, facility, equipment, machine, tool, or other material or property that results from or is
+
+309
+
+used in a surface or subsurface mining operation or activity;
+
+- 11 -
+
+H.B. 288
+
+Enrolled Copy
+
+310
+
+(ix) any accessory, incidental, or ancillary activity or use, both active and passive,
+
+311
+
+including a utility, private way or road, pipeline, land excavation, working, embankment, pond,
+
+312
+
+gravel excavation, mining waste, conveyor, power line, trackage, storage, reserve, passive use
+
+313
+
+area, buffer zone, and power production facility;
+
+314
+
+(x) the construction of a storage, factory, processing, or maintenance facility; and
+
+315
+
+(xi) any activity described in Subsection 40-8-4(14)(a).
+
+316
+
+[(13)] (17) (a) "Municipal" means of or relating to a city or town.
+
+317
+
+(b) "Municipality" means a city or town.
+
+318
+
+[(14)] (18) "New land" means surface or subsurface land or mineral estate that a mine
+
+319
+
+operator gains ownership or control of, whether [or not] that land or mineral estate is included
+
+320
+
+in the mine operator's large mine permit.
+
+321
+
+[(15)] (19) "Off-site" has the same meaning as provided in Section 40-8-4.
+
+322
+
+[(16)] (20) "On-site" has the same meaning as provided in Section 40-8-4.
+
+323
+
+[(17)] (21) "Planning commission" means:
+
+324
+
+(a) a countywide planning commission if the land proposed to be included in the
+
+325
+
+agriculture protection area [or], industrial protection area, or critical infrastructure materials
+
+326
+
+protection area is within the unincorporated part of the county and not within a planning
+
+327
+
+advisory area;
+
+328
+
+(b) a planning advisory area planning commission if the land proposed to be included
+
+329
+
+in the agriculture protection area [or], industrial protection area, or critical infrastructure
+
+330
+
+materials protection area is within a planning advisory area; or
+
+331
+
+(c) a planning commission of a city or town if the land proposed to be included in the
+
+332
+
+agriculture protection area [or], industrial protection area, or critical infrastructure materials
+
+333
+
+protection area is within a city or town.
+
+334
+335
+336
+337
+
+[(18)] (22) "Political subdivision" means a county, city, town, school district, local
+district, or special service district.
+[(19)] (23) "Proposal sponsors" means the owners of land in agricultural production
+[or], industrial use, or critical infrastructure materials operations who are sponsoring the
+
+- 12 -
+
+Enrolled Copy
+
+H.B. 288
+
+338
+
+proposal for creating an agriculture protection area [or], industrial protection area[,
+
+339
+
+respectively], or critical infrastructure materials protection area.
+
+340
+
+[(20)] (24) "State agency" means each department, commission, board, council,
+
+341
+
+agency, institution, officer, corporation, fund, division, office, committee, authority, laboratory,
+
+342
+
+library, unit, bureau, panel, or other administrative unit of the state.
+
+343
+
+[(21)] (25) "Unincorporated" means not within a city or town.
+
+344
+
+[(22)] (26) "Vested mining use" means a mining use:
+
+345
+
+(a) by a mine operator; and
+
+346
+
+(b) that existed or was conducted or otherwise engaged in before a political subdivision
+
+347
+
+prohibits, restricts, or otherwise limits a mining use.
+
+348
+
+Section 12. Section 17-41-201 is amended to read:
+
+349
+
+17-41-201. Protection area advisory board.
+
+350
+
+(1) (a) (i) [Each] A county legislative body shall appoint no more than five members
+
+351
+
+from the county's conservation district board of supervisors to serve as the [Agriculture
+
+352
+
+Protection Area Advisory Board] agriculture protection area advisory board.
+
+353
+354
+
+(ii) [Each] A county legislative body shall appoint an industrial protection area
+advisory board.
+
+355
+356
+
+(iii) Subject to Subsection (1)(b), a county legislative body shall form a critical
+infrastructure materials protection area advisory board that consists of:
+
+357
+358
+
+(A) the executive director of the Department of Transportation, or the executive
+director's designee;
+
+359
+
+(B) a local government elected official appointed by the county legislative body;
+
+360
+
+(C) a representative of a local highway authority appointed by the county legislative
+
+361
+
+body;
+
+362
+363
+
+(D) a representative of the critical infrastructure materials industry appointed by the
+county legislative body; and
+
+364
+365
+
+(E) a representative of the construction industry appointed by the county legislative
+body.
+
+- 13 -
+
+H.B. 288
+366
+
+Enrolled Copy
+
+(b) A county legislative body may appoint [the] an advisory board before or after a
+
+367
+
+proposal to create an agriculture protection area or industrial protection area is filed. A county
+
+368
+
+legislative body shall appoint a critical infrastructure materials protection area advisory board
+
+369
+
+only after a proposal to create a critical infrastructure materials protection area is filed.
+
+370
+
+(2) [Each] A member of an advisory board shall serve without salary, but a county
+
+371
+
+legislative body may reimburse members for expenses incurred in the performance of their
+
+372
+
+duties.
+
+373
+
+(3) [Each] An advisory board shall:
+
+374
+
+(a) evaluate proposals for the establishment of [agriculture protection areas or
+
+375
+
+industrial] the relevant protection areas and make recommendations to the applicable
+
+376
+
+legislative body about whether [or not] the proposal should be accepted;
+
+377
+378
+
+(b) provide expert advice to the planning commission and to the applicable legislative
+body about:
+
+379
+
+(i) the desirability of the proposal;
+
+380
+
+(ii) the nature of agricultural production [or], industrial use, or critical infrastructure
+
+381
+382
+383
+384
+
+materials operations, as the case may be, within the proposed area;
+(iii) the relation of agricultural production [or], industrial use, or critical infrastructure
+materials operations, as the case may be, in the area to the county as a whole; and
+(iv) which agriculture production [or], industrial use, or critical infrastructure materials
+
+385
+
+operations, should be allowed within the [agriculture] relevant protection area [or industrial
+
+386
+
+protection area, respectively]; and
+
+387
+
+(c) perform [all] the other duties required by this chapter.
+
+388
+
+Section 13. Section 17-41-301 is amended to read:
+
+389
+
+17-41-301. Proposal for creation of a protection area.
+
+390
+
+(1) (a) A proposal to create an agriculture protection area [or], an industrial protection
+
+391
+392
+393
+
+area, or critical infrastructure materials protection area may be filed with:
+(i) the legislative body of the county in which the area is located, if the area is within
+the unincorporated part of a county; or
+
+- 14 -
+
+Enrolled Copy
+394
+395
+
+H.B. 288
+
+(ii) the legislative body of the city or town in which the area is located, if the area is
+within a city or town.
+
+396
+
+(b) A proposal to create a critical infrastructure protection area can only be initiated by
+
+397
+
+the legislative body of the municipality or county. Creation of a critical infrastructure materials
+
+398
+
+protection area is a legislative act.
+
+399
+
+[(b)] (c) (i) To be accepted for processing by the applicable legislative body, a proposal
+
+400
+
+under Subsection (1)(a) shall be signed by a majority in number of all owners of real property
+
+401
+
+and the owners of a majority of the land area in agricultural production [or], industrial use, or
+
+402
+
+critical infrastructure materials operations within the proposed [agriculture protection area or
+
+403
+
+industrial] relevant protection area[, respectively].
+
+404
+
+(ii) For purposes of Subsection (1)[(b)](c)(i), the owners of real property shall be
+
+405
+
+determined by the records of the county recorder.
+
+406
+
+(2) The proposal shall identify:
+
+407
+
+(a) the boundaries of the land proposed to become part of [an agriculture protection
+
+408
+
+area or industrial] the relevant protection area;
+
+409
+
+(b) any limits on the types of agriculture production [or], industrial use, or critical
+
+410
+
+infrastructure materials operations to be allowed within the [agriculture protection area or
+
+411
+
+industrial] relevant protection area[, respectively]; and
+
+412
+
+(c) for each parcel of land:
+
+413
+
+(i) the names of the owners of record of the land proposed to be included within the
+
+414
+
+[agriculture protection area or industrial] relevant protection area;
+
+415
+
+(ii) the tax parcel number or account number identifying each parcel; and
+
+416
+
+(iii) the number of acres of each parcel.
+
+417
+
+(3) An agriculture protection area [or], industrial protection area, or critical
+
+418
+
+infrastructure materials protection area may include within its boundaries land used for a
+
+419
+
+roadway, dwelling site, park, or other nonagricultural [or] use, in the case of an industrial
+
+420
+
+protection area, nonindustrial use, or in the case of a critical infrastructure materials protection
+
+421
+
+area, use unrelated to critical infrastructure materials operations, if that land constitutes a
+
+- 15 -
+
+H.B. 288
+
+Enrolled Copy
+
+422
+
+minority of the total acreage within the [agriculture protection area or industrial] the relevant
+
+423
+
+protection area[, respectively].
+
+424
+
+(4) A county or municipal legislative body may establish:
+
+425
+
+(a) the manner and form for submission of proposals; and
+
+426
+
+(b) reasonable fees for accepting and processing the proposal.
+
+427
+
+(5) [Each] A county and municipal legislative body shall establish the minimum
+
+428
+
+number of continuous acres that shall be included in an agriculture protection area [or],
+
+429
+
+industrial protection area, or critical infrastructure materials protection area.
+
+430
+
+Section 14. Section 17-41-302 is amended to read:
+
+431
+
+17-41-302. Notice of proposal for creation of protection area -- Responses.
+
+432
+
+(1) [Each] An applicable legislative body shall provide notice of the proposal by:
+
+433
+
+(a) (i) publishing notice[:(A) ] in a newspaper having general circulation within:
+
+434
+
+[(I)] (A) the same county as the land proposed for inclusion within an agriculture
+
+435
+
+protection area [or], industrial protection area, or critical infrastructure materials protection
+
+436
+
+area, as the case may be, if the land is within the unincorporated part of the county; or
+
+437
+
+[(II)] (B) the same city or town as the land proposed for inclusion within an agriculture
+
+438
+
+protection area [or], industrial protection area, or critical infrastructure materials protection
+
+439
+
+area, as the case may be, if the land is within a city or town; and
+
+440
+
+(ii) as required in Section 45-1-101;
+
+441
+
+(b) posting notice at five public places, designated by the county or municipal
+
+442
+
+legislative body, within or near the proposed agriculture protection area [or], industrial
+
+443
+
+protection area, or critical infrastructure materials protection area; and
+
+444
+
+(c) mailing written notice to each owner of land within 1,000 feet of the land proposed
+
+445
+
+for inclusion within an agriculture protection area [or], industrial protection area, or critical
+
+446
+
+infrastructure materials protection area.
+
+447
+
+(2) The notice shall contain:
+
+448
+
+(a) a statement that a proposal for the creation of an agriculture protection area [or],
+
+449
+
+industrial protection area, or critical infrastructure materials protection area has been filed with
+
+- 16 -
+
+Enrolled Copy
+450
+
+the applicable legislative body;
+
+451
+452
+
+(b) a statement that the proposal will be open to public inspection in the office of the
+applicable legislative body;
+
+453
+454
+
+H.B. 288
+
+(c) a statement that any person [or entity] affected by the establishment of the area
+may, within 15 days of the date of the notice, file with the applicable legislative body:
+
+455
+
+(i) written objections to the proposal; or
+
+456
+
+(ii) a written request to modify the proposal to exclude land from or add land to the
+
+457
+
+proposed [agriculture protection area or industrial] protection area[, as the case may be];
+
+458
+
+(d) a statement that the applicable legislative body will submit the proposal to the
+
+459
+
+advisory committee and to the planning commission for review and recommendations;
+
+460
+461
+
+(e) a statement that the applicable legislative body will hold a public hearing to discuss
+and hear public comment on:
+
+462
+463
+
+(i) the proposal to create the agriculture protection area [or], industrial protection area,
+or critical infrastructure materials protection area;
+
+464
+
+(ii) the recommendations of the advisory committee and planning commission; and
+
+465
+
+(iii) any requests for modification of the proposal and any objections to the proposal;
+
+466
+
+and
+
+467
+
+(f) a statement indicating the date, time, and place of the public hearing.
+
+468
+
+(3) (a) [Any] A person wishing to modify the proposal for the creation of the
+
+469
+
+agriculture protection area [or], industrial protection area, or critical infrastructure materials
+
+470
+
+protection area shall, within 15 days after the date of the notice, file a written request for
+
+471
+
+modification of the proposal, which identifies specifically the land that should be added to or
+
+472
+
+removed from the proposal.
+
+473
+
+(b) [Any] A person wishing to object to the proposal for the creation of the agriculture
+
+474
+
+protection area [or], industrial protection area, or critical infrastructure materials protection
+
+475
+
+area shall, within 15 days after the date of the notice, file a written objection to the creation of
+
+476
+
+the [agriculture protection area or industrial] relevant protection area.
+
+477
+
+Section 15. Section 17-41-303 is amended to read:
+
+- 17 -
+
+H.B. 288
+
+Enrolled Copy
+
+478
+
+17-41-303. Review of proposal for creation of protection area.
+
+479
+
+(1) After 15 days from the date of the notice, the applicable legislative body shall refer
+
+480
+
+the proposal and any objections and proposed modifications to the proposal to the advisory
+
+481
+
+committee and planning commission for their review, comments, and recommendations.
+
+482
+
+(2) (a) Within 45 days after receipt of the proposal, the planning commission shall
+
+483
+484
+485
+486
+487
+
+submit a written report to the applicable legislative body that:
+(i) analyzes and evaluates the effect of the creation of the proposed area on the
+planning policies and objectives of the county or municipality, as the case may be;
+(ii) analyzes and evaluates the proposal by applying the criteria contained in Section
+17-41-305;
+
+488
+
+(iii) recommends any modifications to the land to be included in the proposed
+
+489
+
+agriculture protection area [or], industrial protection area, or critical infrastructure materials
+
+490
+
+protection area;
+
+491
+
+(iv) analyzes and evaluates any objections to the proposal; and
+
+492
+
+(v) includes a recommendation to the applicable legislative body either to accept,
+
+493
+494
+495
+
+accept and modify, or reject the proposal.
+(b) Within 45 days after receipt of the proposal, the advisory board shall submit a
+written report to the applicable legislative body that:
+
+496
+
+(i) recommends any modifications to the land to be included in the proposed
+
+497
+
+agriculture protection area [or], industrial protection area, or critical infrastructure materials
+
+498
+
+protection area;
+
+499
+500
+
+(ii) analyzes and evaluates the proposal by applying the criteria contained in Section
+17-41-305;
+
+501
+
+(iii) analyzes and evaluates any objections to the proposal; and
+
+502
+
+(iv) includes a recommendation to the applicable legislative body either to accept,
+
+503
+
+accept and modify, or reject the proposal.
+
+504
+
+(c) The applicable legislative body shall consider a failure of the planning commission
+
+505
+
+or advisory committee to submit a written report within the 45 days under Subsection (2)(a) or
+
+- 18 -
+
+Enrolled Copy
+506
+
+H.B. 288
+
+(b) as a recommendation of that committee to approve the proposal as submitted.
+
+507
+
+Section 16. Section 17-41-304 is amended to read:
+
+508
+
+17-41-304. Public hearing -- Review and action on proposal.
+
+509
+
+(1) After receipt of the written reports from the advisory committee and planning
+
+510
+
+commission, or after the 45 days have expired, whichever is earlier, the county or municipal
+
+511
+
+legislative body shall:
+
+512
+
+(a) schedule a public hearing;
+
+513
+
+(b) provide notice of the public hearing by:
+
+514
+
+(i) publishing notice:
+
+515
+
+(A) in a newspaper having general circulation within:
+
+516
+
+(I) the same county as the land proposed for inclusion within the agriculture protection
+
+517
+
+area [or], industrial protection area, or critical infrastructure materials protection area, if the
+
+518
+
+land is within the unincorporated part of the county; or
+
+519
+
+(II) the same city or town as the land proposed for inclusion within an agriculture
+
+520
+
+protection area [or], industrial protection area, or critical infrastructure materials protection
+
+521
+
+area, if the land is within a city or town; and
+
+522
+
+(B) on the Utah Public Notice Website created in Section 63F-1-701;
+
+523
+
+(ii) posting notice at five public places, designated by the applicable legislative body,
+
+524
+
+within or near the proposed agriculture protection area [or], industrial protection area, or
+
+525
+
+critical infrastructure materials protection area; and
+
+526
+
+(iii) mailing written notice to each owner of land within 1,000 feet of the land proposed
+
+527
+
+for inclusion within an agriculture protection area [or], industrial protection area, or critical
+
+528
+
+infrastructure materials protection area; and
+
+529
+
+(c) ensure that the notice includes:
+
+530
+
+(i) the time, date, and place of the public hearing on the proposal;
+
+531
+
+(ii) a description of the proposed agriculture protection area [or], industrial protection
+
+532
+533
+
+area, or critical infrastructure materials protection area;
+(iii) any proposed modifications to the proposed agriculture protection area [or],
+
+- 19 -
+
+H.B. 288
+534
+535
+536
+537
+
+Enrolled Copy
+
+industrial protection area, or critical infrastructure materials protection area;
+(iv) a summary of the recommendations of the advisory committee and planning
+commission; and
+(v) a statement that interested persons may appear at the public hearing and speak in
+
+538
+
+favor of or against the proposal, any proposed modifications to the proposal, or the
+
+539
+
+recommendations of the advisory committee and planning commission.
+
+540
+
+(2) The applicable legislative body shall:
+
+541
+
+(a) convene the public hearing at the time, date, and place specified in the notice; and
+
+542
+
+(b) take [verbal] oral or written testimony from interested persons.
+
+543
+
+(3) (a) Within 120 days of the submission of the proposal, the applicable legislative
+
+544
+545
+546
+
+body shall approve, modify and approve, or reject the proposal.
+(b) The creation of an agriculture protection area [or], industrial protection area, or
+critical infrastructure materials protection area is effective at the earlier of:
+
+547
+
+(i) the applicable legislative body's approval of a proposal or modified proposal; or
+
+548
+
+(ii) 120 days after submission of a proposal complying with Subsection 17-41-301(2) if
+
+549
+550
+
+the applicable legislative body has failed to approve or reject the proposal within that time.
+(c) Notwithstanding Subsection (3)(b), a critical infrastructure materials protection area
+
+551
+
+is effective only if the applicable legislative body, at its discretion, approves a proposal or
+
+552
+
+modified proposal.
+
+553
+
+(4) (a) [In order to] To give constructive notice of the existence of the agriculture
+
+554
+
+protection area [or], industrial protection area, or critical infrastructure materials protection
+
+555
+
+area to all persons who have, may acquire, or may seek to acquire an interest in land in or
+
+556
+
+adjacent to the [agriculture protection area or industrial] relevant protection area[,
+
+557
+
+respectively,] within 10 days of the creation of [an agriculture protection area or industrial] the
+
+558
+
+relevant protection area, the applicable legislative body shall file an executed document
+
+559
+
+containing a legal description of the [agriculture protection area or industrial] relevant
+
+560
+
+protection area[, as the case may be,] with:
+
+561
+
+(i) the county recorder of deeds; and
+
+- 20 -
+
+Enrolled Copy
+
+H.B. 288
+
+562
+
+(ii) the affected planning commission.
+
+563
+
+(b) If the legal description of the property to be included in the [agriculture protection
+
+564
+
+area or industrial] relevant protection area is available through the county recorder's office, the
+
+565
+
+applicable legislative body shall use that legal description in its executed document required in
+
+566
+
+Subsection (4)(a).
+
+567
+568
+569
+
+(5) Within 10 days of the recording of the agriculture protection area, the applicable
+legislative body shall:
+(a) send written notification to the commissioner of agriculture and food that the
+
+570
+
+agriculture protection area has been created; and
+
+571
+
+(b) include in the notification:
+
+572
+
+(i) the number of landowners owning land within the agriculture protection area;
+
+573
+
+(ii) the total acreage of the area;
+
+574
+
+(iii) the date of approval of the area; and
+
+575
+
+(iv) the date of recording.
+
+576
+
+(6) The applicable legislative body's failure to record the notice required under
+
+577
+
+Subsection (4) or to send the written notification under Subsection (5) does not invalidate the
+
+578
+
+creation of an agriculture protection area.
+
+579
+
+(7) The applicable legislative body may consider the cost of recording notice under
+
+580
+
+Subsection (4) and the cost of sending notification under Subsection (5) in establishing a fee
+
+581
+
+under Subsection 17-41-301(4)(b).
+
+582
+
+Section 17. Section 17-41-305 is amended to read:
+
+583
+
+17-41-305. Criteria to be applied in evaluating a proposal for the creation of a
+
+584
+585
+
+protection area.
+In evaluating a proposal and in determining whether or not to create or recommend the
+
+586
+
+creation of an agriculture protection area [or], industrial protection area, or critical
+
+587
+
+infrastructure materials protection area, the advisory committee, planning commission, and
+
+588
+
+applicable legislative body shall apply the following criteria:
+
+589
+
+(1) whether or not the land is currently being used for agriculture production [or for
+
+- 21 -
+
+H.B. 288
+590
+
+an], industrial use, or critical infrastructure materials operations, as the case may be;
+
+591
+592
+
+(2) whether or not the land is zoned for agriculture use [or], industrial use, or critical
+infrastructure materials operations, as the case may be;
+
+593
+594
+
+Enrolled Copy
+
+(3) whether or not the land is viable for agriculture production [or], industrial use, or
+critical infrastructure materials operations, as the case may be;
+
+595
+
+(4) the extent and nature of existing or proposed farm improvements [or], the extent
+
+596
+
+and nature of existing or proposed improvements to or expansion of the industrial use, or the
+
+597
+
+extent and nature of existing or proposed improvements to or expansion of critical
+
+598
+
+infrastructure materials operations, as the case may be; and
+
+599
+600
+
+(5) (a) in the case of an agriculture protection area, anticipated trends in agricultural
+and technological conditions; [or]
+
+601
+602
+
+(b) in the case of an industrial protection area, anticipated trends in technological
+conditions applicable to the industrial use of the land in question[.]; or
+
+603
+
+(c) in the case of a critical infrastructure materials protection area, anticipated trends in
+
+604
+
+technological conditions applicable to the critical infrastructure materials operations of the land
+
+605
+
+in question.
+
+606
+
+Section 18. Section 17-41-306 is amended to read:
+
+607
+
+17-41-306. Adding land to or removing land from a protection area -- Removing
+
+608
+
+land from a mining protection area.
+
+609
+
+(1) (a) Any owner may add land to an existing agriculture protection area [or],
+
+610
+
+industrial protection area, critical infrastructure materials protection area, as the case may be,
+
+611
+
+by:
+
+612
+
+(i) filing a proposal with:
+
+613
+
+(A) the county legislative body, if the [agriculture protection area or industrial] relevant
+
+614
+
+protection area and the land to be added are within the unincorporated part of the county; or
+
+615
+
+(B) the municipal legislative body, if the [agriculture protection area or industrial]
+
+616
+617
+
+relevant protection area and the land to be added are within a city or town; and
+(ii) obtaining the approval of the applicable legislative body for the addition of the land
+
+- 22 -
+
+Enrolled Copy
+618
+
+H.B. 288
+
+to the relevant protection area.
+
+619
+
+(b) The applicable legislative body shall:
+
+620
+
+(i) comply with the provisions for creating an agriculture protection area [or], industrial
+
+621
+
+protection area, critical infrastructure materials protection area, as the case may be, in
+
+622
+
+determining whether [or not] to accept the proposal[.]; and
+
+623
+624
+625
+626
+627
+
+(ii) for purposes of a critical infrastructure materials protection area, request a copy of
+the applicable Division of Air Quality approval order.
+(c) The applicable legislative body may deny the expansion if it is contrary to the
+Division of Air Quality's approval order.
+(2) (a) [Any] An owner of land within an agriculture protection area [or], industrial
+
+628
+
+protection area, or critical infrastructure materials protection area may remove any or all of the
+
+629
+
+land from the [agriculture protection area or industrial] relevant protection area, [respectively,]
+
+630
+
+by filing a petition for removal with the applicable legislative body.
+
+631
+
+(b) (i) The applicable legislative body:
+
+632
+
+(A) shall:
+
+633
+
+(I) grant the petition for removal of land from[ an agriculture protection area or
+
+634
+
+industrial] the relevant protection area, [as the case may be,] even if removal of the land would
+
+635
+
+result in an agriculture protection area [or], industrial protection area, or critical infrastructure
+
+636
+
+materials protection area of less than the number of acres established by the applicable
+
+637
+
+legislative body as the minimum under Section 17-41-301; and
+
+638
+
+(II) [in order] to give constructive notice of the removal to all persons who have, may
+
+639
+
+acquire, or may seek to acquire an interest in land in or adjacent to the agriculture protection
+
+640
+
+area [or], industrial protection area, or critical infrastructure materials protection area and the
+
+641
+
+land removed from the [agriculture protection area or industrial] relevant protection area, file a
+
+642
+
+legal description of the revised boundaries of the [agriculture protection area or industrial]
+
+643
+
+relevant protection area with the county recorder of deeds and the affected planning
+
+644
+
+commission; and
+
+645
+
+(B) may not charge a fee in connection with a petition to remove land from an
+
+- 23 -
+
+H.B. 288
+
+Enrolled Copy
+
+646
+
+agriculture protection area [or], an industrial protection area, or critical infrastructure materials
+
+647
+
+protection area.
+
+648
+
+(ii) The remaining land in the agriculture protection area [or], industrial protection
+
+649
+
+area, or critical infrastructure materials protection area is still an agriculture protection area
+
+650
+
+[or], industrial protection area[, respectively], or critical infrastructure materials protection
+
+651
+
+area.
+
+652
+
+(iii) (A) A critical infrastructure materials operator may abandon some or all of its
+
+653
+
+critical infrastructure materials operations use only as provided in this Subsection (2)(b)(iii).
+
+654
+
+(B) To abandon some or all of a critical infrastructure materials operations, a critical
+
+655
+
+infrastructure materials operator shall record a written declaration of abandonment with the
+
+656
+
+recorder of the county in which the critical infrastructure materials operations being abandoned
+
+657
+
+is located.
+
+658
+
+(C) The written declaration of abandonment under this Subsection (2)(b)(iii) shall
+
+659
+
+specify the critical infrastructure materials operations or the portion of the critical infrastructure
+
+660
+
+materials operations being abandoned.
+
+661
+
+(3) (a) If a municipality annexes any land that is part of an agriculture protection area
+
+662
+
+[or], industrial protection area, or critical infrastructure materials protection area located in the
+
+663
+
+unincorporated part of the county, the county legislative body shall, within 30 days after the
+
+664
+
+land is annexed, review the feasibility of that land remaining in the [agriculture protection area
+
+665
+
+or industrial] relevant protection area according to the procedures and requirements of Section
+
+666
+
+17-41-307.
+
+667
+668
+669
+670
+671
+672
+673
+
+(b) The county legislative body shall remove the annexed land from the [agriculture
+protection area or industrial] relevant protection area[, as the case may be,] if:
+(i) the county legislative body concludes, after the review under Section 17-41-307,
+that removal is appropriate; and
+(ii) the owners of all the annexed land that is within the [agriculture protection area or
+industrial] relevant protection area consent in writing to the removal.
+(c) Removal of land from an agriculture protection area [or], industrial protection area,
+
+- 24 -
+
+Enrolled Copy
+
+H.B. 288
+
+674
+
+or critical infrastructure materials protection area under this Subsection (3) does not affect
+
+675
+
+whether that land may be:
+
+676
+
+(i) included in a proposal under Section 17-41-301 to create an agriculture protection
+
+677
+
+area [or], industrial protection area, or critical infrastructure materials protection area within
+
+678
+
+the municipality; or
+
+679
+
+(ii) added to an existing agriculture protection area [or], industrial protection area, or
+
+680
+
+critical infrastructure materials protection area within the municipality under Subsection (1).
+
+681
+
+(4) A mine operator that owns or controls land within a mining protection area may
+
+682
+
+remove any or all of the land from the mining protection area by filing a notice of removal with
+
+683
+
+the legislative body of the county in which the land is located.
+
+684
+
+Section 19. Section 17-41-307 is amended to read:
+
+685
+
+17-41-307. Review of protection areas.
+
+686
+
+(1) In the 20th calendar year after its creation under this part, [each] an agriculture
+
+687
+
+protection area [or], industrial protection area, or critical infrastructure materials protection
+
+688
+
+area, as the case may be, shall be reviewed, under the provisions of this section, by:
+
+689
+690
+691
+692
+
+(a) the county legislative body, if the [agriculture protection area or industrial] relevant
+protection area is within the unincorporated part of the county; or
+(b) the municipal legislative body, if the [agriculture protection area or industrial]
+relevant protection area is within the municipality.
+
+693
+
+(2) (a) In the 20th year, the applicable legislative body may:
+
+694
+
+(i) request the planning commission and advisory board to submit recommendations
+
+695
+
+about whether the agriculture protection area [or], industrial protection area, or critical
+
+696
+
+infrastructure materials protection area, as the case may be, should be continued, modified, or
+
+697
+
+terminated;
+
+698
+
+(ii) at least 120 days before the end of the calendar year, hold a public hearing to
+
+699
+
+discuss whether the [agriculture protection area or industrial] relevant protection area, [as the
+
+700
+
+case may be,] should be continued, modified, or terminated;
+
+701
+
+(iii) give notice of the hearing using the same procedures required by Section
+
+- 25 -
+
+H.B. 288
+702
+703
+704
+
+Enrolled Copy
+
+17-41-302; and
+(iv) after the public hearing, continue, modify, or terminate the [agriculture protection
+area or industrial] relevant protection area.
+
+705
+
+(b) If the applicable legislative body modifies or terminates the agriculture protection
+
+706
+
+area [or], industrial protection area, or critical infrastructure materials protection area, [it] the
+
+707
+
+applicable legislative body shall file an executed document containing the legal description of
+
+708
+
+the [agriculture protection area or industrial] relevant protection area, [respectively,] with the
+
+709
+
+county recorder of deeds.
+
+710
+
+(3) If the applicable legislative body fails affirmatively to continue, modify, or
+
+711
+
+terminate the agriculture protection area [or], industrial protection area, or critical infrastructure
+
+712
+
+materials protection area, as the case may be, in the 20th calendar year, the [agriculture
+
+713
+
+protection area or industrial] relevant protection area is considered to be reauthorized for
+
+714
+
+another 20 years.
+
+715
+
+Section 20. Section 17-41-402 is amended to read:
+
+716
+
+17-41-402. Limitations on local regulations.
+
+717
+
+(1) A political subdivision within which an agriculture protection area [or], industrial
+
+718
+
+protection area, or critical infrastructure materials protection area is created or with a mining
+
+719
+
+protection area within its boundary shall encourage the continuity, development, and viability
+
+720
+
+of agriculture use, industrial use, critical infrastructure materials operations, or mining use,
+
+721
+
+[respectively,] within the relevant protection area by not enacting a local law, ordinance, or
+
+722
+
+regulation that, unless the law, ordinance, or regulation bears a direct relationship to public
+
+723
+
+health or safety, would unreasonably restrict:
+
+724
+
+(a) in the case of an agriculture protection area, a farm structure or farm practice [or,];
+
+725
+
+(b) in the case of an industrial protection area, an industrial use of the land within the
+
+726
+727
+728
+729
+
+area [or,];
+(c) in the case of a critical infrastructure materials protection area, critical infrastructure
+materials operations; or
+(d) in the case of a mining protection area, a mining use within the protection area
+
+- 26 -
+
+Enrolled Copy
+
+H.B. 288
+
+730
+
+[unless the law, ordinance, or regulation bears a direct relationship to public health or safety].
+
+731
+
+(2) A political subdivision may not change the zoning designation of or a zoning
+
+732
+
+regulation affecting land within an agriculture protection area unless the political subdivision
+
+733
+
+receives written approval for the change from all the landowners within the agriculture
+
+734
+
+protection area affected by the change.
+
+735
+
+(3) Except as provided by Section 19-4-113, a political subdivision may not change the
+
+736
+
+zoning designation of or a zoning regulation affecting land within an industrial protection area
+
+737
+
+unless the political subdivision receives written approval for the change from all the
+
+738
+
+landowners within the industrial protection area affected by the change.
+
+739
+
+(4) A political subdivision may not change the zoning designation of or a zoning
+
+740
+
+regulation affecting land within a critical infrastructure materials protection area unless the
+
+741
+
+political subdivision receives written approval for the change from each critical infrastructure
+
+742
+
+materials operator within the relevant area.
+
+743
+
+[(4)] (5) A political subdivision may not change the zoning designation of or a zoning
+
+744
+
+regulation affecting land within a mining protection area unless the political subdivision
+
+745
+
+receives written approval for the change from each mine operator within the area.
+
+746
+
+(6) A county, city, or town may not:
+
+747
+
+(a) adopt, enact, or amend an existing land use regulation, ordinance, or regulation that
+
+748
+
+would prohibit, restrict, regulate, or otherwise limit critical infrastructure materials operations,
+
+749
+
+including vested critical infrastructure materials operations as defined in Section 10-9a-901 or
+
+750
+
+17-27a-1001; or
+
+751
+
+(b) initiate proceedings to amend the county's, city's, or town's land use ordinances as
+
+752
+
+described in Subsection 10-9a-509(1)(a)(ii) or 17-27a-508(1)(a)(ii).
+
+753
+
+Section 21. Section 17-41-403 is amended to read:
+
+754
+
+17-41-403. Nuisances.
+
+755
+
+(1) [Each] A political subdivision shall ensure that any of [its] the political
+
+756
+
+subdivision's laws or ordinances that define or prohibit a public nuisance exclude from the
+
+757
+
+definition or prohibition:
+
+- 27 -
+
+H.B. 288
+
+Enrolled Copy
+
+758
+
+(a) for an agriculture protection area, any agricultural activity or operation within an
+
+759
+
+agriculture protection area conducted using sound agricultural practices unless that activity or
+
+760
+
+operation bears a direct relationship to public health or safety; [or]
+
+761
+
+(b) for an industrial protection area, any industrial use of the land within the industrial
+
+762
+
+protection area that is consistent with sound practices applicable to the industrial use, unless
+
+763
+
+that use bears a direct relationship to public health or safety[.]; or
+
+764
+
+(c) for a critical infrastructure materials protection area, any critical infrastructure
+
+765
+
+materials operations on the land within the critical infrastructure materials protection area that
+
+766
+
+is consistent with sound practices applicable to the critical infrastructure materials operations,
+
+767
+
+unless that use bears a direct relationship to public health or safety.
+
+768
+
+(2) In a civil action for nuisance or a criminal action for public nuisance under Section
+
+769
+
+76-10-803, it is a complete defense if the action involves agricultural activities and those
+
+770
+
+agricultural activities were:
+
+771
+
+(a) conducted within an agriculture protection area; and
+
+772
+
+(b) not in violation of any federal, state, or local law or regulation relating to the
+
+773
+774
+
+alleged nuisance or were conducted according to sound agricultural practices.
+(3) (a) A vested mining use undertaken in conformity with applicable federal and state
+
+775
+
+law and regulations is presumed to be operating within sound mining practices.
+
+776
+
+(b) A vested mining use that is consistent with sound mining practices:
+
+777
+
+(i) is presumed to be reasonable; and
+
+778
+
+(ii) may not constitute a private or public nuisance under Section 76-10-803.
+
+779
+
+(c) A vested mining use in operation for more than three years may not be considered
+
+780
+
+to have become a private or public nuisance because of a subsequent change in the condition of
+
+781
+
+land within the vicinity of the vested mining use.
+
+782
+
+(4) (a) For any new subdivision development located in whole or in part within 300
+
+783
+
+feet of the boundary of an agriculture protection area, the owner of the development shall
+
+784
+
+provide notice on any plat filed with the county recorder the following notice:
+
+785
+
+"Agriculture Protection Area
+
+- 28 -
+
+Enrolled Copy
+786
+
+H.B. 288
+
+This property is located in the vicinity of an established agriculture protection area in
+
+787
+
+which normal agricultural uses and activities have been afforded the highest priority use
+
+788
+
+status. It can be anticipated that such agricultural uses and activities may now or in the
+
+789
+
+future be conducted on property included in the agriculture protection area. The use
+
+790
+
+and enjoyment of this property is expressly conditioned on acceptance of any
+
+791
+
+annoyance or inconvenience which may result from such normal agricultural uses and
+
+792
+
+activities."
+
+793
+
+(b) For any new subdivision development located in whole or in part within 1,000 feet
+
+794
+
+of the boundary of an industrial protection area, the owner of the development shall provide
+
+795
+
+notice on any plat filed with the county recorder the following notice:
+
+796
+
+"Industrial Protection Area
+
+797
+
+This property is located in the vicinity of an established industrial protection area in
+
+798
+
+which normal industrial uses and activities have been afforded the highest priority use
+
+799
+
+status. It can be anticipated that such industrial uses and activities may now or in the
+
+800
+
+future be conducted on property included in the industrial protection area. The use and
+
+801
+
+enjoyment of this property is expressly conditioned on acceptance of any annoyance or
+
+802
+
+inconvenience which may result from such normal industrial uses and activities."
+
+803
+
+(c) For any new subdivision development located in whole or in part within 1,000 feet
+
+804
+
+of the boundary of a critical infrastructure materials protection area, the owner of the
+
+805
+
+development shall provide notice on any plat filed with the county recorder the following
+
+806
+
+notice:
+
+807
+
+"Critical Infrastructure Materials Protection Area
+
+808
+
+This property is located in the vicinity of an established critical infrastructure materials
+
+809
+
+protection area in which critical infrastructure materials operations have been afforded
+
+810
+
+the highest priority use status. It can be anticipated that such operations may now or in
+
+811
+
+the future be conducted on property included in the critical infrastructure materials
+
+812
+
+protection area. The use and enjoyment of this property is expressly conditioned on
+
+813
+
+acceptance of any annoyance or inconvenience which may result from such normal
+
+- 29 -
+
+H.B. 288
+814
+815
+
+Enrolled Copy
+
+critical infrastructure materials operations."
+[(c)] (d) For any new subdivision development located in whole or in part within 1,000
+
+816
+
+feet of the boundary of a mining protection area, the owner of the development shall provide
+
+817
+
+notice on any plat filed with the county recorder the following notice:
+
+818
+
+"This property is located within the vicinity of an established mining protection area in
+
+819
+
+which normal mining uses and activities have been afforded the highest priority use
+
+820
+
+status. It can be anticipated that the mining uses and activities may now or in the future
+
+821
+
+be conducted on property included in the mining protection area. The use and
+
+822
+
+enjoyment of this property is expressly conditioned on acceptance of any annoyance or
+
+823
+
+inconvenience that may result from the normal mining uses and activities."
+
+824
+
+Section 22. Section 17-41-404 is amended to read:
+
+825
+
+17-41-404. Policy of state agencies.
+
+826
+
+[Each] A state agency shall encourage the continuity, development, and viability of
+
+827
+
+agriculture within agriculture protection areas [and], industrial uses with industrial protection
+
+828
+
+areas, and critical infrastructure materials operations within critical infrastructure protection
+
+829
+
+areas by:
+
+830
+
+(1) not enacting rules that would impose unreasonable restrictions on farm structures or
+
+831
+
+farm practices within the agriculture protection area [or], on industrial uses and practices
+
+832
+
+within the industrial protection area, or on critical infrastructure materials operations with a
+
+833
+
+critical infrastructure materials protection area, unless those laws, ordinances, or regulations
+
+834
+
+bear a direct relationship to public health or safety or are required by federal law; and
+
+835
+
+(2) modifying existing rules that would impose unreasonable restrictions on farm
+
+836
+
+structures or farm practices within the agriculture protection area [or], on industrial uses and
+
+837
+
+activities within the industrial protection area, or on critical infrastructure materials operations
+
+838
+
+within a critical infrastructure materials protection area, unless those laws, ordinances, or
+
+839
+
+regulations bear a direct relationship to public health or safety or are required by federal law.
+
+840
+
+Section 23. Section 17-41-405 is amended to read:
+
+841
+
+17-41-405. Eminent domain restrictions.
+
+- 30 -
+
+Enrolled Copy
+
+H.B. 288
+
+842
+
+(1) A political subdivision having or exercising eminent domain powers may not
+
+843
+
+condemn for any purpose any land within an agriculture protection area that is being used for
+
+844
+
+agricultural production [or any], land within an industrial protection area that is being put to an
+
+845
+
+industrial use, or land within a critical infrastructure materials protection area, unless [it has
+
+846
+
+obtained] the political subdivision obtains approval, according to the procedures and
+
+847
+
+requirements of this section, from the applicable legislative body and the advisory board.
+
+848
+
+(2) Any condemnor wishing to condemn property within an agriculture protection area
+
+849
+
+[or], industrial protection area, or critical infrastructure materials protection area shall file a
+
+850
+
+notice of condemnation with the applicable legislative body and the [agriculture protection area
+
+851
+
+or industrial] relevant protection area's advisory board at least 30 days before filing an eminent
+
+852
+
+domain complaint.
+
+853
+
+(3) The applicable legislative body and the advisory board shall:
+
+854
+
+(a) hold a joint public hearing on the proposed condemnation at a location within the
+
+855
+
+county in which the [agriculture protection area or industrial] relevant protection area is
+
+856
+
+located;
+
+857
+
+(b) publish notice of the time, date, place, and purpose of the public hearing:
+
+858
+
+(i) in a newspaper of general circulation within the [agriculture protection area or
+
+859
+
+industrial] relevant protection area[, as the case may be]; and
+
+860
+
+(ii) on the Utah Public Notice Website created in Section 63F-1-701; and
+
+861
+
+(c) post notice of the time, date, place, and purpose of the public hearing in five
+
+862
+
+conspicuous public places, designated by the applicable legislative body, within or near the
+
+863
+
+[agriculture protection area or industrial] relevant protection area[, as the case may be].
+
+864
+
+(4) (a) If the condemnation is for highway purposes or for the disposal of solid or
+
+865
+
+liquid waste materials, the applicable legislative body and the advisory board may approve the
+
+866
+
+condemnation only if there is no reasonable and prudent alternative to the use of the land
+
+867
+
+within the agriculture protection area [or], industrial protection area, or critical infrastructure
+
+868
+
+materials protection area for the project.
+
+869
+
+(b) If the condemnation is for any other purpose, the applicable legislative body and the
+
+- 31 -
+
+H.B. 288
+870
+
+advisory board may approve the condemnation only if:
+
+871
+872
+
+Enrolled Copy
+
+(i) the proposed condemnation would not have an unreasonably adverse effect upon the
+preservation and enhancement of:
+
+873
+
+(A) agriculture within the agriculture protection area [or of];
+
+874
+
+(B) the industrial use within the industrial protection area; or
+
+875
+
+(C) critical infrastructure materials operations within the critical infrastructure
+
+876
+
+materials protection area; or
+
+877
+878
+
+(ii) there is no reasonable and prudent alternative to the use of the land within the
+[agriculture protection area or industrial] the relevant protection area for the project.
+
+879
+
+(5) (a) Within 60 days after receipt of the notice of condemnation, the applicable
+
+880
+
+legislative body and the advisory board shall approve or reject the proposed condemnation.
+
+881
+
+(b) If the applicable legislative body and the advisory board fail to act within the 60
+
+882
+
+days or such further time as the applicable legislative body establishes, the condemnation shall
+
+883
+
+be considered rejected.
+
+884
+
+(6) The applicable legislative body or the advisory board may request the county or
+
+885
+
+municipal attorney to bring an action to enjoin any condemnor from violating any provisions of
+
+886
+
+this section.
+
+887
+
+Section 24. Section 17-41-406 is amended to read:
+
+888
+
+17-41-406. Restrictions on state development projects.
+
+889
+
+(1) [Each] A state agency that plans any development project that might affect land
+
+890
+
+within an agriculture protection area [or], industrial protection area, or critical infrastructure
+
+891
+
+materials protection area, shall submit [its] the state agency's development plan to:
+
+892
+893
+
+(a) the advisory board of the [agriculture protection area or industrial] relevant
+protection area[, respectively]; and
+
+894
+895
+896
+897
+
+(b) in the case of an agriculture protection area, the commissioner of agriculture and
+food.
+(2) The commissioner of agriculture and food, in the case of an agriculture protection
+area, and the advisory board shall:
+
+- 32 -
+
+Enrolled Copy
+
+H.B. 288
+
+898
+
+(a) review the state agency's proposed development plan; and
+
+899
+
+(b) recommend any modifications to the development project that would protect the
+
+900
+
+integrity of the agriculture protection area [or], industrial protection area, or critical
+
+901
+
+infrastructure materials protection area, as the case may be, or that would protect the
+
+902
+
+agriculture protection area from nonfarm encroachment [or], the industrial protection area from
+
+903
+
+nonindustrial encroachment, or the critical infrastructure materials protection area from
+
+904
+
+encroachment of uses unrelated to critical infrastructure materials operations.
+
+905
+906
+
+(3) [Each] A state agency and political subdivision of the state that designates or
+proposes to designate a transportation corridor shall:
+
+907
+
+(a) consider:
+
+908
+
+(i) whether the transportation corridor would:
+
+909
+
+(A) be located on land that is included within an agriculture protection area; or
+
+910
+
+(B) interfere with agriculture production activities on land within an agriculture
+
+911
+912
+913
+914
+915
+
+protection area; and
+(ii) each other reasonably comparable alternative to the placement of the corridor on
+land within an agriculture protection area; and
+(b) make reasonable efforts to minimize or eliminate any detrimental impact on
+agriculture that may result from the designation of a transportation corridor.
+
+916
+
+Section 25. Section 76-10-803 is amended to read:
+
+917
+
+76-10-803. "Public nuisance" defined -- Agricultural operations -- Critical
+
+918
+919
+920
+921
+922
+
+infrastructure materials operations.
+(1) A public nuisance is a crime against the order and economy of the state and consists
+in unlawfully doing any act or omitting to perform any duty, which act or omission:
+(a) annoys, injures, or endangers the comfort, repose, health, or safety of three or more
+persons;
+
+923
+
+(b) offends public decency;
+
+924
+
+(c) unlawfully interferes with, obstructs, or tends to obstruct, or renders dangerous for
+
+925
+
+passage, any lake, stream, canal, or basin, or any public park, square, street, or highway;
+
+- 33 -
+
+H.B. 288
+
+Enrolled Copy
+
+926
+
+(d) is a nuisance as [defined] described in Section 78B-6-1107; or
+
+927
+
+(e) in any way renders three or more persons insecure in life or the use of property.
+
+928
+
+(2) An act which affects three or more persons in any of the ways specified in this
+
+929
+
+section is still a nuisance regardless of the extent to which the annoyance or damage inflicted
+
+930
+
+on individuals is unequal.
+
+931
+
+(3) (a) Activities conducted in the normal and ordinary course of agricultural
+
+932
+
+operations, as defined in Subsection 78B-6-1101(7), and conducted in accordance with sound
+
+933
+
+agricultural practices are presumed to be reasonable and not constitute a public nuisance under
+
+934
+
+Subsection (1).
+
+935
+
+(b) Agricultural operations undertaken in conformity with federal, state, and local laws
+
+936
+
+and regulations, including zoning ordinances, are presumed to be operating within sound
+
+937
+
+agricultural practices.
+
+938
+
+(4) (a) Activities conducted in the normal and ordinary course of critical infrastructure
+
+939
+
+materials operations, as defined in Subsection 78B-6-1101(8), and conducted in accordance
+
+940
+
+with sound critical infrastructure materials practices are presumed to be reasonable and not
+
+941
+
+constitute a public nuisance under Subsection (1).
+
+942
+
+(b) Critical infrastructure materials operations undertaken in conformity with federal,
+
+943
+
+state, and local laws and regulations, including zoning ordinances, are presumed to be
+
+944
+
+operating within sound critical infrastructure materials operations.
+
+945
+
+Section 26. Section 78B-6-1101 is amended to read:
+
+946
+
+78B-6-1101. Definitions -- Nuisance -- Right of action.
+
+947
+
+(1) A nuisance is anything which is injurious to health, indecent, offensive to the
+
+948
+
+senses, or an obstruction to the free use of property, so as to interfere with the comfortable
+
+949
+
+enjoyment of life or property. A nuisance may be the subject of an action.
+
+950
+
+(2) A nuisance may include the following:
+
+951
+
+(a) drug houses and drug dealing as provided in Section 78B-6-1107;
+
+952
+
+(b) gambling as provided in Title 76, Chapter 10, Part 11, Gambling;
+
+953
+
+(c) criminal activity committed in concert with two or more persons as provided in
+
+- 34 -
+
+Enrolled Copy
+954
+955
+956
+957
+958
+
+H.B. 288
+
+Section 76-3-203.1;
+(d) criminal activity committed for the benefit of, at the direction of, or in association
+with any criminal street gang as defined in Section 76-9-802;
+(e) criminal activity committed to gain recognition, acceptance, membership, or
+increased status with a criminal street gang as defined in Section 76-9-802;
+
+959
+
+(f) party houses which frequently create conditions defined in Subsection (1); and
+
+960
+
+(g) prostitution as provided in Title 76, Chapter 10, Part 13, Prostitution.
+
+961
+
+(3) A nuisance under this part includes tobacco smoke that drifts into any residential
+
+962
+
+unit a person rents, leases, or owns, from another residential or commercial unit and the smoke:
+
+963
+
+(a) drifts in more than once in each of two or more consecutive seven-day periods; and
+
+964
+
+(b) creates any of the conditions under Subsection (1).
+
+965
+
+(4) Subsection (3) does not apply to:
+
+966
+
+(a) residential rental units available for temporary rental, such as for vacations, or
+
+967
+
+available for only 30 or fewer days at a time; or
+
+968
+
+(b) hotel or motel rooms.
+
+969
+
+(5) Subsection (3) does not apply to any unit that is part of a timeshare development, as
+
+970
+971
+972
+
+defined in Section 57-19-2, or subject to a timeshare interest as defined in Section 57-19-2.
+(6) An action may be brought by any person whose property is injuriously affected, or
+whose personal enjoyment is lessened by the nuisance.
+
+973
+
+(7) "Agricultural operation" means any activity engaged in the commercial production
+
+974
+
+of crops, orchards, aquaculture, livestock, poultry, livestock products, poultry products, and the
+
+975
+
+facilities, equipment, and property used to facilitate the activity.
+
+976
+977
+978
+
+(8) "Critical infrastructure materials operations" means the same as that term is defined
+in Section 10-9a-901.
+[(8)] (9) "Manufacturing facility" means any factory, plant, or other facility including
+
+979
+
+its appurtenances, where the form of raw materials, processed materials, commodities, or other
+
+980
+
+physical objects is converted or otherwise changed into other materials, commodities, or
+
+981
+
+physical objects or where such materials, commodities, or physical objects are combined to
+
+- 35 -
+
+H.B. 288
+982
+
+Enrolled Copy
+
+form a new material, commodity, or physical object.
+
+983
+
+Section 27. Section 78B-6-1115 is enacted to read:
+
+984
+
+78B-6-1115. Critical infrastructure materials operations -- Nuisance liability.
+
+985
+
+(1) Activities conducted in the normal and ordinary course of critical infrastructure
+
+986
+
+materials operations or conducted in accordance with sound practices are presumed to be
+
+987
+
+reasonable and not constitute a nuisance.
+
+988
+
+(2) Critical infrastructure materials operations undertaken in conformity with federal,
+
+989
+
+state, and local laws and regulations, including zoning ordinances, are presumed to be
+
+990
+
+operating within sound critical infrastructure materials practices.
+
+- 36 -
+
+
