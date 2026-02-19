@@ -128,6 +128,12 @@ Council members publicly declared the outcome months before any public hearing, 
 - *"I cannot imagine approving a 640 acre limestone quarry adjacent to the Mount Aire subdivision and within the Salt Lake Valley airshed."*
 - Said before any planning commission or public hearing
 
+**SLCo004070** (discovery-0001) — SNELGROVE: "BANNING THE QUARRY" (Feb 18, 2022)
+- From: Snelgrove to Council Staff Abby Evans
+- *"Has the ordinance banning the quarry up Parley's Canyon been scheduled for Council consideration yet?"*
+- A sitting council member explicitly characterizes the pending ordinance as "banning the quarry" — not a neutral land use amendment
+- This is the same day Christie Morgan internally acknowledged the 17-41-402 conflict (SLCo011350)
+
 ---
 
 ## TIER 3: "PROCEDURAL BENEFIT" — RACING TO ENACT BEFORE TREE FARM COULD FILE
@@ -256,9 +262,15 @@ Multiple meetings of a quorum of the council were held without public notice, vi
 
 ## TIER 5: INTER-GOVERNMENTAL CONSPIRACY / COORDINATION
 
-Multiple government agencies coordinated strategy against a private landowner's legal rights.
+Multiple government agencies coordinated strategy against a private landowner's legal rights. The coordination network ultimately included: Salt Lake County (Mayor + DA + Planning + Public Works + Health), Millcreek (Mayor Silvestrini), Salt Lake City (Public Utilities Director Briefer + City Council), MSD, US Forest Service, and state legislators (Sen. Iwamoto, Rep. Owens, Sen. Kitchen, Sen. King).
 
 ### Evidence Files:
+
+**SLCo003781** (discovery-0001) — STATE LEGISLATORS CC'D ON TREE FARM OPPOSITION (Nov 28, 2021)
+- From: State Sen. Jani Iwamoto to constituent Susan Trapp
+- CC: Utah DNR official (Heppler), State Rep. Doug Owens, Millcreek Mayor Silvestrini, **THREE county council members** (Granato, Stringham, Snelgrove, Bradley), State Sen. Brian King, State Sen. Derek Kitchen
+- *"I am meeting with department on a matter tomorrow and will look into this with them, as well as other departments."*
+- **State legislator promising to intervene with state agencies on behalf of opponents, CC'ing county council members**
 
 **SLCo006181** (discovery-0002) — THE STRATEGY MEETING EMAIL
 - From: Kanter to Mayor Wilson, Shea, Blaes, Dunn, Lund, Baird
