@@ -197,6 +197,41 @@ Multiple government agencies coordinated strategy against a private landowner's 
 - From: Laura Briefer (SLC Public Utilities Director) to Kanter, March 18, 2022
 - *"Pursuant to our conversation this morning, please find our affidavit (not filed) regarding Tree Farm's water rights. I am sharing with you so you have clarification about the water rights that Tree Farm holds, and how tenuous those rights are in the context of operating a mine. While this is confidential at this time, I hope that it helps Salt Lake County in its strategic land use considerations."*
 - Salt Lake City sharing confidential, unfiled litigation materials with the county for "strategic land use considerations"
+- **The Prue Declaration was attorney work product** prepared for DOGM litigation by SLC attorneys Vetter and Lee
+- It analyzes Tree Farm's water rights in detail, concluding they have only 0.0384 CFS flow
+- The DOGM case was dismissed the SAME DAY (March 17) via Stipulated Motion — SLC repurposed unfiled litigation materials
+
+**SLCo010582** (discovery-0004) — THE PRUE DECLARATION ITSELF
+- Sworn declaration of Tamara Prue, SLC Water Resource Manager
+- Dated March 17, 2022 — same day Tree Farm/DOGM filed Stipulated Motion to Dismiss
+- Provides detailed water rights analysis proving Tree Farm's water was insufficient for mining
+- **Prepared for litigation, never filed, then secretly shared with the county for use in land use proceedings**
+
+**SLCo008463** (discovery-0003) — BRIEFER FORWARDING DOGM INTELLIGENCE
+- From: Laura Briefer to Kanter, Dec 6, 2021
+- SLC's water department director forwarding state regulatory intelligence directly to county Deputy Mayor
+
+**SLCo006228 / SLCo006235** (discovery-0002) — TWO-WAY INTELLIGENCE SHARING
+- County shared its Special Council Meeting materials with SLC's Briefer before the Dec 10 meeting
+
+**SLCo015332** (discovery-0005) — WATER RIGHTS DENIED ONE DAY BEFORE SILVESTRINI EMAIL
+- Division of Water Rights denied Tree Farm's stream alteration permit on March 16, 2022
+- The NEXT DAY (March 17), Silvestrini emailed urging the county to rush the vote for "procedural benefit"
+- Multiple government agencies were working simultaneously to block Tree Farm
+
+### INTER-GOVERNMENTAL CONSPIRACY TIMELINE:
+| Date | Event | File |
+|------|-------|------|
+| Nov 28-29, 2021 | Multi-agency strategy meeting (SLC, Millcreek, County) | SLCo006181 |
+| Dec 6, 2021 | SLC forwards DOGM intelligence to County | SLCo008463 |
+| Dec 9, 2021 | County shares Council materials with SLC | SLCo006228 |
+| Dec 29, 2021 | Kanter shares county legal strategy with Save Our Canyons | SLCo008918 |
+| Jan 10, 2022 | Millcreek files Petition to Intervene at DOGM | SLCo006361 |
+| Jan 25, 2022 | SLC files Petition to Intervene at DOGM | SLCo009634 |
+| Feb 11, 2022 | Board grants intervention to SLC, Millcreek, Richards Family, Save Our Canyons | SLCo006885 |
+| Mar 16, 2022 | Division of Water Rights denies Tree Farm's stream alteration permit | SLCo015332 |
+| Mar 17, 2022 | Prue Declaration dated; DOGM case dismissed same day | SLCo010582 |
+| **Mar 18, 2022** | **SLC secretly shares unfiled Prue Declaration with County** | **SLCo010581** |
 
 **SLCo008918** (discovery-0003) — KANTER COORDINATING WITH SAVE OUR CANYONS
 - From: Kanter to Carl Fisher (Executive Director, Save Our Canyons), Dec 29, 2021
