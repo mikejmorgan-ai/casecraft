@@ -1,0 +1,19 @@
+Event: Tree Farm
+Start Date: 2022-03-22 13:00:00 -0600
+End Date: 2022-03-22 14:00:00 -0600
+Organizer: Lisa Hartman <LHartman@slco.org>
+Location: In Person - Mayor's Large Conference Room
+Class: X-PERSONAL
+Date Created: 2022-03-18 10:14:50 -0600
+Date Modified: 2022-03-23 09:31:17 -0600
+Priority: 5
+DTSTAMP: 2022-03-18 10:11:18 -0600
+Attendee: Tim Bywater <TBywater@slco.org>; Zachary Shaw <ZShaw@slco.org>; Jim Bradley
+<JBradley@slco.org>; Isaac Higham <IHigham@slco.org>; Nick Steffens <NSteffens@slco.org>;
+Arlyn Bradshaw <ARBradshaw@slco.org>; Mitch Park <MPark@slco.org>; Abigail Roberson
+<ARoberson@slco.org>; Ann Granato <AGranato@slco.org>; Robert Sampson
+<RSampson@slco.org>; Jenny Wilson <JWilson@slco.org>
+
+________________________________________________________________________________
+
+

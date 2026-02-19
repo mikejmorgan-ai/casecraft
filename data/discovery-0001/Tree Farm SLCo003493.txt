@@ -1,0 +1,12 @@
+Event: Accepted: Salt Lake County - Tree Farm DOGM proceedings
+Start Date: 2022-02-22 13:30:00 -0700
+End Date: 2022-02-22 14:30:00 -0700
+Organizer: Tim Bywater <TBywater@slco.org>
+Location: via Webex
+Class: X-PERSONAL
+Date Created: 2022-02-22 09:36:51 -0700
+Date Modified: 2022-02-22 15:50:59 -0700
+Priority: 5
+DTSTAMP: 2022-02-22 09:36:47 -0700
+
+
