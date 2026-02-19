@@ -1,0 +1,12 @@
+Event: Accepted: Tree Farm mining issues
+Start Date: 2022-04-01 13:00:00 -0600
+End Date: 2022-04-01 13:30:00 -0600
+Location: WebEx.
+Class: X-PERSONAL
+Date Created: 2022-04-01 11:35:39 -0600
+Date Modified: 2022-04-01 12:04:58 -0600
+Priority: 5
+DTSTAMP: 2022-04-01 11:35:29 -0600
+Attendee: Tim Bywater <TBywater@slco.org>
+
+
