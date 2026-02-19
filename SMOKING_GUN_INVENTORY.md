@@ -50,10 +50,35 @@ The strongest category. County officials were warned that their ordinance violat
 - *"This ordinance is blatantly contrary to Utah Code 17-41-402(6)... Thus, it is illegal."*
 - Delivered to council the same day they voted — they heard it and voted anyway
 
-**SLCo011022** (discovery-0004) — COUNTY'S SEMANTIC DODGE TO OMBUDSMAN
+**SLCo011022** (discovery-0004) — COUNTY'S FALSE STATEMENT TO OMBUDSMAN
 - Bywater/Chamness letter to Property Rights Ombudsman, April 7, 2022
-- County defense: the ordinance doesn't reference "critical infrastructure materials" by name
-- **Contradicted by the ordinance's own text** which bans "sand, gravel and/or rock aggregate" — the statutory definition of CIM
+- County defense: *"the proposed amendments do not include any reference to critical infrastructure materials"*
+- **THIS IS FALSE**: The final enacted ordinance (SLCo012172, lines 33-39) explicitly bans "sand, gravel and/or rock aggregate" — the statutory definition of CIM
+- The DA's own office signed the ordinance with CIM language on Dec 8, 2021 (Shaw's digital signature)
+
+### THE CRITICAL CONTRADICTION (Staff Report Deep Dive):
+
+| Date | Event | File |
+|------|-------|------|
+| Dec 8, 2021 | **Shaw signs "APPROVED AS TO FORM" on ordinance WITH CIM language** | SLCo012172, line 218 |
+| Dec 10, 2021 | Council initiates proceedings with CIM language | SLCo017826, lines 614-625 |
+| ~Jan-Feb 2022 | **Staff conducts "closer review" and recommends REMOVING CIM language** | SLCo017826, Footnote 1 |
+| Feb 3, 2022 | MPD Planning Commission approves STAFF version (no CIM language) | SLCo017826 |
+| Feb 16, 2022 | SLC Planning Commission approves STAFF version (no CIM language) | SLCo017826 |
+| Feb 18, 2022 | Christie Morgan internally acknowledges 17-41-402 conflict | SLCo011350 |
+| Apr 5, 2022 | Bateman warns: ordinance "expressly prohibits extraction of sand, gravel and/or rock aggregate" — "blatantly contrary to 17-41-402(6)" | SLCo011005 |
+| Apr 5, 2022 | **Council votes to advance. CIM language is IN the final version** | SLCo012172 |
+| Apr 7, 2022 | **DA Bywater tells Ombudsman: "amendments do not include any reference to critical infrastructure materials"** | SLCo011022 |
+
+**This means either:**
+1. **The DA lied to the Ombudsman** about the content of the ordinance the Council just voted on, OR
+2. **The Council added the CIM language back in** between the first reading and the DA's letter, and the DA hadn't read the version that was voted on
+
+**Either way, it proves:**
+- Staff recommended removing CIM language (knowing it triggered 17-41-402)
+- Both planning commissions approved the clean version without CIM language
+- The final enacted version put the CIM language BACK IN
+- The DA's defense to the Ombudsman was factually false
 
 **SLCo010728, SLCo010795, SLCo010804** (discovery-0004) — TREE FARM'S VESTED MINING USE DECLARATION
 - Supplemental Declaration and Notice of Vested Mining Use under Utah Code 17-41-501 to -503
