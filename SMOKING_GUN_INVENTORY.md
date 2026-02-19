@@ -153,9 +153,9 @@ An outside government official (Millcreek Mayor Silvestrini) explicitly urged th
 
 ---
 
-## TIER 4: OPEN MEETINGS ACT VIOLATION (Utah Code 52-4-101 et seq.)
+## TIER 4: OPEN MEETINGS ACT VIOLATION — SERIAL MEETINGS (Utah Code 52-4-101 et seq.)
 
-A meeting of a quorum of the council was held without public notice, violating the Open and Public Meetings Act.
+Multiple meetings of a quorum of the council were held without public notice, violating the Open and Public Meetings Act. On March 22, 2022, the county held TWO SEPARATE in-person meetings about Tree Farm — covering ALL 9 council members across the two meetings — a textbook serial meeting violation under Utah OPMA.
 
 ### Evidence Files:
 
@@ -202,6 +202,55 @@ A meeting of a quorum of the council was held without public notice, violating t
 **SLCo010637, SLCo010667, SLCo010669, SLCo010671, SLCo010673, SLCo010677, SLCo010596** (discovery-0004)
 - Calendar acceptances from 7+ different attendees confirming attendance
 - Corroborates the meeting actually occurred
+
+### THE SERIAL MEETING VIOLATION — TWO MEETINGS, ALL 9 COUNCIL MEMBERS (March 22, 2022)
+
+**SLCo018638** (discovery-0006) — THE SECOND TREE FARM MEETING (Democrats + DA)
+- From: Lisa Hartman to Mayor Wilson, forwarding meeting invite
+- **1:00-2:00 PM, In Person - Mayor's Large Conference Room**
+- Attendees: Hartman, Roberson, **Bywater (DA)**, **Shaw (DA)**, **Jim Bradley (Council-D)**, Isaac Higham, Nick Steffens, **Arlyn Bradshaw (Council-D)**, Mitch Park, **Ann Granato (Council-D)**, Robert Sampson
+- **THREE DEMOCRATIC council members** (Bradley, Bradshaw, Granato) + DA Shaw + DA staff Bywater
+
+**Combined with the R Caucus meeting (SLCo015829) at 4:30 PM:**
+- **FIVE REPUBLICAN council members** (Stringham, DeBry, Snelgrove, Alvord, Theodore) + Kanter + Shaw + Bywater
+
+**RESULT: ALL 9 council members were briefed about Tree Farm on the same day in two separate meetings.**
+
+| Meeting | Time | Council Members | Other Officials |
+|---------|------|----------------|-----------------|
+| "Tree Farm" | 1:00 PM | Bradley (D), Bradshaw (D), Granato (D) | Shaw, Bywater, Hartman, Roberson, Higham, Steffens, Park, Sampson |
+| "R Caucus/Tree Farm" | 4:30 PM | Stringham (R), DeBry (R), Snelgrove (R), Alvord (R), Theodore (R) | Kanter, Shaw, Bywater, Park, Evans, Klemm, Brower, Wallace, Johnson, C. Morgan |
+
+- **Note: Shaw and Bywater attended BOTH meetings** — DA's office presented the same material to all council members
+- **This is a textbook OPMA serial meeting violation**: splitting a quorum into sequential smaller groups to avoid the public meeting requirements
+- **Neither meeting had public notice**
+- **Neither meeting produced minutes**
+- 13 days before the April 5 vote
+
+### STATE LEGISLATOR IN THE COORDINATION NETWORK
+
+**SLCo018532** (discovery-0006) — STATE SENATOR IWAMOTO PROVIDING DOGM INTELLIGENCE (Dec 9, 2021)
+- From: State Sen. Jani Iwamoto to Wilson (SLCo Mayor), Silvestrini (Millcreek Mayor), Mendenhall (SLC Mayor), Rob Dahle (Holladay Mayor), and community members
+- *"In speaking with Director John Baza, the Director of the Utah Division of Oil, Gas, and Mining (DOGM), I was informed they denied the small mine permit application yesterday."*
+- **A STATE LEGISLATOR was providing real-time intelligence from the DOGM Director to local mayors and community members BEFORE the Dec 10 council vote**
+- Adds a SIXTH governmental entity (Utah State Legislature) to the coordination network
+- The coordination network now includes: Salt Lake County, Millcreek, Salt Lake City, MSD, US Forest Service, and a state legislator with inside access to the state regulatory agency
+
+### ADDITIONAL PREDETERMINED OUTCOME EVIDENCE
+
+**SLCo017270** (discovery-0006) — THEODORE: "HALT THIS PROJECT" (Dec 13, 2021)
+- From: Councilwoman Dea Theodore to constituent Jodi Harker
+- *"The council did vote unanimously to halt this project."*
+- Another council member explicitly characterizing the ordinance amendment as targeted action against Tree Farm — not neutral land use policy
+
+### SILVESTRINI PERSONALLY LOBBYING INDIVIDUAL COUNCIL MEMBERS
+
+**SLCo017410** (discovery-0006) — SILVESTRINI LOBBIES THEODORE INDIVIDUALLY (Mar 18, 2022)
+- From: Jeff Silvestrini (Millcreek Mayor) to Dea Theodore (Council member)
+- Same day as Silvestrini's "procedural benefit" email to other council members
+- Personally urges her to support the amendments, argues about PM 2.5 dust
+- *"I am writing to urge your support for these amendments."*
+- **Outside mayor aggressively lobbying individual council members one at a time**
 
 ---
 
@@ -445,7 +494,8 @@ County officials made demonstrably false statements about the ordinance to the p
 1. **Nov 2021**: Tree Farm files NOIs with DOGM and records Supplemental Declaration of Vested Mining Use (SLCo010728)
 2. **Nov 28, 2021**: Kanter convenes multi-agency strategy meeting (SLCo006181)
 3. **Dec 8, 2021**: Shaw signs "APPROVED AS TO FORM" on draft ordinance — before any public process (SLCo012172)
-4. **Dec 10, 2021**: Council votes to "initiate" ordinance proceedings. Within hours, Snelgrove emails constituents saying they "voted to ban" mining and "cannot imagine any scenario" (SLCo003849, 003854, 003856). Winder Newton emails all 8 council members: "we are all on the same page" (SLCo011171)
+4. **Dec 9, 2021**: State Sen. Iwamoto provides real-time DOGM intelligence to mayors Wilson, Silvestrini, and Mendenhall (SLCo018532). Same evening, county holds strategy meeting with council member Stringham, MSD, and attorney (SLCo015620)
+5. **Dec 10, 2021**: Council votes to "initiate" ordinance proceedings. Within hours, Snelgrove emails constituents saying they "voted to ban" mining and "cannot imagine any scenario" (SLCo003849, 003854, 003856). Winder Newton emails all 8 council members: "we are all on the same page" (SLCo011171). Theodore tells constituent: "The council did vote unanimously to halt this project" (SLCo017270)
 5. **Dec 20, 2021**: County denies Tree Farm's business license for lacking CUP that the county is eliminating (SLCo013466)
 6. **Dec 28, 2021**: Theodore's advisor tells LUCC Board "this is not going to happen" — before any hearing (SLCo015730)
 7. **Feb 3 & 16, 2022**: Planning commission hearings (a formality given predetermined outcome)
@@ -454,7 +504,7 @@ County officials made demonstrably false statements about the ordinance to the p
 10. **Mar 17, 2022**: Silvestrini emails urging county to rush vote for "procedural benefit" (SLCo015799)
 11. **Mar 17-20, 2022**: Kanter calls Silvestrini, then reports to council members (SLCo010591, SLCo015800)
 12. **Mar 18, 2022**: SLC shares confidential unfiled affidavit about Tree Farm's water rights (SLCo010581)
-13. **Mar 22, 2022**: R Caucus/Tree Farm meeting with quorum of council + Mayor — no public notice (SLCo015829, SLCo018648)
+13. **Mar 22, 2022**: TWO Tree Farm meetings — 1:00 PM with Democratic council members (SLCo018638), 4:30 PM R Caucus with Republican council members (SLCo015829). Together = ALL 9 council members. No public notice for either. No minutes. Classic serial meeting violation.
 14. **Apr 4, 2022**: County distributes false "long prohibited" talking points (SLCo011049)
 15. **Apr 5, 2022 ~1:00 PM**: Council work session — staff presentation
 16. **Apr 5, 2022 1:21 PM**: Mayor's victory press release distributed to be "handed out to the public" — BEFORE the 4:00 PM hearing (SLCo011001)
