@@ -130,13 +130,41 @@ An outside government official (Millcreek Mayor Silvestrini) explicitly urged th
 
 ## TIER 4: OPEN MEETINGS ACT VIOLATION (Utah Code 52-4-101 et seq.)
 
-A meeting of a quorum of the council (5 of 9 members) was held without public notice, violating the Open and Public Meetings Act.
+A meeting of a quorum of the council was held without public notice, violating the Open and Public Meetings Act.
 
 ### Evidence Files:
 
 **SLCo015829** (discovery-0005) — R CAUCUS/TREE FARM MEETING INVITE
 - Original invite, March 21, 2022
-- **5 council members invited**: Stringham, DeBry, Snelgrove, Alvord, Theodore = QUORUM
+- **6 council members invited**: Stringham, DeBry, Snelgrove, Alvord, Theodore, **Bywater** = SUPERMAJORITY (6 of 9)
+- Plus staff: Park, Evans, Klemm, Brower, Wallace, Johnson
+- Plus officials: Kanter, Shaw, Bywater, Christie Morgan
+- Location: In person - Council Conference Room
+- **Classified as `X-PERSONAL`** — deliberately avoiding public meeting classification
+- **No public notice posted anywhere in the 5,576-file production**
+- **No one declined. Multiple explicit acceptances documented. Zero declines.**
+
+**SLCo018648** (discovery-0006) — UPDATED INVITE WITH MAYOR
+- Updated version adding Abigail Roberson and **Mayor Jenny Wilson**
+- Wilson was added the MORNING of the meeting (6.5 hours before start time)
+
+**SLCo018636** (discovery-0006) — LISA HARTMAN FORWARDING TO WILSON
+- Lisa Hartman forwarded the invite to Mayor Wilson on March 22 at 10:01 AM
+
+**SLCo010636** (discovery-0004) — KANTER ACCEPTS
+**SLCo007174** (discovery-0002) — ABBY EVANS ACCEPTS
+**SLCo015831** (discovery-0005) — COUNCIL MEMBER STRINGHAM ACCEPTS
+
+**23+ Calendar entries** across multiple mailboxes: SLCo003542, SLCo003545, SLCo007141, SLCo007209, SLCo007231, SLCo010596, SLCo010637, SLCo010667, SLCo010669, SLCo010671, SLCo010673, SLCo010677, SLCo015339, SLCo015341, SLCo015357, SLCo015359, SLCo015361, SLCo015363, SLCo015802, SLCo015825, SLCo015827, SLCo017411, SLCo017434, SLCo018644, SLCo018646
+
+**Key OPMA findings:**
+1. 6 of 9 council members invited — exceeds quorum by 1
+2. Zero declines documented
+3. Organized by executive branch (Associate Deputy Mayor), not council staff
+4. Labeled "R Caucus" — partisan Republican caucus meeting about pending legislation
+5. No public notice, no agenda posted
+6. Held in official Council Conference Room
+7. **No notes, minutes, or follow-up emails about what was discussed — complete absence of records**
 - **Plus staff**: Park, Evans, Klemm, Brower, Wallace, Johnson
 - **Plus officials**: Kanter, Shaw, Bywater, Christie Morgan
 - Location: In person - Council Conference Room
@@ -176,6 +204,28 @@ Multiple government agencies coordinated strategy against a private landowner's 
 - Kanter responds: *"I'm glad you reached out – b/c I would like to discuss what you mention at the end of your message. We have similar concerns that the applicant intends to rely upon an existing use argument."*
 - Kanter shares the county's internal ordinance timeline graphic and sets up a private phone call
 - **The Deputy Mayor is sharing the county's legal strategy concerns ("existing use argument") with an outside advocacy group that would later intervene against Tree Farm at DOGM**
+- After this call, Save Our Canyons hired Jones Waldo law firm to intervene at DOGM against Tree Farm
+
+**SLCo013077** (discovery-0004) — REVISED SCHEDULE AFTER SILVESTRINI EMAIL
+- From: Helen Peters to Melissa Anderson, CC Kanter and Shaw, **March 18, 2022** — the day AFTER Silvestrini's email
+- Sets April 5 at 4:00 PM as the public hearing and first reading date
+- Helen Peters: *"Zach and I will be at all the meetings with you, but you will be the presenter."*
+- **The schedule was revised the day after Silvestrini urged acceleration**
+
+**SLCo015752** (discovery-0005) — MSD CATCH-22 STRATEGY REVEALED
+- From: Melissa Anderson to all MSD staff and MSD Board of Trustees, Feb 3, 2022
+- Reveals the full administrative trap:
+  - Business license "formally denied by the Salt Lake County Mayor and MSD"
+  - Tree Farm "did not appeal that decision within the specified time limit"
+  - "If the MSD does receive a CUP application, it will be on hold while the proposed ordinance amendment is being considered"
+  - "The County has six months from Dec. 10, 2021 to make a decision on the proposed ordinance amendment before MSD would have to process a CUP application for mining in the FR zone"
+- **Shows the county designed an administrative trap: deny the license, freeze CUP applications for 6 months, and use that window to eliminate CUPs entirely**
+
+**SLCo013261** (discovery-0004) — THE VICTORY LAP
+- From: Melissa Anderson to Helen Peters, April 6, 2022 (day after vote)
+- *"Everything went smoothly, thanks to the coordination of ORD and the assistance of the DA's office."*
+- Already planning for April 12 "second reading and final approval"
+- Confirms the vote was never in doubt
 
 **SLCo006190** (discovery-0002) — MSD PLANNER CONFIRMS MINING IS CONDITIONAL USE
 - From: Gregory Baptist (MSD) to Dave Carrier, Dec 1, 2021
@@ -323,7 +373,9 @@ County officials made demonstrably false statements about the ordinance to the p
 12. **Mar 18, 2022**: SLC shares confidential unfiled affidavit about Tree Farm's water rights (SLCo010581)
 13. **Mar 22, 2022**: R Caucus/Tree Farm meeting with quorum of council + Mayor — no public notice (SLCo015829, SLCo018648)
 14. **Apr 4, 2022**: County distributes false "long prohibited" talking points (SLCo011049)
-15. **Apr 5, 2022**: Bateman delivers letter calling ordinance "illegal" (SLCo011005). Council votes to pass it anyway.
+15. **Apr 5, 2022 ~1:00 PM**: Council work session — staff presentation
+16. **Apr 5, 2022 1:21 PM**: Mayor's victory press release distributed to be "handed out to the public" — BEFORE the 4:00 PM hearing (SLCo011001)
+17. **Apr 5, 2022 4:00 PM**: Public hearing begins. Bateman's "illegal" letter delivered (SLCo011005). Council votes to pass it anyway. First reading approved.
 16. **Apr 7, 2022**: County sends semantic dodge to Ombudsman (SLCo011022)
 
 ---
