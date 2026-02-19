@@ -1,0 +1,584 @@
+{
+  "property": {
+    "name": "I-80 South Quarry (Parley's Canyon / Tree Farm)",
+    "case_number": "220902840",
+    "dogm_permit": "S0350055",
+    "air_quality_permit": "DAQE-IN161200002-25",
+    "county": "Salt Lake",
+    "state": "Utah",
+    "zoning": "FR-20 (Forestry & Recreation, 20-acre minimum lot size)",
+    "overlay_zone": "FCOZ (Foothills and Canyons Overlay Zone — covers ~136,000 acres, 25% of Salt Lake County)",
+    "deed_date": "December 2020",
+    "grantor": "Ira Sachs (Park City entrepreneur, acquired parcels 1992–1997, died Oct 2022 age 85)",
+    "grantee": "Tree Farm LLC (Jesse Lassley, Salt Lake City developer)",
+    "acreage_total": 872,
+    "acreage_main_quarry_parcel": 634,
+    "acreage_small_mine_operation": 20,
+    "parcels_count": 14,
+    "additional_interest": "50% stake in Harper Quarry (north side of I-80, 55 acres, operated by Kilgore Companies)",
+    "adjacent_landowner": "Richards Family Partnership — 664 acres immediately east of proposed quarry"
+  },
+  "plss_legal_description": {
+    "meridian": "Salt Lake Base and Meridian",
+    "primary_sections": [
+      {
+        "township": "T1S",
+        "range": "R2E",
+        "section": 18,
+        "quarter": "SE of SW of SW",
+        "description": "Main quarry area — NE of Grandeur Peak (USGS MRDS #10020989)",
+        "latitude": 40.72605,
+        "longitude": -111.77301,
+        "elevation_ft": 5141
+      },
+      {
+        "township": "T1S",
+        "range": "R2E",
+        "section": 18,
+        "quarter": "SW of SW of SE",
+        "description": "Parleys Canyon Quarry (USGS MRDS #10154781)",
+        "latitude": 40.72634,
+        "longitude": -111.77299,
+        "elevation_ft": 5167
+      },
+      {
+        "township": "T1S",
+        "range": "R1E",
+        "section": 24,
+        "quarter": "NE of SE of NE",
+        "description": "SW quarry area — closer to canyon mouth (USGS MRDS #10020990)",
+        "latitude": 40.72133,
+        "longitude": -111.77773,
+        "elevation_ft": 5030
+      }
+    ],
+    "note": "872-acre holding likely spans additional sections in T1S R1E and T1S R2E (possibly sections 13, 23, 24, 25, 26, 35, 36). Full section list in DOGM permit S0350055 and county deed records."
+  },
+  "candidate_parcel_ids": {
+    "source": "Salt Lake County LIR GIS spatial query — owner names excluded by Utah HB113",
+    "note": "These parcels were identified via spatial/attribute query in the I-80 East corridor. Ownership must be confirmed via Salt Lake County Assessor interactive search for 'Tree Farm LLC'.",
+    "parcels": [
+      { "parcel_id": "16133000010000", "address": "3503 E I-80 EAST FWY", "acres": 40.00, "market_value": 193800, "class": "Vacant" },
+      { "parcel_id": "16133000020000", "address": "3601 E I-80 EAST FWY", "acres": 5.00, "market_value": 15500, "class": "Commercial-Industrial" },
+      { "parcel_id": "16133000040000", "address": "3601 E I-80 EAST FWY", "acres": 5.00, "market_value": 15500, "class": "Commercial-Industrial" },
+      { "parcel_id": "16133000050000", "address": "3601 E I-80 EAST FWY", "acres": 5.00, "market_value": 15500, "class": "Commercial-Industrial" },
+      { "parcel_id": "16133000070000", "address": "3615 E I-80 EAST FWY", "acres": 1.36, "market_value": 4200, "class": "Vacant" },
+      { "parcel_id": "16133000080000", "address": "3635 E I-80 EAST FWY", "acres": 3.64, "market_value": 11300, "class": "Vacant" },
+      { "parcel_id": "16243000040000", "address": "4101 E I-80 EAST FWY", "acres": 35.00, "market_value": 108500, "class": "Undeveloped" },
+      { "parcel_id": "16243000050000", "address": "3900 E I-80 EAST FWY", "acres": 42.00, "market_value": 130200, "class": "Vacant" },
+      { "parcel_id": "17084000020000", "address": "5701 E I-80 EAST FWY", "acres": 40.00, "market_value": 201500, "class": "Vacant" },
+      { "parcel_id": "17084000030000", "address": "5601 E I-80 EAST FWY", "acres": 40.00, "market_value": 201500, "class": "Vacant" },
+      { "parcel_id": "17084760010000", "address": "5801 E I-80 EAST FWY", "acres": 38.15, "market_value": 83900, "class": "Vacant" },
+      { "parcel_id": "17183000060000", "address": "4551 E I-80 EAST FWY", "acres": 6.54, "market_value": 14400, "class": "Commercial-Industrial" },
+      { "parcel_id": "17183000110000", "address": "4551 E I-80 EAST FWY", "acres": 81.86, "market_value": 136100, "class": "Commercial-Industrial" },
+      { "parcel_id": "17183000120000", "address": "4551 E I-80 EAST FWY", "acres": 14.00, "market_value": 35000, "class": "Commercial-Industrial" },
+      { "parcel_id": "17184000070000", "address": "4850 E I-80 EAST FWY", "acres": 10.00, "market_value": 22000, "class": "Residential" },
+      { "parcel_id": "17184000090000", "address": "4551 E I-80 EAST FWY", "acres": 27.00, "market_value": 67500, "class": "Commercial-Industrial" },
+      { "parcel_id": "17191000070000", "address": "4602 E I-80 EAST FWY", "acres": 7.50, "market_value": 16500, "class": "Vacant" },
+      { "parcel_id": "17191000080000", "address": "4551 E I-80 EAST FWY", "acres": 33.84, "market_value": 52400, "class": "Commercial-Industrial" },
+      { "parcel_id": "17191000090000", "address": "4402 E I-80 EAST FWY", "acres": 29.00, "market_value": 63800, "class": "Vacant" },
+      { "parcel_id": "17192000020000", "address": "4858 E I-80 EB FWY", "acres": 57.91, "market_value": 1479100, "class": "Commercial" }
+    ]
+  },
+  "usgs_mineral_records": [
+    {
+      "mrds_id": "10020989",
+      "name": "Parleys Canyon NE Quarry",
+      "latitude": 40.72605,
+      "longitude": -111.77301,
+      "township": "T1S", "range": "R2E", "section": 18,
+      "quarter": "SE of SW of SW",
+      "deposit_size": "Large",
+      "host_rock": "Twin Creek Limestone (Late Jurassic)",
+      "structure": "Parleys Canyon Syncline / Wasatch Fault",
+      "workings_hectares": 36.8,
+      "workings_dimensions": "853m x 457m",
+      "commodity": "Cement rock (calcite)",
+      "historical_owner": "Portland Cement Co."
+    },
+    {
+      "mrds_id": "10154781",
+      "name": "Parleys Canyon Quarry",
+      "latitude": 40.72634,
+      "longitude": -111.77299,
+      "township": "T1S", "range": "R2E", "section": 18,
+      "quarter": "SW of SW of SE",
+      "commodity": "Limestone, Dimension",
+      "mineral_rights": "Federal Lease",
+      "mas_mils_id": "0490350156"
+    },
+    {
+      "mrds_id": "10020990",
+      "name": "Parleys Canyon Quarry SW",
+      "latitude": 40.72133,
+      "longitude": -111.77773,
+      "township": "T1S", "range": "R1E", "section": 24,
+      "quarter": "NE of SE of NE",
+      "deposit_size": "Large",
+      "host_rock": "Twin Creek Limestone",
+      "structure": "Parleys Canyon Syncline, Strike N74E, Dip 72N",
+      "workings_hectares": 9.463
+    }
+  ],
+  "geology": {
+    "formation": "Jurassic Twin Creek Limestone",
+    "thickness_ft": 2600,
+    "estimated_reserves_tons": 1100000000,
+    "structure": "Parleys Canyon Syncline",
+    "regional_structure": "Wasatch Fault",
+    "ore_body_form": "Tabular",
+    "strike": "N74E",
+    "dip": "72N",
+    "proposed_annual_extraction_tons": 2000000,
+    "operational_life_years": 100,
+    "final_pit_floor_acres": 153
+  },
+  "mining_history": {
+    "timeline": [
+      { "year": "1890s", "event": "Portland Cement Co. begins mining Harper Quarry in Parleys Canyon" },
+      { "year": "1895", "event": "Federal land patents issued with mineral reservations" },
+      { "year": "1906", "event": "Union Portland Cement Company begins operations on the property" },
+      { "year": "1936", "event": "Portland Cement purchases quarry for limestone mining" },
+      { "year": "1960s", "event": "Mining operations documented through this decade" },
+      { "year": "1983", "event": "Lone Star Industries acquires the operation" },
+      { "year": "1988", "event": "Quarry closed, reclamation completed 1989" },
+      { "year": "1992-1997", "event": "Ira Sachs acquires various parcels with intent to mine" },
+      { "year": "mid-1990s", "event": "Sachs operates Harper Quarry as joint venture with Rulon Harper" },
+      { "year": "1994", "event": "90,000+ tons produced (documented in DOGM records)" },
+      { "year": "1996", "event": "Large mine permit issued to Rock and Roll/Rulon Harper" },
+      { "year": "2009", "event": "725,000+ tons produced" },
+      { "year": "2019", "event": "386,485+ tons produced; Sachs signs 'vested mining use' declaration (co-signed by Rulon Harper)" },
+      { "year": "December 2020", "event": "Tree Farm LLC (Jesse Lassley) purchases all 14 Sachs parcels — 872 acres" },
+      { "year": "November 12, 2021", "event": "Tree Farm files Small Mine and Large Mine NOI applications with DOGM (344-page NOI)" },
+      { "year": "November 18, 2021", "event": "DOGM sends initial review letter to Jesse Lassley (Tree Farm), notes 'Conditional Use permit will be required by Salt Lake County' (SLCo002497)", "discovery_bates": "SLCo002497" },
+      { "year": "November 22, 2021", "event": "County first learns of quarry from SL Tribune reporter Brian Maffly; Jordan Carroll (SLCo Communications) forwards inquiry to Dina Blaes (ORD), who immediately loops in DA Zach Shaw (SLCo002489-002494)", "discovery_bates": "SLCo002489" },
+      { "year": "November 29, 2021", "event": "Parley's Canyon Community Council sends opposition letter to Governor, Legislature, Mayor Wilson, and County Council — organized within 5 days of Tribune article (SLCo002617)", "discovery_bates": "SLCo002617" },
+      { "year": "November 30, 2021", "event": "Justin Wilde (Mt Aire) sends detailed 6-page opposition letter — generates Snelgrove's 'easy one' reply (SLCo003838)", "discovery_bates": "SLCo003838" },
+      { "year": "December 7, 2021", "event": "DOGM denies Tree Farm's Small Mine NOI 'in the interest of administrative efficiency' — ONE DAY before DA Shaw signs draft ordinance (SLCo002687)", "discovery_bates": "SLCo002687" },
+      { "year": "December 8, 2021", "event": "DA Zachary Shaw digitally signs draft ordinance banning mineral extraction in FR zones — just 16 days after County first learned of quarry; Council Chair DeBry calls special meeting for Dec 10 (SLCo002565, SLCo002573)", "discovery_bates": "SLCo002565" },
+      { "year": "December 10, 2021", "event": "County Council votes unanimously to initiate ordinance proceedings to 'block the proposal'; Mayor Wilson issues press statement thanking 'Council, planning staff, and the District Attorney for their swift action' (SLCo002595, SLCo003856)", "discovery_bates": "SLCo003856" },
+      { "year": "December 10, 2021", "event": "Tree Farm files Request for Agency Action with Board of Oil, Gas and Mining challenging DOGM denial (SLCo002687)", "discovery_bates": "SLCo002687" },
+      { "year": "December 13, 2021", "event": "Councilman Snelgrove emails constituent: 'This was an easy one. I cannot imagine any scenario where this would be a good thing.' (SLCo003854, SLCo003856)", "discovery_bates": "SLCo003856" },
+      { "year": "December 21, 2021", "event": "saveparleys.org organizer Andrew Smith sends opposition-coordinating email CC'd to Save Our Canyons (alex@saveourcanyons.org), SL Tribune reporter, state legislator, and 4 County Council members (Granato, Stringham, Snelgrove, Bradley) — proves shared communication network (SLCo004011)", "discovery_bates": "SLCo004011" },
+      { "year": "December 28, 2021", "event": "LUCC Board Meeting: County policy advisor Danielle states 'not a single council member would be in favor' and confirms 'bipartisan effort' to ensure hearings 'go off without a hitch' (SLCo004021)", "discovery_bates": "SLCo004021" },
+      { "year": "January 18, 2022", "event": "Carl Fisher (Save Our Canyons) emails County planner re FCOZ/FR ordinance timeline; County staff coordinates response (SLCo002907)", "discovery_bates": "SLCo002907" },
+      { "year": "January 25, 2022", "event": "LUCC meeting: participant calls County denial a 'slam dunk'; community council votes to write formal opposition letter (SLCo004080)", "discovery_bates": "SLCo004080" },
+      { "year": "January 31, 2022", "event": "Council Chair DeBry emails saveparleys.org: 'When I was Chair...I called a special meeting to change our ordinances to address the concerns you have expressed'; Snelgrove emails same group: 'voted for a new County ordinance that would deny zoning authority for any such quarry' (SLCo004042, SLCo004044)", "discovery_bates": "SLCo004042" },
+      { "year": "January 2022", "event": "Granite Construction brought in as operator; project renamed 'I-80 South Quarry'" },
+      { "year": "February 3, 2022", "event": "Mountainous Planning District Planning Commission holds public hearing on proposed amendment to ban mining (SLCo003459)", "discovery_bates": "SLCo003459" },
+      { "year": "February 11, 2022", "event": "Brent Bateman (Dentons, Tree Farm counsel) sends formal warning letter to County DA Zachary Shaw: ordinance would violate §17-41-402(6) preemption — County has 53 days of notice before vote (SLCo003588)", "discovery_bates": "SLCo003588" },
+      { "year": "February 15-16, 2022", "event": "Save Our Canyons distributes template opposition letters to constituents; Heislers admit 'we will cut and paste their wording'; Snelgrove replies to Hemming: 'Mayor and Council unanimously oppose the proposed quarry...set in motion a new ordinance...put an end to the proposal' (SLCo004053, SLCo004061)", "discovery_bates": "SLCo004061" },
+      { "year": "March 15, 2022", "event": "Snelgrove shares internal County legal strategy with saveparleys.org member: 'Mayor's office is working with our legal counsel to properly craft a response'; Williams (saveparleys.org) proposes surveillance/rapid-response arrangement with County (SLCo004116)", "discovery_bates": "SLCo004116" },
+      { "year": "March 18, 2022", "event": "Millcreek Mayor Silvestrini sends identical letters to Council members Alvord and Snelgrove urging support for mining ban (SLCo003498, SLCo003501)", "discovery_bates": "SLCo003498" },
+      { "year": "March 23, 2022", "event": "Utah Property Rights Ombudsman transmits mediation request to County — same day County schedules 'Tree Farm meetings' with outside counsel Parsons Behle & Latimer (SLCo003588, SLCo003585)", "discovery_bates": "SLCo003588" },
+      { "year": "March 30, 2022", "event": "Councilman Snelgrove emails: 'I oppose the quarry and will be a yes vote on the ordinance when it comes up next week.' (SLCo004169)", "discovery_bates": "SLCo004169" },
+      { "year": "April 5, 2022", "event": "Salt Lake County Council votes to adopt Ordinance No. 1895 banning mining in FCOZ — despite Bateman warning, Ombudsman mediation request, and outside counsel consultation" },
+      { "year": "April 6, 2022", "event": "SL Tribune reporter asks County about Bateman correspondence; Tree Farm publicist states Bateman 'was largely ignored' and received only 'dismissive emails from one county attorney' (SLCo003162)", "discovery_bates": "SLCo003162" },
+      { "year": "May 2022", "event": "Tree Farm files lawsuit: Case No. 220902840" },
+      { "year": "June 2022", "event": "Granite Construction files new SMO NOI under permit S0350055" },
+      { "year": "August 2022", "event": "DOGM Director John Baza approves 20-acre SMO with conditions (22-page order)" },
+      { "year": "May 2024", "event": "Granite files stream alteration request for frontage road from Exit 132" },
+      { "year": "August 2025", "event": "New air quality permit application (DAQE-IN161200002-25)" },
+      { "year": "February 2026", "event": "Lawsuit still pending in 3rd District Court, delayed past 2026 legislative session" }
+    ]
+  },
+  "parties": {
+    "plaintiff": {
+      "name": "Tree Farm LLC",
+      "manager": "Jesse Lassley",
+      "counsel": [
+        "Kassidy J. Wallin (lead) — Parr Brown Gee & Loveless, P.C.",
+        "Justin Matkin — Parr Brown Gee & Loveless, P.C.",
+        "Rachel Wertheimer — Parr Brown Gee & Loveless, P.C.",
+        "Brent Bateman (letters to County Council)"
+      ],
+      "pr_spokesperson": "Matt Lusty — Honey Communications"
+    },
+    "defendant": {
+      "name": "Salt Lake County",
+      "counsel": [
+        "Bridget K. Romano — Chief Civil Deputy District Attorney",
+        "Timothy J. Bywater — Deputy District Attorney (land use specialist)",
+        "Zachary Shaw — Salt Lake County DA's Office",
+        "David Ashby — co-counsel"
+      ]
+    },
+    "intervenors": {
+      "millcreek_city": {
+        "attorneys": ["Artemis Vamianakis", "Michael Lee (city attorney)"]
+      },
+      "salt_lake_city": {}
+    },
+    "objectors_dogm_hearing": [
+      "Salt Lake County Mayor's Office / DA's Office",
+      "Salt Lake City",
+      "City of Millcreek",
+      "Save Our Canyons",
+      "Richards Family Partnership (Susan Trapp, managing partner; Evan Strassberg, attorney)"
+    ],
+    "advocacy_groups": {
+      "save_our_canyons": {
+        "former_director": "Carl Fisher",
+        "current_director": "Spencer Shaver",
+        "policy_associate": "Katie Balakir"
+      },
+      "save_parleys": "saveparleys.org",
+      "heal_utah": "healutah.org",
+      "uphe": "Utah Physicians for Healthy Environment"
+    },
+    "operator": "Granite Construction Co. (California-based)",
+    "dogm_director": "John Baza"
+  },
+  "point_of_beginning": {
+    "latitude": null,
+    "longitude": null,
+    "description": "Exact POB in DOGM permit S0350055 NOI (344-page filing, Nov 2021) and county deed records"
+  },
+  "metes_and_bounds": [
+    {
+      "call_number": 1,
+      "bearing": "",
+      "distance": "",
+      "description": "TODO: Paste metes and bounds calls here — one per entry. Source documents listed in 'how_to_obtain_deeds' below.",
+      "endpoint": { "latitude": null, "longitude": null }
+    }
+  ],
+  "how_to_obtain_deeds": {
+    "1_county_assessor": {
+      "url": "https://apps.saltlakecounty.gov/assessor/new/javaapi2/parcelviewext.cfm",
+      "instruction": "Search owner name 'TREE FARM LLC' or 'JESSE LASSLEY' — returns all 14 parcel IDs and acreage"
+    },
+    "2_county_recorder": {
+      "url": "https://apps.saltlakecounty.gov/data-services/DataServicesAccess/PublicSearch.aspx",
+      "instruction": "Search grantor 'IRA SACHS', grantee 'TREE FARM LLC', year 2020 — returns warranty deeds with full legal descriptions. $5/24-hour access fee."
+    },
+    "3_utah_courts_xchange": {
+      "url": "https://www.utcourts.gov/xchange/",
+      "instruction": "Search party name 'Tree Farm LLC', 3rd District Court — complaint exhibits list all 14 parcels. Per-page fee."
+    },
+    "4_dogm_permit_files": {
+      "permit": "S0350055",
+      "contact": "DOGM at (801) 538-5340 or oilgasmining@utah.gov",
+      "instruction": "Request full permit file — contains 344-page NOI with legal descriptions, maps, and survey data"
+    },
+    "5_approved_order": {
+      "url": "https://saveourcanyons.org/images/pdfs-doc/Approved_Final_Tree_Farm_Order_-_signed.pdf",
+      "instruction": "22-page order by Director Baza — contains approved mine boundary description"
+    },
+    "6_3rd_district_clerk": {
+      "phone": "(801) 238-7300",
+      "instruction": "Request copies of complaint and exhibits for Case No. 220902840"
+    }
+  },
+  "legislative_history": [
+    { "bill": "HB288 (2019)", "status": "Passed", "effect": "Bars counties from restricting mining of 'critical infrastructure materials'" },
+    { "bill": "HB527 (2023, Rep. Stratton)", "status": "Failed — did not pass House Rules Committee", "effect": "Would have expanded 'vested mining use' exemption" },
+    { "bill": "SB172 (2024, Sen. Hinkins)", "status": "Dropped by sponsor", "effect": "Would have blocked counties from banning mining on previously-mined property" },
+    { "bill": "HB502 (2024, Rep. Snider)", "status": "Rewritten as study bill", "effect": "Originally would have restricted local control of mining; became aggregate supply/demand study" },
+    { "bill": "HB355 (2025)", "status": "Passed Utah House", "effect": "Prohibits local governments from denying expansion of existing gravel pits on owned property" }
+  ],
+  "discovery_exhibits": {
+    "description": "Key documents produced in discovery (Salt Lake County production, Bates-stamped SLCo______)",
+    "exhibits": [
+      {
+        "bates": "SLCo003856",
+        "type": "email",
+        "date": "2021-12-13",
+        "from": "Richard Snelgrove (County Councilman at-Large)",
+        "to": "S.D. Williams (constituent)",
+        "subject": "RE: Please stop the proposed Parleys limestone quarry",
+        "evidentiary_value": "A+",
+        "key_quote": "This was an easy one. I cannot imagine any scenario where this would be a good thing. The air quality issues alone make this a no go which is why the Council voted unanimously on Friday to block the proposal.",
+        "proves": ["Predetermined outcome (Dec 10, 2021 — before ordinance drafted)", "Councilman prejudgment ('easy one', 'cannot imagine any scenario')", "Unanimous Council vote to block Tree Farm specifically", "No due process or deliberation"]
+      },
+      {
+        "bates": "SLCo004169",
+        "type": "email",
+        "date": "2022-03-30",
+        "from": "Richard Snelgrove (County Councilman at-Large)",
+        "to": "Marian Furst (constituent)",
+        "subject": "Re: NO mines in Parley's Canyon",
+        "evidentiary_value": "A",
+        "key_quote": "I oppose the quarry and will be a yes vote on the ordinance when it comes up next week.",
+        "proves": ["Direct link between quarry opposition and ordinance vote", "Ordinance targeting Tree Farm specifically", "Council member admits ordinance purpose is to stop the quarry"]
+      },
+      {
+        "bates": "SLCo004021",
+        "type": "meeting_transcript",
+        "date": "2021-12-28",
+        "body": "League of Unincorporated Community Councils Board Meeting",
+        "speaker": "Danielle (senior policy advisor to County Council member)",
+        "evidentiary_value": "A",
+        "key_quote": "I don't think there's a single council member who would be in favor of approving any type of land use ordinance, allowing them to expand. And I know that there's a bipartisan effort to make sure that these public hearings go back to back and go off without a hitch.",
+        "proves": ["County insider confirms predetermined outcome", "Bipartisan coordination to fast-track public hearings", "Public hearings were performative — outcome already decided", "No genuine deliberation"]
+      },
+      {
+        "bates": "SLCo003588",
+        "type": "letter_and_mediation_filing",
+        "date_letter": "2022-02-11",
+        "date_ombudsman": "2022-03-23",
+        "from_letter": "Brent Bateman (Dentons Durham Jones Pinegar, Tree Farm counsel)",
+        "to_letter": "Zachary Shaw (SLCo Deputy District Attorney)",
+        "from_ombudsman": "Jordan S. Cullimore (Lead Attorney, Office of the Property Rights Ombudsman)",
+        "to_ombudsman": "Rashelle Hobbs (SLCo City Recorder)",
+        "evidentiary_value": "A+",
+        "key_quotes": [
+          "Under this section of the Utah State Code, Salt Lake County cannot enact or even initiate proceedings to enact ordinances that restrict or prohibit critical infrastructure materials operations. There are no qualifiers to this plain language.",
+          "Ample direct evidence exists, including historic and visual evidence, that sand and gravel extraction has occurred on my client's property for many years, including prior to 1972.",
+          "The Office has reviewed the request and believes that it raises issues that may be appropriate for mediation and/or arbitration under Utah statute."
+        ],
+        "proves": ["County was formally warned of §17-41-402(6) preemption BEFORE passing ordinance", "Tree Farm asserted vested rights with historical evidence", "State Property Rights Ombudsman found regulatory taking claim credible", "County ignored formal legal warning and state mediation offer", "Bad faith — passed ordinance despite knowing it was preempted"],
+        "property_address_confirmed": "4402 East I-80 (Parley's Canyon) — matches parcel 17191000090000"
+      },
+      {
+        "bates": "SLCo002907",
+        "type": "email_chain",
+        "date": "2022-01-18",
+        "from": "Carl Fisher (Save Our Canyons, former director)",
+        "to": "Catherine Kanter (SLCo planner)",
+        "forwarded_to": ["Dina Blaes (Director, Office of Regional Development)", "Lisa Hartman", "Helen Peters"],
+        "evidentiary_value": "A-",
+        "key_quote": "It seems, by this email, the FCOZ and FR ordinance revisions aren't headed to the Planning Commission this month likely having this process head to council in Late feb/ early March at soonest?",
+        "proves": ["Advocacy group (Save Our Canyons) getting insider ordinance timeline info from County staff", "County staff responsive to Fisher's inquiries about ordinance schedule", "Coordination between advocacy group and County government on ordinance targeting Tree Farm"]
+      },
+      {
+        "bates": "SLCo004061",
+        "type": "email",
+        "date": "2022-02-16",
+        "from": "Richard Snelgrove (County Councilman at-Large)",
+        "to": "Jan Hemming (Chair, Yalecrest Neighborhood Council)",
+        "evidentiary_value": "A+",
+        "key_quote": "Please know that I agree with you. The Salt Lake County Mayor and Council unanimously oppose the proposed quarry. To this end, we have set in motion a new ordinance that would ban such projects. Hopefully, the final adoption of the ordinance in a few weeks will put an end to the proposal.",
+        "proves": ["Entire Council and Mayor unanimously opposed quarry BEFORE ordinance adopted", "Ordinance designed specifically to 'put an end to the proposal'", "'To this end' explicitly links ordinance to blocking Tree Farm"]
+      },
+      {
+        "bates": "SLCo003854",
+        "type": "email",
+        "date": "2021-12-13",
+        "from": "Richard Snelgrove (County Councilman at-Large)",
+        "to": "Justin Wilde (Mt Aire resident)",
+        "evidentiary_value": "A+",
+        "key_quote": "Thanks for your support. This was an easy one. I cannot imagine any scenario where this would be a good thing. I agree with you which is why we just voted to ban all mining in Forest Recreation zones. That vote was about 15 minutes ago.",
+        "proves": ["Snelgrove confirms vote was specifically to ban quarry", "Zero deliberation ('easy one', 'cannot imagine any scenario')", "Vote tied directly to Tree Farm proposal"]
+      },
+      {
+        "bates": "SLCo004042",
+        "type": "email",
+        "date": "2022-01-31",
+        "from": "Steven DeBry (Council Chair) and Andrew Smith (saveparleys.org)",
+        "to": "Steven DeBry (SLCo Council)",
+        "evidentiary_value": "A+",
+        "key_quote": "DeBry: 'When I was Chair of the Salt Lake County Council last year, I called a special meeting to change our ordinances to address the concerns you have expressed.' Smith: 'If you feel inclined to share, what in your opinion would be the best and most compelling data, information, comments, evidence and materials to support the opposition efforts and to support the County Council members?'",
+        "proves": ["Council Chair admits calling special meeting specifically for advocacy group's concerns", "Advocacy group explicitly asks Council member to help build opposition case", "Direct coordination between legislative decision-maker and advocacy group"]
+      },
+      {
+        "bates": "SLCo004044",
+        "type": "email",
+        "date": "2022-01-31",
+        "from": "Richard Snelgrove (County Councilman at-Large)",
+        "to": "Andrew Smith (saveparleys.org organizer)",
+        "evidentiary_value": "A+",
+        "key_quote": "Please know that I agree with you. There are a dozen good reasons why this quarry should not be allowed. This is why I voted in favor of a new County ordinance that would deny zoning authority for any such quarry. Hopefully, that will put an end to the matter.",
+        "proves": ["Snelgrove admits ordinance was to 'deny zoning authority for any such quarry'", "Explicitly says ordinance will 'put an end to the matter'", "Written to opposition group leader — coordination evidence"]
+      },
+      {
+        "bates": "SLCo004116",
+        "type": "email",
+        "date": "2022-03-15",
+        "from": "Richard Snelgrove (County Councilman at-Large)",
+        "to": "S.D. Williams (saveparleys.org member)",
+        "bcc": "rhsnelgrove@gmail.com (personal email)",
+        "evidentiary_value": "A+",
+        "key_quote": "I too am deeply concerned about the possibility of a quarry on this site. I along with my fellow Council members, voted for the ordinance as proposed by the Mayor that would stop activity on the site. The Mayor's office is working with our legal counsel to properly craft a response.",
+        "proves": ["Council member shares internal legal strategy with advocacy group", "Admits ordinance designed to 'stop activity on the site'", "BCC to personal email shows awareness of sensitivity", "Advocacy group proposes surveillance/rapid-response coordination with County"]
+      },
+      {
+        "bates": "SLCo004011",
+        "type": "email",
+        "date": "2021-12-21",
+        "from": "Andrew Smith (saveparleys.org organizer)",
+        "to": "mtaire@saveparleys.org listserv",
+        "cc": "alex@saveourcanyons.org (SOC), bmaffly@sltrib.com (Tribune), briansking@le.utah.gov (State legislator), AGranato@slco.org, LLStringham@slco.org, RSnelgrove@slco.org, JBradley@slco.org",
+        "evidentiary_value": "A+",
+        "key_quote": "Let's make it standing room only tonight. Millcreek City is an important part of opposing this mine proposal. Let's be united in our questions and comments.",
+        "proves": ["Save Our Canyons and 4 County Council members on same organizing email", "Coordinated opposition campaign including media (Tribune reporter)", "State legislator included in advocacy coordination network"]
+      },
+      {
+        "bates": "SLCo004053",
+        "type": "email",
+        "date": "2022-02-15",
+        "from": "Dale & Shauna Heisler",
+        "to": "Richard Snelgrove, Jim Bradley, Ann Granato",
+        "evidentiary_value": "A-",
+        "key_quote": "We think that the wording from more experienced folks in such issues, in this case Save Our Canyons, says it well. So, we will cut and paste their wording below.",
+        "proves": ["SOC authored template language for coordinated letter-writing campaign", "Constituents openly admit using pre-drafted SOC text", "Organized astroturf advocacy presented as grassroots"]
+      },
+      {
+        "bates": "SLCo002565",
+        "type": "draft_ordinance",
+        "date": "2021-12-08",
+        "signed_by": "Zachary D. Shaw (County DA, digital signature 17:13:15)",
+        "evidentiary_value": "A+",
+        "key_quote": "Eliminates mineral extraction and processing as a conditional use and explicitly prohibiting the same... in forestry and recreation zones.",
+        "proves": ["DA drafted and signed ordinance just 16 DAYS after County first learned of quarry", "Ordinance was ready before the Dec 10 special meeting", "Speed demonstrates reactive targeting, not deliberative policy"]
+      },
+      {
+        "bates": "SLCo002595",
+        "type": "press_statement",
+        "date": "2021-12-10",
+        "from": "Mayor Jenny Wilson",
+        "evidentiary_value": "A",
+        "key_quote": "Creating new mining or extraction operations in our critical wildland-urban interface areas should not be allowed by County ordinance, and we must take action. I want to thank the Council, my planning staff, and the District Attorney for their swift action today.",
+        "proves": ["Mayor publicly condemns quarry on same day as vote", "Thanks DA for 'swift action' — confirms rush to block Tree Farm", "Frames ordinance as response to Tree Farm's specific proposal"]
+      },
+      {
+        "bates": "SLCo003585-003587",
+        "type": "calendar_entry",
+        "date": "2022-03-23",
+        "participants": ["Tim Bywater (SLCo DA)", "Michael Zody (Parsons Behle & Latimer)"],
+        "evidentiary_value": "A-",
+        "key_quote": "Meeting title: 'Tree Farm meetings' — scheduled same day Ombudsman mediation filing arrived",
+        "proves": ["County retained outside counsel (Parsons Behle) to assess Tree Farm legal risk", "Meeting scheduled same day as Ombudsman filing — County took threat seriously", "Despite engaging outside counsel, County proceeded with ordinance anyway — willful disregard"]
+      },
+      {
+        "bates": "SLCo003162",
+        "type": "email_chain",
+        "date": "2022-04-06",
+        "from": "Brian Maffly (SL Tribune) → Jordan Carroll (SLCo Communications) → Lisa Hartman → Dina Blaes",
+        "evidentiary_value": "A-",
+        "key_quote": "Tree Farm publicist Matt Lusty: 'The attorney for Tree Farm LLC, Brent Bateman, has sought numerous times to engage with Salt Lake County. With the exception of dismissive emails from one county attorney, he was largely ignored.'",
+        "proves": ["County ignored formal preemption warnings", "Only one county attorney responded, and dismissively", "County chose not to engage with legal arguments before passing ordinance"]
+      },
+      {
+        "bates": "SLCo002687",
+        "type": "administrative_filing",
+        "date": "2021-12-10",
+        "from": "Tree Farm LLC",
+        "to": "Utah Board of Oil, Gas and Mining",
+        "evidentiary_value": "A-",
+        "key_quote": "DOGM denied Small Mine NOI on December 7, 2021 'in the interest of administrative efficiency' — one day before DA Shaw signed draft ordinance on December 8",
+        "proves": ["Suspicious timing: DOGM denial Dec 7, ordinance signed Dec 8, special meeting Dec 10", "Possible coordination between state and county agencies", "Tree Farm challenged denial as lacking statutory authority"]
+      },
+      {
+        "bates": "SLCo002489-002494",
+        "type": "email_chain",
+        "date": "2021-11-22",
+        "from": "Jordan Carroll (SLCo Communications)",
+        "to": "Dina Blaes (ORD)",
+        "evidentiary_value": "B+",
+        "key_quote": "Blaes: 'That is an excellent question. I'm not sure but will be asking Zach Shaw to take a look.' — County learned of quarry from a reporter and immediately involved DA Shaw",
+        "proves": ["County first learned of quarry from media, not through formal channels", "DA Shaw was involved from Day 1 (Nov 22, 2021)", "16-day timeline from first awareness to draft ordinance begins here"]
+      },
+      {
+        "bates": "SLCo002617",
+        "type": "letter",
+        "date": "2021-11-29",
+        "from": "Parley's Canyon Community Council",
+        "to": "Governor, Legislature, Mayor Wilson, County Council, State Agencies",
+        "evidentiary_value": "B+",
+        "key_quote": "Community organized opposition within 5 days of SL Tribune article; notes Tree Farm filed as 'small mine' but operation covers 634 acres (30x the 20-acre small mine limit)",
+        "proves": ["Community opposition organized rapidly after media coverage", "Challenged Tree Farm's 'small mine' characterization", "Multi-level government lobbying campaign launched immediately"]
+      },
+      {
+        "bates": "SLCo003459",
+        "type": "agenda",
+        "date": "2022-02-03",
+        "body": "Mountainous Planning District Planning Commission",
+        "evidentiary_value": "B",
+        "key_quote": "Public hearing on proposed amendment to eliminate mineral extraction as conditional use in FR zones",
+        "proves": ["Formal public hearing started Feb 3 — 8 days BEFORE Bateman warning letter", "County initiated proceedings that §17-41-402(6)(b) may prohibit"]
+      },
+      {
+        "bates": "SLCo003498/003501",
+        "type": "lobbying_letters",
+        "date": "2022-03-18",
+        "from": "Jeff Silvestrini (Mayor, City of Millcreek)",
+        "to": "David Alvord and Richard Snelgrove (SLCo Council)",
+        "evidentiary_value": "B",
+        "key_quote": "Urges support for elimination of open-pit mining as conditional use; cites air quality and fugitive dust from existing quarry",
+        "proves": ["Neighboring municipality lobbied County Council to pass mining ban", "Political pressure from multiple government entities"]
+      },
+      {
+        "bates": "SLCo002501",
+        "type": "statute",
+        "date": "2019",
+        "description": "H.B. 288 'Critical Infrastructure Materials' — enrolled copy found in County files",
+        "evidentiary_value": "B+",
+        "key_quote": "State will oppose land use plans or designations that impede access to mine, produce, process, or transport mineral resources",
+        "proves": ["County had copy of the very state law that preempts their ordinance", "State policy explicitly favors mining and opposes local restrictions"]
+      },
+      {
+        "bates": "SLCo003697",
+        "type": "letter",
+        "date": "2022-04-07",
+        "from": "Timothy J. Bywater (SLCo Deputy DA)",
+        "to": "Jordan Cullimore (Property Rights Ombudsman)",
+        "evidentiary_value": "A+",
+        "key_quote": "County DA acknowledges 17-41-402(6) prohibition but argues ordinance uses 'mineral extraction' not 'critical infrastructure materials' — a deliberate labeling workaround to evade preemption.",
+        "proves": ["County fully aware state law might preempt ordinance", "Adopted labeling workaround to evade 17-41-402(6)", "County DA engaged with preemption argument but chose form-over-substance distinction", "Knew of legal risk and proceeded anyway"]
+      },
+      {
+        "bates": "SLCo003120",
+        "type": "presentation",
+        "date": "2022-04-05",
+        "from": "Salt Lake County Planning Staff",
+        "to": "Salt Lake County Council (public hearing)",
+        "evidentiary_value": "A",
+        "key_quote": "Existing approved, permitted, and operational mineral extraction/processing and similar uses would be legal nonconforming uses.",
+        "proves": ["County's own staff acknowledged existing mining operations would become nonconforming uses", "Internal recognition that existing mining has recognized legal status"]
+      },
+      {
+        "bates": "SLCo003827/003828/003830",
+        "type": "email",
+        "date": "2021-12-10T00:11:00",
+        "from": "Aimee Winder Newton (SLCo Council)",
+        "to": "Justin Wilde → forwarded to ALL Council members",
+        "evidentiary_value": "A+",
+        "key_quote": "I think we are all on the same page as you about this mine proposal. I'll make sure to circulate this.",
+        "proves": ["Winder Newton confirms entire Council aligned in opposition HOURS before vote", "Circulated opposition letter to full Council before any hearing", "Second Council member confirming predetermined outcome"]
+      },
+      {
+        "bates": "SLCo004070/004072/004074",
+        "type": "email",
+        "date": "2022-02-18",
+        "from": "Richard Snelgrove (County Councilman at-Large)",
+        "to": "Abby Evans (Council Staff)",
+        "evidentiary_value": "A",
+        "key_quote": "Has the ordinance banning the quarry up Parley's Canyon been scheduled for Council consideration yet?",
+        "proves": ["Council internally called it 'the ordinance banning the quarry' — not neutral zoning", "Internal staff communication reveals true targeting purpose"]
+      },
+      {
+        "bates": "SLCo003850",
+        "type": "email",
+        "date": "2021-12-10T09:58:00",
+        "from": "Richard Snelgrove (County Councilman at-Large)",
+        "to": "Justin Wilde",
+        "evidentiary_value": "A",
+        "key_quote": "We just voted to ban all mining in Forest Recreation zones. That vote was about 15 minutes ago.",
+        "proves": ["Describes vote as 'banning all mining'", "12-13 minute meeting shows no genuine deliberation"]
+      },
+      {
+        "bates": "SLCo003699/003611/003569/003560/003551/003602",
+        "type": "recorded_declaration",
+        "date": "2021-11-02",
+        "recorded_date": "2021-11-12",
+        "entry_no": "13822822",
+        "from": "Tree Farm LLC (Jesse Lassley)",
+        "evidentiary_value": "A",
+        "key_quote": "Supplemental Declaration and Notice of Vested Mining Use: mine operator status, successor chain from Portland Cement Co. (1890s), production 90K+ tons (1994), 725K+ tons (2009), 386K+ tons (2019).",
+        "proves": ["Vested mining rights formally recorded with County Recorder BEFORE ordinance", "County had constructive notice of vested rights claims", "125+ year production history documented"]
+      },
+      {
+        "bates": "SLCo003684-003687/003692/003693",
+        "type": "public_comment",
+        "date": "2022-04-05",
+        "from": "Brent Bateman (Dentons, Tree Farm counsel)",
+        "to": "Salt Lake County Council",
+        "evidentiary_value": "A",
+        "key_quote": "This ordinance is blatantly contrary to Utah Code 17-41-402(6)... the text expressly prohibits extraction of 'sand, gravel and/or rock aggregate.' Thus it clearly prohibits critical infrastructure materials. Thus, it is illegal.",
+        "proves": ["Council warned ON THE DAY OF THE VOTE that ordinance was illegal", "Rebutted County's 'labeling' defense in public comment", "Council voted unanimously despite on-the-record warning"]
+      }
+    ]
+  },
+  "notes": "Tree Farm LLC owns 14 parcels totaling ~872 acres in Parleys Canyon, purchased from Ira Sachs in Dec 2020. The 634-acre main parcel is proposed for a 100-year limestone quarry (I-80 South Quarry). DOGM approved a 20-acre Small Mine Operation in Aug 2022, but Salt Lake County has not issued a conditional use permit. Lawsuit (Case No. 220902840) pending as of Feb 2026. 27,500+ residents signed petition opposing the mine. The Sachs Declaration (2019, co-signed by Rulon Harper) claims vested mining rights on all former Sachs parcels. Also related: Louland Falls (formerly Rose Sachs Gardens) — a wedding venue in the canyon started by Ira Sachs."
+}
