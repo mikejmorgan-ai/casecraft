@@ -1,0 +1,368 @@
+# SMOKING GUN INVENTORY
+## Tree Farm, LLC v. Salt Lake County — Discovery Analysis
+### Comprehensive Evidence of Illegal Government Action
+
+*Compiled from systematic review of 5,576 discovery files (SLCo000001–SLCo018710) across discovery folders 0001–0006*
+
+---
+
+## TIER 1: KNOWINGLY VIOLATING STATE LAW (Utah Code 17-41-402)
+
+The strongest category. County officials were warned that their ordinance violated Utah Code 17-41-402(6), which prohibits counties from adopting ordinances that "prohibit" Critical Infrastructure Materials (CIM) operations. "Sand, gravel, or rock aggregate" are CIM by statutory definition (Utah Code 10-9a-901(1)). Despite this, the county:
+1. Received internal staff recommendation to REMOVE the CIM-triggering language
+2. Overrode that recommendation and PUT THE LANGUAGE BACK IN
+3. Enacted the ordinance anyway
+
+### Evidence Files:
+
+**SLCo017826** (discovery-0006) — MASTER STAFF REPORT (17,338 lines)
+- **Footnote 1 (lines 681-683)**: Staff recommended REMOVING "sand, gravel and/or rock aggregate" language: *"The proposed ordinance formally initiated by the Council included a prohibition of 'quarry; gravel pit; including crushers or concrete batching plants used in connection with and as a part of an operation for the removal of sand, gravel and/or rock aggregate.' However, upon closer review, staff recommends that such language is not necessary in light of existing case law."*
+- Staff's clean version (Attachment 1, line 771) just says "mineral extraction and processing; mining" — no CIM language
+- **Lines 615-617**: Staff report openly admits targeting Tree Farm: *"the recent Notices of Intention to Commence Small and Large Mining Operations, filed by Tree Farm, LLC with the Utah Division of Oil, Gas, and Mining for certain property in Parley's Canyon, raised the question of whether mineral extraction and processing should continue to be a conditional use"*
+
+**SLCo012172** (discovery-0004) — FINAL ENACTED ORDINANCE
+- Lines 35-39: The "sand, gravel and/or rock aggregate" language was PUT BACK IN despite staff recommending removal
+- Shaw digitally signed "APPROVED AS TO FORM" on **2021.12.08** — months before the April 2022 vote, months before any public hearing, and before any planning commission review
+- This signature proves DA's office blessed the ordinance before any legally required public process
+
+**SLCo011350** (discovery-0004) — CHRISTIE MORGAN INTERNAL BRIEFING
+- From: Christie Morgan (council staffer) to Aimee Winder Newton (council member), Feb 18, 2022
+- *"There is concern that this may conflict with a law passed in 2019 prohibiting counties from restricting the extraction of aggregate and other 'critical infrastructure materials.'"*
+- **Internal county acknowledgment that the ordinance conflicts with 17-41-402**
+
+**SLCo011352** (discovery-0004) — WINDER NEWTON ASKS ABOUT "WORKAROUNDS"
+- From: Winder Newton to Christie Morgan, Feb 18, 2022
+- *"He wants to discuss state legislative workarounds? Do you know what he's specifically worried about?"*
+- Shows council member was aware the ordinance conflicted with state law and was already thinking about "workarounds" rather than compliance
+
+**SLCo015177** (discovery-0005) — BATEMAN FEB 11 LETTER
+- Tree Farm attorney to DA Shaw, Feb 11, 2022
+- Formally warned: *"any attempts to do so will be a violation of state law"* citing 17-41-402(6)
+- Also asserted vested CIM rights predating 1972 zoning
+- **County was on written notice of illegality 2 months before voting**
+
+**SLCo015252** (discovery-0005) — SHAW'S DISMISSIVE 2-SENTENCE RESPONSE
+- DA Shaw to Bateman, in response to the Feb 11 warning letter
+- *"We have not received a land use application from your client. As such, engaging the Ombudsman appears to be premature."*
+- Ignored the legal substance entirely — didn't address 17-41-402 at all
+
+**SLCo011005** (discovery-0004) — BATEMAN APRIL 5 LETTER (day of vote)
+- *"This ordinance is blatantly contrary to Utah Code 17-41-402(6)... Thus, it is illegal."*
+- Delivered to council the same day they voted — they heard it and voted anyway
+
+**SLCo011022** (discovery-0004) — COUNTY'S SEMANTIC DODGE TO OMBUDSMAN
+- Bywater/Chamness letter to Property Rights Ombudsman, April 7, 2022
+- County defense: the ordinance doesn't reference "critical infrastructure materials" by name
+- **Contradicted by the ordinance's own text** which bans "sand, gravel and/or rock aggregate" — the statutory definition of CIM
+
+**SLCo010728, SLCo010795, SLCo010804** (discovery-0004) — TREE FARM'S VESTED MINING USE DECLARATION
+- Supplemental Declaration and Notice of Vested Mining Use under Utah Code 17-41-501 to -503
+- Recorded Nov 12, 2021 with Salt Lake County Recorder
+- Establishes mining use on the property since the 1890s — before statehood
+- Large Mine Permit approved by DOGM in 1996, remains active
+- **The county had this on file — they KNEW Tree Farm had declared vested rights under the very statute they were violating**
+
+**SLCo011066** (discovery-0004) — STATE MINERALS POLICY
+- Draft "Mining and Mineral Resources" policy document in county's discovery files
+- Establishes state policy supporting mineral extraction — context showing county acted against stated state policy
+
+---
+
+## TIER 2: PREDETERMINED OUTCOME / DUE PROCESS VIOLATION
+
+Council members publicly declared the outcome months before any public hearing, planning commission review, or vote. This violates due process under both the Utah and U.S. Constitutions.
+
+### Evidence Files:
+
+**SLCo015730** (discovery-0005) — "NOT GOING TO HAPPEN" (LUCC Meeting Dec 28, 2021)
+- Councilmember Theodore's senior policy advisor Danielle states:
+- *"I don't think there's a single council member who would be in favor of approving any type of land use ordinance, allowing them to expand. And I know that there's a bipartisan effort to make sure that, that these public hearings, go back to back and go off without a hitch. So just so you're aware, my read on the council's is that this is not going to happen."*
+- Said **BEFORE** any planning commission hearing (Feb 3 and Feb 16, 2022) or public hearing (April 5, 2022)
+- Reveals "bipartisan effort" to coordinate the hearings as a formality
+
+**SLCo011171** (discovery-0004) — "ALL ON THE SAME PAGE"
+- From: Aimee Winder Newton to ALL 8 council members, Dec 10, 2021 at 12:11 AM
+- *"Thanks, Justin. I think we are all on the same page as you about this mine proposal. I'll make sure to circulate this."*
+- Unanimous council consensus BEFORE any public process began
+
+**SLCo003849** (discovery-0001) — SNELGROVE: "JUST VOTED TO BAN"
+- From: Richard Snelgrove to Justin Wilde, Dec 10, 2021
+- *"I agree with you which is why we just voted to ban all mining in Forest Recreation zones. That vote was about 15 minutes ago."*
+- Characterizes the Dec 10 vote to "initiate proceedings" as having already "banned" mining
+
+**SLCo003854** (discovery-0001) — SNELGROVE: "EASY ONE / CANNOT IMAGINE"
+- From: Snelgrove to Justin Wilde, Dec 13, 2021
+- *"Thanks for your support. This was an easy one. I cannot imagine any scenario where this would be a good thing."*
+
+**SLCo003856** (discovery-0001) — SNELGROVE: "BLOCK THE PROPOSAL"
+- From: Snelgrove to S.D. Williams, Dec 13, 2021
+- *"I cannot imagine any scenario where this would be a good thing... which is why the Council voted unanimously on Friday to block the proposal."*
+- Characterizes the vote as blocking a specific proposal — proves targeting
+
+**SLCo004020** (discovery-0001) — SNELGROVE JAN 3
+- *"I cannot imagine approving a 640 acre limestone quarry adjacent to the Mount Aire subdivision and within the Salt Lake Valley airshed."*
+- Said before any planning commission or public hearing
+
+---
+
+## TIER 3: "PROCEDURAL BENEFIT" — RACING TO ENACT BEFORE TREE FARM COULD FILE
+
+An outside government official (Millcreek Mayor Silvestrini) explicitly urged the county to rush the ordinance through to gain a "procedural benefit" in any legal challenge. County officials acted on this advice.
+
+### Evidence Files:
+
+**SLCo015799** (discovery-0005) — THE SILVESTRINI EMAIL (also at SLCo004125, SLCo010568, SLCo010570, SLCo010572, SLCo010591, SLCo010593, SLCo015800)
+- From: Jeff Silvestrini (Millcreek Mayor) to council members Stringham, Granato, and DA Chamness, March 17, 2022
+- *"Tree Farm is withdrawing its applications for the large and small mines in Parleys Canyon, with the intention to refile just a small mine application for now. Tuesday would be an excellent time for the County Council to consider and pass the ordinance amendments so that such were enacted prior to the new operative mining application. The amendments have cleared the planning commission process. Any reason the County Council can't consider them ASAP? There could be a procedural benefit in any legal challenge raised by Tree Farm if the County Council passes the amendments before a new small mine application is filed with the Division of Oil, Gas and Mining."*
+- Outside mayor had inside knowledge of Tree Farm's filing strategy and urged county to race to block them
+
+**SLCo010591** (discovery-0004) — KANTER SETS UP PRIVATE CALL WITH SILVESTRINI
+- From: Kanter to Silvestrini, March 18, 2022
+- After DA Chamness forwarded Silvestrini's email to Kanter, she arranged a private phone call: *"Great. I'm available at 12:30. Does that still work for you? If so, I will call you."*
+- Shows executive branch (Deputy Mayor) directly coordinating with outside government official on strategy
+
+**SLCo015800** (discovery-0005) — KANTER REPORTS BACK TO COUNCIL
+- From: Kanter to Stringham and Granato (council members), CC Chamness (DA), March 20, 2022
+- *"Dear Laurie and Ann: I wanted to let you know that I spoke with Jeff Silvestrini about this email."*
+- Confirms the coordination loop: outside mayor → DA → Deputy Mayor → phone call → report back to council
+
+---
+
+## TIER 4: OPEN MEETINGS ACT VIOLATION (Utah Code 52-4-101 et seq.)
+
+A meeting of a quorum of the council (5 of 9 members) was held without public notice, violating the Open and Public Meetings Act.
+
+### Evidence Files:
+
+**SLCo015829** (discovery-0005) — R CAUCUS/TREE FARM MEETING INVITE
+- Original invite, March 21, 2022
+- **5 council members invited**: Stringham, DeBry, Snelgrove, Alvord, Theodore = QUORUM
+- **Plus staff**: Park, Evans, Klemm, Brower, Wallace, Johnson
+- **Plus officials**: Kanter, Shaw, Bywater, Christie Morgan
+- Location: In person - Council Conference Room
+- **No public notice given for this meeting**
+
+**SLCo018648** (discovery-0006) — UPDATED INVITE
+- Updated version adding Abigail Roberson and **Mayor Jenny Wilson**
+- 5+ council members plus the Mayor discussing a pending legislative action
+
+**SLCo010637, SLCo010667, SLCo010669, SLCo010671, SLCo010673, SLCo010677, SLCo010596** (discovery-0004)
+- Calendar acceptances from 7+ different attendees confirming attendance
+- Corroborates the meeting actually occurred
+
+---
+
+## TIER 5: INTER-GOVERNMENTAL CONSPIRACY / COORDINATION
+
+Multiple government agencies coordinated strategy against a private landowner's legal rights.
+
+### Evidence Files:
+
+**SLCo006181** (discovery-0002) — THE STRATEGY MEETING EMAIL
+- From: Kanter to Mayor Wilson, Shea, Blaes, Dunn, Lund, Baird
+- CC: Silvestrini, Briefer, Hartman, Chamness, Shaw, Crompton, Litvack, Peters, Nakamura
+- Nov 28, 2021
+- *"The purpose of the meeting is merely to have a preliminary conversation regarding potential strategies for various parties/agencies potentially impacted by the application."*
+- Cross-agency strategy coordination: SL County Mayor's office, DA's office, SLC Public Utilities, Millcreek, and others
+
+**SLCo010581** (discovery-0004) — CONFIDENTIAL AFFIDAVIT SHARING
+- From: Laura Briefer (SLC Public Utilities Director) to Kanter, March 18, 2022
+- *"Pursuant to our conversation this morning, please find our affidavit (not filed) regarding Tree Farm's water rights. I am sharing with you so you have clarification about the water rights that Tree Farm holds, and how tenuous those rights are in the context of operating a mine. While this is confidential at this time, I hope that it helps Salt Lake County in its strategic land use considerations."*
+- Salt Lake City sharing confidential, unfiled litigation materials with the county for "strategic land use considerations"
+
+---
+
+## TIER 6: EX PARTE CONTACTS / PRIVATE BRIEFINGS
+
+Council members received private briefings on the pending quasi-judicial matter from executive branch officials and outside parties.
+
+### Evidence Files:
+
+**SLCo010727** (discovery-0004) — KANTER BRIEFING COUNCIL MEMBER STEWART
+- From: Kanter to council member Justin Stewart and Michael Shea, March 23, 2022
+- *"Justin: Michael Shea and I need to meet with you to bring you up to speed on some potential legislative issues related to the"* (truncated)
+- Deputy Mayor privately briefing a council member who would vote on the ordinance
+
+**SLCo011350 / SLCo011352** (discovery-0004) — BRAD BARTH / GRANDEUR PEAK PRIVATE MEETING
+- Brad Barth (Deputy CIO, Grandeur Peak Global Advisors) requested private meeting with council member Winder Newton
+- Christie Morgan arranged the meeting and briefed Winder Newton
+- Winder Newton asked: *"He wants to discuss state legislative workarounds?"*
+- Outside financial firm getting private access to discuss the pending ordinance
+
+---
+
+## TIER 7: RECORDS EVASION / GRAMA MANAGEMENT
+
+Evidence of county officials managing their document exposure in anticipation of records requests.
+
+### Evidence Files:
+
+**SLCo003710** (discovery-0001) — "NOT GRAMA, YET"
+- From: Bywater to Ombudsman Cullimore, April 11, 2022
+- *"The county has received a media request (not GRAMA, yet) for communications between Tree Farm and the County."*
+- Shows awareness of and concern about GRAMA exposure; the word "yet" implies expectation of a formal request
+
+**Multiple "Tree Farm Status" meeting invites** (SLCo010715, SLCo010832, SLCo010587, SLCo013066, and others)
+- All just Webex links with ZERO substantive text
+- No agendas, no minutes produced in discovery
+- Regular recurring meetings about Tree Farm with no documentation = potential deliberate avoidance of creating discoverable records
+
+**SLCo008617** (discovery-0003) — PERSONAL EMAIL USE
+- Jim Bradley personal email use; Kanter copying personal addresses on official business
+- Potential circumvention of GRAMA by conducting public business on personal accounts
+
+---
+
+## TIER 8: CUP CATCH-22 / ADMINISTRATIVE TRAP
+
+The county simultaneously denied Tree Farm a business license for lacking a Conditional Use Permit (CUP) while eliminating the CUP category, creating an impossible administrative trap.
+
+### Evidence Files:
+
+**SLCo013466** (discovery-0004) — BUSINESS LICENSE DENIAL
+- Melissa Anderson recommending denial of Tree Farm's business license, Dec 20, 2021
+- Denied for lacking a CUP
+- But Shaw had already signed the draft ordinance ELIMINATING the CUP category on Dec 8, 2021
+- Tree Farm couldn't get a CUP because the county was in the process of eliminating CUPs for mining
+
+**SLCo012172** (discovery-0004) — DA SIGNED ORDINANCE BEFORE PUBLIC PROCESS
+- Shaw's "APPROVED AS TO FORM" signature dated **2021.12.08**
+- 12 days BEFORE the business license denial
+- 2 months BEFORE the first planning commission hearing
+- 4 months BEFORE the April 5, 2022 council vote
+- Proves the ordinance was pre-approved before any public input was taken
+
+---
+
+## TIER 9: FALSE PUBLIC STATEMENTS / MISREPRESENTATIONS
+
+County officials made demonstrably false statements about the ordinance to the public.
+
+### Evidence Files:
+
+**SLCo011049** (discovery-0004) — GENERAL TALKING POINTS (April 4, 2022)
+- *"new gravel pits within our Forestry and Recreation Zone (FR) and Foothills and Canyon Overlay Zone (FCOZ) have been long prohibited"*
+- **THIS IS FALSE**: Mining was a CONDITIONAL USE in the FR zone — conditional uses are permitted, not prohibited
+- Shows editing marks changing "restrict" to "prohibit" — someone deliberately strengthened the false language
+- Includes pre-scripted deflection: *"If asked about any specific Tree Farm possible lawsuits: I can't comment on hypothetical legal cases."*
+
+**SLCo010971** (discovery-0004) — KANTER DEPLOYING FALSE TALKING POINTS
+- Kanter deployed the same false "long prohibited" language publicly
+- The Deputy Mayor's office was the distribution point for these false public statements
+
+---
+
+## TIER 10: TARGETING / ANIMUS TOWARD SPECIFIC PROPERTY OWNER
+
+### Evidence Files:
+
+**SLCo009783** (discovery-0003) — MAYOR WILSON'S REACTION
+- Mayor Wilson's one-word response to KSL article about Granite Construction being hired as Tree Farm's operator: *"Uggggh."*
+- Shows personal animus, not neutral regulatory posture
+
+**SLCo017826 lines 615-617** — STAFF REPORT ADMISSION
+- Staff report openly admits the ordinance was initiated because of Tree Farm's specific applications
+- Textbook targeted legislation
+
+**SLCo010680** (discovery-0004) — PUBLIC HEARING PRESENTATION SLIDE
+- County presentation to council explicitly states: *"Recent Notices of Intention to begin mining operations with the Utah Division of Oil, Gas, and Mining, raised the question of whether mineral extraction and processing should continue to be a conditional use in the FR zone."*
+- Admits the entire ordinance process was triggered by Tree Farm's specific filings
+
+---
+
+## SUMMARY: THE CHAIN OF ILLEGALITY
+
+1. **Nov 2021**: Tree Farm files NOIs with DOGM and records Supplemental Declaration of Vested Mining Use (SLCo010728)
+2. **Nov 28, 2021**: Kanter convenes multi-agency strategy meeting (SLCo006181)
+3. **Dec 8, 2021**: Shaw signs "APPROVED AS TO FORM" on draft ordinance — before any public process (SLCo012172)
+4. **Dec 10, 2021**: Council votes to "initiate" ordinance proceedings. Within hours, Snelgrove emails constituents saying they "voted to ban" mining and "cannot imagine any scenario" (SLCo003849, 003854, 003856). Winder Newton emails all 8 council members: "we are all on the same page" (SLCo011171)
+5. **Dec 20, 2021**: County denies Tree Farm's business license for lacking CUP that the county is eliminating (SLCo013466)
+6. **Dec 28, 2021**: Theodore's advisor tells LUCC Board "this is not going to happen" — before any hearing (SLCo015730)
+7. **Feb 3 & 16, 2022**: Planning commission hearings (a formality given predetermined outcome)
+8. **Feb 11, 2022**: Bateman warns Shaw in writing that the ordinance violates 17-41-402 (SLCo015177)
+9. **Feb 18, 2022**: Christie Morgan internally acknowledges 17-41-402 conflict (SLCo011350). Winder Newton asks about "state legislative workarounds" (SLCo011352)
+10. **Mar 17, 2022**: Silvestrini emails urging county to rush vote for "procedural benefit" (SLCo015799)
+11. **Mar 17-20, 2022**: Kanter calls Silvestrini, then reports to council members (SLCo010591, SLCo015800)
+12. **Mar 18, 2022**: SLC shares confidential unfiled affidavit about Tree Farm's water rights (SLCo010581)
+13. **Mar 22, 2022**: R Caucus/Tree Farm meeting with quorum of council + Mayor — no public notice (SLCo015829, SLCo018648)
+14. **Apr 4, 2022**: County distributes false "long prohibited" talking points (SLCo011049)
+15. **Apr 5, 2022**: Bateman delivers letter calling ordinance "illegal" (SLCo011005). Council votes to pass it anyway.
+16. **Apr 7, 2022**: County sends semantic dodge to Ombudsman (SLCo011022)
+
+---
+
+## FILE COUNT BY CATEGORY
+
+| Category | Est. File Count | Notes |
+|----------|----------------|-------|
+| Public comments opposing mining | ~4,000+ | Form letters and individual letters |
+| Calendar/meeting invites | ~300+ | Many with no substantive content |
+| Internal county emails | ~400+ | Key evidence category |
+| Legal correspondence | ~50+ | Bateman letters, Ombudsman, etc. |
+| News articles/clips | ~100+ | SLTrib, KSL, etc. |
+| Official documents (ordinances, staff reports, minutes) | ~50+ | Including the massive SLCo017826 |
+| Other (personal forwarding, signatures, etc.) | ~200+ | |
+| **TOTAL** | **~5,576** | |
+
+---
+
+---
+
+## TIER 11: STACKING THE TRIBUNAL / RECRUITING COMMISSIONERS
+
+Kanter actively recruited commissioners for the very Mountainous Planning Commission that would review the Tree Farm ordinance, framing it as an "opportunity to make an impact."
+
+### Evidence Files:
+
+**SLCo008428** (discovery-0003) — KANTER RECRUITS MPC COMMISSIONER
+- From: Kanter to Mike Marker, Nov 30, 2021
+- *"I wouldn't let this situation deter you from serving. This is actually turning out to be a critical time to serve given the recent mining application that was submitted to the state for a 634+ acre mine in Parley's Canyon (the 'Tree Farm Mine.'). You may have read about it in the paper. If it moves forward, the issue will be determined by the MPC. Huge opportunity to make an impact."*
+- **Kanter was recruiting commissioners by framing the Tree Farm issue as motivation to serve — ensuring the commission reviewing the ordinance would be staffed by people motivated by opposition to Tree Farm**
+
+---
+
+## TIER 12: MAYOR WILSON — PERSONAL INVOLVEMENT AND DIRECTING OPPOSITION
+
+### Evidence Files:
+
+**SLCo018555** (discovery-0006) — WILSON CONNECTING OUTSIDE OPPONENTS TO KANTER
+- From: Wilson to Catherine Raney (private citizen), Dec 28, 2021
+- *"You can reach out to Deputy Mayor Catherine Kanter at ckanter@slco.org."*
+- Raney's original email: *"I wanted to reach out in hopes you would still be interested in connecting re: Tree Farm. I believe you mentioned a staff member by the name of Catherine to work with"*
+- **Wilson had previously told this outside opponent that Kanter was "someone to work with" on Tree Farm, and was now providing Kanter's direct email**
+
+**SLCo006192** (discovery-0002) — WILSON: "MY TEAM IS WORKING THROUGH" THIS
+- From: Wilson to McGuire Family, Dec 1, 2021
+- *"this is a complex issue that my team is working through"*
+- Said 9 days BEFORE the Dec 10 council meeting — Mayor's office already had a "team working through" this before any public process
+
+**SLCo009783** (discovery-0003) — WILSON: "UGGGGH"
+- Wilson's visceral one-word response to news that Tree Farm hired Granite Construction as operator
+- Shows personal animus, not neutral regulatory posture
+- Sent to Kanter and Nakamura (Chief of Staff) — the officials managing the county response
+
+---
+
+## ADDITIONAL FINDINGS FROM SYSTEMATIC FILE REVIEW
+
+### Shaw Analysis (DA's Office):
+- **No written legal analysis from Shaw addressing the 17-41-402 preemption or takings merits has been found anywhere in the 5,576-file production**
+- Despite being put on explicit statutory notice by Dentons/Bateman on Feb 11, 2022, Shaw's entire written response was two sentences calling it "premature"
+- Shaw delegated the formal Ombudsman response to Bywater while continuing to attend meetings and be CC'd on everything
+- Shaw signed "APPROVED AS TO FORM" on Dec 8, 2021 — before any public process
+
+### Kanter Analysis (Deputy Mayor):
+- **1,981 files** mention Kanter across all discovery folders
+- Kanter was the primary organizer and director of the coordinated anti-Tree Farm response
+- She organized the multi-agency strategy meeting (Nov 28), recruited MPC commissioners (Nov 30), coordinated with Millcreek Mayor Silvestrini (Mar 17-20), arranged private briefings for council members (Mar 23), and deployed false "long prohibited" talking points (Apr 4)
+- She claimed she was "not aware" of the quarry as of Nov 22, 2021 (SLCo008002) — yet within 6 days she had organized a 15-person strategy meeting
+
+### Wilson Analysis (Mayor):
+- Wilson personally facilitated connections between outside opponents and her anti-Tree Farm staff
+- She acknowledged her "team is working through" the issue 9 days before any public process
+- She attended the March 22 R Caucus/Tree Farm meeting (quorum meeting without public notice)
+- Her visceral "Uggggh" reaction shows personal opposition, not regulatory neutrality
+
+---
+
+*Updated with findings from systematic review agents covering all 5,576 discovery files across all 6 folders.*
