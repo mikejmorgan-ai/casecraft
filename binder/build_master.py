@@ -68,20 +68,14 @@ def format_smoking_gun_entry(entry_num, bates, tag, why_critical, recommended_us
     lines.append("")
     return "\n".join(lines)
 
-def format_critical_entry(entry_num, bates, tag, description, date_info, key_quote):
+def format_critical_entry(entry_num, bates, tag, description, key_quote):
     """Format a Section B (critical relevance) entry."""
     lines = []
-    desc_parts = []
-    if date_info:
-        desc_parts.append(date_info)
-    if description:
-        desc_parts.append(description)
-    desc_text = " -- ".join(desc_parts) if desc_parts else ""
 
     lines.append(f"**{entry_num}.** **[{bates}]** | **{tag}**")
     lines.append("")
-    if desc_text:
-        lines.append(f"> Description: {desc_text}")
+    if description:
+        lines.append(f"> Description: {description}")
         lines.append(">")
     if key_quote:
         lines.append(f'> *"{key_quote}"*')
@@ -179,21 +173,34 @@ def parse_section_b_claim1(text):
                 i += 1
 
             description = " ".join(description_parts)
-            # Clean up description - remove raw regex-like patterns
-            description = re.sub(r'References? (?:illegality|unlawfulness|invalidity|void status|removal of sand|Utah Code|violation|inability|conflict|warnings?|talking points?|sham|open meeting|meeting violation|OPMA)[^;.]*[;.]?\s*', '', description)
-            description = re.sub(r'[Cc]ontains? ordinance/CIM/extraction references\.?\s*', '', description)
-            description = re.sub(r'[Cc]ritical language identified:\s*references? to [^.]+\.?\s*', '', description)
-            description = re.sub(r'[Hh]igh-relevance language identified:\s*references? to [^.]+\.?\s*', '', description)
+
+            # Clean up description text - remove raw filter/regex-like category labels
+            # These are machine-generated classification tags, not human descriptions
+            description = re.sub(r'[Rr]eferences? (?:illegality|unlawfulness|invalidity|void status)[^;.]*[;.]?\s*', '', description)
+            description = re.sub(r'[Rr]eferences? (?:removal of sand,? gravel,? and(?: aggregate)? extraction)[^;.]*[;.]?\s*', '', description)
+            description = re.sub(r'[Rr]eferences? (?:Utah Code 17-41-402)[^;.]*[;.]?\s*', '', description)
+            description = re.sub(r'[Rr]eferences? (?:violation of state law or Utah Code)[^;.]*[;.]?\s*', '', description)
+            description = re.sub(r'[Rr]eferences? (?:inability to adopt ordinance)[^;.]*[;.]?\s*', '', description)
+            description = re.sub(r'[Rr]eferences? (?:conflict with state law)[^;.]*[;.]?\s*', '', description)
+            description = re.sub(r'[Rr]eferences? (?:warnings? or legal counsel advisement)[^;.]*[;.]?\s*', '', description)
+            description = re.sub(r'[Rr]eferences? (?:talking points?)[^;.]*[;.]?\s*', '', description)
+            description = re.sub(r'[Rr]eferences? (?:sham or pretextual conduct)[^;.]*[;.]?\s*', '', description)
+            description = re.sub(r'[Rr]eferences? (?:open meeting|meeting violation|OPMA)[^;.]*[;.]?\s*', '', description)
+            description = re.sub(r'[Rr]eferences? (?:"long prohibited"|"always prohibited"|"historically prohibited"|"talking point")[^;.]*[;.]?\s*', '', description)
+            description = re.sub(r'[Rr]eferences? (?:illegal,? illegality,? unlawful,? invalid,? or void)[^;.]*[;.]?\s*', '', description)
+            description = re.sub(r';?\s*[Cc]ontains? ordinance/CIM/extraction references\.?\s*', '', description)
+            description = re.sub(r'[Cc]ritical language identified:\s*[^.]+\.?\s*', '', description)
+            description = re.sub(r'[Hh]igh-relevance language identified:\s*[^.]+\.?\s*', '', description)
+            description = re.sub(r'[Dd]ocument contains critical references to [^.]+\.?\s*', '', description)
+            # Clean up semicolons and whitespace
+            description = re.sub(r'\s*;\s*;+\s*', '; ', description)
+            description = re.sub(r'^\s*[;,]\s*', '', description)
+            description = re.sub(r'\s+', ' ', description)
             description = description.strip()
             if description and not description.endswith('.'):
-                description = description.rstrip(';,')
-            description = description.strip()
+                description = description.rstrip(';,').strip()
 
-            # Extract date from description
-            date_match = re.search(r'(\w+ \d+, \d{4})', description)
-            date_info = date_match.group(1) if date_match else ""
-
-            entries.append(format_critical_entry(entry_num, bates, tag, description, date_info, key_quote))
+            entries.append(format_critical_entry(entry_num, bates, tag, description, key_quote))
         else:
             i += 1
 
@@ -240,10 +247,8 @@ def parse_section_b_claim3(text):
                 i += 1
 
             description = " ".join(description_parts)
-            date_match = re.search(r'(\w+ \d+, \d{4})', description)
-            date_info = date_match.group(1) if date_match else ""
 
-            entries.append(format_critical_entry(entry_num, bates, tag, description, date_info, key_quote))
+            entries.append(format_critical_entry(entry_num, bates, tag, description, key_quote))
         else:
             i += 1
 

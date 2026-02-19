@@ -587,61 +587,61 @@
 
 **1.** **[SLCo008382]** | **SUPPORTS**
 
-> Description: HB 288 Enrolled Copy - Critical Infrastructure Materials (2019) - Duplicate 2019 Document contains critical references to 17-41-402 or CIM preemption issues.
+> Description: HB 288 Enrolled Copy - Critical Infrastructure Materials (2019) - Duplicate 2019
 >
 > *"Laws of Utah 2009, Chapter 376 40 17-41-307, as last amended by Laws of Utah 2017, Chapter 92 41 17-41-402, as last amended by Laws of Utah 2009, Chapter 376 42 17-41-403, as last amended by Laws"*
 
 **2.** **[SLCo010703]** | **SUPPORTS**
 
-> Description: March 22, 2022 -- March 22, 2022 | March 23, 2022
+> Description: March 22, 2022 | March 23, 2022
 >
 > *"system to avoid extractive companies circumventing the intended system of checks and balances set up to protect SLCO residents and"*
 
 **3.** **[SLCo010857]** | **UNDERMINES**
 
-> Description: March 23, 2022 -- Before the Board of Oil, Gas and Mining | March 23, 2022
+> Description: Before the Board of Oil, Gas and Mining | March 23, 2022
 >
 > *"DOGM has some discretion within the law to avoid permitting projects that clearly do not serve the public"*
 
 **4.** **[SLCo010903]** | **UNDERMINES**
 
-> Description: March 23, 2022 -- Before the Board of Oil, Gas and Mining | March 23, 2022
+> Description: Before the Board of Oil, Gas and Mining | March 23, 2022
 >
 > *"DOGM has some discretion within the law to avoid permitting projects that clearly do not serve the public"*
 
 **5.** **[SLCo010946]** | **UNDERMINES**
 
-> Description: April 1, 2022 -- April 1, 2022 | March 23, 2022
+> Description: April 1, 2022 | March 23, 2022
 >
 > *"the agency shall: limit its order to require only the action necessary to prevent or avoid"*
 
 **6.** **[SLCo010956]** | **UNDERMINES**
 
-> Description: April 1, 2022 -- April 1, 2022 | March 23, 2022
+> Description: April 1, 2022 | March 23, 2022
 >
 > *"the agency shall: limit its order to require only the action necessary to prevent or avoid"*
 
 **7.** **[SLCo010977]** | **SUPPORTS**
 
-> Description: April 5, 2022 -- Salt Lake County | April 5, 2022
+> Description: Salt Lake County | April 5, 2022
 >
 > *"Assessor Tax Letters to Void Rollback Taxes Billed in Error"*
 
 **8.** **[SLCo010989]** | **SUPPORTS**
 
-> Description: April 5, 2022 -- Salt Lake County | April 5, 2022
+> Description: Salt Lake County | April 5, 2022
 >
 > *"Assessor Tax Letters to Void Rollback Taxes Billed in Error"*
 
 **9.** **[SLCo011022]** | **SUPPORTS**
 
-> Description: April 7, 2022 -- Sim Gill | April 7, 2022 references conflict with state law
+> Description: Sim Gill | April 7, 2022
 >
 > *"prohibit operations that remove 'sand, gravel, and rock aggregate,' which are critical infrastructure"*
 
 **10.** **[SLCo011047]** | **SUPPORTS**
 
-> Description: April 13, 2022 -- From: Catherine Kanter (CKanter@slco.org) | April 13, 2022 references talking points
+> Description: From: Catherine Kanter (CKanter@slco.org) | April 13, 2022
 >
 > *"to avoid addressing legal related matters, but if she wants talking points on that, we could pull something together."*
 
@@ -653,19 +653,19 @@
 
 **12.** **[SLCo011149]** | **SUPPORTS**
 
-> Description: November 30, 2021 -- November 30, 2021
+> Description: November 30, 2021
 >
 > *"avoid impacts to wildlife in the area, too."*
 
 **13.** **[SLCo011166]** | **SUPPORTS**
 
-> Description: November 30, 2021 -- November 30, 2021
+> Description: November 30, 2021
 >
 > *"avoid impacts to wildlife in the area, too."*
 
 **14.** **[SLCo011396]** | **SUPPORTS**
 
-> Description: April 5, 2022 -- Salt Lake County | April 5, 2022
+> Description: Salt Lake County | April 5, 2022
 >
 > *"Assessor Tax Letters to Void Rollback Taxes Billed in Error"*
 
@@ -677,7 +677,7 @@
 
 **16.** **[SLCo011414]** | **SUPPORTS**
 
-> Description: March 31, 2022 -- Andrew W. Smith | March 31, 2022
+> Description: Andrew W. Smith | March 31, 2022
 >
 > *"connection with and as part of an operation for the removal of sand, gravel and/or rock aggregate in the Forest"*
 
@@ -743,13 +743,13 @@
 
 **27.** **[SLCo011431]** | **SUPPORTS**
 
-> Description: March 31, 2022 -- Andrew W. Smith | March 31, 2022
+> Description: Andrew W. Smith | March 31, 2022
 >
 > *"connection with and as part of an operation for the removal of sand, gravel and/or rock aggregate in the Forest"*
 
 **28.** **[SLCo011433]** | **SUPPORTS**
 
-> Description: March 31, 2022 -- Andrew W. Smith | March 31, 2022
+> Description: Andrew W. Smith | March 31, 2022
 >
 > *"connection with and as part of an operation for the removal of sand, gravel and/or rock aggregate in the Forest"*
 
@@ -767,13 +767,13 @@
 
 **31.** **[SLCo012184]** | **UNDERMINES**
 
-> Description: March 23, 2022 -- Before the Board of Oil, Gas and Mining | March 23, 2022
+> Description: Before the Board of Oil, Gas and Mining | March 23, 2022
 >
 > *"DOGM has some discretion within the law to avoid permitting projects that clearly do not serve the public"*
 
 **32.** **[SLCo012230]** | **UNDERMINES**
 
-> Description: April 1, 2022 -- April 1, 2022 | March 23, 2022
+> Description: April 1, 2022 | March 23, 2022
 >
 > *"the agency shall: limit its order to require only the action necessary to prevent or avoid"*
 
@@ -803,7 +803,7 @@
 
 **37.** **[SLCo012249]** | **SUPPORTS**
 
-> Description: April 2, 2022 -- April 2, 2022
+> Description: April 2, 2022
 >
 > *"connection with and as part of an operation for the removal of sand, gravel and/or rock aggregate in the Forest"*
 
@@ -815,13 +815,13 @@
 
 **39.** **[SLCo012453]** | **SUPPORTS**
 
-> Description: November 12, 2021 -- Parr Brown | November 12, 2021 references warnings or legal counsel advisement
+> Description: Parr Brown | November 12, 2021
 >
 > *"Farm will place warning signs along the perimeter to deter illegal access. Where possible trees will be"*
 
 **40.** **[SLCo012814]** | **SUPPORTS**
 
-> Description: Enrolled Copy references illegality, unlawfulness, invalidity, or void status
+> Description: Enrolled Copy
 >
 > *"17-41-402, as last amended by Laws of Utah 2009, Chapter 376"*
 
@@ -869,7 +869,7 @@
 
 **48.** **[SLCo013323]** | **SUPPORTS**
 
-> Description: Enrolled Copy references illegality, unlawfulness, invalidity, or void status
+> Description: Enrolled Copy
 >
 > *"17-41-402, as last amended by Laws of Utah 2009, Chapter 376"*
 
@@ -887,31 +887,31 @@
 
 **51.** **[SLCo013473]** | **SUPPORTS**
 
-> Description: December 10, 2021 -- Stephen E.W. Hale (5285) | December 10, 2021
+> Description: Stephen E.W. Hale (5285) | December 10, 2021
 >
 > *"engage in an unlawful procedure or decision-making process, id. at -403(4)(e), it must follow"*
 
 **52.** **[SLCo013526]** | **SUPPORTS**
 
-> Description: December 10, 2021 -- December 10, 2021
+> Description: December 10, 2021
 >
 > *"engage in an unlawful procedure or decision-making process, id. at -403(4)(e), it must follow"*
 
 **53.** **[SLCo013580]** | **SUPPORTS**
 
-> Description: December 10, 2021 -- December 10, 2021
+> Description: December 10, 2021
 >
 > *"engage in an unlawful procedure or decision-making process, id. at -403(4)(e), it must follow"*
 
 **54.** **[SLCo013656]** | **SUPPORTS**
 
-> Description: December 22, 2021 -- Stephen E.W. Hale (5285) | December 22, 2021
+> Description: Stephen E.W. Hale (5285) | December 22, 2021
 >
 > *"engage in an unlawful procedure or decision-making process, id. at -403(4)(0), it must follow"*
 
 **55.** **[SLCo013723]** | **SUPPORTS**
 
-> Description: November 12, 2021 -- Haley Sousa (No. 14333) | November 12, 2021
+> Description: Haley Sousa (No. 14333) | November 12, 2021
 >
 > *"canon resolves ambiguity by choosing an interpretation that avoids an absurd result. This is different than the"*
 
@@ -923,7 +923,7 @@
 
 **57.** **[SLCo015177]** | **SUPPORTS**
 
-> Description: February 11, 2022 -- Brent N. Bateman | February 11, 2022 references violation of state law or Utah Code; references inability to adopt ordinance
+> Description: Brent N. Bateman | February 11, 2022
 >
 > *"of my letter is to make you aware that any attempts to do so will be a violation of state law."*
 
@@ -935,25 +935,25 @@
 
 **59.** **[SLCo015248]** | **SUPPORTS**
 
-> Description: February 11, 2022 -- Durham Jones | February 11, 2022 references violation of state law or Utah Code; references inability to adopt ordinance
+> Description: Durham Jones | February 11, 2022
 >
 > *"of my letter is to make you aware that any attempts to do so will be a violation of state law."*
 
 **60.** **[SLCo015393]** | **SUPPORTS**
 
-> Description: March 23, 2022 -- State of Utah | March 23, 2022 references violation of state law or Utah Code; references inability to adopt ordinance
+> Description: State of Utah | March 23, 2022
 >
 > *"direct violation of Utah Code 17-41-402(6), specifically directed at"*
 
 **61.** **[SLCo015400]** | **SUPPORTS**
 
-> Description: March 23, 2022 -- State of Utah | March 23, 2022 references violation of state law or Utah Code; references inability to adopt ordinance
+> Description: State of Utah | March 23, 2022
 >
 > *"direct violation of Utah Code 17-41-402(6), specifically directed at"*
 
 **62.** **[SLCo015407]** | **SUPPORTS**
 
-> Description: March 23, 2022 -- State of Utah | March 23, 2022 references violation of state law or Utah Code; references inability to adopt ordinance
+> Description: State of Utah | March 23, 2022
 >
 > *"direct violation of Utah Code 17-41-402(6), specifically directed at"*
 
@@ -977,37 +977,37 @@
 
 **66.** **[SLCo015508]** | **SUPPORTS**
 
-> Description: April 5, 2022 -- Salt Lake County | April 5, 2022
+> Description: Salt Lake County | April 5, 2022
 >
 > *"Assessor Tax Letters to Void Rollback Taxes Billed in Error"*
 
 **67.** **[SLCo015531]** | **SUPPORTS**
 
-> Description: April 7, 2022 -- Sim Gill | April 7, 2022 references conflict with state law
+> Description: Sim Gill | April 7, 2022
 >
 > *"prohibit operations that remove 'sand, gravel, and rock aggregate,' which are critical infrastructure"*
 
 **68.** **[SLCo015545]** | **SUPPORTS**
 
-> Description: February 11, 2022 -- Brent N. Bateman | February 11, 2022 references violation of state law or Utah Code; references inability to adopt ordinance
+> Description: Brent N. Bateman | February 11, 2022
 >
 > *"of my letter is to make you aware that any attempts to do so will be a violation of state law."*
 
 **69.** **[SLCo015548]** | **SUPPORTS**
 
-> Description: February 11, 2022 -- Brent N. Bateman | February 11, 2022 references violation of state law or Utah Code; references inability to adopt ordinance
+> Description: Brent N. Bateman | February 11, 2022
 >
 > *"of my letter is to make you aware that any attempts to do so will be a violation of state law."*
 
 **70.** **[SLCo015551]** | **SUPPORTS**
 
-> Description: February 11, 2022 -- Brent N. Bateman | February 11, 2022 references violation of state law or Utah Code; references inability to adopt ordinance
+> Description: Brent N. Bateman | February 11, 2022
 >
 > *"of my letter is to make you aware that any attempts to do so will be a violation of state law."*
 
 **71.** **[SLCo015558]** | **SUPPORTS**
 
-> Description: March 23, 2022 -- State of Utah | March 23, 2022 references violation of state law or Utah Code; references inability to adopt ordinance
+> Description: State of Utah | March 23, 2022
 >
 > *"direct violation of Utah Code 17-41-402(6), specifically directed at"*
 
@@ -1025,13 +1025,13 @@
 
 **74.** **[SLCo015665]** | **SUPPORTS**
 
-> Description: November 30, 2021 -- November 30, 2021
+> Description: November 30, 2021
 >
 > *"avoid impacts to wildlife in the area, too."*
 
 **75.** **[SLCo015672]** | **SUPPORTS**
 
-> Description: November 30, 2021 -- November 30, 2021
+> Description: November 30, 2021
 >
 > *"avoid impacts to wildlife in the area, too."*
 
@@ -1049,13 +1049,13 @@
 
 **78.** **[SLCo015770]** | **SUPPORTS**
 
-> Description: LUCC Board Meeting Minutes/Transcripts references talking points; references sham or pretextual conduct
+> Description: LUCC Board Meeting Minutes/Transcripts
 >
 > *"down on their backs and their dirty cars, and inspect for illegal mufflers or illegal mufflers. Just so easy"*
 
 **79.** **[SLCo015858]** | **SUPPORTS**
 
-> Description: April 5, 2022 -- Salt Lake County | April 5, 2022
+> Description: Salt Lake County | April 5, 2022
 >
 > *"Assessor Tax Letters to Void Rollback Taxes Billed in Error"*
 
@@ -3252,12 +3252,12 @@
 
 **1.** **[SLCo010857]** | **NEUTRAL**
 
-> Description: March 23, 2022 -- Before the Board of Oil, Gas and Mining | March 23, 2022 Board of Oil, Gas and Mining proceeding involving Tree Farm mining operations; County staff communication discussing vested mining rights; legal brief discussing vested mining rights; references predecessor mining activity.
+> Description: Before the Board of Oil, Gas and Mining | March 23, 2022 Board of Oil, Gas and Mining proceeding involving Tree Farm mining operations; County staff communication discussing vested mining rights; legal brief discussing vested mining rights; references predecessor mining activity.
 >
 
 **2.** **[SLCo010903]** | **NEUTRAL**
 
-> Description: March 23, 2022 -- Before the Board of Oil, Gas and Mining | March 23, 2022 Board of Oil, Gas and Mining proceeding involving Tree Farm mining operations; County staff communication discussing vested mining rights; legal brief discussing vested mining rights; references predecessor mining activity.
+> Description: Before the Board of Oil, Gas and Mining | March 23, 2022 Board of Oil, Gas and Mining proceeding involving Tree Farm mining operations; County staff communication discussing vested mining rights; legal brief discussing vested mining rights; references predecessor mining activity.
 >
 
 **3.** **[SLCo011765]** | **SUPPORTS**
@@ -3274,18 +3274,18 @@
 
 **5.** **[SLCo012184]** | **NEUTRAL**
 
-> Description: March 23, 2022 -- Before the Board of Oil, Gas and Mining | March 23, 2022 Board of Oil, Gas and Mining proceeding involving Tree Farm mining operations; County staff communication discussing vested mining rights; legal brief discussing vested mining rights; references predecessor mining activity.
+> Description: Before the Board of Oil, Gas and Mining | March 23, 2022 Board of Oil, Gas and Mining proceeding involving Tree Farm mining operations; County staff communication discussing vested mining rights; legal brief discussing vested mining rights; references predecessor mining activity.
 >
 
 **6.** **[SLCo012261]** | **NEUTRAL**
 
-> Description: April 5, 2022 -- County Communication | April 5, 2022 Documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining; County staff communication discussing vested mining rights; legal brief discussing vested mining rights.
+> Description: County Communication | April 5, 2022 Documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining; County staff communication discussing vested mining rights; legal brief discussing vested mining rights.
 >
 > *"Mineral extraction from the mountainous areas of Salt Lake County."*
 
 **7.** **[SLCo012299]** | **NEUTRAL**
 
-> Description: April 12, 2022 -- Salt Lake County | April 12, 2022 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
+> Description: Salt Lake County | April 12, 2022 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
 >
 > *"Mineral extraction and processing as a conditional use and explicitly prohibiting the same in the Forestry and Recreation Zones; amending Section 19."*
 
@@ -3297,37 +3297,37 @@
 
 **9.** **[SLCo013088]** | **NEUTRAL**
 
-> Description: December 10, 2021 -- Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
+> Description: Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
 >
 > *"Nonconforming uses."*
 
 **10.** **[SLCo013098]** | **NEUTRAL**
 
-> Description: December 10, 2021 -- Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
+> Description: Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
 >
 > *"Nonconforming uses."*
 
 **11.** **[SLCo013111]** | **NEUTRAL**
 
-> Description: December 10, 2021 -- Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
+> Description: Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
 >
 > *"Nonconforming uses."*
 
 **12.** **[SLCo013126]** | **NEUTRAL**
 
-> Description: December 10, 2021 -- Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
+> Description: Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
 >
 > *"Nonconforming uses."*
 
 **13.** **[SLCo013235]** | **NEUTRAL**
 
-> Description: December 10, 2021 -- Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
+> Description: Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
 >
 > *"Nonconforming uses."*
 
 **14.** **[SLCo013251]** | **NEUTRAL**
 
-> Description: December 10, 2021 -- Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
+> Description: Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
 >
 > *"Nonconforming uses."*
 
@@ -3351,7 +3351,7 @@
 
 **18.** **[SLCo015165]** | **SUPPORTS**
 
-> Description: December 10, 2021 -- Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
+> Description: Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
 >
 > *"Nonconforming uses."*
 
@@ -3363,25 +3363,25 @@
 
 **20.** **[SLCo015209]** | **NEUTRAL**
 
-> Description: December 10, 2021 -- Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
+> Description: Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
 >
 > *"Nonconforming uses."*
 
 **21.** **[SLCo015378]** | **NEUTRAL**
 
-> Description: December 10, 2021 -- Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
+> Description: Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
 >
 > *"Nonconforming uses."*
 
 **22.** **[SLCo015437]** | **NEUTRAL**
 
-> Description: December 10, 2021 -- Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
+> Description: Proposed Ordinance | December 10, 2021 County document discusses existing mining uses in context of ordinance changes; documents county effort to eliminate mineral extraction as conditional use, showing county awareness of existing mining operations.
 >
 > *"Nonconforming uses."*
 
 **23.** **[SLCo015607]** | **NEUTRAL**
 
-> Description: November 27, 2021 -- November 27, 2021 Public opposition letter to DOGM regarding Tree Farm NOI; references mining operations context; opposes mining but shows public awareness of Tree Farm operations.
+> Description: November 27, 2021 Public opposition letter to DOGM regarding Tree Farm NOI; references mining operations context; opposes mining but shows public awareness of Tree Farm operations.
 >
 
 **24.** **[SLCo015642]** | **SUPPORTS**
