@@ -1,0 +1,50 @@
+Event: Tree Farm
+Start Date: 2021-12-17 13:30:00 -0700
+End Date: 2021-12-17 14:00:00 -0700
+Organizer: Zachary Shaw <zshaw@slco.org>
+Location: webex
+Status: CONFIRMED
+DTSTAMP: 2021-12-15 10:06:41 -0700
+Attendee: danadean@utah.gov <danadean@utah.gov>
+Date Created: 2021-12-15 10:05:03 -0700
+Date Modified: 2021-12-15 10:06:41 -0700
+-- Do not delete or change any of the following text. --
+
+When it's time, join your Webex meeting here.
+
+Join meeting<https://slco.webex.com/slco/j.php?
+MTID=m2c6eb9d27093dcb228441647c306e11e>
+
+More ways to join:
+
+Join from the meeting link
+https://slco.webex.com/slco/j.php?MTID=m2c6eb9d27093dcb228441647c306e11e
+
+Join by meeting number
+
+Meeting number (access code): 2480 091 3370
+Meeting password: fAUU7qW9H7W
+
+Tap to join from a mobile device (attendees only)
++1-213-306-3065,,24800913370##<tel:%2B1-213-306-3065,,*01*24800913370%23%23*01*>
+United States Toll (Los Angeles)
++1-602-666-0783,,24800913370##<tel:%2B1-602-666-0783,,*01*24800913370%23%23*01*>
+United States Toll (Phoenix)
+Join by phone
++1-213-306-3065 United States Toll (Los Angeles)
++1-602-666-0783 United States Toll (Phoenix)
+Global call-in numbers<https://slco.webex.com/slco/globalcallin.php?
+MTID=m37a35dc03ba00f6a1decf7be5cbacaaa>
+Join from a video system or application
+Dial 24800913370@slco.webex.com<sip:24800913370@slco.webex.com>
+You can also dial 173.243.2.68 and enter your meeting number.
+
+Join using Microsoft Lync or Microsoft Skype for Business
+Dial 24800913370.slco@lync.webex.com<sip:24800913370.slco@lync.webex.com>
+
+If you are a host, click here<https://slco.webex.com/slco/j.php?
+MTID=m0f8da93b3a783b1631da76aa4d2ab94e> to view host information.
+
+Need help? Go to https://help.webex.com
+
+

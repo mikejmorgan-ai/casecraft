@@ -1,0 +1,44 @@
+Event: Tree Farm Mine Application
+Start Date: 2022-02-10 11:30:00 -0700
+End Date: 2022-02-10 12:00:00 -0700
+Organizer: Catherine Kanter <ckanter@slco.org>
+Location: WebEx
+Status: CONFIRMED
+DTSTAMP: 2022-01-28 15:34:41 -0700
+Attendee: catherine.raneynorman@gmail.com <catherine.raneynorman@gmail.com>
+Date Created: 2022-01-28 15:13:51 -0700
+Date Modified: 2022-01-28 15:34:41 -0700
+-- Do not delete or change any of the following text. -When it's time, join your Webex meeting here.
+
+Join meeting<https://slco.webex.com/slco/j.php?MTID=m5d0ef547cb88414c965bb8e71ab1dee4>
+More ways to join:
+Join from the meeting link
+https://slco.webex.com/slco/j.php?MTID=m5d0ef547cb88414c965bb8e71ab1dee4
+
+Join by meeting number
+Meeting number (access code): 2492 607 1690
+Meeting password: bFvpp6jP7K6
+Tap to join from a mobile device (attendees only)
++1-213-306-3065,,24926071690##<tel:%2B1-213-306-3065,,*01*24926071690%23%23*01*>
+United States Toll (Los Angeles)
++1-602-666-0783,,24926071690##<tel:%2B1-602-666-0783,,*01*24926071690%23%23*01*>
+United States Toll (Phoenix)
+Join by phone
++1-213-306-3065 United States Toll (Los Angeles)
++1-602-666-0783 United States Toll (Phoenix)
+Global call-in numbers<https://slco.webex.com/slco/globalcallin.php?
+MTID=m598f62519f3acb54e29a4762a06b79f3>
+
+Join from a video system or application
+Dial 24926071690@slco.webex.com<sip:24926071690@slco.webex.com>
+You can also dial 173.243.2.68 and enter your meeting number.
+
+Join using Microsoft Lync or Microsoft Skype for Business
+Dial 24926071690.slco@lync.webex.com<sip:24926071690.slco@lync.webex.com>
+
+If you are a host, click here<https://slco.webex.com/slco/j.php?
+MTID=m759ef559fcd4ce31a508b9e6d0f9b4af> to view host information.
+
+Need help? Go to https://help.webex.com
+
+

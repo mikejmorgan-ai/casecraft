@@ -1,0 +1,23 @@
+Event: Meeting Forward Notification: Tree Farm Comms
+Start Date: 2022-04-01 11:30:00 -0600
+End Date: 2022-04-01 12:00:00 -0600
+Organizer: Jordan Carroll <JCarroll@slco.org>
+Location: https://slco.webex.com/slco/j.php?MTID=mb8800e7644ffd1c8f05696bf9105fa32
+Class: X-PERSONAL
+Date Created: 2022-04-01 10:18:56 -0600
+Date Modified: 2022-04-01 15:08:53 -0600
+Priority: 5
+DTSTAMP: 2022-03-31 15:26:58 -0600
+Attendee: Lisa Hartman <LHartman@slco.org>
+Your meeting was forwarded
+Jordan Carroll has forwarded your meeting request to additional recipients.
+Meeting
+Tree Farm Comms
+Meeting Time
+Friday, 01 April 2022 11:30-12:00.
+Recipients
+Channing Gibbs
+All times listed are in the following time zone: (UTC-07:00) Mountain Time (US & Canada)
+Sent by Microsoft Exchange Server
+
+

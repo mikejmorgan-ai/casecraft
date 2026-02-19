@@ -1,0 +1,9 @@
+Event
+Start Date: 2022-02-02 12:00:00 -0700
+End Date: 2022-02-02 13:00:00 -0700
+Class: X-PERSONAL
+Date Created: 2022-09-14 10:55:01 -0600
+Date Modified: 2024-09-25 22:12:34 -0600
+Priority: 5
+
+

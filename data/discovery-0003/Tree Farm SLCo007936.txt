@@ -1,0 +1,18 @@
+Event
+Start Date: 2023-05-11 10:00:00 -0600
+End Date: 2023-05-11 11:00:00 -0600
+Organizer: Schedule Mayor <ScheduleMayor@slco.org>
+Location: Webex; https://slco.webex.com/slco/j.php?
+MTID=mf9b9a8dcf6b7529cddcfce481227dcce
+Class: X-PERSONAL
+Date Created: 2024-08-15 14:11:17 -0600
+Date Modified: 2024-08-15 14:11:17 -0600
+Priority: 5
+DTSTAMP: 2023-04-21 16:23:21 -0600
+Attendee: Jenny Wilson <JWilson@slco.org>; Erin Litvack <ELitvack@slco.org>; Katherine Fife
+<KFife@slco.org>; Ashley Perry <APerry@slco.org>; Robin Chalhoub <RChalhoub@slco.org>;
+Martin Jensen <MJensen@slco.org>; Matthew Castillo <MCastillo@slco.org>; Darrin Casper
+<DCasper@slco.org>; Tim Whalen <TWhalen@slco.org>; Beth Graham <EGraham@slco.org>; Lori
+Okino <LOkino@slco.org>
+
+

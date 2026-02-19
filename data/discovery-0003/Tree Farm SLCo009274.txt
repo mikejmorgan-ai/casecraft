@@ -1,0 +1,10 @@
+Event
+Start Date: 2022-01-12 12:00:00 -0700
+End Date: 2022-01-12 13:00:00 -0700
+Class: X-PERSONAL
+Date Created: 2022-03-23 11:56:36 -0600
+Date Modified: 2022-08-27 01:04:20 -0600
+Priority: 5
+Attendee: Helen Peters <HPeters@slco.org>
+
+

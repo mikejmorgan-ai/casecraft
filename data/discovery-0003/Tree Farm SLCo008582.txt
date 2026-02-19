@@ -1,0 +1,12 @@
+Event: Accepted: Follow up -Parleys canyon mine
+Start Date: 2021-12-14 16:00:00 -0700
+End Date: 2021-12-14 17:00:00 -0700
+Organizer: Catherine Kanter <CKanter@slco.org>
+Location: WebEx
+Class: X-PERSONAL
+Date Created: 2021-12-14 11:48:45 -0700
+Date Modified: 2022-06-23 18:34:05 -0600
+Priority: 5
+DTSTAMP: 2021-12-14 11:48:43 -0700
+
+

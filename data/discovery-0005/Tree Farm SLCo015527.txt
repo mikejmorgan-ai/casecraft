@@ -1,0 +1,48 @@
+Event: Tree Farm - Trib
+Start Date: 2022-04-11 12:00:00 -0600
+End Date: 2022-04-11 12:30:00 -0600
+Organizer: Lisa Hartman <LHartman@slco.org>
+Location: https://slco.webex.com/slco/j.php?MTID=m1248c3df705ec2f3f8a2bb6eb35e4423
+Class: X-PERSONAL
+Date Created: 2022-04-06 12:31:04 -0600
+Date Modified: 2023-01-13 21:28:21 -0700
+Priority: 5
+DTSTAMP: 2022-04-06 12:31:02 -0600
+Attendee: Catherine Kanter <CKanter@slco.org>; Zachary Shaw <ZShaw@slco.org>; Tim Bywater
+<TBywater@slco.org>; Ralph Chamness <RChamness@slco.org>; Jordan Carroll
+<JCarroll@slco.org>
+Alarm: Display the following message 15m before start
+Reminder
+
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-- Do not delete or change any of the following text. --
+
+When it's time, join your Webex meeting here.
+
+Join meeting
+More ways to join:
+Join from the meeting link
+
+https://slco.webex.com/slco/j.php?MTID=m1248c3df705ec2f3f8a2bb6eb35e4423
+Join by meeting number
+
+Meeting number (access code): 2482 410 9057
+Meeting password: yXiaGiy5V72
+Tap to join from a mobile device (attendees only)
+
++1-213-306-3065,,24824109057## United States Toll (Los Angeles)
++1-602-666-0783,,24824109057## United States Toll (Phoenix)
+Join by phone
+
++1-213-306-3065 United States Toll (Los Angeles)
++1-602-666-0783 United States Toll (Phoenix)
+Global call-in numbers
+Join from a video system or application
+
+Dial 24824109057@slco.webex.com
+You can also dial 173.243.2.68 and enter your meeting number.
+
+If you are a host, click here to view host information.
+
+Need help? Go to https://help.webex.com
+
+

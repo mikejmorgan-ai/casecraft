@@ -1,0 +1,446 @@
+Draft
+
+MINING AND MINERAL RESOURCES
+INTRODUCTION
+Mineral resources provide the raw materials required to manufacture many of the products that
+make modern society possible. Minerals are the source of materials used to construct buildings,
+build roads, make cars, generate electricity, develop technology, and provide countless consumer
+goods. Mineral resources require varying levels of processing and refining that are often dictated
+by end use. As society changes and advances, additional mineral resources will be required to
+fuel those changes. For instance, a transition to renewable energy will require substantial
+additional production of copper, lithium, cobalt, rare earth elements (REE), critical minerals, and
+other resources.
+The abundant mineral resources in Utah have proven to be a great benefit to the people here and
+to the entire United States for over 170 years. The production of salt from Great Salt Lake and
+lime products were some of the first commercial operations begun after Mormon settlers arrived
+in the Salt Lake Valley in 1847. Most of the buildings constructed after 1872 at Fort Douglas
+were constructed of sandstone from nearby Red Butte Canyon, and many other homes and
+buildings throughout the state were constructed of various types of stone from other quarries.1
+Commercial-scale production of metals, consisting primarily of gold and silver, began in 1865.
+Copper and lead production reached commercial levels in 1870 and together with the precious
+metals reached a total value of over a million dollars that year.2 The late 1800s also saw the
+development of Utah’s famous Bingham mining district. After the transcontinental railroad was
+completed in 1869, a number of branch lines were constructed and each one contributed to an
+increase in metal production that pushed total extractive industry values to over $100 million by
+1917.3 Simultaneously, a number of large smelters were constructed in the Salt Lake Valley,
+mostly just after the turn of the century. These new facilities helped establish Utah as a major
+regional mining and smelting center by the early 1900s. Since that time, Utah’s mining industry
+has continued to expand and is an important producer of numerous mineral resources.
+Currently, mining in Utah occurs on a complex configuration of federal, state, and privately
+owned lands. As a result, regulation and development of Utah’s mineral resources are managed
+by various state and federal agencies including: the Utah Division of Oil, Gas and Mining
+(DOGM), the U.S. Bureau of Land Management, the U.S. Forest Service, the Utah Department
+of Environmental Quality, the Utah School and Institutional Trust Lands Administration
+(SITLA), and the Utah Division of Forestry, Fire and State Lands.
+Mining in Utah is primarily regulated by DOGM and their mission is to regulate the exploration
+and development of coal and non-coal minerals in a manner which:
+1
+
+Powell (1994), Utah History Encyclopedia: Salt Lake City, University of Utah Press, 674 p.
+Butler and others (1920) (https://doi.org/10.3133/pp111)
+3
+Stowe (1975) (https://doi.org/10.34191/b-106)
+2
+
+●
+●
+●
+●
+
+encourages responsible reclamation and development;
+protects correlative rights;
+prevents waste; and
+protects human health and safety, the environment, and the interests of the state and its
+citizens.4
+
+In 1975, the Utah Legislature assigned DOGM the responsibility for administration of the Mined
+Land Reclamation Act. The act’s primary function was to “prevent conditions detrimental to the
+general safety and welfare of the citizens of the state of Utah” that could occur from activities of
+the mining industry in the state. Permitting and inspection/enforcement procedures, initiated by
+the act, ensure proper mine operation and the reclamation of affected lands. The act also made it
+illegal for mines to be abandoned without reclamation.
+Implementation of the Mined Land Reclamation Act was initially funded totally with state
+general funds. A specific law to address the reclamation of coal mines, the Utah Coal Mining and
+Reclamation Act, was passed in 1979, and in 1981 Utah received primacy for regulation of coal
+mining and reclamation under the federal Surface Mining Control and Reclamation Act of 1977
+(SMCRA). In March 1987, DOGM assumed sole responsibility under a cooperative agreement
+for permitting, inspection, and enforcement on federal lands. Federal money is provided for
+regulation of coal mining and reclamation on federal and nonfederal lands. Funds for the
+regulation of non-coal minerals exploration and development continue to come primarily from
+Utah’s general fund but are supplemented by a modest permit fee program implemented in 1998.
+DOGM’s Abandoned Mine Reclamation Program (AMRP) conducts reclamation of abandoned
+mine sites under Title IV of SMCRA. Funds for this program come from appropriations of
+federal fees paid by the coal industry, based on a per-ton produced rate. Modest funding
+agreements with private and federal partners also supplement some of the work in the
+Abandoned Mine Reclamation Program. The AMRP works to protect the public from dangers of
+old mines by sealing off access to openings and cleaning up waste. Old mining sites can be
+intriguing to the public but can be unstable, contain dangerous gases, and present other hazards.
+Today there are an estimated 17,000 mine openings scattered across Utah.5
+The Minerals Program within DOGM regulates all non-coal mining operations in the state with a
+few exceptions. The mission of the Minerals Regulatory Program is to regulate exploration for,
+and development and reclamation of, non-coal mineral resources of the state in conformance
+with the Utah Mined Land Reclamation Act, UCA 40-8 in a manner which:
+● supports the existence of a viable minerals mining industry to preserve the economic and
+physical well-being of the state and the nation
+● safeguards the environment while protecting public health and safety, and
+● achieves the successful reclamation of lands affected by mineral mining activities.6
+
+4
+
+https://www.ogm.utah.gov/about.php#mission
+
+5
+
+https://www.ogm.utah.gov/amr/index.php
+https://minerals.ogm.utah.gov/about.php#mission
+
+6
+
+From Rio Tinto’s Bingham Canyon mine, the largest open-pit mine in the state, to small
+operations mining for trilobite fossils, the Minerals Program staff works to ensure mining
+operation procedures are followed. This includes verifying operators work within their permit
+boundaries, ensuring that mining operations pose no threat to public safety or the environment,
+and holding appropriate reclamation fees or bonds in the event that they are needed.
+The Utah Geological Survey’s (UGS) mission is to provide “timely scientific information about
+Utah’s geologic environment, resources, and hazards” and it acts as the primary repository for
+mineral resource information across the state. The UGS generates, collects, compiles, and
+distributes mineral resource data and information to public, private, and government users. In
+those roles, the UGS conducts original research on Utah’s mineral resources but also preserves
+existing data made available from other sources, such as industry. In 2020, the UGS produced
+Circular 129, “Critical Minerals of Utah.” Much of the data in this section is derived from this
+report (include reference in footnote).
+FINDINGS7
+Utah hosts a variety of mineral resources and produces significant quantities of base metals,
+precious metals, and industrial minerals. The U.S. Geological Survey ranked Utah 8th in the
+nation for nonfuel (metals and industrial minerals) mineral production value in 2020, accounting
+for nearly 4% of the U.S. total.8 Utah consistently ranks in the top 10 states for production value
+of nonfuel minerals.
+The Utah Geological Survey estimates that the production value of Utah’s mines, excluding coal,
+in 2020 was $3.2 billion. Base metal production contributed $1.5 billion to that total and includes
+copper, magnesium, beryllium, and molybdenum. Notably, copper accounted for 57% of Utah’s
+base metal production value in 2020. Precious metals produced in Utah include gold and silver,
+and 2020 production was valued at $350 million. Utah also produced several industrial mineral
+commodities including sand and gravel, crushed stone, salt, potash, cement, lime, phosphate,
+lithium, gilsonite, clay, gypsum, and others. The estimated value of industrial mineral production
+in 2020 was $1.4 billion.
+Notably, Utah is home to the Bingham Canyon mine, which is a world-class
+copper-molybdenum-gold porphyry deposit. The great majority of Utah’s copper, gold, and silver
+production and all molybdenum production comes from the Bingham Canyon mine. The mine
+and associated refineries and facilities are located on the west bench of the Salt Lake Valley in
+the Oquirrh Mountains. Utah also remains the only state to produce magnesium metal, beryllium
+concentrate, potassium sulfate, and gilsonite; of these mineral commodities, magnesium,
+beryllium, and potash (includes potassium sulfate) are included in the U.S. Department of the
+Interior’s 2018 list of critical minerals.9 Lithium, also deemed a critical mineral, was produced in
+Utah for the first time in 2020, making Utah one of only two lithium-producing states.
+7
+
+This section was contributed by the Utah Geological Survey Energy and Minerals Program. Information and data from this section are primarily
+derived from the Utah Geological Survey’s annual mining reports. A representative example can be found at the following link
+(https://doi.org/10.34191/c-130).
+8
+U.S. Geological Survey, mineral commodity summaries (https://doi.org/10.3133/mcs2021).
+9
+Fortier and others (2018) (https://doi.org/10.3133/ofr20181021).
+
+Currently there are more than 400 non-coal mines with active permits from DOGM statewide.10
+The metals and industrial minerals sections below detail the most significant mineral resources
+mined in Utah.
+Metals
+Copper. Copper is the largest single commodity contributor to Utah’s nonfuel mineral portfolio.
+The Bingham Canyon mine is, by far, the primary producer of copper in Utah, and produced 309
+million lbs (154,000 short tons) in 2020 valued at $864 million. Smaller producers have
+intermittently operated in San Juan and Beaver Counties in recent years. Utah copper is used to
+create various alloys for numerous products including electrical wiring, electronic components,
+and pipe for plumbing, refrigeration, and heating systems.
+Magnesium. Utah is home to the U.S. Magnesium plant in Tooele County, which is the only
+facility producing magnesium metal from a primary source within the United States. Magnesium
+chloride-rich brine is derived from the Great Salt Lake and through evaporation is converted to
+magnesium metal by an electrolytic process. The plant has a production capacity of
+approximately 70,000 tons of magnesium metal per year. This metal is used as a constituent of
+aluminum-based alloys for aerospace and defense applications, to add strength, decrease weight
+and increase corrosion resistance of alloys for desulfurization of iron and steel, and for other
+practical industrial applications. Other potential magnesium resources are located in the Great
+Salt Lake Desert/Bonneville Salt Flats, Sevier Lake, and the Paradox Basin.
+Beryllium. Utah currently remains the sole producer of beryllium ore in the United States.
+Materion Natural Resources, Inc., extracts bertrandite, a beryllium mineral, from the Spor
+Mountain area in Juab County, and then produces bertrandite concentrate at their mill in Millard
+County. The beryllium mill processes the bertrandite ore into beryllium hydroxide, which is then
+shipped out of state for further refining. In 2020, beryllium production from Utah totaled
+333,840 lbs (167 tons), having a value of $94 million. The Spor Mountain mine is the largest
+producer of beryllium in the world, accounting for approximately 63% of the world’s production
+in 2020. The proven and probable reserves at Spor Mountain are estimated to be enough to
+maintain mining at current production levels for another 75 years. Beryllium is an essential
+component in aerospace and defense applications due to being lightweight but able to withstand
+significant temperature variations and mechanical distortion. It is also an important component
+for automotive and consumer electronics, telecommunications infrastructure and energy
+applications.
+Gold and Silver. Most of Utah’s gold and silver are produced from the Bingham Canyon mine.
+However, lesser amounts of both metals are currently also produced at the Kiewit (Tooele
+County) and Trixie (Juab County) mines. Utah produced 175,043 troy ounces of gold in 2020
+valued at $310 million. Utah produced 2.2 million troy ounces of silver in 2020 valued at $44
+million.
+
+10
+
+OGM records as of 8/19/2021.
+
+Molybdenum. Molybdenum is produced in Utah exclusively from the Bingham Canyon mine.
+Bingham produced 45,000,000 lbs (22,490 tons) of molybdenum in 2020 valued at $408 million.
+Molybdenite, the ore mineral of molybdenum, is not refined at Bingham Canyon. The
+molybdenite is concentrated, dried, and shipped to other refineries in Arizona and Mexico.
+Molybdenum is primarily used in alloys, particularly stainless steel alloys widely used in the
+petroleum industry.
+Iron. Utah intermittently produces iron from the Iron Springs district in Iron County and recently
+resumed production following a shutdown in 2014. The Iron Springs district has historically been
+the largest iron producer in the western U.S. Iron mineralization at the Black Iron open-pit mine,
+which restarted operations in 2020, occurs as massive magnetite skarn/replacement deposits
+adjacent to Miocene monzonite laccoliths.
+Industrial Minerals
+Potash. Utah is one of only two potash-producing states in the country, and three locations in
+Utah produce potash. Compass Minerals in Ogden produces potassium sulfate from Great Salt
+Lake brine, Intrepid Potash-Wendover produces potassium chloride from shallow subsurface
+brines in the Great Salt Lake Desert, and Intrepid Potash-Moab produces potassium chloride
+from a solution mine targeting deep, subsurface evaporites of the Pennsylvanian-age Paradox
+Formation. Potash production in Utah totaled 461,000 short tons in 2020 having a value of $227
+million. Uniquely, Utah produces two types of potash: potassium sulfate and potassium chloride.
+Potassium sulfate has a significantly higher (+$376 per ton in 2020) market value than potassium
+chloride. As previously noted, Utah is the sole domestic producer of potassium sulfate. The
+primary use of both types of potash is fertilizer; however, potash is also used in the production of
+soap, glass, ceramics and batteries and is a component in drilling mud used in the oil and gas
+industry.
+Sand and Gravel, Crushed Stone, and Dimension Stone. Sand and gravel, crushed stone, and
+dimension stone are produced by many private, county, state, and federal entities across the state.
+These commodities are produced from several types of unconsolidated deposits. Sand and gravel
+and crushed stone, known generically as construction aggregate, are widely used for concrete
+aggregate, road construction, asphalt aggregate, fill, and for other construction uses. During
+2020, approximately 40 million short tons of sand and gravel was produced in Utah, worth an
+estimated $309 million, and about 14 million short tons of crushed stone was produced, worth
+$105 million.11 Several thousand tons of dimension stone were also produced. A strong
+construction market in Utah, particularly in the residential sector, has kept construction aggregate
+demand relatively high for the past several years.
+Salt. Utah has extensive salt resources in a variety of areas. Salt produced in Utah is used for a
+variety of purposes including road deicing, water treatment, and agricultural and industrial
+applications. One operation in central Utah, Redmond Minerals, also produces food-grade salt
+from their underground operation. Utah salt production in 2020 amounted to approximately 3.3
+million short tons and had a production value estimated at $207 million. About 76% of the salt
+11
+
+U.S. Geological Survey (2021)
+(https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/atoms/files/mis-2020q4-conagg.pdf).
+
+was produced from Great Salt Lake brine by three operators that use evaporation ponds for
+production: Compass Minerals Ogden, Cargill Salt, and Morton International. The remaining
+24% came from Redmond Minerals, Intrepid Potash-Moab, Intrepid Potash-Wendover, and
+Willow Creek Salt. Redmond Minerals and Willow Creek Salt use conventional methods to mine
+rock salt and Intrepid uses evaporation ponds to produce salt. Intrepid Potash-Wendover
+primarily extracts salt from shallow subsurface brines and Intrepid Potash-Moab solution mines
+salt from deep subsurface salt beds.
+Portland Cement, Lime, and Limestone. Multiple mining operations in Utah mine limestone
+for purposes beyond construction aggregate to create value-added products such as Portland
+cement and lime. Ash Grove Cement and LafargeHolcim produced about 1.8 million short tons
+of Portland cement in Utah during 2020, having an estimated value of $207 million. Ash Grove
+Cement operates the Leamington quarry and plant east of Leamington in Juab County, whereas
+LafargeHolcim operates the Devils Slide quarry and plant east of Morgan in Morgan County.
+Besides mining limestone for Portland cement, Ash Grove and Holcim also produce small
+amounts of sandstone, clay, and shale, which are lesser feedstock for their cement plants. During
+2020, Graymont Western U.S. was the sole producer of lime in Utah, and they produced
+high-calcium quicklime and dolomitic quicklime from their quarry and plant in the Cricket
+Mountains in Millard County. Lime is used for flue gas desulfurization, steel production, and a
+variety of other construction, chemical, and industrial applications. Limestone is also mined for
+flue-gas desulfurization at coal-fired power plants and “rock dust,” used to coat the walls of coal
+mines to keep coal dust from accumulating.
+Phosphate. Utah is one of four states in the country that produces phosphate rock. Most of the
+phosphate rock mined domestically is used to manufacture phosphoric acids to make ammonium
+phosphate fertilizers and animal feed supplements. Simplot Phosphates is the major phosphate
+producer in Utah, mining the Meade Peak Member of the Permian Phosphoria Formation. Their
+phosphate operation is 12 miles north of Vernal in Uintah County. In 2020, the mine produced
+nearly 3.2 million short tons of ore, yielding about 1.2 million short tons of phosphate
+concentrate after processing. The concentrate is transported in slurry through a 96-mile
+underground pipeline to the Simplot fertilizer plant near Rock Springs, Wyoming. A few
+thousand tons of organically certified phosphate is produced from another mine in Utah County.
+Gilsonite. Gilsonite is a shiny, black, solid hydrocarbon that occurs in a swarm of narrow, but
+laterally and vertically extensive veins in the Uinta Basin. It has been mined since the late 1880s,
+mostly in Utah with some minor production in the Colorado part of the basin. In 2020, American
+Gilsonite Company and Table Rock Minerals, LLC were the only producers of Gilsonite, both
+located in Uintah County. Over the past decade, gilsonite production from the Uinta Basin has
+ranged up to about 85,000 short tons per year, depending on market conditions. Utah is the only
+place in the world that contains large deposits of gilsonite, which has been shipped worldwide
+for use in numerous and diverse products including asphalt paving mixes, coatings, inks, and
+paints.12 The oil and gas industry has also used gilsonite as an additive in drilling fluids.
+Gilsonite helps control fluid loss and seepage, increases wellbore stability, prevents loss of
+circulation, and stabilizes shale.
+12
+
+Boden and Tripp (2012) (https://doi.org/10.34191/ss-141).
+
+Clay and Shale. Clay and shale production (including bentonite, common clay, high-alumina
+clay, and expanded shale) in Utah totaled at least 341,000 short tons in 2020. Clay and shale are
+produced at various small and large mines, commonly on an intermittent basis. Bentonite was
+produced by Western Clay and Redmond Minerals. Uses for bentonite include well drilling and
+foundry operations, various civil engineering applications, and litter-box filler. Some of the
+largest producers of clay and shale products are Utelite (expanded shale), Interstate Brick
+(common clay), Ash Grove Cement (high-alumina clay), and LafargeHolcim (high-alumina
+clay). Common clay is largely used to make bricks, whereas high-alumina clay is most
+commonly used to make Portland cement in Utah. Applied Minerals Inc. intermittently produces
+a small amount of specialty clay (halloysite) and iron oxide from the Dragon mine in the Tintic
+Mountains. Expanded shale in Utah is produced by Utelite at their quarry and plant near Wanship
+in Summit County. Expanded shale is a lightweight aggregate mainly used by the construction
+industry. The material is used in roof tile, concrete block, structural concrete, and horticulture
+additives, as well as for highway construction and geotechnical fill.
+Silica and industrial sand. Silica and industrial sand produced in Utah are used for flux and frac
+sand. Production in Utah during 2020 had an estimated value of about $19 million. On Stansbury
+Island, Bolinder Resources mines quartzite from the Devonian-Mississippian Stansbury
+Formation as a source of industrial silica that is being used as a flux at the Kennecott smelter.
+North of Vernal, Ramsey Hill Exploration produces frac sand from Quaternary unconsolidated
+mixed alluvial and eolian deposits. Frac sand is relatively pure silica sand that is used for
+hydraulic fracturing stimulations in oil and gas wells and Ramsey Hill is supplying this sand for
+local use in the Uinta Basin.
+Gypsum. Utah has significant gypsum resources and gypsum produced in Utah is primarily used
+in raw or crude form by regional cement companies as an additive to retard the setting time of
+cement and by the agriculture industry as a soil conditioner. Lesser amounts of the higher value
+calcined gypsum are used to make wallboards. Four operators reported combined gypsum
+production in Utah of about 553,000 short tons in 2020. The estimated value of 2020 gypsum
+production is $6.6 million. The four Utah gypsum producers were Progressive Contracting, Inc.,
+United States Gypsum Co., Sunroc Corp., and Diamond K Gypsum. Two gypsum wallboard
+plants are located near Sigurd in Sevier County, but only one is currently active.
+Lithium. For the first time in 2020, lithium was produced in Utah by U.S. Magnesium as a
+byproduct. Lithium is concentrated along with magnesium in U.S. Magnesium’s solar
+evaporation ponds and as part of the magnesium refining process, lithium is separated from
+magnesium. U.S. Magnesium has been stockpiling lithium ore from this process for many years.
+Their estimated capacity for lithium production is about 10,000 tons of lithium carbonate per
+year. Lithium is primarily used in batteries, but is also used in ceramics, glass, lubricating grease,
+pharmaceuticals, and other applications. Other potential lithium producing areas in Utah include
+the Paradox Basin, Sevier Lake, and the Great Salt Lake Desert.
+Coal
+(See Energy Resources Section)
+
+Exploration and Development
+Exploration and development activity for mineral resources in Utah remains a steady presence.
+Exploration and development involves locating a potential mineral deposit, acquiring a land
+position, defining the potential mineral resources (which includes mapping, sampling, drilling,
+etc.), economic evaluation, permitting, and other activities. Utah has a long history of exploration
+for metallic resources and exploration is currently taking place in many of Utah’s mining
+districts13 for copper, gold, silver, lead, and zinc. Recent exploration for industrial mineral
+commodities includes fluorspar, lithium, frac sand, potash, pozzolan, phosphate, and others.
+Critical Minerals and Rare Earth Elements
+Critical Minerals. In 2018, the U.S. Geological Survey designated 35 non-fuel minerals or mineral
+groups as critical minerals.14 Critical minerals are defined as those necessary for economic or national
+security and have a supply chain vulnerable to disruption. In 2020, Utah produced eight critical minerals
+(helium, lithium, beryllium, magnesium metal, potash, rhenium, platinum, and palladium).15 Rhenium,
+platinum, and palladium are all produced as byproducts from the Bingham Canyon mine. Helium is
+produced at a gas plant in Lisbon Valley that purifies helium from natural gas streams, some of which are
+from Utah, starting in 2019. The production of lithium, beryllium, magnesium metal, and potash is
+discussed above.
+In addition to the eight produced critical minerals, Utah hosts established resources of six more (fluorspar,
+vanadium, uranium, aluminum, and indium). Ares Strategic Mining is currently developing the Lost
+Sheep fluorspar mine in Juab County, with plans to begin production in 2021. In May 2021, Rio Tinto
+also announced it would build a tellurium recovery plant expected to come online in late 2021 at Bingham
+Canyon. The addition of Lost Sheep fluorspar and Bingham Canyon tellurium brings Utah’s anticipated
+2021 critical mineral production to ten commodities. If the Lost Sheep comes online it will be the major
+fluorspar producer in the United States. Other recent activities in Utah related to critical minerals have
+included exploration for vanadium, indium, helium, lithium, and potash. However, the U.S. Geological
+Survey recently announced that uranium was not evaluated for inclusion on a proposed update to the
+critical minerals list. The U.S. Geological Survey report also indicated that the future status of helium,
+potash, and rhenium as critical minerals is uncertain. Zinc has been recommended as an addition to the
+critical mineral list16 and Utah has historically been the ninth largest zinc producer domestically.
+Rare Earth Elements (REE). Utah’s geology is not conducive to the formation of significant REE
+deposits, as confirmed by historical exploration. Minor modern exploration has re-evaluated previously
+deprioritized targets (e.g., Lake Bonneville beach gravels in Juab County); however, it is unlikely that
+Utah has the potential to become a primary REE producer. Byproduct REE production from existing mine
+tailings, such as the beryllium tailings at Spor Mountain or coal ash stockpiled at coal-fired power plants,
+may be possible and is the subject of current research.
+Products from the mining industry are integral to every Utahns’ lifestyle and standard of living and
+mining supports the foundation of the nation’s economy. From the sand and gravel used to build roads and
+lay foundations for homes and buildings, to coal and uranium (fuel minerals addressed in the Energy
+13
+
+Krahulec (2018) (https://doi.org/10.34191/ofr-695).
+Fortier and others (2018) (https://doi.org/10.3133/ofr20181021).
+15
+Mills and Rupke (2020) provide a detailed summary of critical minerals in Utah (https://doi.org/10.34191/c-129).
+16
+Nassar and Fortier (2021) (https://doi.org/10.3133/ofr20211045).
+14
+
+section) used to generate more than half of the nation’s electricity, to the copper wire that connects
+billions of computers to a global social and commercial network, this country’s economy and way of life
+depend on the vital resources provided by mining. Because of its importance to society, mineral resource
+development in Utah is supported by state policy.
+
+ECONOMIC CONSIDERATIONS17
+The mining industry is an important contributor to Utah’s economy. As previously noted, Utah
+ranked 8th in the U.S. for value of nonfuel (metals and industrial minerals) mineral production in
+2020, and the total value of those commodities produced in 2020 was approximately $3.2 billion.
+The metal and industrial mineral industries paid nearly $66 million in property taxes during 2020
+and over $13 million (in fiscal year 2020) in mining-related severance taxes. All extractive
+industries, including oil and gas, paid nearly $45 million in federal Mineral Lease disbursements
+in FY2020. About 1% of Utah’s gross domestic product came from the mining industry in 2019,
+1.4% if oil and gas are included.18 According to the Utah Department of Workforce Services,
+about $390 million in wages were earned in 2020 by mining employees in Utah.
+
+Goals, Objectives and Policies
+Utah will continue to regulate the exploration and development of minerals in a manner that
+encourages responsible reclamation and development; prevents waste; and protects human health
+and safety, the environment, and the interests of the state and its citizens. The State will advance
+Utah’s mineral development sectors through planning, policy, and engagement with the mining
+industries, the public, and interest stakeholders.
+Products from the mining industry are integral to every Utahns’ lifestyle and standard of living
+and support the foundation of the nation’s economy. From the sand and gravel used to build
+roads and lay foundations for homes and buildings, to coal and uranium used to generate more
+than half of the nation’s electricity, to the copper wire that connects billions of computers to a
+global social and commercial network, this country’s economy and way of life depend on the
+vital resources provided by mining. Because of its importance to society, mineral resource
+development in Utah is supported by state policy. The following statements describe the state’s
+positions on mineral resources and mineral development on state and federal lands within the
+State of Utah.
+Goal
+Promote responsible and sustainable stewardship and development of Utah’s mineral resources.
+Objectives
+● Protect and expand access to significant mineral resources, including critical minerals and
+rare earth elements, for current and future generations of Americans.
+17
+18
+
+This section was contributed by the Utah Geological Survey Energy and Minerals Program.
+Mills and others (2020) (https://doi.org/10.34191/c-130).
+
+● Encourage the mining, transportation, and processing of mineral resources in Utah,
+including critical minerals and rare earth elements.
+● Support the investigating and processing of mine tailings and new mineral resources to
+extract critical minerals and rare earth elements provided that excessive environmental
+damage does not occur.
+● Help ensure that the Utah Geological Survey has adequate funding to investigate and
+make needed data publicly available. This process may include the need to hire additional
+employees to do research, synthesize data, and generate reports.
+Policies
+● The State will oppose land use plans or designations that impede access to mine, produce,
+process, or transport mineral resources.
+● The State will oppose any land use restrictions or designations that could impede access
+to mine, produce, process and transport mineral resources prior to the federal government
+funding and completion of a comprehensive mineral resource assessment for the area
+subject to such restriction or designation.
+● The State supports federal initiatives to reduce the nation’s reliance on imported mineral
+resources.
+● The State supports streamlining and expediting the NEPA compliance, policies, and
+permitting processes so that mineral resources can be accessed, produced, processed, and
+transported in a timely manner..
+● The State supports legislation and policies that facilitate exploration and development of
+the mineral resources in Utah.
+The following are not specific to just critical minerals and rare earth elements, but rather, they
+apply to all mineral resources and mining operations.
+● The State supports responsible mining for mineral resources on lands managed by the
+State, U.S. Bureau of Land Management and the U.S. Forest Service.
+● The State does not support the withdrawal of lands managed by the U.S. Bureau of Land
+Management or the U.S. Forest Service from available mineral extraction unless the
+proposed mineral withdrawal is agreed upon through coordination with the state and
+counties within which the proposed mineral withdrawal is located.
+● The State will engage with federal land management agencies on all mining-related
+projects to promote the responsible mining of mineral resources.
+● The State supports a positive working relationship between the federal land management
+agencies and the Utah Division of Oil, Gas, and Mining to promote responsible mining of
+the mineral resources that support Utah’s economy and quality of life while safeguarding
+Utah’s environment.
+● State agency personnel shall be included as members of interdisciplinary teams
+preparing NEPA documents affecting mineral resources in Utah.
+
+

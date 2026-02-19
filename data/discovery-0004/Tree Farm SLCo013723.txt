@@ -1,0 +1,410 @@
+Haley Sousa (No. 14333)
+Charles A. Lyons (No. 17583)
+Assistant Attorneys General
+Sean D. Reyes (No. 7969)
+Utah Attorney General
+1594 W. North Temple, Suite 300
+Salt Lake City, Utah 84116
+Tel: (801) 538-7227
+Attorneys for Utah Division of Oil, Gas and Mining
+BEFORE THE BOARD OF OIL, GAS AND MINING
+DEPARTMENT OF NATURAL RESOURCES
+STATE OF UTAH
+In the matter of the Request for Agency Action of
+TREE FARM, LLC for a declaratory ruling
+regarding (1) the completeness of Tree Farm’s
+NOI-SMO S/035/0053; and (2) the sufficiency of
+Tree Farm’s proposed reclamation surety.
+
+DIVISION’S RESPONSE IN
+OPPOSITION TO PETITIONER’S
+REQUEST FOR AGENCY ACTION
+Docket No. 2022-002
+Cause No. S/035/0053
+
+The Division of Oil, Gas and Mining (“Division”) respectfully submits this Response in
+Opposition to Tree Farm, LLC’s (“Petitioner”) Request for Agency Action (“RAA”). The
+Division respectfully requests the Board of Oil, Gas and Mining (“Board”) deny Petitioner’s
+RAA for a declaratory ruling because: 1) Petitioner seeks to circumvent the purpose of the Utah
+Mined Land Reclamation Act (the “Act”); 2) the site is subject to a pending Notice of Intention
+to Conduct Large Mining Operations (“Large Mine NOI”) and mining operations may not be
+double permitted both under a Large Mine NOI and a Notice of Intention to Conduct Small
+Mining Operations (“Small Mine NOI”); 3) the Division is necessarily authorized to approve or
+deny Small Mine NOIs; and 4) Petitioner has not submitted a complete Small Mine NOI and its
+proposed reclamation surety is insufficient. The Division requests the Board affirm the
+Division’s decision to deny the Small Mine NOI.
+
+1
+
+I.
+
+Background and Procedural History
+On November 12, 2021, Petitioner submitted both a Small Mine NOI (Petitioner’s
+
+Exhibit A) and a Large Mine NOI (Division’s Exhibit 1) simultaneously. The Division
+immediately began processing both applications and on November 18, 2021 the Division
+provided a letter to Petitioner identifying several deficiencies in the Small Mine NOI
+(“Deficiency Letter”). See Petitioner’s Exhibit C. The Division identified the same deficiencies
+and many others while reviewing Petitioner’s Large Mine NOI. 1 Because both NOIs contained
+similar or identical deficiencies, and because Petitioner’s intent to commence large mining
+operations is clear, the Division determined it should deny the Small Mine NOI and instead focus
+its attention on the Large Mine NOI in the interest of administrative efficiency and in furtherance
+of the Act’s purposes. Therefore, the Division issued a denial of the Small Mine NOI on
+December 7, 2021. See Petitioner’s Exhibit E. Shortly thereafter, Petitioner filed this RAA.
+II.
+
+Petitioner Seeks to Circumvent Public Participation Requirements in the Act
+While the process for review of Small Mine NOIs and Large Mine NOIs is substantially
+
+similar, there are additional requirements for Large Mine NOIs mandated in the Act.
+Specifically, Large Mine NOIs are subject to a public comment component absent from the
+Small Mine NOI review process. Utah Code Ann. § 40-8-13(6)(b). By submitting a Large Mine
+NOI on the same day as a Small Mine NOI, Petitioner signaled clear intent to pursue large
+mining operations. Petitioner is effectively asking the Division to allow it to circumvent the
+public process required by the Act and to allow it to immediately begin disturbing the land under
+the Small Mine NOI, despite the possibility that Petitioner may not ultimately be allowed to mine
+
+The Division completed its first review of the Large Mine NOI on December 15, 2021, identifying 94 deficiencies,
+available at https://fs.ogm.utah.gov/FILES/MINERALS/PERMITS/035/M0350054/2021/Outgoing/12152021.pdf
+
+1
+
+2
+
+under a Large Mine NOI. 2 It appears the area sought to be permitted under the Small Mine NOI
+will primarily be used for facilities rather than active mining. If the Division issues a Small
+Mine NOI and allows Petitioner to disturb ground, but Petitioner is later unable to mine under a
+Large Mine NOI, the Division would be left overseeing reclamation of an area never actually
+subject to mining, in conflict with the intent of the Act.
+Inter-agency coordination is required by the Act regardless of whether an operator is
+seeking a Small Mine NOI or a Large Mine NOI. Utah Code Ann. § 40-8-22. The Division has
+identified several federal, state and local stakeholders that either will be required to issue permits
+to Petitioner or who may wish to engage in the public comment period. 3 Indeed, the Division
+has already been contacted by officials with the Department of Environmental Quality to engage
+in pre-design meetings as part of the inter-agency coordination requirements.
+In the interest of administrative efficiency and the desire not to duplicate efforts of
+multiple regulatory entities, the Division determined it should focus its efforts entirely on the
+Large Mine NOI, allowing for full public participation and inter-agency coordination prior to any
+land disturbance, as required by the Act. Proceeding with the Small Mine NOI prior to
+completing the review process for the Large Mine NOI would circumvent the legislature’s
+requirement for public participation in the Large Mine NOI process.
+III.
+
+Double Permitting of Sites is Not Authorized
+The Division has historically and consistently refused to double permit sites, whether it is
+
+two operators requesting distinct permits for a single site or whether it is a single operator
+
+Petitioner will need several permits in order to mine under the Large Mine NOI, including but not limited to, water
+discharge permits, a fugitive dust permit, a storage tank permit, a conditional use permit, possibly a takings permit,
+among others. The denial of any one of these permits would preclude Petitioner from mining.
+3
+Specifically, the Division identified at least three divisions within the Department of Environmental Quality, Salt
+Lake County, the United States Fish and Wildlife Service, MSHA, and UDOT at the very least. There may be
+others that the Division has not identified.
+2
+
+3
+
+requesting two permits for a single site. This policy is necessary to meet the purpose of the Act
+to ensure that all mining in the state results in “reclamation of the land affected.” Utah Code
+Ann. § 40-8-3. The Act defines “reclamation” as “actions performed during or after mining
+operations to shape, stabilize, revegetate, or treat the land affected in order to achieve a safe,
+stable, ecological condition and use which will be consistent with local environmental
+conditions.” Utah Code Ann. § 40-8-4(28). If a parcel is subject to multiple permits, it
+unnecessarily complicates determining appropriate bonding amounts for the affected area within
+each permit and precludes the Division from releasing surety to an operator who has ceased
+mining if the land affected is covered under a different active permit.
+The Act provides the Board with authority to revoke a permit and require mining
+operations within the permit area to cease. Utah Code Ann. § 40-8-16. However, if a permit area
+is subject to more than one permit, it is impossible to require operations to cease on one permit
+without ordering cessation on another permit that may be in full compliance with the Act –
+something the Act does not authorize the Division to do. As such, the Division has always
+interpreted the Act as allowing for a single permit for a single site. Allowing a site to be subject
+to multiple permits frustrates the purpose of the Act and makes administration of the Act likely
+impossible. Because Petitioner’s intent to engage in large mining operations is clear, the
+Division should only process the Large Mine NOI.
+IV.
+
+The Division Has the Authority to Refuse Approval of Small Mine NOIs
+Petitioner states the Division does not have the authority to deny a Small Mine NOI.
+
+Instead, Petitioner claims the Division only has authority to approve the form and amount of the
+surety. While the Division concedes that the statutory references relied on by Petitioner do
+suggest that the Division doesn’t have authority to deny a Small Mine NOI, the Division
+
+4
+
+nonetheless rejects this interpretation and requests the Board do the same. Reading the statute as
+Petitioner suggests would lead to the absurd result that the Division does not have any
+jurisdiction to regulate small mines in the state of Utah. Yet legislative intent clearly
+demonstrates the legislature expects the Division to enforce the Act on small mine operations.
+a. Absurdity Doctrine
+It is commonly noted that if the meaning of a statute can be determined by its plain
+language, then no other statutory interpretive tools are necessary. LPI Servs. V. McGee, 215
+P.3d 135, 139 (Utah 2009). However, the Utah Supreme Court has noted if the plain language
+leads to absurd results, it is permissible to “read a statute contrary to its plain meaning.” Bagley
+v. Bagley, 387 P.3d 1000, 1010 (Utah 2016). While this absurdity doctrine is a “narrow and
+exacting standard,” it is appropriate here because “the operation of the plain language is so
+overwhelmingly absurd that no rational legislator could have intended the statute to operate in
+such a manner.” Id.
+The absurdity doctrine “reforms unambiguous statutory language where that language
+would lead to an absurd result.” 4 Id. at 1009. When unambiguous language leads to an absurd
+result, the doctrine instructs to “first consult the express purpose of the statute or, absent a
+statement of statutory purpose, legislative history to ensure that an absurd result was not intended
+by the legislature before we apply the doctrine to reform a statute.” Id. at 1010.
+In Garfield County v. United States, the Utah Supreme Court employed the absurdity
+doctrine to “reform” a statute to allow the text to be interpreted as a statute of limitation even
+though the plain language of the statute designated a statute of repose. Garfield, 424 P.3d 46
+
+There are actually two interpretive tools related to absurdity that are often confused. The absurd consequences
+canon resolves ambiguity by choosing an interpretation that avoids an absurd result. This is different than the
+absurdity doctrine, which is applied where unambiguous statutory language leads to an absurd result.
+
+4
+
+5
+
+(Utah 2017). The Court did so because if the plain language statute of repose was applied in
+R.S. 2477 cases, it would lead to the absurd result that “cut off the State’s ability to protect rights
+of way that accrued since 1866-despite the fact that no mechanism to defend such property
+interests had been created judicially or legislatively until 1972.” Id. at 58. The Utah Supreme
+Court noted that if the plain language were instead reformed to be interpreted as a statute of
+limitation, then the State would be able to defend its property interests and proceed with its
+cases.
+b. Legislative Intent
+The express purpose of the Act clearly shows legislative intent to allow the Division to
+enforce the Act on small mine operations. Utah Code Ann. § 40-8-3 states “the purpose of this
+act is to provide that . . . all mining in the state shall include plans for reclamation of the land”
+(emphasis added). Additionally, the “objectives” of the act are to 1) return the land to a stable
+condition capable of supporting future use; 2) minimize on and off-site environmental
+degradation; and 3) to minimize or prevent harm to the public safety or welfare. See Utah Code
+Ann. § 40-8-12. In order to ensure all mines are reclaimed and that all mining activity is
+conducted so as to reduce or prevent harm to the public, it is necessary for the Division to have
+inspection and enforcement authority over all mines in the state of Utah, including small mines.
+If the Board adopts the interpretation put forward by Petitioner, it leads to the absurd
+result that the Board and Division have little or no jurisdiction over small mines. Many statutory
+provisions contained in the Act are only applicable only to “approved” NOIs and if the Division
+doesn’t have the ability to “approve” Small Mine NOIs, then the Division and the Board lack
+enforcement jurisdiction with respect to small mines.
+
+6
+
+Specifically, Petitioner’s interpretation means the Division lacks the authority to enter a
+small mine to inspect it (Utah Code Ann. § 40-8-17(2)); 5 the Board and Division lack the
+authority to require small mine operators to post bond (Utah Code Ann. § 40-8-14(1)(a) 6 and §
+10-8-16(2)(b)); 7 the Board lacks the authority to require small mine operators to reclaim sites
+they may have either abandoned or expanded beyond the original NOI (Utah Code Ann. § 40-816(2)(a), (c)); 8 the Board or Division lack the authority to require small mine operators to amend
+or revise their NOI in the event their mining operations change over time, even if the small mine
+operator increases its footprint from one acre to twenty (Utah Code Ann. § 40-8-18(1)(a)); 9 the
+Division lacks the authority to require notification of commencement of operations or annual
+reporting (Utah Code Ann. § 40-8-15). 10
+Petitioner’s interpretation also has negative consequences for small mine operators
+because Petitioner’s interpretation means that small mine operators don’t have the ability to
+transfer their permits to other small mine operators without first fully reclaiming the site (Utah
+
+“As a condition of consideration and approval of a notice of intention, each applicant or operator . . . shall permit
+members of the board, the division . . . at all reasonable times, to enter the affected land . . . to make inspections.”
+6
+“After receiving notification that a notice of intention for mining operations has been approved, but prior to
+commencement of those operations, the operator shall provide surety to the division.”
+7
+“Approval may be withdrawn in the event that the operator fails to provide and maintain surety as may be required
+under this chapter.”
+8
+“(a) Approval may be withdrawn in the event that the operator substantially fails to perform reclamation or
+conduct mining operations so that the approved reclamation plan can be accomplished” and “(c) Approval may be
+withdrawn in the event that mining operations are continuously shut down.”
+9
+“Since mining operations and related reclamation plans may need to be revised to accommodate changing
+conditions or new technology, an operator conducting mining operations under an approved notice of intention
+shall submit to the division a notice of intention when revising mining operations.”
+10
+“(1) Within 30 days after commencement of mining operations under an approved notice of intention, the
+operator shall give notice of such commencement to the division. (2) At the end of each calendar year, unless
+waived by the division, each operator conducting mining operations under an approved notice of intention shall file
+an operations and progress report with the division on a form prescribed in the rules promulgated by the board.”
+5
+
+7
+
+Code Ann. § 40-8-19). 11 Similarly, under Petitioner’s interpretation, small mine operators are
+not entitled to a permit that is valid for the life of the mine (Utah Code Ann. § 40-8-16(1)). 12
+Because each of the statutory provisions above are only applicable to “approved” NOIs,
+e.g. the Board may withdraw “approval” of an NOI when the operator fails to maintain adequate
+surety, the inability of the Division to “approve” Small Mine NOIs leads to the absurd result that
+the Division and the Board effectively lack substantial jurisdiction with respect to small mines.
+This interpretation also erodes the rights of small mine operators because only “approved” NOIs
+may be transferred, and the Division is only required to issue permits for the life of the mine to
+“approved” NOIs. Petitioner’s interpretation not only harms the Division’s administration of the
+Act, but also harms the rights of small mine operators.
+c. Legislative History
+Although the statutory purpose and objectives are clear that the Division must have full
+authority over small mines, there is also enlightening legislative history relevant to this case.
+The Act was first passed in 1975. At that time, the statute did not differentiate between small
+and large mines, although it did include an exemption for some mining operations. 13 The
+distinction between large and small mines was not created until an amendment in 1986, which
+added a definition for small mines and eliminated the exemption for some mining operations
+created under the 1975 Act. Then in 1987, the legislature again amended the statute to include
+the language Petitioner relies upon wherein it seemingly exempts small mine operators from
+receiving approval of their NOIs. If the intent of the legislature was to exempt small mines from
+
+“Whenever an operator succeeds to the interest of another operator who holds an approved notice of intention or
+revision covering a mining operation, by sale, assignment, lease, or other means, the division may release the first
+operator from his responsibilities under his approved notice of intention.”
+12
+“An approved notice of intention or approved revision of it remains valid for the life of the mining operation.”
+13
+The threshold to be exempt from compliance with the Mined Land Reclamation Act was production of less than
+500 tons of material per year or less than two acres was used in a 12 consecutive month period.
+11
+
+8
+
+regulation, it would have done so in 1986 and 1987. Additionally, there have been several
+amendments since, including two in 2020 that altered the definition of “small mining operation.”
+The legislature could have again exempted small mines from all regulation in 2020 had they
+honestly intended small mines to be exempted from regulation.
+d. Reformed Language Conforms with Legislative Intent and Legislative History
+Provisions in the Act, when read together, produce results consistent with legislative
+intent to regulate small mines that do not lead to absurd results. Specifically, the Division has
+authority to deny a Small Mine NOI so long as the operator is given an opportunity for a hearing
+with the Board, which is happening here. Utah Code Ann. § 40-8-16 states:
+Approval of a notice of intention may not be refused, withheld, nor withdrawn by the
+division until the operator, who holds or has applied for such approval, has had an
+opportunity to request a hearing before the board, present evidence, cross-examine, and
+participate fully in the proceedings. Based on the record of the hearing, the board will
+issue an order concerning the refusal, withholding, or withdrawal of the notice of
+intention. If no hearing is requested, the division may refuse, withhold, or withdraw
+approval of a notice of intention.
+(Emphasis added). This interpretation is supported by Utah Code Ann. § 40-8-13(4)(b) which
+states that upon reviewing a Small Mine NOI, the Division will notify the operator of any
+objections to the notice and either: 1) allow the operator to cure the objections; or 2) allow the
+operator to “obtain a ruling relative to the objections from the board.”
+The Board is able to meet the intent of the legislature without prejudicing small mine
+operators and without leading to the absurd result that the Division and Board lack jurisdiction
+over small mines by reading the Act to allow the Division to deny a Small Mine NOI so long as
+the operator is afforded an opportunity for a hearing with the Board. This is the only
+interpretation that allows the Division to carry on with its statutory enforcement authority while
+still protecting the rights of small mine operators.
+
+9
+
+V.
+
+Petitioner’s Small Mine NOI is Incomplete
+Petitioner is not entitled to a declaratory ruling that its Small Mine NOI is complete
+
+because the Division’s initial review of the Small Mine NOI indicated it was incomplete.
+Petitioner posits that because the Division’s Deficiency Letter identified some deficiencies, and
+because Petitioner responded to those deficiencies, that it must therefore have a complete Small
+Mine NOI. However, Petitioner fails to recognize that the review process for both Small Mine
+NOIs and Large Mine NOIs is iterative, i.e. the Division and applicant may have several backand-forth communications prior to arriving at a complete NOI.
+In this instance, the Division identified new deficiencies based on Petitioner’s response to
+the Deficiency Letter. Specifically, Petitioner submitted deficient x-ray fluorescence (“XRF”)
+data and must also submit a map showing the location of each XRF data point, the units of each
+element, the latest certificate of calibration, and the methodology used in data collection. Also,
+Petitioner made commitments in its November 24, 2021 letter that need to be incorporated into
+the Small Mine NOI. See Petitioner’s Exhibit C. The Division also identified that Petitioner
+submitted bond unit costs using 2019 figures that must be updated to the current year, a
+deficiency that was not included in the Division’s Deficiency Letter, but that nonetheless must be
+remedied prior to a determination that Petitioner’s Small Mine NOI is complete.
+There may be other deficiencies not yet identified. The deficiencies described above
+were identified prior to the Division ceasing review of the Small Mine NOI and the Division’s
+review of the Small Mine NOI is unfinished. Regardless, the Division’s initial review of
+Petitioner’s Small Mine NOI indicated it is incomplete. Therefore, the Petitioner is not entitled
+to a declaratory ruling that it submitted a complete Small Mine NOI. If the Board agrees with
+
+10
+
+Petitioner that a Small Mine NOI is appropriate in this instance, Petitioner’s Small Mine NOI
+must be remanded to the Division for further review.
+VI.
+
+Conclusion
+The Division respectfully requests the Board uphold the Division’s decision to deny
+
+Petitioner’s Small Mine NOI. First, in submitting its Small Mine NOI at the same time as its
+Large Mine NOI, Petitioner is seeking to circumvent the purpose and intent of the Act. Second,
+the Division is not authorized to double permit a site and Petitioner has clearly shown its
+intention to pursue large mining operations. Therefore, the Division should only issue a single
+Large Mine NOI. Third, the Division necessarily has the authority to approve or deny a Small
+Mine NOI. Otherwise, the Division would lack most, if not all, jurisdiction over small mines in
+the state. Finally, Petitioner has failed to submit a complete Small Mine NOI and has not
+demonstrated the sufficiency of its reclamation surety. In the event the Board agrees with
+Petitioner that a Small Mine NOI is appropriate in this instance, Petitioner’s Small Mine NOI
+must be remanded to the Division for further review.
+Respectfully submitted this 10th day of January, 2022.
+UTAH OFFICE OF THE ATTORNEY GENERAL
+__________________________________
+Haley Sousa
+Charles A. Lyons
+Assistant Attorneys General
+1594 West North Temple, Suite 300
+Salt Lake City, Utah 84116-3154
+Tel: (801) 538-7227
+Email: hsousa@agutah.gov
+calyons@agutah.gov
+Attorneys for the Division of Oil, Gas and Mining
+
+11
+
+CERTIFICATE OF SERVICE
+I hereby certify that, on this 10th day of January, 2022, I caused a true and correct copy of the
+foregoing Division’s Response In Opposition To Petitioner’s Request For Agency Action
+to be sent to the following:
+By email:
+Michael E. Begley
+Assistant Attorney General representing the
+Board of Oil, Gas and Mining
+mbegley@agutah.gov
+
+Scott Baird
+Salt Lake County, Director of Public Works
+scottbaird@slco.org
+
+Stephen E.W. Hale
+Daniel A. Jensen
+Justin P. Matkin
+Kassidy J. Wallin
+Attorney’s representing Tree Farm, LLC
+shale@parrbrown.com
+djensen@parrbrown.com
+jmatkin@parrbrown.com
+kwallin@parrbrown.com
+
+Lupita McClenning, Director of Planning and
+Development
+Greater Salt Lake Municipal Services District
+Greg Baptist, Stormwater Inspection
+Supervisor
+lmcclenning@msd.utah.gov
+gbaptist@msd.utah.gov
+
+Rebecca Hotze
+Roger Kesterson
+United States Forest Service
+rebecca.hotze@usda.gov
+roger.kesterson@usda.gov
+
+Greg Sheehan
+Bureau of Land Management
+blm_ut_so_public_room@blm.gov
+
+Rulon Harper
+c/o Amber Harper
+amber@harpercompaniesinc.com
+By mail:
+Richards Family Partnership c/o Susan Trapp
+2313 E. Creek Rd.
+Cottonwood Hts, UT 84093 (address per
+Petitioner’s Certificate of Service)
+
+__________________________________
+12
+
+Division’s Exhibit 1
+
+13
+
+

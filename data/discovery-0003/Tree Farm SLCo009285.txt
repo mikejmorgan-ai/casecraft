@@ -1,0 +1,9 @@
+Event
+Start Date: 2022-06-22 12:00:00 -0600
+End Date: 2022-06-22 13:00:00 -0600
+Date Created: 2022-06-21 08:54:58 -0600
+Date Modified: 2022-08-27 02:33:05 -0600
+Attendee: Dina Blaes <DBlaes@slco.org>; Kade Moncur <KMoncur@slco.org>; Lisa Hartman
+<LHartman@slco.org>
+
+

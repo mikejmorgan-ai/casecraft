@@ -1,0 +1,50 @@
+Event: Tree Farm Mine
+Start Date: 2021-11-23 13:00:00 -0700
+End Date: 2021-11-23 13:30:00 -0700
+Organizer: Zachary Shaw </O=SALT LAKE COUNTY/OU=SLCO/CN=RECIPIENTS/CN=ZSHAW>
+Class: X-PERSONAL
+Date Created: 2021-11-23 10:57:40 -0700
+Date Modified: 2022-08-08 16:13:13 -0600
+Priority: 5
+DTSTAMP: 2021-11-23 10:57:38 -0700
+Attendee: Melissa Anderson <MAnderson@msd.utah.gov>; Jim Nakamura
+(JNakamura@msd.utah.gov) <JNakamura@msd.utah.gov>
+Alarm: Display the following message 15m before start
+Reminder
+-- Do not delete or change any of the following text. --
+
+When it's time, join your Webex meeting here.
+
+Join meeting
+More ways to join:
+Join from the meeting link
+
+https://slco.webex.com/slco/j.php?MTID=m54d337ecc1956572d2378b2d1fb9b15f
+Join by meeting number
+
+Meeting number (access code): 2498 088 4924
+Meeting password: aDuaitFJ983
+Tap to join from a mobile device (attendees only)
+
++1-213-306-3065,,24980884924## United States Toll (Los Angeles)
++1-602-666-0783,,24980884924## United States Toll (Phoenix)
+Join by phone
+
++1-213-306-3065 United States Toll (Los Angeles)
++1-602-666-0783 United States Toll (Phoenix)
+Global call-in numbers
+
+Join from a video system or application
+
+Dial 24980884924@slco.webex.com
+You can also dial 173.243.2.68 and enter your meeting number.
+
+Join using Microsoft Lync or Microsoft Skype for Business
+
+Dial 24980884924.slco@lync.webex.com
+
+If you are a host, click here to view host information.
+
+Need help? Go to https://help.webex.com
+
+

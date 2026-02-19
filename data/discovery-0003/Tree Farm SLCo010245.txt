@@ -1,0 +1,12 @@
+Event: Accepted: Tree Farm LLC
+Start Date: 2022-02-17 13:00:00 -0700
+End Date: 2022-02-17 14:00:00 -0700
+Location: WebEx
+Class: X-PERSONAL
+Date Created: 2022-02-17 07:26:01 -0700
+Date Modified: 2022-06-23 18:35:24 -0600
+Priority: 5
+DTSTAMP: 2022-02-17 07:25:59 -0700
+Attendee: Catherine Kanter <CKanter@slco.org>
+
+

@@ -1,0 +1,8 @@
+Event
+Start Date: 2022-09-28 12:00:00 -0600
+End Date: 2022-09-28 13:00:00 -0600
+Date Created: 2022-09-16 10:31:15 -0600
+Date Modified: 2022-09-21 11:50:18 -0600
+Attendee: Ralph Chamness <RChamness@slco.org>; Perrin Love <PELove@slco.org>
+
+

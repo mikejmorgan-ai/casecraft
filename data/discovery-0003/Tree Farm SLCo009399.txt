@@ -1,0 +1,26 @@
+Event: FW: Tree Farm/Parleys Canyon Mine Application
+Start Date: 2022-01-14 14:00:00 -0700
+End Date: 2022-01-14 14:30:00 -0700
+Organizer: Catherine Kanter </O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP
+(FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=8BACAE65633146A4A2B7FF8A17C82688-CATHERINE
+K>
+Location: Webex
+Class: X-PERSONAL
+Date Created: 2022-01-14 13:59:01 -0700
+Date Modified: 2022-01-14 13:59:06 -0700
+Priority: 5
+DTSTAMP: 2022-01-12 21:21:22 -0700
+Attendee: Michael Shea <MShea@slco.org>; Justin Stewart <JCStewart@slco.org>; Lisa Hartman
+<LHartman@slco.org>
+Alarm: Display the following message 15m before start
+Reminder
+Folk: I’m running late. Pushing this meeting back to 2:15-2:30. Talk soon. ~ Catherine
+-----Original Appointment----From: Catherine Kanter
+Sent: Wednesday, January 12, 2022 9:21 PM
+To: Catherine Kanter; Michael Shea; Justin Stewart
+Cc: Lisa Hartman
+Subject: Tree Farm/Parleys Canyon Mine Application
+When: Friday, January 14, 2022 2:00 PM-2:30 PM (UTC-07:00) Mountain Time (US & Canada).
+Where: Webex
+
+

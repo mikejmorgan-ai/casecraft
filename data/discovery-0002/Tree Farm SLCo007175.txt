@@ -1,0 +1,12 @@
+Event: Accepted: HOLD: R Caucus/Tree Farm
+Start Date: 2022-03-22 16:30:00 -0600
+End Date: 2022-03-22 17:30:00 -0600
+Location: In person - Council Conference Room
+Class: X-PERSONAL
+Date Created: 2022-03-21 11:05:52 -0600
+Date Modified: 2022-03-21 14:16:51 -0600
+Priority: 5
+DTSTAMP: 2022-03-21 11:05:50 -0600
+Attendee: Lisa Hartman <LHartman@slco.org>
+
+

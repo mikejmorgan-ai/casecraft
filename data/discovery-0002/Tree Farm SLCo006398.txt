@@ -1,0 +1,49 @@
+Event: Tree Farm/Parleys Canyon Mine Application
+Start Date: 2022-01-14 14:15:00 -0700
+End Date: 2022-01-14 14:30:00 -0700
+Organizer: Catherine Kanter <CKanter@slco.org>
+Location: Webex
+Class: X-PERSONAL
+Date Created: 2022-01-14 14:15:53 -0700
+Date Modified: 2022-01-14 17:51:49 -0700
+Priority: 5
+DTSTAMP: 2022-01-14 14:15:49 -0700
+Attendee: Michael Shea <MShea@slco.org>; Justin Stewart <JCStewart@slco.org>; Lisa Hartman
+<LHartman@slco.org>
+
+-- Do not delete or change any of the following text. --
+
+When it's time, join your Webex meeting here.
+
+Join meeting
+More ways to join:
+Join from the meeting link
+
+https://slco.webex.com/slco/j.php?MTID=m4f86e335441e889b19de5a9011e0235a
+Join by meeting number
+
+Meeting number (access code): 2482 713 2366
+Meeting password: 57R7XppPpsy
+Tap to join from a mobile device (attendees only)
+
++1-213-306-3065,,24827132366## United States Toll (Los Angeles)
++1-602-666-0783,,24827132366## United States Toll (Phoenix)
+Join by phone
+
++1-213-306-3065 United States Toll (Los Angeles)
++1-602-666-0783 United States Toll (Phoenix)
+Global call-in numbers
+
+Join from a video system or application
+
+Dial 24827132366@slco.webex.com
+You can also dial 173.243.2.68 and enter your meeting number.
+
+Join using Microsoft Lync or Microsoft Skype for Business
+
+Dial 24827132366.slco@lync.webex.com
+If you are a host, click here to view host information.
+
+Need help? Go to https://help.webex.com
+
+

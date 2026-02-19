@@ -1,0 +1,343 @@
+Stephen E.W. Hale (5285) (shale@parrbrown.com)
+Daniel A. Jensen (5296) (djensen@parrbrown.com)
+Justin P. Matkin (8847) (jmatkin@parrbrown.com)
+Kassidy J. Wallin (14360) (kwallin@parrbrown.com)
+PARR BROWN GEE & LOVELESS, P.C.
+101 South 200 East, Suite 700
+Salt Lake City, UT 84111
+Telephone: (801) 532-7840
+Facsimile: (801) 532-7750
+
+FILED
+FEBRUARY 18 2022
+SECRETARY, BOARD OF
+OIL, GAS & MINING
+
+Attorneys for Tree Farm, LLC
+BEFORE THE BOARD OF OIL, GAS, AND MINING
+DEPARTMENT OF NATURAL RESOURCES
+STATE OF UTAH
+IN THE MATTER OF THE REQUEST FOR
+AGENCY ACTION OF TREE FARM, LLC
+FOR A DECLARATORY RULING
+REGARDING (1) THE COMPLETENESS OF
+TREE FARM’S NOI-SMO S/035/0053; AND
+(2) THE SUFFICIENCY OF TREE FARM’S
+PROPOSED RECLAMATION SURETY
+
+SUR-REPLY TO THE DIVISION’S
+RESPONSE
+Docket No. 2022-002
+Cause No. S/035/0053
+
+Tree Farm, LLC (“Tree Farm”) respectfully submits this sur-reply (“Sur-Reply”) to the
+Division of Oil, Gas and Mining’s (the “Division”) Response to Tree Farm’s Reply.
+I.
+
+The Division’s Interpretation of the Act Ignores Plain Language
+The Mined Land Reclamation Act (the “Act”) says: “An approved notice of intention is
+
+not required for small mining operations.” Utah Code § 40-8-4(3)(b). The Act also says: “Except
+for the form and amount of surety, an approval of a notice of intention for small mining
+operations is not required.” Utah Code § 40-8-13(5). The Division has yet to explain how its
+interpretation recognizes these statutory statements.
+Instead, the Division’s interpretation ignores these statements and imputes an
+interpretation to Tree Farm that Tree Farm has not advanced. Tree Farm’s interpretation would
+1
+
+not deprive the Division of all regulatory authority over small mines, nor would it render
+ineffective all references to an “approved” notice of intention in the Act. Rather, Tree Farm’s
+interpretation is the only interpretation that would make sense of all the language in both the
+statutes and the rules.
+When the Act says that approval is “not required” for a notice of intention for small
+mining operations, it is not a prohibition on the Division’s regulatory authority or a prohibition
+on the Division approving such a notice. The Act is merely signaling that the Board of Oil, Gas
+and Mining (the “Board”) could enact rules (which it did) providing for a regulatory structure
+where an operator’s notice could be determined complete after the passage of time unless the
+Division voiced legitimate objections. The reason for this structure is because a small mine has a
+smaller footprint and less impact, and it is important policy for the State of Utah to encourage
+mining activity in general, and to encourage the expeditious review of small mining operations in
+particular. See Utah Code § 40-8-2.
+To implement the Act, the Board enacted rules with respect to small mines and large
+mines. With respect to small mines, the Board enacted the rules found in R647-3. Those rules are
+consistent with the statute in that they do not require the Division to “approve” a notice of
+intention for small mining operations, but simply give the Division a time frame within which it
+must review the notice and determine if it is “complete” or “incomplete.” See R647-3-101
+(“Within 15 days after receipt of a Notice of Intention, the Division will review the proposal and
+notify the operator in writing . . . [t]hat the notice of intention is complete . . . or . . . [t]hat the
+notice of intention is incomplete.” (emphasis added)). There are three critical takeaways from
+this language.
+
+2
+
+First, by using the mandatory word “will,” the rule requires the Division to review a
+notice that is submitted, and to review the notice for completeness—not “approve” or “deny” the
+notice. This is consistent with the statute, which provides that “the division shall complete its
+review of the notice” after it is submitted. Utah Code § 40-8-13(4)(a). There is no exception or
+caveat to this language. The Division has an obligation, set forth in governing statutes and rules,
+to review every notice of intention that is submitted to the Division, and to review each notice for
+completeness. If the Division has “objections” to the notice, the Division “shall” allow the
+operator an opportunity to address those objections or, as the Division has asserted in this action,
+“obtain a ruling relative to the objections from the board.” Utah Code § 40-8-13(4)(b).
+Second, the rule gives specific time frames for the Division to conduct its review of a
+small mine notice. It has an initial 15 days to review the notice for completeness, then has 10
+working days to respond to the operator’s subsequent responses. Contrary to the Division’s
+assertions that the process is wholly “iterative” (suggesting that the Division has boundless
+ability to identify new deficiencies at any point), the process is only “iterative” with respect to
+the items the Division initially identifies as incomplete. Otherwise, the time frames set forth in
+the statutes and rules would have no purpose.
+Third, the rule specifically explains what should be “approved” or “disapproved”—and it
+is not the notice itself. The only thing the Division “will review and approve or disapprove” is
+“[t]he form and amount of reclamation surety” (and any variances, which are not being requested
+in this matter). R647-3-101(3).
+Thus, the Division has the following obligations when it receives a notice of intention to
+commence small mining operations: (1) review the notice for completeness within 15 days;
+(2) review and respond to any subsequent filings of information within 10 working days; and
+
+3
+
+(3) approve or disapprove of the form and amount of reclamation surety. Those obligations do
+not change or become obsolete if the Division also receives a separately filed notice of intention
+to commence large mining operations, although the Division strains to find that interpretation.
+To rule in the Division’s favor, the Board would have to ignore this plain language found in the
+statutes and rules, and instead agree that an unwritten concept of “double permitting” or
+“administrative efficiency” overrides the clearly expressed will of the legislature and this Board.
+Such a decision would not be supportable under current law. The Division is not entitled to any
+deference with respect to the “denial” because it is an erroneous application of the law. Murray
+v. Utah Labor Comm’n, 2013 UT 38, ¶ 29 (“An administrative grant to administer a statute is not
+to be confused with a grant of discretion to interpret the statute.”).
+II.
+
+Double Permitting
+When the Division first raised the concept of “double permitting,” Tree Farm understood
+
+that argument to be that the Division lacked the ability to process an NOI on ground where
+another NOI was already approved. Indeed, in the Division’s initial response, the Division’s
+concern was that “if a parcel is subject to multiple permits, it unnecessarily complicates
+determining appropriate bonding amounts . . . and precludes the Division from releasing surety
+to an operator who has ceased mining if the land affected is covered under a different active
+permit.” Division Response at 4. Tree Farm responded to this by pointing out that an active small
+mine has not stopped the Division from also processing a large mine notice before, and that Tree
+Farm would stipulate that the NOI-SMO would automatically be replaced upon approval of the
+large mine notice.
+After further briefing, it is clear that the Division’s concern is not that an NOI is
+submitted on ground that has already been approved under another NOI—it is the simultaneous
+
+4
+
+submission of two NOIs at the same time. In fact, the Division admits that if the NOI-SMO was
+submitted without a large mine notice of intention, there would be no problem here. In other
+words, if Tree Farm had only submitted the NOI-SMO, waited for approval, and immediately
+after approval, submitted the large mine notice of intention, the Division would not have raised
+an objection. This is a distinction without a difference. If this is simply a matter of the timing of
+the filing, it finds no support in statute, rule, or case law. Tree Farm has a right under existing
+law to have its notices reviewed.
+Tree Farm’s initial point with pointing to the Coyote Pit was that the Division can, and
+surely does, consider notices of intention on ground that is included within small mining
+operations. That is absolutely true and the Division’s files are full of such instances. See, e.g.,
+Division File Nos. S/035/0045 and M/035/0051 (North Salt Lake); S/005/0003 and M/005/0005
+(BHT Mine). In fact, as has been pointed out in the briefing, R647-3-114 expressly contemplates
+“mine enlargement” and requires an operator to file a notice of intention to commence large
+mining operations if the operator intends to expand beyond 20 acres in an unincorporated area of
+a county. Notably, R647-3-114 does not limit the timing of that filing. Knowing that review for
+large mining operations would take time, Tree Farm filed the large mine notice together with the
+NOI-SMO, but that does not take away Tree Farm’s statutory right to commence small mining
+operations, subject to acreage limitations, while the large mine notice is being reviewed.
+Furthermore, if the Division’s objection is that the small mine notice and the large mine
+notice cover the same ground, and they should not overlap, the Division simply should have
+notified Tree Farm of that objection so that Tree Farm could remedy it. See Utah Code § 40-813(4)(b) (“The division shall notify the operator of any objections to the notice and shall grant
+the operator a reasonable opportunity to take action that may be required to remove the
+
+5
+
+objections.”). Instead, the Division took the unprecedented and unsupported action of “denying”
+the NOI-SMO. If the issue here is that the NOI-SMO and the large mine notice cover some of
+the same acreage, Tree Farm is willing to modify the boundaries of its notices. Unfortunately,
+this would implicate some of the problems the Division first identified with respect to
+determining appropriate bonding amounts and releasing surety, but apparently that method is
+acceptable to the Division and Tree Farm would be willing to move forward in that manner if it
+is the Division’s preference. See Division File Nos. S/035/0040 and M/035/0042 (Beef Hollow)
+(small and large mine permitted simultaneously by same operator immediately adjacent to one
+another and using same stockpile and crusher area).
+The Division argues that the small mine is really just Tree Farm’s attempt to commence a
+large mine without public participation. That is not true. As explained in prior briefing, Tree
+Farm has no intent to disturb any more than 20 acres under its NOI-SMO. Current law allows
+Tree Farm to submit a notice of intention for such operations and have it appropriately reviewed
+by the Division.
+III.
+
+The Time for the Division to Review the NOI-SMO Has Passed
+According to the foregoing statutes and rules, the time frame for the Division to conduct
+
+its review of Tree Farm’s NOI-SMO has passed. And, although the Division suggests that the
+NOI-SMO should come back to the Division so that it can attempt to identify further
+deficiencies, the Division has already pointed to its desired procedure here, which is that Tree
+Farm request a hearing before the Board and have the Board resolve these questions. See
+Division Response to Petitioner’s Reply at 2 (citing Utah Code § 40-8-16). Specifically, what is
+being considered in these proceedings are the objections the Division raised to the NOI-SMO.
+Utah Code § 40-8-13(4)(b) (“The division shall notify the operator of any objections to the
+
+6
+
+notice and shall grant the operator a reasonable opportunity to take action that may be required to
+remove the objections or obtain a ruling relative to the objections from the board.” (emphasis
+added)).
+The objections the Division raised with respect to Tree Farm’s NOI-SMO were: (1) the
+nature, characteristics and the intention of the operator to mine precious metals, specifically
+silver and associated minerals of silver mining; (2) a list of equipment that will be onsite, to
+establish the bond; (3) assurance that other governmental agencies would be consulted; 1 and (4)
+the simultaneous filing of the NOI-SMO with the notice to commence large mining operations
+including the same ground. Tree Farm has responded to each of those inquiries in great detail, as
+shown in this and prior briefing.
+The Division cannot now, well after the initial 15-day review window (or even 30-day
+review window if using the statutory language found in Utah Code § 40-8-13(4)(a)), and well
+after the 10-working-day window to respond to Tree Farm’s responses, attempt to identify brand
+new alleged deficiencies. The Division accepted Tree Farm’s NOI-SMO, accepted the filing fee
+for the NOI-SMO, used all the time it desired to review the NOI-SMO and identify any
+deficiencies, and identified those perceived deficiencies in its letters to Tree Farm. Tree Farm has
+fully responded to those alleged deficiencies. The Division’s position now is that, rather than
+give Tree Farm “a reasonable opportunity to take action that may be required to remove” those
+1
+
+In Tree Farm’s Reply, Tree Farm explained that a conditional use permit from Salt Lake County will not be
+required on this site because Tree Farm holds a vested mining use. The Division’s Response to Tree Farm’s Reply
+clarifies that the Division did not point to County zoning or any other government permit “as a basis for denying the
+Small Mine NOI.” Division Response to Petitioner’s Reply at 9. Accordingly, Tree Farm understands that the
+Division is not withholding approval of the NOI-SMO because of any needed governmental approval. Indeed, as the
+Division recognizes, “the Division’s permit is often the first step and required by an operator as a prerequisite to
+obtaining the later permits.” Id. It is not supportable for the Division to “deny” the NOI-SMO on the basis that there
+may be permits needed for large mining operations; no large mining operations will be conducted under the NOISMO. Further, “Tree Farm understands that the determination of completeness of the NOI-SMO and sufficiency of
+the reclamation surety does not relieve Tree farm from the responsibility to comply with the applicable statutes,
+rules, regulations, and ordinances of all local, state, and federal agencies with jurisdiction over any aspect of the
+mining operations, and Tree Farm does not object to a ruling from the Board and a notice from the Division
+consistent with that responsibility.” Request for Agency Action ¶ 35.
+
+7
+
+alleged deficiencies, Utah Code § 40-8-13(4)(b), the Division may do something that has never
+been done and “deny” the NOI-SMO, and Tree Farm may “obtain a ruling relative to the
+objections from the board.” Id. So, at the Division’s insistence, that is what Tree Farm is doing.
+It would be inappropriate for the Board to remand this to the Division for further review, over
+100 days after the initial submission, and after the Division has clearly indicated in multiple
+writings that this is a decision for the Board to make. Tree Farm has submitted a complete NOI,
+has proposed a sufficient bond amount, 2 and is entitled to a determination of whether that
+submission was complete.
+IV.
+
+Tree Farm Intends to Comply With All Applicable Rules and Regulations
+To be clear, Tree Farm intends to comply with all applicable rules and regulations
+
+pertaining to its small mining operations (and large mining operations, for that matter). Tree
+Farm, again, is not positing that the Division lacks authority over the operations after the NOISMO is determined complete.
+The operator on this site will be Granite Construction, a national company with vast
+experience in mining matters. Granite is aware of the rules and regulations and will comply with
+
+2
+
+As Tree Farm noted in its Reply, if the proposed bond amount provided by Tree Farm is incorrect, Tree Farm is
+willing to supply the correct amount as determined by DOGM. Reply at 15 n.6. Tree Farm notes that “[a]s part of
+the review of the notice of intention, the Division shall determine the required surety amount . . . .” R647-3-111.3.
+The Division should come to the hearing prepared to describe what the required bond amount is. The Division has
+not done so either in its review of the NOI-SMO or in its briefing to date. In the Division’s initial Response filed on
+January 10, the Division noted that “2019 figures” had been used in the calculation but that “deficiency . . . was not
+included in the Division’s Deficiency Letter, but that nonetheless must be remedied prior to a determination that
+Petitioner’s Small Mine NOI is complete.” Response at 10. In its Response to Tree Farm’s Reply filed on February
+10, the Division again stated that “Petitioner pasted 2019 bond calculations from the Coyote Pit into the current
+Small Mine NOI rather than obtain current 2021 figures.” Response to Reply at 8. The Division reasoned that
+“[b]ecause of this, even if the Board were to determine that the Division should not have denied Petitioner’s
+application, the application is nonetheless incomplete and must be remanded to the Division to ensure that Petitioner
+corrects the deficiencies.” Id. at 8-9. Setting aside the fact that these statements are incorrect in view of R647-3-101
+and R647-3-111.3, which require the NOI to be reviewed for completeness and the proposed reclamation surety to
+be approved or disapproved as part of the review of the notice of intention, and disregarding the fact that an NOI is
+not an “application,” the Division must disclose “the required surety amount” if it believes what Tree Farm proposed
+was insufficient. Again, Tree Farm will post the required amount prior to commencement of operations, which will
+satisfy the purposes of the Act to allow mining with proper reclamation assurances.
+
+8
+
+them. In addition, Granite has high safety standards and commits to the highest ethical behavior.
+The site will be appropriately reclaimed. The proper information will be reported to the Division
+during operations and the Division will have regulatory authority over the site. Tree Farm is not
+attempting to circumvent the Division’s authority. Tree Farm is simply asking that the Division
+follow its governing statutes and rules in reviewing the NOI-SMO that was submitted to it, now
+over three months ago.
+
+DATED this 18th day of February, 2022.
+
+PARR BROWN GEE & LOVELESS
+
+Kasssidy JJ.. Wallin
+Kassidy
+Attorneys for
+Att
+f Tree
+T Farm,
+F
+LLC
+
+9
+
+CERTIFICATE AND PROOF OF SERVICE
+I hereby certify that I have, this 18th day of February 2022, I caused a true and correct
+copy of the foregoing Sur-Reply to the Division’s Response to be sent electronically to the
+following:
+By Email:
+Michael E. Begley
+Assistant Attorney General Representing
+the Utah Board of Oil, Gas and Mining
+mbegley@agutah.gov
+
+Lupita McClenning, Director of Planning
+and Development
+Greater Salt Lake Municipal Services Dist.
+Greg Baptist, Stormwater Inspection
+Supervisor
+lmcclenning@msd.utah.gov
+gbaptist@msd.utah.gov
+
+Rebecca Hotze
+Roger Kesterson
+United States Forest Service
+rebecca.hotze@usda.gov
+roger.kesterson@usda.gov
+
+Greg Sheehan
+Bureau of Land Management
+Blm_ut_so_public_room@blm.gov
+
+Janell Eurick Bauer
+Timothy Smith
+Attorneys representing Save our Canyons
+jbauer@joneswlado.com
+tsmith@joneswaldo.com
+
+H. Michael Keller
+Tanner J. Bean
+Attorneys representing City of Millcreek
+mkeller@fabianvancott.com
+tbean@fabianvancott.com
+
+Rulon Harper
+c/o Amber Harper
+amber@harpercompaniesinc.com
+
+Evan S. Strassberg
+Steven J. Joffee
+Attorneys representing Richards Family
+Partnership
+esstrassberg@michaelbest.com
+sjoffee@michaelbest.com
+
+Scott Baird
+Salt Lake County, Director of Public Works
+sbaird@slco.org
+
+E. Russell Vetter
+Attorney representing Salt Lake City Corp.
+rusty.vetter@slcgov.com
+
+/s/ Cindy Allen
+Cindy Allen
+10
+
+
