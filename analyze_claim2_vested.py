@@ -218,6 +218,140 @@ CIM_ONLY_PATTERNS = [
 ]
 
 
+# ── PATTERN → ENGLISH TRANSLATION ──────────────────────────────────────────
+# Maps regex patterns to plain English descriptions so attorneys see
+# human-readable reasoning, NOT code.
+PATTERN_DESCRIPTIONS = {
+    # Statute references
+    r'17[\-\s]*41[\-\s]*501': "References Utah Code 17-41-501 (Vested Mining Use statute)",
+    r'17[\-\s]*41[\-\s]*502': "References Utah Code 17-41-502 (Expansion of Vested Mining Use)",
+    r'17[\-\s]*41[\-\s]*503': "References Utah Code 17-41-503 (Abandonment — written declaration only)",
+    r'17[\-\s]*41[\-\s]*101': "References Utah Code 17-41-101 (Mining definitions)",
+    r'17[\-\s]*41[\-\s]*402': "References Utah Code 17-41-402 (Limits on local regulations)",
+    r'17[\-\s]*41[\-\s]*403': "References Utah Code 17-41-403 (Nuisance protections)",
+    r'17[\-\s]*27a[\-\s]*100[1-5]': "References CIM vested operations statute (county)",
+    r'10[\-\s]*9a[\-\s]*90[1-5]': "References CIM vested operations statute (municipality)",
+    r'17[\-\s]*81[\-\s]*401': "References renumbered Utah Code 17-81-401",
+    r'17[\-\s]*81[\-\s]*402': "References renumbered Utah Code 17-81-402",
+    r'17[\-\s]*81[\-\s]*403': "References renumbered Utah Code 17-81-403",
+    # Statutory defined terms
+    r'vested\s+mining\s+use': "Contains statutory term 'vested mining use'",
+    r'vested\s+mining\s+right': "Contains term 'vested mining right'",
+    r'mine\s+operator': "Contains statutory term 'mine operator'",
+    r'mining\s+protection\s+area': "Contains statutory term 'mining protection area'",
+    r'mining\s+use': "Contains statutory term 'mining use'",
+    r'declaration\s+of\s+vested': "References a declaration of vested mining use",
+    r'notice\s+of\s+vested': "References a notice of vested mining use",
+    # Statutory qualifiers
+    r'owns,?\s+controls,?\s+or\s+manages': "Contains statutory 'owns, controls, or manages' language",
+    r'produced\s+commercial\s+quantities': "References 'produced commercial quantities' (mine operator qualifier)",
+    r'commercial\s+quantities\s+of\s+a\s+mineral\s+deposit': "Contains exact statutory phrase for mine operator qualification",
+    r'as\s+of\s+january\s+1,?\s+200?9': "References the critical date qualifier (January 1, 2009)",
+    r'as\s+of\s+january\s+1,?\s+2019': "References the CIM operations date qualifier (January 1, 2019)",
+    # Statutory rights language
+    r'runs?\s+with\s+the\s+land': "Contains 'runs with the land' — vested right is a property right",
+    r'runs?\s+with\s+and\s+bind': "Contains 'runs with and binds the land'",
+    r'conclusively\s+presumed': "Contains 'conclusively presumed' — irrebuttable presumption standard",
+    r'highest\s+priority\s+use': "Contains 'highest priority use' — statutory use priority",
+    r'written\s+declaration\s+of\s+abandonment': "References 'written declaration of abandonment' — only way to abandon",
+    r'express\s+abandonment': "References 'express abandonment' standard",
+    r'sound\s+mining\s+practices': "Contains 'sound mining practices' — nuisance defense",
+    r'prohibits?,?\s+restricts?,?\s+or\s+otherwise\s+limits?': "Contains statutory trigger language",
+    # Expansion rights
+    r'progress,?\s+extend,?\s+enlarge,?\s+grow,?\s+or\s+expand': "Contains 17-41-502 expansion language",
+    r'expand\s+the\s+vested\s+mining\s+use': "References right to expand vested mining use",
+    r'contiguous\s+and\s+related\s+in\s+mineralization': "Contains expansion criterion language",
+    r'same\s+mineral\s+trend': "References 'same mineral trend' expansion criterion",
+    r'geologic\s+offshoot': "References 'geologic offshoot' expansion criterion",
+    # County knowledge / prior mining
+    r'(exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr)': "Acknowledges existing/prior mining operations",
+    r'(mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before)': "References mining predating current ordinance",
+    r'non[\-\s]?conforming\s+use\s+status': "Acknowledges nonconforming use status",
+    r'legal\s+nonconforming': "References legal nonconforming use",
+    r'(mining|mine)\s+.{0,15}(1890|189\d|190\d|191\d|192\d)': "References historical mining dating to 1890s-1920s",
+    r'portland\s+cement': "References Portland Cement Company (historical mining operator)",
+    # Staff admissions
+    r'staff\s+recommend.*(?:mining|mine|quarr|extract)': "County staff recommendation regarding mining",
+    r'(?:mining|mine|quarr|extract).{0,40}staff\s+recommend': "Staff recommendation about mining operations",
+    r'continue\s+to\s+be\s+a\s+conditional\s+use': "Staff acknowledged mining should continue as conditional use",
+    r'should\s+continue.*conditional\s+use': "Staff recommended continued conditional use for mining",
+    r'such\s+language\s+is\s+not\s+necessary': "Key staff admission: prohibition language 'not necessary'",
+    # County internal
+    r'raised\s+the\s+question.*(?:mining|mineral|extraction)': "County raised questions about mining/extraction",
+    r'notice\s+of\s+intention.*(?:mining|mine|large|small)': "References a Notice of Intention to mine",
+    # Enforcement / Injunction
+    r'cease\s+and\s+desist': "Contains 'cease and desist' — direct enforcement action",
+    r'enforcement\s+action': "References enforcement action",
+    r'(?:stop|shut\s*down|halt)\s+(?:all\s+)?(?:mining|quarr|operation|extract)': "References stopping/shutting down mining operations",
+    r'(?:revoke|revoked|revoking)\s+.{0,30}(?:permit|license|approval)': "References revoking permits/licenses/approvals",
+    r'(?:permit|license|approval)\s+.{0,20}(?:revoke|revoked)': "References permit/license revocation",
+    r'order\s+to\s+(?:stop|cease|halt)': "Contains an order to stop/cease operations",
+    r'cannot\s+(?:legally\s+)?operate': "States Tree Farm cannot legally operate",
+    r'COM21[\-\.]?1590': "References business license application COM21-1590",
+    r'business\s+license\s+(?:denial|denied|deny|reject)': "References business license denial",
+    r'(?:denial|denied|deny|reject)\s+.{0,30}business\s+license': "References denial of business license",
+    r'(?:without|lacks?|no)\s+.{0,20}conditional\s+use\s+permit': "Notes absence of conditional use permit",
+    r'conditional\s+use\s+(?:permit\s+)?.*(?:not\s+available|eliminated|removed|no\s+longer)': "CUP no longer available — administrative trap",
+    r'(?:eliminat|remov)\w+\s+.{0,30}(?:CUP|conditional\s+use)': "References elimination/removal of CUP category",
+    r'(?:cannot|can\s*not)\s+.{0,30}(?:get|obtain|apply)\s+.{0,20}(?:CUP|permit|license)': "States inability to obtain CUP/permit/license",
+    r'(?:irreparable|ongoing|continuing)\s+(?:harm|damage|injury)': "Documents irreparable/ongoing harm",
+    r'(?:harm|damage|injur)\w*\s+.{0,30}(?:tree\s+farm|mining|operation|business)': "Documents harm to Tree Farm/mining operations",
+    # HIGH tier
+    r'large\s+mine\s+permit': "References Large Mine Permit",
+    r'small\s+mine\s+(?:permit|NOI|notice)': "References Small Mine Permit or Notice of Intention",
+    r'notice\s+of\s+intention.*(?:mining|mine|commence)': "References Notice of Intention to commence mining",
+    r'(?:mining|mine)\s+.*(?:notice|NOI)\s+of\s+intention': "References mining Notice of Intention",
+    r'division\s+of\s+oil.*(?:gas|mining)': "References DOGM (Division of Oil, Gas, and Mining)",
+    r'nonconforming|non[\-\s]conforming': "References nonconforming use",
+    r'grandfathered?\s+(?:use|right|mining|operation)': "References grandfathered mining use/right",
+    r'(?:use|right|mining|operation)\s+.*grandfathered': "References grandfathered operations",
+    r'pre[\-\s]?existing\s+(?:use|right|mining|operation)': "References pre-existing mining use/right",
+    r'(?:use|right|mining|operation)\s+.*pre[\-\s]?existing': "References pre-existing operations",
+    r'prior\s+(?:use|right|mining|operation)': "References prior mining use/right",
+    r'tree\s+farm.*(?:mining|mine|quarr|extract|operation)': "References Tree Farm mining operations",
+    r'(?:mining|mine|quarr|extract|operation).*tree\s+farm': "References mining operations at Tree Farm",
+    r'(?:triggered|initiated|prompted|caused)\s+by.*(?:tree\s+farm|notice|application)': "Ordinance was triggered by Tree Farm's actions",
+    r'(?:tree\s+farm|notice|application).*(?:triggered|initiated|prompted|caused)': "Tree Farm's application triggered the ordinance",
+    r'conditional\s+use.*(?:mining|mine|quarr|mineral|extract|gravel|sand)': "Discusses conditional use for mining/extraction",
+    r'(?:mining|mine|quarr|mineral|extract|gravel|sand).*conditional\s+use': "Mining/extraction as conditional use",
+    r'19[\.\-]12[\.\-]030': "References ordinance section 19.12.030",
+    r'(?:eliminate|remove|prohibit).*conditional\s+use': "References elimination/prohibition of conditional use",
+    r'conditional\s+use.*(?:eliminate|remove|prohibit)': "Conditional use eliminated or prohibited",
+    r'(?:mining|mine|quarr)\w*\s+(?:histor|operation|activit)': "References mining history or operations",
+    r'(?:commercial|production)\s+(?:quantities|tons|volume)': "References commercial production quantities",
+    r'(?:90[\s,]*000|725[\s,]*000|386[\s,]*485)\s+tons': "References specific production tonnage figures",
+    r'parleys?\s+canyon.*(?:mining|mine|quarr|aggregate|gravel)': "References mining in Parleys Canyon",
+    r'(?:mining|mine|quarr|aggregate|gravel).*parleys?\s+canyon': "References Parleys Canyon mining",
+    r'(?:aware|know|knew|knowledge).*(?:mining|mine|quarr|operation)': "County awareness of mining operations",
+    r'(?:mining|mine|quarr|operation).*(?:aware|know|knew|knowledge)': "Knowledge of mining operations",
+    r'carrier\s+(?:v\.|vs?\.?|case|decision|ruling)': "References Carrier case/decision",
+    r'(?:court|supreme).*carrier': "References Carrier court ruling",
+    r'2002\s+.*(?:court|decision|ruling|case)': "References 2002 court decision",
+    r'dogm': "References DOGM (Division of Oil, Gas, and Mining)",
+}
+
+
+def _pattern_to_english(pattern):
+    """Convert a regex pattern to a plain English description.
+    Falls back to a cleaned-up version if no translation exists."""
+    if pattern in PATTERN_DESCRIPTIONS:
+        return PATTERN_DESCRIPTIONS[pattern]
+    # Fallback: clean up the regex into something more readable
+    cleaned = pattern
+    cleaned = cleaned.replace(r'\s+', ' ')
+    cleaned = cleaned.replace(r'\b', '')
+    cleaned = cleaned.replace(r'\w*', '')
+    cleaned = cleaned.replace(r'\w+', '')
+    cleaned = cleaned.replace(r'[\-\s]*', '-')
+    cleaned = cleaned.replace(r'[\-\s]', '-')
+    cleaned = cleaned.replace(r'(?:', '(')
+    cleaned = cleaned.replace(r'.{0,', '...')
+    cleaned = re.sub(r'\}', '', cleaned)
+    cleaned = re.sub(r'[\\|()]', ' ', cleaned)
+    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+    return f"Matches pattern: {cleaned}"
+
+
 def read_file(filepath):
     """Read file content, return as string."""
     try:
@@ -293,7 +427,7 @@ def score_document(text):
         return None
 
     if is_cim_only(text_lower):
-        return None
+        return "CIM_EXCLUDED"
 
     critical_hits = []
     high_hits = []
@@ -398,18 +532,18 @@ def score_document(text):
 
     key_quote = best_line[:500] if best_line else ""
 
-    # Reasoning
+    # Reasoning — plain English descriptions, NOT regex code
     reasons = []
     if critical_hits:
-        pats = [p[:60] for p, c in critical_hits[:4]]
-        reasons.append(f"CRITICAL: {', '.join(pats)}")
+        descs = [_pattern_to_english(p) for p, c in critical_hits[:4]]
+        reasons.append(f"CRITICAL evidence: {'; '.join(descs)}")
     if high_hits:
-        pats = [p[:60] for p, c in high_hits[:3]]
-        reasons.append(f"HIGH: {', '.join(pats)}")
+        descs = [_pattern_to_english(p) for p, c in high_hits[:3]]
+        reasons.append(f"HIGH evidence: {'; '.join(descs)}")
     if medium_hits:
-        reasons.append(f"MEDIUM matches: {len(medium_hits)}")
+        reasons.append(f"MEDIUM contextual references: {len(medium_hits)}")
 
-    reasoning = "; ".join(reasons)[:1000]
+    reasoning = ". ".join(reasons)[:1000]
 
     # Key finding detection
     is_sg = False
@@ -571,7 +705,10 @@ def process_all():
         'CRITICAL': 0, 'HIGH': 0, 'MEDIUM': 0, 'LOW': 0,
         'key_findings': 0, 'supports': 0, 'undermines': 0,
         'empty': 0, 'not_relevant': 0, 'duplicates': 0,
+        'cim_excluded': 0,
     }
+    # Document type breakdown — track what kinds of documents are in the repository
+    doc_type_counts = {}
 
     key_findings_list = []
     critical_docs = []
@@ -607,7 +744,18 @@ def process_all():
                 stats['reviewed'] += 1
                 continue
 
+            # Track document type for every document (even if not relevant)
+            dt = classify_doc_type(text.lower(), text)
+            doc_type_counts[dt] = doc_type_counts.get(dt, 0) + 1
+
             result = score_document(text)
+
+            if result == "CIM_EXCLUDED":
+                stats['cim_excluded'] += 1
+                stats['reviewed'] += 1
+                c.execute("DELETE FROM claim_assignments WHERE doc_id=? AND claim_num=2", (doc_id,))
+                c.execute("DELETE FROM smoking_guns WHERE doc_id=? AND claim_num=2", (doc_id,))
+                continue
 
             if result is None:
                 stats['not_relevant'] += 1
@@ -707,10 +855,10 @@ def process_all():
     conn.commit()
     conn.close()
 
-    return stats, key_findings_list, critical_docs, all_relevant, content_hashes
+    return stats, key_findings_list, critical_docs, all_relevant, content_hashes, doc_type_counts
 
 
-def write_results(stats, key_findings, critical_docs, all_relevant, content_hashes):
+def write_results(stats, key_findings, critical_docs, all_relevant, content_hashes, doc_type_counts=None):
     """Write comprehensive deduplicated results to markdown file."""
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
@@ -726,10 +874,36 @@ def write_results(stats, key_findings, critical_docs, all_relevant, content_hash
         f.write(f"**Statutory Language:** VERBATIM phrases searched, not just section numbers.\n\n")
 
         f.write("---\n\n")
-        f.write("## SUMMARY STATISTICS\n\n")
-        f.write(f"| Metric | Count |\n")
-        f.write(f"|--------|-------|\n")
-        f.write(f"| Total documents scanned | {stats['total']} |\n")
+        f.write("## SUMMARY STATISTICS — 100% DOCUMENT COVERAGE\n\n")
+        f.write("### Repository Coverage\n\n")
+        f.write(f"| Metric | Count | % of Total |\n")
+        f.write(f"|--------|-------|------------|\n")
+        f.write(f"| **Total documents in repository** | **{stats['total']}** | **100%** |\n")
+        f.write(f"| Documents analyzed | {stats['reviewed']} | {stats['reviewed']*100//max(stats['total'],1)}% |\n")
+        f.write(f"| CIM-only documents (excluded from results) | {stats['cim_excluded']} | {stats['cim_excluded']*100//max(stats['total'],1)}% |\n")
+        f.write(f"| Empty/trivial documents | {stats['empty']} | {stats['empty']*100//max(stats['total'],1)}% |\n")
+        f.write(f"| Not relevant to this claim | {stats['not_relevant']} | {stats['not_relevant']*100//max(stats['total'],1)}% |\n")
+        accounted = stats['relevant'] + stats['cim_excluded'] + stats['empty'] + stats['not_relevant']
+        f.write(f"| **Total accounted for** | **{accounted}** | **{accounted*100//max(stats['total'],1)}%** |\n\n")
+
+        f.write("> **Note:** CIM (Critical Infrastructure Materials) documents are excluded from\n")
+        f.write("> this claim's analysis because Claim 2 focuses on vested mining rights, not CIM\n")
+        f.write("> preemption. These documents ARE analyzed — they are specifically identified and\n")
+        f.write("> set aside. Every document in the repository is accounted for.\n\n")
+
+        # Document type breakdown
+        if doc_type_counts:
+            f.write("### Document Type Breakdown (All Documents)\n\n")
+            f.write(f"| Document Type | Count | % of Total |\n")
+            f.write(f"|--------------|-------|------------|\n")
+            for dt, count in sorted(doc_type_counts.items(), key=lambda x: -x[1]):
+                pct = count * 100 // max(stats['total'], 1)
+                f.write(f"| {dt} | {count} | {pct}% |\n")
+            f.write(f"\n")
+
+        f.write("### Relevance Results\n\n")
+        f.write(f"| Relevance Tier | Count |\n")
+        f.write(f"|----------------|-------|\n")
         f.write(f"| Relevant to Claim 2 (total) | {stats['relevant']} |\n")
         f.write(f"| **Unique documents (deduplicated)** | **{unique_count}** |\n")
         f.write(f"| Duplicate Bates stamps removed | {stats['duplicates']} |\n")
@@ -739,9 +913,7 @@ def write_results(stats, key_findings, critical_docs, all_relevant, content_hash
         f.write(f"| LOW | {stats['LOW']} |\n")
         f.write(f"| Key Findings (unique) | {len(key_findings)} |\n")
         f.write(f"| Supports our claim | {stats['supports']} |\n")
-        f.write(f"| Undermines our claim | {stats['undermines']} |\n")
-        f.write(f"| Empty/trivial | {stats['empty']} |\n")
-        f.write(f"| Not relevant | {stats['not_relevant']} |\n\n")
+        f.write(f"| Undermines our claim | {stats['undermines']} |\n\n")
 
         # Key findings section — DEDUPLICATED
         f.write("---\n\n")
@@ -834,18 +1006,22 @@ if __name__ == "__main__":
     print(f"Output: {OUTPUT_PATH}")
     print()
 
-    stats, sgs, crits, all_rel, chashes = process_all()
+    stats, sgs, crits, all_rel, chashes, dtcounts = process_all()
 
-    write_results(stats, sgs, crits, all_rel, chashes)
+    write_results(stats, sgs, crits, all_rel, chashes, dtcounts)
 
     # Print summary
     unique_count = len(all_rel)
     print("\n" + "=" * 60)
     print("FINAL RESULTS — CLAIM 2: INJUNCTION + VESTED MINING v2")
     print("=" * 60)
-    print(f"Total documents scanned:    {stats['total']}")
-    print(f"Empty/trivial:              {stats['empty']}")
-    print(f"Not relevant:               {stats['not_relevant']}")
+    print(f"Total documents in repo:    {stats['total']} (100%)")
+    print(f"  Documents analyzed:       {stats['reviewed']} ({stats['reviewed']*100//max(stats['total'],1)}%)")
+    print(f"  CIM-only (excluded):      {stats['cim_excluded']} ({stats['cim_excluded']*100//max(stats['total'],1)}%)")
+    print(f"  Empty/trivial:            {stats['empty']} ({stats['empty']*100//max(stats['total'],1)}%)")
+    print(f"  Not relevant:             {stats['not_relevant']} ({stats['not_relevant']*100//max(stats['total'],1)}%)")
+    accounted = stats['relevant'] + stats['cim_excluded'] + stats['empty'] + stats['not_relevant']
+    print(f"  TOTAL ACCOUNTED:          {accounted} ({accounted*100//max(stats['total'],1)}%)")
     print(f"Relevant (total):           {stats['relevant']}")
     print(f"  CRITICAL:                 {stats['CRITICAL']}")
     print(f"  HIGH:                     {stats['HIGH']}")
@@ -856,6 +1032,10 @@ if __name__ == "__main__":
     print(f"KEY FINDINGS (unique):      {len(sgs)}")
     print(f"DUPLICATE Bates removed:    {stats['duplicates']}")
     print(f"UNIQUE documents:           {unique_count}")
+    if dtcounts:
+        print(f"\nDOCUMENT TYPE BREAKDOWN:")
+        for dt, cnt in sorted(dtcounts.items(), key=lambda x: -x[1]):
+            print(f"  {dt:25s} {cnt:5d} ({cnt*100//max(stats['total'],1)}%)")
 
     if sgs:
         print(f"\n{'='*60}")

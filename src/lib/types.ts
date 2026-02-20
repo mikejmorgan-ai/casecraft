@@ -284,6 +284,20 @@ export interface LegalElement {
   is_required: boolean
 }
 
+// Filter Key Terms Types
+export type FilterType = 'exclude' | 'include'
+
+export interface FilterKeyTerm {
+  id: string
+  case_id: string
+  term: string
+  filter_type: FilterType
+  category: string | null
+  created_by: string
+  created_at: string
+  is_active: boolean
+}
+
 // Retell Voice Call Types
 export type CallStatus = 'registered' | 'ongoing' | 'ended' | 'error'
 
@@ -396,6 +410,11 @@ export interface Database {
         Row: DocumentCategory
         Insert: Omit<DocumentCategory, 'id' | 'created_at'> & { id?: string }
         Update: Partial<Omit<DocumentCategory, 'id' | 'created_at'>>
+      }
+      filter_key_terms: {
+        Row: FilterKeyTerm
+        Insert: Omit<FilterKeyTerm, 'id' | 'created_at'> & { id?: string }
+        Update: Partial<Omit<FilterKeyTerm, 'id' | 'created_at'>>
       }
     }
     Functions: {

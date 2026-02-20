@@ -1,5 +1,5 @@
 # CLAIM 2: INJUNCTION + VESTED MINING — Refocused Discovery Analysis v2
-**Generated:** 2026-02-20 20:33:07
+**Generated:** 2026-02-20 21:23:39
 **Claim 2:** Permanent Injunction + Vested Mining Rights
 **Strategy:** CIM EXCLUDED. Pure vested mining focus.
 **Deduplication:** ON — same document with different Bates stamps consolidated.
@@ -7,11 +7,43 @@
 
 ---
 
-## SUMMARY STATISTICS
+## SUMMARY STATISTICS — 100% DOCUMENT COVERAGE
 
-| Metric | Count |
-|--------|-------|
-| Total documents scanned | 5576 |
+### Repository Coverage
+
+| Metric | Count | % of Total |
+|--------|-------|------------|
+| **Total documents in repository** | **5576** | **100%** |
+| Documents analyzed | 5576 | 100% |
+| CIM-only documents (excluded from results) | 0 | 0% |
+| Empty/trivial documents | 126 | 2% |
+| Not relevant to this claim | 2111 | 37% |
+| **Total accounted for** | **5576** | **100%** |
+
+> **Note:** CIM (Critical Infrastructure Materials) documents are excluded from
+> this claim's analysis because Claim 2 focuses on vested mining rights, not CIM
+> preemption. These documents ARE analyzed — they are specifically identified and
+> set aside. Every document in the repository is accounted for.
+
+### Document Type Breakdown (All Documents)
+
+| Document Type | Count | % of Total |
+|--------------|-------|------------|
+| email | 3115 | 55% |
+| calendar_entry | 1153 | 20% |
+| document | 944 | 16% |
+| ordinance | 106 | 1% |
+| public_comment | 101 | 1% |
+| staff_report | 15 | 0% |
+| declaration | 5 | 0% |
+| agenda | 5 | 0% |
+| memo | 3 | 0% |
+| deposition | 3 | 0% |
+
+### Relevance Results
+
+| Relevance Tier | Count |
+|----------------|-------|
 | Relevant to Claim 2 (total) | 3339 |
 | **Unique documents (deduplicated)** | **2313** |
 | Duplicate Bates stamps removed | 1026 |
@@ -22,8 +54,6 @@
 | Key Findings (unique) | 8 |
 | Supports our claim | 3334 |
 | Undermines our claim | 5 |
-| Empty/trivial | 126 |
-| Not relevant | 2111 |
 
 ---
 
@@ -106,269 +136,269 @@
 - **Also appears as:** SLCo008008, SLCo012806
 - **SUPPORTS** | Date: November 18, 2021 | Type: email
 - **Element:** A-Prior-Use|C-Reliance
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), division\s+of\s+oil.*(?:gas|mining), tree\s+farm.*(?:mining|mine|quarr|extract|
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References DOGM (Division of Oil, Gas, and Mining); References Tree Farm 
 - **Quote:** "Initial Review Notice of Intention to Commence Small Mining Operations, Tree"
 
 ### SLCo002501
 - **Also appears as:** SLCo008382, SLCo012814, SLCo013323
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|B-Investment|D-Destruction
-- **Reasoning:** CRITICAL: 17[\-\s]*41[\-\s]*101, 17[\-\s]*41[\-\s]*402, 17[\-\s]*41[\-\s]*403, 17[\-\s]*27a[\-\s]*100[1-5]; HIGH: large\s+mine\s+permit, division\s+of\s+oil.*(?:gas|mining), nonconforming|non[\-\s]con
+- **Reasoning:** CRITICAL evidence: References Utah Code 17-41-101 (Mining definitions); References Utah Code 17-41-402 (Limits on local regulations); References Utah Code 17-41-403 (Nuisance protections); References 
 - **Quote:** "(b) has produced commercial quantities of a mineral deposit from the mining use."
 
 ### SLCo002586
 - **Also appears as:** SLCo002588, SLCo002590, SLCo002592, SLCo003229, SLCo003231, SLCo008535, SLCo008539, SLCo008541, SLCo013396, SLCo013398
 - **SUPPORTS** | Date: December 7, 2021 | Type: email
 - **Element:** B-Investment
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:notice|NOI)\s+of\s+intention, division\s+of\s+oil.*(?:ga
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice of Intention; References DOGM (Division of Oil, 
 - **Quote:** "Denial of Notice of Intention to Commence Small Mining Operations, Tree Farm"
 
 ### SLCo002617
 - **Also appears as:** SLCo003785, SLCo004013, SLCo004988, SLCo005396, SLCo007131, SLCo007274, SLCo007333, SLCo008424, SLCo008466, SLCo008470, SLCo008474, SLCo008479, SLCo008483, SLCo010418, SLCo010561, SLCo010574, SLCo011761, SLCo012168, SLCo013369, SLCo013421, SLCo013425, SLCo015611, SLCo015716, SLCo016366, SLCo016774, SLCo017811, SLCo018219, SLCo018528
 - **SUPPORTS** | Date: November 29, 2021 | Type: email
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr|extract|operation).*tree\s+farm, (?:mining|mine|quarr
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References Tree Farm mining operations; References mining operations at Tree Farm; References mining history or operati
 - **Quote:** "RE: TREE FARM, LLC NOTICE OF INTENT TO COMMENCE LARGE MINE OPERATIONS"
 
 ### SLCo002687
 - **Also appears as:** SLCo003244, SLCo003307, SLCo008620, SLCo008678, SLCo008732, SLCo008788, SLCo008842, SLCo009002, SLCo013526, SLCo013580
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|B-Investment|C-Reliance
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: small\s+mine\s+(?:permit|NOI|notice), notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:notice|NOI)\s+of\s
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Small Mine Permit or Notice of Intention; References Notice of Intention to commence mining; References mining No
 - **Quote:** "Denial of Notice of Intention to Commence Small Mining Operations, Tree Farm"
 
 ### SLCo002788
 - **Also appears as:** SLCo003370, SLCo006351, SLCo009079, SLCo009082, SLCo012891, SLCo013715, SLCo013718
 - **SUPPORTS** | Date: January 07, 2022 | Type: document
 - **Element:** A-Prior-Use
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr)\w*\
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References Tree Farm mining operations; References mining history or oper
 - **Quote:** "issue a declaratory ruling regarding: 1. The completeness of Tree Farm's Notice of Intention to Commence Small Mining Operations,"
 
 ### SLCo002795
 - **Also appears as:** SLCo003392, SLCo006381, SLCo009141, SLCo012898, SLCo013738
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|B-Investment|E-Knowledge
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: large\s+mine\s+permit, tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr)\w*\s+(?:histor|operation|acti
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References Large Mine Permit; References Tree Farm mining operations; References mining history or operations. MEDIUM c
 - **Quote:** "the proposed "Tree Farm" quarry operation with full awareness of the danger that the large operation"
 
 ### SLCo002801
 - **Also appears as:** SLCo003398, SLCo006387, SLCo009149, SLCo012905, SLCo013744
 - **SUPPORTS** | Date: Mon, Jan 10, 2022 at 6:56 PM | Type: email
 - **Element:** A-Prior-Use
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr|aggregate|gravel).*parleys?\s+canyon
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References Tree Farm mining operations; References Parleys Canyon mining
 - **Quote:** "I am writing to urge you to deny approval of the Tree Farm Mine in Parleys Canyon. There are many"
 
 ### SLCo003120
 - **Also appears as:** SLCo007234, SLCo007289, SLCo010680, SLCo010785, SLCo013098, SLCo013111, SLCo013126, SLCo015378
 - **SUPPORTS** | Date: December 10, 2021 | Type: ordinance
 - **Element:** A-Prior-Use|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: legal\s+nonconforming, continue\s+to\s+be\s+a\s+conditional\s+use; HIGH: division\s+of\s+oil.*(?:gas|mining), nonconforming|non[\-\s]conforming, 19[\.\-]12[\.\-]030; MEDIUM matches: 5
+- **Reasoning:** CRITICAL evidence: References legal nonconforming use; Staff acknowledged mining should continue as conditional use. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References nonco
 - **Quote:** " Recent Notices of Intention to begin mining operations with the"
 
 ### SLCo003142
 - **Also appears as:** SLCo003193, SLCo003641, SLCo003738, SLCo007478, SLCo011065, SLCo013153, SLCo013169, SLCo013182, SLCo013198, SLCo013212, SLCo013282, SLCo015449, SLCo015463, SLCo015477, SLCo015568
 - **SUPPORTS** | Date: February 24, 2022 | Type: document
 - **Element:** A-Prior-Use|E-Knowledge
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: (?:aware|know|knew|knowledge).*(?:mining|mine|quarr|operatio, (?:mining|mine|quarr|operation).*(?:aware|know|knew|knowledg
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: County awareness of mining operations; Knowledge of mining operations
 - **Quote:** "supply of these key minerals.”1 Utah had known sources of 28 of the 35 critical minerals and"
 
 ### SLCo003143
 - **Also appears as:** SLCo003194, SLCo003642, SLCo003739, SLCo007479, SLCo011066, SLCo013156, SLCo013170, SLCo013185, SLCo013199, SLCo013213, SLCo013283, SLCo015450, SLCo015464, SLCo015478, SLCo015569
 - **SUPPORTS** | Date: None | Type: document
 - **Element:** A-Prior-Use|B-Investment|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr), (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before), portland\s+cement; HIGH: division\s+of\s+oil.*(?:gas|mining), (?:mining|
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations; References mining predating current ordinance; References Portland Cement Company (historical mining operator). HIGH evidence: Referen
 - **Quote:** "Portland Cement, Lime, and Limestone. Multiple mining operations in Utah mine limestone"
 
 ### SLCo003162
 - **SUPPORTS** | Date: April 6, 2022 | Type: email
 - **Element:** B-Investment
-- **Reasoning:** CRITICAL: 17[\-\s]*41[\-\s]*402; HIGH: (?:mining|mine|quarr|extract|operation).*tree\s+farm; MEDIUM matches: 3
+- **Reasoning:** CRITICAL evidence: References Utah Code 17-41-402 (Limits on local regulations). HIGH evidence: References mining operations at Tree Farm. MEDIUM contextual references: 3
 - **Quote:** "contrary to Utah Code 17-41-402(6). This law prohibits adopting or initiating proceedings to adopt any ordinance that would prohibit"
 
 ### SLCo003164
 - **Also appears as:** SLCo003684, SLCo003685, SLCo003686, SLCo003687, SLCo003692, SLCo003693, SLCo007444, SLCo007449, SLCo007457, SLCo011005, SLCo011014, SLCo015521, SLCo015522, SLCo015523, SLCo015524, SLCo015529, SLCo015530, SLCo015544, SLCo015547, SLCo015550, SLCo018475, SLCo018476
 - **SUPPORTS** | Date: April 5, 2022 | Type: calendar_entry
 - **Element:** B-Investment|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: 17[\-\s]*41[\-\s]*402, 10[\-\s]*9a[\-\s]*90[1-5]; HIGH: (?:mining|mine|quarr|mineral|extract|gravel|sand).*condition, (?:eliminate|remove|prohibit).*conditional\s+use; MEDIUM matches: 5
+- **Reasoning:** CRITICAL evidence: References Utah Code 17-41-402 (Limits on local regulations); References CIM vested operations statute (municipality). HIGH evidence: Mining/extraction as conditional use; Reference
 - **Quote:** "proposed ordinance to eliminate mineral extraction and processing as a conditional use in the Forestry"
 
 ### SLCo003377
 - **Also appears as:** SLCo009126, SLCo013723
 - **SUPPORTS** | Date: November 12, 2021 | Type: calendar_entry
 - **Element:** A-Prior-Use|B-Investment|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: mine\s+operator, (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before), notice\s+of\s+intention.*(?:mining|mine|large|small), (?:revoke|revoked|revoking)\s+.{0,30}(?:permit|license|ap
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'mine operator'; References mining predating current ordinance; References a Notice of Intention to mine; References revoking permits/licenses/approvals. HIG
 - **Quote:** "“After receiving notification that a notice of intention for mining operations has been approved, but prior to"
 
 ### SLCo003425
 - **SUPPORTS** | Date: January 13, 2022 | Type: email
 - **Element:** A-Prior-Use|D-Destruction
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr), non[\-\s]?conforming\s+use\s+status; HIGH: nonconforming|non[\-\s]conforming, (?:mining|mine|quarr|operation).*(?:aware|know|knew|know
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations; Acknowledges nonconforming use status. HIGH evidence: References nonconforming use; Knowledge of mining operations. MEDIUM contextual 
 - **Quote:** "all) existing mining claims within Salt Lake County are located on Forest Service land, but are you aware of any valid"
 
 ### SLCo003469
 - **Also appears as:** SLCo009802
 - **SUPPORTS** | Date: February 1, 2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr), notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations; References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice o
 - **Quote:** "Return of Amendment Notice of Intention to Commence Large Mining Operations, Tree Farm LLC /"
 
 ### SLCo003551
 - **Also appears as:** SLCo003560, SLCo003569, SLCo003602, SLCo003611, SLCo003699, SLCo010728, SLCo010795, SLCo010804, SLCo010813, SLCo015369, SLCo015414, SLCo015423
 - **SUPPORTS** | Date: November 22, 2019 | Type: email
 - **Element:** A-Prior-Use|B-Investment|E-Knowledge
-- **Reasoning:** CRITICAL: 17[\-\s]*41[\-\s]*501, 17[\-\s]*41[\-\s]*502, 17[\-\s]*41[\-\s]*503, 17[\-\s]*41[\-\s]*101; HIGH: large\s+mine\s+permit, notice\s+of\s+intention.*(?:mining|mine|commence), division\s+of\s+oi
+- **Reasoning:** CRITICAL evidence: References Utah Code 17-41-501 (Vested Mining Use statute); References Utah Code 17-41-502 (Expansion of Vested Mining Use); References Utah Code 17-41-503 (Abandonment — written de
 - **Quote:** "Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"
 
 ### SLCo003588
 - **Also appears as:** SLCo003595, SLCo003728, SLCo015393, SLCo015400, SLCo015407, SLCo015558
 - **SUPPORTS** | Date: March 23, 2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment|E-Knowledge
-- **Reasoning:** CRITICAL: 17[\-\s]*41[\-\s]*402, 17[\-\s]*27a[\-\s]*100[1-5], 10[\-\s]*9a[\-\s]*90[1-5], conclusively\s+presumed; HIGH: nonconforming|non[\-\s]conforming, (?:aware|know|knew|knowledge).*(?:mining|mine
+- **Reasoning:** CRITICAL evidence: References Utah Code 17-41-402 (Limits on local regulations); References CIM vested operations statute (county); References CIM vested operations statute (municipality); Contains 'c
 - **Quote:** "with a legal nonconforming use or a permit issued by the county are"
 
 ### SLCo003624
 - **SUPPORTS** | Date: 2022-03-29 | Type: calendar_entry
 - **Element:** A-Prior-Use
-- **Reasoning:** CRITICAL: vested\s+mining\s+use, mining\s+use, notice\s+of\s+vested; MEDIUM matches: 1
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'vested mining use'; Contains statutory term 'mining use'; References a notice of vested mining use. MEDIUM contextual references: 1
 - **Quote:** "Event: TF Notice of Vested Mining Use"
 
 ### SLCo003626
 - **SUPPORTS** | Date: 2022-03-29 | Type: calendar_entry
 - **Element:** A-Prior-Use
-- **Reasoning:** CRITICAL: vested\s+mining\s+use, mining\s+use, notice\s+of\s+vested; MEDIUM matches: 1
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'vested mining use'; Contains statutory term 'mining use'; References a notice of vested mining use. MEDIUM contextual references: 1
 - **Quote:** "Event: TF Notice of Vested Mining Use"
 
 ### SLCo003628
 - **SUPPORTS** | Date: 2022-03-29 | Type: document
 - **Element:** A-Prior-Use
-- **Reasoning:** CRITICAL: vested\s+mining\s+use, mining\s+use, notice\s+of\s+vested; MEDIUM matches: 1
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'vested mining use'; Contains statutory term 'mining use'; References a notice of vested mining use. MEDIUM contextual references: 1
 - **Quote:** "Event: Accepted: TF Notice of Vested Mining Use"
 
 ### SLCo003697
 - **Also appears as:** SLCo011022, SLCo015531
 - **SUPPORTS** | Date: April 7, 2022 | Type: public_comment
 - **Element:** A-Prior-Use|B-Investment|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: 17[\-\s]*41[\-\s]*101, 17[\-\s]*27a[\-\s]*100[1-5]; MEDIUM matches: 6
+- **Reasoning:** CRITICAL evidence: References Utah Code 17-41-101 (Mining definitions); References CIM vested operations statute (county). MEDIUM contextual references: 6
 - **Quote:** "materials as defined by Utah Code §§ 17-27a-1001 & 17-41-101. As grounds, Mr. Bateman cited Utah"
 
 ### SLCo003762
 - **Also appears as:** SLCo015269
 - **SUPPORTS** | Date: November 12, 2021 | Type: public_comment
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), division\s+of\s+oil.*(?:gas|mining), (?:mining|mine|quarr)\w*\s+(?:histor|opera
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References DOGM (Division of Oil, Gas, and Mining); References mining his
 - **Quote:** "Notice of Intention to Commence Small Mining Operations"
 
 ### SLCo003776
 - **Also appears as:** SLCo003782, SLCo015604
 - **SUPPORTS** | Date: November 15, 2021 | Type: public_comment
 - **Element:** C-Reliance
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), division\s+of\s+oil.*(?:gas|mining), tree\s+farm.*(?:mining|mine|quarr|extract|
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References DOGM (Division of Oil, Gas, and Mining); References Tree Farm 
 - **Quote:** "Tree Farm, LLC, Notice of Intention to Commence Mining Operations"
 
 ### SLCo003778
 - **Also appears as:** SLCo015606
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** B-Investment
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr)\w*\
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References Tree Farm mining operations; References mining history or oper
 - **Quote:** "Subject: Tree Farm, LLC Notice of Intention to Commence Mining Operations"
 
 ### SLCo003779
 - **Also appears as:** SLCo015607
 - **SUPPORTS** | Date: November 27, 2021 | Type: public_comment
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), division\s+of\s+oil.*(?:gas|mining), tree\s+farm.*(?:mining|mine|quarr|extract|
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References DOGM (Division of Oil, Gas, and Mining); References Tree Farm 
 - **Quote:** "Re: Tree Farm, LLC Notice of Intention to Commence Mining Operations"
 
 ### SLCo003781
 - **Also appears as:** SLCo015609
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** B-Investment
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr)\w*\
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References Tree Farm mining operations; References mining history or oper
 - **Quote:** "Subject: Re: Tree Farm, LLC Notice of Intention to Commence Mining Operations"
 
 ### SLCo004048
 - **Also appears as:** SLCo018570
 - **SUPPORTS** | Date: 2/2/2022 | Type: ordinance
 - **Element:** A-Prior-Use|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: tree\s+farm.*(?:mining|mine|quarr|extract|operation), 19[\.\-]12[\.\-]030, conditional\s+use.*(?:eliminate|remove|prohibit); MED
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References Tree Farm mining operations; References ordinance section 19.12.030; Conditional use eliminated or prohibite
 - **Quote:** "amending section 19.12.030 of the Salt Lake County Code to eliminate mineral extraction and processing as a"
 
 ### SLCo004059
 - **Also appears as:** SLCo004065, SLCo006904, SLCo006905, SLCo010242, SLCo010243, SLCo011341, SLCo011345, SLCo011347, SLCo011349, SLCo015760, SLCo015766, SLCo017374, SLCo017378, SLCo018577, SLCo018579, SLCo018581
 - **SUPPORTS** | Date: February 15, 2022 | Type: document
 - **Element:** C-Reliance
-- **Reasoning:** CRITICAL: mining\s+use; HIGH: tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr)\w*\s+(?:histor|operation|activit), (?:mining|mine|quarr|aggregate|gravel).*parleys?\s+canyon; 
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'mining use'. HIGH evidence: References Tree Farm mining operations; References mining history or operations; References Parleys Canyon mining. MEDIUM contex
 - **Quote:** "Fugitive dust emissions from proposed mining uses in Parleys Canyon into the Salt Lake"
 
 ### SLCo004067
 - **Also appears as:** SLCo015762
 - **SUPPORTS** | Date: January 25, 2022 | Type: email
 - **Element:** A-Prior-Use|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: division\s+of\s+oil.*(?:gas|mining), (?:mining|mine|quarr|extract|operation).*tree\s+farm, (?:mining|mine|quarr|mineral|extract|
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References mining operations at Tree Farm; Mining/extraction as con
 - **Quote:** "would be to eliminate future mineral extraction and processing as a conditional use in forestry"
 
 ### SLCo004115
 - **Also appears as:** SLCo015329
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** B-Investment|C-Reliance
-- **Reasoning:** CRITICAL: vested\s+mining\s+right; HIGH: tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr|extract|operation).*tree\s+farm, (?:mining|mine|quarr)\w*\s+(?:histor|operation|acti
+- **Reasoning:** CRITICAL evidence: Contains term 'vested mining right'. HIGH evidence: References Tree Farm mining operations; References mining operations at Tree Farm; References mining history or operations. MEDIU
 - **Quote:** "for not reviewing the Small Mining Operation (SMO) NOI, resolve Tree Farm’s appeal before the DOGM board"
 
 ### SLCo004116
 - **SUPPORTS** | Date: March 15, 2022 | Type: email
 - **Element:** B-Investment|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: vested\s+mining\s+right; HIGH: tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr|extract|operation).*tree\s+farm, (?:mining|mine|quarr)\w*\s+(?:histor|operation|acti
+- **Reasoning:** CRITICAL evidence: Contains term 'vested mining right'. HIGH evidence: References Tree Farm mining operations; References mining operations at Tree Farm; References mining history or operations. MEDIU
 - **Quote:** "It also appears from their filings that Tree Farm believes they have a vested mining right on the property and that they"
 
 ### SLCo004118
 - **Also appears as:** SLCo007096, SLCo007103, SLCo007112, SLCo010507, SLCo010519, SLCo010526, SLCo010535, SLCo010547
 - **SUPPORTS** | Date: None | Type: document
 - **Element:** A-Prior-Use|C-Reliance
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:notice|NOI)\s+of\s+intention, division\s+of\s+oil.*(?:ga
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice of Intention; References DOGM (Division of Oil, 
 - **Quote:** "simultaneous filing by Tree Farm of a Notice of Intention to Commence Small Mining"
 
 ### SLCo004123
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|C-Reliance|D-Destruction|E-Knowledge
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr), (?:eliminat|remov)\w+\s+.{0,30}(?:CUP|conditional\s+use); HIGH: (?:mining|mine|quarr|mineral|extract|gravel|sand).*condition, (?:elimi
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations; References elimination/removal of CUP category. HIGH evidence: Mining/extraction as conditional use; References elimination/prohibitio
 - **Quote:** "county to eliminate open-pit mining as a conditional use. I am aware that both the Mountainous Planning Commission"
 
 ### SLCo004124
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|C-Reliance|D-Destruction|E-Knowledge
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr), (?:eliminat|remov)\w+\s+.{0,30}(?:CUP|conditional\s+use); HIGH: (?:mining|mine|quarr|mineral|extract|gravel|sand).*condition, (?:elimi
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations; References elimination/removal of CUP category. HIGH evidence: Mining/extraction as conditional use; References elimination/prohibitio
 - **Quote:** "county to eliminate open-pit mining as a conditional use. I am aware that both the Mountainous Planning Commission"
 
 ### SLCo004288
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|D-Destruction
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: (?:mining|mine|quarr)\w*\s+(?:histor|operation|activit); MEDIUM matches: 7
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References mining history or operations. MEDIUM contextual references: 7
 - **Quote:** "Subject: No Mine. Prohibit Mineral Extraction in Forestry and Recreation Zone."
 
 ### SLCo004289
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|D-Destruction
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: (?:mining|mine|quarr)\w*\s+(?:histor|operation|activit); MEDIUM matches: 7
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References mining history or operations. MEDIUM contextual references: 7
 - **Quote:** "Subject: No Mine. Prohibit Mineral Extraction in Forestry and Recreation Zone."
 
 ### SLCo004290
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|D-Destruction
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: (?:mining|mine|quarr)\w*\s+(?:histor|operation|activit); MEDIUM matches: 7
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References mining history or operations. MEDIUM contextual references: 7
 - **Quote:** "Subject: No Mine. Prohibit Mineral Extraction in Forestry and Recreation Zone."
 
 ### SLCo004662
 - **Also appears as:** SLCo007418, SLCo007425, SLCo010972, SLCo010984, SLCo011435, SLCo015515, SLCo016040, SLCo017485
 - **SUPPORTS** | Date: April 5, 2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment|C-Reliance|D-Destruction|E-Knowledge
-- **Reasoning:** CRITICAL: mine\s+operator, mining\s+use, (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr), (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: notice\s+of\s+intention.*(?:mining|
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'mine operator'; Contains statutory term 'mining use'; Acknowledges existing/prior mining operations; References mining predating current ordinance. HIGH evi
 - **Quote:** "Tree Farm, LLC, Notice of Intention to Commence Mining Operations"
 
 ### SLCo005417
 - **Also appears as:** SLCo007352, SLCo010857, SLCo010903, SLCo012184, SLCo016792, SLCo018237, SLCo018654
 - **SUPPORTS** | Date: 03/23/2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment|D-Destruction|E-Knowledge
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr), (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: division\s+of\s+oil.*(?:gas|mining), tree\s+farm.*(?:mining|mine|q
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations; References mining predating current ordinance. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References Tree Farm
 - **Quote:** "Notice of Intent (NOI) for a Large Mining Operation up Parleys Canyon, West of the Mount Aire area, in Salt"
 
 ### SLCo005498
@@ -376,485 +406,485 @@
 - **SUPPORTS** | Date: March
 23, 2022 | Type: public_comment
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before), notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), division\s+of\s+o
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance; References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References DOGM (Division 
 - **Quote:** "a notice of intention to commence small mining operations to be timely"
 
 ### SLCo005633
 - **Also appears as:** SLCo005635, SLCo005637, SLCo005639, SLCo005641, SLCo005643, SLCo012249, SLCo016901, SLCo018302
 - **SUPPORTS** | Date: 4/2/2022 | Type: public_comment
 - **Element:** A-Prior-Use
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr)\w*\s+(?:histor|operation|activit), (?:mining|mine|qu
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References Tree Farm mining operations; References mining history or operations; References Parleys Canyon mining. MEDI
 - **Quote:** "Wasatch Mountains. The Wasatch Mountain Club opposes the proposed Tree Farm LLC mine in Parleys Canyon."
 
 ### SLCo005857
 - **Also appears as:** SLCo012261, SLCo016983, SLCo018318
 - **SUPPORTS** | Date: 2022-04-05 | Type: email
 - **Element:** A-Prior-Use|B-Investment|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr|mineral|extract|gravel|sand).*condition, 19[\.\-]12[\
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References Tree Farm mining operations; Mining/extraction as conditional use; References ordinance section 19.12.030. M
 - **Quote:** "eliminate mineral extraction and processing as conditional uses, and explicitly prohibit those"
 
 ### SLCo006122
 - **Also appears as:** SLCo006127, SLCo012426, SLCo017173, SLCo018480
 - **SUPPORTS** | Date: April 5, 2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment|C-Reliance|D-Destruction|E-Knowledge
-- **Reasoning:** CRITICAL: 17[\-\s]*41[\-\s]*402, 10[\-\s]*9a[\-\s]*90[1-5], (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|qua
+- **Reasoning:** CRITICAL evidence: References Utah Code 17-41-402 (Limits on local regulations); References CIM vested operations statute (municipality); References mining predating current ordinance. HIGH evidence: 
 - **Quote:** "proposed ordinance to eliminate mineral extraction and processing as a conditional use in the Forestry"
 
 ### SLCo006205
 - **Also appears as:** SLCo008503
 - **SUPPORTS** | Date: December 8, 2021 | Type: email
 - **Element:** A-Prior-Use|E-Knowledge
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: parleys?\s+canyon.*(?:mining|mine|quarr|aggregate|gravel), (?:aware|know|knew|knowledge).*(?:mining|mine|quarr|operatio, (?:mini
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References mining in Parleys Canyon; County awareness of mining operations; Knowledge of mining operations
 - **Quote:** "I know you've heard about the massive open pit mine proposed above Canyon Rim in Parleys. But did you know that it"
 
 ### SLCo006285
 - **Also appears as:** SLCo008940, SLCo013656
 - **SUPPORTS** | Date: December 22, 2021 | Type: email
 - **Element:** A-Prior-Use|B-Investment|C-Reliance
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: small\s+mine\s+(?:permit|NOI|notice), notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:notice|NOI)\s+of\s
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Small Mine Permit or Notice of Intention; References Notice of Intention to commence mining; References mining No
 - **Quote:** "information for Tree Farm, LLC's Notice of Intention to Commence Small Mining Operations (the"
 
 ### SLCo006340
 - **Also appears as:** SLCo008995, SLCo008998
 - **SUPPORTS** | Date: January 02, 2022 | Type: document
 - **Element:** A-Prior-Use
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr)\w*\
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References Tree Farm mining operations; References mining history or oper
 - **Quote:** "issue a declaratory ruling regarding: 1. The completeness of Tree Farm's Notice of Intention to Commence Small Mining Operations,"
 
 ### SLCo006358
 - **Also appears as:** SLCo009087
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr|aggregate|gravel).*parleys?\s+canyon
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References Tree Farm mining operations; References Parleys Canyon mining
 - **Quote:** "Proposed Tree Farm Quarry(s) in Parleys Canyon"
 
 ### SLCo006361
 - **Also appears as:** SLCo009108
 - **SUPPORTS** | Date: January 10, 2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr), (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before), notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations; References mining predating current ordinance; References a Notice of Intention to mine. HIGH evidence: References Notice of Intention
 - **Quote:** "Oil, Gas and Mining (“Division”) of the Notice of Intention to Commence Small Mining"
 
 ### SLCo006459
 - **Also appears as:** SLCo009505, SLCo009518
 - **SUPPORTS** | Date: February 23, 2022 | Type: document
 - **Element:** General
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: division\s+of\s+oil.*(?:gas|mining)
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining)
 - **Quote:** "Utah Division of Oil, Gas and Mining"
 
 ### SLCo006480
 - **Also appears as:** SLCo009557
 - **UNDERMINES** | Date: January 15, 2022 | Type: public_comment
 - **Element:** A-Prior-Use|B-Investment|E-Knowledge
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: division\s+of\s+oil.*(?:gas|mining), tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr|extract|op
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References Tree Farm mining operations; References mining operation
 - **Quote:** "impacts of the Parleys Canyon Tree Farm quarry are better known, I expect and anticipate the"
 
 ### SLCo006485
 - **Also appears as:** SLCo009562
 - **SUPPORTS** | Date: November 15, 2021 | Type: public_comment
 - **Element:** General
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:notice|NOI)\s+of\s+intention, division\s+of\s+oil.*(?:ga
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice of Intention; References DOGM (Division of Oil, 
 - **Quote:** "Tree Farm, LLC, Notice of Intention to Commence Mining Operations"
 
 ### SLCo006520
 - **Also appears as:** SLCo009577
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: division\s+of\s+oil.*(?:gas|mining), tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr)\w*\s+(?:histor|
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References Tree Farm mining operations; References mining history o
 - **Quote:** "DOGM regarding the application from Tree Farm LLC for the silver mine limestone quarry in Parleys"
 
 ### SLCo006524
 - **Also appears as:** SLCo009581
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: division\s+of\s+oil.*(?:gas|mining), tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr)\w*\s+(?:histor|
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References Tree Farm mining operations; References mining history o
 - **Quote:** "DOGM regarding the application from Tree Farm LLC for the silver mine limestone quarry in Parleys"
 
 ### SLCo006528
 - **Also appears as:** SLCo009585
 - **SUPPORTS** | Date: January 24, 2022 | Type: public_comment
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:notice|NOI)\s+of\s+intention, division\s+of\s+oil.*(?:ga
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice of Intention; References DOGM (Division of Oil, 
 - **Quote:** "Re: Tree Fat m, LLC Notice of Intention to Commence Mining Operations"
 
 ### SLCo006537
 - **Also appears as:** SLCo009598
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|B-Investment|C-Reliance
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), division\s+of\s+oil.*(?:gas|mining), tree\s+farm.*(?:mining|mine|quarr|
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References Notice of Intention to commence mining; References DOGM (Division of Oil, Gas, and Mining); References Tree 
 - **Quote:** "Small Mining Operations, Tree Farm LLC,"
 
 ### SLCo006548
 - **Also appears as:** SLCo009609
 - **SUPPORTS** | Date: January 10, 2022 | Type: email
 - **Element:** General
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), division\s+of\s+oil.*(?:gas|mining), (?:mining|mine|quarr|extract|opera
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References Notice of Intention to commence mining; References DOGM (Division of Oil, Gas, and Mining); References minin
 - **Quote:** "Small Mining Operations, Tree Farm LLC,"
 
 ### SLCo006553
 - **Also appears as:** SLCo009614
 - **SUPPORTS** | Date: January 10, 2022 | Type: email
 - **Element:** General
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), division\s+of\s+oil.*(?:gas|mining), (?:mining|mine|quarr|extract|opera
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References Notice of Intention to commence mining; References DOGM (Division of Oil, Gas, and Mining); References minin
 - **Quote:** "Small Mining Operations, Tree Farm LLC,"
 
 ### SLCo006558
 - **Also appears as:** SLCo009619
 - **SUPPORTS** | Date: December 7, 2021 | Type: email
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before), notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance; References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice o
 - **Quote:** "Division of Oil, Gas and Mining ("Division") of the Notice of Intention to Commence Small"
 
 ### SLCo006573
 - **Also appears as:** SLCo009634
 - **SUPPORTS** | Date: January 25, 2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment|C-Reliance
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before), notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance; References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice o
 - **Quote:** "Division of Oil, Gas and Mining (“Division”) of the Notice of Intention to Commence Small"
 
 ### SLCo006588
 - **Also appears as:** SLCo009649
 - **SUPPORTS** | Date: January 25, 2022 | Type: email
 - **Element:** General
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:notice|NOI)\s+of\s+intention, division\s+of\s+oil.*(?:ga
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice of Intention; References DOGM (Division of Oil, 
 - **Quote:** "the Notice of Intention to Commence Small Mining Operations, Tree Farm LLC, Silver Mine,"
 
 ### SLCo006594
 - **Also appears as:** SLCo006618, SLCo009674, SLCo009706
 - **SUPPORTS** | Date: January 25, 2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment|E-Knowledge
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before), notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance; References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice o
 - **Quote:** "Farm LLC under a Notice of Intention to Commence Small Mining Operations for important"
 
 ### SLCo006641
 - **Also appears as:** SLCo006670, SLCo009729, SLCo009756, SLCo009758
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: division\s+of\s+oil.*(?:gas|mining), (?:mining|mine|quarr|mineral|extract|gravel|sand).*condition, (?:eliminate|remove|prohibit)
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); Mining/extraction as conditional use; References elimination/prohib
 - **Quote:** "would be to eliminate future mineral extraction and processing as a conditional use in forestry"
 
 ### SLCo006684
 - **Also appears as:** SLCo009809, SLCo009924
 - **SUPPORTS** | Date: February 3, 2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment|C-Reliance|D-Destruction|E-Knowledge
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr), (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before), legal\s+nonconforming, continue\s+to\s+be\s+a\s+conditional\s+use; HIGH:
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations; References mining predating current ordinance; References legal nonconforming use; Staff acknowledged mining should continue as condit
 - **Quote:** "extraction and processing should continue to be a conditional use in the Forestry and Recreation (FR) zone in the"
 
 ### SLCo006843
 - **Also appears as:** SLCo010158
 - **SUPPORTS** | Date: None | Type: document
 - **Element:** A-Prior-Use|B-Investment|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: vested\s+mining\s+use, mine\s+operator, mining\s+use, (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: large\s+mine\s+permit, small\s+mine\s+(?:permit|NOI|notice), notice\
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'vested mining use'; Contains statutory term 'mine operator'; Contains statutory term 'mining use'; References mining predating current ordinance. HIGH evide
 - **Quote:** "in its history ‘denied’ a complete notice of intention for small mining operations; and that is"
 
 ### SLCo006857
 - **Also appears as:** SLCo010172
 - **SUPPORTS** | Date: None | Type: document
 - **Element:** A-Prior-Use|B-Investment|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: vested\s+mining\s+use, mine\s+operator, mining\s+use, (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: large\s+mine\s+permit, small\s+mine\s+(?:permit|NOI|notice), notice\
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'vested mining use'; Contains statutory term 'mine operator'; Contains statutory term 'mining use'; References mining predating current ordinance. HIGH evide
 - **Quote:** "in its history ‘denied’ a complete notice of intention for small mining operations; and that is"
 
 ### SLCo006873
 - **Also appears as:** SLCo010188, SLCo010200
 - **SUPPORTS** | Date: January 10, 2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: division\s+of\s+oil.*(?:gas|mining), tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr|extract|op
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References Tree Farm mining operations; References mining operation
 - **Quote:** "mining operations. Allowing Tree Farm to commence mining operations before its NOI"
 
 ### SLCo006885
 - **Also appears as:** SLCo010210, SLCo010216
 - **SUPPORTS** | Date: January 26, 2022 | Type: memo
 - **Element:** A-Prior-Use
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: division\s+of\s+oil.*(?:gas|mining), (?:mining|mine|quarr|extract|operation).*tree\s+farm, (?:mining|mine|quarr)\w*\s+(?:h
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References mining operations at Tree Farm; References mining histor
 - **Quote:** "to Intervene. The Division of Oil Gas and Mining (“Division”) has not filed an objection to the"
 
 ### SLCo006947
 - **Also appears as:** SLCo010271
 - **SUPPORTS** | Date: None | Type: document
 - **Element:** A-Prior-Use|B-Investment|C-Reliance
-- **Reasoning:** CRITICAL: vested\s+mining\s+use, mining\s+use, (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before), notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: large\s+mine\s+permit, small\s+
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'vested mining use'; Contains statutory term 'mining use'; References mining predating current ordinance; References a Notice of Intention to mine. HIGH evid
 - **Quote:** "required on this site because Tree Farm holds a vested mining use. The Division’s Response to Tree Farm’s Reply"
 
 ### SLCo006963
 - **Also appears as:** SLCo010287
 - **SUPPORTS** | Date: None | Type: document
 - **Element:** A-Prior-Use|B-Investment|C-Reliance
-- **Reasoning:** CRITICAL: vested\s+mining\s+use, mining\s+use, (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before), notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: large\s+mine\s+permit, small\s+
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'vested mining use'; Contains statutory term 'mining use'; References mining predating current ordinance; References a Notice of Intention to mine. HIGH evid
 - **Quote:** "required on this site because Tree Farm holds a vested mining use. The Division’s Response to Tree Farm’s Reply"
 
 ### SLCo006999
 - **Also appears as:** SLCo010333, SLCo010338
 - **SUPPORTS** | Date: February 11, 2022 | Type: calendar_entry
 - **Element:** General
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: division\s+of\s+oil.*(?:gas|mining), (?:mining|mine|quarr|extract|operation).*tree\s+farm
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References mining operations at Tree Farm
 - **Quote:** "Mining (“Board”) considered Tree Farm, LLC’s petition and deliberated on how to"
 
 ### SLCo007020
 - **Also appears as:** SLCo010363, SLCo018586, SLCo018592, SLCo018598, SLCo018604, SLCo018610, SLCo018616, SLCo018622, SLCo018628, SLCo018634
 - **SUPPORTS** | Date: None | Type: document
 - **Element:** D-Destruction
-- **Reasoning:** CRITICAL: mining\s+use; HIGH: tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr)\w*\s+(?:histor|operation|activit), parleys?\s+canyon.*(?:mining|mine|quarr|aggregate|gravel); 
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'mining use'. HIGH evidence: References Tree Farm mining operations; References mining history or operations; References mining in Parleys Canyon. MEDIUM con
 - **Quote:** "of an open air mine in Parleys Canyon. The fugitive dust emissions from proposed mining uses"
 
 ### SLCo007048
 - **Also appears as:** SLCo010457
 - **SUPPORTS** | Date: February 24, 2022 | Type: document
 - **Element:** General
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: division\s+of\s+oil.*(?:gas|mining)
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining)
 - **Quote:** "Utah Division of Oil, Gas and Mining"
 
 ### SLCo007052
 - **Also appears as:** SLCo010463
 - **SUPPORTS** | Date: None | Type: document
 - **Element:** General
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: division\s+of\s+oil.*(?:gas|mining), (?:mining|mine|quarr|extract|operation).*tree\s+farm
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References mining operations at Tree Farm
 - **Quote:** "The Board of Oil, Gas and Mining, having considered the Motion to File SurReply to the Division’s Response (the “Sur-Reply”) filed by Tree Farm, LLC, and"
 
 ### SLCo007058
 - **Also appears as:** SLCo010469
 - **SUPPORTS** | Date: None | Type: document
 - **Element:** General
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: division\s+of\s+oil.*(?:gas|mining)
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining)
 - **Quote:** "Utah Division of Oil, Gas and Mining"
 
 ### SLCo007062
 - **Also appears as:** SLCo010473
 - **SUPPORTS** | Date: None | Type: document
 - **Element:** General
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: division\s+of\s+oil.*(?:gas|mining)
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining)
 - **Quote:** "Utah Division of Oil, Gas and Mining"
 
 ### SLCo007066
 - **Also appears as:** SLCo010477
 - **SUPPORTS** | Date: None | Type: document
 - **Element:** General
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: division\s+of\s+oil.*(?:gas|mining)
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining)
 - **Quote:** "Utah Division of Oil, Gas and Mining"
 
 ### SLCo007072
 - **Also appears as:** SLCo010481, SLCo010490
 - **SUPPORTS** | Date: None | Type: deposition
 - **Element:** A-Prior-Use|B-Investment|D-Destruction|E-Knowledge
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr), (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: division\s+of\s+oil.*(?:gas|mining), (?:mining|mine|quarr)\w*\s+(?
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations; References mining predating current ordinance. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References mining hi
 - **Quote:** "There are multiple reasons why the Utah Division of Oil, Gas, and Mining (DOGM), should not"
 
 ### SLCo007091
 - **Also appears as:** SLCo010514
 - **SUPPORTS** | Date: None | Type: document
 - **Element:** A-Prior-Use|C-Reliance
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:notice|NOI)\s+of\s+intention, division\s+of\s+oil.*(?:ga
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice of Intention; References DOGM (Division of Oil, 
 - **Quote:** "simultaneous filing by Tree Farm of a Notice of Intention to Commence Small Mining"
 
 ### SLCo007117
 - **Also appears as:** SLCo010540
 - **SUPPORTS** | Date: None | Type: public_comment
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: small\s+mine\s+(?:permit|NOI|notice), division\s+of\s+oil.*(?:gas|mining), (?:mining|mine|quarr)\w*\s+(?:histor|operation|
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References Small Mine Permit or Notice of Intention; References DOGM (Division of Oil, Gas, and Mining); References min
 - **Quote:** "into large mines as the threshold for a small mine permit boundary is neared. Additionally, both"
 
 ### SLCo007124
 - **Also appears as:** SLCo010552
 - **SUPPORTS** | Date: None | Type: public_comment
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: small\s+mine\s+(?:permit|NOI|notice), division\s+of\s+oil.*(?:gas|mining), (?:mining|mine|quarr)\w*\s+(?:histor|operation|
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References Small Mine Permit or Notice of Intention; References DOGM (Division of Oil, Gas, and Mining); References min
 - **Quote:** "into large mines as the threshold for a small mine permit boundary is neared. Additionally, both"
 
 ### SLCo007151
 - **Also appears as:** SLCo010606
 - **SUPPORTS** | Date: March 17, 2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment|E-Knowledge
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before), notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance; References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice o
 - **Quote:** "NOI”) and a Notice of Intention to Commence Large Mining Operations, Tree Farm LLC, Silver"
 
 ### SLCo007162
 - **Also appears as:** SLCo010617
 - **SUPPORTS** | Date: February 24, 2022 | Type: public_comment
 - **Element:** General
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|qu
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance. HIGH evidence: References Notice of Intention to commence mining; References Tree Farm mining operations; References mining operations
 - **Quote:** "Small Mining Operations, Tree Farm LLC,"
 
 ### SLCo007246
 - **Also appears as:** SLCo010692
 - **SUPPORTS** | Date: March 22, 2022 | Type: document
 - **Element:** A-Prior-Use
-- **Reasoning:** CRITICAL: vested\s+mining\s+right; HIGH: division\s+of\s+oil.*(?:gas|mining); MEDIUM matches: 1
+- **Reasoning:** CRITICAL evidence: Contains term 'vested mining right'. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining). MEDIUM contextual references: 1
 - **Quote:** "and LMO. Including if relevant the verification of any Vested Mining Rights. This will"
 
 ### SLCo007455
 - **SUPPORTS** | Date: April 6, 2022 | Type: email
 - **Element:** B-Investment
-- **Reasoning:** CRITICAL: 17[\-\s]*41[\-\s]*402; HIGH: (?:mining|mine|quarr|extract|operation).*tree\s+farm; MEDIUM matches: 3
+- **Reasoning:** CRITICAL evidence: References Utah Code 17-41-402 (Limits on local regulations). HIGH evidence: References mining operations at Tree Farm. MEDIUM contextual references: 3
 - **Quote:** "contrary to Utah Code 17-41-402(6). This law prohibits adopting or initiating proceedings to adopt any ordinance that would prohibit"
 
 ### SLCo008036
 - **Also appears as:** SLCo012453
 - **SUPPORTS** | Date: November 12, 2021 | Type: email
 - **Element:** A-Prior-Use|B-Investment|D-Destruction
-- **Reasoning:** CRITICAL: mine\s+operator, mining\s+use, (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before), portland\s+cement; HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'mine operator'; Contains statutory term 'mining use'; References mining predating current ordinance; References Portland Cement Company (historical mining o
 - **Quote:** "a notice of intention to commence large mining operations to the Division of Oil, Gas, & Mining (DOGM)."
 
 ### SLCo008418
 - **SUPPORTS** | Date: November 29, 2021 | Type: email
 - **Element:** B-Investment
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine|quarr)\w*\s+(?:histor|operation|activit), dogm
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining history or operations; References DOGM (Division of Oil
 - **Quote:** "I noticed that the cover letter says it is a “Notice of Intention to Commence Small Mining Operations”."
 
 ### SLCo008585
 - **Also appears as:** SLCo013429
 - **SUPPORTS** | Date: December 15, 2021 | Type: email
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: mining\s+use, portland\s+cement, notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: large\s+mine\s+permit, notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'mining use'; References Portland Cement Company (historical mining operator); References a Notice of Intention to mine. HIGH evidence: References Large Mine
 - **Quote:** "Subject: Initial Review of Notice of Intention to Commence Large Mining Operations, Tree"
 
 ### SLCo009088
 - **Also appears as:** SLCo009457
 - **SUPPORTS** | Date: January 10, 2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr), (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before), notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations; References mining predating current ordinance; References a Notice of Intention to mine. HIGH evidence: References Notice of Intention
 - **Quote:** "Oil, Gas and Mining (“Division”) of the Notice of Intention to Commence Small Mining"
 
 ### SLCo009590
 - **Also appears as:** SLCo009592, SLCo009594
 - **SUPPORTS** | Date: January 19, 2022 | Type: document
 - **Element:** B-Investment
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), division\s+of\s+oil.*(?:gas|mining), (?:mining|mine|quarr|extract|operation).*t
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References DOGM (Division of Oil, Gas, and Mining); References mining ope
 - **Quote:** "DOGM has never before “denied” a notice of intention to commence small mining operations; that"
 
 ### SLCo009653
 - **SUPPORTS** | Date: January 25, 2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment|C-Reliance
-- **Reasoning:** CRITICAL: (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before), notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s
+- **Reasoning:** CRITICAL evidence: References mining predating current ordinance; References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice o
 - **Quote:** "Division of Oil, Gas and Mining (“Division”) of the Notice of Intention to Commence Small"
 
 ### SLCo009668
 - **SUPPORTS** | Date: January 25, 2022 | Type: email
 - **Element:** General
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:notice|NOI)\s+of\s+intention, division\s+of\s+oil.*(?:ga
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice of Intention; References DOGM (Division of Oil, 
 - **Quote:** "the Notice of Intention to Commence Small Mining Operations, Tree Farm LLC, Silver Mine,"
 
 ### SLCo010044
 - **Also appears as:** SLCo015148
 - **SUPPORTS** | Date: February 2, 2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr), notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), division\s+of\s+oil.*(?
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations; References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References DOGM (Division 
 - **Quote:** "Tree Farm, LLC, Notice of Intention to Commence Mining Operations"
 
 ### SLCo010822
 - **SUPPORTS** | Date: 2022-03-29 | Type: calendar_entry
 - **Element:** A-Prior-Use
-- **Reasoning:** CRITICAL: vested\s+mining\s+use, mining\s+use, notice\s+of\s+vested; MEDIUM matches: 1
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'vested mining use'; Contains statutory term 'mining use'; References a notice of vested mining use. MEDIUM contextual references: 1
 - **Quote:** "Event: TF Notice of Vested Mining Use"
 
 ### SLCo010824
 - **SUPPORTS** | Date: 2022-03-29 | Type: document
 - **Element:** A-Prior-Use
-- **Reasoning:** CRITICAL: vested\s+mining\s+use, mining\s+use, notice\s+of\s+vested; MEDIUM matches: 1
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'vested mining use'; Contains statutory term 'mining use'; References a notice of vested mining use. MEDIUM contextual references: 1
 - **Quote:** "Event: Accepted: TF Notice of Vested Mining Use"
 
 ### SLCo011129
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|B-Investment|C-Reliance
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: division\s+of\s+oil.*(?:gas|mining), tree\s+farm.*(?:mining|mine|quarr|extract|operation), (?:mining|mine|quarr|extract|operatio
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References Tree Farm mining operations; References mining operation
 - **Quote:** "the same location. The Utah Division of Oil, Gas and Mining (DOGM) has"
 
 ### SLCo012452
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** B-Investment|E-Knowledge
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:notice|NOI)\s+of\s+intention, tree\s+farm.*(?:mining|min
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice of Intention; References Tree Farm mining operat
 - **Quote:** "Do you know anything about the Tree Farm Notice of Intention to Commence Small Mining Operations up Parleys"
 
 ### SLCo012803
 - **SUPPORTS** | Date: November 23, 2021 | Type: email
 - **Element:** B-Investment|E-Knowledge
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:notice|NOI)\s+of\s+intention, tree\s+farm.*(?:mining|min
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice of Intention; References Tree Farm mining operat
 - **Quote:** "Do you know anything about the Tree Farm Notice of Intention to Commence Small Mining Operations up Parleys"
 
 ### SLCo013000
 - **Also appears as:** SLCo015165
 - **SUPPORTS** | Date: December 10, 2021 | Type: ordinance
 - **Element:** A-Prior-Use|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: legal\s+nonconforming, continue\s+to\s+be\s+a\s+conditional\s+use; HIGH: division\s+of\s+oil.*(?:gas|mining), nonconforming|non[\-\s]conforming, 19[\.\-]12[\.\-]030; MEDIUM matches: 4
+- **Reasoning:** CRITICAL evidence: References legal nonconforming use; Staff acknowledged mining should continue as conditional use. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References nonco
 - **Quote:** " Recent Notices of Intention to begin mining operations with the"
 
 ### SLCo013017
 - **SUPPORTS** | Date: October 7, 2021 | Type: email
 - **Element:** A-Prior-Use|B-Investment|C-Reliance
-- **Reasoning:** CRITICAL: enforcement\s+action; HIGH: 19[\.\-]12[\.\-]030; MEDIUM matches: 4
+- **Reasoning:** CRITICAL evidence: References enforcement action. HIGH evidence: References ordinance section 19.12.030. MEDIUM contextual references: 4
 - **Quote:** "Under Utah law, a successful selective enforcement action requires an intentional and deliberate plan of"
 
 ### SLCo013088
 - **SUPPORTS** | Date: December 10, 2021 | Type: ordinance
 - **Element:** A-Prior-Use|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: legal\s+nonconforming, continue\s+to\s+be\s+a\s+conditional\s+use; HIGH: division\s+of\s+oil.*(?:gas|mining), nonconforming|non[\-\s]conforming, 19[\.\-]12[\.\-]030; MEDIUM matches: 5
+- **Reasoning:** CRITICAL evidence: References legal nonconforming use; Staff acknowledged mining should continue as conditional use. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References nonco
 - **Quote:** " Recent Notices of Intention to begin mining operations with the"
 
 ### SLCo013235
 - **Also appears as:** SLCo013251
 - **SUPPORTS** | Date: December 10, 2021 | Type: ordinance
 - **Element:** A-Prior-Use|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: legal\s+nonconforming, continue\s+to\s+be\s+a\s+conditional\s+use; HIGH: division\s+of\s+oil.*(?:gas|mining), nonconforming|non[\-\s]conforming, 19[\.\-]12[\.\-]030; MEDIUM matches: 4
+- **Reasoning:** CRITICAL evidence: References legal nonconforming use; Staff acknowledged mining should continue as conditional use. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References nonco
 - **Quote:** " Recent Notices of Intention to begin mining operations with the"
 
 ### SLCo013307
 - **SUPPORTS** | Date: November 18, 2021 | Type: email
 - **Element:** A-Prior-Use|C-Reliance
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), division\s+of\s+oil.*(?:gas|mining), tree\s+farm.*(?:mining|mine|quarr|extract|
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References DOGM (Division of Oil, Gas, and Mining); References Tree Farm 
 - **Quote:** "Initial Review Notice of Intention to Commence Small Mining Operations, Tree"
 
 ### SLCo013473
 - **SUPPORTS** | Date: December 10, 2021 | Type: email
 - **Element:** A-Prior-Use|B-Investment|C-Reliance
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: small\s+mine\s+(?:permit|NOI|notice), notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:notice|NOI)\s+of\s
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Small Mine Permit or Notice of Intention; References Notice of Intention to commence mining; References mining No
 - **Quote:** "information for Tree Farm, LLC’s Notice of Intention to Commence Small Mining Operations (the"
 
 ### SLCo015177
 - **Also appears as:** SLCo015545, SLCo015548, SLCo015551, SLCo018477
 - **SUPPORTS** | Date: February 11, 2022 | Type: ordinance
 - **Element:** A-Prior-Use|B-Investment|E-Knowledge
-- **Reasoning:** CRITICAL: 17[\-\s]*41[\-\s]*402, 17[\-\s]*27a[\-\s]*100[1-5], 10[\-\s]*9a[\-\s]*90[1-5], conclusively\s+presumed; HIGH: nonconforming|non[\-\s]conforming, (?:aware|know|knew|knowledge).*(?:mining|mine
+- **Reasoning:** CRITICAL evidence: References Utah Code 17-41-402 (Limits on local regulations); References CIM vested operations statute (county); References CIM vested operations statute (municipality); Contains 'c
 - **Quote:** "with a legal nonconforming use or a permit issued by the county are"
 
 ### SLCo015209
 - **SUPPORTS** | Date: December 10, 2021 | Type: ordinance
 - **Element:** A-Prior-Use|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: legal\s+nonconforming, continue\s+to\s+be\s+a\s+conditional\s+use; HIGH: division\s+of\s+oil.*(?:gas|mining), nonconforming|non[\-\s]conforming, 19[\.\-]12[\.\-]030; MEDIUM matches: 5
+- **Reasoning:** CRITICAL evidence: References legal nonconforming use; Staff acknowledged mining should continue as conditional use. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References nonco
 - **Quote:** " Recent Notices of Intention to begin mining operations with the"
 
 ### SLCo015248
 - **SUPPORTS** | Date: February 11, 2022 | Type: ordinance
 - **Element:** A-Prior-Use|B-Investment|E-Knowledge
-- **Reasoning:** CRITICAL: 17[\-\s]*41[\-\s]*402, 17[\-\s]*27a[\-\s]*100[1-5], 10[\-\s]*9a[\-\s]*90[1-5], conclusively\s+presumed; HIGH: nonconforming|non[\-\s]conforming, (?:aware|know|knew|knowledge).*(?:mining|mine
+- **Reasoning:** CRITICAL evidence: References Utah Code 17-41-402 (Limits on local regulations); References CIM vested operations statute (county); References CIM vested operations statute (municipality); Contains 'c
 - **Quote:** "with a legal nonconforming use or a permit issued by the county are"
 
 ### SLCo015437
 - **SUPPORTS** | Date: December 10, 2021 | Type: ordinance
 - **Element:** A-Prior-Use|C-Reliance|D-Destruction
-- **Reasoning:** CRITICAL: legal\s+nonconforming, continue\s+to\s+be\s+a\s+conditional\s+use; HIGH: division\s+of\s+oil.*(?:gas|mining), nonconforming|non[\-\s]conforming, 19[\.\-]12[\.\-]030; MEDIUM matches: 4
+- **Reasoning:** CRITICAL evidence: References legal nonconforming use; Staff acknowledged mining should continue as conditional use. HIGH evidence: References DOGM (Division of Oil, Gas, and Mining); References nonco
 - **Quote:** "extraction/processing would be legal nonconforming uses."
 
 ### SLCo015901
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|D-Destruction
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr); HIGH: (?:mining|mine|quarr)\w*\s+(?:histor|operation|activit); MEDIUM matches: 7
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations. HIGH evidence: References mining history or operations. MEDIUM contextual references: 7
 - **Quote:** "Subject: No Mine. Prohibit Mineral Extraction in Forestry and Recreation Zone."
 
 ### SLCo017410
 - **SUPPORTS** | Date: None | Type: email
 - **Element:** A-Prior-Use|C-Reliance|D-Destruction|E-Knowledge
-- **Reasoning:** CRITICAL: (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr), (?:eliminat|remov)\w+\s+.{0,30}(?:CUP|conditional\s+use); HIGH: (?:mining|mine|quarr|mineral|extract|gravel|sand).*condition, (?:elimi
+- **Reasoning:** CRITICAL evidence: Acknowledges existing/prior mining operations; References elimination/removal of CUP category. HIGH evidence: Mining/extraction as conditional use; References elimination/prohibitio
 - **Quote:** "county to eliminate open-pit mining as a conditional use. I am aware that both the Mountainous Planning Commission"
 
 ### SLCo018533
 - **Also appears as:** SLCo018541
 - **SUPPORTS** | Date: December 7, 2021 | Type: email
 - **Element:** B-Investment
-- **Reasoning:** CRITICAL: notice\s+of\s+intention.*(?:mining|mine|large|small); HIGH: notice\s+of\s+intention.*(?:mining|mine|commence), (?:mining|mine)\s+.*(?:notice|NOI)\s+of\s+intention, division\s+of\s+oil.*(?:ga
+- **Reasoning:** CRITICAL evidence: References a Notice of Intention to mine. HIGH evidence: References Notice of Intention to commence mining; References mining Notice of Intention; References DOGM (Division of Oil, 
 - **Quote:** "Denial of Notice of Intention to Commence Small Mining Operations. Tree Farm"
 
 ### SLCo018710
 - **SUPPORTS** | Date: April 5, 2022 | Type: email
 - **Element:** A-Prior-Use|B-Investment|C-Reliance|D-Destruction|E-Knowledge
-- **Reasoning:** CRITICAL: mine\s+operator, mining\s+use, (exist|prior|pre[\-\s]?exist)\w*\s+(mining|mine|quarr), (mining|mine|quarr)\w*\s+.{0,20}(exist|prior|already|before); HIGH: notice\s+of\s+intention.*(?:mining|
+- **Reasoning:** CRITICAL evidence: Contains statutory term 'mine operator'; Contains statutory term 'mining use'; Acknowledges existing/prior mining operations; References mining predating current ordinance. HIGH evi
 - **Quote:** "Tree Farm, LLC, Notice of Intention to Commence Mining Operations"
 
 ---
