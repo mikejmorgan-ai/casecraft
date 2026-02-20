@@ -2,7 +2,7 @@ import { NextRequest } from 'next/server'
 import { createServerSupabase, createServiceSupabase } from '@/lib/supabase/server'
 import { generateEmbedding } from '@/lib/ai/embeddings'
 import { buildAgentSystemPrompt } from '@/lib/ai/prompts'
-import { searchByRole, formatResultsForContext } from '@/lib/pinecone/search'
+import { searchByRole, formatResultsForContext, validateWithBracketedTerms } from '@/lib/pinecone/search'
 import { openai } from '@ai-sdk/openai'
 import { streamText, createUIMessageStream, createUIMessageStreamResponse } from 'ai'
 import type { AgentRole, ConversationType } from '@/lib/types'
@@ -106,9 +106,14 @@ export async function POST(request: NextRequest) {
           )
 
           if (pineconeResults.length > 0) {
-            documentContext = formatResultsForContext(pineconeResults)
+            // RULE 1 & 2: Validate results against bracketed terms.
+            // Re-rank results so documents with exact phrase matches
+            // (not just semantic similarity) are prioritized.
+            // Uses all claim terms (claim 3 = broadest for Tree Farm case)
+            const validatedResults = validateWithBracketedTerms(pineconeResults, 3)
+            documentContext = formatResultsForContext(validatedResults)
 
-            pineconeResults.forEach((result) => {
+            validatedResults.forEach((result) => {
               const docName = result.metadata.filename || result.metadata.source.split('/').pop() || 'Unknown'
               citations.push({
                 document_id: result.id,

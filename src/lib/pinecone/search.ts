@@ -1,5 +1,12 @@
 import { getPineconeIndex } from './client'
 import { generateEmbedding } from '@/lib/ai/embeddings'
+import {
+  matchBracketedTerms,
+  matchStatutes,
+  findStatutoryCrossReferences,
+  type TermMatch,
+  type CrossReference,
+} from '@/lib/legal/bracketed-terms'
 import type { AgentRole } from '@/lib/types'
 
 export interface SearchResult {
@@ -255,7 +262,59 @@ export async function searchAll(
     }))
 }
 
+// ═══════════════════════════════════════════════════════════════════════
+// RULE 1 & 2: Post-retrieval validation with bracketed terms
+// After vector search returns results, validate that documents contain
+// actual bracketed terms (exact phrases), not just semantically similar text.
+// ═══════════════════════════════════════════════════════════════════════
+
+export interface ValidatedSearchResult extends SearchResult {
+  bracketedTerms: TermMatch[]
+  statuteRefs: string[]
+  crossReferences: CrossReference[]
+  bracketedScore: number
+}
+
+/**
+ * Validate search results against bracketed terms for a specific claim.
+ * Re-ranks results: documents with exact bracketed term matches are
+ * boosted above those that are only semantically similar.
+ *
+ * RULE 1: Only complete bracketed phrases count as matches.
+ *         "vested mining use" = hit. "vested" alone = NOT a hit.
+ * RULE 2: Documents with statute references + bracketed terms = critical.
+ */
+export function validateWithBracketedTerms(
+  results: SearchResult[],
+  claimNum: number
+): ValidatedSearchResult[] {
+  return results
+    .map((result) => {
+      const text = result.content
+      const termHits = matchBracketedTerms(text, claimNum)
+      const statuteHits = matchStatutes(text, claimNum)
+      const crossRefs = findStatutoryCrossReferences(text, claimNum)
+
+      // Calculate bracketed score bonus
+      const termScore = termHits.reduce((sum, h) => sum + h.count, 0) * 10
+      const crossRefScore = crossRefs.reduce((sum, cr) => sum + cr.terms.length, 0) * 15
+      const bracketedScore = termScore + crossRefScore
+
+      return {
+        ...result,
+        // Boost the vector similarity score with bracketed term matches
+        score: result.score + bracketedScore * 0.01,
+        bracketedTerms: termHits,
+        statuteRefs: statuteHits.map((s) => s.pattern),
+        crossReferences: crossRefs,
+        bracketedScore,
+      }
+    })
+    .sort((a, b) => b.score - a.score) // Re-rank by combined score
+}
+
 // Format results for LLM context with source attribution
+// Enhanced: includes bracketed term annotations when available
 export function formatResultsForContext(results: SearchResult[]): string {
   if (results.length === 0) {
     return 'No relevant documents found.'
@@ -264,7 +323,19 @@ export function formatResultsForContext(results: SearchResult[]): string {
   return results
     .map((r, i) => {
       const docName = r.metadata.filename || r.metadata.source.split('/').pop() || 'Unknown'
-      return `[${i + 1}] ${docName} (Source: ${r.source}):\n${r.content}`
+      let header = `[${i + 1}] ${docName} (Source: ${r.source})`
+
+      // Add bracketed term annotations if this is a validated result
+      const validated = r as ValidatedSearchResult
+      if (validated.bracketedTerms?.length > 0) {
+        const terms = validated.bracketedTerms.map((t) => `"${t.term}"`).join(', ')
+        header += `\n  [BRACKETED TERMS FOUND: ${terms}]`
+      }
+      if (validated.crossReferences?.length > 0) {
+        header += `\n  [STATUTORY CROSS-REF: statute + bracketed terms co-occur]`
+      }
+
+      return `${header}:\n${r.content}`
     })
     .join('\n\n---\n\n')
 }

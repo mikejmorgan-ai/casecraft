@@ -183,13 +183,14 @@ MEDIUM_PATTERNS = [
 ]
 
 # LOW: Tangential references (kept minimal — no CIM clutter)
+# RULE 1: No single-word matches. Every pattern is a multi-word phrase.
 LOW_PATTERNS = [
-    r'\bmining\b',
-    r'\bquarr[yi]',
-    r'\bgravel\s+pit\b',
-    r'\breclamation\b',
-    r'\btree\s+farm\b',
-    r'\borganic\s+act\b',
+    r'\bmining\s+(?:operation|activit|permit|claim|right)\b',  # "mining" + qualifier, not alone
+    r'\bquarr[yi]\w*\s+(?:operation|permit|site|pit)\b',       # "quarry" + qualifier, not alone
+    r'\bgravel\s+pit\b',           # two-word phrase
+    r'\btree\s+farm\b',            # two-word phrase (party name)
+    r'\borganic\s+act\b',          # two-word phrase
+    r'\breclamation\s+(?:plan|bond|requirement|effort)\b',  # "reclamation" + qualifier
 ]
 
 # ── EXCLUSION PATTERNS ──────────────────────────────────────────────────
@@ -218,19 +219,35 @@ def content_hash(text):
 
 
 def has_vested_mining_context(text_lower):
-    """Check if document has any vested mining context at all."""
+    """Check if document has any vested mining context at all.
+    RULE 1: Uses BRACKETED TERMS only — multi-word exact phrases.
+    Single words like 'vested' or 'mining' alone are NOT matches."""
+    # Every term here is a multi-word phrase or statutory citation.
+    # No single words. All words in each phrase must appear together.
     vested_terms = [
-        r'vested', r'mine\s+operator', r'mining\s+use', r'mining\s+protection',
-        r'nonconforming|non[\-\s]conforming', r'pre[\-\s]?existing.*(?:use|mining|mine)',
-        r'prior.*(?:mining|mine|use|operation)', r'grandfathered',
-        r'17[\-\s]*41[\-\s]*50[123]', r'17[\-\s]*81[\-\s]*40[123]',
-        r'17[\-\s]*41[\-\s]*10[13]', r'17[\-\s]*41[\-\s]*40[23]',
-        r'large\s+mine', r'small\s+mine', r'dogm',
-        r'portland\s+cement', r'parleys?\s+canyon',
-        r'declaration.*(?:mining|vested)', r'(?:mining|vested).*declaration',
-        r'(?:mining|mine|quarr)\w*\s+(?:operation|activit|histor|claim|right|use)',
-        r'runs?\s+with\s+the\s+land', r'conclusively\s+presumed',
-        r'produced\s+commercial\s+quantities',
+        r'vested\s+mining\s+use',       # exact phrase, not just "vested"
+        r'vested\s+mining\s+right',      # exact phrase
+        r'mine\s+operator',              # exact phrase, not just "mine"
+        r'mining\s+use',                 # exact phrase, not just "mining"
+        r'mining\s+protection\s+area',   # exact phrase
+        r'nonconforming\s+use',          # exact phrase, not just "nonconforming"
+        r'non[\-\s]conforming\s+use',    # variant
+        r'pre[\-\s]?existing\s+(?:use|mining\s+use|mining\s+operation)',  # phrase
+        r'prior\s+(?:mining\s+use|mining\s+operation|nonconforming\s+use)',  # phrase
+        r'17[\-\s]*41[\-\s]*50[123]',    # statute citation
+        r'17[\-\s]*81[\-\s]*40[123]',    # statute citation
+        r'17[\-\s]*41[\-\s]*10[13]',     # statute citation
+        r'17[\-\s]*41[\-\s]*40[23]',     # statute citation
+        r'large\s+mine\s+permit',        # exact phrase, not just "large" or "mine"
+        r'small\s+mine\s+permit',        # exact phrase
+        r'portland\s+cement',            # exact phrase
+        r'parleys?\s+canyon',            # exact phrase
+        r'declaration\s+of\s+vested',    # exact phrase
+        r'notice\s+of\s+vested',         # exact phrase
+        r'mining\s+(?:operation|activit|histor|claim|right)',  # "mining" + qualifier
+        r'runs?\s+with\s+the\s+land',    # exact statutory phrase
+        r'conclusively\s+presumed',      # exact statutory phrase
+        r'produced\s+commercial\s+quantities',  # exact statutory phrase
     ]
     for pat in vested_terms:
         if re.search(pat, text_lower):

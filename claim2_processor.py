@@ -164,23 +164,24 @@ def classify_document(text, bates):
     """
     text_lower = text.lower()
 
-    # Quick pre-filter: does this doc mention anything even remotely related?
-    quick_terms = [
-        'enforcement', 'enforce', 'permit', 'license', 'mining', 'quarry',
-        'tree farm', 'cup', 'conditional use', 'denial', 'denied', 'deny',
-        'cease', 'stop', 'block', 'prevent', 'violation', 'violat',
-        'compliance', 'non-compliance', 'illegal', 'unlawful', 'com21',
-        'gravel', 'sand', 'aggregate', 'excavat', 'extraction',
-        'parley', 'harper', 'business license', 'code enforcement',
-        'abatement', 'citation', 'complaint', 'notice of violation',
-        'ordinance', 'zoning', 'land use', 'shut down', 'revoke',
-        'harm', 'damage', 'injur', 'ongoing', 'irreparable',
-        'cannot operate', 'not allowed', 'prohibited', 'banned',
-        'freeze', 'frozen', 'suspend', 'application'
+    # Quick pre-filter: uses BRACKETED PHRASES (not single words).
+    # RULE 1: Every search term is a multi-word phrase. No single words.
+    # "mining" alone is NOT a hit. "cease and desist" IS a hit.
+    quick_phrases = [
+        'enforcement action', 'code enforcement', 'cease and desist',
+        'business license', 'conditional use', 'tree farm',
+        'notice of violation', 'shut down', 'cannot operate',
+        'not allowed', 'irreparable harm', 'ongoing harm',
+        'stop work', 'mining operation', 'quarry operation',
+        'mineral extraction', 'gravel pit', 'sand and gravel',
+        'land use', 'non-compliance', 'operating without',
+        'operating in violation', 'com21', 'parleys canyon',
+        'vested mining', 'mine operator', 'mining use',
+        'mining protection', 'large mine', 'small mine',
     ]
 
-    has_any_term = any(term in text_lower for term in quick_terms)
-    if not has_any_term:
+    has_any_phrase = any(phrase in text_lower for phrase in quick_phrases)
+    if not has_any_phrase:
         return None
 
     # Score by pattern tiers
@@ -225,21 +226,21 @@ def classify_document(text, bates):
     elif low_hits:
         relevance = 'LOW'
     else:
-        # Has quick terms but no pattern hits - check for softer relevance
-        # Look for combinations that suggest enforcement context
+        # Has quick phrases but no pattern hits - check for softer relevance
+        # Look for combinations of PHRASES that suggest enforcement context
         has_tree_farm = 'tree farm' in text_lower
-        has_mining = any(t in text_lower for t in ['mining', 'quarry', 'gravel', 'sand', 'aggregate', 'excavat', 'extraction'])
-        has_enforcement_context = any(t in text_lower for t in ['enforcement', 'enforce', 'permit', 'license', 'denial', 'denied', 'deny', 'violation', 'compliance', 'illegal', 'unlawful'])
-        has_county_action = any(t in text_lower for t in ['ordinance', 'zoning', 'land use', 'code enforcement'])
-        has_cup = any(t in text_lower for t in ['cup', 'conditional use'])
+        has_mining_phrase = any(t in text_lower for t in ['mining operation', 'quarry operation', 'gravel pit', 'mineral extraction', 'mining use', 'mine operator'])
+        has_enforcement_phrase = any(t in text_lower for t in ['enforcement action', 'code enforcement', 'notice of violation', 'permit denied', 'license denied', 'non-compliance'])
+        has_county_action = any(t in text_lower for t in ['land use ordinance', 'zoning ordinance', 'code enforcement'])
+        has_cup = 'conditional use' in text_lower
 
-        if has_tree_farm and has_enforcement_context:
+        if has_tree_farm and has_enforcement_phrase:
             relevance = 'MEDIUM'
-        elif has_mining and has_enforcement_context and has_county_action:
+        elif has_mining_phrase and has_enforcement_phrase and has_county_action:
             relevance = 'MEDIUM'
-        elif has_cup and has_enforcement_context:
+        elif has_cup and has_enforcement_phrase:
             relevance = 'LOW'
-        elif has_mining and has_county_action:
+        elif has_mining_phrase and has_county_action:
             relevance = 'LOW'
         else:
             return None
@@ -262,18 +263,20 @@ def extract_key_quote(text, relevance, critical_hits, high_hits, medium_hits, lo
     best_line = ""
     best_score = 0
 
-    # Build scoring terms based on priority
+    # Build scoring phrases based on priority
+    # RULE 1: Every scoring term is a multi-word phrase. No single words.
     priority_terms = {
-        'com21': 10, '1590': 10, 'business license': 8, 'denied': 8, 'denial': 8,
-        'cease and desist': 10, 'enforcement action': 9, 'tree farm': 7,
-        'cannot operate': 9, 'illegal': 8, 'unlawful': 8, 'shut down': 9,
-        'conditional use permit': 6, 'cup': 5, 'no cup': 8, 'without cup': 8,
-        'eliminat': 7, 'block': 6, 'prevent': 6, 'freeze': 7, 'frozen': 7,
-        'violation': 6, 'non-compliance': 6, 'code enforcement': 7,
-        'enforcement': 5, 'permit': 3, 'license': 3, 'mining': 2,
-        'quarry': 2, 'parley': 3, 'harper': 4, 'harm': 5, 'damage': 4,
-        'ongoing': 4, 'irreparable': 6, 'abatement': 5, 'citation': 5,
-        'revoke': 7, 'suspend': 6, 'terminate': 6,
+        'com21-1590': 10, 'com21': 10, 'business license denial': 10,
+        'business license denied': 10, 'cease and desist': 10,
+        'enforcement action': 9, 'tree farm': 7, 'cannot operate': 9,
+        'illegal mining': 8, 'unlawful mining': 8, 'shut down': 9,
+        'conditional use permit': 6, 'no valid cup': 8, 'without cup': 8,
+        'conditional use eliminated': 7, 'freeze application': 7,
+        'notice of violation': 7, 'non-compliance': 6, 'code enforcement': 7,
+        'mining operation': 3, 'quarry operation': 3, 'parleys canyon': 5,
+        'irreparable harm': 8, 'ongoing harm': 6, 'ongoing damage': 6,
+        'stop work': 7, 'revoke permit': 7, 'revoke license': 7,
+        'vested mining': 8, 'mine operator': 8, 'mining use': 6,
     }
 
     for line in lines:
@@ -307,28 +310,33 @@ def extract_key_quote(text, relevance, critical_hits, high_hits, medium_hits, lo
 
 
 def determine_supports_undermines(text, text_lower):
-    """Determine if document supports or undermines Claim 2."""
-    # Patterns that SUPPORT the injunction claim (showing enforcement/harm)
-    support_indicators = [
-        'denied', 'denial', 'reject', 'refused', 'cease', 'stop', 'block',
-        'prevent', 'cannot operate', 'illegal', 'unlawful', 'violation',
-        'enforcement action', 'shut down', 'non-compliance', 'no cup',
-        'without cup', 'eliminat', 'freeze', 'frozen', 'harm', 'damage',
-        'revoke', 'suspend', 'terminate', 'abatement', 'citation',
-        'threat', 'not allowed', 'prohibited', 'banned',
+    """Determine if document supports or undermines Claim 2.
+    RULE 1: Uses BRACKETED PHRASES (multi-word) not single words."""
+    # Phrases that SUPPORT the injunction claim (showing enforcement/harm)
+    # Each is a multi-word phrase or specific legal term of art
+    support_phrases = [
+        'license denied', 'permit denied', 'application denied',
+        'license denial', 'permit denial', 'cannot operate',
+        'cease and desist', 'enforcement action', 'shut down',
+        'not in compliance', 'non-compliance', 'no valid cup',
+        'without cup', 'without conditional use', 'operating without',
+        'revoke permit', 'revoke license', 'irreparable harm',
+        'ongoing harm', 'ongoing damage', 'ongoing enforcement',
+        'not allowed to', 'prohibited from', 'stop work',
+        'notice of violation', 'code enforcement',
+        'business license denial', 'conditional use eliminated',
     ]
 
-    # Patterns that UNDERMINE (showing county was reasonable/didn't enforce)
-    undermine_indicators = [
-        'approved', 'granted', 'allowed', 'permitted', 'authorized',
-        'no enforcement', 'not enforcing', 'will not enforce',
-        'withdraw', 'rescind', 'waiv', 'exempt',
-        'cooperat', 'work together', 'good faith', 'accommodate',
-        'voluntary compliance',
+    # Phrases that UNDERMINE (showing county was reasonable/didn't enforce)
+    undermine_phrases = [
+        'permit approved', 'license approved', 'application granted',
+        'no enforcement action', 'not enforcing', 'will not enforce',
+        'voluntary compliance', 'work together', 'good faith',
+        'accommodate the', 'withdraw enforcement',
     ]
 
-    support_score = sum(1 for ind in support_indicators if ind in text_lower)
-    undermine_score = sum(1 for ind in undermine_indicators if ind in text_lower)
+    support_score = sum(1 for phrase in support_phrases if phrase in text_lower)
+    undermine_score = sum(1 for phrase in undermine_phrases if phrase in text_lower)
 
     if support_score > undermine_score + 1:
         return 'SUPPORTS'
@@ -351,29 +359,29 @@ def generate_reasoning(text, relevance, critical_hits, high_hits, medium_hits, l
         parts.append("References cease and desist order — direct enforcement action.")
 
     if 'tree farm' in text_lower:
-        if any(t in text_lower for t in ['denied', 'denial', 'reject', 'refused', 'block', 'prevent']):
-            parts.append("Shows direct enforcement action against Tree Farm through denial or blocking of permits/approvals.")
-        elif any(t in text_lower for t in ['violation', 'non-compliance', 'illegal', 'unlawful']):
+        if any(t in text_lower for t in ['permit denied', 'license denied', 'application denied', 'application rejected']):
+            parts.append("Shows direct enforcement action against Tree Farm through denial of permits/approvals.")
+        elif any(t in text_lower for t in ['notice of violation', 'non-compliance', 'code enforcement']):
             parts.append("References Tree Farm in context of code violations or non-compliance — enforcement posture evidence.")
-        elif any(t in text_lower for t in ['enforcement', 'enforce']):
-            parts.append("Discusses enforcement in connection with Tree Farm operations.")
+        elif 'enforcement action' in text_lower:
+            parts.append("Discusses enforcement action in connection with Tree Farm operations.")
 
-    if 'conditional use' in text_lower or 'cup' in text_lower:
-        if any(t in text_lower for t in ['eliminat', 'remov', 'no longer', 'not available']):
+    if 'conditional use' in text_lower:
+        if any(t in text_lower for t in ['conditional use eliminated', 'conditional use removed', 'no longer a conditional use']):
             parts.append("Evidence of administrative trap: CUP category elimination while requiring CUP for mining operations.")
-        elif any(t in text_lower for t in ['denied', 'denial', 'freeze', 'frozen', 'block', 'prevent', 'cannot']):
+        elif any(t in text_lower for t in ['conditional use denied', 'cup denied', 'freeze application', 'frozen application']):
             parts.append("Shows blocking of CUP pathway for Tree Farm mining operations.")
-        elif any(t in text_lower for t in ['application', 'apply', 'process']):
+        elif 'conditional use permit' in text_lower and 'application' in text_lower:
             parts.append("Discusses CUP application process relevant to Tree Farm's ability to obtain approval.")
 
-    if any(t in text_lower for t in ['harm', 'damage', 'injury', 'ongoing', 'irreparable']):
-        if any(t in text_lower for t in ['tree farm', 'mining', 'quarry', 'business']):
+    if any(t in text_lower for t in ['irreparable harm', 'ongoing harm', 'ongoing damage', 'ongoing enforcement']):
+        if any(t in text_lower for t in ['tree farm', 'mining operation', 'quarry operation']):
             parts.append("Documents ongoing harm from enforcement actions against Tree Farm's mining operations.")
 
     if any(t in text_lower for t in ['enforcement strategy', 'enforcement plan', 'enforcement approach']):
         parts.append("Reveals county enforcement strategy against mining operations.")
 
-    if any(t in text_lower for t in ['code enforcement']) and any(t in text_lower for t in ['mining', 'quarry', 'tree farm', 'gravel']):
+    if 'code enforcement' in text_lower and any(t in text_lower for t in ['mining operation', 'quarry operation', 'tree farm', 'gravel pit']):
         parts.append("Code enforcement activity related to mining/quarry operations.")
 
     if not parts:
@@ -397,7 +405,7 @@ def is_key_finding(text, relevance, bates):
 
     # COM21-1590 business license denial
     if ('com21' in text_lower or 'com21-1590' in text_lower or 'com21.1590' in text_lower):
-        if any(t in text_lower for t in ['denied', 'denial', 'reject']):
+        if any(t in text_lower for t in ['license denied', 'license denial', 'application denied']):
             reasons.append("Direct evidence of business license denial (COM21-1590) — core enforcement action.")
 
     # Cease and desist targeting Tree Farm
@@ -405,22 +413,22 @@ def is_key_finding(text, relevance, bates):
         reasons.append("Cease and desist directed at Tree Farm — direct enforcement.")
 
     # Explicit statements of enforcement intent
-    if 'tree farm' in text_lower and any(t in text_lower for t in ['cannot operate', 'illegal', 'shut down', 'stop mining', 'not allowed to mine']):
+    if 'tree farm' in text_lower and any(t in text_lower for t in ['cannot operate', 'shut down', 'stop mining', 'not allowed to mine', 'illegal mining']):
         reasons.append("Explicit statement that Tree Farm cannot/should not operate — enforcement intent.")
 
     # Administrative trap evidence
-    if ('conditional use' in text_lower or 'cup' in text_lower):
-        if any(t in text_lower for t in ['eliminat', 'remov', 'no longer']):
-            if any(t in text_lower for t in ['require', 'need', 'must have', 'without']):
+    if 'conditional use' in text_lower:
+        if any(t in text_lower for t in ['conditional use eliminated', 'conditional use removed', 'no longer a conditional use']):
+            if any(t in text_lower for t in ['require conditional use', 'need conditional use', 'without conditional use']):
                 reasons.append("Administrative trap: eliminates CUP category while requiring CUP — makes compliance impossible.")
 
     # County officials directing enforcement against Tree Farm specifically
-    if 'tree farm' in text_lower and any(t in text_lower for t in ['enforce against', 'take action', 'enforcement action', 'pursue enforcement']):
+    if 'tree farm' in text_lower and any(t in text_lower for t in ['enforce against', 'enforcement action', 'pursue enforcement']):
         reasons.append("County officials directing specific enforcement against Tree Farm.")
 
     # Denial of permit/license blocking operations
-    if any(t in text_lower for t in ['denied', 'denial']) and any(t in text_lower for t in ['tree farm', 'harper', 'parley']):
-        if any(t in text_lower for t in ['permit', 'license', 'application', 'cup']):
+    if any(t in text_lower for t in ['permit denied', 'license denied', 'application denied', 'permit denial', 'license denial']):
+        if any(t in text_lower for t in ['tree farm', 'parleys canyon']):
             reasons.append("Direct permit/license denial blocking Tree Farm operations.")
 
     if reasons:
