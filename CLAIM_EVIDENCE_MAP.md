@@ -1,8 +1,8 @@
 # CLAIM-EVIDENCE MAP
 ## Tree Farm, LLC v. Salt Lake County
-### All Smoking Gun Evidence Mapped to 4 Claims for Relief
+### All Key Finding Evidence Mapped to 4 Claims for Relief
 
-*Every piece of evidence from the Smoking Gun Inventory, organized by which claim(s) it supports.*
+*Every piece of evidence from the Key Finding Inventory, organized by which claim(s) it supports.*
 
 ---
 

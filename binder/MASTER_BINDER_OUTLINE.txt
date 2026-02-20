@@ -18,10 +18,10 @@ Critical Infrastructure Materials (CIM) operations.
 
 TOTAL RELEVANT DOCUMENTS: 3269
   CRITICAL: 248  |  HIGH: 59  |  MEDIUM: 1854  |  LOW: 1108
-  SMOKING GUNS: 52
+  KEY FINDINGS: 52
 
 --------------------------------------------------------------------------------
-SECTION 1A: SMOKING GUN EXHIBITS
+SECTION 1A: KEY FINDING EXHIBITS
 --------------------------------------------------------------------------------
 
   1. [SLCo002501]
@@ -1585,10 +1585,10 @@ DOGM Large Mine Permit approved 1996, remains active.
 
 TOTAL RELEVANT DOCUMENTS: 1262
   CRITICAL: 92  |  HIGH: 65  |  MEDIUM: 169  |  LOW: 936
-  SMOKING GUNS: 57
+  KEY FINDINGS: 57
 
 --------------------------------------------------------------------------------
-SECTION 3A: SMOKING GUN EXHIBITS
+SECTION 3A: KEY FINDING EXHIBITS
 --------------------------------------------------------------------------------
 
   1. [SLCo010680]

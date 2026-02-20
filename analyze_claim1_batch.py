@@ -103,7 +103,7 @@ def read_file(filepath):
 def score_document(text):
     """
     Score document for Claim 1 relevance.
-    Returns (relevance_level, supports_undermines, reasoning, key_quote, is_smoking_gun, sg_why, sg_use, doc_meta)
+    Returns (relevance_level, supports_undermines, reasoning, key_quote, is_key_finding, sg_why, sg_use, doc_meta)
     """
     text_lower = text.lower()
     text_upper = text  # preserve case for quotes
@@ -220,13 +220,13 @@ def score_document(text):
 
     reasoning = "; ".join(reasons)[:1000]
 
-    # Smoking gun detection - very high bar
+    # Key finding detection - very high bar
     is_sg = False
     sg_why = ""
     sg_use = ""
 
     if relevance == "CRITICAL":
-        # Check for true smoking gun content
+        # Check for true key finding content
         sg_indicators = [
             (r'staff\s+recommend.*remov.*CIM|staff.*advis.*remov.*sand.*gravel',
              "Staff explicitly recommended removing CIM/sand-gravel language from ordinance",
@@ -334,11 +334,11 @@ def process_all():
     stats = {
         'total': 0, 'reviewed': 0, 'relevant': 0,
         'CRITICAL': 0, 'HIGH': 0, 'MEDIUM': 0, 'LOW': 0,
-        'smoking_guns': 0, 'supports': 0, 'undermines': 0,
+        'key_findings': 0, 'supports': 0, 'undermines': 0,
         'empty': 0, 'not_relevant': 0,
     }
 
-    smoking_guns_list = []
+    key_findings_list = []
     critical_docs = []
 
     for folder in FOLDERS:
@@ -411,14 +411,14 @@ def process_all():
                      (doc_title, doc_date, doc_type, doc_summary, doc_id))
 
             if is_sg:
-                stats['smoking_guns'] += 1
+                stats['key_findings'] += 1
                 c.execute("DELETE FROM smoking_guns WHERE doc_id=? AND claim_num=1", (doc_id,))
                 c.execute("""INSERT INTO smoking_guns
                             (doc_id, claim_num, why_critical, recommended_use)
                             VALUES (?, 1, ?, ?)""",
                          (doc_id, sg_why, sg_use))
-                smoking_guns_list.append((bates, sg_why, key_quote[:200]))
-                print(f"  *** SMOKING GUN: {bates} - {sg_why}")
+                key_findings_list.append((bates, sg_why, key_quote[:200]))
+                print(f"  *** KEY FINDING: {bates} - {sg_why}")
 
             if relevance == "CRITICAL":
                 critical_docs.append((bates, reasoning[:100], key_quote[:150]))
@@ -434,7 +434,7 @@ def process_all():
     conn.commit()
     conn.close()
 
-    return stats, smoking_guns_list, critical_docs
+    return stats, key_findings_list, critical_docs
 
 
 if __name__ == "__main__":
@@ -458,11 +458,11 @@ if __name__ == "__main__":
     print(f"  LOW:                      {stats['LOW']}")
     print(f"Supports (our claim):       {stats['supports']}")
     print(f"Undermines (our claim):     {stats['undermines']}")
-    print(f"Smoking Guns:               {stats['smoking_guns']}")
+    print(f"Key Findings:               {stats['key_findings']}")
 
     if sgs:
         print(f"\n{'='*60}")
-        print("SMOKING GUNS IDENTIFIED")
+        print("KEY FINDINGS IDENTIFIED")
         print(f"{'='*60}")
         for bates, why, quote in sgs:
             print(f"\n  {bates}: {why}")

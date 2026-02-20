@@ -2,7 +2,7 @@
 """
 Second-pass refinement of Claim 1 analysis.
 Upgrades key documents found through manual review,
-downgrades false positives, and adds proper smoking gun classifications.
+downgrades false positives, and adds proper key finding classifications.
 """
 import sqlite3
 import os
@@ -30,7 +30,7 @@ manual_overrides = {
         'supports': 'SUPPORTS',
         'reasoning': 'This IS the challenged ordinance. It explicitly prohibits "sand, gravel and/or rock aggregate" which are CIM by statutory definition under Utah Code 10-9a-901(1). This directly proves the ordinance violates 17-41-402(6).',
         'key_quote': 'The following uses are explicitly prohibited in this chapter: mineral extraction and processing; mine; quarry; gravel pit; including crushers or concrete batching plants used in connection with and as a part of an operation for the removal of sand, gravel and/or rock aggregate.',
-        'smoking_gun': True,
+        'key_finding': True,
         'sg_why': 'The ordinance text itself expressly prohibits "sand, gravel and/or rock aggregate" - which are the statutory definition of Critical Infrastructure Materials under Utah Code 10-9a-901(1). This proves the ordinance prohibits CIM operations in violation of 17-41-402(6).',
         'sg_use': 'Lead exhibit. Compare ordinance language to 10-9a-901(1) CIM definition. The match is exact. Then show 17-41-402(6) prohibition on adopting ordinances that prohibit CIM operations.',
     },
@@ -45,7 +45,7 @@ manual_overrides = {
         'supports': 'SUPPORTS',
         'reasoning': 'First formal written warning to County that proposed ordinance violates 17-41-402(6). County received this warning before passing ordinance. Establishes County had actual notice of preemption issue.',
         'key_quote': 'Utah Code 17-41-402(6) reads: A county, city, or town may not: adopt, enact, or amend an existing land use regulation, ordinance, or regulation that would prohibit, restrict, regulate, or otherwise limit critical infrastructure materials operations... Salt Lake County cannot legally adopt new ordinances that will restrict extraction of critical infrastructure materials on my client\'s property.',
-        'smoking_gun': True,
+        'key_finding': True,
         'sg_why': 'Written preemption warning to County before ordinance passed. County ignored this warning and proceeded anyway. Shows County acted with full knowledge of illegality.',
         'sg_use': 'Show County had actual notice of preemption issue before passing ordinance. Pair with DA response (SLCo003697) showing County deflected rather than addressing merits.',
     },
@@ -60,7 +60,7 @@ manual_overrides = {
         'supports': 'SUPPORTS',
         'reasoning': 'Second warning to County on day of vote. Specifically points out that ordinance text prohibits CIM materials regardless of how it is styled. County Council proceeded to vote anyway. Shows predetermined outcome.',
         'key_quote': 'This ordinance is blatantly contrary to Utah Code 17-41-402(6)... "Critical infrastructure materials" means sand, gravel, or rock aggregate. Utah Code 10-9a-901(1). Although I have pointed this out, no one at the County has bothered to explain to me how this ordinance complies with this state code section... the text of the ordinance expressly prohibits extraction of "sand, gravel and/or rock aggregate." Thus, where it was not prohibited before, this ordinance clearly prohibits critical infrastructure materials. Thus, it is illegal.',
-        'smoking_gun': True,
+        'key_finding': True,
         'sg_why': 'Direct public comment to Council on day of vote demonstrating ordinance text expressly prohibits CIM. Council ignored this and voted unanimously to pass. Proves predetermined outcome and willful disregard of state law.',
         'sg_use': 'Pair with ordinance text (SLCo002565) and vote record. Show Council received this warning, had it read into the record, then voted unanimously anyway. Proves bad faith.',
     },
@@ -75,7 +75,7 @@ manual_overrides = {
         'supports': 'SUPPORTS',
         'reasoning': 'DA made false statement to Ombudsman. Claimed ordinance contains no reference to CIM, when it expressly prohibits "sand, gravel and/or rock aggregate" - the statutory definition of CIM. DA deflects preemption argument by focusing on label rather than substance. Never addresses whether sand/gravel/rock aggregate ARE CIM.',
         'key_quote': 'However, the proposed amendments do not include any reference to critical infrastructure materials or critical infrastructure materials operations, as defined by those statutes. As such, the proposed changes do not conflict with Utah Code 17-41-406.',
-        'smoking_gun': True,
+        'key_finding': True,
         'sg_why': 'False statement to Ombudsman. DA claims ordinance has no CIM reference while it explicitly prohibits "sand, gravel and/or rock aggregate" - the exact statutory CIM definition. Shows bad faith and deceptive legal strategy.',
         'sg_use': 'Compare DA letter claim ("no reference to CIM") with actual ordinance text (prohibits "sand, gravel and/or rock aggregate"). Then show 10-9a-901(1) definition: "Critical infrastructure materials means sand, gravel, or rock aggregate." The deception is on its face.',
     },
@@ -89,7 +89,7 @@ manual_overrides = {
         'supports': 'SUPPORTS',
         'reasoning': 'Duplicate of SLCo003697. DA false statement to Ombudsman about CIM content of ordinance.',
         'key_quote': 'However, the proposed amendments do not include any reference to critical infrastructure materials or critical infrastructure materials operations, as defined by those statutes.',
-        'smoking_gun': True,
+        'key_finding': True,
         'sg_why': 'Duplicate - see SLCo003697 analysis.',
         'sg_use': 'Same as SLCo003697.',
     },
@@ -104,7 +104,7 @@ manual_overrides = {
         'supports': 'SUPPORTS',
         'reasoning': 'Contains false "long prohibited" talking point. Gravel pits were NOT "long prohibited" - mineral extraction was a conditional use before this ordinance. Shows coordinated messaging to mislead public about ordinance content. Also shows predetermined avoidance of legal questions.',
         'key_quote': 'While new gravel pits within our Forestry and Recreation Zone (FR) and Foothills and Canyon Overlay Zone (FCOZ) have been long prohibited, the council last week amended our ordinances to restrictprohibit future mineral extraction and mining. We are confident in the legality of this amendment and will fight to enforce it.',
-        'smoking_gun': True,
+        'key_finding': True,
         'sg_why': 'False "long prohibited" talking point. Mineral extraction was actually a permitted conditional use before this ordinance. Shows county officials creating false narrative to justify ordinance. Edit marks ("restrictprohibit") show deliberate word choice to strengthen prohibition language.',
         'sg_use': 'Compare with pre-amendment ordinance text (Section 19.12.030 listed mineral extraction as conditional use J). Show gravel pits were NOT "long prohibited" - this was fabricated.',
     },
@@ -119,7 +119,7 @@ manual_overrides = {
         'supports': 'SUPPORTS',
         'reasoning': 'Deputy Mayor distributing false "long prohibited" talking point. Gravel pits were a conditional use, not "long prohibited." Shows coordinated false messaging from senior County officials.',
         'key_quote': 'While new gravel pits within our Forestry and Recreation & Foothills and Canyon Overlay zones have been long prohibited, today we have amended our ordinances to prohibit mineral extraction and mining. We are confident the legality of this amendment, and will fight to enforce it.',
-        'smoking_gun': True,
+        'key_finding': True,
         'sg_why': 'Senior County official (Deputy Mayor) disseminating false claim that gravel pits were "long prohibited" when they were actually a conditional use. Shows bad faith and coordinated false messaging.',
         'sg_use': 'Show Deputy Mayor asserting "long prohibited" then compare to actual pre-amendment code showing mineral extraction was conditional use J in Section 19.12.030.',
     },
@@ -134,7 +134,7 @@ manual_overrides = {
         'supports': 'SUPPORTS',
         'reasoning': 'Formal Ombudsman process initiated before ordinance finalized. Shows Tree Farm raised CIM preemption issue through proper channels. County subsequently sent false/misleading response.',
         'key_quote': 'Mr. Bateman indicates that Tree Farm is mining and extracting critical infrastructure materials from various properties, owned by Tree Farm, in Parley\'s Canyon. Mr. Bateman claims SLCO is considering and has recently passed zoning legislation to restrict further mining and extraction.',
-        'smoking_gun': False,
+        'key_finding': False,
     },
 
     # --- STAFF REPORT (Feb 3, 2022 Meeting) ---
@@ -147,7 +147,7 @@ manual_overrides = {
         'supports': 'SUPPORTS',
         'reasoning': 'Staff report shows planning staff recommended ordinance that explicitly prohibits CIM materials (sand, gravel, rock aggregate). Staff report makes no mention of 17-41-402(6) preemption issue. Shows staff either ignored or was unaware of CIM preemption law.',
         'key_quote': 'It is proposed that section 19.12.030 be amended to eliminate mineral extraction and processing as a conditional use, and to explicitly prohibit mineral extraction and processing, mine, quarry, gravel pit, including crushers or concrete batching plants used in connection with and as a part of an operation for the removal of sand, gravel and/or rock aggregate in the FR zone.',
-        'smoking_gun': True,
+        'key_finding': True,
         'sg_why': 'Staff report recommended prohibition of sand/gravel/rock aggregate (CIM) without ANY analysis of 17-41-402(6) preemption. Shows systemic failure to address state law prohibition. Despite Bateman\'s Feb 11 letter, staff never revisited CIM preemption issue.',
         'sg_use': 'Show staff report recommends exactly what state law prohibits - banning CIM materials - with zero preemption analysis.',
     },
@@ -160,7 +160,7 @@ manual_overrides = {
         'supports': 'SUPPORTS',
         'reasoning': 'Duplicate of SLCo009809. Staff report recommending CIM prohibition without preemption analysis.',
         'key_quote': 'Staff recommends that the Planning Commission recommend approval of the ordinance as proposed to the Salt Lake County Council.',
-        'smoking_gun': False,
+        'key_finding': False,
     },
 
     # --- COUNCIL MEETING AGENDA (April 5, 2022 - Vote Day) ---
@@ -173,7 +173,7 @@ manual_overrides = {
         'supports': 'SUPPORTS',
         'reasoning': 'Agenda for the vote day. Shows the ordinance was brought to vote. Public hearing was noticed.',
         'key_quote': 'Public Hearing for the Ordinance Amendment of Section 19.12.030 of the Salt Lake County Code Related to Mineral Extraction and Processing in the Forestry and Recreation Zone',
-        'smoking_gun': False,
+        'key_finding': False,
     },
 
     # --- SNELGROVE "BAN IT" RESPONSE ---
@@ -186,7 +186,7 @@ manual_overrides = {
         'supports': 'SUPPORTS',
         'reasoning': 'Council member admits ordinance purpose was to "ban" quarry. Shows predetermined opposition to Tree Farm operations specifically. Motion maker openly admits targeting Tree Farm.',
         'key_quote': 'Please know that I am firmly opposed to the quarry up Parleys Canyon and was happy to make the motion to pass the ordinance that will ban it.',
-        'smoking_gun': False,
+        'key_finding': False,
     },
 
     # --- COUNCIL WORK SESSION AGENDA (April 5, 2022) ---
@@ -199,7 +199,7 @@ manual_overrides = {
         'supports': 'SUPPORTS',
         'reasoning': 'Work session agenda for ordinance vote day. Shows procedural sequence.',
         'key_quote': 'Please note--a public hearing for the Ordinance Amendment of Section 19.12.030 of the Salt Lake County Code Related to Mineral Extraction and Processing in the Forestry and Recreation Zone on Mineral Extraction is set for the 4:00pm County Council meeting.',
-        'smoking_gun': False,
+        'key_finding': False,
     },
 
     # --- PLANNING COMMISSION MEETING (Feb 3, 2022) ---
@@ -212,7 +212,7 @@ manual_overrides = {
         'supports': 'SUPPORTS',
         'reasoning': 'Planning Commission meeting materials for the mining ordinance amendment. Contains staff recommendation and proposed ordinance with explicit CIM prohibition language.',
         'key_quote': 'OAM2021-000494 - A proposed amendment of the Salt Lake County Code amending section 19.12.030 to eliminate mineral extraction and processing as a conditional use and explicitly prohibiting the same and other related uses in the forestry and recreation zones',
-        'smoking_gun': False,
+        'key_finding': False,
     },
 }
 
@@ -236,14 +236,14 @@ for bates, info in manual_overrides.items():
                VALUES (?, 1, ?, ?, ?, ?)""",
               (doc_id, info['relevance'], info['supports'], info['reasoning'], info['key_quote']))
 
-    # Smoking gun
-    if info.get('smoking_gun'):
+    # Key finding
+    if info.get('key_finding'):
         c.execute("""INSERT OR REPLACE INTO smoking_guns
                    (doc_id, claim_num, why_critical, recommended_use)
                    VALUES (?, 1, ?, ?)""",
                   (doc_id, info['sg_why'], info['sg_use']))
     else:
-        # Remove if previously marked as smoking gun but shouldn't be
+        # Remove if previously marked as key finding but shouldn't be
         c.execute("DELETE FROM smoking_guns WHERE doc_id = ? AND claim_num = 1", (doc_id,))
 
     print(f"  {bates}: {info['relevance']} / {info['supports']} - {info['title'][:60]}")
@@ -394,7 +394,7 @@ for doc_id, bates, file_path, relevance in c.fetchall():
                        SET relevance = 'LOW', reasoning = 'Citizen opposition letter using "preempt" in casual (non-legal) context. Not relevant to CIM preemption claim.'
                        WHERE doc_id = ? AND claim_num = 1""",
                       (doc_id,))
-            # Remove smoking gun if any
+            # Remove key finding if any
             c.execute("DELETE FROM smoking_guns WHERE doc_id = ? AND claim_num = 1", (doc_id,))
             downgrade_count += 1
 
@@ -461,11 +461,11 @@ print(f"  MEDIUM: {by_relevance.get('MEDIUM', 0)}")
 print(f"  LOW: {by_relevance.get('LOW', 0)}")
 print(f"Supports claim: {by_su.get('SUPPORTS', 0)}")
 print(f"Undermines claim: {by_su.get('UNDERMINES', 0)}")
-print(f"Smoking guns: {total_sg}")
+print(f"Key findings: {total_sg}")
 
-# Print smoking guns
+# Print key findings
 print("\n" + "="*80)
-print("SMOKING GUN DOCUMENTS")
+print("KEY FINDING DOCUMENTS")
 print("="*80)
 c.execute("""SELECT d.bates, d.title, d.date, sg.why_critical, sg.recommended_use
              FROM smoking_guns sg

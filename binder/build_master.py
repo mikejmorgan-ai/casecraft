@@ -31,14 +31,14 @@ def build_toc():
     return """## Table of Contents
 
 - [Claim 1: Ordinance Invalid -- State Preemption Under Utah Code 17-41-402(6)](#claim-1-ordinance-invalid--state-preemption-under-utah-code-17-41-4026)
-    - [Section 1A: Smoking Gun Exhibits](#section-1a-smoking-gun-exhibits--claim-1)
+    - [Section 1A: Key Finding Exhibits](#section-1a-key-finding-exhibits--claim-1)
     - [Section 1B: Critical Relevance Documents](#section-1b-critical-relevance-documents--claim-1)
     - [Section 1C: High Relevance Documents](#section-1c-high-relevance-documents--claim-1)
     - [Section 1D: Medium Relevance Documents](#section-1d-medium-relevance-documents--claim-1)
     - [Section 1E: Low Relevance Documents](#section-1e-low-relevance-documents--claim-1)
 - [Claim 2: Permanent Injunction -- No Enforcement](#claim-2-permanent-injunction--no-enforcement)
 - [Claim 3: Vested Mining Rights Under Utah Code 17-41-501 Through 17-41-503](#claim-3-vested-mining-rights-under-utah-code-17-41-501-through-17-41-503)
-    - [Section 3A: Smoking Gun Exhibits](#section-3a-smoking-gun-exhibits--claim-3)
+    - [Section 3A: Key Finding Exhibits](#section-3a-key-finding-exhibits--claim-3)
     - [Section 3B: Critical Relevance Documents](#section-3b-critical-relevance-documents--claim-3)
     - [Section 3C: High Relevance Documents](#section-3c-high-relevance-documents--claim-3)
     - [Section 3D: Medium Relevance Documents](#section-3d-medium-relevance-documents--claim-3)
@@ -50,8 +50,8 @@ def build_toc():
 
 """
 
-def format_smoking_gun_entry(entry_num, bates, tag, why_critical, recommended_use, key_quote):
-    """Format a smoking gun / Section A entry with full detail."""
+def format_key_finding_entry(entry_num, bates, tag, why_critical, recommended_use, key_quote):
+    """Format a key finding / Section A entry with full detail."""
     lines = []
     lines.append(f"**{entry_num}.** **[{bates}]** | **{tag}**")
     lines.append("")
@@ -93,7 +93,7 @@ def format_high_relevance_entry(entry_num, bates, tag, description):
     return "\n".join(lines)
 
 def parse_section_a(text):
-    """Parse a smoking gun section (1A or 3A) into formatted entries."""
+    """Parse a key finding section (1A or 3A) into formatted entries."""
     # Split on horizontal rules
     blocks = re.split(r'\n---\n', text)
     entries = []
@@ -129,7 +129,7 @@ def parse_section_a(text):
             quote_match = re.search(r'\*\*KEY QUOTE:\*\*\s*\*"(.*?)"\*', block, re.DOTALL)
         key_quote = quote_match.group(1).strip() if quote_match else ""
 
-        entries.append(format_smoking_gun_entry(entry_num, bates, tag, why_critical, recommended_use, key_quote))
+        entries.append(format_key_finding_entry(entry_num, bates, tag, why_critical, recommended_use, key_quote))
 
     return "\n".join(entries)
 
@@ -337,7 +337,7 @@ def main():
     doc.append("---\n")
 
     # Section 1A
-    doc.append("## Section 1A: Smoking Gun Exhibits -- Claim 1\n")
+    doc.append("## Section 1A: Key Finding Exhibits -- Claim 1\n")
     doc.append("> **52 documents** | These are the highest-value exhibits for Claim 1. Each document")
     doc.append("> contains direct evidence of state law preemption, county knowledge of illegality,")
     doc.append("> or the ordinance's facial conflict with the CIM statute.\n")
@@ -413,7 +413,7 @@ def main():
     doc.append("---\n")
 
     # Section 3A
-    doc.append("## Section 3A: Smoking Gun Exhibits -- Claim 3\n")
+    doc.append("## Section 3A: Key Finding Exhibits -- Claim 3\n")
     doc.append("> **57 documents** | These are the highest-value exhibits for Claim 3. Each document")
     doc.append("> contains direct evidence of vested mining rights, county admissions of existing")
     doc.append("> mining operations, DOGM filings, or the statutory vested rights framework.\n")
@@ -496,7 +496,7 @@ def main():
     # Footer
     doc.append("\n---\n")
     doc.append("## Document Statistics\n")
-    doc.append("| Claim | Smoking Guns | Critical | High | Medium | Low | Total |")
+    doc.append("| Claim | Key Findings | Critical | High | Medium | Low | Total |")
     doc.append("|-------|-------------|----------|------|--------|-----|-------|")
     doc.append("| Claim 1 (Ordinance Invalid) | 52 | 199 | 59 | 1,854 | 1,108 | 3,272 |")
     doc.append("| Claim 2 (Permanent Injunction) | -- | -- | -- | -- | -- | Pending |")

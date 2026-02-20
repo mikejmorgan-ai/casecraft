@@ -254,44 +254,44 @@ def analyze_document(doc_id, bates, title, doc_type, summary, file_path):
 
     reasoning = ". ".join(reasoning_parts[:5])
 
-    # Determine if this is a smoking gun
-    is_smoking_gun = False
-    smoking_gun_reason = ""
-    smoking_gun_use = ""
+    # Determine if this is a key finding
+    is_key_finding = False
+    key_finding_reason = ""
+    key_finding_use = ""
 
     if relevance == "CRITICAL":
         if re.search(r'cease\s+and\s+desist|stop\s+work\s+order', text_lower):
-            is_smoking_gun = True
-            smoking_gun_reason = "Direct cease and desist or stop work order - proves enforcement threat"
-            smoking_gun_use = "Use to establish that County has actively threatened enforcement, proving need for injunctive relief"
+            is_key_finding = True
+            key_finding_reason = "Direct cease and desist or stop work order - proves enforcement threat"
+            key_finding_use = "Use to establish that County has actively threatened enforcement, proving need for injunctive relief"
         elif re.search(r'notice\s+of\s+violation', text_lower):
-            is_smoking_gun = True
-            smoking_gun_reason = "Notice of violation - proves active enforcement action"
-            smoking_gun_use = "Use to demonstrate County is actively enforcing ordinance against Tree Farm"
+            is_key_finding = True
+            key_finding_reason = "Notice of violation - proves active enforcement action"
+            key_finding_use = "Use to demonstrate County is actively enforcing ordinance against Tree Farm"
         elif re.search(r'(shut\s*(down|ting)|clos(e|ing|ure))\s+(the\s+)?(mine|quarry|operation|tree\s+farm)', text_lower):
-            is_smoking_gun = True
-            smoking_gun_reason = "Direct reference to shutting down/closing Tree Farm's operation"
-            smoking_gun_use = "Use to show imminent threat of enforcement causing irreparable harm"
+            is_key_finding = True
+            key_finding_reason = "Direct reference to shutting down/closing Tree Farm's operation"
+            key_finding_use = "Use to show imminent threat of enforcement causing irreparable harm"
         elif re.search(r'(threaten|warn|demand).{0,30}(enforce|comply|stop|cease|shut|close)', text_lower):
-            is_smoking_gun = True
-            smoking_gun_reason = "Contains direct threat or demand for compliance/cessation"
-            smoking_gun_use = "Use to establish pattern of enforcement threats justifying injunctive relief"
+            is_key_finding = True
+            key_finding_reason = "Contains direct threat or demand for compliance/cessation"
+            key_finding_use = "Use to establish pattern of enforcement threats justifying injunctive relief"
         elif re.search(r'irreparable\s+harm|no\s+adequate\s+remedy', text_lower):
-            is_smoking_gun = True
-            smoking_gun_reason = "Directly addresses irreparable harm or inadequate legal remedy"
-            smoking_gun_use = "Use to establish key injunction elements"
+            is_key_finding = True
+            key_finding_reason = "Directly addresses irreparable harm or inadequate legal remedy"
+            key_finding_use = "Use to establish key injunction elements"
         elif re.search(r'(will|shall|going\s+to)\s+(enforce|prosecute|penalize|fine|cite|shut)', text_lower):
-            is_smoking_gun = True
-            smoking_gun_reason = "County officials expressing intent to enforce"
-            smoking_gun_use = "Use to demonstrate imminent enforcement threat requiring injunctive relief"
+            is_key_finding = True
+            key_finding_reason = "County officials expressing intent to enforce"
+            key_finding_use = "Use to demonstrate imminent enforcement threat requiring injunctive relief"
         elif re.search(r'criminal\s+(prosecution|penalty|enforcement)', text_lower):
-            is_smoking_gun = True
-            smoking_gun_reason = "Criminal enforcement threat - most severe form of enforcement"
-            smoking_gun_use = "Use to show severity of enforcement threat and irreparable harm (criminal liability cannot be remedied by damages)"
+            is_key_finding = True
+            key_finding_reason = "Criminal enforcement threat - most severe form of enforcement"
+            key_finding_use = "Use to show severity of enforcement threat and irreparable harm (criminal liability cannot be remedied by damages)"
         elif critical_count >= 3:
-            is_smoking_gun = True
-            smoking_gun_reason = f"Extremely high concentration of enforcement-related language ({critical_count} critical matches)"
-            smoking_gun_use = "Key document for establishing enforcement threat pattern"
+            is_key_finding = True
+            key_finding_reason = f"Extremely high concentration of enforcement-related language ({critical_count} critical matches)"
+            key_finding_use = "Key document for establishing enforcement threat pattern"
 
     return {
         'doc_id': doc_id,
@@ -299,9 +299,9 @@ def analyze_document(doc_id, bates, title, doc_type, summary, file_path):
         'supports_undermines': supports_undermines,
         'key_quote': key_quote,
         'reasoning': reasoning,
-        'is_smoking_gun': is_smoking_gun,
-        'smoking_gun_reason': smoking_gun_reason,
-        'smoking_gun_use': smoking_gun_use
+        'is_key_finding': is_key_finding,
+        'key_finding_reason': key_finding_reason,
+        'key_finding_use': key_finding_use
     }
 
 
@@ -324,10 +324,10 @@ def main():
     offset = 0
     processed = 0
     assigned = 0
-    smoking_gun_count = 0
+    key_finding_count = 0
 
     assignment_buffer = []
-    smoking_gun_buffer = []
+    key_finding_buffer = []
 
     relevance_counts = {"CRITICAL": 0, "HIGH": 0, "MEDIUM": 0, "LOW": 0}
     direction_counts = {"SUPPORTS": 0, "UNDERMINES": 0}
@@ -363,14 +363,14 @@ def main():
                 direction_counts[result['supports_undermines']] += 1
                 assigned += 1
 
-                if result['is_smoking_gun']:
-                    smoking_gun_buffer.append((
+                if result['is_key_finding']:
+                    key_finding_buffer.append((
                         result['doc_id'],
                         CLAIM_NUM,
-                        result['smoking_gun_reason'],
-                        result['smoking_gun_use']
+                        result['key_finding_reason'],
+                        result['key_finding_use']
                     ))
-                    smoking_gun_count += 1
+                    key_finding_count += 1
 
             processed += 1
 
@@ -380,20 +380,20 @@ def main():
                     INSERT INTO claim_assignments (doc_id, claim_num, relevance, supports_undermines, reasoning, key_quote)
                     VALUES (?, ?, ?, ?, ?, ?)
                 """, assignment_buffer)
-                if smoking_gun_buffer:
+                if key_finding_buffer:
                     c.executemany("""
                         INSERT INTO smoking_guns (doc_id, claim_num, why_critical, recommended_use)
                         VALUES (?, ?, ?, ?)
-                    """, smoking_gun_buffer)
+                    """, key_finding_buffer)
                 conn.commit()
                 assignment_buffer = []
-                smoking_gun_buffer = []
+                key_finding_buffer = []
 
         offset += BATCH_SIZE
         elapsed = time.time() - start_time
         rate = processed / elapsed if elapsed > 0 else 0
         print(f"Progress: {processed}/{total} docs ({processed*100//total}%) | "
-              f"Assigned: {assigned} | Smoking guns: {smoking_gun_count} | "
+              f"Assigned: {assigned} | Key findings: {key_finding_count} | "
               f"Rate: {rate:.1f} docs/sec | "
               f"CRIT:{relevance_counts['CRITICAL']} HIGH:{relevance_counts['HIGH']} "
               f"MED:{relevance_counts['MEDIUM']} LOW:{relevance_counts['LOW']}")
@@ -404,11 +404,11 @@ def main():
             INSERT INTO claim_assignments (doc_id, claim_num, relevance, supports_undermines, reasoning, key_quote)
             VALUES (?, ?, ?, ?, ?, ?)
         """, assignment_buffer)
-    if smoking_gun_buffer:
+    if key_finding_buffer:
         c.executemany("""
             INSERT INTO smoking_guns (doc_id, claim_num, why_critical, recommended_use)
             VALUES (?, ?, ?, ?)
-        """, smoking_gun_buffer)
+        """, key_finding_buffer)
     conn.commit()
 
     elapsed = time.time() - start_time
@@ -418,7 +418,7 @@ def main():
     print(f"{'='*70}")
     print(f"Total documents processed: {processed}")
     print(f"Total documents assigned to Claim 2: {assigned}")
-    print(f"Smoking guns identified: {smoking_gun_count}")
+    print(f"Key findings identified: {key_finding_count}")
     print(f"Time elapsed: {elapsed:.1f} seconds")
     print(f"\nRelevance breakdown:")
     for level, count in relevance_counts.items():
@@ -427,10 +427,10 @@ def main():
     for direction, count in direction_counts.items():
         print(f"  {direction}: {count}")
 
-    # Print smoking guns summary
-    if smoking_gun_count > 0:
+    # Print key findings summary
+    if key_finding_count > 0:
         print(f"\n{'='*70}")
-        print(f"SMOKING GUNS SUMMARY")
+        print(f"KEY FINDINGS SUMMARY")
         print(f"{'='*70}")
         c.execute("""
             SELECT sg.doc_id, d.bates, d.title, sg.why_critical, sg.recommended_use

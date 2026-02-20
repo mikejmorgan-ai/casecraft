@@ -1,4 +1,4 @@
-### Section 3A: Smoking Gun Exhibits — Claim 3 (Vested Mining Rights)
+### Section 3A: Key Finding Exhibits — Claim 3 (Vested Mining Rights)
 
 ---
 

@@ -12,7 +12,7 @@ This refines the initial broad pass by:
    - Administrative trap evidence (CUP elimination + license denial) = CRITICAL
    - Public comments urging enforcement = LOW or IRRELEVANT (public opinion, not county action)
    - Meeting agendas mentioning the topic = LOW unless they contain enforcement decisions
-4. Clearing out false positive smoking guns
+4. Clearing out false positive key findings
 5. All 5,576 docs remain marked reviewed=1; only relevance/classification changes
 """
 
@@ -405,7 +405,7 @@ def process_refine():
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
-    # First, clear all existing claim 2 assignments and smoking guns
+    # First, clear all existing claim 2 assignments and key findings
     cursor.execute("DELETE FROM claim_assignments WHERE claim_num = 2")
     cursor.execute("DELETE FROM smoking_guns WHERE claim_num = 2")
     conn.commit()
@@ -415,7 +415,7 @@ def process_refine():
     all_docs = cursor.fetchall()
 
     total = len(all_docs)
-    stats = {'total': total, 'relevant': 0, 'CRITICAL': 0, 'HIGH': 0, 'MEDIUM': 0, 'LOW': 0, 'smoking_guns': 0}
+    stats = {'total': total, 'relevant': 0, 'CRITICAL': 0, 'HIGH': 0, 'MEDIUM': 0, 'LOW': 0, 'key_findings': 0}
     errors = []
 
     print(f"REFINED PASS: Processing {total} documents for Claim 2")
@@ -424,7 +424,7 @@ def process_refine():
     for i, (doc_id, bates, filename, folder, file_path) in enumerate(all_docs):
         if (i + 1) % 500 == 0:
             conn.commit()
-            print(f"  Progress: {i+1}/{total} ({(i+1)*100//total}%) | Relevant: {stats['relevant']} | C:{stats['CRITICAL']} H:{stats['HIGH']} M:{stats['MEDIUM']} L:{stats['LOW']} | SG:{stats['smoking_guns']}")
+            print(f"  Progress: {i+1}/{total} ({(i+1)*100//total}%) | Relevant: {stats['relevant']} | C:{stats['CRITICAL']} H:{stats['HIGH']} M:{stats['MEDIUM']} L:{stats['LOW']} | SG:{stats['key_findings']}")
 
         try:
             text = read_document(file_path, folder, filename)
@@ -446,7 +446,7 @@ def process_refine():
                 """, (doc_id, relevance, sup_und, reasoning, key_quote))
 
                 if is_sg:
-                    stats['smoking_guns'] += 1
+                    stats['key_findings'] += 1
                     cursor.execute("""
                         INSERT OR REPLACE INTO smoking_guns
                         (doc_id, claim_num, why_critical, recommended_use)
@@ -468,14 +468,14 @@ def process_refine():
     print(f"  HIGH:     {stats['HIGH']}")
     print(f"  MEDIUM:   {stats['MEDIUM']}")
     print(f"  LOW:      {stats['LOW']}")
-    print(f"Smoking guns: {stats['smoking_guns']}")
+    print(f"Key findings: {stats['key_findings']}")
 
     if errors:
         print(f"\nErrors ({len(errors)}):")
         for err in errors[:10]:
             print(f"  {err}")
 
-    # Print smoking guns
+    # Print key findings
     cursor.execute("""
         SELECT d.bates, d.title, sg.why_critical, sg.recommended_use
         FROM smoking_guns sg JOIN documents d ON sg.doc_id = d.id
@@ -485,7 +485,7 @@ def process_refine():
     sgs = cursor.fetchall()
     if sgs:
         print(f"\n{'='*80}")
-        print("SMOKING GUNS")
+        print("KEY FINDINGS")
         print('='*80)
         for bates, title, why, rec in sgs:
             print(f"  {bates}: {title}")

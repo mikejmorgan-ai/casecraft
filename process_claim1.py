@@ -368,11 +368,11 @@ def generate_summary(content, title, doc_type, date):
         return ' '.join(meaningful)[:500]
 
 
-def is_smoking_gun(content, relevance, critical_hits):
-    """Check if document qualifies as a smoking gun for Claim 1."""
+def is_key_finding(content, relevance, critical_hits):
+    """Check if document qualifies as a key finding for Claim 1."""
     content_lower = content.lower()
 
-    smoking_gun_criteria = [
+    key_finding_criteria = [
         # Staff explicitly recommending removal of CIM language
         (r'(?:recommend|suggest|advis).*(?:remov|delet|strik).*(?:sand|gravel|aggregate|CIM|critical\s+infrastructure)',
          "Staff recommended removing CIM language from ordinance"),
@@ -394,7 +394,7 @@ def is_smoking_gun(content, relevance, critical_hits):
     ]
 
     reasons = []
-    for pat, reason in smoking_gun_criteria:
+    for pat, reason in key_finding_criteria:
         if re.search(pat, content_lower):
             reasons.append(reason)
 
@@ -418,7 +418,7 @@ def process_batch(folder_name, conn):
         'high': 0,
         'medium': 0,
         'low': 0,
-        'smoking_guns': 0,
+        'key_findings': 0,
         'supports': 0,
         'undermines': 0,
         'neutral': 0,
@@ -473,10 +473,10 @@ def process_batch(folder_name, conn):
                            VALUES (?, 1, ?, ?, ?, ?)""",
                           (doc_id, relevance, supports, reasoning, key_quote))
 
-                # Check for smoking guns
-                sg_reasons = is_smoking_gun(content, relevance, critical_hits)
+                # Check for key findings
+                sg_reasons = is_key_finding(content, relevance, critical_hits)
                 if sg_reasons and relevance in ('CRITICAL', 'HIGH'):
-                    stats['smoking_guns'] += 1
+                    stats['key_findings'] += 1
                     why_critical = '; '.join(sg_reasons)
                     recommended_use = f"Use in motion for summary judgment / trial exhibit. {why_critical}"
                     c.execute("""INSERT OR REPLACE INTO smoking_guns
@@ -503,7 +503,7 @@ def main():
     total_stats = {
         'total': 0, 'reviewed': 0, 'relevant': 0,
         'critical': 0, 'high': 0, 'medium': 0, 'low': 0,
-        'smoking_guns': 0, 'supports': 0, 'undermines': 0, 'neutral': 0, 'errors': 0,
+        'key_findings': 0, 'supports': 0, 'undermines': 0, 'neutral': 0, 'errors': 0,
     }
 
     for folder_num in range(1, 7):
@@ -520,7 +520,7 @@ def main():
         print(f"    HIGH: {stats['high']}")
         print(f"    MEDIUM: {stats['medium']}")
         print(f"    LOW: {stats['low']}")
-        print(f"  Smoking guns: {stats['smoking_guns']}")
+        print(f"  Key findings: {stats['key_findings']}")
         print(f"  Errors: {stats['errors']}")
 
         for key in total_stats:
@@ -537,7 +537,7 @@ def main():
     print(f"  HIGH: {total_stats['high']}")
     print(f"  MEDIUM: {total_stats['medium']}")
     print(f"  LOW: {total_stats['low']}")
-    print(f"Smoking guns: {total_stats['smoking_guns']}")
+    print(f"Key findings: {total_stats['key_findings']}")
     print(f"Supports claim: {total_stats['supports']}")
     print(f"Undermines claim: {total_stats['undermines']}")
     print(f"Neutral: {total_stats['neutral']}")

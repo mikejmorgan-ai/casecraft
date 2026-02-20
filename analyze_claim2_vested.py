@@ -394,7 +394,7 @@ def score_document(text):
 
     reasoning = "; ".join(reasons)[:1000]
 
-    # Smoking gun detection
+    # Key finding detection
     is_sg = False
     sg_why = ""
     sg_use = ""
@@ -440,7 +440,7 @@ def score_document(text):
             (r'pending\s+ordinance.*(?:limit|prohibit|development).*mining',
              "County acknowledged pending ordinance would affect existing mining",
              "Exhibit showing county acted with knowledge of existing operations"),
-            # Claim 2 specific smoking guns
+            # Claim 2 specific key findings
             (r'COM21[\-\.]?1590',
              "Business license denial COM21-1590 — direct enforcement action",
              "Core exhibit proving active enforcement against Tree Farm mining operations"),
@@ -552,11 +552,11 @@ def process_all():
     stats = {
         'total': 0, 'reviewed': 0, 'relevant': 0,
         'CRITICAL': 0, 'HIGH': 0, 'MEDIUM': 0, 'LOW': 0,
-        'smoking_guns': 0, 'supports': 0, 'undermines': 0,
+        'key_findings': 0, 'supports': 0, 'undermines': 0,
         'empty': 0, 'not_relevant': 0, 'duplicates': 0,
     }
 
-    smoking_guns_list = []
+    key_findings_list = []
     critical_docs = []
     all_relevant = []
 
@@ -668,14 +668,14 @@ def process_all():
                      (doc_title, doc_date, doc_type, doc_summary, doc_id))
 
             if is_sg:
-                stats['smoking_guns'] += 1
+                stats['key_findings'] += 1
                 c.execute("DELETE FROM smoking_guns WHERE doc_id=? AND claim_num=2", (doc_id,))
                 c.execute("""INSERT INTO smoking_guns
                             (doc_id, claim_num, why_critical, recommended_use)
                             VALUES (?, 2, ?, ?)""",
                          (doc_id, sg_why, sg_use))
-                smoking_guns_list.append(content_hashes[chash])
-                print(f"  *** SMOKING GUN: {bates} - {sg_why}")
+                key_findings_list.append(content_hashes[chash])
+                print(f"  *** KEY FINDING: {bates} - {sg_why}")
 
             if relevance == "CRITICAL":
                 critical_docs.append(content_hashes[chash])
@@ -690,10 +690,10 @@ def process_all():
     conn.commit()
     conn.close()
 
-    return stats, smoking_guns_list, critical_docs, all_relevant, content_hashes
+    return stats, key_findings_list, critical_docs, all_relevant, content_hashes
 
 
-def write_results(stats, smoking_guns, critical_docs, all_relevant, content_hashes):
+def write_results(stats, key_findings, critical_docs, all_relevant, content_hashes):
     """Write comprehensive deduplicated results to markdown file."""
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
@@ -720,17 +720,17 @@ def write_results(stats, smoking_guns, critical_docs, all_relevant, content_hash
         f.write(f"| HIGH | {stats['HIGH']} |\n")
         f.write(f"| MEDIUM | {stats['MEDIUM']} |\n")
         f.write(f"| LOW | {stats['LOW']} |\n")
-        f.write(f"| Smoking Guns (unique) | {len(smoking_guns)} |\n")
+        f.write(f"| Key Findings (unique) | {len(key_findings)} |\n")
         f.write(f"| Supports our claim | {stats['supports']} |\n")
         f.write(f"| Undermines our claim | {stats['undermines']} |\n")
         f.write(f"| Empty/trivial | {stats['empty']} |\n")
         f.write(f"| Not relevant | {stats['not_relevant']} |\n\n")
 
-        # Smoking guns section — DEDUPLICATED
+        # Key findings section — DEDUPLICATED
         f.write("---\n\n")
-        f.write("## SMOKING GUNS (Deduplicated)\n\n")
-        if smoking_guns:
-            for i, entry in enumerate(smoking_guns, 1):
+        f.write("## KEY FINDINGS (Deduplicated)\n\n")
+        if key_findings:
+            for i, entry in enumerate(key_findings, 1):
                 d = entry['data']
                 all_bates = entry['all_bates']
                 f.write(f"### SG-{i}: {d['bates']} (primary)\n")
@@ -744,7 +744,7 @@ def write_results(stats, smoking_guns, critical_docs, all_relevant, content_hash
                 f.write(f"- **Element:** {d.get('element', 'General')}\n")
                 f.write(f"- **Key quote:** \"{d['key_quote'][:300]}\"\n\n")
         else:
-            f.write("*No smoking guns identified.*\n\n")
+            f.write("*No key findings identified.*\n\n")
 
         # Critical documents section — DEDUPLICATED
         f.write("---\n\n")
@@ -836,13 +836,13 @@ if __name__ == "__main__":
     print(f"  LOW:                      {stats['LOW']}")
     print(f"Supports (our claim):       {stats['supports']}")
     print(f"Undermines (our claim):     {stats['undermines']}")
-    print(f"SMOKING GUNS (unique):      {len(sgs)}")
+    print(f"KEY FINDINGS (unique):      {len(sgs)}")
     print(f"DUPLICATE Bates removed:    {stats['duplicates']}")
     print(f"UNIQUE documents:           {unique_count}")
 
     if sgs:
         print(f"\n{'='*60}")
-        print("SMOKING GUNS — DEDUPLICATED")
+        print("KEY FINDINGS — DEDUPLICATED")
         print(f"{'='*60}")
         for entry in sgs:
             d = entry['data']

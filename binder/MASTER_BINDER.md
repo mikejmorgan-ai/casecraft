@@ -18,14 +18,14 @@
 ## Table of Contents
 
 - [Claim 1: Ordinance Invalid -- State Preemption Under Utah Code 17-41-402(6)](#claim-1-ordinance-invalid--state-preemption-under-utah-code-17-41-4026)
-    - [Section 1A: Smoking Gun Exhibits](#section-1a-smoking-gun-exhibits--claim-1)
+    - [Section 1A: Key Finding Exhibits](#section-1a-key-finding-exhibits--claim-1)
     - [Section 1B: Critical Relevance Documents](#section-1b-critical-relevance-documents--claim-1)
     - [Section 1C: High Relevance Documents](#section-1c-high-relevance-documents--claim-1)
     - [Section 1D: Medium Relevance Documents](#section-1d-medium-relevance-documents--claim-1)
     - [Section 1E: Low Relevance Documents](#section-1e-low-relevance-documents--claim-1)
 - [Claim 2: Permanent Injunction -- No Enforcement](#claim-2-permanent-injunction--no-enforcement)
 - [Claim 3: Vested Mining Rights Under Utah Code 17-41-501 Through 17-41-503](#claim-3-vested-mining-rights-under-utah-code-17-41-501-through-17-41-503)
-    - [Section 3A: Smoking Gun Exhibits](#section-3a-smoking-gun-exhibits--claim-3)
+    - [Section 3A: Key Finding Exhibits](#section-3a-key-finding-exhibits--claim-3)
     - [Section 3B: Critical Relevance Documents](#section-3b-critical-relevance-documents--claim-3)
     - [Section 3C: High Relevance Documents](#section-3c-high-relevance-documents--claim-3)
     - [Section 3D: Medium Relevance Documents](#section-3d-medium-relevance-documents--claim-3)
@@ -46,7 +46,7 @@
 
 ---
 
-## Section 1A: Smoking Gun Exhibits -- Claim 1
+## Section 1A: Key Finding Exhibits -- Claim 1
 
 > **52 documents** | These are the highest-value exhibits for Claim 1. Each document
 > contains direct evidence of state law preemption, county knowledge of illegality,
@@ -566,7 +566,7 @@
 
 **52.** **[SLCo018710]** | **SUPPORTS**
 
-> **Why Critical:** The ordinance language itself proves a facial violation of the CIM statute by explicitly targeting "sand, gravel and/or rock aggregate," which matches the statutory definition of critical infrastructure materials. This is the final exhibit in the smoking gun series and reinforces the textual basis for the preemption claim.
+> **Why Critical:** The ordinance language itself proves a facial violation of the CIM statute by explicitly targeting "sand, gravel and/or rock aggregate," which matches the statutory definition of critical infrastructure materials. This is the final exhibit in the key finding series and reinforces the textual basis for the preemption claim.
 >
 > **Recommended Use:** Use as a core exhibit. Present a side-by-side comparison of the ordinance language with the statutory CIM definition to demonstrate facial invalidity under Utah Code 17-41-402(6).
 >
@@ -2676,7 +2676,7 @@
 
 ---
 
-## Section 3A: Smoking Gun Exhibits -- Claim 3
+## Section 3A: Key Finding Exhibits -- Claim 3
 
 > **57 documents** | These are the highest-value exhibits for Claim 3. Each document
 > contains direct evidence of vested mining rights, county admissions of existing
@@ -4030,7 +4030,7 @@
 
 ## Document Statistics
 
-| Claim | Smoking Guns | Critical | High | Medium | Low | Total |
+| Claim | Key Findings | Critical | High | Medium | Low | Total |
 |-------|-------------|----------|------|--------|-----|-------|
 | Claim 1 (Ordinance Invalid) | 52 | 199 | 59 | 1,854 | 1,108 | 3,272 |
 | Claim 2 (Permanent Injunction) | -- | -- | -- | -- | -- | Pending |

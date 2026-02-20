@@ -389,8 +389,8 @@ def generate_reasoning(text, relevance, critical_hits, high_hits, medium_hits, l
     return ' '.join(parts)
 
 
-def is_smoking_gun(text, relevance, bates):
-    """Determine if this is a smoking gun document."""
+def is_key_finding(text, relevance, bates):
+    """Determine if this is a key finding document."""
     text_lower = text.lower()
 
     reasons = []
@@ -443,7 +443,7 @@ def process_all_documents():
     high_count = 0
     medium_count = 0
     low_count = 0
-    smoking_gun_count = 0
+    key_finding_count = 0
     errors = []
 
     print(f"Processing {total} documents for Claim 2: Permanent Injunction — No Enforcement")
@@ -453,7 +453,7 @@ def process_all_documents():
     for i, (doc_id, bates, filename, folder, file_path) in enumerate(all_docs):
         if (i + 1) % 500 == 0:
             conn.commit()
-            print(f"  Progress: {i+1}/{total} ({(i+1)*100//total}%) | Relevant so far: {relevant_count} | CRITICAL: {critical_count} | HIGH: {high_count} | MEDIUM: {medium_count} | LOW: {low_count} | Smoking Guns: {smoking_gun_count}")
+            print(f"  Progress: {i+1}/{total} ({(i+1)*100//total}%) | Relevant so far: {relevant_count} | CRITICAL: {critical_count} | HIGH: {high_count} | MEDIUM: {medium_count} | LOW: {low_count} | Key Findings: {key_finding_count}")
 
         try:
             # Read the document
@@ -504,10 +504,10 @@ def process_all_documents():
                     VALUES (?, 2, ?, ?, ?, ?)
                 """, (doc_id, relevance, supports_undermines, reasoning, key_quote))
 
-                # Check for smoking guns
-                sg_reasons = is_smoking_gun(text, relevance, bates)
+                # Check for key findings
+                sg_reasons = is_key_finding(text, relevance, bates)
                 if sg_reasons:
-                    smoking_gun_count += 1
+                    key_finding_count += 1
                     why_critical = ' '.join(sg_reasons)
                     recommended_use = f"Use in Claim 2 briefing to demonstrate county enforcement against Tree Farm. Bates: {bates}."
                     cursor.execute("""
@@ -531,7 +531,7 @@ def process_all_documents():
     print(f"  HIGH: {high_count}")
     print(f"  MEDIUM: {medium_count}")
     print(f"  LOW: {low_count}")
-    print(f"Smoking guns identified: {smoking_gun_count}")
+    print(f"Key findings identified: {key_finding_count}")
 
     if errors:
         print(f"\nErrors ({len(errors)}):")
@@ -540,18 +540,18 @@ def process_all_documents():
         if len(errors) > 20:
             print(f"  ... and {len(errors)-20} more")
 
-    # Print smoking guns detail
+    # Print key findings detail
     cursor.execute("""
         SELECT d.bates, d.title, sg.why_critical, sg.recommended_use
         FROM smoking_guns sg JOIN documents d ON sg.doc_id = d.id
         WHERE sg.claim_num = 2
     """)
-    smoking_guns = cursor.fetchall()
-    if smoking_guns:
+    key_findings_rows = cursor.fetchall()
+    if key_findings_rows:
         print(f"\n{'='*80}")
-        print("SMOKING GUNS FOR CLAIM 2")
+        print("KEY FINDINGS FOR CLAIM 2")
         print('='*80)
-        for bates, title, why, rec in smoking_guns:
+        for bates, title, why, rec in key_findings_rows:
             print(f"\n  Bates: {bates}")
             print(f"  Title: {title}")
             print(f"  Why Critical: {why}")
@@ -577,7 +577,7 @@ def process_all_documents():
             print(f"  Quote: {quote[:200] if quote else 'N/A'}")
 
     conn.close()
-    return total, relevant_count, critical_count, high_count, medium_count, low_count, smoking_gun_count
+    return total, relevant_count, critical_count, high_count, medium_count, low_count, key_finding_count
 
 
 if __name__ == '__main__':

@@ -19,7 +19,7 @@
 | HIGH | 1039 |
 | MEDIUM | 1680 |
 | LOW | 191 |
-| Smoking Guns (unique) | 8 |
+| Key Findings (unique) | 8 |
 | Supports our claim | 3312 |
 | Undermines our claim | 5 |
 | Empty/trivial | 126 |
@@ -27,7 +27,7 @@
 
 ---
 
-## SMOKING GUNS (Deduplicated)
+## KEY FINDINGS (Deduplicated)
 
 ### SG-1: SLCo002501 (primary)
 - **Also appears as:** SLCo008382, SLCo012814, SLCo013323

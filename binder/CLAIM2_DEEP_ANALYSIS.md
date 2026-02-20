@@ -12,7 +12,7 @@
 
 1. [Executive Summary](#1-executive-summary)
 2. [Claim 2 vs. Claim 1: The Critical Distinction](#2-claim-2-vs-claim-1-the-critical-distinction)
-3. [The 8 Smoking Guns -- Full Context and Usage](#3-the-8-smoking-guns)
+3. [The 8 Key Findings -- Full Context and Usage](#3-the-8-key-findings)
 4. [Enforcement Timeline](#4-enforcement-timeline)
 5. [The CUP Administrative Trap](#5-the-cup-administrative-trap)
 6. [Specific County Actions Requiring Injunctive Relief](#6-specific-county-actions-requiring-injunctive-relief)
@@ -49,7 +49,7 @@ The injunction claim is distinct from the declaratory judgment claim (Claim 1). 
 
 ---
 
-## 3. THE 8 SMOKING GUNS -- FULL CONTEXT AND USAGE
+## 3. THE 8 KEY FINDINGS -- FULL CONTEXT AND USAGE
 
 ### SG-1: Vested Mining Use "Runs With the Land"
 - **Primary Bates:** SLCo002501
@@ -102,7 +102,7 @@ The injunction claim is distinct from the declaratory judgment claim (Claim 1). 
 - **Document type:** County Council Staff Report / Council Meeting Packet, April 5, 2022
 - **Key quote:** "The proposed ordinance formally initiated by the Council included a prohibition of 'quarry; gravel pit; including crushers or concrete batching plants used in connection with and as a part of an operation for the removal of sand, gravel and/or rock aggregate.' However, upon closer review, staff recommends that such language is not necessary in light of existing case law."
 - **Full context:** This is the county's own staff report to the County Council for the April 5, 2022 vote on the ordinance amendment. The staff report recommended that explicit prohibition language targeting sand, gravel, and rock aggregate was "not necessary in light of existing case law." This is a devastating admission for two reasons: (1) the county's own staff recognized the legal vulnerability of explicitly prohibiting CIM extraction, and (2) rather than abandon the ordinance, the staff simply recommended rewording it to avoid the explicit prohibition while achieving the same practical result.
-- **Injunction relevance:** This is the single most powerful smoking gun for the injunction claim. It proves the county deliberately crafted the ordinance to achieve the same prohibitory effect while attempting to evade the statutory protections. This demonstrates that the county's enforcement is not incidental -- it is the intended purpose of the ordinance.
+- **Injunction relevance:** This is the single most powerful key finding for the injunction claim. It proves the county deliberately crafted the ordinance to achieve the same prohibitory effect while attempting to evade the statutory protections. This demonstrates that the county's enforcement is not incidental -- it is the intended purpose of the ordinance.
 - **Recommended use:** Summary judgment exhibit. This alone may justify the injunction on "likelihood of success on merits."
 
 ### SG-6: Bateman Letter to County DA -- Vested Rights Warning
@@ -400,7 +400,7 @@ The vested mining right "runs with the land" (Utah Code 17-41-501(2)) and consti
 
 ## 9. KEY SUPPORTING DOCUMENTS INVENTORY
 
-### Tier 1: Must-Use Exhibits (Smoking Guns)
+### Tier 1: Must-Use Exhibits (Key Findings)
 
 | Priority | Primary Bates | Document | Use |
 |----------|--------------|----------|-----|
@@ -494,7 +494,7 @@ The following Bates stamps are duplicates (same document appearing in different 
 
 ## APPENDIX B: COMPARISON WITH CLAIM 1 RESULTS
 
-The Claim 1 (Declaratory Judgment) vested mining analysis at `/home/user/casecraft/binder/VESTED_MINING_RESULTS.md` identified the same 8 smoking guns and a substantially overlapping set of critical documents. This confirms that the vested mining rights evidence supports both claims.
+The Claim 1 (Declaratory Judgment) vested mining analysis at `/home/user/casecraft/binder/VESTED_MINING_RESULTS.md` identified the same 8 key findings and a substantially overlapping set of critical documents. This confirms that the vested mining rights evidence supports both claims.
 
 **Key differences for Claim 2:**
 - Claim 2 adds the **enforcement timeline** as a separate evidentiary category
@@ -506,7 +506,7 @@ The Claim 1 (Declaratory Judgment) vested mining analysis at `/home/user/casecra
 
 **Overlap statistics:**
 - Claim 1 identified 2,310 unique relevant documents; Claim 2 identified 2,313
-- Both claims identified 8 smoking guns (same documents)
+- Both claims identified 8 key findings (same documents)
 - Both claims identified the same 5 documents that undermine the position
 - The additional 3 documents in Claim 2 relate to enforcement-specific evidence
 

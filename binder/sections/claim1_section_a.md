@@ -1,4 +1,4 @@
-### Section 1A: Smoking Gun Exhibits — Claim 1 (Ordinance Invalid)
+### Section 1A: Key Finding Exhibits — Claim 1 (Ordinance Invalid)
 
 ---
 
@@ -514,7 +514,7 @@
 
 **52.** **[SLCo018710]** **SUPPORTS**
 
-**WHY CRITICAL:** The ordinance language itself proves a facial violation of the CIM statute by explicitly targeting "sand, gravel and/or rock aggregate," which matches the statutory definition of critical infrastructure materials. This is the final exhibit in the smoking gun series and reinforces the textual basis for the preemption claim.
+**WHY CRITICAL:** The ordinance language itself proves a facial violation of the CIM statute by explicitly targeting "sand, gravel and/or rock aggregate," which matches the statutory definition of critical infrastructure materials. This is the final exhibit in the key finding series and reinforces the textual basis for the preemption claim.
 
 **RECOMMENDED USE:** Use as a core exhibit. Present a side-by-side comparison of the ordinance language with the statutory CIM definition to demonstrate facial invalidity under Utah Code 17-41-402(6).
 

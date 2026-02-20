@@ -38,7 +38,7 @@ The following 15 documents are the most critical exhibits for Claim 1. Each shou
 
 ---
 
-## III. SMOKING GUN DOCUMENTS -- THEMATIC ORGANIZATION
+## III. KEY FINDING DOCUMENTS -- THEMATIC ORGANIZATION
 
 ### Theme A: Statutory Text and County Awareness of the CIM Act
 
@@ -355,9 +355,9 @@ Jordan Carroll's internal email to Mayor Wilson and senior staff with the subjec
 
 ---
 
-## IV. DOCUMENT INDEX -- COMPLETE SMOKING GUN LIST
+## IV. DOCUMENT INDEX -- COMPLETE KEY FINDING LIST
 
-### All Claim 1 Smoking Guns by Bates Number
+### All Claim 1 Key Findings by Bates Number
 
 | Bates No. | Theme | Direction | Key Takeaway |
 |-----------|-------|-----------|--------------|
@@ -388,7 +388,7 @@ Jordan Carroll's internal email to Mayor Wilson and senior staff with the subjec
 
 ## V. CROSS-EXAMINATION ROADMAP
 
-The following questions are suggested for use during cross-examination of County witnesses, keyed to the smoking gun documents above.
+The following questions are suggested for use during cross-examination of County witnesses, keyed to the key finding documents above.
 
 **For County Planner Gregory Baptist:**
 - "You told David Carrier on December 1, 2021 that 'Salt Lake County Code provides for Mineral Extraction and Processing in the FR zone through the Conditional Use Permit process,' correct?" (SLCo013360)

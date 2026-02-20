@@ -1,4 +1,4 @@
-# SMOKING GUN INVENTORY
+# KEY FINDING INVENTORY
 ## Tree Farm, LLC v. Salt Lake County — Discovery Analysis
 ### Comprehensive Evidence of Illegal Government Action
 
