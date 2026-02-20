@@ -45,7 +45,15 @@ const SIGNUP_ROLES: { role: UserRole; icon: React.ReactNode }[] = [
   { role: 'researcher', icon: <Search className="h-5 w-5" /> },
 ]
 
-function SignupContent() {
+export default function SignupPage() {
+  return (
+    <Suspense>
+      <SignupPageContent />
+    </Suspense>
+  )
+}
+
+function SignupPageContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
 
