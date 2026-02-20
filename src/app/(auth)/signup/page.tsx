@@ -47,7 +47,7 @@ const SIGNUP_ROLES: { role: UserRole; icon: React.ReactNode }[] = [
 
 export default function SignupPage() {
   return (
-    <Suspense>
+    <Suspense fallback={<div className="dark min-h-screen flex items-center justify-center bg-background"><div className="animate-pulse text-muted-foreground">Loading...</div></div>}>
       <SignupPageContent />
     </Suspense>
   )
@@ -334,13 +334,5 @@ function SignupPageContent() {
         </CardFooter>
       </Card>
     </div>
-  )
-}
-
-export default function SignupPage() {
-  return (
-    <Suspense fallback={<div className="dark min-h-screen flex items-center justify-center bg-background"><div className="animate-pulse text-muted-foreground">Loading...</div></div>}>
-      <SignupContent />
-    </Suspense>
   )
 }
