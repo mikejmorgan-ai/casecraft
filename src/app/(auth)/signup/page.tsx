@@ -45,15 +45,7 @@ const SIGNUP_ROLES: { role: UserRole; icon: React.ReactNode }[] = [
   { role: 'researcher', icon: <Search className="h-5 w-5" /> },
 ]
 
-export default function SignupPage() {
-  return (
-    <Suspense>
-      <SignupPageContent />
-    </Suspense>
-  )
-}
-
-function SignupPageContent() {
+function SignupContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
 
@@ -334,5 +326,13 @@ function SignupPageContent() {
         </CardFooter>
       </Card>
     </div>
+  )
+}
+
+export default function SignupPage() {
+  return (
+    <Suspense fallback={<div className="dark min-h-screen flex items-center justify-center bg-background"><div className="animate-pulse text-muted-foreground">Loading...</div></div>}>
+      <SignupContent />
+    </Suspense>
   )
 }

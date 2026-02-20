@@ -203,6 +203,87 @@ export interface ClaimEvidence {
   updated_at: string
 }
 
+// Brief draft types
+export type BriefType = 'response' | 'motion' | 'memorandum' | 'opposition' | 'reply'
+
+export type BriefTone = 'formal' | 'aggressive' | 'measured'
+
+export interface MotionAnalysis {
+  id: string
+  case_id: string
+  user_id: string
+  title: string
+  motion_text: string
+  analysis_result: string | null
+  source_document_id: string | null
+  created_at: string
+  updated_at: string
+}
+
+export interface BriefDraft {
+  id: string
+  case_id: string
+  user_id: string
+  brief_type: BriefType
+  title: string
+  topic: string | null
+  instructions: string | null
+  tone: BriefTone
+  content: string | null
+  claim_ids: string[]
+  created_at: string
+  updated_at: string
+}
+
+export interface DiscoveryCategory {
+  id: string
+  case_id: string
+  name: string
+  description: string | null
+  document_count: number
+  created_at: string
+  // Joined document categories (populated via query)
+  document_categories?: DocumentCategory[]
+}
+
+export interface DocumentCategory {
+  id: string
+  document_id: string
+  category_id: string
+  relevance_score: number | null
+  ai_summary: string | null
+  is_reviewed: boolean
+  created_at: string
+}
+
+// Legal standard types for statutory analysis
+export type LegalStandardType =
+  | 'constitutional'
+  | 'statutory'
+  | 'regulatory'
+  | 'common_law'
+  | 'procedural'
+
+export interface LegalStandard {
+  id: string
+  title: string
+  citation: string
+  standard_type: LegalStandardType
+  jurisdiction: string | null
+  text: string
+  summary: string | null
+  elements: LegalElement[]
+  effective_date: string | null
+  is_active: boolean
+}
+
+export interface LegalElement {
+  element: string
+  description: string
+  burden: 'plaintiff' | 'defendant' | 'court'
+  is_required: boolean
+}
+
 // Retell Voice Call Types
 export type CallStatus = 'registered' | 'ongoing' | 'ended' | 'error'
 
@@ -242,6 +323,9 @@ export interface CaseWithRelations extends Case {
   conversations?: Conversation[]
   case_facts?: CaseFact[]
   claims_for_relief?: ClaimForRelief[]
+  motion_analyses?: MotionAnalysis[]
+  brief_drafts?: BriefDraft[]
+  discovery_categories?: DiscoveryCategory[]
 }
 
 // Database type for Supabase client
@@ -292,6 +376,26 @@ export interface Database {
         Row: ClaimEvidence
         Insert: Omit<ClaimEvidence, 'id' | 'created_at' | 'updated_at'> & { id?: string }
         Update: Partial<Omit<ClaimEvidence, 'id' | 'created_at' | 'updated_at'>>
+      }
+      motion_analyses: {
+        Row: MotionAnalysis
+        Insert: Omit<MotionAnalysis, 'id' | 'created_at' | 'updated_at'> & { id?: string }
+        Update: Partial<Omit<MotionAnalysis, 'id' | 'created_at' | 'updated_at'>>
+      }
+      brief_drafts: {
+        Row: BriefDraft
+        Insert: Omit<BriefDraft, 'id' | 'created_at' | 'updated_at'> & { id?: string }
+        Update: Partial<Omit<BriefDraft, 'id' | 'created_at' | 'updated_at'>>
+      }
+      discovery_categories: {
+        Row: DiscoveryCategory
+        Insert: Omit<DiscoveryCategory, 'id' | 'created_at'> & { id?: string }
+        Update: Partial<Omit<DiscoveryCategory, 'id' | 'created_at'>>
+      }
+      document_categories: {
+        Row: DocumentCategory
+        Insert: Omit<DocumentCategory, 'id' | 'created_at'> & { id?: string }
+        Update: Partial<Omit<DocumentCategory, 'id' | 'created_at'>>
       }
     }
     Functions: {

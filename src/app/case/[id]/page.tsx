@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { ArrowLeft, Users, FileText, MessageSquare, Scale, ClipboardList, Gavel } from 'lucide-react'
+import { ArrowLeft, Users, FileText, MessageSquare, Scale, ClipboardList, Gavel, Shield, Search, Lightbulb, FolderSearch, BookOpen, ScrollText, Target as TargetIcon, FlaskConical, Bot } from 'lucide-react'
 import { CaseSharing } from '@/components/cases/case-sharing'
 import { AgentsList } from '@/components/agents/agents-list'
 import { DocumentsList } from '@/components/documents/documents-list'
@@ -22,6 +22,18 @@ import { ExportCaseButton } from '@/components/cases/export-case-button'
 import { BlindPrediction } from '@/components/predictions/blind-prediction'
 import { Target } from 'lucide-react'
 import type { CaseStatus, CaseType, Case, Agent, Document, CaseFact } from '@/lib/types'
+
+const CASE_NAV_SECTIONS = (caseId: string) => [
+  { label: 'Overview', href: `/case/${caseId}`, icon: Scale, isActive: true },
+  { label: 'Claims', href: `/case/${caseId}/claims`, icon: Shield },
+  { label: 'Evidence', href: `/case/${caseId}/evidence`, icon: Search },
+  { label: 'Key Findings', href: `/case/${caseId}/findings`, icon: Lightbulb },
+  { label: 'Discovery', href: `/case/${caseId}/discovery`, icon: FolderSearch },
+  { label: 'Motions', href: `/case/${caseId}/motions`, icon: Gavel },
+  { label: 'Briefs', href: `/case/${caseId}/briefs`, icon: BookOpen },
+  { label: 'Statutes', href: `/case/${caseId}/statutes`, icon: ScrollText },
+  { label: 'Blind Test', href: `/case/${caseId}/blind-test`, icon: FlaskConical },
+]
 
 const STATUS_COLORS: Record<CaseStatus, string> = {
   draft: 'bg-gray-100 text-gray-800',
@@ -135,6 +147,31 @@ export default async function CaseDetailPage({
           </div>
         </div>
       </header>
+
+      {/* Section Navigation */}
+      <nav id="case-section-nav" className="bg-white border-b sticky top-0 z-10">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="flex items-center gap-1 overflow-x-auto no-scrollbar py-2">
+            {CASE_NAV_SECTIONS(id).map((section) => {
+              const Icon = section.icon
+              return (
+                <Link
+                  key={section.href}
+                  href={section.href}
+                  className={`inline-flex items-center gap-1.5 px-3 py-2 text-xs sm:text-sm font-medium rounded-md whitespace-nowrap transition-colors ${
+                    section.isActive
+                      ? 'bg-primary text-primary-foreground'
+                      : 'text-muted-foreground hover:text-foreground hover:bg-muted'
+                  }`}
+                >
+                  <Icon className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+                  {section.label}
+                </Link>
+              )
+            })}
+          </div>
+        </div>
+      </nav>
 
       {/* Content */}
       <main id="case-detail-content" className="container mx-auto px-4 sm:px-6 py-4 sm:py-8">
