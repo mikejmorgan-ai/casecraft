@@ -336,3 +336,11 @@ function SignupPageContent() {
     </div>
   )
 }
+
+export default function SignupPage() {
+  return (
+    <Suspense fallback={<div className="dark min-h-screen flex items-center justify-center bg-background"><div className="animate-pulse text-muted-foreground">Loading...</div></div>}>
+      <SignupContent />
+    </Suspense>
+  )
+}
