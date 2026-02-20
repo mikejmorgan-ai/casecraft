@@ -2,3 +2,4 @@
 export * from './case'
 export * from './agent'
 export * from './document'
+export * from './claim'
