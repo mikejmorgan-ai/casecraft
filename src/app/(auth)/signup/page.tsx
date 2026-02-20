@@ -14,7 +14,6 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/comp
 import { Scale, Loader2, Briefcase, FileText, User, Search, HelpCircle } from 'lucide-react'
 import { type UserRole, ROLE_INFO } from '@/lib/auth/rbac'
 
-// Google Icon Component
 function GoogleIcon({ className }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -45,19 +44,10 @@ const SIGNUP_ROLES: { role: UserRole; icon: React.ReactNode }[] = [
   { role: 'researcher', icon: <Search className="h-5 w-5" /> },
 ]
 
-export default function SignupPage() {
-  return (
-    <Suspense fallback={<div className="dark min-h-screen flex items-center justify-center bg-background"><div className="animate-pulse text-muted-foreground">Loading...</div></div>}>
-      <SignupPageContent />
-    </Suspense>
-  )
-}
-
-function SignupPageContent() {
+function SignupFormContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
 
-  // Check for OAuth errors in URL params (read once on initial render)
   const errorParam = searchParams.get('error')
   const initialError = errorParam ? decodeURIComponent(errorParam) : null
 
@@ -85,7 +75,6 @@ function SignupPageContent() {
       setError(result.error || 'Google sign-up failed')
       setGoogleLoading(false)
     }
-    // If successful, the user will be redirected to Google's auth page
   }
 
   const handleSignup = async (e: React.FormEvent) => {
@@ -130,7 +119,6 @@ function SignupPageContent() {
       return
     }
 
-    // Redirect to verify email page
     router.push(`/verify-email?email=${encodeURIComponent(email)}`)
   }
 
@@ -154,7 +142,6 @@ function SignupPageContent() {
             </div>
           )}
 
-          {/* Terms acceptance for OAuth - shown at top for visibility */}
           <div className="flex items-start space-x-2 p-3 bg-muted/50 rounded-lg">
             <Checkbox
               id="terms-google"
@@ -177,7 +164,6 @@ function SignupPageContent() {
             </label>
           </div>
 
-          {/* Google Sign-Up Button */}
           <Button
             id="btn-google-signup"
             type="button"
@@ -194,7 +180,6 @@ function SignupPageContent() {
             Sign up with Google
           </Button>
 
-          {/* Divider */}
           <div className="relative">
             <div className="absolute inset-0 flex items-center">
               <span className="w-full border-t border-border" />
@@ -317,7 +302,6 @@ function SignupPageContent() {
             variant="outline"
             className="w-full border-dashed border-yellow-600 text-yellow-500 hover:bg-yellow-500/10 hover:text-yellow-400"
             onClick={() => {
-              // Don't use Secure flag — prevents cookie from being set on HTTP (localhost)
               document.cookie = 'beta_bypass=true; path=/; SameSite=Lax'
               router.push('/dashboard')
             }}
@@ -334,5 +318,13 @@ function SignupPageContent() {
         </CardFooter>
       </Card>
     </div>
+  )
+}
+
+export default function SignupPage() {
+  return (
+    <Suspense fallback={<div className="dark min-h-screen flex items-center justify-center bg-background"><div className="animate-pulse text-muted-foreground">Loading...</div></div>}>
+      <SignupFormContent />
+    </Suspense>
   )
 }
