@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { ArrowLeft, Users, FileText, MessageSquare, Scale, ClipboardList, Gavel, Shield, Search, Lightbulb, FolderSearch, BookOpen, ScrollText, Target as TargetIcon, FlaskConical, Bot } from 'lucide-react'
+import { ArrowLeft, Users, FileText, MessageSquare, Scale, ClipboardList, Gavel, Shield, Search, Lightbulb, FolderSearch, BookOpen, ScrollText, Target as TargetIcon, FlaskConical, Bot, Filter } from 'lucide-react'
 import { CaseSharing } from '@/components/cases/case-sharing'
 import { AgentsList } from '@/components/agents/agents-list'
 import { DocumentsList } from '@/components/documents/documents-list'
@@ -32,6 +32,7 @@ const CASE_NAV_SECTIONS = (caseId: string) => [
   { label: 'Motions', href: `/case/${caseId}/motions`, icon: Gavel },
   { label: 'Briefs', href: `/case/${caseId}/briefs`, icon: BookOpen },
   { label: 'Statutes', href: `/case/${caseId}/statutes`, icon: ScrollText },
+  { label: 'Filters', href: `/case/${caseId}/filters`, icon: Filter },
   { label: 'Blind Test', href: `/case/${caseId}/blind-test`, icon: FlaskConical },
 ]
 
