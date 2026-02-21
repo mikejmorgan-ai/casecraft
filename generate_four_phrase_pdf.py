@@ -183,17 +183,36 @@ def build_document_section(doc: dict) -> str:
     if content is None:
         body_html = "<p><em>[Document not found on disk]</em></p>"
     else:
-        # For very large docs (>800 lines), include first 800 lines
         lines = content.split("\n")
-        truncated = False
         total_lines = len(lines)
-        if total_lines > 800:
-            lines = lines[:800]
-            truncated = True
-        highlighted = highlight_phrases("\n".join(lines))
-        body_html = f'<pre class="doc-text">{highlighted}</pre>'
-        if truncated:
-            body_html += f'<p class="truncation-note">[Document continues — showing 800 of {total_lines} lines. Full document available at Bates {doc["bates"]}.]</p>'
+        if total_lines <= 800:
+            highlighted = highlight_phrases("\n".join(lines))
+            body_html = f'<pre class="doc-text">{highlighted}</pre>'
+        else:
+            # Show first 800 lines
+            head_text = "\n".join(lines[:800])
+            highlighted_head = highlight_phrases(head_text)
+            body_html = f'<pre class="doc-text">{highlighted_head}</pre>'
+            body_html += f'<p class="truncation-note">[Showing first 800 of {total_lines} lines.]</p>'
+
+            # Find phrase matches beyond line 800 and show excerpt windows
+            CONTEXT = 10  # lines before and after each match
+            match_lines = []
+            for i, line in enumerate(lines):
+                if i < 800:
+                    continue
+                if HIGHLIGHT_RE.search(line):
+                    match_lines.append(i)
+
+            if match_lines:
+                body_html += '<h4 style="margin-top:16px; color:#92400e;">Additional excerpt(s) containing matched phrases:</h4>'
+                for ml in match_lines:
+                    start = max(ml - CONTEXT, 800)
+                    end = min(ml + CONTEXT + 1, total_lines)
+                    excerpt_text = "\n".join(lines[start:end])
+                    highlighted_excerpt = highlight_phrases(excerpt_text)
+                    body_html += f'<p class="truncation-note">[Bates {doc["bates"]} — Lines {start + 1}–{end} of {total_lines}]</p>'
+                    body_html += f'<pre class="doc-text">{highlighted_excerpt}</pre>'
 
     bates_list = ", ".join(doc["all_bates"])
 
