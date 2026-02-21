@@ -14,6 +14,7 @@ from fpdf import FPDF
 BINDER_DIR = os.path.join(os.path.dirname(__file__), 'binder')
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), 'binder', 'pdfs')
 SOURCE_FILE = os.path.join(BINDER_DIR, 'CAUSE_OF_ACTION_PACKETS.md')
+MASTER_BINDER_FILE = os.path.join(BINDER_DIR, 'MASTER_BINDER.md')
 
 
 def sanitize_text(text: str) -> str:
@@ -382,6 +383,96 @@ def render_markdown_to_pdf(pdf, md_text):
         i += 1
 
 
+def parse_master_binder(filepath):
+    """Parse MASTER_BINDER.md to extract Why Critical / Recommended Use per Bates ID."""
+    narratives = {}
+    if not os.path.exists(filepath):
+        return narratives
+
+    with open(filepath, 'r') as f:
+        text = f.read()
+
+    # Match: **N.** **[SLCoXXXXXX]** | **SUPPORTS/UNDERMINES**
+    # Followed by blockquote content until next entry or section break
+    pattern = re.compile(
+        r'\*\*\d+\.\*\*\s+\*\*\[(SLCo\d+)\]\*\*\s+\|\s+\*\*(SUPPORTS|UNDERMINES)\*\*'
+        r'(.*?)(?=\*\*\d+\.\*\*\s+\*\*\[SLCo|\n---\n\n(?:---\n|## ))',
+        re.DOTALL
+    )
+
+    for match in pattern.finditer(text):
+        bates_id = match.group(1)
+        direction = match.group(2)
+        content = match.group(3)
+
+        # Extract Why Critical
+        why_match = re.search(
+            r'\*\*Why Critical:\*\*\s*(.+?)(?=\n>\s*\n|\*\*Recommended Use:)',
+            content, re.DOTALL
+        )
+        why_text = ""
+        if why_match:
+            why_text = why_match.group(1).strip()
+            why_text = re.sub(r'\n>\s*', ' ', why_text)  # Flatten blockquote continuation
+            why_text = why_text.replace('>', '').strip()
+
+        # Extract Recommended Use
+        rec_match = re.search(
+            r'\*\*Recommended Use:\*\*\s*(.+?)(?=\n>\s*\n|\n>\s*\*"|$)',
+            content, re.DOTALL
+        )
+        rec_text = ""
+        if rec_match:
+            rec_text = rec_match.group(1).strip()
+            rec_text = re.sub(r'\n>\s*', ' ', rec_text)
+            rec_text = rec_text.replace('>', '').strip()
+
+        # Keep first (best) entry for each Bates ID
+        if bates_id not in narratives:
+            narratives[bates_id] = {
+                'direction': direction,
+                'why_critical': why_text,
+                'recommended_use': rec_text,
+            }
+
+    return narratives
+
+
+def inject_narratives(md_text, narratives):
+    """Inject MASTER_BINDER narratives into CRITICAL document entries in the packet markdown."""
+    if not narratives:
+        return md_text
+
+    lines = md_text.split('\n')
+    new_lines = []
+    i = 0
+
+    while i < len(lines):
+        new_lines.append(lines[i])
+
+        # Detect CRITICAL doc entry: **SLCoXXXXXX** | Score: ...
+        match = re.match(r'\*\*(SLCo\d+)\*\*\s+\|\s+Score:', lines[i])
+        if match:
+            bates_id = match.group(1)
+            if bates_id in narratives:
+                # Skip past existing blockquotes for this entry
+                while i + 1 < len(lines) and lines[i + 1].startswith('>'):
+                    i += 1
+                    new_lines.append(lines[i])
+
+                # Inject narrative from MASTER_BINDER
+                narr = narratives[bates_id]
+                direction = narr['direction']
+                if narr['why_critical']:
+                    new_lines.append(f'> **{direction}** -- {narr["why_critical"]}')
+                if narr['recommended_use']:
+                    new_lines.append(f'> **Recommended Use:** {narr["recommended_use"]}')
+
+        i += 1
+
+    return '\n'.join(new_lines)
+
+
 def split_into_packets(md_text):
     """Split master markdown into individual packet sections."""
     packets = {}
@@ -447,6 +538,12 @@ def main():
 
     with open(SOURCE_FILE, 'r') as f:
         md_text = f.read()
+
+    # Load MASTER_BINDER narratives and inject into packet markdown
+    narratives = parse_master_binder(MASTER_BINDER_FILE)
+    print(f"Loaded {len(narratives)} document narratives from MASTER_BINDER.md")
+    md_text = inject_narratives(md_text, narratives)
+    print(f"Injected narratives into packet markdown")
 
     packets = split_into_packets(md_text)
 
