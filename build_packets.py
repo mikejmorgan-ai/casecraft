@@ -453,6 +453,58 @@ PACKET_SUMMARIES = {
     ),
 }
 
+# Plain-English argument summaries for each packet
+PACKET_SUMMARIES = {
+    1: (
+        "To prevail on the preemption claim, Tree Farm must prove that the Salt Lake County "
+        "ordinance directly conflicts with Utah Code 17-41-402(6), which prohibits any county "
+        "from adopting an ordinance that restricts critical infrastructure materials operations. "
+        "The CRITICAL documents below establish three essential points: (1) the ordinance "
+        "expressly prohibits 'sand, gravel and/or rock aggregate' extraction -- the exact "
+        "materials protected by the CIM statute; (2) the County received repeated, explicit "
+        "warnings that the ordinance violated state law before it was adopted; and (3) the "
+        "County's own District Attorney deliberately evaded the preemption question rather "
+        "than addressing it on the merits, supporting an inference of bad faith."
+    ),
+    2: (
+        "To obtain a permanent injunction, Tree Farm must demonstrate: (1) the ordinance is "
+        "void as preempted by state law (see Packet 1); (2) the County has taken or threatened "
+        "enforcement actions under the invalid ordinance; (3) Tree Farm faces irreparable harm "
+        "without injunctive relief because its mining rights cannot be adequately compensated "
+        "through damages alone; and (4) the balance of equities favors injunctive relief. The "
+        "documents below focus on enforcement actions, predetermined outcomes, and due process "
+        "violations that demonstrate the ongoing threat of harm."
+    ),
+    3: (
+        "Under Utah Code 17-41-501 through -503, Tree Farm must prove it holds a vested mining "
+        "use that the County cannot extinguish through the ordinance. The evidence below "
+        "establishes: (1) Tree Farm filed required notices of intention with the Division of Oil, "
+        "Gas, and Mining (DOGM); (2) Tree Farm obtained necessary state mining permits; "
+        "(3) mining operations were established before the challenged ordinance was adopted; "
+        "and (4) the vested mining use runs with the land and cannot be terminated except by a "
+        "written declaration of abandonment by the owner."
+    ),
+    4: (
+        "Under the Penn Central and Lucas regulatory taking tests, Tree Farm must demonstrate "
+        "that the County's ordinance constitutes a taking requiring just compensation. The "
+        "CRITICAL documents below establish: (1) Economic Impact -- the ordinance eliminates all "
+        "economically viable mining use of Tree Farm's mineral rights and property; (2) Interference "
+        "with Investment-Backed Expectations -- Tree Farm made substantial investments in mining "
+        "permits and operations before the ordinance; and (3) Character of the Government Action -- "
+        "the ordinance was targeted legislation designed to 'shut down' a specific operator, with "
+        "community members and officials explicitly strategizing to destroy Tree Farm's mining rights."
+    ),
+    5: (
+        "COUNTY'S POSITION: The County contends that Utah Code 17-41-402(6) does not preempt "
+        "the ordinance. The County's strongest arguments are: (1) the ordinance does not reference "
+        "'critical infrastructure materials' by statutory name; (2) the County acted within its "
+        "police power to protect public health, safety, and environmental quality; (3) Tree Farm "
+        "never obtained a conditional use permit and has no vested rights; and (4) significant public "
+        "opposition to mining supports the County's legitimate governmental interest. Your attorney "
+        "should review these documents to prepare for the County's defense."
+    ),
+}
+
 
 # ═══════════════════════════════════════════════════════════════════════
 # PHRASE COMPILATION
