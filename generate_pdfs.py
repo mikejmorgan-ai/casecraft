@@ -575,12 +575,23 @@ def main():
         path = generate_packet_pdf(pkt_num_str, packets[key])
         print(f"  -> {os.path.basename(path)}")
 
-    # Combined PDF
-    print("\nGenerating Combined All-Packets PDF...")
+    # Combined PDF — excludes Packet 4 (CIM Preemption / secondary decoy)
+    # Per Kass: remove CIM, focus on vested mining
+    print("\nGenerating Combined PDF (excluding CIM Preemption)...")
+    combined_sections = []
+    if 'executive_summary' in packets:
+        combined_sections.append(packets['executive_summary'])
+    for pkt_num_str in ['1', '2', '3', '5', '6']:  # Skip 4 (CIM)
+        key = f'packet_{pkt_num_str}'
+        if key in packets:
+            combined_sections.append(packets[key])
+    combined_md = '\n\n---\n\n'.join(combined_sections)
     pdf = LegalPDF()
-    pdf.cover_page('COMPLETE DOCUMENT PACKETS', 'All 6 Cause of Action Packets -- Full Report', '1-6 Combined')
+    pdf.cover_page('CASE DOCUMENT PACKETS',
+                   'Vested Mining (PRIMARY) + Taking + Injunction + Defense',
+                   'Packets 1-3, 5-6')
     pdf.add_page()
-    render_markdown_to_pdf(pdf, md_text)
+    render_markdown_to_pdf(pdf, combined_md)
     combined_path = os.path.join(OUTPUT_DIR, 'All_Packets_Combined.pdf')
     pdf.output(combined_path)
     print(f"  -> All_Packets_Combined.pdf")
