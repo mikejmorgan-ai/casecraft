@@ -28,7 +28,7 @@
 ## DEDUPLICATED RESULTS
 
 ### 1. H.B. 288, Enrolled Copy — Critical Infrastructure Materials (Utah Code Title 17, Ch. 41)
-**Bates Nos:** SLCo002501, SLCo008382, SLCo012814, SLCo013323
+**Bates Nos:** [SLCo002501](/api/discovery/bates/SLCo002501), [SLCo008382](/api/discovery/bates/SLCo008382), [SLCo012814](/api/discovery/bates/SLCo012814), [SLCo013323](/api/discovery/bates/SLCo013323)
 **Phrases found:** Vested mining use, Mine operator, Mining protection area
 
 | Phrase | Excerpt |
@@ -56,7 +56,7 @@
 ---
 
 ### 2. Supplemental Declaration and Notice of Vested Mining Use (Recorded 11/12/2021, Entry No. 13131633)
-**Bates Nos:** SLCo003551, SLCo003560, SLCo003569, SLCo003602, SLCo003611, SLCo003699, SLCo010728, SLCo010795, SLCo010804, SLCo010813, SLCo015369, SLCo015414, SLCo015423
+**Bates Nos:** [SLCo003551](/api/discovery/bates/SLCo003551), [SLCo003560](/api/discovery/bates/SLCo003560), [SLCo003569](/api/discovery/bates/SLCo003569), [SLCo003602](/api/discovery/bates/SLCo003602), [SLCo003611](/api/discovery/bates/SLCo003611), [SLCo003699](/api/discovery/bates/SLCo003699), [SLCo010728](/api/discovery/bates/SLCo010728), [SLCo010795](/api/discovery/bates/SLCo010795), [SLCo010804](/api/discovery/bates/SLCo010804), [SLCo010813](/api/discovery/bates/SLCo010813), [SLCo015369](/api/discovery/bates/SLCo015369), [SLCo015414](/api/discovery/bates/SLCo015414), [SLCo015423](/api/discovery/bates/SLCo015423)
 **Phrases found:** Vested mining use, Vested mining rights, Mine operator, Mining protection area (ALL FOUR)
 
 | Phrase | Excerpt |
@@ -87,7 +87,7 @@
 ---
 
 ### 3. County Calendar Events — "TF Notice of Vested Mining Use" (March 29, 2022)
-**Bates Nos:** SLCo003624, SLCo003626, SLCo003628, SLCo010822, SLCo010824
+**Bates Nos:** [SLCo003624](/api/discovery/bates/SLCo003624), [SLCo003626](/api/discovery/bates/SLCo003626), [SLCo003628](/api/discovery/bates/SLCo003628), [SLCo010822](/api/discovery/bates/SLCo010822), [SLCo010824](/api/discovery/bates/SLCo010824)
 **Phrases found:** Vested mining use
 **Organizer:** Tim Bywater (SL County)
 
@@ -99,7 +99,7 @@
 ---
 
 ### 4. Division's Response to Petitioner's Reply (Attorneys General for Utah Division of Oil, Gas and Mining)
-**Bates Nos:** SLCo006843, SLCo006857, SLCo010158, SLCo010172
+**Bates Nos:** [SLCo006843](/api/discovery/bates/SLCo006843), [SLCo006857](/api/discovery/bates/SLCo006857), [SLCo010158](/api/discovery/bates/SLCo010158), [SLCo010172](/api/discovery/bates/SLCo010172)
 **Phrases found:** Vested mining use, Mine operator
 
 | Phrase | Excerpt |
@@ -115,7 +115,7 @@
 ---
 
 ### 5. Tree Farm Reply Briefs (Parr Brown Gee & Loveless / Kass Wallin, Filed Feb 18, 2022)
-**Bates Nos:** SLCo006947, SLCo006963, SLCo010271, SLCo010287
+**Bates Nos:** [SLCo006947](/api/discovery/bates/SLCo006947), [SLCo006963](/api/discovery/bates/SLCo006963), [SLCo010271](/api/discovery/bates/SLCo010271), [SLCo010287](/api/discovery/bates/SLCo010287)
 **Phrases found:** Vested mining use
 
 | Phrase | Excerpt |
@@ -125,7 +125,7 @@
 ---
 
 ### 6. Public Comment Letters to Board of Oil, Gas & Mining (Filed March 22, 2022)
-**Bates Nos:** SLCo007246, SLCo010692
+**Bates Nos:** [SLCo007246](/api/discovery/bates/SLCo007246), [SLCo010692](/api/discovery/bates/SLCo010692)
 **Phrases found:** Vested mining rights
 
 | Phrase | Excerpt |
@@ -135,7 +135,7 @@
 ---
 
 ### 7. Division Surreply Brief re: Small Mine Operators (Attorneys General for DOGM)
-**Bates Nos:** SLCo003377, SLCo009126, SLCo013723
+**Bates Nos:** [SLCo003377](/api/discovery/bates/SLCo003377), [SLCo009126](/api/discovery/bates/SLCo009126), [SLCo013723](/api/discovery/bates/SLCo013723)
 **Phrases found:** Mine operator
 
 | Phrase | Excerpt |
@@ -155,7 +155,7 @@
 ---
 
 ### 8. Salt Lake County Council Meeting Agendas — April 5, 2022 (Public Comment re: Mining)
-**Bates Nos:** SLCo004662, SLCo005003, SLCo011435, SLCo011775, SLCo016040, SLCo016381, SLCo017485, SLCo017826, SLCo018710
+**Bates Nos:** [SLCo004662](/api/discovery/bates/SLCo004662), [SLCo005003](/api/discovery/bates/SLCo005003), [SLCo011435](/api/discovery/bates/SLCo011435), [SLCo011775](/api/discovery/bates/SLCo011775), [SLCo016040](/api/discovery/bates/SLCo016040), [SLCo016381](/api/discovery/bates/SLCo016381), [SLCo017485](/api/discovery/bates/SLCo017485), [SLCo017826](/api/discovery/bates/SLCo017826), [SLCo018710](/api/discovery/bates/SLCo018710)
 **Phrases found:** Mine operator
 
 | Phrase | Excerpt |
