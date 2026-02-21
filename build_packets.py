@@ -390,6 +390,58 @@ ALL_PACKETS = {
     5: PACKET_5_PHRASES,
 }
 
+# Plain-English argument summaries for each packet
+PACKET_SUMMARIES = {
+    1: (
+        "To prevail on the preemption claim, Tree Farm must prove that the Salt Lake County "
+        "ordinance directly conflicts with Utah Code 17-41-402(6), which prohibits any county "
+        "from adopting an ordinance that restricts critical infrastructure materials operations. "
+        "The CRITICAL documents below establish three essential points: (1) the ordinance "
+        "expressly prohibits 'sand, gravel and/or rock aggregate' extraction -- the exact "
+        "materials protected by the CIM statute; (2) the County received repeated, explicit "
+        "warnings that the ordinance violated state law before it was adopted; and (3) the "
+        "County's own District Attorney deliberately evaded the preemption question rather "
+        "than addressing it on the merits, supporting an inference of bad faith."
+    ),
+    2: (
+        "To obtain a permanent injunction, Tree Farm must demonstrate: (1) the ordinance is "
+        "void as preempted by state law (see Packet 1); (2) the County has taken or threatened "
+        "enforcement actions under the invalid ordinance; (3) Tree Farm faces irreparable harm "
+        "without injunctive relief because its mining rights cannot be adequately compensated "
+        "through damages alone; and (4) the balance of equities favors injunctive relief. The "
+        "documents below focus on enforcement actions, predetermined outcomes, and due process "
+        "violations that demonstrate the ongoing threat of harm."
+    ),
+    3: (
+        "Under Utah Code 17-41-501 through -503, Tree Farm must prove it holds a vested mining "
+        "use that the County cannot extinguish through the ordinance. The evidence below "
+        "establishes: (1) Tree Farm filed required notices of intention with the Division of Oil, "
+        "Gas, and Mining (DOGM); (2) Tree Farm obtained necessary state mining permits; "
+        "(3) mining operations were established before the challenged ordinance was adopted; "
+        "and (4) the vested mining use runs with the land and cannot be terminated except by a "
+        "written declaration of abandonment by the owner."
+    ),
+    4: (
+        "Under the Penn Central and Lucas regulatory taking tests, Tree Farm must demonstrate "
+        "that the County's ordinance constitutes a taking requiring just compensation. The "
+        "CRITICAL documents below establish: (1) Economic Impact -- the ordinance eliminates all "
+        "economically viable mining use of Tree Farm's mineral rights and property; (2) Interference "
+        "with Investment-Backed Expectations -- Tree Farm made substantial investments in mining "
+        "permits and operations before the ordinance; and (3) Character of the Government Action -- "
+        "the ordinance was targeted legislation designed to 'shut down' a specific operator, with "
+        "community members and officials explicitly strategizing to destroy Tree Farm's mining rights."
+    ),
+    5: (
+        "COUNTY'S POSITION: The County contends that Utah Code 17-41-402(6) does not preempt "
+        "the ordinance. The County's strongest arguments are: (1) the ordinance does not reference "
+        "'critical infrastructure materials' by statutory name; (2) the County acted within its "
+        "police power to protect public health, safety, and environmental quality; (3) Tree Farm "
+        "never obtained a conditional use permit and has no vested rights; and (4) significant public "
+        "opposition to mining supports the County's legitimate governmental interest. Your attorney "
+        "should review these documents to prepare for the County's defense."
+    ),
+}
+
 
 # ═══════════════════════════════════════════════════════════════════════
 # PHRASE COMPILATION
@@ -725,10 +777,10 @@ def write_packet_report(
                     if r:
                         if r["relevance"] == "CRITICAL":
                             best_rel = "CRITICAL"
-                            best_reason = r["reasoning"][:80]
+                            best_reason = r["reasoning"][:200]
                         elif r["relevance"] == "HIGH" and best_rel != "CRITICAL":
                             best_rel = "HIGH"
-                            best_reason = r["reasoning"][:80]
+                            best_reason = r["reasoning"][:200]
 
                 pkt_str = ", ".join(str(p) for p in sorted(pkts))
                 f.write(f"| {bates_id} | {pkt_str} | {best_rel} | {best_reason} |\n")
@@ -769,11 +821,15 @@ def write_packet_report(
 
 
 def _write_single_packet(f, pkt_num: int, pkt_def: Dict, results: Dict[str, Dict]):
-    """Write a single packet's section."""
+    """Write a single packet's section with argument summary, element grouping, no LOW docs."""
     f.write("\n---\n\n")
     f.write(f"# PACKET {pkt_num}: {pkt_def['name']}\n\n")
     f.write(f"**Legal Basis:** {pkt_def['legal_basis']}\n")
     f.write(f"**Total Documents:** {len(results)}\n\n")
+
+    # Argument summary
+    if pkt_num in PACKET_SUMMARIES:
+        f.write(f"> {PACKET_SUMMARIES[pkt_num]}\n\n")
 
     # Sort by relevance tier then score
     tier_order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3}
@@ -781,6 +837,17 @@ def _write_single_packet(f, pkt_num: int, pkt_def: Dict, results: Dict[str, Dict
         results.items(),
         key=lambda x: (tier_order.get(x[1]["relevance"], 9), -x[1]["score"])
     )
+
+    # Count by tier
+    tier_counts = defaultdict(int)
+    for _, result in sorted_results:
+        tier_counts[result["relevance"]] += 1
+
+    f.write("### Relevance Breakdown:\n\n")
+    f.write(f"| CRITICAL | HIGH | MEDIUM | LOW (omitted) |\n")
+    f.write(f"|----------|------|--------|---------------|\n")
+    f.write(f"| {tier_counts.get('CRITICAL', 0)} | {tier_counts.get('HIGH', 0)} "
+            f"| {tier_counts.get('MEDIUM', 0)} | {tier_counts.get('LOW', 0)} |\n\n")
 
     # Elements breakdown
     element_counts = defaultdict(int)
@@ -795,17 +862,39 @@ def _write_single_packet(f, pkt_num: int, pkt_def: Dict, results: Dict[str, Dict
         clean = elem.split("-", 1)[1].replace("-", " ").title()
         f.write(f"| {clean} | {count} |\n")
 
-    # CRITICAL documents
+    # CRITICAL documents -- grouped by primary element
     critical_docs = [(b, r) for b, r in sorted_results if r["relevance"] == "CRITICAL"]
     if critical_docs:
         f.write(f"\n### CRITICAL Documents ({len(critical_docs)})\n\n")
+
+        # Group by the element with the most phrase hits for each document
+        from collections import OrderedDict
+        element_groups = OrderedDict()
         for bates_id, result in critical_docs:
-            f.write(f"**{bates_id}** | Score: {result['score']} | ")
-            f.write(f"Elements: {', '.join(e.split('-',1)[1].replace('-',' ').title() for e in result['element_names'])}\n")
-            f.write(f"> {result['reasoning']}\n")
-            if result.get("quote"):
-                f.write(f'> *"{result["quote"][:150]}"*\n')
-            f.write("\n")
+            best_element = "Other"
+            best_hits = 0
+            for elem_name, hits in result.get("elements_hit", {}).items():
+                total = sum(c for _, c in hits)
+                if total > best_hits:
+                    best_hits = total
+                    best_element = elem_name
+            clean_name = best_element.split("-", 1)[1].replace("-", " ").title() if "-" in best_element else best_element
+            if clean_name not in element_groups:
+                element_groups[clean_name] = []
+            element_groups[clean_name].append((bates_id, result))
+
+        for element_name, docs in element_groups.items():
+            f.write(f"#### {element_name} ({len(docs)} documents)\n\n")
+            for bates_id, result in docs:
+                all_elements = ', '.join(
+                    e.split('-', 1)[1].replace('-', ' ').title()
+                    for e in result['element_names']
+                )
+                f.write(f"**{bates_id}** | Score: {result['score']} | Elements: {all_elements}\n")
+                f.write(f"> {result['reasoning']}\n")
+                if result.get("quote"):
+                    f.write(f'> *"{result["quote"][:200]}"*\n')
+                f.write("\n")
 
     # HIGH documents
     high_docs = [(b, r) for b, r in sorted_results if r["relevance"] == "HIGH"]
@@ -816,7 +905,7 @@ def _write_single_packet(f, pkt_num: int, pkt_def: Dict, results: Dict[str, Dict
             f.write(f"Elements: {', '.join(e.split('-',1)[1].replace('-',' ').title() for e in result['element_names'])}\n")
             f.write(f"> {result['reasoning']}\n\n")
 
-    # MEDIUM documents (compact)
+    # MEDIUM documents (compact table with full key phrases)
     med_docs = [(b, r) for b, r in sorted_results if r["relevance"] == "MEDIUM"]
     if med_docs:
         f.write(f"\n### MEDIUM Relevance Documents ({len(med_docs)})\n\n")
@@ -824,18 +913,17 @@ def _write_single_packet(f, pkt_num: int, pkt_def: Dict, results: Dict[str, Dict
         f.write("|----------|-------|----------|------------|\n")
         for bates_id, result in med_docs:
             elems = ", ".join(e.split('-',1)[1].replace('-',' ') for e in result['element_names'])
-            reason = result['reasoning'][:60]
+            reason = result['reasoning'][:150]
             f.write(f"| {bates_id} | {result['score']} | {elems} | {reason} |\n")
 
-    # LOW documents (just bates list)
+    # LOW documents -- count only, no listing
     low_docs = [(b, r) for b, r in sorted_results if r["relevance"] == "LOW"]
     if low_docs:
-        f.write(f"\n### LOW Relevance Documents ({len(low_docs)})\n\n")
-        # Group by tens
-        bates_list = [b for b, _ in low_docs]
-        for i in range(0, len(bates_list), 10):
-            chunk = bates_list[i:i+10]
-            f.write(", ".join(chunk) + "\n")
+        f.write(f"\n### LOW Relevance Documents: {len(low_docs)} (not listed)\n\n")
+        f.write(f"> {len(low_docs)} documents matched packet keywords at LOW relevance and are omitted ")
+        f.write(f"from this report to reduce noise. These documents contain minimal keyword overlap and ")
+        f.write(f"are unlikely to be useful as primary exhibits. The full list is available in the ")
+        f.write(f"underlying scan data.\n")
 
 
 # ═══════════════════════════════════════════════════════════════════════
