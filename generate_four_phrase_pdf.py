@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 """
-Generate self-contained PDF of Four-Phrase Search Results
-with full document text embedded for each referenced Bates number.
-One representative doc per deduplicated document type.
+Generate a fully self-contained PDF of Four-Phrase Search Results.
+
+Part 1: Search results analysis (summary, tables, key findings)
+Part 2: Full source document text for each of the 8 document types,
+         with the four search phrases highlighted in-line.
+
+No links. Everything is on the page.
 """
 
 import os
-import html
-import markdown2
+import re
+import html as html_mod
+
 from weasyprint import HTML
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -16,19 +21,80 @@ DISCOVERY_DIRS = [
     for i in range(1, 7)
 ]
 
-# One representative Bates per document type (8 deduplicated types)
-REPRESENTATIVE_BATES = [
-    ("SLCo002501", "H.B. 288, Enrolled Copy — Critical Infrastructure Materials"),
-    ("SLCo003551", "Supplemental Declaration and Notice of Vested Mining Use"),
-    ("SLCo003624", "County Calendar Events — TF Notice of Vested Mining Use"),
-    ("SLCo006843", "Division's Response to Petitioner's Reply"),
-    ("SLCo006947", "Tree Farm Reply Briefs"),
-    ("SLCo007246", "Public Comment Letters to Board of Oil, Gas & Mining"),
-    ("SLCo003377", "Division Surreply Brief re: Small Mine Operators"),
-    ("SLCo004662", "Salt Lake County Council Meeting Agendas"),
+FOUR_PHRASES = [
+    "vested mining use",
+    "vested mining rights",
+    "mine operator",
+    "mining protection area",
 ]
 
-MAX_LINES_PER_DOC = 500  # Truncate very large docs to keep PDF manageable
+# Build case-insensitive regex that highlights any of the four phrases
+HIGHLIGHT_RE = re.compile(
+    "|".join(re.escape(p) for p in FOUR_PHRASES),
+    re.IGNORECASE,
+)
+
+# One representative Bates per deduplicated document type
+DOCUMENTS = [
+    {
+        "num": 1,
+        "title": "H.B. 288, Enrolled Copy — Critical Infrastructure Materials (Utah Code Title 17, Ch. 41)",
+        "bates": "SLCo002501",
+        "all_bates": ["SLCo002501", "SLCo008382", "SLCo012814", "SLCo013323"],
+        "phrases": "Vested mining use, Mine operator, Mining protection area",
+    },
+    {
+        "num": 2,
+        "title": "Supplemental Declaration and Notice of Vested Mining Use (Recorded 11/12/2021)",
+        "bates": "SLCo003551",
+        "all_bates": ["SLCo003551", "SLCo003560", "SLCo003569", "SLCo003602", "SLCo003611", "SLCo003699",
+                       "SLCo010728", "SLCo010795", "SLCo010804", "SLCo010813", "SLCo015369", "SLCo015414", "SLCo015423"],
+        "phrases": "ALL FOUR PHRASES",
+    },
+    {
+        "num": 3,
+        "title": 'County Calendar Events — "TF Notice of Vested Mining Use" (March 29, 2022)',
+        "bates": "SLCo003624",
+        "all_bates": ["SLCo003624", "SLCo003626", "SLCo003628", "SLCo010822", "SLCo010824"],
+        "phrases": "Vested mining use",
+    },
+    {
+        "num": 4,
+        "title": "Division's Response to Petitioner's Reply (AG for DOGM)",
+        "bates": "SLCo006843",
+        "all_bates": ["SLCo006843", "SLCo006857", "SLCo010158", "SLCo010172"],
+        "phrases": "Vested mining use, Mine operator",
+    },
+    {
+        "num": 5,
+        "title": "Tree Farm Reply Briefs (Parr Brown / Kass Wallin, Filed Feb 18, 2022)",
+        "bates": "SLCo006947",
+        "all_bates": ["SLCo006947", "SLCo006963", "SLCo010271", "SLCo010287"],
+        "phrases": "Vested mining use",
+    },
+    {
+        "num": 6,
+        "title": "Public Comment Letters to Board of Oil, Gas & Mining (Filed March 22, 2022)",
+        "bates": "SLCo007246",
+        "all_bates": ["SLCo007246", "SLCo010692"],
+        "phrases": "Vested mining rights",
+    },
+    {
+        "num": 7,
+        "title": "Division Surreply Brief re: Small Mine Operators (AG for DOGM)",
+        "bates": "SLCo003377",
+        "all_bates": ["SLCo003377", "SLCo009126", "SLCo013723"],
+        "phrases": "Mine operator",
+    },
+    {
+        "num": 8,
+        "title": "Salt Lake County Council Meeting Agendas — April 5, 2022",
+        "bates": "SLCo004662",
+        "all_bates": ["SLCo004662", "SLCo005003", "SLCo011435", "SLCo011775",
+                       "SLCo016040", "SLCo016381", "SLCo017485", "SLCo017826", "SLCo018710"],
+        "phrases": "Mine operator",
+    },
+]
 
 
 def find_document(bates: str) -> str | None:
@@ -41,41 +107,120 @@ def find_document(bates: str) -> str | None:
     return None
 
 
-def build_appendix_html() -> str:
-    sections = []
-    for bates, title in REPRESENTATIVE_BATES:
-        content = find_document(bates)
-        if content is None:
-            content = "[Document not found]"
+def highlight_phrases(text: str) -> str:
+    """HTML-escape text, then wrap matched phrases in highlight spans."""
+    escaped = html_mod.escape(text)
+    # After escaping, the phrases are still plain text (no special HTML chars)
+    # so we can safely regex-replace on the escaped string
+    def replacer(m):
+        return f'<span class="hl">{m.group(0)}</span>'
+    return HIGHLIGHT_RE.sub(replacer, escaped)
 
+
+def build_analysis_section() -> str:
+    """Part 1: the search analysis (no links, plain Bates numbers)."""
+    return """
+    <h1>Four-Phrase Search Results</h1>
+    <h2>Tree Farm LLC v. Salt Lake County — Discovery Documents (SLCo002489–SLCo018710)</h2>
+
+    <p><strong>Search Date:</strong> February 21, 2026</p>
+    <p><strong>Phrases Searched (ONLY these four, case-insensitive):</strong></p>
+    <ol>
+        <li>"Vested mining use"</li>
+        <li>"Vested mining rights"</li>
+        <li>"Mine operator"</li>
+        <li>"Mining protection area"</li>
+    </ol>
+
+    <p><strong>Total discovery documents searched: 5,576</strong><br>
+    <strong>Total unique documents with at least one match: 44</strong><br>
+    <strong>Deduplicated to unique document types: 8</strong></p>
+
+    <hr>
+
+    <h2>Summary by Phrase</h2>
+    <table>
+        <tr><th>Phrase</th><th>Unique Documents</th></tr>
+        <tr><td>Vested mining use</td><td>31</td></tr>
+        <tr><td>Vested mining rights</td><td>15</td></tr>
+        <tr><td>Mine operator</td><td>35</td></tr>
+        <tr><td>Mining protection area</td><td>22</td></tr>
+    </table>
+
+    <hr>
+
+    <h2>Key Findings Summary</h2>
+    <table>
+        <tr><th>#</th><th>Document Type</th><th>Copies</th><th>Source</th><th>All 4?</th></tr>
+        <tr><td>1</td><td>H.B. 288 statute text</td><td>4</td><td>Legislature (not County)</td><td>3 of 4</td></tr>
+        <tr><td>2</td><td>Tree Farm's Supplemental Declaration</td><td>13</td><td>Tree Farm's own filing</td><td>YES — ALL 4</td></tr>
+        <tr><td>3</td><td>County calendar entries</td><td>5</td><td>County (Tim Bywater)</td><td>1 of 4</td></tr>
+        <tr><td>4</td><td>Division Response briefs</td><td>4</td><td>AG/DOGM (not County)</td><td>2 of 4</td></tr>
+        <tr><td>5</td><td>Tree Farm Reply briefs</td><td>4</td><td>Tree Farm's own filing</td><td>1 of 4</td></tr>
+        <tr><td>6</td><td>Public comment letters</td><td>2</td><td>Third-party citizen</td><td>1 of 4</td></tr>
+        <tr><td>7</td><td>Division Surreply briefs</td><td>3</td><td>AG/DOGM (not County)</td><td>1 of 4</td></tr>
+        <tr><td>8</td><td>County Council meeting agendas</td><td>9</td><td>County</td><td>1 of 4</td></tr>
+    </table>
+
+    <h3>The Bottom Line</h3>
+    <p><strong>The County produced ZERO documents showing they independently analyzed, investigated,
+    or evaluated Tree Farm's vested mining rights claim.</strong> Every match falls into one of these categories:</p>
+    <ol>
+        <li><strong>Tree Farm's own filings</strong> reflected back in discovery (17 docs)</li>
+        <li><strong>The statute itself</strong> — H.B. 288 text (4 docs)</li>
+        <li><strong>Division/AG briefs</strong> arguing vested mining use is "outside the scope" and "irrelevant" (7 docs)</li>
+        <li><strong>County calendar entries</strong> noting a meeting — but no analysis, no memo, no legal review (5 docs)</li>
+        <li><strong>County Council agendas</strong> with a passing public comment reference (9 docs)</li>
+        <li><strong>Third-party public comments</strong> requesting verification (2 docs)</li>
+    </ol>
+    <p>The County's own work product on this topic amounts to <strong>calendar invites and meeting agendas</strong> — nothing more.</p>
+    """
+
+
+def build_document_section(doc: dict) -> str:
+    """Build one document exhibit section with highlighted full text."""
+    content = find_document(doc["bates"])
+    if content is None:
+        body_html = "<p><em>[Document not found on disk]</em></p>"
+    else:
+        # For very large docs (>800 lines), include first 800 lines
         lines = content.split("\n")
-        truncated = len(lines) > MAX_LINES_PER_DOC
+        truncated = False
+        total_lines = len(lines)
+        if total_lines > 800:
+            lines = lines[:800]
+            truncated = True
+        highlighted = highlight_phrases("\n".join(lines))
+        body_html = f'<pre class="doc-text">{highlighted}</pre>'
         if truncated:
-            lines = lines[:MAX_LINES_PER_DOC]
-            lines.append(f"\n[... truncated at {MAX_LINES_PER_DOC} lines — full document: {len(content.splitlines())} lines ...]")
+            body_html += f'<p class="truncation-note">[Document continues — showing 800 of {total_lines} lines. Full document available at Bates {doc["bates"]}.]</p>'
 
-        escaped = html.escape("\n".join(lines))
-        sections.append(f"""
-        <div class="appendix-doc" style="page-break-before: always;">
-            <h3>Exhibit: {html.escape(bates)} — {html.escape(title)}</h3>
-            <pre class="doc-content">{escaped}</pre>
+    bates_list = ", ".join(doc["all_bates"])
+
+    return f"""
+    <div class="exhibit" style="page-break-before: always;">
+        <div class="exhibit-header">
+            <div class="exhibit-num">Document {doc['num']} of 8</div>
+            <h3>{html_mod.escape(doc['title'])}</h3>
+            <div class="exhibit-meta">
+                <strong>Representative Bates:</strong> {doc['bates']}<br>
+                <strong>All Bates Nos:</strong> {bates_list}<br>
+                <strong>Phrases found:</strong> {html_mod.escape(doc['phrases'])}
+            </div>
+            <div class="legend">
+                <span class="hl">highlighted text</span> = one of the four search phrases
+            </div>
         </div>
-        """)
-
-    return "\n".join(sections)
+        {body_html}
+    </div>
+    """
 
 
 def main():
-    md_file = os.path.join(PROJECT_ROOT, "binder/FOUR_PHRASE_SEARCH_RESULTS.md")
-    pdf_file = os.path.join(PROJECT_ROOT, "binder/pdfs/Four_Phrase_Search_Results.pdf")
+    analysis = build_analysis_section()
+    exhibits = "\n".join(build_document_section(d) for d in DOCUMENTS)
 
-    with open(md_file, "r") as f:
-        md_content = f.read()
-
-    html_body = markdown2.markdown(md_content, extras=["tables", "fenced-code-blocks"])
-    appendix_html = build_appendix_html()
-
-    html_full = f"""<!DOCTYPE html>
+    full_html = f"""<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -111,7 +256,7 @@ def main():
   h3 {{
     font-size: 13px;
     color: #34495e;
-    margin-top: 18px;
+    margin-top: 12px;
     margin-bottom: 4px;
   }}
   table {{
@@ -135,20 +280,7 @@ def main():
   tr:nth-child(even) {{
     background-color: #f8f9fa;
   }}
-  a {{
-    color: #2563eb;
-    text-decoration: underline;
-  }}
-  code {{
-    font-family: 'Courier New', monospace;
-    font-size: 9.5px;
-    background-color: #f0f0f0;
-    padding: 1px 3px;
-    border-radius: 2px;
-  }}
-  strong {{
-    color: #2c3e50;
-  }}
+  strong {{ color: #2c3e50; }}
   hr {{
     border: none;
     border-top: 1px solid #ccc;
@@ -158,58 +290,105 @@ def main():
     margin: 6px 0;
     padding-left: 24px;
   }}
-  li {{
-    margin-bottom: 3px;
-  }}
-  p {{
-    margin: 6px 0;
-  }}
+  li {{ margin-bottom: 3px; }}
+  p {{ margin: 6px 0; }}
 
-  /* Appendix styles */
-  .appendix-divider {{
-    page-break-before: always;
-    border-top: 3px solid #2c3e50;
-    padding-top: 16px;
-    margin-top: 32px;
+  /* Exhibit styles */
+  .exhibit-header {{
+    background-color: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
   }}
-  .appendix-doc h3 {{
-    background-color: #2c3e50;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 4px;
-    font-size: 12px;
-    margin-bottom: 8px;
+  .exhibit-num {{
+    font-size: 10px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
   }}
-  .doc-content {{
+  .exhibit-header h3 {{
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    color: #1e293b;
+  }}
+  .exhibit-meta {{
+    font-size: 10px;
+    color: #475569;
+    line-height: 1.6;
+  }}
+  .legend {{
+    margin-top: 8px;
+    font-size: 10px;
+    color: #64748b;
+  }}
+  .doc-text {{
     font-family: 'Courier New', monospace;
-    font-size: 8.5px;
-    line-height: 1.4;
+    font-size: 8px;
+    line-height: 1.35;
     background-color: #fafafa;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #e2e8f0;
     padding: 12px;
     border-radius: 4px;
     white-space: pre-wrap;
     word-wrap: break-word;
     overflow-wrap: break-word;
   }}
+  .hl {{
+    background-color: #fef08a;
+    padding: 0 2px;
+    font-weight: bold;
+  }}
+  .truncation-note {{
+    font-size: 10px;
+    color: #92400e;
+    background-color: #fffbeb;
+    border: 1px solid #fde68a;
+    padding: 6px 10px;
+    border-radius: 4px;
+    margin-top: 8px;
+  }}
+
+  /* Divider page */
+  .part-divider {{
+    page-break-before: always;
+    text-align: center;
+    padding-top: 200px;
+  }}
+  .part-divider h1 {{
+    border: none;
+    font-size: 28px;
+    color: #2c3e50;
+  }}
+  .part-divider p {{
+    font-size: 14px;
+    color: #64748b;
+  }}
 </style>
 </head>
 <body>
-{html_body}
 
-<div class="appendix-divider">
-  <h1>APPENDIX — Source Documents</h1>
-  <p>One representative document per deduplicated type (8 documents). Large documents truncated at {MAX_LINES_PER_DOC} lines.</p>
+{analysis}
+
+<div class="part-divider">
+    <h1>PART 2: SOURCE DOCUMENTS</h1>
+    <p>Full text of each document type with search phrases highlighted</p>
+    <p style="font-size: 12px; margin-top: 24px;">
+        <span class="hl">highlighted text</span> = one of the four search phrases<br>
+        ("vested mining use" / "vested mining rights" / "mine operator" / "mining protection area")
+    </p>
 </div>
 
-{appendix_html}
+{exhibits}
 
 </body>
 </html>"""
 
-    HTML(string=html_full).write_pdf(pdf_file)
-    print(f"PDF generated: {pdf_file}")
-    size_kb = os.path.getsize(pdf_file) / 1024
+    pdf_path = os.path.join(PROJECT_ROOT, "binder/pdfs/Four_Phrase_Search_Results.pdf")
+    HTML(string=full_html).write_pdf(pdf_path)
+    size_kb = os.path.getsize(pdf_path) / 1024
+    print(f"PDF generated: {pdf_path}")
     print(f"Size: {size_kb:.0f} KB")
 
 
