@@ -211,7 +211,7 @@ def build_document_section(doc: dict) -> str:
                     end = min(ml + CONTEXT + 1, total_lines)
                     excerpt_text = "\n".join(lines[start:end])
                     highlighted_excerpt = highlight_phrases(excerpt_text)
-                    body_html += f'<p class="truncation-note">[Lines {start + 1}–{end} of {total_lines}]</p>'
+                    body_html += f'<p class="truncation-note">[Bates {doc["bates"]} — Lines {start + 1}–{end} of {total_lines}]</p>'
                     body_html += f'<pre class="doc-text">{highlighted_excerpt}</pre>'
 
     bates_list = ", ".join(doc["all_bates"])
