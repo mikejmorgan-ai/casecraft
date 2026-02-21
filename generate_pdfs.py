@@ -596,6 +596,22 @@ def main():
     pdf.output(combined_path)
     print(f"  -> All_Packets_Combined.pdf")
 
+    # Attorney Brief -- Vested Mining Rights
+    brief_file = os.path.join(BINDER_DIR, 'VESTED_MINING_BRIEF.md')
+    if os.path.exists(brief_file):
+        print("\nGenerating Vested Mining Attorney Brief PDF...")
+        with open(brief_file, 'r') as bf:
+            brief_md = bf.read()
+        pdf = LegalPDF()
+        pdf.cover_page('VESTED MINING RIGHTS',
+                       'Attorney Brief -- 8 Key Documents from 5,576 Produced',
+                       'PRIMARY CLAIM')
+        pdf.add_page()
+        render_markdown_to_pdf(pdf, brief_md)
+        brief_path = os.path.join(OUTPUT_DIR, 'Vested_Mining_Attorney_Brief.pdf')
+        pdf.output(brief_path)
+        print(f"  -> Vested_Mining_Attorney_Brief.pdf")
+
     print(f"\n{'=' * 60}")
     print(f"All PDFs generated in: {OUTPUT_DIR}")
     print(f"{'=' * 60}")
