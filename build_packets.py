@@ -31,8 +31,8 @@ from typing import Dict, List, Tuple, Optional, Set
 # ═══════════════════════════════════════════════════════════════════════
 
 PACKET_1_PHRASES = {
-    "name": "Declaratory Relief — Ordinance Invalid (17-41-402 Preemption)",
-    "short": "Ordinance Invalid",
+    "name": "SECONDARY: CIM Preemption (17-41-402) — Alternative Theory",
+    "short": "CIM Preemption (SECONDARY)",
     "legal_basis": "Utah Code 17-41-402(6) (now 17-81-402) — CIM state preemption",
     "elements": {
         "A-Preemption": [
@@ -90,8 +90,8 @@ PACKET_1_PHRASES = {
 }
 
 PACKET_2_PHRASES = {
-    "name": "Permanent Injunction — Stop County Enforcement",
-    "short": "Permanent Injunction",
+    "name": "REMEDY: Permanent Injunction — Stop Enforcement",
+    "short": "Permanent Injunction (REMEDY)",
     "legal_basis": "Injunctive relief — preemption + due process violations",
     "elements": {
         "A-Preemption-Basis": [
@@ -166,8 +166,8 @@ PACKET_2_PHRASES = {
 }
 
 PACKET_3_PHRASES = {
-    "name": "Declaratory Relief — TF Has Vested Mining Use",
-    "short": "Vested Mining Use",
+    "name": "PRIMARY: Vested Mining Rights",
+    "short": "Vested Mining Rights (PRIMARY)",
     "legal_basis": "Utah Code 17-41-501 to -503 (now 17-81-401 to -403)",
     "elements": {
         "A-Prior-Use": [
@@ -177,6 +177,8 @@ PACKET_3_PHRASES = {
             "mine operator",
             "mining protection area",
             "mining use",
+            "mining rights",
+            "vested rights",
             "declaration of vested",
             "notice of vested",
             "nonconforming use",
@@ -186,6 +188,7 @@ PACKET_3_PHRASES = {
             "pre-existing use",
             "pre-existing mining",
             "existing use argument",
+            "prior mining",
         ],
         "B-Investment": [
             "produced commercial quantities",
@@ -240,8 +243,8 @@ PACKET_3_PHRASES = {
 }
 
 PACKET_4_PHRASES = {
-    "name": "(Alternative) Regulatory Taking",
-    "short": "Regulatory Taking",
+    "name": "ALTERNATIVE: Regulatory Taking",
+    "short": "Regulatory Taking (ALTERNATIVE)",
     "legal_basis": "U.S. Const. Amend. V; Utah Const. Art. I §22; Penn Central / Lucas tests",
     "elements": {
         "A-Economic-Impact": [
@@ -315,8 +318,8 @@ PACKET_4_PHRASES = {
 }
 
 PACKET_5_PHRASES = {
-    "name": "County Counterclaim — 17-41-402(6)(1) Does Not Preempt Ordinance",
-    "short": "County Counterclaim",
+    "name": "DEFENSE: County Counterclaim — County's Arguments",
+    "short": "County Counterclaim (DEFENSE)",
     "legal_basis": "County's defense that 17-41-402(6)(1) does not preempt the ordinance",
     "elements": {
         "A-County-Defense-Preemption": [
@@ -382,63 +385,71 @@ PACKET_5_PHRASES = {
 }
 
 
+# Reordered per Kass's strategy pivot (Feb 21, 2026):
+# Vested mining rights is the PRIMARY claim. CIM preemption was a deliberate
+# decoy to divert the County's attention. Reordered so attorney sees the
+# real case first.
 ALL_PACKETS = {
-    1: PACKET_1_PHRASES,
-    2: PACKET_2_PHRASES,
-    3: PACKET_3_PHRASES,
-    4: PACKET_4_PHRASES,
-    5: PACKET_5_PHRASES,
+    1: PACKET_3_PHRASES,  # Vested Mining Rights → PRIMARY CLAIM
+    2: PACKET_4_PHRASES,  # Regulatory Taking → ALTERNATIVE CLAIM
+    3: PACKET_2_PHRASES,  # Permanent Injunction → REMEDY
+    4: PACKET_1_PHRASES,  # CIM Preemption → SECONDARY (decoy theory)
+    5: PACKET_5_PHRASES,  # County Counterclaim → DEFENSE
 }
 
 # Plain-English argument summaries for each packet
+# Reordered per Kass's strategy pivot: Vested Mining = Packet 1 (PRIMARY)
 PACKET_SUMMARIES = {
     1: (
-        "To prevail on the preemption claim, Tree Farm must prove that the Salt Lake County "
-        "ordinance directly conflicts with Utah Code 17-41-402(6), which prohibits any county "
-        "from adopting an ordinance that restricts critical infrastructure materials operations. "
-        "The CRITICAL documents below establish three essential points: (1) the ordinance "
-        "expressly prohibits 'sand, gravel and/or rock aggregate' extraction -- the exact "
-        "materials protected by the CIM statute; (2) the County received repeated, explicit "
-        "warnings that the ordinance violated state law before it was adopted; and (3) the "
-        "County's own District Attorney deliberately evaded the preemption question rather "
-        "than addressing it on the merits, supporting an inference of bad faith."
+        "THIS IS THE PRIMARY CLAIM. Under Utah Code 17-41-501 through -503, Tree Farm holds "
+        "a vested mining use that predates the 1972 Parley's Canyon zoning. The County cannot "
+        "extinguish vested mining rights through an ordinance. The evidence below establishes: "
+        "(1) Tree Farm filed notices of intention to commence mining operations with DOGM; "
+        "(2) Tree Farm obtained necessary state mining permits; (3) mining operations were "
+        "established before the challenged ordinance was adopted; (4) the vested mining use "
+        "runs with the land and cannot be terminated except by written declaration of "
+        "abandonment by the owner; and (5) the County appears to have had NO awareness of "
+        "Tree Farm's vested mining rights -- they were focused entirely on CIM preemption. "
+        "KEY QUESTION: Did the County ever internally discuss 'mine operator', 'vested mining', "
+        "or 'mining protection area'? If not, that proves they were blindsided by this claim."
     ),
     2: (
-        "To obtain a permanent injunction, Tree Farm must demonstrate: (1) the ordinance is "
-        "void as preempted by state law (see Packet 1); (2) the County has taken or threatened "
-        "enforcement actions under the invalid ordinance; (3) Tree Farm faces irreparable harm "
-        "without injunctive relief because its mining rights cannot be adequately compensated "
-        "through damages alone; and (4) the balance of equities favors injunctive relief. The "
-        "documents below focus on enforcement actions, predetermined outcomes, and due process "
-        "violations that demonstrate the ongoing threat of harm."
+        "ALTERNATIVE CLAIM. Under the Penn Central and Lucas regulatory taking tests, the "
+        "County's ordinance constitutes a taking requiring just compensation. The documents "
+        "below establish: (1) Economic Impact -- the ordinance eliminates all economically "
+        "viable mining use of Tree Farm's mineral rights and property; (2) Interference with "
+        "Investment-Backed Expectations -- Tree Farm made substantial investments in mining "
+        "permits and operations before the ordinance; and (3) Character of the Government "
+        "Action -- the ordinance was targeted legislation designed to 'shut down' a specific "
+        "operator, with community members and officials strategizing to destroy Tree Farm's "
+        "mining rights."
     ),
     3: (
-        "Under Utah Code 17-41-501 through -503, Tree Farm must prove it holds a vested mining "
-        "use that the County cannot extinguish through the ordinance. The evidence below "
-        "establishes: (1) Tree Farm filed required notices of intention with the Division of Oil, "
-        "Gas, and Mining (DOGM); (2) Tree Farm obtained necessary state mining permits; "
-        "(3) mining operations were established before the challenged ordinance was adopted; "
-        "and (4) the vested mining use runs with the land and cannot be terminated except by a "
-        "written declaration of abandonment by the owner."
+        "REMEDY. To obtain a permanent injunction stopping enforcement, Tree Farm must show: "
+        "(1) it holds vested mining rights the County is violating (see Packet 1); (2) the "
+        "County has taken or threatened enforcement actions; (3) Tree Farm faces irreparable "
+        "harm without injunctive relief because vested mining rights cannot be adequately "
+        "compensated through damages alone; and (4) the balance of equities favors relief. "
+        "The documents below focus on enforcement actions, predetermined outcomes, and due "
+        "process violations."
     ),
     4: (
-        "Under the Penn Central and Lucas regulatory taking tests, Tree Farm must demonstrate "
-        "that the County's ordinance constitutes a taking requiring just compensation. The "
-        "CRITICAL documents below establish: (1) Economic Impact -- the ordinance eliminates all "
-        "economically viable mining use of Tree Farm's mineral rights and property; (2) Interference "
-        "with Investment-Backed Expectations -- Tree Farm made substantial investments in mining "
-        "permits and operations before the ordinance; and (3) Character of the Government Action -- "
-        "the ordinance was targeted legislation designed to 'shut down' a specific operator, with "
-        "community members and officials explicitly strategizing to destroy Tree Farm's mining rights."
+        "SECONDARY / ALTERNATIVE THEORY. This packet documents the CIM (Critical Infrastructure "
+        "Materials) preemption argument under Utah Code 17-41-402(6). NOTE: Per attorney strategy, "
+        "the CIM preemption letters from Bateman were sent as a deliberate decoy to divert the "
+        "County's attention from the vested mining rights claim. The County took the bait and "
+        "focused their defense entirely on CIM. This claim remains in the case as an alternative "
+        "theory but is NOT the primary litigation strategy. The primary case is vested mining "
+        "rights (Packet 1)."
     ),
     5: (
-        "COUNTY'S POSITION: The County contends that Utah Code 17-41-402(6) does not preempt "
-        "the ordinance. The County's strongest arguments are: (1) the ordinance does not reference "
-        "'critical infrastructure materials' by statutory name; (2) the County acted within its "
-        "police power to protect public health, safety, and environmental quality; (3) Tree Farm "
-        "never obtained a conditional use permit and has no vested rights; and (4) significant public "
-        "opposition to mining supports the County's legitimate governmental interest. Your attorney "
-        "should review these documents to prepare for the County's defense."
+        "COUNTY'S DEFENSE. The County's strongest arguments are: (1) Tree Farm never obtained "
+        "a conditional use permit and has no vested rights (NOTE: this is wrong -- vested rights "
+        "under 17-41-501 do not require a CUP); (2) the County acted within its police power; "
+        "(3) significant public opposition supports legitimate governmental interest; and (4) the "
+        "2002 Carrier decision already prohibits sand/gravel extraction (NOTE: Carrier addresses "
+        "zoning, not pre-existing vested rights). Review these documents to anticipate and "
+        "counter the County's defense."
     ),
 }
 
