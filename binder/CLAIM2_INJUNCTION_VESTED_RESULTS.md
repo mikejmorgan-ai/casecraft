@@ -1,5 +1,5 @@
 # CLAIM 2: INJUNCTION + VESTED MINING — Refocused Discovery Analysis v2
-**Generated:** 2026-02-20 21:23:39
+**Generated:** 2026-02-20 21:49:06
 **Claim 2:** Permanent Injunction + Vested Mining Rights
 **Strategy:** CIM EXCLUDED. Pure vested mining focus.
 **Deduplication:** ON — same document with different Bates stamps consolidated.

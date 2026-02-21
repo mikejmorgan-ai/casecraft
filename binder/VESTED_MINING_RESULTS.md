@@ -1,5 +1,5 @@
 # VESTED MINING RIGHTS — Refocused Discovery Analysis v2
-**Generated:** 2026-02-20 21:24:18
+**Generated:** 2026-02-20 21:49:50
 **Claim 3:** Vested Mining Rights (Utah Code 17-41-501 to -503)
 **Strategy:** CIM EXCLUDED. Pure vested mining focus.
 **Deduplication:** ON — same document with different Bates stamps consolidated.
