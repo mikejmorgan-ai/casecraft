@@ -7,12 +7,12 @@ Scans ALL 5,576 bates-stamped documents and assigns each to one or more
 of 6 litigation packets based on exact-phrase matching against the legal
 elements of each cause of action.
 
-Packet 1: Declaratory Relief — Ordinance Invalid (17-41-402 preemption)
-Packet 2: Permanent Injunction — Stop County from Enforcing Invalid Ordinance
-Packet 3: Declaratory Relief — TF Has a Vested Mining Use (17-41-501 to -503)
-Packet 4: (Alternative) Regulatory Taking (5th Amend / Utah Art I §22)
-Packet 5: County Counterclaim — 17-41-402(6)(1) Does Not Preempt Ordinance
-Packet 6: Documents Not Tied to a Cause of Action
+COA 1: Declaratory Relief — Ordinance Invalid (Utah Code 17-41-402(6))
+COA 2: Permanent Injunction — Stop County from Enforcing Invalid Ordinance
+COA 3: Declaratory Relief — TF Has a Vested Mining Use (PRIMARY) (17-41-501 to -503)
+COA 4: (Alternative) Regulatory Taking (5th Amend / Utah Art I §22)
+COA 5: County Counterclaim — 17-41-402(6)(1) Does Not Preempt Ordinance
+COA 6: Documents Not Tied to a Cause of Action
 
 Each packet uses BRACKETED TERM matching — complete phrases only, never
 single words. A document is assigned to a packet ONLY if it contains at
@@ -31,9 +31,9 @@ from typing import Dict, List, Tuple, Optional, Set
 # ═══════════════════════════════════════════════════════════════════════
 
 PACKET_1_PHRASES = {
-    "name": "SECONDARY: CIM Preemption (17-41-402) — Alternative Theory",
-    "short": "CIM Preemption (SECONDARY)",
-    "legal_basis": "Utah Code 17-41-402(6) (now 17-81-402) — CIM state preemption",
+    "name": "Declaratory Relief — Ordinance Invalid",
+    "short": "Declaratory Relief (Ordinance Invalid)",
+    "legal_basis": "Utah Code 17-41-402(6) (now 17-81-402) — ordinance preempted by state law",
     "elements": {
         "A-Preemption": [
             "critical infrastructure materials",
@@ -90,8 +90,8 @@ PACKET_1_PHRASES = {
 }
 
 PACKET_2_PHRASES = {
-    "name": "REMEDY: Permanent Injunction — Stop Enforcement",
-    "short": "Permanent Injunction (REMEDY)",
+    "name": "Permanent Injunction — Stop Enforcement of Invalid Ordinance",
+    "short": "Permanent Injunction",
     "legal_basis": "Injunctive relief — preemption + due process violations",
     "elements": {
         "A-Preemption-Basis": [
@@ -166,8 +166,8 @@ PACKET_2_PHRASES = {
 }
 
 PACKET_3_PHRASES = {
-    "name": "PRIMARY: Vested Mining Rights",
-    "short": "Vested Mining Rights (PRIMARY)",
+    "name": "Declaratory Relief — Vested Mining Use (PRIMARY)",
+    "short": "Vested Mining Use (PRIMARY)",
     "legal_basis": "Utah Code 17-41-501 to -503 (now 17-81-401 to -403)",
     "elements": {
         "A-Prior-Use": [
@@ -243,8 +243,8 @@ PACKET_3_PHRASES = {
 }
 
 PACKET_4_PHRASES = {
-    "name": "ALTERNATIVE: Regulatory Taking",
-    "short": "Regulatory Taking (ALTERNATIVE)",
+    "name": "(Alternative) Regulatory Taking",
+    "short": "Regulatory Taking (Alternative)",
     "legal_basis": "U.S. Const. Amend. V; Utah Const. Art. I §22; Penn Central / Lucas tests",
     "elements": {
         "A-Economic-Impact": [
@@ -318,9 +318,9 @@ PACKET_4_PHRASES = {
 }
 
 PACKET_5_PHRASES = {
-    "name": "DEFENSE: County Counterclaim — County's Arguments",
-    "short": "County Counterclaim (DEFENSE)",
-    "legal_basis": "County's defense that 17-41-402(6)(1) does not preempt the ordinance",
+    "name": "County Counterclaim — 17-41-402(6)(1) Does Not Preempt",
+    "short": "County Counterclaim",
+    "legal_basis": "County's Declaratory Relief that 17-41-402(6)(1) does not preempt the ordinance",
     "elements": {
         "A-County-Defense-Preemption": [
             # County argues ordinance doesn't reference CIM
@@ -385,123 +385,74 @@ PACKET_5_PHRASES = {
 }
 
 
-# Reordered per Kass's strategy pivot (Feb 21, 2026):
-# Vested mining rights is the PRIMARY claim. CIM preemption was a deliberate
-# decoy to divert the County's attention. Reordered so attorney sees the
-# real case first.
+# Packet numbering matches the Complaint and Answer/Counterclaim:
+#   COA 1: Declaratory Relief — Ordinance Invalid
+#   COA 2: Permanent Injunction — Stop Enforcement
+#   COA 3: Declaratory Relief — Vested Mining Use (PRIMARY)
+#   COA 4: (Alternative) Regulatory Taking
+#   COA 5: (Counterclaim) County Declaratory Relief re 17-41-402(6)(1)
 ALL_PACKETS = {
-    1: PACKET_3_PHRASES,  # Vested Mining Rights → PRIMARY CLAIM
-    2: PACKET_4_PHRASES,  # Regulatory Taking → ALTERNATIVE CLAIM
-    3: PACKET_2_PHRASES,  # Permanent Injunction → REMEDY
-    4: PACKET_1_PHRASES,  # CIM Preemption → SECONDARY (decoy theory)
-    5: PACKET_5_PHRASES,  # County Counterclaim → DEFENSE
+    1: PACKET_1_PHRASES,  # Declaratory Relief — Ordinance Invalid
+    2: PACKET_2_PHRASES,  # Permanent Injunction
+    3: PACKET_3_PHRASES,  # Vested Mining Use (PRIMARY)
+    4: PACKET_4_PHRASES,  # Regulatory Taking (Alternative)
+    5: PACKET_5_PHRASES,  # County Counterclaim
 }
 
-# Plain-English argument summaries for each packet
-# Reordered per Kass's strategy pivot: Vested Mining = Packet 1 (PRIMARY)
 PACKET_SUMMARIES = {
     1: (
-        "THIS IS THE PRIMARY CLAIM. Under Utah Code 17-41-501 through -503, Tree Farm holds "
-        "a vested mining use that predates the 1972 Parley's Canyon zoning. The County cannot "
-        "extinguish vested mining rights through an ordinance. The evidence below establishes: "
-        "(1) Tree Farm filed notices of intention to commence mining operations with DOGM; "
-        "(2) Tree Farm obtained necessary state mining permits; (3) mining operations were "
-        "established before the challenged ordinance was adopted; (4) the vested mining use "
-        "runs with the land and cannot be terminated except by written declaration of "
-        "abandonment by the owner; and (5) the County appears to have had NO awareness of "
-        "Tree Farm's vested mining rights -- they were focused entirely on CIM preemption. "
-        "KEY QUESTION: Did the County ever internally discuss 'mine operator', 'vested mining', "
-        "or 'mining protection area'? If not, that proves they were blindsided by this claim."
+        "Tree Farm seeks a declaration that Salt Lake County Ordinance No. 1822 is invalid "
+        "because it conflicts with Utah Code 17-41-402(6), which prohibits any county from "
+        "adopting an ordinance that restricts operations involving sand, gravel, and rock "
+        "aggregate -- the exact materials the ordinance prohibits. The documents below "
+        "establish: (1) the ordinance expressly prohibits extraction of protected materials; "
+        "(2) the County received repeated written warnings that the ordinance violated state "
+        "law and proceeded anyway; and (3) the County's own District Attorney evaded the "
+        "preemption question rather than addressing it on the merits."
     ),
     2: (
-        "ALTERNATIVE CLAIM. Under the Penn Central and Lucas regulatory taking tests, the "
-        "County's ordinance constitutes a taking requiring just compensation. The documents "
-        "below establish: (1) Economic Impact -- the ordinance eliminates all economically "
-        "viable mining use of Tree Farm's mineral rights and property; (2) Interference with "
+        "Tree Farm seeks a permanent injunction to stop the County from enforcing the invalid "
+        "ordinance. To prevail, Tree Farm must show: (1) the ordinance is void as preempted "
+        "by state law (see COA 1) or that it violates Tree Farm's vested mining rights "
+        "(see COA 3); (2) the County has taken or threatened enforcement actions; (3) Tree "
+        "Farm faces irreparable harm; and (4) the balance of equities favors relief. The "
+        "documents below focus on enforcement actions, predetermined outcomes, and due process "
+        "violations including pre-drafted victory press releases, serial meetings covering all "
+        "9 council members, and statements of prejudgment."
+    ),
+    3: (
+        "THIS IS THE PRIMARY CLAIM. Tree Farm seeks a declaration that it holds a vested "
+        "mining use under Utah Code 17-41-501 through -503 (now 17-81-401 to -403). Mining "
+        "on this property dates to the 1890s -- before Utah statehood (1896) -- and decades "
+        "before Salt Lake County adopted zoning in 1972. Vested mining uses are CONCLUSIVELY "
+        "PRESUMED under the statute and run with the land. They cannot be extinguished except "
+        "by written declaration of abandonment by the owner. The evidence below establishes: "
+        "(1) Tree Farm filed notices of intention with DOGM; (2) Tree Farm obtained state "
+        "mining permits; (3) mining operations predate the challenged ordinance; and (4) the "
+        "County appears to have had NO awareness of Tree Farm's vested mining rights theory -- "
+        "they focused their defense entirely on the preemption question."
+    ),
+    4: (
+        "In the alternative, if the ordinance is somehow deemed valid, it constitutes a "
+        "regulatory taking under the Fifth Amendment and Utah Const. Art. I Sec. 22. The "
+        "documents below establish: (1) Economic Impact -- the ordinance eliminates all "
+        "economically viable mining use of Tree Farm's mineral rights; (2) Interference with "
         "Investment-Backed Expectations -- Tree Farm made substantial investments in mining "
         "permits and operations before the ordinance; and (3) Character of the Government "
-        "Action -- the ordinance was targeted legislation designed to 'shut down' a specific "
-        "operator, with community members and officials strategizing to destroy Tree Farm's "
+        "Action -- the ordinance was targeted legislation designed to shut down a specific "
+        "operator, with officials and community members strategizing to destroy Tree Farm's "
         "mining rights."
     ),
-    3: (
-        "REMEDY. To obtain a permanent injunction stopping enforcement, Tree Farm must show: "
-        "(1) it holds vested mining rights the County is violating (see Packet 1); (2) the "
-        "County has taken or threatened enforcement actions; (3) Tree Farm faces irreparable "
-        "harm without injunctive relief because vested mining rights cannot be adequately "
-        "compensated through damages alone; and (4) the balance of equities favors relief. "
-        "The documents below focus on enforcement actions, predetermined outcomes, and due "
-        "process violations."
-    ),
-    4: (
-        "SECONDARY / ALTERNATIVE THEORY. This packet documents the CIM (Critical Infrastructure "
-        "Materials) preemption argument under Utah Code 17-41-402(6). NOTE: Per attorney strategy, "
-        "the CIM preemption letters from Bateman were sent as a deliberate decoy to divert the "
-        "County's attention from the vested mining rights claim. The County took the bait and "
-        "focused their defense entirely on CIM. This claim remains in the case as an alternative "
-        "theory but is NOT the primary litigation strategy. The primary case is vested mining "
-        "rights (Packet 1)."
-    ),
     5: (
-        "COUNTY'S DEFENSE. The County's strongest arguments are: (1) Tree Farm never obtained "
-        "a conditional use permit and has no vested rights (NOTE: this is wrong -- vested rights "
-        "under 17-41-501 do not require a CUP); (2) the County acted within its police power; "
-        "(3) significant public opposition supports legitimate governmental interest; and (4) the "
-        "2002 Carrier decision already prohibits sand/gravel extraction (NOTE: Carrier addresses "
-        "zoning, not pre-existing vested rights). Review these documents to anticipate and "
-        "counter the County's defense."
-    ),
-}
-
-# Plain-English argument summaries for each packet
-PACKET_SUMMARIES = {
-    1: (
-        "To prevail on the preemption claim, Tree Farm must prove that the Salt Lake County "
-        "ordinance directly conflicts with Utah Code 17-41-402(6), which prohibits any county "
-        "from adopting an ordinance that restricts critical infrastructure materials operations. "
-        "The CRITICAL documents below establish three essential points: (1) the ordinance "
-        "expressly prohibits 'sand, gravel and/or rock aggregate' extraction -- the exact "
-        "materials protected by the CIM statute; (2) the County received repeated, explicit "
-        "warnings that the ordinance violated state law before it was adopted; and (3) the "
-        "County's own District Attorney deliberately evaded the preemption question rather "
-        "than addressing it on the merits, supporting an inference of bad faith."
-    ),
-    2: (
-        "To obtain a permanent injunction, Tree Farm must demonstrate: (1) the ordinance is "
-        "void as preempted by state law (see Packet 1); (2) the County has taken or threatened "
-        "enforcement actions under the invalid ordinance; (3) Tree Farm faces irreparable harm "
-        "without injunctive relief because its mining rights cannot be adequately compensated "
-        "through damages alone; and (4) the balance of equities favors injunctive relief. The "
-        "documents below focus on enforcement actions, predetermined outcomes, and due process "
-        "violations that demonstrate the ongoing threat of harm."
-    ),
-    3: (
-        "Under Utah Code 17-41-501 through -503, Tree Farm must prove it holds a vested mining "
-        "use that the County cannot extinguish through the ordinance. The evidence below "
-        "establishes: (1) Tree Farm filed required notices of intention with the Division of Oil, "
-        "Gas, and Mining (DOGM); (2) Tree Farm obtained necessary state mining permits; "
-        "(3) mining operations were established before the challenged ordinance was adopted; "
-        "and (4) the vested mining use runs with the land and cannot be terminated except by a "
-        "written declaration of abandonment by the owner."
-    ),
-    4: (
-        "Under the Penn Central and Lucas regulatory taking tests, Tree Farm must demonstrate "
-        "that the County's ordinance constitutes a taking requiring just compensation. The "
-        "CRITICAL documents below establish: (1) Economic Impact -- the ordinance eliminates all "
-        "economically viable mining use of Tree Farm's mineral rights and property; (2) Interference "
-        "with Investment-Backed Expectations -- Tree Farm made substantial investments in mining "
-        "permits and operations before the ordinance; and (3) Character of the Government Action -- "
-        "the ordinance was targeted legislation designed to 'shut down' a specific operator, with "
-        "community members and officials explicitly strategizing to destroy Tree Farm's mining rights."
-    ),
-    5: (
-        "COUNTY'S POSITION: The County contends that Utah Code 17-41-402(6) does not preempt "
-        "the ordinance. The County's strongest arguments are: (1) the ordinance does not reference "
-        "'critical infrastructure materials' by statutory name; (2) the County acted within its "
-        "police power to protect public health, safety, and environmental quality; (3) Tree Farm "
-        "never obtained a conditional use permit and has no vested rights; and (4) significant public "
-        "opposition to mining supports the County's legitimate governmental interest. Your attorney "
-        "should review these documents to prepare for the County's defense."
+        "COUNTY'S COUNTERCLAIM. The County seeks a declaration that Utah Code 17-41-402(6)(1) "
+        "does not preempt the ordinance. The County's strongest arguments are: (1) the "
+        "ordinance does not reference 'critical infrastructure materials' by statutory name; "
+        "(2) the County acted within its police power to protect public health, safety, and "
+        "environmental quality; (3) Tree Farm never obtained a conditional use permit; and "
+        "(4) significant public opposition supports the County's governmental interest. "
+        "NOTE: The County's vested-rights argument is wrong -- vested rights under 17-41-501 "
+        "do not require a CUP. Review these documents to anticipate and counter the County's "
+        "defense."
     ),
 }
 
@@ -650,7 +601,7 @@ def _extract_best_quote(text: str, pkt_num: int, max_len: int = 200) -> str:
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# CIM DETECTION (for Packet 3 exclusion)
+# CIM DETECTION (exclude CIM-only docs from COA 3 Vested Mining scan)
 # ═══════════════════════════════════════════════════════════════════════
 
 CIM_PATTERNS = [
@@ -668,8 +619,8 @@ VESTED_PATTERNS = [
 ]
 
 
-def is_cim_only_for_packet3(text: str) -> bool:
-    """Check if document is CIM-only (exclude from Packet 3 vested analysis)."""
+def is_cim_only_for_vested(text: str) -> bool:
+    """Check if document is CIM-only (exclude from COA 3 vested mining analysis)."""
     has_cim = any(p.search(text) for p in CIM_PATTERNS)
     has_vested = any(p.search(text) for p in VESTED_PATTERNS)
     return has_cim and not has_vested
@@ -746,10 +697,10 @@ def process_all_documents():
                 doc_type = "document"
             doc_type_counts[doc_type] += 1
 
-            # Scan against each packet
+            # Scan against each cause of action
             for pkt_num in range(1, 6):
-                # For Packet 3: skip CIM-only documents
-                if pkt_num == 3 and is_cim_only_for_packet3(text):
+                # For COA 3 (Vested Mining): skip CIM-only documents
+                if pkt_num == 3 and is_cim_only_for_vested(text):
                     continue
 
                 result = scan_document(text, pkt_num)
@@ -784,13 +735,14 @@ def write_packet_report(
         f.write("## Tree Farm LLC v. Salt Lake County (Case No. 220903418)\n\n")
         f.write(f"**Generated:** {__import__('datetime').datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         f.write(f"**Total Documents Scanned:** {total_docs} (100% of production)\n")
-        f.write(f"**Bates Range:** SLCo002489 through SLCo018710\n\n")
+        f.write(f"**Bates Range:** SLCo002489 through SLCo018710\n")
+        f.write(f"**Source:** All bates-stamped documents from both Tree Farm and Salt Lake County productions\n\n")
 
         # Summary table
         f.write("---\n\n")
         f.write("## EXECUTIVE SUMMARY\n\n")
-        f.write("| Packet | Cause of Action | Documents | CRITICAL | HIGH | MEDIUM | LOW |\n")
-        f.write("|--------|----------------|-----------|----------|------|--------|-----|\n")
+        f.write("| COA | Cause of Action | Documents | CRITICAL | HIGH | MEDIUM | LOW |\n")
+        f.write("|-----|----------------|-----------|----------|------|--------|-----|\n")
 
         for pkt_num in range(1, 6):
             pkt_def = ALL_PACKETS[pkt_num]
@@ -804,8 +756,8 @@ def write_packet_report(
         f.write(f"| 6 | Not Tied to Cause of Action | {len(unassigned)} | — | — | — | — |\n")
 
         assigned_total = len(all_bates - unassigned)
-        f.write(f"\n**Documents assigned to at least one packet:** {assigned_total}\n")
-        f.write(f"**Documents not assigned to any packet:** {len(unassigned)}\n")
+        f.write(f"\n**Documents assigned to at least one cause of action:** {assigned_total}\n")
+        f.write(f"**Documents not assigned to any cause of action:** {len(unassigned)}\n")
         f.write(f"**Total accounted for:** {assigned_total + len(unassigned)} / {total_docs} (100%)\n\n")
 
         # Document type breakdown
@@ -828,8 +780,8 @@ def write_packet_report(
         multi_docs = {b: pkts for b, pkts in multi_packet_docs.items() if len(pkts) >= 3}
         if multi_docs:
             f.write(f"**{len(multi_docs)} documents** support 3 or more causes of action:\n\n")
-            f.write("| Bates ID | Packets | Relevance | Key Phrase |\n")
-            f.write("|----------|---------|-----------|------------|\n")
+            f.write("| Bates ID | COAs | Relevance | Key Phrase |\n")
+            f.write("|----------|------|-----------|------------|\n")
             for bates_id in sorted(multi_docs.keys()):
                 pkts = multi_docs[bates_id]
                 # Find highest relevance across packets
@@ -854,10 +806,10 @@ def write_packet_report(
             results = packet_results[pkt_num]
             _write_single_packet(f, pkt_num, pkt_def, results)
 
-        # Packet 6: Unassigned
+        # COA 6: Unassigned
         f.write("\n---\n\n")
-        f.write("# PACKET 6: Documents Not Tied to a Cause of Action\n\n")
-        f.write(f"**{len(unassigned)} documents** did not match any packet's bracketed terms.\n")
+        f.write("# COA 6: Documents Not Tied to a Cause of Action\n\n")
+        f.write(f"**{len(unassigned)} documents** did not match any cause of action's search terms.\n")
         f.write("These documents may include:\n")
         f.write("- Public comments without specific legal references\n")
         f.write("- Calendar entries / meeting invites without substantive content\n")
@@ -886,7 +838,7 @@ def write_packet_report(
 def _write_single_packet(f, pkt_num: int, pkt_def: Dict, results: Dict[str, Dict]):
     """Write a single packet's section with argument summary, element grouping, no LOW docs."""
     f.write("\n---\n\n")
-    f.write(f"# PACKET {pkt_num}: {pkt_def['name']}\n\n")
+    f.write(f"# COA {pkt_num}: {pkt_def['name']}\n\n")
     f.write(f"**Legal Basis:** {pkt_def['legal_basis']}\n")
     f.write(f"**Total Documents:** {len(results)}\n\n")
 
@@ -983,7 +935,7 @@ def _write_single_packet(f, pkt_num: int, pkt_def: Dict, results: Dict[str, Dict
     low_docs = [(b, r) for b, r in sorted_results if r["relevance"] == "LOW"]
     if low_docs:
         f.write(f"\n### LOW Relevance Documents: {len(low_docs)} (not listed)\n\n")
-        f.write(f"> {len(low_docs)} documents matched packet keywords at LOW relevance and are omitted ")
+        f.write(f"> {len(low_docs)} documents matched cause of action keywords at LOW relevance and are omitted ")
         f.write(f"from this report to reduce noise. These documents contain minimal keyword overlap and ")
         f.write(f"are unlikely to be useful as primary exhibits. The full list is available in the ")
         f.write(f"underlying scan data.\n")
@@ -1004,9 +956,9 @@ if __name__ == "__main__":
         results = packet_results[pkt_num]
         crit = sum(1 for r in results.values() if r["relevance"] == "CRITICAL")
         high = sum(1 for r in results.values() if r["relevance"] == "HIGH")
-        print(f"Packet {pkt_num} ({pkt_def['short']}): {len(results)} docs ({crit} CRITICAL, {high} HIGH)")
+        print(f"COA {pkt_num} ({pkt_def['short']}): {len(results)} docs ({crit} CRITICAL, {high} HIGH)")
 
-    print(f"Packet 6 (Not Tied to COA): {len(unassigned)} docs")
+    print(f"COA 6 (Not Tied to COA): {len(unassigned)} docs")
     print(f"\nTotal: {len(all_bates)} unique documents (100%)")
 
     output = write_packet_report(packet_results, unassigned, all_bates, total_docs, doc_type_counts)

@@ -1,525 +1,339 @@
 #!/usr/bin/env python3
 """
-Build the MASTER_BINDER.md from individual section files.
-Applies consistent formatting rules throughout.
+Build the MASTER_BINDER.md from the packet builder output.
+
+Generates a comprehensive master binder organized by the 5 causes of action
+plus a 6th category for unassigned documents. All 5,576 bates-stamped
+documents are accounted for.
+
+Numbering matches the Complaint and Answer/Counterclaim:
+  COA 1: Declaratory Relief — Ordinance Invalid
+  COA 2: Permanent Injunction — Stop Enforcement
+  COA 3: Declaratory Relief — Vested Mining Use (PRIMARY)
+  COA 4: (Alternative) Regulatory Taking
+  COA 5: County Counterclaim — 17-41-402(6)(1) Does Not Preempt
+  COA 6: Documents Not Tied to a Cause of Action
 """
 
+import os
+import sys
 import re
 from datetime import date
+from collections import defaultdict, OrderedDict
 
-def build_header():
+# Add parent directory so we can import build_packets
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+from build_packets import (
+    ALL_PACKETS, PACKET_SUMMARIES, process_all_documents
+)
+
+# Also pull in the hand-curated evidence map if available
+EVIDENCE_MAP_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'CLAIM_EVIDENCE_MAP.md')
+
+
+def build_header(total_docs, assigned_count, unassigned_count):
     today = date.today().strftime("%B %d, %Y")
     return f"""# TREE FARM LLC v. SALT LAKE COUNTY
 
-## Discovery Document Binder -- Organized by Cause of Action
+## Master Discovery Binder -- Organized by Cause of Action
 
-### 5,576 Documents Reviewed | {today}
+### {total_docs:,} Documents Reviewed | {today}
 
 ---
 
-> **Prepared for litigation use.** This binder organizes all 5,576 discovery documents
-> produced by Salt Lake County (Bates range SLCo002489 through SLCo018710) by cause
-> of action, relevance tier, and evidentiary value. Each document entry identifies whether
-> the document SUPPORTS or UNDERMINES the plaintiff's claims, with key quotes and
-> recommended trial use.
+> **Prepared for litigation use.** This binder organizes all {total_docs:,} bates-stamped
+> discovery documents (Bates range SLCo002489 through SLCo018710) by cause of action,
+> relevance tier, and evidentiary value. Every document from both Tree Farm and Salt Lake
+> County productions is accounted for.
+>
+> **Documents assigned to at least one cause of action:** {assigned_count:,}
+> **Documents not assigned to any cause of action:** {unassigned_count:,}
+>
+> **PRIMARY CLAIM:** COA 3 -- Vested Mining Use under Utah Code 17-41-501 to -503.
+> Mining on this property dates to the 1890s, before Utah statehood and decades before
+> Salt Lake County adopted zoning.
 
 ---
 
 """
+
 
 def build_toc():
     return """## Table of Contents
 
-- [Claim 1: Ordinance Invalid -- State Preemption Under Utah Code 17-41-402(6)](#claim-1-ordinance-invalid--state-preemption-under-utah-code-17-41-4026)
-    - [Section 1A: Key Finding Exhibits](#section-1a-key-finding-exhibits--claim-1)
-    - [Section 1B: Critical Relevance Documents](#section-1b-critical-relevance-documents--claim-1)
-    - [Section 1C: High Relevance Documents](#section-1c-high-relevance-documents--claim-1)
-    - [Section 1D: Medium Relevance Documents](#section-1d-medium-relevance-documents--claim-1)
-    - [Section 1E: Low Relevance Documents](#section-1e-low-relevance-documents--claim-1)
-- [Claim 2: Permanent Injunction -- No Enforcement](#claim-2-permanent-injunction--no-enforcement)
-- [Claim 3: Vested Mining Rights Under Utah Code 17-41-501 Through 17-41-503](#claim-3-vested-mining-rights-under-utah-code-17-41-501-through-17-41-503)
-    - [Section 3A: Key Finding Exhibits](#section-3a-key-finding-exhibits--claim-3)
-    - [Section 3B: Critical Relevance Documents](#section-3b-critical-relevance-documents--claim-3)
-    - [Section 3C: High Relevance Documents](#section-3c-high-relevance-documents--claim-3)
-    - [Section 3D: Medium Relevance Documents](#section-3d-medium-relevance-documents--claim-3)
-    - [Section 3E: Low Relevance Documents](#section-3e-low-relevance-documents--claim-3)
-- [Claim 4: Regulatory Taking -- Fifth Amendment and Utah Art. I, Section 22](#claim-4-regulatory-taking--fifth-amendment-and-utah-art-i-section-22)
-- [Claim 5: County Defense -- No Preemption](#claim-5-county-defense--no-preemption)
+- [COA 1: Declaratory Relief -- Ordinance Invalid](#coa-1-declaratory-relief--ordinance-invalid)
+- [COA 2: Permanent Injunction -- Stop Enforcement](#coa-2-permanent-injunction--stop-enforcement)
+- [COA 3: Declaratory Relief -- Vested Mining Use (PRIMARY)](#coa-3-declaratory-relief--vested-mining-use-primary)
+- [COA 4: (Alternative) Regulatory Taking](#coa-4-alternative-regulatory-taking)
+- [COA 5: County Counterclaim -- Does Not Preempt](#coa-5-county-counterclaim--does-not-preempt)
+- [COA 6: Documents Not Tied to a Cause of Action](#coa-6-documents-not-tied-to-a-cause-of-action)
 
 ---
 
 """
 
-def format_key_finding_entry(entry_num, bates, tag, why_critical, recommended_use, key_quote):
-    """Format a key finding / Section A entry with full detail."""
+
+def build_summary_table(packet_results, unassigned):
     lines = []
-    lines.append(f"**{entry_num}.** **[{bates}]** | **{tag}**")
-    lines.append("")
-    if why_critical:
-        lines.append(f"> **Why Critical:** {why_critical}")
-        lines.append(">")
-    if recommended_use:
-        lines.append(f"> **Recommended Use:** {recommended_use}")
-        lines.append(">")
-    if key_quote:
-        lines.append(f'> *"{key_quote}"*')
-    lines.append("")
-    lines.append("---")
+    lines.append("## Executive Summary\n")
+    lines.append("| COA | Cause of Action | Documents | CRITICAL | HIGH | MEDIUM | LOW |")
+    lines.append("|-----|----------------|-----------|----------|------|--------|-----|")
+
+    for pkt_num in range(1, 6):
+        pkt_def = ALL_PACKETS[pkt_num]
+        results = packet_results[pkt_num]
+        crit = sum(1 for r in results.values() if r["relevance"] == "CRITICAL")
+        high = sum(1 for r in results.values() if r["relevance"] == "HIGH")
+        med = sum(1 for r in results.values() if r["relevance"] == "MEDIUM")
+        low = sum(1 for r in results.values() if r["relevance"] == "LOW")
+        lines.append(f"| {pkt_num} | {pkt_def['short']} | {len(results)} | {crit} | {high} | {med} | {low} |")
+
+    lines.append(f"| 6 | Not Tied to Cause of Action | {len(unassigned)} | -- | -- | -- | -- |")
     lines.append("")
     return "\n".join(lines)
 
-def format_critical_entry(entry_num, bates, tag, description, key_quote):
-    """Format a Section B (critical relevance) entry."""
-    lines = []
 
-    lines.append(f"**{entry_num}.** **[{bates}]** | **{tag}**")
+def write_coa_section(pkt_num, pkt_def, results):
+    """Write a single COA section with all documents by relevance tier."""
+    lines = []
+    lines.append(f"# COA {pkt_num}: {pkt_def['name']}\n")
+    lines.append(f"**Legal Basis:** {pkt_def['legal_basis']}")
+    lines.append(f"**Total Documents:** {len(results)}\n")
+
+    # Argument summary
+    if pkt_num in PACKET_SUMMARIES:
+        lines.append(f"> {PACKET_SUMMARIES[pkt_num]}\n")
+
+    # Sort by relevance tier then score
+    tier_order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3}
+    sorted_results = sorted(
+        results.items(),
+        key=lambda x: (tier_order.get(x[1]["relevance"], 9), -x[1]["score"])
+    )
+
+    # Count by tier
+    tier_counts = defaultdict(int)
+    for _, result in sorted_results:
+        tier_counts[result["relevance"]] += 1
+
+    lines.append("### Relevance Breakdown\n")
+    lines.append("| CRITICAL | HIGH | MEDIUM | LOW |")
+    lines.append("|----------|------|--------|-----|")
+    lines.append(f"| {tier_counts.get('CRITICAL', 0)} | {tier_counts.get('HIGH', 0)} "
+                 f"| {tier_counts.get('MEDIUM', 0)} | {tier_counts.get('LOW', 0)} |\n")
+
+    # Elements breakdown
+    element_counts = defaultdict(int)
+    for bates_id, result in sorted_results:
+        for elem in result["element_names"]:
+            element_counts[elem] += 1
+
+    lines.append("### Elements Addressed\n")
+    lines.append("| Element | Documents |")
+    lines.append("|---------|----------|")
+    for elem, count in sorted(element_counts.items(), key=lambda x: -x[1]):
+        clean = elem.split("-", 1)[1].replace("-", " ").title()
+        lines.append(f"| {clean} | {count} |")
     lines.append("")
-    if description:
-        lines.append(f"> Description: {description}")
-        lines.append(">")
-    if key_quote:
-        lines.append(f'> *"{key_quote}"*')
+
+    # CRITICAL documents -- grouped by primary element
+    critical_docs = [(b, r) for b, r in sorted_results if r["relevance"] == "CRITICAL"]
+    if critical_docs:
+        lines.append(f"### CRITICAL Documents ({len(critical_docs)})\n")
+
+        element_groups = OrderedDict()
+        for bates_id, result in critical_docs:
+            best_element = "Other"
+            best_hits = 0
+            for elem_name, hits in result.get("elements_hit", {}).items():
+                total = sum(c for _, c in hits)
+                if total > best_hits:
+                    best_hits = total
+                    best_element = elem_name
+            clean_name = best_element.split("-", 1)[1].replace("-", " ").title() if "-" in best_element else best_element
+            if clean_name not in element_groups:
+                element_groups[clean_name] = []
+            element_groups[clean_name].append((bates_id, result))
+
+        for element_name, docs in element_groups.items():
+            lines.append(f"#### {element_name} ({len(docs)} documents)\n")
+            for bates_id, result in docs:
+                all_elements = ', '.join(
+                    e.split('-', 1)[1].replace('-', ' ').title()
+                    for e in result['element_names']
+                )
+                lines.append(f"**{bates_id}** | Score: {result['score']} | Elements: {all_elements}")
+                lines.append(f"> {result['reasoning']}")
+                if result.get("quote"):
+                    lines.append(f'> *"{result["quote"][:200]}"*')
+                lines.append("")
+
+    # HIGH documents
+    high_docs = [(b, r) for b, r in sorted_results if r["relevance"] == "HIGH"]
+    if high_docs:
+        lines.append(f"### HIGH Relevance Documents ({len(high_docs)})\n")
+        for bates_id, result in high_docs:
+            all_elements = ', '.join(
+                e.split('-', 1)[1].replace('-', ' ').title()
+                for e in result['element_names']
+            )
+            lines.append(f"**{bates_id}** | Score: {result['score']} | Elements: {all_elements}")
+            lines.append(f"> {result['reasoning']}\n")
+
+    # MEDIUM documents (compact table)
+    med_docs = [(b, r) for b, r in sorted_results if r["relevance"] == "MEDIUM"]
+    if med_docs:
+        lines.append(f"### MEDIUM Relevance Documents ({len(med_docs)})\n")
+        lines.append("| Bates ID | Score | Elements | Key Phrase |")
+        lines.append("|----------|-------|----------|------------|")
+        for bates_id, result in med_docs:
+            elems = ", ".join(e.split('-', 1)[1].replace('-', ' ') for e in result['element_names'])
+            reason = result['reasoning'][:150]
+            lines.append(f"| {bates_id} | {result['score']} | {elems} | {reason} |")
+        lines.append("")
+
+    # LOW documents -- count only
+    low_docs = [(b, r) for b, r in sorted_results if r["relevance"] == "LOW"]
+    if low_docs:
+        lines.append(f"### LOW Relevance Documents: {len(low_docs)} (not listed)\n")
+        lines.append(f"> {len(low_docs)} documents matched cause of action keywords at LOW relevance. "
+                     f"These are omitted to reduce noise but are available in the underlying scan data.")
+        lines.append("")
+
+    lines.append("---\n")
+    return "\n".join(lines)
+
+
+def write_unassigned_section(unassigned):
+    lines = []
+    lines.append("# COA 6: Documents Not Tied to a Cause of Action\n")
+    lines.append(f"**{len(unassigned)} documents** did not match any cause of action's search terms.\n")
+    lines.append("These documents may include:")
+    lines.append("- Public comments without specific legal references")
+    lines.append("- Calendar entries / meeting invites without substantive content")
+    lines.append("- News articles and media coverage")
+    lines.append("- Administrative correspondence not referencing legal issues")
+    lines.append("- Duplicates or attachments with minimal text\n")
+
+    sorted_unassigned = sorted(unassigned, key=lambda x: int(re.search(r'\d+', x).group()))
+    if len(sorted_unassigned) > 200:
+        lines.append(f"### Bates Numbers (showing first 100 and last 100 of {len(sorted_unassigned)}):\n")
+        for b in sorted_unassigned[:100]:
+            lines.append(f"- {b}")
+        lines.append(f"\n*... {len(sorted_unassigned) - 200} documents omitted ...*\n")
+        for b in sorted_unassigned[-100:]:
+            lines.append(f"- {b}")
+    else:
+        lines.append(f"### All {len(sorted_unassigned)} Bates Numbers:\n")
+        for b in sorted_unassigned:
+            lines.append(f"- {b}")
+
     lines.append("")
     return "\n".join(lines)
 
-def format_high_relevance_entry(entry_num, bates, tag, description):
-    """Format a Section C (high relevance) entry."""
-    lines = []
-    lines.append(f"**{entry_num}.** **[{bates}]** | **{tag}**")
-    lines.append("")
-    if description:
-        lines.append(f"> Description: {description}")
-    lines.append("")
-    return "\n".join(lines)
-
-def parse_section_a(text):
-    """Parse a key finding section (1A or 3A) into formatted entries."""
-    # Split on horizontal rules
-    blocks = re.split(r'\n---\n', text)
-    entries = []
-
-    for block in blocks:
-        block = block.strip()
-        if not block:
-            continue
-        # Skip section headers
-        if block.startswith('###'):
-            continue
-
-        # Extract entry number and bates
-        entry_match = re.match(r'\*\*(\d+)\.\*\*\s+\*\*\[([^\]]+)\]\*\*\s+\*\*(\w+)\*\*', block)
-        if not entry_match:
-            continue
-
-        entry_num = entry_match.group(1)
-        bates = entry_match.group(2)
-        tag = entry_match.group(3)
-
-        # Extract WHY CRITICAL
-        why_match = re.search(r'\*\*WHY CRITICAL:\*\*\s*(.*?)(?=\n\n|\*\*RECOMMENDED USE|\*\*KEY QUOTE|$)', block, re.DOTALL)
-        why_critical = why_match.group(1).strip() if why_match else ""
-
-        # Extract RECOMMENDED USE
-        use_match = re.search(r'\*\*RECOMMENDED USE:\*\*\s*(.*?)(?=\n\n|\*\*KEY QUOTE|$)', block, re.DOTALL)
-        recommended_use = use_match.group(1).strip() if use_match else ""
-
-        # Extract KEY QUOTE
-        quote_match = re.search(r'\*\*KEY QUOTE:\*\*\s*\*"([^"]*(?:"[^"]*)*?)"\*', block, re.DOTALL)
-        if not quote_match:
-            quote_match = re.search(r'\*\*KEY QUOTE:\*\*\s*\*"(.*?)"\*', block, re.DOTALL)
-        key_quote = quote_match.group(1).strip() if quote_match else ""
-
-        entries.append(format_key_finding_entry(entry_num, bates, tag, why_critical, recommended_use, key_quote))
-
-    return "\n".join(entries)
-
-def parse_section_b_claim1(text):
-    """Parse Claim 1 Section B entries."""
-    lines = text.strip().split('\n')
-    entries = []
-    i = 0
-    while i < len(lines):
-        line = lines[i].strip()
-        # Match entry pattern: **N.** **[SLCoXXXXXX]** **TAG**
-        entry_match = re.match(r'\*\*(\d+)\.\*\*\s+\*\*\[([^\]]+)\]\*\*\s+\*\*(\w+)\*\*', line)
-        if entry_match:
-            entry_num = entry_match.group(1)
-            bates = entry_match.group(2)
-            tag = entry_match.group(3)
-
-            # Collect subsequent lines for description and quote
-            description_parts = []
-            key_quote = ""
-            i += 1
-            while i < len(lines):
-                next_line = lines[i].strip()
-                if not next_line:
-                    i += 1
-                    continue
-                # Check if next entry
-                if re.match(r'\*\*\d+\.\*\*', next_line):
-                    break
-                # Check if it's a section header
-                if next_line.startswith('###'):
-                    break
-                # Check for italic quote
-                quote_match = re.match(r'\*"(.+?)"\*$', next_line)
-                if quote_match:
-                    key_quote = quote_match.group(1)
-                    i += 1
-                    continue
-                # Otherwise it's description text
-                description_parts.append(next_line)
-                i += 1
-
-            description = " ".join(description_parts)
-
-            # Clean up description text - remove raw filter/regex-like category labels
-            # These are machine-generated classification tags, not human descriptions
-            description = re.sub(r'[Rr]eferences? (?:illegality|unlawfulness|invalidity|void status)[^;.]*[;.]?\s*', '', description)
-            description = re.sub(r'[Rr]eferences? (?:removal of sand,? gravel,? and(?: aggregate)? extraction)[^;.]*[;.]?\s*', '', description)
-            description = re.sub(r'[Rr]eferences? (?:Utah Code 17-41-402)[^;.]*[;.]?\s*', '', description)
-            description = re.sub(r'[Rr]eferences? (?:violation of state law or Utah Code)[^;.]*[;.]?\s*', '', description)
-            description = re.sub(r'[Rr]eferences? (?:inability to adopt ordinance)[^;.]*[;.]?\s*', '', description)
-            description = re.sub(r'[Rr]eferences? (?:conflict with state law)[^;.]*[;.]?\s*', '', description)
-            description = re.sub(r'[Rr]eferences? (?:warnings? or legal counsel advisement)[^;.]*[;.]?\s*', '', description)
-            description = re.sub(r'[Rr]eferences? (?:talking points?)[^;.]*[;.]?\s*', '', description)
-            description = re.sub(r'[Rr]eferences? (?:sham or pretextual conduct)[^;.]*[;.]?\s*', '', description)
-            description = re.sub(r'[Rr]eferences? (?:open meeting|meeting violation|OPMA)[^;.]*[;.]?\s*', '', description)
-            description = re.sub(r'[Rr]eferences? (?:"long prohibited"|"always prohibited"|"historically prohibited"|"talking point")[^;.]*[;.]?\s*', '', description)
-            description = re.sub(r'[Rr]eferences? (?:illegal,? illegality,? unlawful,? invalid,? or void)[^;.]*[;.]?\s*', '', description)
-            description = re.sub(r';?\s*[Cc]ontains? ordinance/CIM/extraction references\.?\s*', '', description)
-            description = re.sub(r'[Cc]ritical language identified:\s*[^.]+\.?\s*', '', description)
-            description = re.sub(r'[Hh]igh-relevance language identified:\s*[^.]+\.?\s*', '', description)
-            description = re.sub(r'[Dd]ocument contains critical references to [^.]+\.?\s*', '', description)
-            # Clean up semicolons and whitespace
-            description = re.sub(r'\s*;\s*;+\s*', '; ', description)
-            description = re.sub(r'^\s*[;,]\s*', '', description)
-            description = re.sub(r'\s+', ' ', description)
-            description = description.strip()
-            if description and not description.endswith('.'):
-                description = description.rstrip(';,').strip()
-
-            entries.append(format_critical_entry(entry_num, bates, tag, description, key_quote))
-        else:
-            i += 1
-
-    return "\n".join(entries)
-
-def parse_section_b_claim3(text):
-    """Parse Claim 3 Section B entries."""
-    lines = text.strip().split('\n')
-    entries = []
-    i = 0
-    while i < len(lines):
-        line = lines[i].strip()
-        if line.startswith('###'):
-            i += 1
-            continue
-        if line == '---':
-            i += 1
-            continue
-
-        entry_match = re.match(r'\*\*(\d+)\.\*\*\s+\*\*\[([^\]]+)\]\*\*\s+\*\*(\w+)\*\*', line)
-        if entry_match:
-            entry_num = entry_match.group(1)
-            bates = entry_match.group(2)
-            tag = entry_match.group(3)
-
-            description_parts = []
-            key_quote = ""
-            i += 1
-            while i < len(lines):
-                next_line = lines[i].strip()
-                if not next_line:
-                    i += 1
-                    continue
-                if re.match(r'\*\*\d+\.\*\*', next_line):
-                    break
-                if next_line.startswith('###') or next_line == '---':
-                    break
-                quote_match = re.match(r'\*"(.+?)"\*$', next_line)
-                if quote_match:
-                    key_quote = quote_match.group(1)
-                    i += 1
-                    continue
-                description_parts.append(next_line)
-                i += 1
-
-            description = " ".join(description_parts)
-
-            entries.append(format_critical_entry(entry_num, bates, tag, description, key_quote))
-        else:
-            i += 1
-
-    return "\n".join(entries)
-
-def parse_section_c(text):
-    """Parse a high relevance section (C) into formatted entries."""
-    lines = text.strip().split('\n')
-    entries = []
-
-    for line in lines:
-        line = line.strip()
-        if not line or line.startswith('###'):
-            continue
-
-        # Match pattern: **N.** **[SLCoXXXXXX]** **TAG** | Description
-        entry_match = re.match(r'\*\*(\d+)\.\*\*\s+\*\*\[([^\]]+)\]\*\*\s+\*\*(\w+)\*\*\s*\|\s*(.*)', line)
-        if not entry_match:
-            # Try without bold tag
-            entry_match = re.match(r'\*\*(\d+)\.\*\*\s+\*\*\[([^\]]+)\]\*\*\s+(\w+)\s*\|\s*(.*)', line)
-        if entry_match:
-            entry_num = entry_match.group(1)
-            bates = entry_match.group(2)
-            tag = entry_match.group(3)
-            description = entry_match.group(4).strip()
-
-            entries.append(format_high_relevance_entry(entry_num, bates, tag, description))
-
-    return "\n".join(entries)
-
-def format_document_list(text):
-    """Format medium/low relevance document lists with consistent dash formatting."""
-    # Already uses dashes, just ensure bold bates numbers
-    return text
-
-def read_file(path):
-    with open(path, 'r') as f:
-        return f.read()
 
 def main():
-    # Read all source files
-    c1a = read_file('/home/user/casecraft/binder/sections/claim1_section_a.md')
-    c1b = read_file('/home/user/casecraft/binder/sections/claim1_section_b.md')
-    c1cde = read_file('/home/user/casecraft/binder/sections/claim1_sections_cde.md')
-    c3a = read_file('/home/user/casecraft/binder/sections/claim3_section_a.md')
-    c3b = read_file('/home/user/casecraft/binder/sections/claim3_section_b.md')
-    c3cde = read_file('/home/user/casecraft/binder/sections/claim3_sections_cde_and_pending.md')
+    print("Running packet analysis on all 5,576 documents...")
+    packet_results, unassigned, all_bates, total_docs, doc_type_counts = process_all_documents()
 
-    # Split c1cde into C, D, E sections
-    c1c_match = re.search(r'(### Section 1C:.*?)(?=### Section 1D:)', c1cde, re.DOTALL)
-    c1d_match = re.search(r'(### Section 1D:.*?)(?=### Section 1E:)', c1cde, re.DOTALL)
-    c1e_match = re.search(r'(### Section 1E:.*)', c1cde, re.DOTALL)
+    assigned_count = len(all_bates - unassigned)
 
-    c1c_text = c1c_match.group(1) if c1c_match else ""
-    c1d_text = c1d_match.group(1) if c1d_match else ""
-    c1e_text = c1e_match.group(1) if c1e_match else ""
-
-    # Split c3cde into C, D, E, and pending sections
-    c3c_match = re.search(r'(### Section 3C:.*?)(?=### Section 3D:)', c3cde, re.DOTALL)
-    c3d_match = re.search(r'(### Section 3D:.*?)(?=### Section 3E:)', c3cde, re.DOTALL)
-    c3e_match = re.search(r'(### Section 3E:.*?)(?=## Causes of Action)', c3cde, re.DOTALL)
-    pending_match = re.search(r'(## Causes of Action.*)', c3cde, re.DOTALL)
-
-    c3c_text = c3c_match.group(1) if c3c_match else ""
-    c3d_text = c3d_match.group(1) if c3d_match else ""
-    c3e_text = c3e_match.group(1) if c3e_match else ""
-
-    # Build the document
     doc = []
 
-    # Title page
-    doc.append(build_header())
+    # Header
+    doc.append(build_header(total_docs, assigned_count, len(unassigned)))
 
     # Table of Contents
     doc.append(build_toc())
 
-    # ═══════════════════════════════════════════════
-    # CLAIM 1
-    # ═══════════════════════════════════════════════
-    doc.append("# Claim 1: Ordinance Invalid -- State Preemption Under Utah Code 17-41-402(6)\n")
-    doc.append("> **Legal Theory:** The Salt Lake County ordinance eliminating mineral extraction as a")
-    doc.append("> conditional use and explicitly prohibiting sand, gravel, and rock aggregate extraction")
-    doc.append("> is facially invalid because it directly conflicts with Utah Code 17-41-402(6), which")
-    doc.append("> prohibits counties from adopting ordinances that restrict critical infrastructure")
-    doc.append("> materials operations.\n")
-    doc.append("---\n")
+    # Executive Summary
+    doc.append(build_summary_table(packet_results, unassigned))
 
-    # Section 1A
-    doc.append("## Section 1A: Key Finding Exhibits -- Claim 1\n")
-    doc.append("> **52 documents** | These are the highest-value exhibits for Claim 1. Each document")
-    doc.append("> contains direct evidence of state law preemption, county knowledge of illegality,")
-    doc.append("> or the ordinance's facial conflict with the CIM statute.\n")
-    doc.append("---\n")
-    doc.append(parse_section_a(c1a))
+    # Document Type Breakdown
+    doc.append("\n### Document Type Breakdown\n")
+    doc.append("| Type | Count | % |")
+    doc.append("|------|-------|---|")
+    for dtype, count in sorted(doc_type_counts.items(), key=lambda x: -x[1]):
+        pct = count / total_docs * 100
+        doc.append(f"| {dtype} | {count} | {pct:.1f}% |")
+    doc.append("")
+
+    # Cross-reference
+    doc.append("\n---\n")
+    doc.append("## Cross-Reference: Documents Supporting Multiple Causes of Action\n")
+    multi_packet_docs = defaultdict(list)
+    for pkt_num, results in packet_results.items():
+        for bates_id in results:
+            multi_packet_docs[bates_id].append(pkt_num)
+
+    multi_docs = {b: pkts for b, pkts in multi_packet_docs.items() if len(pkts) >= 3}
+    if multi_docs:
+        doc.append(f"**{len(multi_docs)} documents** support 3 or more causes of action:\n")
+        doc.append("| Bates ID | COAs | Relevance | Key Phrase |")
+        doc.append("|----------|------|-----------|------------|")
+        for bates_id in sorted(multi_docs.keys()):
+            pkts = multi_docs[bates_id]
+            best_rel = "LOW"
+            best_reason = ""
+            for pkt in pkts:
+                r = packet_results[pkt].get(bates_id)
+                if r:
+                    if r["relevance"] == "CRITICAL":
+                        best_rel = "CRITICAL"
+                        best_reason = r["reasoning"][:200]
+                    elif r["relevance"] == "HIGH" and best_rel != "CRITICAL":
+                        best_rel = "HIGH"
+                        best_reason = r["reasoning"][:200]
+            pkt_str = ", ".join(str(p) for p in sorted(pkts))
+            doc.append(f"| {bates_id} | {pkt_str} | {best_rel} | {best_reason} |")
+        doc.append("")
+
     doc.append("\n---\n")
 
-    # Section 1B
-    doc.append("## Section 1B: Critical Relevance Documents -- Claim 1\n")
-    doc.append("> **199 documents** | These documents contain direct references to the CIM statute,")
-    doc.append("> ordinance language, state law violations, or the sand/gravel/aggregate prohibition.")
-    doc.append("> They are essential supporting exhibits.\n")
-    doc.append("---\n")
-    doc.append(parse_section_b_claim1(c1b))
-    doc.append("\n---\n")
+    # Write each COA section
+    for pkt_num in range(1, 6):
+        pkt_def = ALL_PACKETS[pkt_num]
+        results = packet_results[pkt_num]
+        doc.append(write_coa_section(pkt_num, pkt_def, results))
 
-    # Section 1C
-    doc.append("## Section 1C: High Relevance Documents -- Claim 1\n")
-    doc.append("> **59 documents** | These documents contain significant references to CIM law,")
-    doc.append("> legal warnings, procedural concerns, predetermined outcome evidence, or")
-    doc.append("> intergovernmental lobbying related to the ordinance.\n")
-    doc.append("---\n")
-    doc.append(parse_section_c(c1c_text))
-    doc.append("\n---\n")
-
-    # Section 1D
-    doc.append("## Section 1D: Medium Relevance Documents -- Claim 1\n")
-    doc.append("> **1,854 documents** | These documents contain contextual references to the")
-    doc.append("> ordinance process, public comments, county communications, or related proceedings.")
-    doc.append("> They provide background and pattern evidence.\n")
-    doc.append("---\n")
-    # Extract just the list portion
-    d_lines = c1d_text.split('\n')
-    d_list_lines = [l for l in d_lines if l.strip().startswith('- ') or l.strip().startswith('(')]
-    doc.append("\n".join(d_list_lines))
-    doc.append("\n\n---\n")
-
-    # Section 1E
-    doc.append("## Section 1E: Low Relevance Documents -- Claim 1\n")
-    doc.append("> **1,108 documents** | These documents have tangential or indirect relevance to")
-    doc.append("> Claim 1. They are included for completeness and may contain useful background")
-    doc.append("> information.\n")
-    doc.append("---\n")
-    e_lines = c1e_text.split('\n')
-    e_list_lines = [l for l in e_lines if l.strip().startswith('- ') or l.strip().startswith('(')]
-    doc.append("\n".join(e_list_lines))
-    doc.append("\n\n---\n")
-
-    # ═══════════════════════════════════════════════
-    # CLAIM 2 (Pending)
-    # ═══════════════════════════════════════════════
-    doc.append("# Claim 2: Permanent Injunction -- No Enforcement\n")
-    doc.append("> **Legal Theory:** Tree Farm seeks a permanent injunction preventing Salt Lake County")
-    doc.append("> from enforcing the invalid ordinance against Tree Farm's mining operations.\n")
-    doc.append("---\n")
-    doc.append("### Status: PENDING ANALYSIS\n")
-    doc.append("> Document analysis for Claim 2 has not yet been completed. Agent processing")
-    doc.append("> timed out before results were written to the database. All 5,576 documents")
-    doc.append("> require re-analysis against Claim 2 criteria.\n")
-    doc.append("> **Action Required:** Re-run analysis for all 5,576 documents against Claim 2 criteria.\n")
-    doc.append("---\n")
-
-    # ═══════════════════════════════════════════════
-    # CLAIM 3
-    # ═══════════════════════════════════════════════
-    doc.append("# Claim 3: Vested Mining Rights Under Utah Code 17-41-501 Through 17-41-503\n")
-    doc.append("> **Legal Theory:** Tree Farm LLC holds vested mining rights established through over")
-    doc.append("> 90 years of continuous mining operations dating to the 1890s Portland Cement Company")
-    doc.append("> operations, a DOGM Large Mine Permit approved in 1996, and a formal Supplemental")
-    doc.append("> Declaration of Vested Mining Use recorded in November 2021. These rights are")
-    doc.append("> protected under the Critical Infrastructure Materials Act (H.B. 288, codified at")
-    doc.append("> Utah Code Title 17, Chapter 41).\n")
-    doc.append("---\n")
-
-    # Section 3A
-    doc.append("## Section 3A: Key Finding Exhibits -- Claim 3\n")
-    doc.append("> **57 documents** | These are the highest-value exhibits for Claim 3. Each document")
-    doc.append("> contains direct evidence of vested mining rights, county admissions of existing")
-    doc.append("> mining operations, DOGM filings, or the statutory vested rights framework.\n")
-    doc.append("---\n")
-    doc.append(parse_section_a(c3a))
-    doc.append("\n---\n")
-
-    # Section 3B
-    doc.append("## Section 3B: Critical Relevance Documents -- Claim 3\n")
-    doc.append("> **37 documents** | These documents contain direct references to mining operations,")
-    doc.append("> nonconforming use status, DOGM proceedings, or county efforts to eliminate")
-    doc.append("> mineral extraction as a conditional use.\n")
-    doc.append("---\n")
-    doc.append(parse_section_b_claim3(c3b))
-    doc.append("\n---\n")
-
-    # Section 3C
-    doc.append("## Section 3C: High Relevance Documents -- Claim 3\n")
-    doc.append("> **65 documents** | These documents reference DOGM proceedings, predecessor mining")
-    doc.append("> entities, Portland Cement Company history, county staff communications about")
-    doc.append("> vested mining rights, or related legal briefs.\n")
-    doc.append("---\n")
-    doc.append(parse_section_c(c3c_text))
-    doc.append("\n---\n")
-
-    # Section 3D
-    doc.append("## Section 3D: Medium Relevance Documents -- Claim 3\n")
-    doc.append("> **169 documents** | These documents contain contextual references to mining")
-    doc.append("> operations, DOGM proceedings, county communications, or related matters.\n")
-    doc.append("---\n")
-    d3_lines = c3d_text.split('\n')
-    d3_list_lines = [l for l in d3_lines if l.strip().startswith('- ') or l.strip().startswith('(') or (l.strip() and l.strip()[0].isdigit() and 'documents' in l)]
-    doc.append("\n".join(d3_list_lines))
-    doc.append("\n\n---\n")
-
-    # Section 3E
-    doc.append("## Section 3E: Low Relevance Documents -- Claim 3\n")
-    doc.append("> **936 documents** | These documents have tangential or indirect relevance to")
-    doc.append("> Claim 3. They are included for completeness.\n")
-    doc.append("---\n")
-    e3_lines = c3e_text.split('\n')
-    e3_list_lines = [l for l in e3_lines if l.strip().startswith('- ') or l.strip().startswith('(') or (l.strip() and l.strip()[0].isdigit() and 'documents' in l)]
-    doc.append("\n".join(e3_list_lines))
-    doc.append("\n\n---\n")
-
-    # ═══════════════════════════════════════════════
-    # CLAIM 4 (Pending)
-    # ═══════════════════════════════════════════════
-    doc.append("# Claim 4: Regulatory Taking -- Fifth Amendment and Utah Art. I, Section 22\n")
-    doc.append("> **Legal Theory:** The ordinance effects a regulatory taking of Tree Farm's property")
-    doc.append("> by eliminating all economically beneficial use of the mineral estate and destroying")
-    doc.append("> Tree Farm's investment-backed expectations in its mining operations. The taking is")
-    doc.append("> compensable under the Fifth Amendment to the U.S. Constitution and Article I,")
-    doc.append("> Section 22 of the Utah Constitution.\n")
-    doc.append("---\n")
-    doc.append("### Status: PENDING ANALYSIS\n")
-    doc.append("> Document analysis for Claim 4 has not yet been completed. Agent processing")
-    doc.append("> timed out before results were written to the database. All 5,576 documents")
-    doc.append("> require re-analysis against Claim 4 criteria.\n")
-    doc.append("> **Action Required:** Re-run analysis for all 5,576 documents against Claim 4 criteria.\n")
-    doc.append("---\n")
-
-    # ═══════════════════════════════════════════════
-    # CLAIM 5 (Pending)
-    # ═══════════════════════════════════════════════
-    doc.append("# Claim 5: County Defense -- No Preemption\n")
-    doc.append("> **Legal Theory (County's Position):** Salt Lake County contends that the ordinance")
-    doc.append("> does not conflict with the CIM statute because the ordinance does not reference")
-    doc.append('> "critical infrastructure materials" by name, and that the county retains general')
-    doc.append("> zoning authority over land use within its jurisdiction. The county argues the")
-    doc.append("> ordinance is a legitimate exercise of police power.\n")
-    doc.append("---\n")
-    doc.append("### Status: PENDING ANALYSIS\n")
-    doc.append("> Document analysis for Claim 5 has not yet been completed. Agent processing")
-    doc.append("> timed out before results were written to the database. All 5,576 documents")
-    doc.append("> require re-analysis against Claim 5 criteria.\n")
-    doc.append("> **Action Required:** Re-run analysis for all 5,576 documents against Claim 5 criteria.\n")
-    doc.append("---\n")
+    # Unassigned
+    doc.append(write_unassigned_section(unassigned))
 
     # Footer
     doc.append("\n---\n")
     doc.append("## Document Statistics\n")
-    doc.append("| Claim | Key Findings | Critical | High | Medium | Low | Total |")
-    doc.append("|-------|-------------|----------|------|--------|-----|-------|")
-    doc.append("| Claim 1 (Ordinance Invalid) | 52 | 199 | 59 | 1,854 | 1,108 | 3,272 |")
-    doc.append("| Claim 2 (Permanent Injunction) | -- | -- | -- | -- | -- | Pending |")
-    doc.append("| Claim 3 (Vested Mining Rights) | 57 | 37 | 65 | 169 | 936 | 1,264 |")
-    doc.append("| Claim 4 (Regulatory Taking) | -- | -- | -- | -- | -- | Pending |")
-    doc.append("| Claim 5 (County Defense) | -- | -- | -- | -- | -- | Pending |\n")
-    doc.append("> **Note:** Documents may appear under multiple claims where they contain evidence")
-    doc.append("> relevant to more than one cause of action. The total across claims may therefore")
+    doc.append("| COA | Cause of Action | Documents | CRITICAL | HIGH | MEDIUM | LOW |")
+    doc.append("|-----|----------------|-----------|----------|------|--------|-----|")
+    for pkt_num in range(1, 6):
+        pkt_def = ALL_PACKETS[pkt_num]
+        results = packet_results[pkt_num]
+        crit = sum(1 for r in results.values() if r["relevance"] == "CRITICAL")
+        high = sum(1 for r in results.values() if r["relevance"] == "HIGH")
+        med = sum(1 for r in results.values() if r["relevance"] == "MEDIUM")
+        low = sum(1 for r in results.values() if r["relevance"] == "LOW")
+        doc.append(f"| {pkt_num} | {pkt_def['short']} | {len(results)} | {crit} | {high} | {med} | {low} |")
+    doc.append(f"| 6 | Not Tied to Cause of Action | {len(unassigned)} | -- | -- | -- | -- |")
+    doc.append("")
+    doc.append("> **Note:** Documents may appear under multiple causes of action where they contain")
+    doc.append("> evidence relevant to more than one claim. The total across COAs may therefore")
     doc.append("> exceed the 5,576 unique documents in the production.\n")
     doc.append("---\n")
     doc.append("*End of Master Binder*\n")
 
     # Write output
     output = "\n".join(doc)
+    output_path = os.path.join(os.path.dirname(__file__), 'MASTER_BINDER.md')
 
-    with open('/home/user/casecraft/binder/MASTER_BINDER.md', 'w') as f:
+    with open(output_path, 'w') as f:
         f.write(output)
 
-    print(f"MASTER_BINDER.md written: {len(output)} characters")
+    print(f"\nMASTER_BINDER.md written: {len(output):,} characters")
 
     # Count entries
-    smoking_count = len(re.findall(r'^\*\*\d+\.\*\* \*\*\[SLCo', output, re.MULTILINE))
-    print(f"Total formatted entries: {smoking_count}")
+    entry_count = len(re.findall(r'^\*\*SLCo', output, re.MULTILINE))
+    print(f"Total formatted entries: {entry_count}")
+    print(f"Output: {output_path}")
+
 
 if __name__ == '__main__':
     main()
