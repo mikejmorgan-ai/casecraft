@@ -477,21 +477,28 @@ def split_into_packets(md_text):
     """Split master markdown into individual packet sections."""
     packets = {}
 
-    # Executive summary (before first PACKET heading)
-    exec_match = re.search(r'^(# CAUSE OF ACTION.*?)(?=\n# PACKET 1:)', md_text, re.DOTALL | re.MULTILINE)
+    # Executive summary (before first COA heading)
+    exec_match = re.search(r'^(# CAUSE OF ACTION.*?)(?=\n# COA \d+:)', md_text, re.DOTALL | re.MULTILINE)
     if exec_match:
         packets['executive_summary'] = exec_match.group(1)
 
-    # Find all "# PACKET N:" positions
-    packet_positions = []
-    for m in re.finditer(r'^# PACKET (\d+):', md_text, re.MULTILINE):
-        packet_positions.append((m.start(), m.group(1)))
+    # Find all "# COA N:" positions
+    coa_positions = []
+    for m in re.finditer(r'^# COA (\d+):', md_text, re.MULTILINE):
+        coa_positions.append((m.start(), m.group(1)))
 
-    for idx, (start, pkt_num) in enumerate(packet_positions):
-        if idx + 1 < len(packet_positions):
-            end = packet_positions[idx + 1][0]
+    # Map COA numbers to packet numbers for filename continuity:
+    # COA 1 (CIM Preemption) -> packet 4, COA 2 (Injunction) -> packet 3,
+    # COA 3 (Vested Mining) -> packet 1, COA 4 (Taking) -> packet 2,
+    # COA 5 (Counterclaim) -> packet 5, COA 6 (Unassigned) -> packet 6
+    coa_to_packet = {'1': '4', '2': '3', '3': '1', '4': '2', '5': '5', '6': '6'}
+
+    for idx, (start, coa_num) in enumerate(coa_positions):
+        if idx + 1 < len(coa_positions):
+            end = coa_positions[idx + 1][0]
         else:
             end = len(md_text)
+        pkt_num = coa_to_packet.get(coa_num, coa_num)
         packets[f'packet_{pkt_num}'] = md_text[start:end]
 
     return packets
@@ -499,7 +506,7 @@ def split_into_packets(md_text):
 
 PACKET_INFO = {
     '1': ('VESTED MINING RIGHTS (PRIMARY)',
-          'Utah Code 17-41-501 to -503 -- Tree Farm Holds Vested Mining Rights',
+          'Utah Code 17-81-401 to -403 -- Tree Farm Holds Vested Mining Rights',
           'Packet_1_Vested_Mining_Rights_PRIMARY.pdf'),
     '2': ('REGULATORY TAKING (ALTERNATIVE)',
           'U.S. Const. Amend. V; Utah Const. Art. I Sec. 22',
