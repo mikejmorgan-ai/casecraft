@@ -170,7 +170,7 @@ Out of **5,576 discovery documents**, only **44 documents (0.8%)** contain ANY o
 
 | # | Document Type | Count | Source | All 4 Phrases? |
 |---|--------------|-------|--------|----------------|
-| 1 | H.B. 288 statute text | 4 copies | Legislature (not County) | 3 of 4 |
+| 1 | H.B. 288 enrolled bill text | 4 copies | Legislature (not County) | 3 of 4 |
 | 2 | Tree Farm's Supplemental Declaration | 13 copies | Tree Farm's own filing | YES - ALL 4 |
 | 3 | County calendar entries | 5 copies | County (Tim Bywater) | 1 of 4 |
 | 4 | Division Response briefs | 4 copies | AG/DOGM (not County) | 2 of 4 |

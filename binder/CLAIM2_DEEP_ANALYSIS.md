@@ -3,7 +3,7 @@
 **Case:** Tree Farm LLC v. Salt Lake County (Case No. 220903418)
 **Claim:** Claim 2 -- Permanent Injunction
 **Date Compiled:** 2026-02-20
-**Legal Theory:** Vested Mining Rights under Utah Code 17-41-501 to -503
+**Legal Theory:** Vested Mining Rights under Utah Code 17-81-401 to -403 (formerly 17-41-501 to -503)
 **CIM/HB288/SB264 Status:** EXCLUDED -- Not part of vested mining rights analysis
 
 ---
@@ -25,7 +25,7 @@
 
 ## 1. EXECUTIVE SUMMARY
 
-Tree Farm LLC seeks a **permanent injunction** to stop Salt Lake County from enforcing an ordinance that eliminates mineral extraction and processing as a conditional use in the Forestry and Recreation (FR) zone. The ordinance -- adopted April 5, 2022, amending SLC Code Sections 19.12.030, 19.72.190, and 19.76.030 -- is void as applied to Tree Farm because Tree Farm holds **vested mining rights** under Utah Code 17-41-501 to -503.
+Tree Farm LLC seeks a **permanent injunction** to stop Salt Lake County from enforcing an ordinance that eliminates mineral extraction and processing as a conditional use in the Forestry and Recreation (FR) zone. The ordinance -- adopted April 5, 2022, amending SLC Code Sections 19.12.030, 19.72.190, and 19.76.030 -- is void as applied to Tree Farm because Tree Farm holds **vested mining rights** under Utah Code 17-81-401 to -403 (formerly 17-41-501 to -503).
 
 The injunction claim is distinct from the declaratory judgment claim (Claim 1). Claim 1 asks the court to *declare* that Tree Farm has vested mining rights. Claim 2 asks the court to *stop the county from enforcing* the void ordinance against Tree Farm's operations -- including the business license denial (#COM21-1590), the refusal to process mining permits, and any future enforcement actions.
 
@@ -43,7 +43,7 @@ The injunction claim is distinct from the declaratory judgment claim (Claim 1). 
 | **Relief** | Judicial declaration of rights | Court order prohibiting specific county actions |
 | **Time orientation** | Establishes existing rights | Prevents future enforcement |
 | **Standard** | Legal entitlement | Four-part equitable test |
-| **Shared foundation** | Vested mining rights (17-41-501 to -503) | Same + enforcement evidence |
+| **Shared foundation** | Vested mining rights (17-81-401 to -403, formerly 17-41-501 to -503) | Same + enforcement evidence |
 
 **Why both claims are necessary:** A declaratory judgment alone would establish that Tree Farm has vested rights, but would not compel the county to stop its ongoing enforcement pattern. The county could acknowledge the declaration but continue to obstruct Tree Farm's operations through administrative mechanisms (business license denials, permit refusals, code enforcement actions). The permanent injunction ensures the county must actually stop.
 
@@ -57,7 +57,7 @@ The injunction claim is distinct from the declaratory judgment claim (Claim 1). 
 - **Document type:** HB 288 -- Enrolled Copy (statutory text)
 - **Key quote:** "(b) has produced commercial quantities of a mineral deposit from the mining use."
 - **Additional quote:** "(a) runs with the land"
-- **Full context:** This is the enrolled copy of HB 288 (2019 General Session), which contains the verbatim statutory language establishing that a vested mining use is a **property right that runs with the land** -- not a personal right that can be extinguished by a zoning change. The statute establishes the definitions of "mine operator," "mining use," and "vested mining use" and confirms that a vested mining use can only be abandoned by recorded written declaration under Utah Code 17-41-503.
+- **Full context:** This is the enrolled copy of HB 288 (2019 General Session), which contains the verbatim statutory language establishing that a vested mining use is a **property right that runs with the land** -- not a personal right that can be extinguished by a zoning change. The statute establishes the definitions of "mine operator," "mining use," and "vested mining use" and confirms that a vested mining use can only be abandoned by recorded written declaration under Utah Code 17-81-403 (formerly 17-41-503).
 - **Injunction relevance:** Establishes that the county's ordinance cannot extinguish Tree Farm's vested right because the right is attached to the land itself. The county's enforcement actions are therefore an attempt to nullify a property right through administrative action -- precisely the type of ongoing harm an injunction is designed to prevent.
 - **Recommended use:** Foundation exhibit in both Claim 1 and Claim 2. For Claim 2, use to show that the right being harmed by enforcement is a property right, making harm irreparable.
 
@@ -77,13 +77,13 @@ The injunction claim is distinct from the declaratory judgment claim (Claim 1). 
 - **Document type:** Supplemental Declaration and Notice of Vested Mining Use, recorded November 12, 2021
 - **Recording:** Entry No. 13822822, Book 11268, Pages 4405-4413, Salt Lake County Recorder
 - **Key quote:** "Utah Code Section 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"
-- **Full context:** This is the actual recorded declaration filed by Tree Farm pursuant to Utah Code 17-41-501(4). It establishes:
+- **Full context:** This is the actual recorded declaration filed by Tree Farm pursuant to Utah Code 17-81-401(4) (formerly 17-41-501(4)). It establishes:
   - Mining use on the property dating back to the 1890s (Portland Cement Company of Utah)
   - Large Mine Permit filed with DOGM in 1995, approved 1996, still active
   - Commercial quantities produced: 90,000+ tons (1994), 725,000+ tons (2009), 386,485+ tons (2019)
   - Property continuously used or held for use for mining operations
-  - Vested mining use "shall run with and bind the land" per Utah Code 17-41-501(2)
-  - Only abandonable by "express abandonment by written declaration" per Utah Code 17-41-503
+  - Vested mining use "shall run with and bind the land" per Utah Code 17-81-401(2) (formerly 17-41-501(2))
+  - Only abandonable by "express abandonment by written declaration" per Utah Code 17-81-403 (formerly 17-41-503)
 - **Injunction relevance:** This is the foundational document establishing that Tree Farm's vested mining right exists as a matter of recorded land record. The county had constructive notice of this declaration when it adopted the ordinance and denied the business license.
 - **Recommended use:** Lead exhibit establishing the vested right. Should be introduced early in the case.
 
@@ -216,7 +216,7 @@ The permanent injunction should specifically prohibit the county from:
 ### 6.2 Enforcing the Void Ordinance (Sections 19.12.030, 19.72.190, 19.76.030 as Amended)
 - **Action:** Ordinance adopted April 5, 2022, eliminating mineral extraction as conditional use and explicitly prohibiting it in the FR zone
 - **Evidence:** SLCo004662, SLCo018710 (staff report and council packet), SLCo003120 (presentation), SLCo004048 (public comment)
-- **Basis for relief:** The ordinance is void as applied to Tree Farm because it conflicts with Utah Code 17-41-501 to -503.
+- **Basis for relief:** The ordinance is void as applied to Tree Farm because it conflicts with Utah Code 17-81-401 to -403 (formerly 17-41-501 to -503).
 
 ### 6.3 Issuing Stop Work Orders or Code Enforcement Actions
 - **Threatened action:** County officials discussed imposing "a stop work order while clarifying the vested mining right issue in the courts" (SLCo004116, SLCo004115)
@@ -243,15 +243,15 @@ A permanent injunction requires Tree Farm to establish four elements. Below, the
 
 Tree Farm's likelihood of success on the merits is overwhelming. The evidence establishes:
 
-**A. Tree Farm has vested mining rights under Utah Code 17-41-501 to -503**
+**A. Tree Farm has vested mining rights under Utah Code 17-81-401 to -403 (formerly 17-41-501 to -503)**
 
 | Evidence | Bates | What it proves |
 |----------|-------|---------------|
-| Supplemental Declaration of Vested Mining Use (recorded) | SLCo003551 | Formal recorded declaration per 17-41-501(4) |
+| Supplemental Declaration of Vested Mining Use (recorded) | SLCo003551 | Formal recorded declaration per 17-81-401(4) (formerly 17-41-501(4)) |
 | Mining use dating to 1890s (Portland Cement Company) | SLCo003551 | Pre-dates all zoning by ~80 years |
 | Large Mine Permit (1995, approved 1996, still active) | SLCo003551 | Continuous mining permit for 25+ years |
-| Commercial production: 90K tons (1994), 725K tons (2009), 386K tons (2019) | SLCo003551 | "Produced commercial quantities" per 17-41-101(13)(b) |
-| Vested right "runs with the land" per 17-41-501(2) | SLCo002501 | Property right, not personal right |
+| Commercial production: 90K tons (1994), 725K tons (2009), 386K tons (2019) | SLCo003551 | "Produced commercial quantities" per 17-81-101 (formerly 17-41-101(13)(b)) |
+| Vested right "runs with the land" per 17-81-401(2) (formerly 17-41-501(2)) | SLCo002501 | Property right, not personal right |
 
 **B. The county's ordinance violates Utah law**
 
@@ -276,7 +276,7 @@ Tree Farm's likelihood of success on the merits is overwhelming. The evidence es
 
 **A. Constitutional property right being destroyed**
 
-The vested mining right "runs with the land" (Utah Code 17-41-501(2)) and constitutes a property right that can only be abandoned by recorded written declaration (Utah Code 17-41-503). The county's enforcement actions effectively destroy this property right without compensation or due process.
+The vested mining right "runs with the land" (Utah Code 17-81-401(2), formerly 17-41-501(2)) and constitutes a property right that can only be abandoned by recorded written declaration (Utah Code 17-81-403, formerly 17-41-503). The county's enforcement actions effectively destroy this property right without compensation or due process.
 
 | Evidence | Bates | Harm shown |
 |----------|-------|-----------|
@@ -322,7 +322,7 @@ The vested mining right "runs with the land" (Utah Code 17-41-501(2)) and consti
 **The public interest favors injunctive relief:**
 
 **A. Enforcing the rule of law**
-- The Utah Legislature enacted specific statutory protections for vested mining rights (17-41-501 to -503).
+- The Utah Legislature enacted specific statutory protections for vested mining rights (17-81-401 to -403, formerly 17-41-501 to -503).
 - Allowing counties to ignore these protections through creative ordinance drafting undermines the rule of law.
 - The county's own staff acknowledged the legal vulnerability of its approach (SG-5).
 
@@ -334,7 +334,7 @@ The vested mining right "runs with the land" (Utah Code 17-41-501(2)) and consti
 **C. State mineral policy**
 - Utah Code 40-8-2 establishes the state policy of encouraging mining operations.
 - The Mined Land Reclamation Act reflects the state's determination that mining is a legitimate and important land use.
-- The Legislature specifically enacted 17-41-501 to -503 to protect vested mining uses from local government interference.
+- The Legislature specifically enacted 17-81-401 to -403 (formerly 17-41-501 to -503) to protect vested mining uses from local government interference.
 
 **D. County staff acknowledged mineral extraction is permitted elsewhere**
 - The county's own staff report (SLCo003120) notes that "Gravel Pits, Quarries and Mines [are] allowed in: S-1-G Zone... [and] M-2 Zone."
@@ -344,7 +344,7 @@ The vested mining right "runs with the land" (Utah Code 17-41-501(2)) and consti
 
 ## 8. STATUTORY FRAMEWORK -- VERBATIM LANGUAGE
 
-### Utah Code 17-41-501 -- Vested Mining Use
+### Utah Code 17-81-401 (formerly 17-41-501) -- Vested Mining Use
 
 > **(1)** As used in this part:
 > **(a)** "Mine operator" means a natural person, corporation, association, partnership, receiver, trustee, executor, administrator, guardian, fiduciary, agent, or other organization or representative, either public or private, including a successor, assign, subsidiary, related parent company, and predecessor in interest, that:
@@ -361,7 +361,7 @@ The vested mining right "runs with the land" (Utah Code 17-41-501(2)) and consti
 
 *(Source: SLCo002501, SLCo003551)*
 
-### Utah Code 17-41-502 -- Expansion of Vested Mining Use
+### Utah Code 17-81-402 (formerly 17-41-502) -- Expansion of Vested Mining Use
 
 > **(1)** A mine operator may progress, extend, enlarge, grow, or expand the vested mining use to:
 > **(a)** any surface or subsurface land or mineral estate that the mine operator owns or controls; and
@@ -372,7 +372,7 @@ The vested mining right "runs with the land" (Utah Code 17-41-501(2)) and consti
 
 *(Source: SLCo003551)*
 
-### Utah Code 17-41-503 -- Abandonment
+### Utah Code 17-81-403 (formerly 17-41-503) -- Abandonment
 
 > A mine operator may abandon some or all of a vested mining use only by recording a **written declaration of abandonment** with the recorder of the county in which the vested mining use being abandoned is located.
 
@@ -464,10 +464,10 @@ Bateman made "multiple efforts" to engage the county. He sent letters, filed med
 The injunction does not ask the court to invalidate the ordinance for everyone -- only to prohibit its enforcement against Tree Farm's vested mining operations. This is a narrow, property-specific remedy that respects the county's general zoning authority while protecting the specific property right at issue.
 
 ### 10.6 Statutory Structure Argument
-Utah Code 17-41-503 provides that a vested mining use can ONLY be abandoned by "recording a written declaration of abandonment." Tree Farm has not recorded any such declaration. Therefore, the vested mining use persists as a matter of law, regardless of the county's ordinance. The ordinance is simply void as applied.
+Utah Code 17-81-403 (formerly 17-41-503) provides that a vested mining use can ONLY be abandoned by "recording a written declaration of abandonment." Tree Farm has not recorded any such declaration. Therefore, the vested mining use persists as a matter of law, regardless of the county's ordinance. The ordinance is simply void as applied.
 
 ### 10.7 Address CIM Exclusion Proactively
-While this analysis deliberately excludes CIM/HB288/SB264 arguments, be aware that the discovery documents contain extensive references to CIM. The Bateman letters cite 17-41-402(6) and CIM provisions. If the court or opposing counsel raises CIM, note that Tree Farm's position does NOT depend on CIM classification -- the vested mining rights under 17-41-501 to -503 are an independent statutory basis that applies regardless of whether the minerals qualify as CIM.
+While this analysis deliberately excludes CIM/HB288/SB264 arguments, be aware that the discovery documents contain extensive references to CIM. The Bateman letters cite 17-41-402(6) and CIM provisions. If the court or opposing counsel raises CIM, note that Tree Farm's position does NOT depend on CIM classification -- the vested mining rights under 17-81-401 to -403 (formerly 17-41-501 to -503) are an independent statutory basis that applies regardless of whether the minerals qualify as CIM.
 
 ---
 

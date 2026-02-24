@@ -1,5 +1,5 @@
 import { NextRequest } from 'next/server'
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { openai } from '@ai-sdk/openai'
 import { streamText, createUIMessageStream, createUIMessageStreamResponse } from 'ai'
 
@@ -85,12 +85,11 @@ export async function POST(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return new Response('Unauthorized', { status: 401 })
     }
+    const supabase = getSupabase()
 
     const { motion_text, document_id } = await request.json()
 

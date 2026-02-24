@@ -1,4 +1,4 @@
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { redirect } from 'next/navigation'
 import { cookies } from 'next/headers'
 import { Card, CardContent } from '@/components/ui/card'
@@ -17,16 +17,16 @@ export default async function DashboardPage() {
   let totalDocs = 0
 
   try {
-    const supabase = await createServerSupabase()
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user && !hasBetaBypass) redirect('/login')
+    const userId = await getAuthUserId()
+    if (!userId && !hasBetaBypass) redirect('/login')
+    const supabase = getSupabase()
 
     // Fetch user profile to get role (skip if beta bypass without user)
-    if (user) {
+    if (userId) {
       const { data: profile } = await supabase
         .from('user_profiles')
         .select('role')
-        .eq('id', user.id)
+        .eq('id', userId)
         .single()
       userRole = (profile?.role as UserRole) || 'attorney'
     }

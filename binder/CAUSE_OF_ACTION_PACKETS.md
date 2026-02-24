@@ -1,25 +1,26 @@
 # CAUSE OF ACTION DOCUMENT PACKETS
 ## Tree Farm LLC v. Salt Lake County (Case No. 220903418)
 
-**Generated:** 2026-02-21 15:07:36
+**Generated:** 2026-02-22 18:13:26
 **Total Documents Scanned:** 5576 (100% of production)
 **Bates Range:** SLCo002489 through SLCo018710
+**Source:** All bates-stamped documents from both Tree Farm and Salt Lake County productions
 
 ---
 
 ## EXECUTIVE SUMMARY
 
-| Packet | Cause of Action | Documents | CRITICAL | HIGH | MEDIUM | LOW |
-|--------|----------------|-----------|----------|------|--------|-----|
-| 1 | Vested Mining Rights (PRIMARY) | 932 | 40 | 84 | 420 | 388 |
-| 2 | Regulatory Taking (ALTERNATIVE) | 1209 | 87 | 121 | 732 | 269 |
-| 3 | Permanent Injunction (REMEDY) | 358 | 0 | 5 | 112 | 241 |
-| 4 | CIM Preemption (SECONDARY) | 1922 | 40 | 1281 | 442 | 159 |
-| 5 | County Counterclaim (DEFENSE) | 2175 | 91 | 168 | 1579 | 337 |
+| COA | Cause of Action | Documents | CRITICAL | HIGH | MEDIUM | LOW |
+|-----|----------------|-----------|----------|------|--------|-----|
+| 1 | Declaratory Relief (Ordinance Invalid) | 1922 | 40 | 1281 | 442 | 159 |
+| 2 | Permanent Injunction | 1694 | 9 | 9 | 158 | 1518 |
+| 3 | Vested Mining Use (PRIMARY) | 804 | 28 | 64 | 342 | 370 |
+| 4 | Regulatory Taking (Alternative) | 1209 | 87 | 121 | 732 | 269 |
+| 5 | County Counterclaim | 2175 | 91 | 168 | 1579 | 337 |
 | 6 | Not Tied to Cause of Action | 2468 | — | — | — | — |
 
-**Documents assigned to at least one packet:** 3108
-**Documents not assigned to any packet:** 2468
+**Documents assigned to at least one cause of action:** 3108
+**Documents not assigned to any cause of action:** 2468
 **Total accounted for:** 5576 / 5576 (100%)
 
 ### Document Type Breakdown
@@ -38,55 +39,55 @@
 
 ## CROSS-REFERENCE: Documents Supporting Multiple Causes of Action
 
-**683 documents** support 3 or more causes of action:
+**1886 documents** support 3 or more causes of action:
 
-| Bates ID | Packets | Relevance | Key Phrase |
-|----------|---------|-----------|------------|
+| Bates ID | COAs | Relevance | Key Phrase |
+|----------|------|-----------|------------|
 | SLCo002497 | 1, 2, 3, 4 | HIGH | Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use" |
 | SLCo002501 | 1, 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "land use regulation"; Environmental Health: "air quality", "public health"; Public Opposition: "public comment", "public hearing"; Statute refs: 17-41-402, 17-41-406 |
-| SLCo002562 | 1, 2, 4 | LOW |  |
-| SLCo002564 | 1, 2, 4 | LOW |  |
+| SLCo002562 | 1, 3, 4 | LOW |  |
+| SLCo002564 | 1, 3, 4 | LOW |  |
 | SLCo002565 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo002573 | 1, 2, 3, 4 | LOW |  |
-| SLCo002576 | 1, 2, 5 | HIGH | Investment Expectations: "small mine permit"; Intergovernmental: "dogm" |
-| SLCo002595 | 1, 2, 4 | LOW |  |
-| SLCo002597 | 1, 2, 4 | LOW |  |
-| SLCo002600 | 1, 2, 4 | LOW |  |
-| SLCo002630 | 1, 2, 4 | LOW |  |
+| SLCo002576 | 3, 4, 5 | HIGH | Investment Expectations: "small mine permit"; Intergovernmental: "dogm" |
+| SLCo002595 | 1, 3, 4 | LOW |  |
+| SLCo002597 | 1, 3, 4 | LOW |  |
+| SLCo002600 | 1, 3, 4 | LOW |  |
+| SLCo002630 | 1, 3, 4 | LOW |  |
 | SLCo002632 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo002640 | 1, 2, 4 | LOW |  |
+| SLCo002640 | 1, 3, 4 | LOW |  |
 | SLCo002642 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo002651 | 1, 2, 4 | LOW |  |
+| SLCo002651 | 1, 3, 4 | LOW |  |
 | SLCo002653 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo002661 | 1, 2, 4 | LOW |  |
+| SLCo002661 | 1, 3, 4 | LOW |  |
 | SLCo002663 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo002671 | 1, 2, 4 | LOW |  |
+| SLCo002671 | 1, 3, 4 | LOW |  |
 | SLCo002673 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo002687 | 1, 2, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
 | SLCo002746 | 1, 2, 3, 4 | LOW |  |
 | SLCo002748 | 1, 2, 3, 4 | LOW |  |
 | SLCo002749 | 1, 2, 3, 4 | LOW |  |
-| SLCo002751 | 1, 2, 3, 5 | LOW |  |
-| SLCo002759 | 1, 2, 3, 5 | LOW |  |
-| SLCo002788 | 1, 2, 3, 5 | LOW |  |
-| SLCo002795 | 1, 2, 5 | LOW |  |
-| SLCo002871 | 1, 2, 4, 5 | LOW |  |
+| SLCo002751 | 2, 3, 4, 5 | LOW |  |
+| SLCo002759 | 2, 3, 4, 5 | LOW |  |
+| SLCo002788 | 2, 3, 4, 5 | LOW |  |
+| SLCo002795 | 3, 4, 5 | LOW |  |
+| SLCo002871 | 1, 3, 4, 5 | LOW |  |
 | SLCo002904 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo002916 | 1, 2, 3, 4, 5 | LOW |  |
-| SLCo002926 | 1, 2, 3, 5 | LOW |  |
-| SLCo002928 | 1, 2, 4 | LOW |  |
+| SLCo002926 | 2, 3, 4, 5 | LOW |  |
+| SLCo002928 | 1, 3, 4 | LOW |  |
 | SLCo002930 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo002938 | 1, 2, 4 | LOW |  |
-| SLCo002940 | 1, 2, 4 | LOW |  |
-| SLCo002943 | 1, 2, 4 | LOW |  |
-| SLCo002946 | 1, 2, 4 | LOW |  |
-| SLCo002949 | 1, 2, 4 | LOW |  |
-| SLCo002952 | 1, 2, 4 | LOW |  |
+| SLCo002938 | 1, 3, 4 | LOW |  |
+| SLCo002940 | 1, 3, 4 | LOW |  |
+| SLCo002943 | 1, 3, 4 | LOW |  |
+| SLCo002946 | 1, 3, 4 | LOW |  |
+| SLCo002949 | 1, 3, 4 | LOW |  |
+| SLCo002952 | 1, 3, 4 | LOW |  |
 | SLCo002956 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo002964 | 1, 2, 4 | LOW |  |
-| SLCo002968 | 1, 2, 4 | LOW |  |
-| SLCo002972 | 1, 2, 4 | LOW |  |
-| SLCo002975 | 1, 2, 4 | LOW |  |
+| SLCo002964 | 1, 3, 4 | LOW |  |
+| SLCo002968 | 1, 3, 4 | LOW |  |
+| SLCo002972 | 1, 3, 4 | LOW |  |
+| SLCo002975 | 1, 3, 4 | LOW |  |
 | SLCo002977 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo002987 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo002992 | 1, 2, 3, 4, 5 | LOW |  |
@@ -98,8 +99,8 @@
 | SLCo003020 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo003023 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo003026 | 1, 2, 3, 4, 5 | LOW |  |
-| SLCo003040 | 1, 2, 4 | LOW |  |
-| SLCo003041 | 1, 2, 4 | LOW |  |
+| SLCo003040 | 1, 3, 4 | LOW |  |
+| SLCo003041 | 1, 3, 4 | LOW |  |
 | SLCo003044 | 1, 2, 3, 4, 5 | HIGH | County No Vested Rights: "time limit"; Public Opposition: "public hearing" |
 | SLCo003049 | 1, 2, 3, 4, 5 | HIGH | County No Vested Rights: "time limit"; Public Opposition: "public hearing" |
 | SLCo003054 | 1, 2, 3, 4, 5 | HIGH | County No Vested Rights: "time limit"; Public Opposition: "public hearing" |
@@ -110,246 +111,1086 @@
 | SLCo003079 | 1, 2, 3, 4, 5 | HIGH | County No Vested Rights: "time limit"; Public Opposition: "public hearing" |
 | SLCo003099 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo003100 | 1, 2, 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license" |
-| SLCo003120 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
-| SLCo003135 | 2, 4, 5 | LOW |  |
-| SLCo003138 | 2, 4, 5 | LOW |  |
-| SLCo003139 | 2, 4, 5 | LOW |  |
-| SLCo003143 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003162 | 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly con |
+| SLCo003120 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo003135 | 1, 4, 5 | LOW |  |
+| SLCo003138 | 1, 4, 5 | LOW |  |
+| SLCo003139 | 1, 4, 5 | LOW |  |
+| SLCo003143 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003162 | 1, 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly con |
 | SLCo003164 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
-| SLCo003194 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003194 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
 | SLCo003244 | 1, 2, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
-| SLCo003298 | 1, 2, 4, 5 | HIGH | Environmental Health: "air quality", "dust emissions", "water quality"; Public Opposition: "neighborhood", "quality of life" |
+| SLCo003298 | 1, 4, 5 | HIGH | Environmental Health: "air quality", "dust emissions", "water quality"; Public Opposition: "neighborhood", "quality of life" |
 | SLCo003307 | 1, 2, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
 | SLCo003366 | 1, 2, 3, 4 | LOW |  |
-| SLCo003370 | 1, 2, 3, 5 | LOW |  |
+| SLCo003370 | 2, 3, 4, 5 | LOW |  |
 | SLCo003377 | 1, 2, 3, 4, 5 | CRITICAL | Prior Use: "mine operator"; Investment: "notice of intention", "mining operations", "mining operation"; County Knew: "conditional use" |
-| SLCo003392 | 1, 2, 5 | LOW |  |
-| SLCo003432 | 1, 2, 4, 5 | LOW |  |
+| SLCo003392 | 3, 4, 5 | LOW |  |
+| SLCo003432 | 1, 3, 4, 5 | LOW |  |
 | SLCo003459 | 1, 2, 3, 4, 5 | LOW |  |
-| SLCo003469 | 1, 2, 3 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
+| SLCo003469 | 2, 3, 4 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
 | SLCo003498 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo003524 | 1, 2, 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license" |
-| SLCo003533 | 1, 2, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "water rights", "flood control" |
+| SLCo003533 | 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "water rights", "flood control" |
 | SLCo003588 | 1, 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "violation of state law"; Statute re |
 | SLCo003595 | 1, 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "violation of state law"; Statute re |
-| SLCo003642 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003677 | 1, 2, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo003642 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003677 | 1, 3, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
 | SLCo003684 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo003685 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo003686 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo003687 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo003692 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo003693 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
-| SLCo003697 | 1, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit, restrict, regulate"; Ordinance Action: "mineral extraction", "conditional use"; Bad Faith: " |
+| SLCo003697 | 1, 2, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit, restrict, regulate"; Ordinance Action: "mineral extraction", "conditional use"; Bad Faith: " |
 | SLCo003728 | 1, 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "violation of state law"; Statute re |
-| SLCo003739 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003762 | 1, 2, 3, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
-| SLCo003776 | 1, 2, 5 | LOW |  |
-| SLCo003782 | 1, 2, 5 | LOW |  |
-| SLCo003798 | 1, 2, 4 | LOW |  |
-| SLCo003800 | 1, 2, 4 | LOW |  |
-| SLCo003801 | 1, 2, 4 | LOW |  |
-| SLCo003803 | 1, 2, 4 | LOW |  |
+| SLCo003739 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003762 | 2, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
+| SLCo003776 | 3, 4, 5 | LOW |  |
+| SLCo003782 | 3, 4, 5 | LOW |  |
+| SLCo003798 | 1, 3, 4 | LOW |  |
+| SLCo003800 | 1, 3, 4 | LOW |  |
+| SLCo003801 | 1, 3, 4 | LOW |  |
+| SLCo003803 | 1, 3, 4 | LOW |  |
 | SLCo003804 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo003812 | 1, 2, 3, 4 | LOW |  |
-| SLCo003815 | 1, 2, 4, 5 | LOW |  |
-| SLCo003817 | 1, 2, 4, 5 | HIGH | Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use" |
-| SLCo003822 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
-| SLCo003831 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
-| SLCo003838 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
-| SLCo003844 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
-| SLCo003854 | 1, 3, 5 | LOW |  |
-| SLCo003856 | 1, 2, 3, 5 | LOW |  |
-| SLCo003865 | 1, 2, 4, 5 | LOW |  |
-| SLCo004021 | 2, 3, 5 | LOW |  |
+| SLCo003815 | 1, 3, 4, 5 | LOW |  |
+| SLCo003817 | 1, 3, 4, 5 | HIGH | Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use" |
+| SLCo003822 | 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
+| SLCo003831 | 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
+| SLCo003838 | 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
+| SLCo003844 | 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
+| SLCo003854 | 2, 3, 5 | LOW |  |
+| SLCo003856 | 2, 3, 4, 5 | LOW |  |
+| SLCo003865 | 1, 3, 4, 5 | LOW |  |
+| SLCo004021 | 2, 4, 5 | LOW |  |
 | SLCo004040 | 1, 2, 4, 5 | HIGH | Environmental Health: "air quality", "watershed"; Public Opposition: "property values" |
-| SLCo004042 | 1, 2, 5 | LOW |  |
-| SLCo004044 | 1, 2, 5 | LOW |  |
-| SLCo004048 | 1, 2, 4, 5 | LOW |  |
-| SLCo004051 | 1, 2, 4 | LOW |  |
-| SLCo004052 | 1, 2, 4 | LOW |  |
-| SLCo004060 | 1, 2, 4 | LOW |  |
-| SLCo004067 | 1, 2, 4, 5 | LOW |  |
-| SLCo004069 | 1, 2, 4 | LOW |  |
+| SLCo004042 | 3, 4, 5 | LOW |  |
+| SLCo004044 | 3, 4, 5 | LOW |  |
+| SLCo004048 | 1, 3, 4, 5 | LOW |  |
+| SLCo004051 | 1, 3, 4 | LOW |  |
+| SLCo004052 | 1, 3, 4 | LOW |  |
+| SLCo004053 | 1, 2, 5 | LOW |  |
+| SLCo004054 | 1, 2, 5 | LOW |  |
+| SLCo004055 | 1, 2, 5 | LOW |  |
+| SLCo004060 | 1, 3, 4 | LOW |  |
+| SLCo004067 | 1, 3, 4, 5 | LOW |  |
+| SLCo004069 | 1, 3, 4 | LOW |  |
 | SLCo004070 | 1, 2, 3, 4 | HIGH | Economic Impact: "eliminate mineral extraction"; Government Character: "banning the quarry"; Statute refs: 19.12.030 |
 | SLCo004072 | 1, 2, 3, 4 | HIGH | Economic Impact: "eliminate mineral extraction"; Government Character: "banning the quarry"; Statute refs: 19.12.030 |
 | SLCo004074 | 1, 2, 3, 4 | HIGH | Economic Impact: "eliminate mineral extraction"; Government Character: "banning the quarry"; Statute refs: 19.12.030 |
-| SLCo004076 | 1, 2, 4 | LOW |  |
-| SLCo004080 | 2, 3, 5 | CRITICAL | County Zoning Authority: "land use regulation"; Environmental Health: "air quality"; Public Opposition: "public comment", "public hearing", "neighborhood" |
-| SLCo004104 | 1, 2, 4 | LOW |  |
+| SLCo004076 | 1, 3, 4 | LOW |  |
+| SLCo004080 | 2, 4, 5 | CRITICAL | County Zoning Authority: "land use regulation"; Environmental Health: "air quality"; Public Opposition: "public comment", "public hearing", "neighborhood" |
+| SLCo004104 | 1, 3, 4 | LOW |  |
 | SLCo004115 | 1, 2, 3, 4 | HIGH | Investment Expectations: "vested mining right"; Intergovernmental: "water rights", "dogm" |
 | SLCo004116 | 1, 2, 3, 4 | HIGH | Investment Expectations: "vested mining right"; Intergovernmental: "water rights", "dogm" |
-| SLCo004123 | 1, 4, 5 | HIGH | Environmental Health: "air quality", "pm 2.5", "fugitive dust"; Public Opposition: "neighborhood" |
-| SLCo004124 | 1, 4, 5 | HIGH | Environmental Health: "air quality", "pm 2.5", "fugitive dust"; Public Opposition: "neighborhood" |
-| SLCo004130 | 2, 3, 4, 5 | LOW |  |
-| SLCo004149 | 1, 2, 5 | LOW |  |
-| SLCo004151 | 1, 2, 5 | LOW |  |
-| SLCo004182 | 1, 2, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo004123 | 1, 3, 5 | HIGH | Environmental Health: "air quality", "pm 2.5", "fugitive dust"; Public Opposition: "neighborhood" |
+| SLCo004124 | 1, 3, 5 | HIGH | Environmental Health: "air quality", "pm 2.5", "fugitive dust"; Public Opposition: "neighborhood" |
+| SLCo004130 | 1, 2, 4, 5 | LOW |  |
+| SLCo004149 | 3, 4, 5 | LOW |  |
+| SLCo004151 | 3, 4, 5 | LOW |  |
+| SLCo004182 | 1, 3, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo004189 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004190 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004191 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004192 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004193 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004194 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004195 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004196 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004197 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004198 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004199 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004200 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004201 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004202 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004203 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004204 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004205 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004206 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004207 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004208 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004209 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004210 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004211 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004212 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004213 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004214 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004215 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004216 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004217 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004218 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004219 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004220 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004221 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004222 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004223 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004224 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004225 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004226 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004227 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004228 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004229 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004230 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004231 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004232 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004233 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004234 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004235 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004236 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004237 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004238 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004239 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004240 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004241 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004242 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004243 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004244 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004245 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004246 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004248 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004249 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004250 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004251 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004252 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004253 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004254 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004255 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004256 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004257 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004258 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004260 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004261 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004262 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004265 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004266 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004267 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004268 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004269 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004270 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004271 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004272 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004273 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004274 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004275 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004276 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004277 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004278 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004279 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004280 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004281 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004282 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004283 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004284 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004285 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004286 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004287 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004288 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004289 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004290 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004291 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004292 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004293 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004294 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004295 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004296 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004297 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004298 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004299 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004300 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004301 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004302 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004303 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004304 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004305 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004306 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004307 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004308 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004309 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004310 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004311 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004312 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004313 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
 | SLCo004314 | 1, 2, 4 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
 | SLCo004315 | 1, 2, 4 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
 | SLCo004316 | 1, 2, 4 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004317 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004318 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004319 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004320 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004322 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004324 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004326 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004327 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004328 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004329 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004330 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004331 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004332 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004333 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004334 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004335 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004336 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004337 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004338 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004339 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004340 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004341 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004342 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004343 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004344 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004345 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004347 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004348 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004349 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004350 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004351 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004352 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004353 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004354 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004355 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004356 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004357 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004358 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004359 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004360 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004361 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004362 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004363 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004364 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004365 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004366 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004367 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004368 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004369 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004370 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004371 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004372 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004373 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004374 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004375 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004376 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004378 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004380 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004381 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004382 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004383 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004384 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004385 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004386 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004387 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004388 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004389 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004390 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004391 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004392 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004393 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004394 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004395 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004396 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004397 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004398 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004400 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004401 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004402 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004403 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004404 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004405 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004406 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004407 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004408 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
 | SLCo004409 | 1, 2, 4 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
 | SLCo004410 | 1, 2, 4 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
 | SLCo004411 | 1, 2, 4 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004412 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004413 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004414 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004415 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004416 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004418 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004419 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004420 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004421 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004422 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004423 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004425 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004426 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004427 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004428 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004429 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004430 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004431 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004432 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004433 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004434 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004435 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004436 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004437 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004440 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004441 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004442 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004443 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004444 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004445 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004446 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004447 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004448 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004449 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004450 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004451 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004452 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004453 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004454 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004455 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004456 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004457 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004458 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004459 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004460 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004461 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004462 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004463 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004464 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004465 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004466 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004467 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004468 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004469 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004470 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004471 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004473 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004474 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004477 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004478 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004479 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004481 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004482 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004483 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004484 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004485 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004486 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004487 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004488 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004489 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004490 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004491 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004492 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004493 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004494 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004495 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004496 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004497 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004498 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004499 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004501 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004502 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004503 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004504 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004505 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004506 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004507 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004508 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004509 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004510 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004511 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004512 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004513 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004514 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004515 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004516 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004517 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004518 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004519 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004520 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004521 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004522 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004523 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004524 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004525 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004526 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004527 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004528 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004529 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004530 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004531 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004532 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004533 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004535 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004536 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004537 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004538 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004539 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004540 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004541 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004542 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004543 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004544 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004545 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004546 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004547 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004548 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004549 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004550 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004551 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004552 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004553 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004554 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004555 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004556 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004557 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004558 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004559 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004560 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004561 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004562 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004563 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004564 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004565 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004566 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004567 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004568 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004569 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004570 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004571 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004572 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004573 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004574 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004575 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004576 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004577 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004578 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004579 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004580 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004581 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004582 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004583 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004584 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004585 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004586 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004587 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004588 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004589 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004590 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004591 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004592 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004593 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004594 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004595 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004596 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004597 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004598 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004599 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004600 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004601 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004602 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004603 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004604 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004605 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004606 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004607 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004608 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004609 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004610 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004611 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004612 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004613 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004614 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004615 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004616 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004617 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004618 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004619 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004620 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004621 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004622 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004623 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004624 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004625 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004626 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004627 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004628 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004629 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004630 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004631 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004632 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004633 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004634 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004635 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004636 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004637 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004638 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004639 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004640 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004641 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004645 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004646 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004647 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004648 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004649 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004650 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004651 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004652 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004653 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004654 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004655 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004656 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004657 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004658 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004659 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo004660 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
 | SLCo004662 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety", "general welfare"; Environmental Health: "air quality", "pm 2.5", "pm2.5"; Public Opposition: "public comment", "public hea |
 | SLCo004992 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo005003 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety", "general welfare"; Environmental Health: "air quality", "pm 2.5", "pm2.5"; Public Opposition: "public comment", "public hea |
 | SLCo005400 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo005412 | 1, 2, 5 | LOW |  |
-| SLCo005417 | 1, 2, 3, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
-| SLCo005498 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
-| SLCo005544 | 1, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use" |
-| SLCo005545 | 1, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use" |
-| SLCo005546 | 1, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use" |
+| SLCo005412 | 3, 4, 5 | LOW |  |
+| SLCo005413 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005414 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005417 | 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
+| SLCo005460 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005461 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005462 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005463 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005464 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005465 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005470 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005471 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005472 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005473 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005474 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005475 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005476 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005477 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005478 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005480 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005482 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005483 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005484 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005485 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005486 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005487 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005488 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005489 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005490 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005491 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005492 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005493 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005494 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005495 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005498 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
+| SLCo005508 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005509 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005510 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005511 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005512 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005513 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005514 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005515 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005516 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005517 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005518 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005519 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005520 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005521 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005522 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005523 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005524 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005525 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005526 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005527 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005528 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005529 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005533 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005534 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005535 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005537 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005538 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005539 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005540 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005543 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005544 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use" |
+| SLCo005545 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use" |
+| SLCo005546 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use" |
+| SLCo005547 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005548 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005549 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005550 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005552 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005554 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005556 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005557 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005558 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005559 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005561 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005562 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005563 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005564 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005565 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005566 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005567 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005568 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
 | SLCo005569 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
-| SLCo005586 | 1, 4, 5 | LOW |  |
-| SLCo005588 | 1, 4, 5 | LOW |  |
-| SLCo005590 | 1, 4, 5 | LOW |  |
-| SLCo005633 | 1, 4, 5 | LOW |  |
-| SLCo005635 | 1, 4, 5 | LOW |  |
-| SLCo005637 | 1, 4, 5 | LOW |  |
-| SLCo005639 | 1, 4, 5 | LOW |  |
-| SLCo005641 | 1, 4, 5 | LOW |  |
-| SLCo005643 | 1, 4, 5 | LOW |  |
-| SLCo005857 | 1, 2, 4, 5 | HIGH | Environmental Health: "air quality", "water quality", "drinking water"; Public Opposition: "neighborhood" |
-| SLCo005904 | 1, 4, 5 | LOW |  |
-| SLCo005905 | 1, 4, 5 | LOW |  |
-| SLCo005906 | 1, 4, 5 | LOW |  |
-| SLCo005964 | 1, 4, 5 | LOW |  |
-| SLCo005978 | 1, 2, 4, 5 | LOW |  |
-| SLCo005995 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "land use authority"; Environmental Health: "air quality", "watershed", "drinking water"; Public Opposition: "property values" |
+| SLCo005571 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005572 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005573 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005574 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005576 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005577 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005578 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005579 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005580 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005581 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005582 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005586 | 1, 3, 5 | LOW |  |
+| SLCo005588 | 1, 3, 5 | LOW |  |
+| SLCo005590 | 1, 3, 5 | LOW |  |
+| SLCo005592 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005593 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005594 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005595 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005596 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005597 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005598 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005599 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005600 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005601 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005602 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005603 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005604 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005605 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005606 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005607 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005608 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005609 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005610 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005611 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005612 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005613 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005614 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005615 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005616 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005617 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005618 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005619 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005620 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005621 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005622 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005623 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005624 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005625 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005626 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005627 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005628 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005629 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005630 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005631 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005633 | 1, 2, 5 | LOW |  |
+| SLCo005635 | 1, 2, 5 | LOW |  |
+| SLCo005637 | 1, 2, 5 | LOW |  |
+| SLCo005639 | 1, 2, 5 | LOW |  |
+| SLCo005641 | 1, 2, 5 | LOW |  |
+| SLCo005643 | 1, 2, 5 | LOW |  |
+| SLCo005644 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005645 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005646 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005647 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005648 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005649 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005650 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005651 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005652 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005653 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005654 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005655 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005656 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005657 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005658 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005659 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005660 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005661 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005662 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005663 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005664 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005665 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005666 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005668 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005669 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005670 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005671 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005672 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005673 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005674 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005675 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005676 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005677 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005678 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005679 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005680 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005681 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005682 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005683 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005684 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005685 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005686 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005687 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005688 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005689 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005690 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005691 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005692 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005693 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005694 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005696 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005697 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005698 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005699 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005700 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005701 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005702 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005703 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005704 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005705 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005706 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005707 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005708 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005709 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005711 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005712 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005713 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "watershed"; Public Opposition: "quality of life" |
+| SLCo005714 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "watershed"; Public Opposition: "quality of life" |
+| SLCo005715 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "watershed"; Public Opposition: "quality of life" |
+| SLCo005716 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005717 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005718 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005719 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005720 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005721 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005722 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005723 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005724 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005725 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005726 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005727 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005728 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005729 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005730 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005731 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005732 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005733 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005734 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005735 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005736 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005737 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005738 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005739 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005740 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005741 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005742 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005743 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005744 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005745 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005746 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005747 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005748 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005749 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005750 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005751 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005752 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005753 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005754 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005755 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005756 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005757 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005758 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005759 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005760 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005761 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005762 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005764 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005765 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005766 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005767 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005768 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005769 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005770 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005771 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005772 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005773 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005774 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005775 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005776 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005777 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005778 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005779 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005780 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005781 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005782 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005783 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005784 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005785 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005786 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005787 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005788 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005789 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005790 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005791 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005792 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005793 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005794 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005795 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005796 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005797 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005798 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005799 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005800 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005801 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005802 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005803 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005804 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005805 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005806 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005807 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005808 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005809 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005810 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005811 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005812 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005813 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005814 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005815 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005816 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005817 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005818 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005819 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005820 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005821 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005822 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005823 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005824 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005825 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005826 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005827 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005828 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005829 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005830 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005831 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005832 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005833 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005834 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005835 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005836 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005837 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005838 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005839 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005841 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005842 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005843 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005844 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005845 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005846 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005847 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005848 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005849 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005850 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005851 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005852 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005853 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005854 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005855 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005857 | 1, 3, 4, 5 | HIGH | Environmental Health: "air quality", "water quality", "drinking water"; Public Opposition: "neighborhood" |
+| SLCo005867 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005868 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005869 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005870 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005871 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005872 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005873 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005874 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005875 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005876 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005877 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005878 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005879 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005880 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005887 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005890 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005891 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005892 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005893 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005894 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005895 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005896 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005897 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005898 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005899 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005900 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005904 | 1, 3, 5 | LOW |  |
+| SLCo005905 | 1, 3, 5 | LOW |  |
+| SLCo005906 | 1, 3, 5 | LOW |  |
+| SLCo005907 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005908 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005909 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005912 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005913 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005914 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005915 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005916 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005917 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005919 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005920 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005921 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005922 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005923 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005924 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005925 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005926 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005927 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005930 | 1, 2, 5 | LOW |  |
+| SLCo005931 | 1, 2, 5 | LOW |  |
+| SLCo005946 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005951 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005955 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "water quality"; Public Opposition: "quality of life" |
+| SLCo005957 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "water quality"; Public Opposition: "quality of life" |
+| SLCo005964 | 1, 3, 5 | LOW |  |
+| SLCo005967 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "water quality"; Public Opposition: "quality of life" |
+| SLCo005969 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005971 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "water quality"; Public Opposition: "quality of life" |
+| SLCo005973 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo005978 | 1, 3, 4, 5 | LOW |  |
+| SLCo005986 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "water quality"; Public Opposition: "quality of life" |
+| SLCo005988 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "water quality"; Public Opposition: "quality of life" |
+| SLCo005990 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "water quality"; Public Opposition: "quality of life" |
+| SLCo005995 | 1, 3, 4, 5 | CRITICAL | County Zoning Authority: "land use authority"; Environmental Health: "air quality", "watershed", "drinking water"; Public Opposition: "property values" |
 | SLCo006122 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo006127 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
-| SLCo006144 | 1, 4, 5 | LOW |  |
+| SLCo006144 | 1, 3, 5 | LOW |  |
 | SLCo006182 | 1, 2, 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "water rights", "dogm"; Statute refs: 19.12.030 |
 | SLCo006190 | 1, 2, 3, 4, 5 | LOW |  |
-| SLCo006192 | 1, 3, 4 | LOW |  |
-| SLCo006208 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
-| SLCo006214 | 1, 2, 4 | LOW |  |
-| SLCo006216 | 1, 2, 4 | LOW |  |
+| SLCo006192 | 1, 2, 3 | LOW |  |
+| SLCo006208 | 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
+| SLCo006214 | 1, 3, 4 | LOW |  |
+| SLCo006216 | 1, 3, 4 | LOW |  |
 | SLCo006217 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo006225 | 1, 2, 3, 4 | LOW |  |
-| SLCo006229 | 1, 2, 4 | LOW |  |
-| SLCo006231 | 1, 2, 4 | LOW |  |
+| SLCo006229 | 1, 3, 4 | LOW |  |
+| SLCo006231 | 1, 3, 4 | LOW |  |
 | SLCo006232 | 1, 2, 3, 4 | LOW |  |
-| SLCo006236 | 1, 2, 4 | LOW |  |
-| SLCo006238 | 1, 2, 4 | LOW |  |
+| SLCo006236 | 1, 3, 4 | LOW |  |
+| SLCo006238 | 1, 3, 4 | LOW |  |
 | SLCo006239 | 1, 2, 3, 4 | LOW |  |
-| SLCo006243 | 1, 2, 4 | LOW |  |
-| SLCo006245 | 1, 2, 4 | LOW |  |
+| SLCo006243 | 1, 3, 4 | LOW |  |
+| SLCo006245 | 1, 3, 4 | LOW |  |
 | SLCo006246 | 1, 2, 3, 4 | LOW |  |
-| SLCo006249 | 1, 2, 4 | LOW |  |
-| SLCo006252 | 1, 2, 4 | LOW |  |
-| SLCo006272 | 1, 2, 4 | LOW |  |
+| SLCo006249 | 1, 3, 4 | LOW |  |
+| SLCo006252 | 1, 3, 4 | LOW |  |
+| SLCo006272 | 1, 3, 4 | LOW |  |
 | SLCo006274 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo006285 | 1, 2, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
-| SLCo006340 | 1, 2, 3, 5 | LOW |  |
-| SLCo006351 | 1, 2, 3, 5 | LOW |  |
-| SLCo006361 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "general welfare"; Environmental Health: "air quality", "fugitive dust", "dust emissions"; Public Opposition: "neighborhood" |
-| SLCo006381 | 1, 2, 5 | LOW |  |
-| SLCo006408 | 1, 2, 4, 5 | LOW |  |
-| SLCo006439 | 1, 2, 5 | HIGH | Environmental Health: "fugitive dust", "drinking water"; Public Opposition: "quality of life" |
-| SLCo006466 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "quality of life" |
-| SLCo006467 | 2, 3, 5 | LOW |  |
-| SLCo006476 | 1, 2, 5 | LOW |  |
-| SLCo006480 | 1, 2, 5 | HIGH | County Zoning Authority: "health and safety"; Environmental Health: "fugitive dust", "environmental impact" |
-| SLCo006485 | 1, 2, 5 | LOW |  |
-| SLCo006487 | 2, 3, 5 | LOW |  |
-| SLCo006510 | 1, 2, 5 | LOW |  |
-| SLCo006516 | 1, 2, 5 | HIGH | Economic Impact: "property value"; Investment Expectations: "mining operations" |
-| SLCo006520 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "water quality", "public health"; Public Opposition: "neighborhood", "property values" |
-| SLCo006524 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "water quality", "public health"; Public Opposition: "neighborhood", "property values" |
-| SLCo006528 | 1, 2, 5 | LOW |  |
-| SLCo006537 | 1, 2, 5 | CRITICAL | Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo006558 | 1, 2, 5 | CRITICAL | Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo006573 | 1, 2, 5 | HIGH | County Zoning Authority: "general welfare"; Environmental Health: "fugitive dust", "dust emissions", "water quality" |
+| SLCo006340 | 2, 3, 4, 5 | LOW |  |
+| SLCo006351 | 2, 3, 4, 5 | LOW |  |
+| SLCo006361 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "general welfare"; Environmental Health: "air quality", "fugitive dust", "dust emissions"; Public Opposition: "neighborhood" |
+| SLCo006381 | 3, 4, 5 | LOW |  |
+| SLCo006408 | 1, 3, 4, 5 | LOW |  |
+| SLCo006439 | 3, 4, 5 | HIGH | Environmental Health: "fugitive dust", "drinking water"; Public Opposition: "quality of life" |
+| SLCo006466 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "quality of life" |
+| SLCo006467 | 2, 4, 5 | LOW |  |
+| SLCo006476 | 3, 4, 5 | LOW |  |
+| SLCo006480 | 3, 4, 5 | HIGH | County Zoning Authority: "health and safety"; Environmental Health: "fugitive dust", "environmental impact" |
+| SLCo006485 | 3, 4, 5 | LOW |  |
+| SLCo006487 | 2, 4, 5 | LOW |  |
+| SLCo006510 | 3, 4, 5 | LOW |  |
+| SLCo006516 | 3, 4, 5 | HIGH | Economic Impact: "property value"; Investment Expectations: "mining operations" |
+| SLCo006520 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "water quality", "public health"; Public Opposition: "neighborhood", "property values" |
+| SLCo006524 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "water quality", "public health"; Public Opposition: "neighborhood", "property values" |
+| SLCo006528 | 3, 4, 5 | LOW |  |
+| SLCo006537 | 3, 4, 5 | CRITICAL | Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo006558 | 3, 4, 5 | CRITICAL | Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo006573 | 3, 4, 5 | HIGH | County Zoning Authority: "general welfare"; Environmental Health: "fugitive dust", "dust emissions", "water quality" |
 | SLCo006594 | 1, 2, 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
 | SLCo006618 | 1, 2, 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006641 | 1, 2, 4 | LOW |  |
-| SLCo006670 | 1, 2, 4 | LOW |  |
-| SLCo006679 | 1, 2, 3, 5 | LOW |  |
+| SLCo006641 | 1, 3, 4 | LOW |  |
+| SLCo006670 | 1, 3, 4 | LOW |  |
+| SLCo006679 | 2, 3, 4, 5 | LOW |  |
 | SLCo006684 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety", "general welfare"; County No Vested Rights: "time limit"; Environmental Health: "air quality", "pm 2.5", "fugitive dust"; P |
 | SLCo006785 | 1, 2, 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "property values", "quality of life" |
 | SLCo006787 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo006795 | 1, 2, 5 | LOW |  |
-| SLCo006796 | 1, 2, 4 | LOW |  |
+| SLCo006795 | 3, 4, 5 | LOW |  |
+| SLCo006796 | 1, 3, 4 | LOW |  |
 | SLCo006798 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo006829 | 1, 2, 5 | LOW |  |
-| SLCo006836 | 1, 2, 5 | LOW |  |
+| SLCo006829 | 3, 4, 5 | LOW |  |
+| SLCo006836 | 3, 4, 5 | LOW |  |
 | SLCo006843 | 1, 2, 3, 4, 5 | CRITICAL | Prior Use: "vested mining use", "mining use"; Investment: "large mine permit", "small mine permit", "notice of intention"; County Knew: "conditional use" |
 | SLCo006857 | 1, 2, 3, 4, 5 | CRITICAL | Prior Use: "vested mining use", "mining use"; Investment: "large mine permit", "small mine permit", "notice of intention"; County Knew: "conditional use" |
-| SLCo006873 | 1, 2, 5 | HIGH | County Zoning Authority: "health, safety, and welfare", "general welfare"; Environmental Health: "air quality", "fugitive dust", "dust emissions" |
+| SLCo006873 | 3, 4, 5 | HIGH | County Zoning Authority: "health, safety, and welfare", "general welfare"; Environmental Health: "air quality", "fugitive dust", "dust emissions" |
 | SLCo006895 | 1, 2, 3, 4, 5 | HIGH | County No Vested Rights: "time limit"; Public Opposition: "public hearing" |
-| SLCo006898 | 2, 3, 5 | LOW |  |
-| SLCo006910 | 2, 3, 5 | CRITICAL | County Zoning Authority: "land use regulation"; Environmental Health: "air quality"; Public Opposition: "public comment", "public hearing", "neighborhood" |
-| SLCo006934 | 1, 2, 5 | CRITICAL | Economic Impact: "property value"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "division of oil, gas, and mining", "dogm" |
+| SLCo006898 | 2, 4, 5 | LOW |  |
+| SLCo006910 | 2, 4, 5 | CRITICAL | County Zoning Authority: "land use regulation"; Environmental Health: "air quality"; Public Opposition: "public comment", "public hearing", "neighborhood" |
+| SLCo006934 | 3, 4, 5 | CRITICAL | Economic Impact: "property value"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "division of oil, gas, and mining", "dogm" |
 | SLCo006947 | 1, 2, 3, 4 | CRITICAL | Prior Use: "vested mining use", "mining use"; Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use" |
 | SLCo006963 | 1, 2, 3, 4 | CRITICAL | Prior Use: "vested mining use", "mining use"; Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use" |
-| SLCo007004 | 2, 3, 5 | LOW |  |
+| SLCo007004 | 2, 4, 5 | LOW |  |
 | SLCo007015 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo007022 | 1, 2, 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license" |
-| SLCo007072 | 1, 2, 3, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "pm2.5", "fugitive dust"; Public Opposition: "quality of life" |
-| SLCo007081 | 2, 3, 5 | LOW |  |
-| SLCo007085 | 2, 3, 5 | LOW |  |
-| SLCo007117 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "public health"; Public Opposition: "public comment" |
-| SLCo007124 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "public health"; Public Opposition: "public comment" |
-| SLCo007151 | 1, 2, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo007162 | 1, 2, 5 | HIGH | County Zoning Authority: "health and safety"; Environmental Health: "public health" |
-| SLCo007181 | 1, 2, 5 | HIGH | County Zoning Authority: "health and safety"; Environmental Health: "public health"; Public Opposition: "public comment" |
-| SLCo007186 | 2, 3, 4, 5 | LOW |  |
-| SLCo007229 | 1, 2, 5 | LOW |  |
-| SLCo007234 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo007072 | 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "pm2.5", "fugitive dust"; Public Opposition: "quality of life" |
+| SLCo007081 | 2, 4, 5 | LOW |  |
+| SLCo007085 | 2, 4, 5 | LOW |  |
+| SLCo007117 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "public health"; Public Opposition: "public comment" |
+| SLCo007124 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "public health"; Public Opposition: "public comment" |
+| SLCo007151 | 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo007162 | 3, 4, 5 | HIGH | County Zoning Authority: "health and safety"; Environmental Health: "public health" |
+| SLCo007181 | 3, 4, 5 | HIGH | County Zoning Authority: "health and safety"; Environmental Health: "public health"; Public Opposition: "public comment" |
+| SLCo007186 | 1, 2, 4, 5 | LOW |  |
+| SLCo007229 | 3, 4, 5 | LOW |  |
+| SLCo007234 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
 | SLCo007278 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo007289 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
-| SLCo007309 | 2, 4, 5 | LOW |  |
-| SLCo007311 | 2, 4, 5 | LOW |  |
-| SLCo007313 | 2, 4, 5 | LOW |  |
-| SLCo007316 | 2, 4, 5 | LOW |  |
-| SLCo007318 | 2, 4, 5 | LOW |  |
-| SLCo007319 | 2, 4, 5 | LOW |  |
-| SLCo007322 | 2, 4, 5 | LOW |  |
-| SLCo007323 | 2, 4, 5 | LOW |  |
-| SLCo007325 | 2, 4, 5 | LOW |  |
-| SLCo007337 | 2, 4, 5 | LOW |  |
-| SLCo007338 | 2, 4, 5 | LOW |  |
-| SLCo007352 | 1, 2, 3, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
-| SLCo007395 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
-| SLCo007411 | 1, 2, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo007418 | 2, 4, 5 | LOW |  |
-| SLCo007425 | 2, 4, 5 | LOW |  |
-| SLCo007435 | 3, 4, 5 | LOW |  |
+| SLCo007289 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo007309 | 1, 4, 5 | LOW |  |
+| SLCo007311 | 1, 4, 5 | LOW |  |
+| SLCo007313 | 1, 4, 5 | LOW |  |
+| SLCo007316 | 1, 4, 5 | LOW |  |
+| SLCo007318 | 1, 4, 5 | LOW |  |
+| SLCo007319 | 1, 4, 5 | LOW |  |
+| SLCo007322 | 1, 4, 5 | LOW |  |
+| SLCo007323 | 1, 4, 5 | LOW |  |
+| SLCo007325 | 1, 4, 5 | LOW |  |
+| SLCo007337 | 1, 4, 5 | LOW |  |
+| SLCo007338 | 1, 4, 5 | LOW |  |
+| SLCo007352 | 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
+| SLCo007395 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
+| SLCo007411 | 1, 3, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo007418 | 1, 4, 5 | LOW |  |
+| SLCo007425 | 1, 4, 5 | LOW |  |
+| SLCo007435 | 1, 2, 5 | LOW |  |
 | SLCo007444 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo007449 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
-| SLCo007455 | 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly con |
+| SLCo007455 | 1, 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly con |
 | SLCo007457 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
-| SLCo007479 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007490 | 1, 4, 5 | LOW |  |
-| SLCo007965 | 1, 2, 3, 5 | LOW |  |
+| SLCo007479 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007490 | 1, 3, 5 | LOW |  |
+| SLCo007965 | 2, 3, 4, 5 | LOW |  |
 | SLCo008006 | 1, 2, 3, 4, 5 | HIGH | Investment: "limestone quarry"; County Knew: "conditional use" |
 | SLCo008008 | 1, 2, 3, 4 | HIGH | Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use" |
 | SLCo008024 | 1, 2, 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "water rights", "dogm"; Statute refs: 19.12.030 |
 | SLCo008036 | 1, 2, 3, 4, 5 | CRITICAL | Economic Impact: "mineral rights"; Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "confidential", "water rights", "division of oil, gas, and mining |
 | SLCo008382 | 1, 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "land use regulation"; Environmental Health: "air quality", "public health"; Public Opposition: "public comment", "public hearing"; Statute refs: 17-41-402, 17-41-406 |
 | SLCo008431 | 1, 2, 3, 4, 5 | LOW |  |
-| SLCo008506 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
-| SLCo008512 | 1, 2, 4 | LOW |  |
-| SLCo008514 | 1, 2, 4 | LOW |  |
+| SLCo008506 | 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
+| SLCo008512 | 1, 3, 4 | LOW |  |
+| SLCo008514 | 1, 3, 4 | LOW |  |
 | SLCo008515 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo008523 | 1, 2, 3, 4 | LOW |  |
-| SLCo008527 | 1, 2, 4 | LOW |  |
-| SLCo008529 | 1, 2, 4 | LOW |  |
+| SLCo008527 | 1, 3, 4 | LOW |  |
+| SLCo008529 | 1, 3, 4 | LOW |  |
 | SLCo008530 | 1, 2, 3, 4 | LOW |  |
-| SLCo008543 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
-| SLCo008548 | 1, 2, 4 | LOW |  |
-| SLCo008550 | 1, 2, 4 | LOW |  |
-| SLCo008551 | 1, 2, 4, 5 | HIGH | Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use" |
-| SLCo008561 | 1, 2, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "dogm"; Statute refs: 19.12.030 |
-| SLCo008566 | 1, 2, 4 | LOW |  |
-| SLCo008569 | 1, 2, 4 | LOW |  |
-| SLCo008585 | 1, 2, 5 | HIGH | Prior Use: "mining use"; Investment: "large mine permit", "notice of intention", "notice of intention to commence" |
-| SLCo008604 | 1, 2, 4 | LOW |  |
-| SLCo008605 | 1, 2, 4, 5 | LOW |  |
+| SLCo008543 | 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
+| SLCo008548 | 1, 3, 4 | LOW |  |
+| SLCo008550 | 1, 3, 4 | LOW |  |
+| SLCo008551 | 1, 3, 4, 5 | HIGH | Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use" |
+| SLCo008561 | 1, 3, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "dogm"; Statute refs: 19.12.030 |
+| SLCo008566 | 1, 3, 4 | LOW |  |
+| SLCo008569 | 1, 3, 4 | LOW |  |
+| SLCo008585 | 3, 4, 5 | HIGH | Prior Use: "mining use"; Investment: "large mine permit", "notice of intention", "notice of intention to commence" |
+| SLCo008604 | 1, 3, 4 | LOW |  |
+| SLCo008605 | 1, 3, 4, 5 | LOW |  |
 | SLCo008620 | 1, 2, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
 | SLCo008678 | 1, 2, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
 | SLCo008732 | 1, 2, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
@@ -358,51 +1199,51 @@
 | SLCo008908 | 1, 2, 3, 4 | LOW |  |
 | SLCo008911 | 1, 2, 3, 4 | LOW |  |
 | SLCo008914 | 1, 2, 3, 4 | LOW |  |
-| SLCo008924 | 1, 2, 3, 5 | LOW |  |
+| SLCo008924 | 2, 3, 4, 5 | LOW |  |
 | SLCo008940 | 1, 2, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
-| SLCo008995 | 1, 2, 3, 5 | LOW |  |
-| SLCo008998 | 1, 2, 3, 5 | LOW |  |
+| SLCo008995 | 2, 3, 4, 5 | LOW |  |
+| SLCo008998 | 2, 3, 4, 5 | LOW |  |
 | SLCo009002 | 1, 2, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
-| SLCo009079 | 1, 2, 3, 5 | LOW |  |
-| SLCo009082 | 1, 2, 3, 5 | LOW |  |
-| SLCo009088 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "general welfare"; Environmental Health: "air quality", "fugitive dust", "dust emissions"; Public Opposition: "neighborhood" |
-| SLCo009108 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "general welfare"; Environmental Health: "air quality", "fugitive dust", "dust emissions"; Public Opposition: "neighborhood" |
+| SLCo009079 | 2, 3, 4, 5 | LOW |  |
+| SLCo009082 | 2, 3, 4, 5 | LOW |  |
+| SLCo009088 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "general welfare"; Environmental Health: "air quality", "fugitive dust", "dust emissions"; Public Opposition: "neighborhood" |
+| SLCo009108 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "general welfare"; Environmental Health: "air quality", "fugitive dust", "dust emissions"; Public Opposition: "neighborhood" |
 | SLCo009126 | 1, 2, 3, 4, 5 | CRITICAL | Prior Use: "mine operator"; Investment: "notice of intention", "mining operations", "mining operation"; County Knew: "conditional use" |
-| SLCo009141 | 1, 2, 5 | LOW |  |
-| SLCo009428 | 1, 2, 4, 5 | LOW |  |
-| SLCo009457 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "general welfare"; Environmental Health: "air quality", "fugitive dust", "dust emissions"; Public Opposition: "neighborhood" |
-| SLCo009477 | 1, 2, 5 | HIGH | Environmental Health: "fugitive dust", "drinking water"; Public Opposition: "quality of life" |
-| SLCo009528 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "quality of life" |
-| SLCo009529 | 2, 3, 5 | LOW |  |
-| SLCo009553 | 1, 2, 5 | LOW |  |
-| SLCo009557 | 1, 2, 5 | HIGH | County Zoning Authority: "health and safety"; Environmental Health: "fugitive dust", "environmental impact" |
-| SLCo009562 | 1, 2, 5 | LOW |  |
-| SLCo009569 | 1, 2, 5 | LOW |  |
-| SLCo009573 | 1, 2, 5 | HIGH | Economic Impact: "property value"; Investment Expectations: "mining operations" |
-| SLCo009577 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "water quality", "public health"; Public Opposition: "neighborhood", "property values" |
-| SLCo009581 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "water quality", "public health"; Public Opposition: "neighborhood", "property values" |
-| SLCo009585 | 1, 2, 5 | LOW |  |
-| SLCo009598 | 1, 2, 5 | CRITICAL | Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo009619 | 1, 2, 5 | CRITICAL | Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo009634 | 1, 2, 5 | HIGH | County Zoning Authority: "general welfare"; Environmental Health: "fugitive dust", "dust emissions", "water quality" |
-| SLCo009653 | 1, 2, 5 | HIGH | County Zoning Authority: "general welfare"; Environmental Health: "fugitive dust", "dust emissions", "water quality" |
+| SLCo009141 | 3, 4, 5 | LOW |  |
+| SLCo009428 | 1, 3, 4, 5 | LOW |  |
+| SLCo009457 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "general welfare"; Environmental Health: "air quality", "fugitive dust", "dust emissions"; Public Opposition: "neighborhood" |
+| SLCo009477 | 3, 4, 5 | HIGH | Environmental Health: "fugitive dust", "drinking water"; Public Opposition: "quality of life" |
+| SLCo009528 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "quality of life" |
+| SLCo009529 | 2, 4, 5 | LOW |  |
+| SLCo009553 | 3, 4, 5 | LOW |  |
+| SLCo009557 | 3, 4, 5 | HIGH | County Zoning Authority: "health and safety"; Environmental Health: "fugitive dust", "environmental impact" |
+| SLCo009562 | 3, 4, 5 | LOW |  |
+| SLCo009569 | 3, 4, 5 | LOW |  |
+| SLCo009573 | 3, 4, 5 | HIGH | Economic Impact: "property value"; Investment Expectations: "mining operations" |
+| SLCo009577 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "water quality", "public health"; Public Opposition: "neighborhood", "property values" |
+| SLCo009581 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "water quality", "public health"; Public Opposition: "neighborhood", "property values" |
+| SLCo009585 | 3, 4, 5 | LOW |  |
+| SLCo009598 | 3, 4, 5 | CRITICAL | Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo009619 | 3, 4, 5 | CRITICAL | Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo009634 | 3, 4, 5 | HIGH | County Zoning Authority: "general welfare"; Environmental Health: "fugitive dust", "dust emissions", "water quality" |
+| SLCo009653 | 3, 4, 5 | HIGH | County Zoning Authority: "general welfare"; Environmental Health: "fugitive dust", "dust emissions", "water quality" |
 | SLCo009674 | 1, 2, 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
 | SLCo009706 | 1, 2, 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009729 | 1, 2, 4 | LOW |  |
-| SLCo009756 | 1, 2, 4 | LOW |  |
-| SLCo009758 | 1, 2, 4 | LOW |  |
+| SLCo009729 | 1, 3, 4 | LOW |  |
+| SLCo009756 | 1, 3, 4 | LOW |  |
+| SLCo009758 | 1, 3, 4 | LOW |  |
 | SLCo009786 | 1, 2, 4, 5 | HIGH | Environmental Health: "air quality", "watershed"; Public Opposition: "property values" |
-| SLCo009793 | 1, 2, 3, 5 | LOW |  |
+| SLCo009793 | 2, 3, 4, 5 | LOW |  |
 | SLCo009797 | 1, 2, 3, 4, 5 | LOW |  |
-| SLCo009802 | 1, 2, 3 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
+| SLCo009802 | 2, 3, 4 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
 | SLCo009809 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety", "general welfare"; County No Vested Rights: "time limit"; Environmental Health: "air quality", "pm 2.5", "fugitive dust"; P |
 | SLCo009910 | 1, 2, 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "property values", "quality of life" |
 | SLCo009912 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo009920 | 1, 2, 5 | LOW |  |
+| SLCo009920 | 3, 4, 5 | LOW |  |
 | SLCo009924 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety", "general welfare"; County No Vested Rights: "time limit"; Environmental Health: "air quality", "pm 2.5", "fugitive dust"; P |
 | SLCo010025 | 1, 2, 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "property values", "quality of life" |
 | SLCo010027 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo010035 | 1, 2, 5 | LOW |  |
+| SLCo010035 | 3, 4, 5 | LOW |  |
 | SLCo010044 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "dust emissions"; Public Opposition: "public comment", "public hearing", "property values" |
 | SLCo010081 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "water quality", "watershed"; Public Opposition: "public hearing", "quality of life" |
 | SLCo010094 | 1, 2, 3, 4, 5 | LOW |  |
@@ -413,151 +1254,167 @@
 | SLCo010109 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo010112 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo010115 | 1, 2, 3, 4, 5 | LOW |  |
-| SLCo010135 | 1, 2, 5 | LOW |  |
-| SLCo010142 | 1, 2, 5 | LOW |  |
-| SLCo010149 | 1, 2, 5 | LOW |  |
+| SLCo010135 | 3, 4, 5 | LOW |  |
+| SLCo010142 | 3, 4, 5 | LOW |  |
+| SLCo010149 | 3, 4, 5 | LOW |  |
 | SLCo010158 | 1, 2, 3, 4, 5 | CRITICAL | Prior Use: "vested mining use", "mining use"; Investment: "large mine permit", "small mine permit", "notice of intention"; County Knew: "conditional use" |
 | SLCo010172 | 1, 2, 3, 4, 5 | CRITICAL | Prior Use: "vested mining use", "mining use"; Investment: "large mine permit", "small mine permit", "notice of intention"; County Knew: "conditional use" |
-| SLCo010188 | 1, 2, 5 | HIGH | County Zoning Authority: "health, safety, and welfare", "general welfare"; Environmental Health: "air quality", "fugitive dust", "dust emissions" |
-| SLCo010200 | 1, 2, 5 | HIGH | County Zoning Authority: "health, safety, and welfare", "general welfare"; Environmental Health: "air quality", "fugitive dust", "dust emissions" |
-| SLCo010225 | 3, 4, 5 | HIGH | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "water quality", "watershed" |
-| SLCo010236 | 2, 3, 5 | LOW |  |
-| SLCo010258 | 1, 2, 5 | CRITICAL | Economic Impact: "property value"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "division of oil, gas, and mining", "dogm" |
+| SLCo010188 | 3, 4, 5 | HIGH | County Zoning Authority: "health, safety, and welfare", "general welfare"; Environmental Health: "air quality", "fugitive dust", "dust emissions" |
+| SLCo010200 | 3, 4, 5 | HIGH | County Zoning Authority: "health, safety, and welfare", "general welfare"; Environmental Health: "air quality", "fugitive dust", "dust emissions" |
+| SLCo010225 | 1, 2, 5 | HIGH | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "water quality", "watershed" |
+| SLCo010236 | 2, 4, 5 | LOW |  |
+| SLCo010258 | 3, 4, 5 | CRITICAL | Economic Impact: "property value"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "division of oil, gas, and mining", "dogm" |
 | SLCo010271 | 1, 2, 3, 4 | CRITICAL | Prior Use: "vested mining use", "mining use"; Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use" |
 | SLCo010287 | 1, 2, 3, 4 | CRITICAL | Prior Use: "vested mining use", "mining use"; Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use" |
-| SLCo010327 | 2, 3, 5 | LOW |  |
-| SLCo010343 | 2, 3, 5 | LOW |  |
+| SLCo010327 | 2, 4, 5 | LOW |  |
+| SLCo010343 | 2, 4, 5 | LOW |  |
 | SLCo010354 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo010413 | 1, 2, 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license" |
-| SLCo010481 | 1, 2, 3, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "pm2.5", "fugitive dust"; Public Opposition: "quality of life" |
-| SLCo010490 | 1, 2, 3, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "pm2.5", "fugitive dust"; Public Opposition: "quality of life" |
-| SLCo010499 | 2, 3, 5 | LOW |  |
-| SLCo010503 | 2, 3, 5 | LOW |  |
-| SLCo010540 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "public health"; Public Opposition: "public comment" |
-| SLCo010552 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "public health"; Public Opposition: "public comment" |
-| SLCo010582 | 1, 2, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "water rights", "flood control" |
-| SLCo010606 | 1, 2, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo010617 | 1, 2, 5 | HIGH | County Zoning Authority: "health and safety"; Environmental Health: "public health" |
-| SLCo010634 | 1, 2, 5 | HIGH | County Zoning Authority: "health and safety"; Environmental Health: "public health"; Public Opposition: "public comment" |
-| SLCo010665 | 1, 2, 5 | LOW |  |
-| SLCo010680 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
-| SLCo010753 | 2, 4, 5 | LOW |  |
-| SLCo010785 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
-| SLCo010857 | 1, 2, 3, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
-| SLCo010903 | 1, 2, 3, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
-| SLCo010946 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
-| SLCo010956 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
-| SLCo010972 | 2, 4, 5 | LOW |  |
-| SLCo010977 | 1, 2, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo010984 | 2, 4, 5 | LOW |  |
-| SLCo010989 | 1, 2, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo011001 | 3, 4, 5 | LOW |  |
+| SLCo010481 | 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "pm2.5", "fugitive dust"; Public Opposition: "quality of life" |
+| SLCo010490 | 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "pm2.5", "fugitive dust"; Public Opposition: "quality of life" |
+| SLCo010499 | 2, 4, 5 | LOW |  |
+| SLCo010503 | 2, 4, 5 | LOW |  |
+| SLCo010540 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "public health"; Public Opposition: "public comment" |
+| SLCo010552 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "public health"; Public Opposition: "public comment" |
+| SLCo010582 | 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "water rights", "flood control" |
+| SLCo010606 | 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo010617 | 3, 4, 5 | HIGH | County Zoning Authority: "health and safety"; Environmental Health: "public health" |
+| SLCo010634 | 3, 4, 5 | HIGH | County Zoning Authority: "health and safety"; Environmental Health: "public health"; Public Opposition: "public comment" |
+| SLCo010665 | 3, 4, 5 | LOW |  |
+| SLCo010680 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo010753 | 1, 4, 5 | LOW |  |
+| SLCo010785 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo010857 | 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
+| SLCo010903 | 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
+| SLCo010946 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
+| SLCo010956 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
+| SLCo010972 | 1, 4, 5 | LOW |  |
+| SLCo010977 | 1, 3, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo010984 | 1, 4, 5 | LOW |  |
+| SLCo010989 | 1, 3, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo011001 | 1, 2, 5 | LOW |  |
 | SLCo011005 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo011014 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
-| SLCo011022 | 1, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit, restrict, regulate"; Ordinance Action: "mineral extraction", "conditional use"; Bad Faith: " |
-| SLCo011066 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo011116 | 1, 2, 5 | LOW |  |
-| SLCo011118 | 1, 2, 5 | LOW |  |
-| SLCo011129 | 1, 2, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood" |
-| SLCo011141 | 1, 2, 4 | LOW |  |
-| SLCo011143 | 1, 2, 4 | LOW |  |
+| SLCo011022 | 1, 2, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit, restrict, regulate"; Ordinance Action: "mineral extraction", "conditional use"; Bad Faith: " |
+| SLCo011066 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo011116 | 3, 4, 5 | LOW |  |
+| SLCo011118 | 3, 4, 5 | LOW |  |
+| SLCo011129 | 1, 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood" |
+| SLCo011141 | 1, 3, 4 | LOW |  |
+| SLCo011143 | 1, 3, 4 | LOW |  |
 | SLCo011144 | 1, 2, 3, 4 | LOW |  |
-| SLCo011147 | 1, 2, 4, 5 | LOW |  |
-| SLCo011149 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
-| SLCo011158 | 1, 2, 4, 5 | LOW |  |
-| SLCo011160 | 1, 2, 4, 5 | LOW |  |
-| SLCo011166 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
+| SLCo011147 | 1, 3, 4, 5 | LOW |  |
+| SLCo011149 | 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
+| SLCo011158 | 1, 3, 4, 5 | LOW |  |
+| SLCo011160 | 1, 3, 4, 5 | LOW |  |
+| SLCo011166 | 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
 | SLCo011323 | 1, 2, 4, 5 | HIGH | Environmental Health: "air quality", "watershed"; Public Opposition: "property values" |
 | SLCo011326 | 1, 2, 4, 5 | HIGH | Environmental Health: "air quality", "watershed"; Public Opposition: "property values" |
 | SLCo011329 | 1, 2, 4, 5 | HIGH | Environmental Health: "air quality", "watershed"; Public Opposition: "property values" |
-| SLCo011331 | 1, 2, 5 | LOW |  |
-| SLCo011333 | 1, 2, 3, 5 | LOW |  |
-| SLCo011337 | 1, 2, 4 | LOW |  |
-| SLCo011338 | 1, 2, 4 | LOW |  |
-| SLCo011339 | 1, 2, 4 | LOW |  |
-| SLCo011342 | 1, 2, 4 | LOW |  |
+| SLCo011331 | 3, 4, 5 | LOW |  |
+| SLCo011333 | 2, 3, 4, 5 | LOW |  |
+| SLCo011337 | 1, 3, 4 | LOW |  |
+| SLCo011338 | 1, 3, 4 | LOW |  |
+| SLCo011339 | 1, 3, 4 | LOW |  |
+| SLCo011342 | 1, 3, 4 | LOW |  |
 | SLCo011350 | 1, 2, 4 | LOW |  |
 | SLCo011352 | 1, 2, 4 | LOW |  |
-| SLCo011368 | 1, 2, 5 | LOW |  |
-| SLCo011370 | 1, 2, 5 | LOW |  |
-| SLCo011396 | 1, 2, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo011414 | 1, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction" |
-| SLCo011431 | 1, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction" |
-| SLCo011433 | 1, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction" |
+| SLCo011368 | 3, 4, 5 | LOW |  |
+| SLCo011370 | 3, 4, 5 | LOW |  |
+| SLCo011396 | 1, 3, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo011403 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo011414 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction" |
+| SLCo011418 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo011419 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo011420 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo011421 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo011422 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo011423 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo011424 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo011425 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo011428 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo011429 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo011431 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction" |
+| SLCo011433 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction" |
 | SLCo011435 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety", "general welfare"; Environmental Health: "air quality", "pm 2.5", "pm2.5"; Public Opposition: "public comment", "public hea |
 | SLCo011765 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo011775 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety", "general welfare"; Environmental Health: "air quality", "pm 2.5", "pm2.5"; Public Opposition: "public comment", "public hea |
 | SLCo012172 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo012184 | 1, 2, 3, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
-| SLCo012230 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
-| SLCo012249 | 1, 4, 5 | LOW |  |
-| SLCo012254 | 1, 4, 5 | LOW |  |
-| SLCo012256 | 1, 4, 5 | LOW |  |
-| SLCo012258 | 1, 4, 5 | LOW |  |
-| SLCo012261 | 1, 2, 4, 5 | HIGH | Environmental Health: "air quality", "water quality", "drinking water"; Public Opposition: "neighborhood" |
-| SLCo012289 | 1, 2, 4, 5 | LOW |  |
-| SLCo012299 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "land use authority"; Environmental Health: "air quality", "watershed", "drinking water"; Public Opposition: "property values" |
+| SLCo012184 | 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
+| SLCo012230 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
+| SLCo012241 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo012243 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo012244 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo012245 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo012249 | 1, 2, 5 | LOW |  |
+| SLCo012253 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo012254 | 1, 3, 5 | LOW |  |
+| SLCo012256 | 1, 3, 5 | LOW |  |
+| SLCo012258 | 1, 3, 5 | LOW |  |
+| SLCo012261 | 1, 3, 4, 5 | HIGH | Environmental Health: "air quality", "water quality", "drinking water"; Public Opposition: "neighborhood" |
+| SLCo012289 | 1, 3, 4, 5 | LOW |  |
+| SLCo012299 | 1, 3, 4, 5 | CRITICAL | County Zoning Authority: "land use authority"; Environmental Health: "air quality", "watershed", "drinking water"; Public Opposition: "property values" |
 | SLCo012426 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo012453 | 1, 2, 3, 4, 5 | CRITICAL | Economic Impact: "mineral rights"; Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "confidential", "water rights", "division of oil, gas, and mining |
 | SLCo012806 | 1, 2, 3, 4 | HIGH | Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use" |
 | SLCo012814 | 1, 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "land use regulation"; Environmental Health: "air quality", "public health"; Public Opposition: "public comment", "public hearing"; Statute refs: 17-41-402, 17-41-406 |
-| SLCo012863 | 1, 2, 4 | LOW |  |
-| SLCo012866 | 1, 2, 4 | LOW |  |
-| SLCo012875 | 1, 2, 4 | LOW |  |
+| SLCo012863 | 1, 3, 4 | LOW |  |
+| SLCo012866 | 1, 3, 4 | LOW |  |
+| SLCo012875 | 1, 3, 4 | LOW |  |
 | SLCo012877 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo012891 | 1, 2, 3, 5 | LOW |  |
-| SLCo012898 | 1, 2, 5 | LOW |  |
+| SLCo012891 | 2, 3, 4, 5 | LOW |  |
+| SLCo012898 | 3, 4, 5 | LOW |  |
 | SLCo012924 | 1, 2, 3, 4, 5 | LOW |  |
-| SLCo012931 | 1, 2, 4, 5 | LOW |  |
+| SLCo012931 | 1, 3, 4, 5 | LOW |  |
 | SLCo012959 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo012966 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo012977 | 1, 2, 3, 4, 5 | LOW |  |
-| SLCo012980 | 2, 4, 5 | LOW |  |
+| SLCo012980 | 1, 4, 5 | LOW |  |
 | SLCo012985 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo012992 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo012997 | 1, 2, 3, 4, 5 | LOW |  |
-| SLCo013000 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo013000 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
 | SLCo013017 | 1, 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "land use regulation"; County No Vested Rights: "time limit"; Environmental Health: "water quality", "watershed", "drinking water"; Public Opposition: "public comment", "publi |
 | SLCo013048 | 1, 2, 3, 4, 5 | HIGH | County No Vested Rights: "time limit"; Public Opposition: "public hearing" |
 | SLCo013060 | 1, 2, 3, 4, 5 | HIGH | Environmental Health: "water quality"; Public Opposition: "public comment" |
 | SLCo013063 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo013064 | 1, 2, 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license" |
-| SLCo013075 | 1, 2, 4, 5 | LOW |  |
-| SLCo013076 | 1, 2, 4, 5 | LOW |  |
-| SLCo013080 | 1, 2, 4, 5 | LOW |  |
-| SLCo013088 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
-| SLCo013098 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
-| SLCo013111 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
-| SLCo013126 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
-| SLCo013137 | 1, 2, 4, 5 | LOW |  |
-| SLCo013138 | 2, 4, 5 | LOW |  |
-| SLCo013139 | 2, 4, 5 | LOW |  |
-| SLCo013149 | 2, 4, 5 | LOW |  |
-| SLCo013150 | 2, 4, 5 | LOW |  |
-| SLCo013151 | 2, 4, 5 | LOW |  |
-| SLCo013156 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013170 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013185 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013199 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013213 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013224 | 1, 4, 5 | LOW |  |
-| SLCo013227 | 1, 4, 5 | LOW |  |
-| SLCo013234 | 2, 4, 5 | LOW |  |
-| SLCo013235 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
-| SLCo013249 | 2, 4, 5 | LOW |  |
-| SLCo013251 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
-| SLCo013283 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013075 | 1, 3, 4, 5 | LOW |  |
+| SLCo013076 | 1, 3, 4, 5 | LOW |  |
+| SLCo013080 | 1, 3, 4, 5 | LOW |  |
+| SLCo013088 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo013098 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo013111 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo013126 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo013137 | 1, 3, 4, 5 | LOW |  |
+| SLCo013138 | 1, 4, 5 | LOW |  |
+| SLCo013139 | 1, 4, 5 | LOW |  |
+| SLCo013149 | 1, 4, 5 | LOW |  |
+| SLCo013150 | 1, 4, 5 | LOW |  |
+| SLCo013151 | 1, 4, 5 | LOW |  |
+| SLCo013156 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013170 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013185 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013199 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013213 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013224 | 1, 3, 5 | LOW |  |
+| SLCo013227 | 1, 3, 5 | LOW |  |
+| SLCo013234 | 1, 4, 5 | LOW |  |
+| SLCo013235 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo013249 | 1, 4, 5 | LOW |  |
+| SLCo013251 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo013283 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
 | SLCo013307 | 1, 2, 3, 4 | HIGH | Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use" |
 | SLCo013323 | 1, 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "land use regulation"; Environmental Health: "air quality", "public health"; Public Opposition: "public comment", "public hearing"; Statute refs: 17-41-402, 17-41-406 |
 | SLCo013360 | 1, 2, 3, 4, 5 | LOW |  |
-| SLCo013373 | 1, 2, 4 | LOW |  |
-| SLCo013375 | 1, 2, 4 | LOW |  |
-| SLCo013377 | 1, 2, 4 | LOW |  |
-| SLCo013379 | 1, 2, 4 | LOW |  |
+| SLCo013373 | 1, 3, 4 | LOW |  |
+| SLCo013375 | 1, 3, 4 | LOW |  |
+| SLCo013377 | 1, 3, 4 | LOW |  |
+| SLCo013379 | 1, 3, 4 | LOW |  |
 | SLCo013380 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo013388 | 1, 2, 3, 4 | LOW |  |
-| SLCo013429 | 1, 2, 5 | HIGH | Prior Use: "mining use"; Investment: "large mine permit", "notice of intention", "notice of intention to commence" |
-| SLCo013456 | 1, 2, 4 | LOW |  |
+| SLCo013429 | 3, 4, 5 | HIGH | Prior Use: "mining use"; Investment: "large mine permit", "notice of intention", "notice of intention to commence" |
+| SLCo013456 | 1, 3, 4 | LOW |  |
 | SLCo013458 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo013466 | 1, 2, 3, 4 | LOW |  |
 | SLCo013473 | 1, 2, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
@@ -566,15 +1423,15 @@
 | SLCo013580 | 1, 2, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
 | SLCo013639 | 1, 2, 3, 4 | LOW |  |
 | SLCo013641 | 1, 2, 3, 4 | LOW |  |
-| SLCo013643 | 1, 2, 3, 5 | LOW |  |
-| SLCo013650 | 1, 2, 3, 5 | LOW |  |
+| SLCo013643 | 2, 3, 4, 5 | LOW |  |
+| SLCo013650 | 2, 3, 4, 5 | LOW |  |
 | SLCo013656 | 1, 2, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
-| SLCo013715 | 1, 2, 3, 5 | LOW |  |
-| SLCo013718 | 1, 2, 3, 5 | LOW |  |
+| SLCo013715 | 2, 3, 4, 5 | LOW |  |
+| SLCo013718 | 2, 3, 4, 5 | LOW |  |
 | SLCo013723 | 1, 2, 3, 4, 5 | CRITICAL | Prior Use: "mine operator"; Investment: "notice of intention", "mining operations", "mining operation"; County Knew: "conditional use" |
-| SLCo013738 | 1, 2, 5 | LOW |  |
+| SLCo013738 | 3, 4, 5 | LOW |  |
 | SLCo015049 | 1, 2, 3, 4, 5 | LOW |  |
-| SLCo015056 | 1, 2, 4, 5 | LOW |  |
+| SLCo015056 | 1, 3, 4, 5 | LOW |  |
 | SLCo015083 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo015087 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo015090 | 1, 2, 3, 4, 5 | HIGH | County No Vested Rights: "time limit"; Public Opposition: "public comment", "public hearing" |
@@ -587,40 +1444,41 @@
 | SLCo015116 | 1, 2, 3, 4, 5 | HIGH | County No Vested Rights: "time limit"; Public Opposition: "public comment", "public hearing" |
 | SLCo015121 | 1, 2, 3, 4, 5 | HIGH | County No Vested Rights: "time limit"; Public Opposition: "public hearing" |
 | SLCo015126 | 1, 2, 3, 4, 5 | LOW |  |
-| SLCo015135 | 1, 2, 4 | LOW |  |
+| SLCo015135 | 1, 3, 4 | LOW |  |
 | SLCo015137 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo015145 | 1, 2, 4 | LOW |  |
-| SLCo015148 | 1, 4, 5 | HIGH | Environmental Health: "air quality", "watershed"; Public Opposition: "quality of life" |
+| SLCo015145 | 1, 3, 4 | LOW |  |
+| SLCo015148 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "watershed"; Public Opposition: "quality of life" |
+| SLCo015152 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "watershed"; Public Opposition: "quality of life" |
 | SLCo015157 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo015162 | 1, 2, 3, 4, 5 | LOW |  |
-| SLCo015165 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo015165 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
 | SLCo015177 | 1, 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "violation of state law"; Statute re |
 | SLCo015185 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo015209 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo015209 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
 | SLCo015221 | 1, 2, 3, 4, 5 | HIGH | County No Vested Rights: "time limit"; Public Opposition: "public hearing" |
 | SLCo015226 | 1, 2, 3, 4, 5 | HIGH | County No Vested Rights: "time limit"; Public Opposition: "public hearing" |
 | SLCo015248 | 1, 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "violation of state law"; Statute re |
-| SLCo015269 | 1, 2, 3, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
+| SLCo015269 | 2, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license" |
 | SLCo015289 | 1, 2, 3, 4, 5 | LOW |  |
 | SLCo015321 | 1, 2, 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license" |
 | SLCo015329 | 1, 2, 3, 4 | HIGH | Investment Expectations: "vested mining right"; Intergovernmental: "water rights", "dogm" |
-| SLCo015378 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo015378 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
 | SLCo015393 | 1, 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "violation of state law"; Statute re |
 | SLCo015400 | 1, 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "violation of state law"; Statute re |
 | SLCo015407 | 1, 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "violation of state law"; Statute re |
-| SLCo015437 | 1, 2, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
-| SLCo015450 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015464 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015478 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015508 | 1, 2, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo015515 | 2, 4, 5 | LOW |  |
+| SLCo015437 | 1, 3, 4, 5 | CRITICAL | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030 |
+| SLCo015450 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015464 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015478 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015508 | 1, 3, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo015515 | 1, 4, 5 | LOW |  |
 | SLCo015521 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo015522 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo015523 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo015524 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo015529 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo015530 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
-| SLCo015531 | 1, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit, restrict, regulate"; Ordinance Action: "mineral extraction", "conditional use"; Bad Faith: " |
+| SLCo015531 | 1, 2, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit, restrict, regulate"; Ordinance Action: "mineral extraction", "conditional use"; Bad Faith: " |
 | SLCo015544 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo015545 | 1, 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "violation of state law"; Statute re |
 | SLCo015547 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
@@ -628,2642 +1486,459 @@
 | SLCo015550 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo015551 | 1, 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "violation of state law"; Statute re |
 | SLCo015558 | 1, 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "violation of state law"; Statute re |
-| SLCo015569 | 1, 2, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015598 | 1, 2, 5 | LOW |  |
-| SLCo015604 | 1, 2, 5 | LOW |  |
-| SLCo015639 | 1, 2, 4 | LOW |  |
-| SLCo015641 | 1, 2, 4 | LOW |  |
+| SLCo015569 | 1, 3, 4, 5 | CRITICAL | Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015598 | 3, 4, 5 | LOW |  |
+| SLCo015604 | 3, 4, 5 | LOW |  |
+| SLCo015639 | 1, 3, 4 | LOW |  |
+| SLCo015641 | 1, 3, 4 | LOW |  |
 | SLCo015642 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo015650 | 1, 2, 3, 4 | LOW |  |
-| SLCo015654 | 1, 2, 4 | LOW |  |
-| SLCo015658 | 1, 2, 4, 5 | HIGH | Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use" |
-| SLCo015665 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
-| SLCo015672 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
-| SLCo015681 | 1, 2, 4 | LOW |  |
-| SLCo015704 | 1, 2, 4 | LOW |  |
+| SLCo015654 | 1, 3, 4 | LOW |  |
+| SLCo015658 | 1, 3, 4, 5 | HIGH | Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use" |
+| SLCo015665 | 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
+| SLCo015672 | 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
+| SLCo015681 | 1, 3, 4 | LOW |  |
+| SLCo015704 | 1, 3, 4 | LOW |  |
 | SLCo015706 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo015730 | 2, 3, 5 | LOW |  |
+| SLCo015730 | 2, 4, 5 | LOW |  |
 | SLCo015749 | 1, 2, 4, 5 | HIGH | Environmental Health: "air quality", "watershed"; Public Opposition: "property values" |
 | SLCo015752 | 1, 2, 3, 4, 5 | HIGH | County No Vested Rights: "did not appeal", "time limit"; Public Opposition: "public hearing" |
 | SLCo015754 | 1, 2, 3, 4, 5 | HIGH | County No Vested Rights: "did not appeal", "time limit"; Public Opposition: "public hearing" |
-| SLCo015762 | 1, 2, 4, 5 | LOW |  |
-| SLCo015767 | 1, 2, 4 | LOW |  |
-| SLCo015770 | 2, 3, 5 | CRITICAL | County Zoning Authority: "land use regulation"; Environmental Health: "air quality"; Public Opposition: "public comment", "public hearing", "neighborhood" |
-| SLCo015807 | 2, 3, 4, 5 | LOW |  |
-| SLCo015834 | 1, 2, 5 | LOW |  |
-| SLCo015836 | 1, 2, 5 | LOW |  |
-| SLCo015858 | 1, 2, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo015756 | 1, 2, 5 | LOW |  |
+| SLCo015762 | 1, 3, 4, 5 | LOW |  |
+| SLCo015767 | 1, 3, 4 | LOW |  |
+| SLCo015770 | 2, 4, 5 | CRITICAL | County Zoning Authority: "land use regulation"; Environmental Health: "air quality"; Public Opposition: "public comment", "public hearing", "neighborhood" |
+| SLCo015807 | 1, 2, 4, 5 | LOW |  |
+| SLCo015834 | 3, 4, 5 | LOW |  |
+| SLCo015836 | 3, 4, 5 | LOW |  |
+| SLCo015858 | 1, 3, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo015865 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015866 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015867 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015868 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015869 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015870 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015871 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015872 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015873 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015874 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015875 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015876 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015877 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015878 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015879 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015880 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015881 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015882 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015883 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015884 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015886 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015887 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015888 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015889 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015890 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015891 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015892 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015893 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015894 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015895 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015896 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015897 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015898 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015899 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015900 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015901 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015902 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015903 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015904 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015905 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015906 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015907 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015908 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015909 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
 | SLCo015910 | 1, 2, 4 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015911 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015912 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015914 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015915 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015916 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015917 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015918 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015919 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015920 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015922 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015923 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015924 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015925 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015926 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015927 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015928 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015929 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015930 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015931 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015932 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015933 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015934 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015935 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015936 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015937 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015938 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015939 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015940 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015941 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
 | SLCo015942 | 1, 2, 4 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015943 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015944 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015946 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015947 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015948 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015949 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015950 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015951 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015952 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015953 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015954 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015955 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015956 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015957 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015958 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015959 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015961 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015962 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015963 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015964 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015965 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015967 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015968 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015970 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015971 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015972 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015973 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015974 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015975 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015976 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015977 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015978 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015979 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015980 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015981 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015982 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015983 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015984 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015985 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015986 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015987 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015988 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015989 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015990 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015992 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015993 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015994 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015995 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015996 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015997 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015998 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo015999 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016000 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016001 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016002 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016003 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016004 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016005 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016006 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016007 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016008 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016009 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016010 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016011 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016012 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016013 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016014 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016015 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016016 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016017 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016018 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016019 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016020 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016021 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016022 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016023 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016024 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016025 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016026 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016027 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016028 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016029 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016030 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016031 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016033 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016034 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016035 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016036 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016037 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016038 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
 | SLCo016040 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety", "general welfare"; Environmental Health: "air quality", "pm 2.5", "pm2.5"; Public Opposition: "public comment", "public hea |
 | SLCo016370 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo016381 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety", "general welfare"; Environmental Health: "air quality", "pm 2.5", "pm2.5"; Public Opposition: "public comment", "public hea |
 | SLCo016778 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo016792 | 1, 2, 3, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
-| SLCo016850 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
-| SLCo016873 | 1, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use" |
-| SLCo016884 | 1, 4, 5 | LOW |  |
-| SLCo016901 | 1, 4, 5 | LOW |  |
-| SLCo016983 | 1, 2, 4, 5 | HIGH | Environmental Health: "air quality", "water quality", "drinking water"; Public Opposition: "neighborhood" |
-| SLCo017006 | 1, 4, 5 | LOW |  |
-| SLCo017031 | 1, 2, 4, 5 | LOW |  |
-| SLCo017040 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "land use authority"; Environmental Health: "air quality", "watershed", "drinking water"; Public Opposition: "property values" |
+| SLCo016789 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016792 | 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
+| SLCo016835 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016836 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016837 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016839 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016840 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016841 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016842 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016843 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016844 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016845 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016846 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016847 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016850 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
+| SLCo016860 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016861 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016862 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016863 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016864 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016865 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016866 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016867 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016869 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016870 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016872 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016873 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use" |
+| SLCo016874 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016875 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016876 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016877 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016878 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016879 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016880 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016881 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016882 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016884 | 1, 3, 5 | LOW |  |
+| SLCo016886 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016887 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016888 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016889 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016890 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016891 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016892 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016893 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016894 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016895 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016896 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016897 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016898 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016899 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016901 | 1, 2, 5 | LOW |  |
+| SLCo016902 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016903 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016904 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016905 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016906 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016907 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016908 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016909 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016911 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016912 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016913 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016914 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016915 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016916 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016917 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016918 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016920 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016921 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016922 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016923 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016924 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016925 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016927 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016928 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "watershed"; Public Opposition: "quality of life" |
+| SLCo016929 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016930 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016931 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016932 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016933 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016934 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016935 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016936 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016937 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016938 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016939 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016940 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016941 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016942 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016943 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016944 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016945 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016946 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016947 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016948 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016949 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016950 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016951 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016952 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016953 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016954 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016955 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016956 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016957 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016958 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016959 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016960 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016961 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016962 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016963 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016964 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016965 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016966 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016967 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016968 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016969 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016970 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016971 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016972 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016973 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016974 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016976 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016978 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016979 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016980 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016981 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016983 | 1, 3, 4, 5 | HIGH | Environmental Health: "air quality", "water quality", "drinking water"; Public Opposition: "neighborhood" |
+| SLCo016993 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016994 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016995 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016996 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016997 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo016998 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017001 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017002 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017003 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017005 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017006 | 1, 3, 5 | LOW |  |
+| SLCo017007 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017008 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017011 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017012 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017014 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017015 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017016 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017023 | 1, 2, 5 | LOW |  |
+| SLCo017031 | 1, 3, 4, 5 | LOW |  |
+| SLCo017040 | 1, 3, 4, 5 | CRITICAL | County Zoning Authority: "land use authority"; Environmental Health: "air quality", "watershed", "drinking water"; Public Opposition: "property values" |
 | SLCo017173 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
-| SLCo017189 | 1, 4, 5 | LOW |  |
-| SLCo017232 | 1, 2, 4 | LOW |  |
-| SLCo017234 | 1, 2, 4 | LOW |  |
+| SLCo017189 | 1, 3, 5 | LOW |  |
+| SLCo017232 | 1, 3, 4 | LOW |  |
+| SLCo017234 | 1, 3, 4 | LOW |  |
 | SLCo017235 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo017243 | 1, 2, 3, 4 | LOW |  |
-| SLCo017246 | 1, 2, 4, 5 | LOW |  |
-| SLCo017247 | 1, 2, 4, 5 | HIGH | Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use" |
-| SLCo017256 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
-| SLCo017262 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
+| SLCo017246 | 1, 3, 4, 5 | LOW |  |
+| SLCo017247 | 1, 3, 4, 5 | HIGH | Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use" |
+| SLCo017256 | 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
+| SLCo017262 | 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
 | SLCo017270 | 1, 2, 3, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "halt this project"; Intergovernmental: "water rights" |
 | SLCo017272 | 1, 2, 3, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "halt this project"; Intergovernmental: "water rights" |
 | SLCo017274 | 1, 2, 3, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "halt this project"; Intergovernmental: "water rights" |
-| SLCo017288 | 2, 3, 5 | LOW |  |
+| SLCo017288 | 2, 4, 5 | LOW |  |
 | SLCo017307 | 1, 2, 4, 5 | HIGH | Environmental Health: "air quality", "watershed"; Public Opposition: "property values" |
-| SLCo017309 | 2, 3, 5 | HIGH | Environmental Health: "air quality"; Public Opposition: "public comment", "public hearing", "neighborhood" |
-| SLCo017370 | 1, 2, 4 | LOW |  |
-| SLCo017371 | 1, 2, 4 | LOW |  |
-| SLCo017372 | 1, 2, 4 | LOW |  |
-| SLCo017375 | 1, 2, 4 | LOW |  |
-| SLCo017381 | 2, 3, 5 | CRITICAL | County Zoning Authority: "land use regulation"; Environmental Health: "air quality"; Public Opposition: "public comment", "public hearing", "neighborhood" |
-| SLCo017410 | 1, 4, 5 | HIGH | Environmental Health: "air quality", "pm 2.5", "fugitive dust"; Public Opposition: "neighborhood" |
-| SLCo017416 | 2, 3, 4, 5 | LOW |  |
-| SLCo017437 | 1, 2, 5 | LOW |  |
-| SLCo017439 | 1, 2, 5 | LOW |  |
-| SLCo017454 | 1, 2, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo017309 | 2, 4, 5 | HIGH | Environmental Health: "air quality"; Public Opposition: "public comment", "public hearing", "neighborhood" |
+| SLCo017370 | 1, 3, 4 | LOW |  |
+| SLCo017371 | 1, 3, 4 | LOW |  |
+| SLCo017372 | 1, 3, 4 | LOW |  |
+| SLCo017375 | 1, 3, 4 | LOW |  |
+| SLCo017381 | 2, 4, 5 | CRITICAL | County Zoning Authority: "land use regulation"; Environmental Health: "air quality"; Public Opposition: "public comment", "public hearing", "neighborhood" |
+| SLCo017410 | 1, 3, 5 | HIGH | Environmental Health: "air quality", "pm 2.5", "fugitive dust"; Public Opposition: "neighborhood" |
+| SLCo017416 | 1, 2, 4, 5 | LOW |  |
+| SLCo017437 | 3, 4, 5 | LOW |  |
+| SLCo017439 | 3, 4, 5 | LOW |  |
+| SLCo017454 | 1, 3, 4, 5 | HIGH | Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo017461 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017462 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017464 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017465 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017466 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017467 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017468 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017469 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017471 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017472 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017473 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017474 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017476 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017477 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017478 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017479 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017480 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017481 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017482 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo017483 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
 | SLCo017485 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety", "general welfare"; Environmental Health: "air quality", "pm 2.5", "pm2.5"; Public Opposition: "public comment", "public hea |
 | SLCo017815 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
 | SLCo017826 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety", "general welfare"; Environmental Health: "air quality", "pm 2.5", "pm2.5"; Public Opposition: "public comment", "public hea |
 | SLCo018223 | 1, 2, 4, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "conditional use"; Statute refs: 19.12.030 |
-| SLCo018237 | 1, 2, 3, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
-| SLCo018287 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
-| SLCo018302 | 1, 4, 5 | LOW |  |
-| SLCo018318 | 1, 2, 4, 5 | HIGH | Environmental Health: "air quality", "water quality", "drinking water"; Public Opposition: "neighborhood" |
-| SLCo018338 | 1, 2, 4, 5 | LOW |  |
-| SLCo018345 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "land use authority"; Environmental Health: "air quality", "watershed", "drinking water"; Public Opposition: "property values" |
+| SLCo018234 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018237 | 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
+| SLCo018280 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018281 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018282 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018283 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018284 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018287 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
+| SLCo018297 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018299 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018300 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018302 | 1, 2, 5 | LOW |  |
+| SLCo018303 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018305 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018307 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018308 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018309 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018310 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018311 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018312 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018313 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018314 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018315 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018316 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018318 | 1, 3, 4, 5 | HIGH | Environmental Health: "air quality", "water quality", "drinking water"; Public Opposition: "neighborhood" |
+| SLCo018330 | 1, 2, 5 | HIGH | Preemption: "sand, gravel and/or rock aggregate"; Ordinance Action: "mineral extraction and processing", "mineral extraction", "forestry and recreation zone" |
+| SLCo018338 | 1, 3, 4, 5 | LOW |  |
+| SLCo018345 | 1, 3, 4, 5 | CRITICAL | County Zoning Authority: "land use authority"; Environmental Health: "air quality", "watershed", "drinking water"; Public Opposition: "property values" |
 | SLCo018475 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo018476 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
 | SLCo018477 | 1, 2, 4, 5 | HIGH | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "prohibit critical infrastructure"; County Knowledge: "17-41-402", "violation of state law"; Statute re |
 | SLCo018480 | 1, 2, 4, 5 | CRITICAL | Preemption: "critical infrastructure materials", "critical infrastructure materials operations", "sand, gravel and/or rock aggregate"; County Knowledge: "17-41-402", "blatantly contrary", "blatantly c |
-| SLCo018485 | 1, 4, 5 | LOW |  |
+| SLCo018485 | 1, 3, 5 | LOW |  |
 | SLCo018522 | 1, 2, 3, 4, 5 | HIGH | Investment Expectations: "mining operations"; Intergovernmental: "water rights", "dogm"; Statute refs: 19.12.030 |
-| SLCo018527 | 1, 3, 4 | LOW |  |
-| SLCo018532 | 1, 2, 5 | HIGH | Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo018535 | 1, 2, 5 | HIGH | Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo018537 | 1, 2, 5 | HIGH | Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo018539 | 1, 2, 5 | HIGH | Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo018543 | 1, 2, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
-| SLCo018548 | 1, 2, 4 | LOW |  |
-| SLCo018550 | 1, 2, 4 | LOW |  |
-| SLCo018551 | 1, 2, 4 | LOW |  |
+| SLCo018527 | 1, 2, 3 | LOW |  |
+| SLCo018532 | 3, 4, 5 | HIGH | Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo018535 | 3, 4, 5 | HIGH | Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo018537 | 3, 4, 5 | HIGH | Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo018539 | 3, 4, 5 | HIGH | Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo018543 | 3, 4, 5 | HIGH | Environmental Health: "air quality", "fugitive dust", "watershed"; Public Opposition: "quality of life" |
+| SLCo018548 | 1, 3, 4 | LOW |  |
+| SLCo018550 | 1, 3, 4 | LOW |  |
+| SLCo018551 | 1, 3, 4 | LOW |  |
 | SLCo018553 | 1, 2, 3, 4 | LOW |  |
-| SLCo018570 | 1, 2, 4, 5 | LOW |  |
-| SLCo018651 | 1, 2, 5 | LOW |  |
-| SLCo018654 | 1, 2, 3, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
-| SLCo018699 | 1, 2, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
+| SLCo018570 | 1, 3, 4, 5 | LOW |  |
+| SLCo018651 | 3, 4, 5 | LOW |  |
+| SLCo018654 | 2, 3, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety"; Environmental Health: "air quality", "fugitive dust", "water quality"; Public Opposition: "neighborhood", "quality of life" |
+| SLCo018699 | 3, 4, 5 | CRITICAL | County Zoning Authority: "health and safety"; Environmental Health: "air quality", "fugitive dust", "public health"; Public Opposition: "public comment", "public hearing" |
 | SLCo018710 | 1, 2, 4, 5 | CRITICAL | County Zoning Authority: "health, safety, and welfare", "health and safety", "general welfare"; Environmental Health: "air quality", "pm 2.5", "pm2.5"; Public Opposition: "public comment", "public hea |
 
 ---
 
-# PACKET 1: PRIMARY: Vested Mining Rights
+# COA 1: Declaratory Relief — Ordinance Invalid (SECONDARY — CIM preemption served as strategic decoy)
 
-**Legal Basis:** Utah Code 17-41-501 to -503 (now 17-81-401 to -403)
-**Total Documents:** 932
-
-> THIS IS THE PRIMARY CLAIM. Under Utah Code 17-41-501 through -503, Tree Farm holds a vested mining use that predates the 1972 Parley's Canyon zoning. The County cannot extinguish vested mining rights through an ordinance. The evidence below establishes: (1) Tree Farm filed notices of intention to commence mining operations with DOGM; (2) Tree Farm obtained necessary state mining permits; (3) mining operations were established before the challenged ordinance was adopted; (4) the vested mining use runs with the land and cannot be terminated except by written declaration of abandonment by the owner; and (5) the County appears to have had NO awareness of Tree Farm's vested mining rights -- they were focused entirely on CIM preemption. KEY QUESTION: Did the County ever internally discuss 'mine operator', 'vested mining', or 'mining protection area'? If not, that proves they were blindsided by this claim.
-
-### Relevance Breakdown:
-
-| CRITICAL | HIGH | MEDIUM | LOW (omitted) |
-|----------|------|--------|---------------|
-| 40 | 84 | 420 | 388 |
-
-### Elements Addressed:
-
-| Element | Documents |
-|---------|----------|
-| Investment | 612 |
-| County Knew | 400 |
-| Prior Use | 86 |
-| Statutory Rights | 30 |
-| Expansion | 13 |
-
-### CRITICAL Documents (40)
-
-#### Investment (23 documents)
-
-**SLCo005003** | Score: 1780 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "mining use", "legal nonconforming"; Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "continue to be a conditional use", "such language is not necessary", "conditional use"
-> *"Tree Farm, LLC, Notice of Intention to Commence Mining Operations"*
-
-**SLCo011775** | Score: 1780 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "mining use", "legal nonconforming"; Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "continue to be a conditional use", "such language is not necessary", "conditional use"
-> *"Tree Farm, LLC, Notice of Intention to Commence Mining Operations"*
-
-**SLCo016381** | Score: 1780 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "mining use", "legal nonconforming"; Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "continue to be a conditional use", "such language is not necessary", "conditional use"
-> *"Tree Farm, LLC, Notice of Intention to Commence Mining Operations"*
-
-**SLCo017826** | Score: 1780 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "mining use", "legal nonconforming"; Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "continue to be a conditional use", "such language is not necessary", "conditional use"
-> *"Tree Farm, LLC, Notice of Intention to Commence Mining Operations"*
-
-**SLCo004662** | Score: 1670 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "mining use", "legal nonconforming"; Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "continue to be a conditional use", "such language is not necessary", "conditional use"
-> *"Tree Farm, LLC, Notice of Intention to Commence Mining Operations"*
-
-**SLCo011435** | Score: 1670 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "mining use", "legal nonconforming"; Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "continue to be a conditional use", "such language is not necessary", "conditional use"
-> *"Tree Farm, LLC, Notice of Intention to Commence Mining Operations"*
-
-**SLCo016040** | Score: 1670 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "mining use", "legal nonconforming"; Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "continue to be a conditional use", "such language is not necessary", "conditional use"
-> *"Tree Farm, LLC, Notice of Intention to Commence Mining Operations"*
-
-**SLCo017485** | Score: 1670 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "mining use", "legal nonconforming"; Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "continue to be a conditional use", "such language is not necessary", "conditional use"
-> *"Tree Farm, LLC, Notice of Intention to Commence Mining Operations"*
-
-**SLCo018710** | Score: 1670 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "mining use", "legal nonconforming"; Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "continue to be a conditional use", "such language is not necessary", "conditional use"
-> *"Tree Farm, LLC, Notice of Intention to Commence Mining Operations"*
-
-**SLCo006684** | Score: 900 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "continue to be a conditional use", "conditional use", "existing mining"
-> *"extraction and processing should continue to be a conditional use in the Forestry and Recreation (FR) zone in the"*
-
-**SLCo009809** | Score: 900 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "continue to be a conditional use", "conditional use", "existing mining"
-> *"extraction and processing should continue to be a conditional use in the Forestry and Recreation (FR) zone in the"*
-
-**SLCo009924** | Score: 900 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "continue to be a conditional use", "conditional use", "existing mining"
-> *"extraction and processing should continue to be a conditional use in the Forestry and Recreation (FR) zone in the"*
-
-**SLCo006947** | Score: 400 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "vested mining use", "mining use"; Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-> *"“mine enlargement” and requires an operator to file a notice of intention to commence large"*
-
-**SLCo006963** | Score: 400 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "vested mining use", "mining use"; Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-> *"“mine enlargement” and requires an operator to file a notice of intention to commence large"*
-
-**SLCo010271** | Score: 400 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "vested mining use", "mining use"; Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-> *"“mine enlargement” and requires an operator to file a notice of intention to commence large"*
-
-**SLCo010287** | Score: 400 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "vested mining use", "mining use"; Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-> *"“mine enlargement” and requires an operator to file a notice of intention to commence large"*
-
-**SLCo003377** | Score: 390 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "mine operator"; Investment: "notice of intention", "mining operations", "mining operation"; County Knew: "conditional use"
-> *"“After receiving notification that a notice of intention for mining operations has been approved, but prior to"*
-
-**SLCo009126** | Score: 390 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "mine operator"; Investment: "notice of intention", "mining operations", "mining operation"; County Knew: "conditional use"
-> *"“After receiving notification that a notice of intention for mining operations has been approved, but prior to"*
-
-**SLCo013723** | Score: 390 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "mine operator"; Investment: "notice of intention", "mining operations", "mining operation"; County Knew: "conditional use"
-> *"“After receiving notification that a notice of intention for mining operations has been approved, but prior to"*
-
-**SLCo006843** | Score: 350 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "vested mining use", "mining use"; Investment: "large mine permit", "small mine permit", "notice of intention"; County Knew: "conditional use"
-> *"Petitioner states that “a notice of intention to commence small mining operations and a"*
-
-**SLCo006857** | Score: 350 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "vested mining use", "mining use"; Investment: "large mine permit", "small mine permit", "notice of intention"; County Knew: "conditional use"
-> *"Petitioner states that “a notice of intention to commence small mining operations and a"*
-
-**SLCo010158** | Score: 350 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "vested mining use", "mining use"; Investment: "large mine permit", "small mine permit", "notice of intention"; County Knew: "conditional use"
-> *"Petitioner states that “a notice of intention to commence small mining operations and a"*
-
-**SLCo010172** | Score: 350 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "vested mining use", "mining use"; Investment: "large mine permit", "small mine permit", "notice of intention"; County Knew: "conditional use"
-> *"Petitioner states that “a notice of intention to commence small mining operations and a"*
-
-#### Prior Use (17 documents)
-
-**SLCo003551** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
-> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
-> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
-
-**SLCo003560** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
-> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
-> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
-
-**SLCo003569** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
-> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
-> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
-
-**SLCo003602** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
-> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
-> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
-
-**SLCo003611** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
-> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
-> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
-
-**SLCo003699** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
-> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
-> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
-
-**SLCo010728** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
-> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
-> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
-
-**SLCo010795** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
-> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
-> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
-
-**SLCo010804** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
-> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
-> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
-
-**SLCo010813** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
-> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
-> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
-
-**SLCo015369** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
-> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
-> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
-
-**SLCo015414** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
-> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
-> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
-
-**SLCo015423** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
-> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
-> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
-
-**SLCo002501** | Score: 1115 | Elements: Prior Use, Investment, Statutory Rights
-> Prior Use: "vested mining use", "mine operator", "mining protection area"; Investment: "produced commercial quantities", "commercial quantities of a mineral deposit", "commercial quantities"; Statutory Rights: "runs with the land", "conclusively presumed", "highest priority use"; Statute refs: 17-41-101, 17-27a-100[1-5], 10-9a-90[1-5]
-> *"(b) has produced commercial quantities of a mineral deposit from the mining use."*
-
-**SLCo008382** | Score: 1115 | Elements: Prior Use, Investment, Statutory Rights
-> Prior Use: "vested mining use", "mine operator", "mining protection area"; Investment: "produced commercial quantities", "commercial quantities of a mineral deposit", "commercial quantities"; Statutory Rights: "runs with the land", "conclusively presumed", "highest priority use"; Statute refs: 17-41-101, 17-27a-100[1-5], 10-9a-90[1-5]
-> *"(b) has produced commercial quantities of a mineral deposit from the mining use."*
-
-**SLCo012814** | Score: 1115 | Elements: Prior Use, Investment, Statutory Rights
-> Prior Use: "vested mining use", "mine operator", "mining protection area"; Investment: "produced commercial quantities", "commercial quantities of a mineral deposit", "commercial quantities"; Statutory Rights: "runs with the land", "conclusively presumed", "highest priority use"; Statute refs: 17-41-101, 17-27a-100[1-5], 10-9a-90[1-5]
-> *"(b) has produced commercial quantities of a mineral deposit from the mining use."*
-
-**SLCo013323** | Score: 1115 | Elements: Prior Use, Investment, Statutory Rights
-> Prior Use: "vested mining use", "mine operator", "mining protection area"; Investment: "produced commercial quantities", "commercial quantities of a mineral deposit", "commercial quantities"; Statutory Rights: "runs with the land", "conclusively presumed", "highest priority use"; Statute refs: 17-41-101, 17-27a-100[1-5], 10-9a-90[1-5]
-> *"(b) has produced commercial quantities of a mineral deposit from the mining use."*
-
-
-### HIGH Relevance Documents (84)
-
-**SLCo013473** | Score: 790 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo006285** | Score: 760 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo008940** | Score: 760 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo013656** | Score: 760 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo009088** | Score: 680 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "existing mining"
-
-**SLCo009457** | Score: 680 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "existing mining"
-
-**SLCo006361** | Score: 670 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "existing mining"
-
-**SLCo009108** | Score: 670 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "existing mining"
-
-**SLCo002687** | Score: 660 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo003244** | Score: 660 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo003307** | Score: 660 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo008620** | Score: 660 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo008678** | Score: 660 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo008732** | Score: 660 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo008788** | Score: 660 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo008842** | Score: 660 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo009002** | Score: 660 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo013526** | Score: 660 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo013580** | Score: 660 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo008036** | Score: 330 | Elements: Prior Use, Investment
-> Prior Use: "mine operator", "mining use"; Investment: "notice of intention", "notice of intention to commence", "portland cement"
-
-**SLCo010044** | Score: 330 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "conditional use"
-
-**SLCo012453** | Score: 330 | Elements: Prior Use, Investment
-> Prior Use: "mine operator", "mining use"; Investment: "notice of intention", "notice of intention to commence", "portland cement"
-
-**SLCo003588** | Score: 125 | Elements: Prior Use, Statutory Rights
-> Prior Use: "nonconforming use", "legal nonconforming"; Statutory Rights: "conclusively presumed"; Statute refs: 17-27a-100[1-5], 10-9a-90[1-5]
-
-**SLCo003595** | Score: 125 | Elements: Prior Use, Statutory Rights
-> Prior Use: "nonconforming use", "legal nonconforming"; Statutory Rights: "conclusively presumed"; Statute refs: 17-27a-100[1-5], 10-9a-90[1-5]
-
-**SLCo003728** | Score: 125 | Elements: Prior Use, Statutory Rights
-> Prior Use: "nonconforming use", "legal nonconforming"; Statutory Rights: "conclusively presumed"; Statute refs: 17-27a-100[1-5], 10-9a-90[1-5]
-
-**SLCo015177** | Score: 125 | Elements: Prior Use, Statutory Rights
-> Prior Use: "nonconforming use", "legal nonconforming"; Statutory Rights: "conclusively presumed"; Statute refs: 17-27a-100[1-5], 10-9a-90[1-5]
-
-**SLCo015248** | Score: 125 | Elements: Prior Use, Statutory Rights
-> Prior Use: "nonconforming use", "legal nonconforming"; Statutory Rights: "conclusively presumed"; Statute refs: 17-27a-100[1-5], 10-9a-90[1-5]
-
-**SLCo015393** | Score: 125 | Elements: Prior Use, Statutory Rights
-> Prior Use: "nonconforming use", "legal nonconforming"; Statutory Rights: "conclusively presumed"; Statute refs: 17-27a-100[1-5], 10-9a-90[1-5]
-
-**SLCo015400** | Score: 125 | Elements: Prior Use, Statutory Rights
-> Prior Use: "nonconforming use", "legal nonconforming"; Statutory Rights: "conclusively presumed"; Statute refs: 17-27a-100[1-5], 10-9a-90[1-5]
-
-**SLCo015407** | Score: 125 | Elements: Prior Use, Statutory Rights
-> Prior Use: "nonconforming use", "legal nonconforming"; Statutory Rights: "conclusively presumed"; Statute refs: 17-27a-100[1-5], 10-9a-90[1-5]
-
-**SLCo015545** | Score: 125 | Elements: Prior Use, Statutory Rights
-> Prior Use: "nonconforming use", "legal nonconforming"; Statutory Rights: "conclusively presumed"; Statute refs: 17-27a-100[1-5], 10-9a-90[1-5]
-
-**SLCo015548** | Score: 125 | Elements: Prior Use, Statutory Rights
-> Prior Use: "nonconforming use", "legal nonconforming"; Statutory Rights: "conclusively presumed"; Statute refs: 17-27a-100[1-5], 10-9a-90[1-5]
-
-**SLCo015551** | Score: 125 | Elements: Prior Use, Statutory Rights
-> Prior Use: "nonconforming use", "legal nonconforming"; Statutory Rights: "conclusively presumed"; Statute refs: 17-27a-100[1-5], 10-9a-90[1-5]
-
-**SLCo015558** | Score: 125 | Elements: Prior Use, Statutory Rights
-> Prior Use: "nonconforming use", "legal nonconforming"; Statutory Rights: "conclusively presumed"; Statute refs: 17-27a-100[1-5], 10-9a-90[1-5]
-
-**SLCo018477** | Score: 125 | Elements: Prior Use, Statutory Rights
-> Prior Use: "nonconforming use", "legal nonconforming"; Statutory Rights: "conclusively presumed"; Statute refs: 17-27a-100[1-5], 10-9a-90[1-5]
-
-**SLCo008585** | Score: 120 | Elements: Prior Use, Investment
-> Prior Use: "mining use"; Investment: "large mine permit", "notice of intention", "notice of intention to commence"
-
-**SLCo013429** | Score: 120 | Elements: Prior Use, Investment
-> Prior Use: "mining use"; Investment: "large mine permit", "notice of intention", "notice of intention to commence"
-
-**SLCo011129** | Score: 90 | Elements: Investment, County Knew
-> Investment: "limestone quarry", "mining operations", "mining operation"; County Knew: "conditional use"
-
-**SLCo010081** | Score: 80 | Elements: Investment, County Knew
-> Investment: "mining operation"; County Knew: "conditional use"
-
-**SLCo002497** | Score: 70 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo003100** | Score: 70 | Elements: Investment, County Knew
-> Investment: "mining operations", "mining operation"; County Knew: "conditional use"
-
-**SLCo003469** | Score: 70 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "existing mining"
-
-**SLCo003524** | Score: 70 | Elements: Investment, County Knew
-> Investment: "mining operations", "mining operation"; County Knew: "conditional use"
-
-**SLCo007022** | Score: 70 | Elements: Investment, County Knew
-> Investment: "mining operations", "mining operation"; County Knew: "conditional use"
-
-**SLCo008008** | Score: 70 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo009802** | Score: 70 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "existing mining"
-
-**SLCo010413** | Score: 70 | Elements: Investment, County Knew
-> Investment: "mining operations", "mining operation"; County Knew: "conditional use"
-
-**SLCo012806** | Score: 70 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo013064** | Score: 70 | Elements: Investment, County Knew
-> Investment: "mining operations", "mining operation"; County Knew: "conditional use"
-
-**SLCo013307** | Score: 70 | Elements: Investment, County Knew
-> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
-
-**SLCo015321** | Score: 70 | Elements: Investment, County Knew
-> Investment: "mining operations", "mining operation"; County Knew: "conditional use"
-
-**SLCo006122** | Score: 65 | Elements: Investment, County Knew
-> Investment: "mining operation"; County Knew: "conditional use"; Statute refs: 10-9a-90[1-5]
-
-**SLCo006127** | Score: 65 | Elements: Investment, County Knew
-> Investment: "mining operation"; County Knew: "conditional use"; Statute refs: 10-9a-90[1-5]
-
-**SLCo012426** | Score: 65 | Elements: Investment, County Knew
-> Investment: "mining operation"; County Knew: "conditional use"; Statute refs: 10-9a-90[1-5]
-
-**SLCo017173** | Score: 65 | Elements: Investment, County Knew
-> Investment: "mining operation"; County Knew: "conditional use"; Statute refs: 10-9a-90[1-5]
-
-**SLCo018480** | Score: 65 | Elements: Investment, County Knew
-> Investment: "mining operation"; County Knew: "conditional use"; Statute refs: 10-9a-90[1-5]
-
-**SLCo006182** | Score: 60 | Elements: Investment, County Knew
-> Investment: "limestone quarry", "mining operations", "mining operation"; County Knew: "conditional use"
-
-**SLCo008006** | Score: 60 | Elements: Investment, County Knew
-> Investment: "limestone quarry"; County Knew: "conditional use"
-
-**SLCo008024** | Score: 60 | Elements: Investment, County Knew
-> Investment: "limestone quarry", "mining operations", "mining operation"; County Knew: "conditional use"
-
-**SLCo018522** | Score: 60 | Elements: Investment, County Knew
-> Investment: "limestone quarry", "mining operations", "mining operation"; County Knew: "conditional use"
-
-**SLCo003120** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo004115** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "vested mining right"; Investment: "mining operation"; County Knew: "conditional use"
-
-**SLCo004116** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "vested mining right"; Investment: "mining operation"; County Knew: "conditional use"
-
-**SLCo007234** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo007289** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo010680** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo010785** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo013000** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo013088** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo013098** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo013111** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo013126** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo013235** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo013251** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo015165** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo015209** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo015329** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "vested mining right"; Investment: "mining operation"; County Knew: "conditional use"
-
-**SLCo015378** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo015437** | Score: 50 | Elements: Prior Use, Investment, County Knew
-> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
-
-**SLCo003817** | Score: 40 | Elements: Investment, County Knew
-> Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use"
-
-**SLCo008551** | Score: 40 | Elements: Investment, County Knew
-> Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use"
-
-**SLCo008561** | Score: 40 | Elements: Investment, County Knew
-> Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use"
-
-**SLCo015658** | Score: 40 | Elements: Investment, County Knew
-> Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use"
-
-**SLCo017247** | Score: 40 | Elements: Investment, County Knew
-> Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use"
-
-
-### MEDIUM Relevance Documents (420)
-
-| Bates ID | Score | Elements | Key Phrase |
-|----------|-------|----------|------------|
-| SLCo007151 | 640 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010606 | 640 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006558 | 460 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009619 | 460 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006594 | 390 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006618 | 390 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009674 | 390 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009706 | 390 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006573 | 290 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009634 | 290 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009653 | 290 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo005498 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo007395 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010946 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010956 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo012230 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo016850 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo018287 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo018699 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006537 | 230 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009598 | 230 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo004118 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo007091 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo007096 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo007103 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo007112 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010507 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010514 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010519 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010526 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010535 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010547 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo005417 | 210 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo007352 | 210 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo010857 | 210 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo010903 | 210 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo012184 | 210 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo016792 | 210 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo018237 | 210 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo018654 | 210 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo003776 | 180 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo003782 | 180 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006873 | 180 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo010188 | 180 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo010200 | 180 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo015604 | 180 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006485 | 150 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009562 | 150 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo003762 | 140 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo015269 | 140 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo005995 | 110 | County Knew | County Knew: "conditional use" |
-| SLCo007008 | 110 | Investment | Investment: "notice of intention", "mining operations", "mining operation" |
-| SLCo010347 | 110 | Investment | Investment: "notice of intention", "mining operations", "mining operation" |
-| SLCo012299 | 110 | County Knew | County Knew: "conditional use" |
-| SLCo017040 | 110 | County Knew | County Knew: "conditional use" |
-| SLCo018345 | 110 | County Knew | County Knew: "conditional use" |
-| SLCo003143 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo003194 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo003642 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo003739 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo006588 | 100 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo007162 | 100 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo007479 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo009649 | 100 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009668 | 100 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010617 | 100 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo011066 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo013156 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo013170 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo013185 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo013199 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo013213 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo013283 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo015450 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo015464 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo015478 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo015569 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
-| SLCo002565 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo002586 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo002588 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo002590 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo002592 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo002632 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo002642 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo002653 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo002663 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo002673 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo002930 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo002956 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo002977 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo003229 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo003231 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo003804 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo004992 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo005400 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo006217 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo006274 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo006516 | 90 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo006787 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo006798 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo007278 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo008515 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo008535 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo008539 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo008541 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009573 | 90 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo009590 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009592 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009594 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009912 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo010027 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo011765 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo012172 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo012803 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo012877 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo013380 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo013396 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo013398 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo013458 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo015137 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo015185 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo015642 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo015706 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo016370 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo016778 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo017235 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo017815 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo018223 | 90 | County Knew | County Knew: "conditional use" |
-| SLCo018533 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo018541 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo005857 | 80 | Investment | Investment: "limestone quarry", "mining operations", "mining operation" |
-| SLCo007117 | 80 | Investment | Investment: "small mine permit", "mining operations", "mining operation" |
-| SLCo007124 | 80 | Investment | Investment: "small mine permit", "mining operations", "mining operation" |
-| SLCo010540 | 80 | Investment | Investment: "small mine permit", "mining operations", "mining operation" |
-| SLCo010552 | 80 | Investment | Investment: "small mine permit", "mining operations", "mining operation" |
-| SLCo012261 | 80 | Investment | Investment: "limestone quarry", "mining operations", "mining operation" |
-| SLCo016983 | 80 | Investment | Investment: "limestone quarry", "mining operations", "mining operation" |
-| SLCo018318 | 80 | Investment | Investment: "limestone quarry", "mining operations", "mining operation" |
-| SLCo006528 | 70 | Investment | Investment: "notice of intention", "notice of intention to commence", "limestone quarry" |
-| SLCo007229 | 70 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo009585 | 70 | Investment | Investment: "notice of intention", "notice of intention to commence", "limestone quarry" |
-| SLCo010665 | 70 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo012452 | 70 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo002607 | 60 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo003779 | 60 | Investment | Investment: "notice of intention", "notice of intention to commence", "limestone quarry" |
-| SLCo003857 | 60 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo004149 | 60 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo004151 | 60 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo006257 | 60 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo007563 | 60 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo008418 | 60 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo008577 | 60 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo011179 | 60 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo011368 | 60 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo011370 | 60 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo015607 | 60 | Investment | Investment: "notice of intention", "notice of intention to commence", "limestone quarry" |
-| SLCo015834 | 60 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo015836 | 60 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo017437 | 60 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo017439 | 60 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo018651 | 60 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo002494 | 50 | Investment | Investment: "limestone quarry" |
-| SLCo002537 | 50 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo003697 | 50 | County Knew | County Knew: "conditional use"; Statute refs: 17-41-101, 17-27a-100[1-5] |
-| SLCo003789 | 50 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo003815 | 50 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo007558 | 50 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo008420 | 50 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo010222 | 50 | Investment | Investment: "mining operations" |
-| SLCo011022 | 50 | County Knew | County Knew: "conditional use"; Statute refs: 17-41-101, 17-27a-100[1-5] |
-| SLCo011125 | 50 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo011147 | 50 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo011158 | 50 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo011160 | 50 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo013017 | 50 | County Knew | County Knew: "conditional use" |
-| SLCo015531 | 50 | County Knew | County Knew: "conditional use"; Statute refs: 17-41-101, 17-27a-100[1-5] |
-| SLCo017246 | 50 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo017270 | 50 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo017272 | 50 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo017274 | 50 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo002490 | 40 | Investment | Investment: "limestone quarry" |
-| SLCo002492 | 40 | Investment | Investment: "limestone quarry" |
-| SLCo002543 | 40 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo002795 | 40 | Investment | Investment: "large mine permit", "mining operation" |
-| SLCo003392 | 40 | Investment | Investment: "large mine permit", "mining operation" |
-| SLCo003775 | 40 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo003778 | 40 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo003781 | 40 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006381 | 40 | Investment | Investment: "large mine permit", "mining operation" |
-| SLCo007181 | 40 | Investment | Investment: "mining operations" |
-| SLCo007561 | 40 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo008433 | 40 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo008463 | 40 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo009141 | 40 | Investment | Investment: "large mine permit", "mining operation" |
-| SLCo010634 | 40 | Investment | Investment: "mining operations" |
-| SLCo011127 | 40 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo012898 | 40 | Investment | Investment: "large mine permit", "mining operation" |
-| SLCo013738 | 40 | Investment | Investment: "large mine permit", "mining operation" |
-| SLCo015603 | 40 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo015606 | 40 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo015609 | 40 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo018535 | 40 | Investment | Investment: "large mine permit", "small mine permit", "mining operation" |
-| SLCo018537 | 40 | Investment | Investment: "large mine permit", "small mine permit", "mining operation" |
-| SLCo018539 | 40 | Investment | Investment: "large mine permit", "small mine permit", "mining operation" |
-| SLCo002489 | 30 | Investment | Investment: "limestone quarry" |
-| SLCo002576 | 30 | Investment | Investment: "small mine permit" |
-| SLCo002746 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo002748 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo002749 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo002751 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo002759 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo002788 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo002889 | 30 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo003164 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo003298 | 30 | Investment | Investment: "limestone quarry" |
-| SLCo003366 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo003370 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo003448 | 30 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo003533 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo003624 | 30 | Prior Use | Prior Use: "vested mining use", "mining use", "notice of vested" |
-| SLCo003626 | 30 | Prior Use | Prior Use: "vested mining use", "mining use", "notice of vested" |
-| SLCo003628 | 30 | Prior Use | Prior Use: "vested mining use", "mining use", "notice of vested" |
-| SLCo003684 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo003685 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo003686 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo003687 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo003692 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo003693 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo003791 | 30 | Investment | Investment: "limestone quarry" |
-| SLCo003854 | 30 | Investment | Investment: "limestone quarry" |
-| SLCo004040 | 30 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo004048 | 30 | Investment, County Knew | Investment: "mining operation"; County Knew: "conditional use" |
-| SLCo004050 | 30 | Investment | Investment: "mining operations" |
-| SLCo005412 | 30 | Investment | Investment: "mining operations" |
-| SLCo006144 | 30 | Investment | Investment: "mining operation" |
-| SLCo006190 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo006340 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006351 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006426 | 30 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo006548 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006553 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006610 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006634 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006785 | 30 | Investment, County Knew | Investment: "mining operation"; County Knew: "conditional use" |
-| SLCo006829 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo006836 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo007072 | 30 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo007167 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo007178 | 30 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo007444 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo007449 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo007457 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo007490 | 30 | Investment | Investment: "mining operation" |
-| SLCo008431 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo008497 | 30 | Investment | Investment: "limestone quarry" |
-| SLCo008908 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo008911 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo008914 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo008924 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo008995 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo008998 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009079 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009082 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009444 | 30 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo009609 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009614 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009690 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009722 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo009786 | 30 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo009910 | 30 | Investment, County Knew | Investment: "mining operation"; County Knew: "conditional use" |
-| SLCo010025 | 30 | Investment, County Knew | Investment: "mining operation"; County Knew: "conditional use" |
-| SLCo010135 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010142 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010149 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010481 | 30 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo010490 | 30 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo010582 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010622 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo010631 | 30 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo010822 | 30 | Prior Use | Prior Use: "vested mining use", "mining use", "notice of vested" |
-| SLCo010824 | 30 | Prior Use | Prior Use: "vested mining use", "mining use", "notice of vested" |
-| SLCo011005 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo011014 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo011323 | 30 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo011326 | 30 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo011329 | 30 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo012891 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo012947 | 30 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo013060 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo013360 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo013466 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo013525 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo013639 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo013641 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo013643 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo013650 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo013715 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo013718 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
-| SLCo015072 | 30 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo015521 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo015522 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo015523 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo015524 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo015529 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo015530 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo015544 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo015547 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo015550 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo015632 | 30 | Investment | Investment: "limestone quarry" |
-| SLCo015749 | 30 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo017189 | 30 | Investment | Investment: "mining operation" |
-| SLCo017225 | 30 | Investment | Investment: "limestone quarry" |
-| SLCo017307 | 30 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo018475 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo018476 | 30 | County Knew | County Knew: "conditional use"; Statute refs: 10-9a-90[1-5] |
-| SLCo018485 | 30 | Investment | Investment: "mining operation" |
-| SLCo018532 | 30 | Investment | Investment: "large mine permit", "small mine permit", "mining operation" |
-| SLCo018553 | 30 | County Knew | County Knew: "conditional use" |
-| SLCo018570 | 30 | Investment, County Knew | Investment: "mining operation"; County Knew: "conditional use" |
-| SLCo002499 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo002573 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo002871 | 20 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo003425 | 20 | Prior Use, County Knew | Prior Use: "non-conforming use"; County Knew: "existing mining" |
-| SLCo003432 | 20 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo003812 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo003822 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo003831 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo003838 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo003844 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo003849 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo003850 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo003851 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo003856 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo004066 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo004067 | 20 | Investment, County Knew | Investment: "limestone quarry"; County Knew: "conditional use" |
-| SLCo004123 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo004124 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo004472 | 20 | Investment | Investment: "mining operations" |
-| SLCo005633 | 20 | Investment | Investment: "mining operation" |
-| SLCo005635 | 20 | Investment | Investment: "mining operation" |
-| SLCo005637 | 20 | Investment | Investment: "mining operation" |
-| SLCo005639 | 20 | Investment | Investment: "mining operation" |
-| SLCo005641 | 20 | Investment | Investment: "mining operation" |
-| SLCo005643 | 20 | Investment | Investment: "mining operation" |
-| SLCo006181 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo006187 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo006208 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo006225 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo006232 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo006239 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo006246 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo006343 | 20 | Investment | Investment: "mining operation" |
-| SLCo006344 | 20 | Investment | Investment: "mining operation" |
-| SLCo006408 | 20 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo006439 | 20 | Investment | Investment: "mining operation" |
-| SLCo006466 | 20 | Investment | Investment: "mining operations" |
-| SLCo006476 | 20 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo006480 | 20 | Investment | Investment: "mining operation" |
-| SLCo006520 | 20 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo006524 | 20 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo006641 | 20 | Investment, County Knew | Investment: "limestone quarry"; County Knew: "conditional use" |
-| SLCo006670 | 20 | Investment, County Knew | Investment: "limestone quarry"; County Knew: "conditional use" |
-| SLCo006943 | 20 | Investment | Investment: "notice of intention", "mining operations" |
-| SLCo006959 | 20 | Investment | Investment: "notice of intention", "mining operations" |
-| SLCo007246 | 20 | Prior Use | Prior Use: "vested mining rights", "mining rights" |
-| SLCo007556 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo008002 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo008004 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo008023 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo008031 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo008380 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo008506 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo008523 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo008530 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo008543 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo009061 | 20 | Investment | Investment: "mining operation" |
-| SLCo009064 | 20 | Investment | Investment: "mining operation" |
-| SLCo009066 | 20 | Investment | Investment: "mining operation" |
-| SLCo009070 | 20 | Investment | Investment: "mining operation" |
-| SLCo009072 | 20 | Investment | Investment: "mining operation" |
-| SLCo009428 | 20 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo009477 | 20 | Investment | Investment: "mining operation" |
-| SLCo009528 | 20 | Investment | Investment: "mining operations" |
-| SLCo009553 | 20 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo009557 | 20 | Investment | Investment: "mining operation" |
-| SLCo009577 | 20 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo009581 | 20 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo009729 | 20 | Investment, County Knew | Investment: "limestone quarry"; County Knew: "conditional use" |
-| SLCo009756 | 20 | Investment, County Knew | Investment: "limestone quarry"; County Knew: "conditional use" |
-| SLCo009758 | 20 | Investment, County Knew | Investment: "limestone quarry"; County Knew: "conditional use" |
-| SLCo010267 | 20 | Investment | Investment: "notice of intention", "mining operations" |
-| SLCo010283 | 20 | Investment | Investment: "notice of intention", "mining operations" |
-| SLCo010692 | 20 | Prior Use | Prior Use: "vested mining rights", "mining rights" |
-| SLCo011123 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo011144 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo011149 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo011166 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo012249 | 20 | Investment | Investment: "mining operation" |
-| SLCo012254 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo012256 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo012258 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo012805 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo012931 | 20 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo013388 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo015056 | 20 | Investment | Investment: "mining operations", "mining operation" |
-| SLCo015148 | 20 | Investment | Investment: "limestone quarry", "mining operation" |
-| SLCo015650 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo015665 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo015672 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo015762 | 20 | Investment, County Knew | Investment: "limestone quarry"; County Knew: "conditional use" |
-| SLCo015966 | 20 | Investment | Investment: "mining operations" |
-| SLCo016901 | 20 | Investment | Investment: "mining operation" |
-| SLCo017243 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo017256 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo017262 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
-| SLCo017268 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo017410 | 20 | County Knew | County Knew: "conditional use" |
-| SLCo018302 | 20 | Investment | Investment: "mining operation" |
-| SLCo018521 | 20 | Investment | Investment: "limestone quarry" |
-| SLCo018543 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
-
-### LOW Relevance Documents: 388 (not listed)
-
-> 388 documents matched packet keywords at LOW relevance and are omitted from this report to reduce noise. These documents contain minimal keyword overlap and are unlikely to be useful as primary exhibits. The full list is available in the underlying scan data.
-
----
-
-# PACKET 2: ALTERNATIVE: Regulatory Taking
-
-**Legal Basis:** U.S. Const. Amend. V; Utah Const. Art. I §22; Penn Central / Lucas tests
-**Total Documents:** 1209
-
-> ALTERNATIVE CLAIM. Under the Penn Central and Lucas regulatory taking tests, the County's ordinance constitutes a taking requiring just compensation. The documents below establish: (1) Economic Impact -- the ordinance eliminates all economically viable mining use of Tree Farm's mineral rights and property; (2) Interference with Investment-Backed Expectations -- Tree Farm made substantial investments in mining permits and operations before the ordinance; and (3) Character of the Government Action -- the ordinance was targeted legislation designed to 'shut down' a specific operator, with community members and officials strategizing to destroy Tree Farm's mining rights.
-
-### Relevance Breakdown:
-
-| CRITICAL | HIGH | MEDIUM | LOW (omitted) |
-|----------|------|--------|---------------|
-| 87 | 121 | 732 | 269 |
-
-### Elements Addressed:
-
-| Element | Documents |
-|---------|----------|
-| Intergovernmental | 693 |
-| Investment Expectations | 372 |
-| Economic Impact | 358 |
-| Bad Faith Enforcement | 100 |
-| Government Character | 70 |
-
-### CRITICAL Documents (87)
-
-#### Economic Impact (32 documents)
-
-**SLCo005003** | Score: 1940 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
-> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "flood control", "division of oil, gas, and mining"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
-> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
-
-**SLCo011775** | Score: 1940 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
-> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "flood control", "division of oil, gas, and mining"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
-> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
-
-**SLCo016381** | Score: 1940 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
-> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "flood control", "division of oil, gas, and mining"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
-> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
-
-**SLCo017826** | Score: 1940 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
-> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "flood control", "division of oil, gas, and mining"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
-> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
-
-**SLCo004662** | Score: 1855 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
-> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "confidential", "water rights", "flood control"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
-> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
-
-**SLCo011435** | Score: 1855 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
-> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "confidential", "water rights", "flood control"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
-> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
-
-**SLCo016040** | Score: 1855 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
-> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "confidential", "water rights", "flood control"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
-> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
-
-**SLCo017485** | Score: 1855 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
-> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "confidential", "water rights", "flood control"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
-> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
-
-**SLCo018710** | Score: 1805 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
-> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "confidential", "water rights", "flood control"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
-> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
-
-**SLCo006684** | Score: 990 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
-> Economic Impact: "property value", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "division of oil, gas, and mining", "dogm"; Bad Faith Enforcement: "shut down", "code enforcement"; Statute refs: 19.12.030
-> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
-
-**SLCo009809** | Score: 990 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
-> Economic Impact: "property value", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "division of oil, gas, and mining", "dogm"; Bad Faith Enforcement: "shut down", "code enforcement"; Statute refs: 19.12.030
-> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
-
-**SLCo009924** | Score: 990 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
-> Economic Impact: "property value", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "division of oil, gas, and mining", "dogm"; Bad Faith Enforcement: "shut down", "code enforcement"; Statute refs: 19.12.030
-> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
-
-**SLCo005995** | Score: 225 | Elements: Economic Impact, Government Character, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Government Character: "targeted"; Intergovernmental: "flood control"; Statute refs: 19.12.030
-> *"Section 19.72.190 To Eliminate Mineral Extraction And"*
-
-**SLCo012299** | Score: 225 | Elements: Economic Impact, Government Character, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Government Character: "targeted"; Intergovernmental: "flood control"; Statute refs: 19.12.030
-> *"Section 19.72.190 To Eliminate Mineral Extraction And"*
-
-**SLCo017040** | Score: 225 | Elements: Economic Impact, Government Character, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Government Character: "targeted"; Intergovernmental: "flood control"; Statute refs: 19.12.030
-> *"Section 19.72.190 To Eliminate Mineral Extraction And"*
-
-**SLCo018345** | Score: 225 | Elements: Economic Impact, Government Character, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Government Character: "targeted"; Intergovernmental: "flood control"; Statute refs: 19.12.030
-> *"Section 19.72.190 To Eliminate Mineral Extraction And"*
-
-**SLCo013000** | Score: 90 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo015165** | Score: 90 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo003120** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo007234** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo007289** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo010680** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo010785** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo013088** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo013098** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo013111** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo013126** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo013235** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo013251** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo015209** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo015378** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-**SLCo015437** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
-> *" Recent Notices of Intention to begin mining operations with the"*
-
-#### Intergovernmental (20 documents)
-
-**SLCo008036** | Score: 560 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
-> Economic Impact: "mineral rights"; Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "confidential", "water rights", "division of oil, gas, and mining"; Bad Faith Enforcement: "business license"
-> *"a notice of intention to commence large mining operations to the Division of Oil, Gas, & Mining (DOGM)."*
-
-**SLCo012453** | Score: 560 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
-> Economic Impact: "mineral rights"; Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "confidential", "water rights", "division of oil, gas, and mining"; Bad Faith Enforcement: "business license"
-> *"a notice of intention to commence large mining operations to the Division of Oil, Gas, & Mining (DOGM)."*
-
-**SLCo003143** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo003194** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo003642** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo003739** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo007479** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo011066** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo013156** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo013170** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo013185** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo013199** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo013213** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo013283** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo015450** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo015464** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo015478** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo015569** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
-> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
-
-**SLCo006934** | Score: 70 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental
-> Economic Impact: "property value"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "division of oil, gas, and mining", "dogm"
-> *"DIVISION OF OIL, GAS, AND MINING"*
-
-**SLCo010258** | Score: 70 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental
-> Economic Impact: "property value"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "division of oil, gas, and mining", "dogm"
-> *"DIVISION OF OIL, GAS, AND MINING"*
-
-#### Investment Expectations (35 documents)
-
-**SLCo003551** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
-> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
-
-**SLCo003560** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
-> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
-
-**SLCo003569** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
-> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
-
-**SLCo003602** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
-> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
-
-**SLCo003611** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
-> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
-
-**SLCo003699** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
-> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
-
-**SLCo010728** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
-> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
-
-**SLCo010795** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
-> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
-
-**SLCo010804** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
-> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
-
-**SLCo010813** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
-> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
-
-**SLCo015369** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
-> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
-
-**SLCo015414** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
-> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
-
-**SLCo015423** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
-> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
-
-**SLCo013473** | Score: 350 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"Small Mining Operations, S/035/0053 (the "NOI-SMO"); and (2) the sufficiency of Tree Farm's"*
-
-**SLCo006285** | Score: 340 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"Small Mining Operations, S/035/0053 (the "NOI-SMO"); and (2) the sufficiency of Tree Farm's"*
-
-**SLCo008940** | Score: 340 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"Small Mining Operations, S/035/0053 (the "NOI-SMO"); and (2) the sufficiency of Tree Farm's"*
-
-**SLCo013656** | Score: 340 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"Small Mining Operations, S/035/0053 (the "NOI-SMO"); and (2) the sufficiency of Tree Farm's"*
-
-**SLCo006558** | Score: 310 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-> *"from the proposed mining operations; and (5) potential impacts on property value resulting"*
-
-**SLCo009619** | Score: 310 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-> *"from the proposed mining operations; and (5) potential impacts on property value resulting"*
-
-**SLCo002687** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
-
-**SLCo003244** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
-
-**SLCo003307** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
-
-**SLCo008620** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
-
-**SLCo008678** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
-
-**SLCo008732** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
-
-**SLCo008788** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
-
-**SLCo008842** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
-
-**SLCo009002** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
-
-**SLCo013526** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
-
-**SLCo013580** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
-
-**SLCo010044** | Score: 205 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "water rights", "dogm"; Statute refs: 19.12.030
-> *"dimishment of property value, a threat to air and water quality, and a risk to water rights), then"*
-
-**SLCo006537** | Score: 200 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-> *"mining operations; and (5) potential impacts on property value resulting from an adjacent"*
-
-**SLCo009598** | Score: 200 | Elements: Economic Impact, Investment Expectations, Intergovernmental
-> Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-> *"mining operations; and (5) potential impacts on property value resulting from an adjacent"*
-
-**SLCo003762** | Score: 100 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"Notice of Intention to Commence Small Mining Operations"*
-
-**SLCo015269** | Score: 100 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-> *"Notice of Intention to Commence Small Mining Operations"*
-
-
-### HIGH Relevance Documents (121)
-
-**SLCo007151** | Score: 440 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo010606** | Score: 440 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo005417** | Score: 350 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo007352** | Score: 350 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo010857** | Score: 350 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo010903** | Score: 350 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo012184** | Score: 350 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo016792** | Score: 350 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo018237** | Score: 350 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo018654** | Score: 350 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo009088** | Score: 320 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo009457** | Score: 320 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo006361** | Score: 310 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo009108** | Score: 310 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo006573** | Score: 260 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "flood control", "division of oil, gas, and mining"
-
-**SLCo009634** | Score: 260 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "flood control", "division of oil, gas, and mining"
-
-**SLCo009653** | Score: 260 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "flood control", "division of oil, gas, and mining"
-
-**SLCo003377** | Score: 210 | Elements: Investment Expectations, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Bad Faith Enforcement: "shut down"
-
-**SLCo009126** | Score: 210 | Elements: Investment Expectations, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Bad Faith Enforcement: "shut down"
-
-**SLCo013723** | Score: 210 | Elements: Investment Expectations, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Bad Faith Enforcement: "shut down"
-
-**SLCo006843** | Score: 200 | Elements: Investment Expectations, Bad Faith Enforcement
-> Investment Expectations: "vested mining use", "large mine permit", "small mine permit"; Bad Faith Enforcement: "operating without"
-
-**SLCo006857** | Score: 200 | Elements: Investment Expectations, Bad Faith Enforcement
-> Investment Expectations: "vested mining use", "large mine permit", "small mine permit"; Bad Faith Enforcement: "operating without"
-
-**SLCo010158** | Score: 200 | Elements: Investment Expectations, Bad Faith Enforcement
-> Investment Expectations: "vested mining use", "large mine permit", "small mine permit"; Bad Faith Enforcement: "operating without"
-
-**SLCo010172** | Score: 200 | Elements: Investment Expectations, Bad Faith Enforcement
-> Investment Expectations: "vested mining use", "large mine permit", "small mine permit"; Bad Faith Enforcement: "operating without"
-
-**SLCo006947** | Score: 190 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "vested mining use", "mining operations"; Intergovernmental: "dogm"
-
-**SLCo006963** | Score: 190 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "vested mining use", "mining operations"; Intergovernmental: "dogm"
-
-**SLCo010271** | Score: 190 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "vested mining use", "mining operations"; Intergovernmental: "dogm"
-
-**SLCo010287** | Score: 190 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "vested mining use", "mining operations"; Intergovernmental: "dogm"
-
-**SLCo006594** | Score: 180 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo006618** | Score: 180 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo009674** | Score: 180 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo009706** | Score: 180 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo002501** | Score: 175 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "vested mining use", "large mine permit", "commercial quantities"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 17-41-402
-
-**SLCo008382** | Score: 175 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "vested mining use", "large mine permit", "commercial quantities"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 17-41-402
-
-**SLCo012814** | Score: 175 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "vested mining use", "large mine permit", "commercial quantities"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 17-41-402
-
-**SLCo013323** | Score: 175 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "vested mining use", "large mine permit", "commercial quantities"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 17-41-402
-
-**SLCo003533** | Score: 170 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "flood control"
-
-**SLCo010582** | Score: 170 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "flood control"
-
-**SLCo009590** | Score: 160 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"
-
-**SLCo009592** | Score: 160 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"
-
-**SLCo009594** | Score: 160 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"
-
-**SLCo006873** | Score: 150 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo010188** | Score: 150 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo010200** | Score: 150 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo006182** | Score: 135 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "dogm"; Statute refs: 19.12.030
-
-**SLCo008024** | Score: 135 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "dogm"; Statute refs: 19.12.030
-
-**SLCo018522** | Score: 135 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "dogm"; Statute refs: 19.12.030
-
-**SLCo007181** | Score: 130 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo010634** | Score: 130 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo005857** | Score: 95 | Elements: Economic Impact, Investment Expectations
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Statute refs: 19.12.030
-
-**SLCo012261** | Score: 95 | Elements: Economic Impact, Investment Expectations
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Statute refs: 19.12.030
-
-**SLCo016983** | Score: 95 | Elements: Economic Impact, Investment Expectations
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Statute refs: 19.12.030
-
-**SLCo018318** | Score: 95 | Elements: Economic Impact, Investment Expectations
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Statute refs: 19.12.030
-
-**SLCo004118** | Score: 90 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo007008** | Score: 90 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo007091** | Score: 90 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo007096** | Score: 90 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo007103** | Score: 90 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo007112** | Score: 90 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo010347** | Score: 90 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo010507** | Score: 90 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo010514** | Score: 90 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo010519** | Score: 90 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo010526** | Score: 90 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo010535** | Score: 90 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo010547** | Score: 90 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo004080** | Score: 80 | Elements: Government Character, Bad Faith Enforcement
-> Government Character: "not going to happen"; Bad Faith Enforcement: "shut down"
-
-**SLCo004115** | Score: 80 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "vested mining right"; Intergovernmental: "water rights", "dogm"
-
-**SLCo004116** | Score: 80 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "vested mining right"; Intergovernmental: "water rights", "dogm"
-
-**SLCo006910** | Score: 80 | Elements: Government Character, Bad Faith Enforcement
-> Government Character: "not going to happen"; Bad Faith Enforcement: "shut down"
-
-**SLCo015329** | Score: 80 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "vested mining right"; Intergovernmental: "water rights", "dogm"
-
-**SLCo015770** | Score: 80 | Elements: Government Character, Bad Faith Enforcement
-> Government Character: "not going to happen"; Bad Faith Enforcement: "shut down"
-
-**SLCo017381** | Score: 80 | Elements: Government Character, Bad Faith Enforcement
-> Government Character: "not going to happen"; Bad Faith Enforcement: "shut down"
-
-**SLCo004182** | Score: 75 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
-
-**SLCo006122** | Score: 75 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "confidential"; Statute refs: 17-41-402
-
-**SLCo006127** | Score: 75 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "confidential"; Statute refs: 17-41-402
-
-**SLCo011396** | Score: 75 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
-
-**SLCo012426** | Score: 75 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "confidential"; Statute refs: 17-41-402
-
-**SLCo015858** | Score: 75 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
-
-**SLCo017173** | Score: 75 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "confidential"; Statute refs: 17-41-402
-
-**SLCo017454** | Score: 75 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
-
-**SLCo018480** | Score: 75 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "confidential"; Statute refs: 17-41-402
-
-**SLCo003677** | Score: 70 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
-
-**SLCo004070** | Score: 70 | Elements: Economic Impact, Government Character
-> Economic Impact: "eliminate mineral extraction"; Government Character: "banning the quarry"; Statute refs: 19.12.030
-
-**SLCo004072** | Score: 70 | Elements: Economic Impact, Government Character
-> Economic Impact: "eliminate mineral extraction"; Government Character: "banning the quarry"; Statute refs: 19.12.030
-
-**SLCo004074** | Score: 70 | Elements: Economic Impact, Government Character
-> Economic Impact: "eliminate mineral extraction"; Government Character: "banning the quarry"; Statute refs: 19.12.030
-
-**SLCo007072** | Score: 70 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo007145** | Score: 70 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "property value"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo007411** | Score: 70 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
-
-**SLCo008418** | Score: 70 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"
-
-**SLCo010481** | Score: 70 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo010490** | Score: 70 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo010600** | Score: 70 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "property value"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo010977** | Score: 70 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
-
-**SLCo010989** | Score: 70 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
-
-**SLCo012803** | Score: 70 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"
-
-**SLCo015508** | Score: 70 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
-
-**SLCo017309** | Score: 70 | Elements: Intergovernmental, Bad Faith Enforcement
-> Intergovernmental: "water rights"; Bad Faith Enforcement: "shut down", "code enforcement"
-
-**SLCo008561** | Score: 65 | Elements: Economic Impact, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "dogm"; Statute refs: 19.12.030
-
-**SLCo002576** | Score: 60 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "small mine permit"; Intergovernmental: "dogm"
-
-**SLCo006516** | Score: 60 | Elements: Economic Impact, Investment Expectations
-> Economic Impact: "property value"; Investment Expectations: "mining operations"
-
-**SLCo006588** | Score: 60 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo009573** | Score: 60 | Elements: Economic Impact, Investment Expectations
-> Economic Impact: "property value"; Investment Expectations: "mining operations"
-
-**SLCo009649** | Score: 60 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo009668** | Score: 60 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
-
-**SLCo003100** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license"
-
-**SLCo003469** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-
-**SLCo003524** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license"
-
-**SLCo007022** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license"
-
-**SLCo009802** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
-
-**SLCo010413** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license"
-
-**SLCo012452** | Score: 50 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "mining operations"; Intergovernmental: "dogm"
-
-**SLCo013064** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license"
-
-**SLCo015321** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
-> Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license"
-
-**SLCo018532** | Score: 50 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo018535** | Score: 50 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo018537** | Score: 50 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo018539** | Score: 50 | Elements: Investment Expectations, Intergovernmental
-> Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm"
-
-**SLCo017270** | Score: 40 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "halt this project"; Intergovernmental: "water rights"
-
-**SLCo017272** | Score: 40 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "halt this project"; Intergovernmental: "water rights"
-
-**SLCo017274** | Score: 40 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental
-> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "halt this project"; Intergovernmental: "water rights"
-
-
-### MEDIUM Relevance Documents (732)
-
-| Bates ID | Score | Elements | Key Phrase |
-|----------|-------|----------|------------|
-| SLCo013017 | 130 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement"; Statute refs: 19.12.030 |
-| SLCo005498 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo007395 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo010946 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo010956 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo012230 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo016850 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo018287 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo018699 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo002565 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002632 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002642 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002653 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002663 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002673 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002930 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002956 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002977 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003804 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo004992 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo005400 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006217 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006274 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006787 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006798 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo007278 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo008515 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo009912 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo010027 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo011765 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo012172 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo012877 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013380 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013458 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015137 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015185 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015642 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015706 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo016370 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo016778 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo017235 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo017815 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo018223 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002746 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
-| SLCo002748 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
-| SLCo002749 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
-| SLCo003366 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
-| SLCo003501 | 70 | Intergovernmental | Intergovernmental: "water rights" |
-| SLCo007162 | 70 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo008908 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
-| SLCo008911 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
-| SLCo008914 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
-| SLCo010370 | 70 | Intergovernmental | Intergovernmental: "water rights" |
-| SLCo010390 | 70 | Intergovernmental | Intergovernmental: "water rights" |
-| SLCo010617 | 70 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo013466 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
-| SLCo013525 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
-| SLCo013639 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
-| SLCo013641 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
-| SLCo015298 | 70 | Intergovernmental | Intergovernmental: "water rights" |
-| SLCo018553 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
-| SLCo002573 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003812 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006225 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006232 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006239 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006246 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo008523 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo008530 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo011144 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013388 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015650 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo017243 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003298 | 60 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo007117 | 60 | Investment Expectations | Investment Expectations: "small mine permit", "mining operations" |
-| SLCo007124 | 60 | Investment Expectations | Investment Expectations: "small mine permit", "mining operations" |
-| SLCo010540 | 60 | Investment Expectations | Investment Expectations: "small mine permit", "mining operations" |
-| SLCo010552 | 60 | Investment Expectations | Investment Expectations: "small mine permit", "mining operations" |
-| SLCo013266 | 60 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003099 | 50 | Intergovernmental | Intergovernmental: "water rights", "division of oil, gas, and mining" |
-| SLCo003498 | 50 | Intergovernmental | Intergovernmental: "water rights", "division of oil, gas, and mining" |
-| SLCo007015 | 50 | Intergovernmental | Intergovernmental: "water rights", "division of oil, gas, and mining" |
-| SLCo007229 | 50 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo008585 | 50 | Investment Expectations | Investment Expectations: "large mine permit", "mining operations" |
-| SLCo009695 | 50 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo010222 | 50 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo010354 | 50 | Intergovernmental | Intergovernmental: "water rights", "division of oil, gas, and mining" |
-| SLCo010665 | 50 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo013060 | 50 | Bad Faith Enforcement | Bad Faith Enforcement: "code enforcement" |
-| SLCo013063 | 50 | Intergovernmental | Intergovernmental: "water rights", "division of oil, gas, and mining" |
-| SLCo013249 | 50 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013429 | 50 | Investment Expectations | Investment Expectations: "large mine permit", "mining operations" |
-| SLCo015289 | 50 | Intergovernmental | Intergovernmental: "water rights", "division of oil, gas, and mining" |
-| SLCo002916 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002987 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002992 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002997 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003002 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003007 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003012 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003017 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003020 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003023 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003026 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003044 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003049 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003054 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003059 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003064 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003069 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003074 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003079 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003459 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo004069 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo004076 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo004104 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006895 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo009797 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo010094 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo010097 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo010100 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo010103 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo010106 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo010109 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo010112 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo010115 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo012966 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo012977 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo012985 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo012992 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo012997 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013048 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013076 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013137 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013234 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013265 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015093 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015098 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015102 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015105 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015113 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015116 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015121 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015126 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015157 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015162 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015221 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015226 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015767 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002541 | 40 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002562 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002564 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002630 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002640 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002651 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002661 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002671 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002904 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002928 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002938 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002940 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002943 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002946 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002949 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002952 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002964 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002968 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002972 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo002975 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003164 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo003532 | 40 | Intergovernmental | Intergovernmental: "confidential", "prue declaration", "water rights" |
-| SLCo003684 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo003685 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo003686 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo003687 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo003692 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo003693 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo003798 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003800 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003801 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003803 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003817 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo004048 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo005978 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006214 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006216 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006229 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006231 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006236 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006238 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006243 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006245 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006272 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo006796 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo007148 | 40 | Intergovernmental | Intergovernmental: "confidential", "division of oil, gas, and mining", "dogm" |
-| SLCo007171 | 40 | Intergovernmental | Intergovernmental: "confidential", "division of oil, gas, and mining", "dogm" |
-| SLCo007444 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo007449 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo007457 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo008422 | 40 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo008512 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo008514 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo008527 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo008529 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo008548 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo008550 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo008551 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo010081 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo010581 | 40 | Intergovernmental | Intergovernmental: "confidential", "prue declaration", "water rights" |
-| SLCo010603 | 40 | Intergovernmental | Intergovernmental: "confidential", "division of oil, gas, and mining", "dogm" |
-| SLCo010626 | 40 | Intergovernmental | Intergovernmental: "confidential", "division of oil, gas, and mining", "dogm" |
-| SLCo011005 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo011014 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo011141 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo011143 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo012289 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo012875 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo012924 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo012959 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013075 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013080 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013373 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013375 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013377 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013379 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo013456 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015049 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015083 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015087 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015090 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015097 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015135 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015145 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015521 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo015522 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo015523 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo015524 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo015529 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo015530 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo015544 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo015547 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo015550 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo015639 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015641 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015654 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015658 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo015704 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo017031 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo017232 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo017234 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo017247 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo018338 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo018475 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo018476 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
-| SLCo018548 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo018550 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo018570 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo007418 | 35 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo007425 | 35 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo010972 | 35 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo010984 | 35 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo015515 | 35 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo002540 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002586 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo002588 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo002590 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo002592 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo002617 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo002745 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
-| SLCo002747 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
-| SLCo003040 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003041 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo003229 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo003231 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo003365 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
-| SLCo003776 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo003779 | 30 | Economic Impact, Investment Expectations | Economic Impact: "mineral rights"; Investment Expectations: "mining operations" |
-| SLCo003782 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo003785 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo003815 | 30 | Economic Impact, Investment Expectations, Intergovernmental | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "water rights" |
-| SLCo004013 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo004021 | 30 | Government Character, Bad Faith Enforcement | Government Character: "not going to happen"; Bad Faith Enforcement: "shut down" |
-| SLCo004050 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo004051 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo004052 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo004060 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo004117 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo004150 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo004177 | 30 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo004988 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo005396 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo005412 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo006466 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
-| SLCo006467 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006485 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo006487 | 30 | Government Character, Bad Faith Enforcement | Government Character: "not going to happen"; Bad Faith Enforcement: "shut down" |
-| SLCo006528 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo006548 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo006553 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo006610 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo006616 | 30 | Intergovernmental | Intergovernmental: "confidential", "division of oil, gas, and mining", "dogm" |
-| SLCo006634 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo006898 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006979 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007081 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007110 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007131 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo007246 | 30 | Economic Impact, Investment Expectations, Intergovernmental | Economic Impact: "mining rights"; Investment Expectations: "vested mining rights"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo007274 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo007333 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo008424 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo008466 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo008470 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo008474 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo008479 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo008483 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo008535 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo008539 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo008541 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo008909 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
-| SLCo008910 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
-| SLCo008912 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
-| SLCo008913 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
-| SLCo009528 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
-| SLCo009529 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009540 | 30 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo009562 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo009585 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo009609 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo009614 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo009690 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo009704 | 30 | Intergovernmental | Intergovernmental: "confidential", "division of oil, gas, and mining", "dogm" |
-| SLCo009722 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo010236 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010303 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010418 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo010499 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010533 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010559 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010561 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo010574 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo010692 | 30 | Economic Impact, Investment Expectations, Intergovernmental | Economic Impact: "mining rights"; Investment Expectations: "vested mining rights"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo011116 | 30 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo011118 | 30 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo011129 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
-| SLCo011147 | 30 | Economic Impact, Investment Expectations, Intergovernmental | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "water rights" |
-| SLCo011158 | 30 | Economic Impact, Investment Expectations, Intergovernmental | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "water rights" |
-| SLCo011160 | 30 | Economic Impact, Investment Expectations, Intergovernmental | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "water rights" |
-| SLCo011337 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo011338 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo011339 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo011342 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo011369 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo011391 | 30 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo011761 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo012168 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo012851 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013369 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo013396 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo013398 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo013421 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo013425 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo013638 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
-| SLCo013640 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
-| SLCo015489 | 30 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo015598 | 30 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo015604 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo015607 | 30 | Economic Impact, Investment Expectations | Economic Impact: "mineral rights"; Investment Expectations: "mining operations" |
-| SLCo015611 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo015716 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo015730 | 30 | Government Character, Bad Faith Enforcement | Government Character: "not going to happen"; Bad Faith Enforcement: "shut down" |
-| SLCo015835 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015853 | 30 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo016366 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo016774 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo017246 | 30 | Economic Impact, Investment Expectations, Intergovernmental | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "water rights" |
-| SLCo017288 | 30 | Government Character, Bad Faith Enforcement | Government Character: "not going to happen"; Bad Faith Enforcement: "shut down" |
-| SLCo017370 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo017371 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo017372 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo017375 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
-| SLCo017438 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo017449 | 30 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
-| SLCo017811 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo018219 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo018528 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
-| SLCo018533 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo018541 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo018552 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
-| SLCo002497 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo002750 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002757 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002786 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002790 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002793 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002795 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "large mine permit"; Intergovernmental: "dogm" |
-| SLCo002796 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002799 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002865 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002869 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002872 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002875 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002878 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002881 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002884 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002887 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002890 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002893 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002896 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002899 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo002926 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
-| SLCo003110 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
-| SLCo003368 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003372 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003390 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003392 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "large mine permit"; Intergovernmental: "dogm" |
-| SLCo003393 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003396 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003427 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003430 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003433 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003436 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003439 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003442 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003445 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003450 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003453 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003456 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo003530 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
-| SLCo003620 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
-| SLCo003622 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
-| SLCo003778 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo003781 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo003822 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
-| SLCo003831 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
-| SLCo003838 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
-| SLCo003844 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
-| SLCo004040 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo004042 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
-| SLCo004044 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
-| SLCo004130 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
-| SLCo004472 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo005415 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo005496 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006137 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo006208 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
-| SLCo006339 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006349 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006353 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006356 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006359 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006379 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006381 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "large mine permit"; Intergovernmental: "dogm" |
-| SLCo006382 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006385 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006400 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006403 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006406 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006409 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006412 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006415 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006418 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006421 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006424 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006427 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006430 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006433 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006436 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006441 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006448 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006454 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006457 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006464 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006474 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006478 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006483 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006505 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006508 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006511 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006514 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006518 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006522 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006526 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006530 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006535 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006571 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006592 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006639 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006643 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006668 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006674 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006679 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
-| SLCo006785 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo006795 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
-| SLCo006808 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
-| SLCo006820 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006829 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo006834 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006836 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo006871 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006883 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006957 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006974 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo006986 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006988 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006990 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo006992 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo006997 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007004 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007010 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007025 | 20 | Intergovernmental | Intergovernmental: "water rights", "dogm" |
-| SLCo007038 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007046 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007056 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007070 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007087 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
-| SLCo007101 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007108 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007143 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007146 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007160 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007165 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007168 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007176 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007178 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo007179 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007186 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
-| SLCo007213 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007216 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007220 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007222 | 20 | Economic Impact, Intergovernmental | Economic Impact: "property value"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo007223 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007226 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007244 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007248 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo007255 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007257 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007267 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007299 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007302 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007349 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo007965 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
-| SLCo007968 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
-| SLCo007980 | 20 | Intergovernmental, Bad Faith Enforcement | Intergovernmental: "water rights"; Bad Faith Enforcement: "shut down" |
-| SLCo008008 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo008033 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo008463 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
-| SLCo008506 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
-| SLCo008543 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
-| SLCo008907 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
-| SLCo008923 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo008994 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo008997 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009000 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009077 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009081 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009084 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009106 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009139 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009141 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "large mine permit"; Intergovernmental: "dogm" |
-| SLCo009142 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009147 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009420 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009423 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009426 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009429 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009432 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009435 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009438 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009441 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009446 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009449 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009452 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009479 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009486 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009501 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining" |
-| SLCo009503 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining" |
-| SLCo009510 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining" |
-| SLCo009513 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining" |
-| SLCo009516 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009526 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009546 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo009551 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009555 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009560 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009564 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009567 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009571 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009575 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009579 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009583 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009587 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009596 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009632 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009672 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009727 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009731 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009753 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009765 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo009786 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo009793 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
-| SLCo009910 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo009920 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
-| SLCo010025 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo010035 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
-| SLCo010127 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010135 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo010142 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo010147 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010149 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo010186 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010198 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010281 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010298 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo010310 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010318 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010320 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010322 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo010327 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010331 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010343 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010349 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010416 | 20 | Intergovernmental | Intergovernmental: "water rights", "dogm" |
-| SLCo010447 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010455 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010467 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010505 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
-| SLCo010524 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010531 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010598 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010601 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010615 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010620 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010623 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010629 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010631 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo010632 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010649 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010652 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010656 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010658 | 20 | Economic Impact, Intergovernmental | Economic Impact: "property value"; Intergovernmental: "division of oil, gas, and mining" |
-| SLCo010659 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010662 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010690 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010694 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo010701 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010703 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010713 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010737 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010740 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010855 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo010900 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo011149 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
-| SLCo011166 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
-| SLCo011323 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo011326 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo011329 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo011331 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
-| SLCo011333 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
-| SLCo011335 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
-| SLCo011350 | 20 | Intergovernmental | Intergovernmental: "confidential" |
-| SLCo011352 | 20 | Intergovernmental | Intergovernmental: "confidential" |
-| SLCo012182 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012228 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012431 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo012438 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo012441 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo012806 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo012850 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012889 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012893 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012896 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012898 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "large mine permit"; Intergovernmental: "dogm" |
-| SLCo012899 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012903 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012926 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012929 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012932 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012935 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012938 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012941 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012944 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012949 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012952 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo012955 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013072 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
-| SLCo013307 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo013359 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013642 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013649 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013713 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013717 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013720 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013736 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013738 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "large mine permit"; Intergovernmental: "dogm" |
-| SLCo013739 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo013742 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015051 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015054 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015057 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015060 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015063 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015066 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015069 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015074 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015077 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015080 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo015330 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
-| SLCo015432 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
-| SLCo015434 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
-| SLCo015606 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo015609 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo015653 | 20 | Intergovernmental | Intergovernmental: "confidential" |
-| SLCo015665 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
-| SLCo015672 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
-| SLCo015684 | 20 | Intergovernmental | Intergovernmental: "confidential" |
-| SLCo015726 | 20 | Intergovernmental | Intergovernmental: "confidential" |
-| SLCo015749 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo015807 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
-| SLCo015966 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo016790 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo016848 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo017182 | 20 | Intergovernmental | Intergovernmental: "dogm" |
-| SLCo017256 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
-| SLCo017262 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
-| SLCo017307 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
-| SLCo017416 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
-| SLCo018235 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo018285 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo018543 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
-| SLCo018652 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-| SLCo018697 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
-
-### LOW Relevance Documents: 269 (not listed)
-
-> 269 documents matched packet keywords at LOW relevance and are omitted from this report to reduce noise. These documents contain minimal keyword overlap and are unlikely to be useful as primary exhibits. The full list is available in the underlying scan data.
-
----
-
-# PACKET 3: REMEDY: Permanent Injunction — Stop Enforcement
-
-**Legal Basis:** Injunctive relief — preemption + due process violations
-**Total Documents:** 358
-
-> REMEDY. To obtain a permanent injunction stopping enforcement, Tree Farm must show: (1) it holds vested mining rights the County is violating (see Packet 1); (2) the County has taken or threatened enforcement actions; (3) Tree Farm faces irreparable harm without injunctive relief because vested mining rights cannot be adequately compensated through damages alone; and (4) the balance of equities favors relief. The documents below focus on enforcement actions, predetermined outcomes, and due process violations.
-
-### Relevance Breakdown:
-
-| CRITICAL | HIGH | MEDIUM | LOW (omitted) |
-|----------|------|--------|---------------|
-| 0 | 5 | 112 | 241 |
-
-### Elements Addressed:
-
-| Element | Documents |
-|---------|----------|
-| Enforcement Actions | 125 |
-| Serial Meetings | 60 |
-| Predetermined Outcome | 38 |
-| Irreparable Harm | 18 |
-| Due Process | 11 |
-| Preemption Basis | 4 |
-
-### HIGH Relevance Documents (5)
-
-**SLCo004080** | Score: 80 | Elements: Predetermined Outcome, Enforcement Actions
-> Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down"
-
-**SLCo006910** | Score: 80 | Elements: Predetermined Outcome, Enforcement Actions
-> Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down"
-
-**SLCo015770** | Score: 80 | Elements: Predetermined Outcome, Enforcement Actions
-> Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down"
-
-**SLCo017381** | Score: 80 | Elements: Predetermined Outcome, Enforcement Actions
-> Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down"
-
-**SLCo017309** | Score: 70 | Elements: Serial Meetings, Enforcement Actions
-> Serial Meetings: "quorum"; Enforcement Actions: "code enforcement", "shut down"
-
-
-### MEDIUM Relevance Documents (112)
-
-| Bates ID | Score | Elements | Key Phrase |
-|----------|-------|----------|------------|
-| SLCo002501 | 1940 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel, or rock aggregate", "17-41-402"; Statute refs: 17-41-402 |
-| SLCo008382 | 1940 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel, or rock aggregate", "17-41-402"; Statute refs: 17-41-402 |
-| SLCo012814 | 1940 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel, or rock aggregate", "17-41-402"; Statute refs: 17-41-402 |
-| SLCo013323 | 1940 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel, or rock aggregate", "17-41-402"; Statute refs: 17-41-402 |
-| SLCo013017 | 130 | Enforcement Actions | Enforcement Actions: "enforcement action", "code enforcement", "business license"; Statute refs: 52-4-20[1-9] |
-| SLCo002746 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
-| SLCo002748 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
-| SLCo002749 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
-| SLCo003366 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
-| SLCo008908 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
-| SLCo008911 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
-| SLCo008914 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
-| SLCo013466 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
-| SLCo013525 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
-| SLCo013639 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
-| SLCo013641 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
-| SLCo018553 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
-| SLCo011001 | 60 | Due Process | Due Process: "before the vote", "before and after vote" |
-| SLCo007435 | 50 | Due Process | Due Process: "before the vote", "before and after vote" |
-| SLCo013060 | 50 | Enforcement Actions | Enforcement Actions: "code enforcement" |
-| SLCo003854 | 40 | Predetermined Outcome | Predetermined Outcome: "cannot imagine", "easy one", "voted to ban" |
-| SLCo006467 | 40 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
-| SLCo009529 | 40 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
-| SLCo002745 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
-| SLCo002747 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
-| SLCo002921 | 30 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
-| SLCo003365 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
-| SLCo003856 | 30 | Predetermined Outcome | Predetermined Outcome: "cannot imagine", "easy one", "block the proposal" |
-| SLCo004021 | 30 | Predetermined Outcome, Enforcement Actions | Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down" |
-| SLCo005417 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
-| SLCo006190 | 30 | Enforcement Actions | Enforcement Actions: "conditional use permit" |
-| SLCo006471 | 30 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
-| SLCo006487 | 30 | Predetermined Outcome, Enforcement Actions | Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down" |
-| SLCo006533 | 30 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
-| SLCo007352 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
-| SLCo008431 | 30 | Enforcement Actions | Enforcement Actions: "conditional use permit" |
-| SLCo008909 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
-| SLCo008910 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
-| SLCo008912 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
-| SLCo008913 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
-| SLCo009533 | 30 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
-| SLCo010857 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
-| SLCo010903 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
-| SLCo012184 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
-| SLCo012971 | 30 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
-| SLCo013360 | 30 | Enforcement Actions | Enforcement Actions: "conditional use permit" |
-| SLCo013638 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
-| SLCo013640 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
-| SLCo015131 | 30 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
-| SLCo015730 | 30 | Predetermined Outcome, Enforcement Actions | Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down" |
-| SLCo016792 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
-| SLCo017288 | 30 | Predetermined Outcome, Enforcement Actions | Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down" |
-| SLCo018237 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
-| SLCo018552 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
-| SLCo018654 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
-| SLCo002687 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo002926 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
-| SLCo003100 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo003244 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo003307 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo003377 | 20 | Enforcement Actions | Enforcement Actions: "conditional use permit", "shut down" |
-| SLCo003524 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo003849 | 20 | Predetermined Outcome | Predetermined Outcome: "voted to ban", "just voted to ban" |
-| SLCo003850 | 20 | Predetermined Outcome | Predetermined Outcome: "voted to ban", "just voted to ban" |
-| SLCo003851 | 20 | Predetermined Outcome | Predetermined Outcome: "voted to ban", "just voted to ban" |
-| SLCo004115 | 20 | Enforcement Actions | Enforcement Actions: "stop work order", "conditional use permit" |
-| SLCo004116 | 20 | Enforcement Actions | Enforcement Actions: "stop work order", "conditional use permit" |
-| SLCo004130 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
-| SLCo006285 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo006679 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
-| SLCo006808 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
-| SLCo006843 | 20 | Enforcement Actions | Enforcement Actions: "conditional use permit", "operating without" |
-| SLCo006857 | 20 | Enforcement Actions | Enforcement Actions: "conditional use permit", "operating without" |
-| SLCo007022 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo007072 | 20 | Irreparable Harm | Irreparable Harm: "public interest" |
-| SLCo007186 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
-| SLCo007965 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
-| SLCo007968 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
-| SLCo008620 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo008678 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo008732 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo008788 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo008842 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo008907 | 20 | Enforcement Actions | Enforcement Actions: "business license" |
-| SLCo008940 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo009002 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo009126 | 20 | Enforcement Actions | Enforcement Actions: "conditional use permit", "shut down" |
-| SLCo009793 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
-| SLCo010158 | 20 | Enforcement Actions | Enforcement Actions: "conditional use permit", "operating without" |
-| SLCo010172 | 20 | Enforcement Actions | Enforcement Actions: "conditional use permit", "operating without" |
-| SLCo010413 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo010481 | 20 | Irreparable Harm | Irreparable Harm: "public interest" |
-| SLCo010490 | 20 | Irreparable Harm | Irreparable Harm: "public interest" |
-| SLCo011333 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
-| SLCo011335 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
-| SLCo013064 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo013473 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo013526 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo013580 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo013656 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo013723 | 20 | Enforcement Actions | Enforcement Actions: "conditional use permit", "shut down" |
-| SLCo015321 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo015329 | 20 | Enforcement Actions | Enforcement Actions: "stop work order", "conditional use permit" |
-| SLCo015752 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo015754 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
-| SLCo015807 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
-| SLCo017416 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
-| SLCo018636 | 20 | Serial Meetings | Serial Meetings: "r caucus" |
-| SLCo018637 | 20 | Serial Meetings | Serial Meetings: "r caucus" |
-| SLCo018644 | 20 | Serial Meetings | Serial Meetings: "r caucus" |
-| SLCo018646 | 20 | Serial Meetings | Serial Meetings: "r caucus" |
-| SLCo018648 | 20 | Serial Meetings | Serial Meetings: "r caucus" |
-
-### LOW Relevance Documents: 241 (not listed)
-
-> 241 documents matched packet keywords at LOW relevance and are omitted from this report to reduce noise. These documents contain minimal keyword overlap and are unlikely to be useful as primary exhibits. The full list is available in the underlying scan data.
-
----
-
-# PACKET 4: SECONDARY: CIM Preemption (17-41-402) — Alternative Theory
-
-**Legal Basis:** Utah Code 17-41-402(6) (now 17-81-402) — CIM state preemption
+**Legal Basis:** Utah Code 17-41-402(6) (now 17-81-402) — ordinance preempted by state law
 **Total Documents:** 1922
+**Strategic Note:** CIM preemption (this claim) was a deliberate decoy. The Bateman letters were sent to distract the County into defending against preemption while the PRIMARY claim — vested mining rights (COA 3) — was developed. See COA 3 for the primary theory.
 
-> SECONDARY / ALTERNATIVE THEORY. This packet documents the CIM (Critical Infrastructure Materials) preemption argument under Utah Code 17-41-402(6). NOTE: Per attorney strategy, the CIM preemption letters from Bateman were sent as a deliberate decoy to divert the County's attention from the vested mining rights claim. The County took the bait and focused their defense entirely on CIM. This claim remains in the case as an alternative theory but is NOT the primary litigation strategy. The primary case is vested mining rights (Packet 1).
+> Tree Farm seeks a declaration that Salt Lake County Ordinance No. 1822 is invalid because it conflicts with Utah Code 17-41-402(6), which prohibits any county from adopting an ordinance that restricts operations involving sand, gravel, and rock aggregate -- the exact materials the ordinance prohibits. The documents below establish: (1) the ordinance expressly prohibits extraction of protected materials; (2) the County received repeated written warnings that the ordinance violated state law and proceeded anyway; and (3) the County's own District Attorney evaded the preemption question rather than addressing it on the merits.
 
 ### Relevance Breakdown:
 
@@ -7742,16 +6417,2461 @@
 
 ### LOW Relevance Documents: 159 (not listed)
 
-> 159 documents matched packet keywords at LOW relevance and are omitted from this report to reduce noise. These documents contain minimal keyword overlap and are unlikely to be useful as primary exhibits. The full list is available in the underlying scan data.
+> 159 documents matched cause of action keywords at LOW relevance and are omitted from this report to reduce noise. These documents contain minimal keyword overlap and are unlikely to be useful as primary exhibits. The full list is available in the underlying scan data.
 
 ---
 
-# PACKET 5: DEFENSE: County Counterclaim — County's Arguments
+# COA 2: Permanent Injunction — Stop Enforcement of Invalid Ordinance
 
-**Legal Basis:** County's defense that 17-41-402(6)(1) does not preempt the ordinance
+**Legal Basis:** Injunctive relief — preemption + due process violations
+**Total Documents:** 1694
+
+> Tree Farm seeks a permanent injunction to stop the County from enforcing the invalid ordinance. To prevail, Tree Farm must show: (1) the ordinance is void as preempted by state law (see COA 1) or that it violates Tree Farm's vested mining rights (see COA 3); (2) the County has taken or threatened enforcement actions; (3) Tree Farm faces irreparable harm; and (4) the balance of equities favors relief. The documents below focus on enforcement actions, predetermined outcomes, and due process violations including pre-drafted victory press releases, serial meetings covering all 9 council members, and statements of prejudgment.
+
+### Relevance Breakdown:
+
+| CRITICAL | HIGH | MEDIUM | LOW (omitted) |
+|----------|------|--------|---------------|
+| 9 | 9 | 158 | 1518 |
+
+### Elements Addressed:
+
+| Element | Documents |
+|---------|----------|
+| Preemption Basis | 1340 |
+| Enforcement Actions | 138 |
+| Serial Meetings | 60 |
+| Predetermined Outcome | 47 |
+| Irreparable Harm | 28 |
+| Due Process | 11 |
+
+### CRITICAL Documents (9)
+
+#### Irreparable Harm (4 documents)
+
+**SLCo005003** | Score: 435 | Elements: Preemption Basis, Predetermined Outcome, Enforcement Actions, Irreparable Harm
+> Preemption Basis: "sand, gravel and/or rock aggregate"; Predetermined Outcome: "cannot imagine"; Enforcement Actions: "business license", "conditional use permit", "shut down"; Irreparable Harm: "irreparable harm", "public interest"; Statute refs: 52-4-20[1-9]
+> *"Absolutely right, Brad. I cannot imagine a worse treatment of our mountains than tearing into them and"*
+
+**SLCo011775** | Score: 435 | Elements: Preemption Basis, Predetermined Outcome, Enforcement Actions, Irreparable Harm
+> Preemption Basis: "sand, gravel and/or rock aggregate"; Predetermined Outcome: "cannot imagine"; Enforcement Actions: "business license", "conditional use permit", "shut down"; Irreparable Harm: "irreparable harm", "public interest"; Statute refs: 52-4-20[1-9]
+> *"Absolutely right, Brad. I cannot imagine a worse treatment of our mountains than tearing into them and"*
+
+**SLCo016381** | Score: 435 | Elements: Preemption Basis, Predetermined Outcome, Enforcement Actions, Irreparable Harm
+> Preemption Basis: "sand, gravel and/or rock aggregate"; Predetermined Outcome: "cannot imagine"; Enforcement Actions: "business license", "conditional use permit", "shut down"; Irreparable Harm: "irreparable harm", "public interest"; Statute refs: 52-4-20[1-9]
+> *"Absolutely right, Brad. I cannot imagine a worse treatment of our mountains than tearing into them and"*
+
+**SLCo017826** | Score: 435 | Elements: Preemption Basis, Predetermined Outcome, Enforcement Actions, Irreparable Harm
+> Preemption Basis: "sand, gravel and/or rock aggregate"; Predetermined Outcome: "cannot imagine"; Enforcement Actions: "business license", "conditional use permit", "shut down"; Irreparable Harm: "irreparable harm", "public interest"; Statute refs: 52-4-20[1-9]
+> *"Absolutely right, Brad. I cannot imagine a worse treatment of our mountains than tearing into them and"*
+
+#### Preemption Basis (5 documents)
+
+**SLCo004662** | Score: 335 | Elements: Preemption Basis, Predetermined Outcome, Enforcement Actions, Irreparable Harm
+> Preemption Basis: "sand, gravel and/or rock aggregate"; Predetermined Outcome: "cannot imagine"; Enforcement Actions: "business license", "conditional use permit", "shut down"; Irreparable Harm: "irreparable harm", "public interest"; Statute refs: 52-4-20[1-9]
+> *"Absolutely right, Brad. I cannot imagine a worse treatment of our mountains than tearing into them and"*
+
+**SLCo011435** | Score: 335 | Elements: Preemption Basis, Predetermined Outcome, Enforcement Actions, Irreparable Harm
+> Preemption Basis: "sand, gravel and/or rock aggregate"; Predetermined Outcome: "cannot imagine"; Enforcement Actions: "business license", "conditional use permit", "shut down"; Irreparable Harm: "irreparable harm", "public interest"; Statute refs: 52-4-20[1-9]
+> *"Absolutely right, Brad. I cannot imagine a worse treatment of our mountains than tearing into them and"*
+
+**SLCo016040** | Score: 335 | Elements: Preemption Basis, Predetermined Outcome, Enforcement Actions, Irreparable Harm
+> Preemption Basis: "sand, gravel and/or rock aggregate"; Predetermined Outcome: "cannot imagine"; Enforcement Actions: "business license", "conditional use permit", "shut down"; Irreparable Harm: "irreparable harm", "public interest"; Statute refs: 52-4-20[1-9]
+> *"Absolutely right, Brad. I cannot imagine a worse treatment of our mountains than tearing into them and"*
+
+**SLCo017485** | Score: 335 | Elements: Preemption Basis, Predetermined Outcome, Enforcement Actions, Irreparable Harm
+> Preemption Basis: "sand, gravel and/or rock aggregate"; Predetermined Outcome: "cannot imagine"; Enforcement Actions: "business license", "conditional use permit", "shut down"; Irreparable Harm: "irreparable harm", "public interest"; Statute refs: 52-4-20[1-9]
+> *"Absolutely right, Brad. I cannot imagine a worse treatment of our mountains than tearing into them and"*
+
+**SLCo018710** | Score: 335 | Elements: Preemption Basis, Predetermined Outcome, Enforcement Actions, Irreparable Harm
+> Preemption Basis: "sand, gravel and/or rock aggregate"; Predetermined Outcome: "cannot imagine"; Enforcement Actions: "business license", "conditional use permit", "shut down"; Irreparable Harm: "irreparable harm", "public interest"; Statute refs: 52-4-20[1-9]
+> *"Absolutely right, Brad. I cannot imagine a worse treatment of our mountains than tearing into them and"*
+
+
+### HIGH Relevance Documents (9)
+
+**SLCo006684** | Score: 175 | Elements: Preemption Basis, Enforcement Actions
+> Preemption Basis: "sand, gravel and/or rock aggregate"; Enforcement Actions: "code enforcement", "conditional use permit", "shut down"; Statute refs: 52-4-20[1-9]
+
+**SLCo009809** | Score: 175 | Elements: Preemption Basis, Enforcement Actions
+> Preemption Basis: "sand, gravel and/or rock aggregate"; Enforcement Actions: "code enforcement", "conditional use permit", "shut down"; Statute refs: 52-4-20[1-9]
+
+**SLCo009924** | Score: 175 | Elements: Preemption Basis, Enforcement Actions
+> Preemption Basis: "sand, gravel and/or rock aggregate"; Enforcement Actions: "code enforcement", "conditional use permit", "shut down"; Statute refs: 52-4-20[1-9]
+
+**SLCo004080** | Score: 80 | Elements: Predetermined Outcome, Enforcement Actions
+> Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down"
+
+**SLCo006910** | Score: 80 | Elements: Predetermined Outcome, Enforcement Actions
+> Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down"
+
+**SLCo015770** | Score: 80 | Elements: Predetermined Outcome, Enforcement Actions
+> Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down"
+
+**SLCo017381** | Score: 80 | Elements: Predetermined Outcome, Enforcement Actions
+> Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down"
+
+**SLCo017309** | Score: 70 | Elements: Serial Meetings, Enforcement Actions
+> Serial Meetings: "quorum"; Enforcement Actions: "code enforcement", "shut down"
+
+**SLCo010044** | Score: 50 | Elements: Preemption Basis, Enforcement Actions, Irreparable Harm
+> Preemption Basis: "sand, gravel and/or rock aggregate"; Enforcement Actions: "conditional use permit"; Irreparable Harm: "public interest"
+
+
+### MEDIUM Relevance Documents (158)
+
+| Bates ID | Score | Elements | Key Phrase |
+|----------|-------|----------|------------|
+| SLCo002501 | 1940 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel, or rock aggregate", "17-41-402"; Statute refs: 17-41-402 |
+| SLCo008382 | 1940 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel, or rock aggregate", "17-41-402"; Statute refs: 17-41-402 |
+| SLCo012814 | 1940 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel, or rock aggregate", "17-41-402"; Statute refs: 17-41-402 |
+| SLCo013323 | 1940 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel, or rock aggregate", "17-41-402"; Statute refs: 17-41-402 |
+| SLCo003588 | 215 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "violation of state law"; Statute refs: 17-41-402 |
+| SLCo003595 | 215 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "violation of state law"; Statute refs: 17-41-402 |
+| SLCo003728 | 215 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "violation of state law"; Statute refs: 17-41-402 |
+| SLCo015393 | 215 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "violation of state law"; Statute refs: 17-41-402 |
+| SLCo015400 | 215 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "violation of state law"; Statute refs: 17-41-402 |
+| SLCo015407 | 215 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "violation of state law"; Statute refs: 17-41-402 |
+| SLCo015558 | 215 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "violation of state law"; Statute refs: 17-41-402 |
+| SLCo015177 | 190 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "violation of state law"; Statute refs: 17-41-402 |
+| SLCo015248 | 190 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "violation of state law"; Statute refs: 17-41-402 |
+| SLCo015545 | 190 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "violation of state law"; Statute refs: 17-41-402 |
+| SLCo015548 | 190 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "violation of state law"; Statute refs: 17-41-402 |
+| SLCo015551 | 190 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "violation of state law"; Statute refs: 17-41-402 |
+| SLCo018477 | 190 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "violation of state law"; Statute refs: 17-41-402 |
+| SLCo013017 | 130 | Enforcement Actions | Enforcement Actions: "enforcement action", "code enforcement", "business license"; Statute refs: 52-4-20[1-9] |
+| SLCo002746 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
+| SLCo002748 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
+| SLCo002749 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
+| SLCo003164 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo003366 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
+| SLCo003684 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo003685 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo003686 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo003687 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo003692 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo003693 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo006122 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo006127 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo007444 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo007449 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo007457 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo008908 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
+| SLCo008911 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
+| SLCo008914 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
+| SLCo011005 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo011014 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo012426 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo013466 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
+| SLCo013525 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
+| SLCo013639 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
+| SLCo013641 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
+| SLCo015521 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo015522 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo015523 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo015524 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo015529 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo015530 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo015544 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo015547 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo015550 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo017173 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo018475 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo018476 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo018480 | 100 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "sand, gravel and/or rock aggregate", "sand, gravel, or rock aggregate"; Statute refs: 17-41-40 |
+| SLCo018553 | 100 | Enforcement Actions | Enforcement Actions: "code enforcement", "business license", "conditional use permit" |
+| SLCo003162 | 60 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "blatantly contrary"; Statute refs: 17-41-402 |
+| SLCo007455 | 60 | Preemption Basis | Preemption Basis: "critical infrastructure materials", "17-41-402", "blatantly contrary"; Statute refs: 17-41-402 |
+| SLCo011001 | 60 | Due Process | Due Process: "before the vote", "before and after vote" |
+| SLCo007435 | 50 | Due Process | Due Process: "before the vote", "before and after vote" |
+| SLCo013060 | 50 | Enforcement Actions | Enforcement Actions: "code enforcement" |
+| SLCo003697 | 40 | Preemption Basis | Preemption Basis: "critical infrastructure materials" |
+| SLCo003854 | 40 | Predetermined Outcome | Predetermined Outcome: "cannot imagine", "easy one", "voted to ban" |
+| SLCo006467 | 40 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
+| SLCo009529 | 40 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
+| SLCo011022 | 40 | Preemption Basis | Preemption Basis: "critical infrastructure materials" |
+| SLCo015531 | 40 | Preemption Basis | Preemption Basis: "critical infrastructure materials" |
+| SLCo002745 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
+| SLCo002747 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
+| SLCo002921 | 30 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
+| SLCo003365 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
+| SLCo003856 | 30 | Predetermined Outcome | Predetermined Outcome: "cannot imagine", "easy one", "block the proposal" |
+| SLCo004021 | 30 | Predetermined Outcome, Enforcement Actions | Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down" |
+| SLCo005417 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
+| SLCo006190 | 30 | Enforcement Actions | Enforcement Actions: "conditional use permit" |
+| SLCo006471 | 30 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
+| SLCo006487 | 30 | Predetermined Outcome, Enforcement Actions | Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down" |
+| SLCo006533 | 30 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
+| SLCo007352 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
+| SLCo008431 | 30 | Enforcement Actions | Enforcement Actions: "conditional use permit" |
+| SLCo008909 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
+| SLCo008910 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
+| SLCo008912 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
+| SLCo008913 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
+| SLCo009533 | 30 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
+| SLCo010857 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
+| SLCo010903 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
+| SLCo012184 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
+| SLCo012971 | 30 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
+| SLCo013360 | 30 | Enforcement Actions | Enforcement Actions: "conditional use permit" |
+| SLCo013638 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
+| SLCo013640 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
+| SLCo015131 | 30 | Enforcement Actions | Enforcement Actions: "notice of violation"; Statute refs: 52-4-20[1-9] |
+| SLCo015730 | 30 | Predetermined Outcome, Enforcement Actions | Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down" |
+| SLCo016792 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
+| SLCo017288 | 30 | Predetermined Outcome, Enforcement Actions | Predetermined Outcome: "not going to happen"; Enforcement Actions: "shut down" |
+| SLCo018237 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
+| SLCo018552 | 30 | Enforcement Actions | Enforcement Actions: "business license" |
+| SLCo018654 | 30 | Irreparable Harm | Irreparable Harm: "public interest" |
+| SLCo002687 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo002926 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
+| SLCo003100 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo003244 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo003307 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo003377 | 20 | Enforcement Actions | Enforcement Actions: "conditional use permit", "shut down" |
+| SLCo003524 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo003849 | 20 | Predetermined Outcome | Predetermined Outcome: "voted to ban", "just voted to ban" |
+| SLCo003850 | 20 | Predetermined Outcome | Predetermined Outcome: "voted to ban", "just voted to ban" |
+| SLCo003851 | 20 | Predetermined Outcome | Predetermined Outcome: "voted to ban", "just voted to ban" |
+| SLCo004115 | 20 | Enforcement Actions | Enforcement Actions: "stop work order", "conditional use permit" |
+| SLCo004116 | 20 | Enforcement Actions | Enforcement Actions: "stop work order", "conditional use permit" |
+| SLCo004130 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
+| SLCo006285 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo006679 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
+| SLCo006808 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
+| SLCo006843 | 20 | Enforcement Actions | Enforcement Actions: "conditional use permit", "operating without" |
+| SLCo006857 | 20 | Enforcement Actions | Enforcement Actions: "conditional use permit", "operating without" |
+| SLCo007022 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo007072 | 20 | Irreparable Harm | Irreparable Harm: "public interest" |
+| SLCo007186 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
+| SLCo007965 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
+| SLCo007968 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
+| SLCo008620 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo008678 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo008732 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo008788 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo008842 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo008907 | 20 | Enforcement Actions | Enforcement Actions: "business license" |
+| SLCo008940 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo009002 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo009126 | 20 | Enforcement Actions | Enforcement Actions: "conditional use permit", "shut down" |
+| SLCo009793 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
+| SLCo010158 | 20 | Enforcement Actions | Enforcement Actions: "conditional use permit", "operating without" |
+| SLCo010172 | 20 | Enforcement Actions | Enforcement Actions: "conditional use permit", "operating without" |
+| SLCo010413 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo010481 | 20 | Irreparable Harm | Irreparable Harm: "public interest" |
+| SLCo010490 | 20 | Irreparable Harm | Irreparable Harm: "public interest" |
+| SLCo011333 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
+| SLCo011335 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
+| SLCo013064 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo013473 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo013526 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo013580 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo013656 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo013723 | 20 | Enforcement Actions | Enforcement Actions: "conditional use permit", "shut down" |
+| SLCo015321 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo015329 | 20 | Enforcement Actions | Enforcement Actions: "stop work order", "conditional use permit" |
+| SLCo015752 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo015754 | 20 | Enforcement Actions | Enforcement Actions: "business license", "conditional use permit" |
+| SLCo015807 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
+| SLCo017416 | 20 | Enforcement Actions | Enforcement Actions: "shut down" |
+| SLCo018636 | 20 | Serial Meetings | Serial Meetings: "r caucus" |
+| SLCo018637 | 20 | Serial Meetings | Serial Meetings: "r caucus" |
+| SLCo018644 | 20 | Serial Meetings | Serial Meetings: "r caucus" |
+| SLCo018646 | 20 | Serial Meetings | Serial Meetings: "r caucus" |
+| SLCo018648 | 20 | Serial Meetings | Serial Meetings: "r caucus" |
+
+### LOW Relevance Documents: 1518 (not listed)
+
+> 1518 documents matched cause of action keywords at LOW relevance and are omitted from this report to reduce noise. These documents contain minimal keyword overlap and are unlikely to be useful as primary exhibits. The full list is available in the underlying scan data.
+
+---
+
+# COA 3: Declaratory Relief — Vested Mining Use (PRIMARY)
+
+**Legal Basis:** Utah Code 17-41-501 to -503 (now 17-81-401 to -403)
+**Total Documents:** 804
+
+> THIS IS THE PRIMARY CLAIM. Tree Farm seeks a declaration that it holds a vested mining use under Utah Code 17-41-501 through -503 (now 17-81-401 to -403). Mining on this property dates to the 1890s -- before Utah statehood (1896) -- and decades before Salt Lake County adopted zoning in 1972. Vested mining uses are CONCLUSIVELY PRESUMED under the statute and run with the land. They cannot be extinguished except by written declaration of abandonment by the owner. The evidence below establishes: (1) Tree Farm filed notices of intention with DOGM; (2) Tree Farm obtained state mining permits; (3) mining operations predate the challenged ordinance; and (4) the County appears to have had NO awareness of Tree Farm's vested mining rights theory -- they focused their defense entirely on the preemption question.
+
+### Relevance Breakdown:
+
+| CRITICAL | HIGH | MEDIUM | LOW (omitted) |
+|----------|------|--------|---------------|
+| 28 | 64 | 342 | 370 |
+
+### Elements Addressed:
+
+| Element | Documents |
+|---------|----------|
+| Investment | 561 |
+| County Knew | 317 |
+| Prior Use | 61 |
+| Statutory Rights | 17 |
+| Expansion | 13 |
+
+### CRITICAL Documents (28)
+
+#### Prior Use (17 documents)
+
+**SLCo003551** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
+> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
+> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
+
+**SLCo003560** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
+> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
+> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
+
+**SLCo003569** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
+> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
+> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
+
+**SLCo003602** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
+> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
+> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
+
+**SLCo003611** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
+> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
+> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
+
+**SLCo003699** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
+> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
+> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
+
+**SLCo010728** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
+> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
+> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
+
+**SLCo010795** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
+> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
+> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
+
+**SLCo010804** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
+> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
+> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
+
+**SLCo010813** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
+> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
+> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
+
+**SLCo015369** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
+> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
+> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
+
+**SLCo015414** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
+> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
+> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
+
+**SLCo015423** | Score: 1135 | Elements: Prior Use, Investment, Statutory Rights, Expansion
+> Prior Use: "vested mining use", "vested mining rights", "mine operator"; Investment: "commercial quantities of a mineral deposit", "commercial quantities", "large mine permit"; Statutory Rights: "express abandonment", "as of january 1, 2019"; Expansion: "expand the vested mining use", "contiguous and related in mineralization", "same mineral trend"; Statute refs: 17-41-501, 17-41-502, 17-41-503
+> *"Utah Code § 17-41-502(1)(a); and Declarant may expand the vested mining use to any new land"*
+
+**SLCo002501** | Score: 1115 | Elements: Prior Use, Investment, Statutory Rights
+> Prior Use: "vested mining use", "mine operator", "mining protection area"; Investment: "produced commercial quantities", "commercial quantities of a mineral deposit", "commercial quantities"; Statutory Rights: "runs with the land", "conclusively presumed", "highest priority use"; Statute refs: 17-41-101, 17-27a-100[1-5], 10-9a-90[1-5]
+> *"(b) has produced commercial quantities of a mineral deposit from the mining use."*
+
+**SLCo008382** | Score: 1115 | Elements: Prior Use, Investment, Statutory Rights
+> Prior Use: "vested mining use", "mine operator", "mining protection area"; Investment: "produced commercial quantities", "commercial quantities of a mineral deposit", "commercial quantities"; Statutory Rights: "runs with the land", "conclusively presumed", "highest priority use"; Statute refs: 17-41-101, 17-27a-100[1-5], 10-9a-90[1-5]
+> *"(b) has produced commercial quantities of a mineral deposit from the mining use."*
+
+**SLCo012814** | Score: 1115 | Elements: Prior Use, Investment, Statutory Rights
+> Prior Use: "vested mining use", "mine operator", "mining protection area"; Investment: "produced commercial quantities", "commercial quantities of a mineral deposit", "commercial quantities"; Statutory Rights: "runs with the land", "conclusively presumed", "highest priority use"; Statute refs: 17-41-101, 17-27a-100[1-5], 10-9a-90[1-5]
+> *"(b) has produced commercial quantities of a mineral deposit from the mining use."*
+
+**SLCo013323** | Score: 1115 | Elements: Prior Use, Investment, Statutory Rights
+> Prior Use: "vested mining use", "mine operator", "mining protection area"; Investment: "produced commercial quantities", "commercial quantities of a mineral deposit", "commercial quantities"; Statutory Rights: "runs with the land", "conclusively presumed", "highest priority use"; Statute refs: 17-41-101, 17-27a-100[1-5], 10-9a-90[1-5]
+> *"(b) has produced commercial quantities of a mineral deposit from the mining use."*
+
+#### Investment (11 documents)
+
+**SLCo006947** | Score: 400 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "vested mining use", "mining use"; Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+> *"“mine enlargement” and requires an operator to file a notice of intention to commence large"*
+
+**SLCo006963** | Score: 400 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "vested mining use", "mining use"; Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+> *"“mine enlargement” and requires an operator to file a notice of intention to commence large"*
+
+**SLCo010271** | Score: 400 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "vested mining use", "mining use"; Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+> *"“mine enlargement” and requires an operator to file a notice of intention to commence large"*
+
+**SLCo010287** | Score: 400 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "vested mining use", "mining use"; Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+> *"“mine enlargement” and requires an operator to file a notice of intention to commence large"*
+
+**SLCo003377** | Score: 390 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "mine operator"; Investment: "notice of intention", "mining operations", "mining operation"; County Knew: "conditional use"
+> *"“After receiving notification that a notice of intention for mining operations has been approved, but prior to"*
+
+**SLCo009126** | Score: 390 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "mine operator"; Investment: "notice of intention", "mining operations", "mining operation"; County Knew: "conditional use"
+> *"“After receiving notification that a notice of intention for mining operations has been approved, but prior to"*
+
+**SLCo013723** | Score: 390 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "mine operator"; Investment: "notice of intention", "mining operations", "mining operation"; County Knew: "conditional use"
+> *"“After receiving notification that a notice of intention for mining operations has been approved, but prior to"*
+
+**SLCo006843** | Score: 350 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "vested mining use", "mining use"; Investment: "large mine permit", "small mine permit", "notice of intention"; County Knew: "conditional use"
+> *"Petitioner states that “a notice of intention to commence small mining operations and a"*
+
+**SLCo006857** | Score: 350 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "vested mining use", "mining use"; Investment: "large mine permit", "small mine permit", "notice of intention"; County Knew: "conditional use"
+> *"Petitioner states that “a notice of intention to commence small mining operations and a"*
+
+**SLCo010158** | Score: 350 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "vested mining use", "mining use"; Investment: "large mine permit", "small mine permit", "notice of intention"; County Knew: "conditional use"
+> *"Petitioner states that “a notice of intention to commence small mining operations and a"*
+
+**SLCo010172** | Score: 350 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "vested mining use", "mining use"; Investment: "large mine permit", "small mine permit", "notice of intention"; County Knew: "conditional use"
+> *"Petitioner states that “a notice of intention to commence small mining operations and a"*
+
+
+### HIGH Relevance Documents (64)
+
+**SLCo013473** | Score: 790 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo006285** | Score: 760 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo008940** | Score: 760 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo013656** | Score: 760 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo009088** | Score: 680 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "existing mining"
+
+**SLCo009457** | Score: 680 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "existing mining"
+
+**SLCo006361** | Score: 670 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "existing mining"
+
+**SLCo009108** | Score: 670 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "limestone quarry"; County Knew: "existing mining"
+
+**SLCo002687** | Score: 660 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo003244** | Score: 660 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo003307** | Score: 660 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo008620** | Score: 660 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo008678** | Score: 660 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo008732** | Score: 660 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo008788** | Score: 660 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo008842** | Score: 660 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo009002** | Score: 660 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo013526** | Score: 660 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo013580** | Score: 660 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo008036** | Score: 330 | Elements: Prior Use, Investment
+> Prior Use: "mine operator", "mining use"; Investment: "notice of intention", "notice of intention to commence", "portland cement"
+
+**SLCo012453** | Score: 330 | Elements: Prior Use, Investment
+> Prior Use: "mine operator", "mining use"; Investment: "notice of intention", "notice of intention to commence", "portland cement"
+
+**SLCo008585** | Score: 120 | Elements: Prior Use, Investment
+> Prior Use: "mining use"; Investment: "large mine permit", "notice of intention", "notice of intention to commence"
+
+**SLCo013429** | Score: 120 | Elements: Prior Use, Investment
+> Prior Use: "mining use"; Investment: "large mine permit", "notice of intention", "notice of intention to commence"
+
+**SLCo011129** | Score: 90 | Elements: Investment, County Knew
+> Investment: "limestone quarry", "mining operations", "mining operation"; County Knew: "conditional use"
+
+**SLCo002497** | Score: 70 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo003100** | Score: 70 | Elements: Investment, County Knew
+> Investment: "mining operations", "mining operation"; County Knew: "conditional use"
+
+**SLCo003469** | Score: 70 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "existing mining"
+
+**SLCo003524** | Score: 70 | Elements: Investment, County Knew
+> Investment: "mining operations", "mining operation"; County Knew: "conditional use"
+
+**SLCo007022** | Score: 70 | Elements: Investment, County Knew
+> Investment: "mining operations", "mining operation"; County Knew: "conditional use"
+
+**SLCo008008** | Score: 70 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo009802** | Score: 70 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "existing mining"
+
+**SLCo010413** | Score: 70 | Elements: Investment, County Knew
+> Investment: "mining operations", "mining operation"; County Knew: "conditional use"
+
+**SLCo012806** | Score: 70 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo013064** | Score: 70 | Elements: Investment, County Knew
+> Investment: "mining operations", "mining operation"; County Knew: "conditional use"
+
+**SLCo013307** | Score: 70 | Elements: Investment, County Knew
+> Investment: "notice of intention", "notice of intention to commence", "mining operations"; County Knew: "conditional use"
+
+**SLCo015321** | Score: 70 | Elements: Investment, County Knew
+> Investment: "mining operations", "mining operation"; County Knew: "conditional use"
+
+**SLCo006182** | Score: 60 | Elements: Investment, County Knew
+> Investment: "limestone quarry", "mining operations", "mining operation"; County Knew: "conditional use"
+
+**SLCo008006** | Score: 60 | Elements: Investment, County Knew
+> Investment: "limestone quarry"; County Knew: "conditional use"
+
+**SLCo008024** | Score: 60 | Elements: Investment, County Knew
+> Investment: "limestone quarry", "mining operations", "mining operation"; County Knew: "conditional use"
+
+**SLCo018522** | Score: 60 | Elements: Investment, County Knew
+> Investment: "limestone quarry", "mining operations", "mining operation"; County Knew: "conditional use"
+
+**SLCo003120** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo004115** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "vested mining right"; Investment: "mining operation"; County Knew: "conditional use"
+
+**SLCo004116** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "vested mining right"; Investment: "mining operation"; County Knew: "conditional use"
+
+**SLCo007234** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo007289** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo010680** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo010785** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo013000** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo013088** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo013098** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo013111** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo013126** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo013235** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo013251** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo015165** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo015209** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo015329** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "vested mining right"; Investment: "mining operation"; County Knew: "conditional use"
+
+**SLCo015378** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo015437** | Score: 50 | Elements: Prior Use, Investment, County Knew
+> Prior Use: "legal nonconforming"; Investment: "mining operations"; County Knew: "continue to be a conditional use", "conditional use"
+
+**SLCo003817** | Score: 40 | Elements: Investment, County Knew
+> Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use"
+
+**SLCo008551** | Score: 40 | Elements: Investment, County Knew
+> Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use"
+
+**SLCo008561** | Score: 40 | Elements: Investment, County Knew
+> Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use"
+
+**SLCo015658** | Score: 40 | Elements: Investment, County Knew
+> Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use"
+
+**SLCo017247** | Score: 40 | Elements: Investment, County Knew
+> Investment: "notice of intention", "limestone quarry"; County Knew: "conditional use"
+
+
+### MEDIUM Relevance Documents (342)
+
+| Bates ID | Score | Elements | Key Phrase |
+|----------|-------|----------|------------|
+| SLCo007151 | 640 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010606 | 640 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006558 | 460 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009619 | 460 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006594 | 390 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006618 | 390 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009674 | 390 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009706 | 390 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006573 | 290 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009634 | 290 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009653 | 290 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo005498 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo007395 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010946 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010956 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo012230 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo016850 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo018287 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo018699 | 240 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006537 | 230 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009598 | 230 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo004118 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo007091 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo007096 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo007103 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo007112 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010507 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010514 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010519 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010526 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010535 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010547 | 220 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo005417 | 210 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo007352 | 210 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo010857 | 210 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo010903 | 210 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo012184 | 210 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo016792 | 210 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo018237 | 210 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo018654 | 210 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo003776 | 180 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo003782 | 180 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006873 | 180 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo010188 | 180 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo010200 | 180 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo015604 | 180 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006485 | 150 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009562 | 150 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo003762 | 140 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo015269 | 140 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo005995 | 110 | County Knew | County Knew: "conditional use" |
+| SLCo007008 | 110 | Investment | Investment: "notice of intention", "mining operations", "mining operation" |
+| SLCo010347 | 110 | Investment | Investment: "notice of intention", "mining operations", "mining operation" |
+| SLCo012299 | 110 | County Knew | County Knew: "conditional use" |
+| SLCo017040 | 110 | County Knew | County Knew: "conditional use" |
+| SLCo018345 | 110 | County Knew | County Knew: "conditional use" |
+| SLCo003143 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo003194 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo003642 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo003739 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo006588 | 100 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo007162 | 100 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo007479 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo009649 | 100 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009668 | 100 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010617 | 100 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo011066 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo013156 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo013170 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo013185 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo013199 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo013213 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo013283 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo015450 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo015464 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo015478 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo015569 | 100 | Investment | Investment: "portland cement", "mining operations", "mining operation" |
+| SLCo002586 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo002588 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo002590 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo002592 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo003229 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo003231 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006516 | 90 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo008535 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo008539 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo008541 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009573 | 90 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo009590 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009592 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009594 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo012803 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo013396 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo013398 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo018533 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo018541 | 90 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo005857 | 80 | Investment | Investment: "limestone quarry", "mining operations", "mining operation" |
+| SLCo007117 | 80 | Investment | Investment: "small mine permit", "mining operations", "mining operation" |
+| SLCo007124 | 80 | Investment | Investment: "small mine permit", "mining operations", "mining operation" |
+| SLCo010540 | 80 | Investment | Investment: "small mine permit", "mining operations", "mining operation" |
+| SLCo010552 | 80 | Investment | Investment: "small mine permit", "mining operations", "mining operation" |
+| SLCo012261 | 80 | Investment | Investment: "limestone quarry", "mining operations", "mining operation" |
+| SLCo016983 | 80 | Investment | Investment: "limestone quarry", "mining operations", "mining operation" |
+| SLCo018318 | 80 | Investment | Investment: "limestone quarry", "mining operations", "mining operation" |
+| SLCo006528 | 70 | Investment | Investment: "notice of intention", "notice of intention to commence", "limestone quarry" |
+| SLCo007229 | 70 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo009585 | 70 | Investment | Investment: "notice of intention", "notice of intention to commence", "limestone quarry" |
+| SLCo010665 | 70 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo012452 | 70 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo002607 | 60 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo003779 | 60 | Investment | Investment: "notice of intention", "notice of intention to commence", "limestone quarry" |
+| SLCo003857 | 60 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo004149 | 60 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo004151 | 60 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo006257 | 60 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo007563 | 60 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo008418 | 60 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo008577 | 60 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo011179 | 60 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo011368 | 60 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo011370 | 60 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo015607 | 60 | Investment | Investment: "notice of intention", "notice of intention to commence", "limestone quarry" |
+| SLCo015834 | 60 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo015836 | 60 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo017437 | 60 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo017439 | 60 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo018651 | 60 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo002494 | 50 | Investment | Investment: "limestone quarry" |
+| SLCo002537 | 50 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo003789 | 50 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo003815 | 50 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo007558 | 50 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo008420 | 50 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo010222 | 50 | Investment | Investment: "mining operations" |
+| SLCo011125 | 50 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo011147 | 50 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo011158 | 50 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo011160 | 50 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo013017 | 50 | County Knew | County Knew: "conditional use" |
+| SLCo017246 | 50 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo017270 | 50 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo017272 | 50 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo017274 | 50 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo002490 | 40 | Investment | Investment: "limestone quarry" |
+| SLCo002492 | 40 | Investment | Investment: "limestone quarry" |
+| SLCo002543 | 40 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo002795 | 40 | Investment | Investment: "large mine permit", "mining operation" |
+| SLCo003392 | 40 | Investment | Investment: "large mine permit", "mining operation" |
+| SLCo003775 | 40 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo003778 | 40 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo003781 | 40 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006381 | 40 | Investment | Investment: "large mine permit", "mining operation" |
+| SLCo007181 | 40 | Investment | Investment: "mining operations" |
+| SLCo007561 | 40 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo008433 | 40 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo008463 | 40 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo009141 | 40 | Investment | Investment: "large mine permit", "mining operation" |
+| SLCo010634 | 40 | Investment | Investment: "mining operations" |
+| SLCo011127 | 40 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo012898 | 40 | Investment | Investment: "large mine permit", "mining operation" |
+| SLCo013738 | 40 | Investment | Investment: "large mine permit", "mining operation" |
+| SLCo015603 | 40 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo015606 | 40 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo015609 | 40 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo018535 | 40 | Investment | Investment: "large mine permit", "small mine permit", "mining operation" |
+| SLCo018537 | 40 | Investment | Investment: "large mine permit", "small mine permit", "mining operation" |
+| SLCo018539 | 40 | Investment | Investment: "large mine permit", "small mine permit", "mining operation" |
+| SLCo002489 | 30 | Investment | Investment: "limestone quarry" |
+| SLCo002576 | 30 | Investment | Investment: "small mine permit" |
+| SLCo002746 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo002748 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo002749 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo002751 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo002759 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo002788 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo002889 | 30 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo003366 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo003370 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo003448 | 30 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo003533 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo003624 | 30 | Prior Use | Prior Use: "vested mining use", "mining use", "notice of vested" |
+| SLCo003626 | 30 | Prior Use | Prior Use: "vested mining use", "mining use", "notice of vested" |
+| SLCo003628 | 30 | Prior Use | Prior Use: "vested mining use", "mining use", "notice of vested" |
+| SLCo003791 | 30 | Investment | Investment: "limestone quarry" |
+| SLCo003854 | 30 | Investment | Investment: "limestone quarry" |
+| SLCo004048 | 30 | Investment, County Knew | Investment: "mining operation"; County Knew: "conditional use" |
+| SLCo004050 | 30 | Investment | Investment: "mining operations" |
+| SLCo005412 | 30 | Investment | Investment: "mining operations" |
+| SLCo006144 | 30 | Investment | Investment: "mining operation" |
+| SLCo006190 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo006340 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006351 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006426 | 30 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo006548 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006553 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006610 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006634 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006785 | 30 | Investment, County Knew | Investment: "mining operation"; County Knew: "conditional use" |
+| SLCo006829 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo006836 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo007072 | 30 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo007167 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo007178 | 30 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo007490 | 30 | Investment | Investment: "mining operation" |
+| SLCo008431 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo008497 | 30 | Investment | Investment: "limestone quarry" |
+| SLCo008908 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo008911 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo008914 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo008924 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo008995 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo008998 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009079 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009082 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009444 | 30 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo009609 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009614 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009690 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009722 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo009910 | 30 | Investment, County Knew | Investment: "mining operation"; County Knew: "conditional use" |
+| SLCo010025 | 30 | Investment, County Knew | Investment: "mining operation"; County Knew: "conditional use" |
+| SLCo010135 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010142 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010149 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010481 | 30 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo010490 | 30 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo010582 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010622 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo010631 | 30 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo010822 | 30 | Prior Use | Prior Use: "vested mining use", "mining use", "notice of vested" |
+| SLCo010824 | 30 | Prior Use | Prior Use: "vested mining use", "mining use", "notice of vested" |
+| SLCo012891 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo012947 | 30 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo013060 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo013360 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo013466 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo013525 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo013639 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo013641 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo013643 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo013650 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo013715 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo013718 | 30 | Investment | Investment: "notice of intention", "notice of intention to commence", "mining operations" |
+| SLCo015072 | 30 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo015632 | 30 | Investment | Investment: "limestone quarry" |
+| SLCo017189 | 30 | Investment | Investment: "mining operation" |
+| SLCo017225 | 30 | Investment | Investment: "limestone quarry" |
+| SLCo018485 | 30 | Investment | Investment: "mining operation" |
+| SLCo018532 | 30 | Investment | Investment: "large mine permit", "small mine permit", "mining operation" |
+| SLCo018553 | 30 | County Knew | County Knew: "conditional use" |
+| SLCo018570 | 30 | Investment, County Knew | Investment: "mining operation"; County Knew: "conditional use" |
+| SLCo002499 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo002573 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo002871 | 20 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo003425 | 20 | Prior Use, County Knew | Prior Use: "non-conforming use"; County Knew: "existing mining" |
+| SLCo003432 | 20 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo003812 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo003822 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo003831 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo003838 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo003844 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo003849 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo003850 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo003851 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo003856 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo004066 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo004067 | 20 | Investment, County Knew | Investment: "limestone quarry"; County Knew: "conditional use" |
+| SLCo004123 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo004124 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo004472 | 20 | Investment | Investment: "mining operations" |
+| SLCo006181 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo006187 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo006208 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo006225 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo006232 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo006239 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo006246 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo006343 | 20 | Investment | Investment: "mining operation" |
+| SLCo006344 | 20 | Investment | Investment: "mining operation" |
+| SLCo006408 | 20 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo006439 | 20 | Investment | Investment: "mining operation" |
+| SLCo006466 | 20 | Investment | Investment: "mining operations" |
+| SLCo006476 | 20 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo006480 | 20 | Investment | Investment: "mining operation" |
+| SLCo006520 | 20 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo006524 | 20 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo006641 | 20 | Investment, County Knew | Investment: "limestone quarry"; County Knew: "conditional use" |
+| SLCo006670 | 20 | Investment, County Knew | Investment: "limestone quarry"; County Knew: "conditional use" |
+| SLCo006943 | 20 | Investment | Investment: "notice of intention", "mining operations" |
+| SLCo006959 | 20 | Investment | Investment: "notice of intention", "mining operations" |
+| SLCo007246 | 20 | Prior Use | Prior Use: "vested mining rights", "mining rights" |
+| SLCo007556 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo008002 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo008004 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo008023 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo008031 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo008380 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo008506 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo008523 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo008530 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo008543 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo009061 | 20 | Investment | Investment: "mining operation" |
+| SLCo009064 | 20 | Investment | Investment: "mining operation" |
+| SLCo009066 | 20 | Investment | Investment: "mining operation" |
+| SLCo009070 | 20 | Investment | Investment: "mining operation" |
+| SLCo009072 | 20 | Investment | Investment: "mining operation" |
+| SLCo009428 | 20 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo009477 | 20 | Investment | Investment: "mining operation" |
+| SLCo009528 | 20 | Investment | Investment: "mining operations" |
+| SLCo009553 | 20 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo009557 | 20 | Investment | Investment: "mining operation" |
+| SLCo009577 | 20 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo009581 | 20 | Investment | Investment: "limestone quarry", "mining operation" |
+| SLCo009729 | 20 | Investment, County Knew | Investment: "limestone quarry"; County Knew: "conditional use" |
+| SLCo009756 | 20 | Investment, County Knew | Investment: "limestone quarry"; County Knew: "conditional use" |
+| SLCo009758 | 20 | Investment, County Knew | Investment: "limestone quarry"; County Knew: "conditional use" |
+| SLCo010267 | 20 | Investment | Investment: "notice of intention", "mining operations" |
+| SLCo010283 | 20 | Investment | Investment: "notice of intention", "mining operations" |
+| SLCo010692 | 20 | Prior Use | Prior Use: "vested mining rights", "mining rights" |
+| SLCo011123 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo011144 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo011149 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo011166 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo012254 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo012256 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo012258 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo012805 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo012931 | 20 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo013388 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo015056 | 20 | Investment | Investment: "mining operations", "mining operation" |
+| SLCo015650 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo015665 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo015672 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo015762 | 20 | Investment, County Knew | Investment: "limestone quarry"; County Knew: "conditional use" |
+| SLCo015966 | 20 | Investment | Investment: "mining operations" |
+| SLCo017243 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo017256 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo017262 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
+| SLCo017268 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo017410 | 20 | County Knew | County Knew: "conditional use" |
+| SLCo018521 | 20 | Investment | Investment: "limestone quarry" |
+| SLCo018543 | 20 | Investment | Investment: "limestone quarry", "mining operations" |
+
+### LOW Relevance Documents: 370 (not listed)
+
+> 370 documents matched cause of action keywords at LOW relevance and are omitted from this report to reduce noise. These documents contain minimal keyword overlap and are unlikely to be useful as primary exhibits. The full list is available in the underlying scan data.
+
+---
+
+# COA 4: (Alternative) Regulatory Taking
+
+**Legal Basis:** U.S. Const. Amend. V; Utah Const. Art. I §22; Penn Central / Lucas tests
+**Total Documents:** 1209
+
+> In the alternative, if the ordinance is somehow deemed valid, it constitutes a regulatory taking under the Fifth Amendment and Utah Const. Art. I Sec. 22. The documents below establish: (1) Economic Impact -- the ordinance eliminates all economically viable mining use of Tree Farm's mineral rights; (2) Interference with Investment-Backed Expectations -- Tree Farm made substantial investments in mining permits and operations before the ordinance; and (3) Character of the Government Action -- the ordinance was targeted legislation designed to shut down a specific operator, with officials and community members strategizing to destroy Tree Farm's mining rights.
+
+### Relevance Breakdown:
+
+| CRITICAL | HIGH | MEDIUM | LOW (omitted) |
+|----------|------|--------|---------------|
+| 87 | 121 | 732 | 269 |
+
+### Elements Addressed:
+
+| Element | Documents |
+|---------|----------|
+| Intergovernmental | 693 |
+| Investment Expectations | 372 |
+| Economic Impact | 358 |
+| Bad Faith Enforcement | 100 |
+| Government Character | 70 |
+
+### CRITICAL Documents (87)
+
+#### Economic Impact (32 documents)
+
+**SLCo005003** | Score: 1940 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
+> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "flood control", "division of oil, gas, and mining"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
+> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
+
+**SLCo011775** | Score: 1940 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
+> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "flood control", "division of oil, gas, and mining"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
+> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
+
+**SLCo016381** | Score: 1940 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
+> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "flood control", "division of oil, gas, and mining"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
+> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
+
+**SLCo017826** | Score: 1940 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
+> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "flood control", "division of oil, gas, and mining"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
+> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
+
+**SLCo004662** | Score: 1855 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
+> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "confidential", "water rights", "flood control"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
+> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
+
+**SLCo011435** | Score: 1855 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
+> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "confidential", "water rights", "flood control"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
+> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
+
+**SLCo016040** | Score: 1855 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
+> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "confidential", "water rights", "flood control"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
+> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
+
+**SLCo017485** | Score: 1855 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
+> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "confidential", "water rights", "flood control"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
+> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
+
+**SLCo018710** | Score: 1805 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
+> Economic Impact: "property value", "mineral rights", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "confidential", "water rights", "flood control"; Bad Faith Enforcement: "business license", "shut down"; Statute refs: 19.12.030
+> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
+
+**SLCo006684** | Score: 990 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
+> Economic Impact: "property value", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "division of oil, gas, and mining", "dogm"; Bad Faith Enforcement: "shut down", "code enforcement"; Statute refs: 19.12.030
+> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
+
+**SLCo009809** | Score: 990 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
+> Economic Impact: "property value", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "division of oil, gas, and mining", "dogm"; Bad Faith Enforcement: "shut down", "code enforcement"; Statute refs: 19.12.030
+> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
+
+**SLCo009924** | Score: 990 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
+> Economic Impact: "property value", "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "division of oil, gas, and mining", "dogm"; Bad Faith Enforcement: "shut down", "code enforcement"; Statute refs: 19.12.030
+> *"I ask that the council do all in their power to shut down any possibility that new mining operations"*
+
+**SLCo005995** | Score: 225 | Elements: Economic Impact, Government Character, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Government Character: "targeted"; Intergovernmental: "flood control"; Statute refs: 19.12.030
+> *"Section 19.72.190 To Eliminate Mineral Extraction And"*
+
+**SLCo012299** | Score: 225 | Elements: Economic Impact, Government Character, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Government Character: "targeted"; Intergovernmental: "flood control"; Statute refs: 19.12.030
+> *"Section 19.72.190 To Eliminate Mineral Extraction And"*
+
+**SLCo017040** | Score: 225 | Elements: Economic Impact, Government Character, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Government Character: "targeted"; Intergovernmental: "flood control"; Statute refs: 19.12.030
+> *"Section 19.72.190 To Eliminate Mineral Extraction And"*
+
+**SLCo018345** | Score: 225 | Elements: Economic Impact, Government Character, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Government Character: "targeted"; Intergovernmental: "flood control"; Statute refs: 19.12.030
+> *"Section 19.72.190 To Eliminate Mineral Extraction And"*
+
+**SLCo013000** | Score: 90 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo015165** | Score: 90 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo003120** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo007234** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo007289** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo010680** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo010785** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo013088** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo013098** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo013111** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo013126** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo013235** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo013251** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo015209** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo015378** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+**SLCo015437** | Score: 80 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 19.12.030
+> *" Recent Notices of Intention to begin mining operations with the"*
+
+#### Intergovernmental (20 documents)
+
+**SLCo008036** | Score: 560 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
+> Economic Impact: "mineral rights"; Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "confidential", "water rights", "division of oil, gas, and mining"; Bad Faith Enforcement: "business license"
+> *"a notice of intention to commence large mining operations to the Division of Oil, Gas, & Mining (DOGM)."*
+
+**SLCo012453** | Score: 560 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental, Bad Faith Enforcement
+> Economic Impact: "mineral rights"; Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "confidential", "water rights", "division of oil, gas, and mining"; Bad Faith Enforcement: "business license"
+> *"a notice of intention to commence large mining operations to the Division of Oil, Gas, & Mining (DOGM)."*
+
+**SLCo003143** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo003194** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo003642** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo003739** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo007479** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo011066** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo013156** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo013170** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo013185** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo013199** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo013213** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo013283** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo015450** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo015464** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo015478** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo015569** | Score: 130 | Elements: Investment Expectations, Government Character, Intergovernmental
+> Investment Expectations: "mining operations"; Government Character: "targeting"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+> *"The Minerals Program within DOGM regulates all non-coal mining operations in the state with a"*
+
+**SLCo006934** | Score: 70 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental
+> Economic Impact: "property value"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "division of oil, gas, and mining", "dogm"
+> *"DIVISION OF OIL, GAS, AND MINING"*
+
+**SLCo010258** | Score: 70 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental
+> Economic Impact: "property value"; Investment Expectations: "mining operations"; Government Character: "targeted"; Intergovernmental: "water rights", "division of oil, gas, and mining", "dogm"
+> *"DIVISION OF OIL, GAS, AND MINING"*
+
+#### Investment Expectations (35 documents)
+
+**SLCo003551** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
+> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
+
+**SLCo003560** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
+> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
+
+**SLCo003569** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
+> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
+
+**SLCo003602** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
+> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
+
+**SLCo003611** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
+> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
+
+**SLCo003699** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
+> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
+
+**SLCo010728** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
+> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
+
+**SLCo010795** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
+> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
+
+**SLCo010804** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
+> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
+
+**SLCo010813** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
+> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
+
+**SLCo015369** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
+> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
+
+**SLCo015414** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
+> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
+
+**SLCo015423** | Score: 385 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "mining rights"; Investment Expectations: "vested mining use", "vested mining rights", "large mine permit"; Intergovernmental: "water rights", "dogm"; Statute refs: 17-41-501
+> *"in the Large Mine Permit does not limit the scope of the Declarant's vested mining rights and"*
+
+**SLCo013473** | Score: 350 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"Small Mining Operations, S/035/0053 (the "NOI-SMO"); and (2) the sufficiency of Tree Farm's"*
+
+**SLCo006285** | Score: 340 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"Small Mining Operations, S/035/0053 (the "NOI-SMO"); and (2) the sufficiency of Tree Farm's"*
+
+**SLCo008940** | Score: 340 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"Small Mining Operations, S/035/0053 (the "NOI-SMO"); and (2) the sufficiency of Tree Farm's"*
+
+**SLCo013656** | Score: 340 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"Small Mining Operations, S/035/0053 (the "NOI-SMO"); and (2) the sufficiency of Tree Farm's"*
+
+**SLCo006558** | Score: 310 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+> *"from the proposed mining operations; and (5) potential impacts on property value resulting"*
+
+**SLCo009619** | Score: 310 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+> *"from the proposed mining operations; and (5) potential impacts on property value resulting"*
+
+**SLCo002687** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
+
+**SLCo003244** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
+
+**SLCo003307** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
+
+**SLCo008620** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
+
+**SLCo008678** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
+
+**SLCo008732** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
+
+**SLCo008788** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
+
+**SLCo008842** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
+
+**SLCo009002** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
+
+**SLCo013526** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
+
+**SLCo013580** | Score: 290 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"(the "Division")' to consider a notice of intention to commence small mining operations. 'It"*
+
+**SLCo010044** | Score: 205 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "water rights", "dogm"; Statute refs: 19.12.030
+> *"dimishment of property value, a threat to air and water quality, and a risk to water rights), then"*
+
+**SLCo006537** | Score: 200 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+> *"mining operations; and (5) potential impacts on property value resulting from an adjacent"*
+
+**SLCo009598** | Score: 200 | Elements: Economic Impact, Investment Expectations, Intergovernmental
+> Economic Impact: "property value"; Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+> *"mining operations; and (5) potential impacts on property value resulting from an adjacent"*
+
+**SLCo003762** | Score: 100 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"Notice of Intention to Commence Small Mining Operations"*
+
+**SLCo015269** | Score: 100 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+> *"Notice of Intention to Commence Small Mining Operations"*
+
+
+### HIGH Relevance Documents (121)
+
+**SLCo007151** | Score: 440 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo010606** | Score: 440 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo005417** | Score: 350 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo007352** | Score: 350 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo010857** | Score: 350 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo010903** | Score: 350 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo012184** | Score: 350 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo016792** | Score: 350 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo018237** | Score: 350 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo018654** | Score: 350 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo009088** | Score: 320 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo009457** | Score: 320 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo006361** | Score: 310 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo009108** | Score: 310 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo006573** | Score: 260 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "flood control", "division of oil, gas, and mining"
+
+**SLCo009634** | Score: 260 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "flood control", "division of oil, gas, and mining"
+
+**SLCo009653** | Score: 260 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "flood control", "division of oil, gas, and mining"
+
+**SLCo003377** | Score: 210 | Elements: Investment Expectations, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Bad Faith Enforcement: "shut down"
+
+**SLCo009126** | Score: 210 | Elements: Investment Expectations, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Bad Faith Enforcement: "shut down"
+
+**SLCo013723** | Score: 210 | Elements: Investment Expectations, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Bad Faith Enforcement: "shut down"
+
+**SLCo006843** | Score: 200 | Elements: Investment Expectations, Bad Faith Enforcement
+> Investment Expectations: "vested mining use", "large mine permit", "small mine permit"; Bad Faith Enforcement: "operating without"
+
+**SLCo006857** | Score: 200 | Elements: Investment Expectations, Bad Faith Enforcement
+> Investment Expectations: "vested mining use", "large mine permit", "small mine permit"; Bad Faith Enforcement: "operating without"
+
+**SLCo010158** | Score: 200 | Elements: Investment Expectations, Bad Faith Enforcement
+> Investment Expectations: "vested mining use", "large mine permit", "small mine permit"; Bad Faith Enforcement: "operating without"
+
+**SLCo010172** | Score: 200 | Elements: Investment Expectations, Bad Faith Enforcement
+> Investment Expectations: "vested mining use", "large mine permit", "small mine permit"; Bad Faith Enforcement: "operating without"
+
+**SLCo006947** | Score: 190 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "vested mining use", "mining operations"; Intergovernmental: "dogm"
+
+**SLCo006963** | Score: 190 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "vested mining use", "mining operations"; Intergovernmental: "dogm"
+
+**SLCo010271** | Score: 190 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "vested mining use", "mining operations"; Intergovernmental: "dogm"
+
+**SLCo010287** | Score: 190 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "vested mining use", "mining operations"; Intergovernmental: "dogm"
+
+**SLCo006594** | Score: 180 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo006618** | Score: 180 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo009674** | Score: 180 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo009706** | Score: 180 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo002501** | Score: 175 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "vested mining use", "large mine permit", "commercial quantities"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 17-41-402
+
+**SLCo008382** | Score: 175 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "vested mining use", "large mine permit", "commercial quantities"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 17-41-402
+
+**SLCo012814** | Score: 175 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "vested mining use", "large mine permit", "commercial quantities"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 17-41-402
+
+**SLCo013323** | Score: 175 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "vested mining use", "large mine permit", "commercial quantities"; Intergovernmental: "division of oil, gas, and mining"; Statute refs: 17-41-402
+
+**SLCo003533** | Score: 170 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "flood control"
+
+**SLCo010582** | Score: 170 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "flood control"
+
+**SLCo009590** | Score: 160 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"
+
+**SLCo009592** | Score: 160 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"
+
+**SLCo009594** | Score: 160 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"
+
+**SLCo006873** | Score: 150 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo010188** | Score: 150 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo010200** | Score: 150 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo006182** | Score: 135 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "dogm"; Statute refs: 19.12.030
+
+**SLCo008024** | Score: 135 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "dogm"; Statute refs: 19.12.030
+
+**SLCo018522** | Score: 135 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "water rights", "dogm"; Statute refs: 19.12.030
+
+**SLCo007181** | Score: 130 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo010634** | Score: 130 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo005857** | Score: 95 | Elements: Economic Impact, Investment Expectations
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Statute refs: 19.12.030
+
+**SLCo012261** | Score: 95 | Elements: Economic Impact, Investment Expectations
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Statute refs: 19.12.030
+
+**SLCo016983** | Score: 95 | Elements: Economic Impact, Investment Expectations
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Statute refs: 19.12.030
+
+**SLCo018318** | Score: 95 | Elements: Economic Impact, Investment Expectations
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Statute refs: 19.12.030
+
+**SLCo004118** | Score: 90 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo007008** | Score: 90 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo007091** | Score: 90 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo007096** | Score: 90 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo007103** | Score: 90 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo007112** | Score: 90 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo010347** | Score: 90 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo010507** | Score: 90 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo010514** | Score: 90 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo010519** | Score: 90 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo010526** | Score: 90 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo010535** | Score: 90 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo010547** | Score: 90 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo004080** | Score: 80 | Elements: Government Character, Bad Faith Enforcement
+> Government Character: "not going to happen"; Bad Faith Enforcement: "shut down"
+
+**SLCo004115** | Score: 80 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "vested mining right"; Intergovernmental: "water rights", "dogm"
+
+**SLCo004116** | Score: 80 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "vested mining right"; Intergovernmental: "water rights", "dogm"
+
+**SLCo006910** | Score: 80 | Elements: Government Character, Bad Faith Enforcement
+> Government Character: "not going to happen"; Bad Faith Enforcement: "shut down"
+
+**SLCo015329** | Score: 80 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "vested mining right"; Intergovernmental: "water rights", "dogm"
+
+**SLCo015770** | Score: 80 | Elements: Government Character, Bad Faith Enforcement
+> Government Character: "not going to happen"; Bad Faith Enforcement: "shut down"
+
+**SLCo017381** | Score: 80 | Elements: Government Character, Bad Faith Enforcement
+> Government Character: "not going to happen"; Bad Faith Enforcement: "shut down"
+
+**SLCo004182** | Score: 75 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
+
+**SLCo006122** | Score: 75 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "confidential"; Statute refs: 17-41-402
+
+**SLCo006127** | Score: 75 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "confidential"; Statute refs: 17-41-402
+
+**SLCo011396** | Score: 75 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
+
+**SLCo012426** | Score: 75 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "confidential"; Statute refs: 17-41-402
+
+**SLCo015858** | Score: 75 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
+
+**SLCo017173** | Score: 75 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "confidential"; Statute refs: 17-41-402
+
+**SLCo017454** | Score: 75 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
+
+**SLCo018480** | Score: 75 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "confidential"; Statute refs: 17-41-402
+
+**SLCo003677** | Score: 70 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
+
+**SLCo004070** | Score: 70 | Elements: Economic Impact, Government Character
+> Economic Impact: "eliminate mineral extraction"; Government Character: "banning the quarry"; Statute refs: 19.12.030
+
+**SLCo004072** | Score: 70 | Elements: Economic Impact, Government Character
+> Economic Impact: "eliminate mineral extraction"; Government Character: "banning the quarry"; Statute refs: 19.12.030
+
+**SLCo004074** | Score: 70 | Elements: Economic Impact, Government Character
+> Economic Impact: "eliminate mineral extraction"; Government Character: "banning the quarry"; Statute refs: 19.12.030
+
+**SLCo007072** | Score: 70 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo007145** | Score: 70 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "property value"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo007411** | Score: 70 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
+
+**SLCo008418** | Score: 70 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"
+
+**SLCo010481** | Score: 70 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo010490** | Score: 70 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo010600** | Score: 70 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "property value"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo010977** | Score: 70 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
+
+**SLCo010989** | Score: 70 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
+
+**SLCo012803** | Score: 70 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"
+
+**SLCo015508** | Score: 70 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "flood control"; Statute refs: 19.12.030
+
+**SLCo017309** | Score: 70 | Elements: Intergovernmental, Bad Faith Enforcement
+> Intergovernmental: "water rights"; Bad Faith Enforcement: "shut down", "code enforcement"
+
+**SLCo008561** | Score: 65 | Elements: Economic Impact, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Intergovernmental: "dogm"; Statute refs: 19.12.030
+
+**SLCo002576** | Score: 60 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "small mine permit"; Intergovernmental: "dogm"
+
+**SLCo006516** | Score: 60 | Elements: Economic Impact, Investment Expectations
+> Economic Impact: "property value"; Investment Expectations: "mining operations"
+
+**SLCo006588** | Score: 60 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo009573** | Score: 60 | Elements: Economic Impact, Investment Expectations
+> Economic Impact: "property value"; Investment Expectations: "mining operations"
+
+**SLCo009649** | Score: 60 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo009668** | Score: 60 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining"
+
+**SLCo003100** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license"
+
+**SLCo003469** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+
+**SLCo003524** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license"
+
+**SLCo007022** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license"
+
+**SLCo009802** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"; Bad Faith Enforcement: "business license"
+
+**SLCo010413** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license"
+
+**SLCo012452** | Score: 50 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "mining operations"; Intergovernmental: "dogm"
+
+**SLCo013064** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license"
+
+**SLCo015321** | Score: 50 | Elements: Investment Expectations, Intergovernmental, Bad Faith Enforcement
+> Investment Expectations: "mining operations"; Intergovernmental: "water rights"; Bad Faith Enforcement: "business license"
+
+**SLCo018532** | Score: 50 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo018535** | Score: 50 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo018537** | Score: 50 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo018539** | Score: 50 | Elements: Investment Expectations, Intergovernmental
+> Investment Expectations: "large mine permit", "small mine permit"; Intergovernmental: "division of oil, gas, and mining", "dogm"
+
+**SLCo017270** | Score: 40 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "halt this project"; Intergovernmental: "water rights"
+
+**SLCo017272** | Score: 40 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "halt this project"; Intergovernmental: "water rights"
+
+**SLCo017274** | Score: 40 | Elements: Economic Impact, Investment Expectations, Government Character, Intergovernmental
+> Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Government Character: "halt this project"; Intergovernmental: "water rights"
+
+
+### MEDIUM Relevance Documents (732)
+
+| Bates ID | Score | Elements | Key Phrase |
+|----------|-------|----------|------------|
+| SLCo013017 | 130 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement"; Statute refs: 19.12.030 |
+| SLCo005498 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo007395 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo010946 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo010956 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo012230 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo016850 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo018287 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo018699 | 120 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo002565 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002632 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002642 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002653 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002663 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002673 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002930 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002956 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002977 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003804 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo004992 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo005400 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006217 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006274 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006787 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006798 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo007278 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo008515 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo009912 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo010027 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo011765 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo012172 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo012877 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013380 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013458 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015137 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015185 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015642 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015706 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo016370 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo016778 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo017235 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo017815 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo018223 | 95 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002746 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
+| SLCo002748 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
+| SLCo002749 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
+| SLCo003366 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
+| SLCo003501 | 70 | Intergovernmental | Intergovernmental: "water rights" |
+| SLCo007162 | 70 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo008908 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
+| SLCo008911 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
+| SLCo008914 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
+| SLCo010370 | 70 | Intergovernmental | Intergovernmental: "water rights" |
+| SLCo010390 | 70 | Intergovernmental | Intergovernmental: "water rights" |
+| SLCo010617 | 70 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo013466 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
+| SLCo013525 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
+| SLCo013639 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
+| SLCo013641 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
+| SLCo015298 | 70 | Intergovernmental | Intergovernmental: "water rights" |
+| SLCo018553 | 70 | Bad Faith Enforcement | Bad Faith Enforcement: "business license", "code enforcement" |
+| SLCo002573 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003812 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006225 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006232 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006239 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006246 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo008523 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo008530 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo011144 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013388 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015650 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo017243 | 65 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003298 | 60 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo007117 | 60 | Investment Expectations | Investment Expectations: "small mine permit", "mining operations" |
+| SLCo007124 | 60 | Investment Expectations | Investment Expectations: "small mine permit", "mining operations" |
+| SLCo010540 | 60 | Investment Expectations | Investment Expectations: "small mine permit", "mining operations" |
+| SLCo010552 | 60 | Investment Expectations | Investment Expectations: "small mine permit", "mining operations" |
+| SLCo013266 | 60 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003099 | 50 | Intergovernmental | Intergovernmental: "water rights", "division of oil, gas, and mining" |
+| SLCo003498 | 50 | Intergovernmental | Intergovernmental: "water rights", "division of oil, gas, and mining" |
+| SLCo007015 | 50 | Intergovernmental | Intergovernmental: "water rights", "division of oil, gas, and mining" |
+| SLCo007229 | 50 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo008585 | 50 | Investment Expectations | Investment Expectations: "large mine permit", "mining operations" |
+| SLCo009695 | 50 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo010222 | 50 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo010354 | 50 | Intergovernmental | Intergovernmental: "water rights", "division of oil, gas, and mining" |
+| SLCo010665 | 50 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo013060 | 50 | Bad Faith Enforcement | Bad Faith Enforcement: "code enforcement" |
+| SLCo013063 | 50 | Intergovernmental | Intergovernmental: "water rights", "division of oil, gas, and mining" |
+| SLCo013249 | 50 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013429 | 50 | Investment Expectations | Investment Expectations: "large mine permit", "mining operations" |
+| SLCo015289 | 50 | Intergovernmental | Intergovernmental: "water rights", "division of oil, gas, and mining" |
+| SLCo002916 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002987 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002992 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002997 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003002 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003007 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003012 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003017 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003020 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003023 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003026 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003044 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003049 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003054 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003059 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003064 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003069 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003074 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003079 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003459 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo004069 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo004076 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo004104 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006895 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo009797 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo010094 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo010097 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo010100 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo010103 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo010106 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo010109 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo010112 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo010115 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo012966 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo012977 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo012985 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo012992 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo012997 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013048 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013076 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013137 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013234 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013265 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015093 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015098 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015102 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015105 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015113 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015116 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015121 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015126 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015157 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015162 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015221 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015226 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015767 | 45 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002541 | 40 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002562 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002564 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002630 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002640 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002651 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002661 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002671 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002904 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002928 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002938 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002940 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002943 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002946 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002949 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002952 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002964 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002968 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002972 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo002975 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003164 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo003532 | 40 | Intergovernmental | Intergovernmental: "confidential", "prue declaration", "water rights" |
+| SLCo003684 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo003685 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo003686 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo003687 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo003692 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo003693 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo003798 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003800 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003801 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003803 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003817 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo004048 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo005978 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006214 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006216 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006229 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006231 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006236 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006238 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006243 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006245 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006272 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo006796 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo007148 | 40 | Intergovernmental | Intergovernmental: "confidential", "division of oil, gas, and mining", "dogm" |
+| SLCo007171 | 40 | Intergovernmental | Intergovernmental: "confidential", "division of oil, gas, and mining", "dogm" |
+| SLCo007444 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo007449 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo007457 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo008422 | 40 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo008512 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo008514 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo008527 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo008529 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo008548 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo008550 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo008551 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo010081 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo010581 | 40 | Intergovernmental | Intergovernmental: "confidential", "prue declaration", "water rights" |
+| SLCo010603 | 40 | Intergovernmental | Intergovernmental: "confidential", "division of oil, gas, and mining", "dogm" |
+| SLCo010626 | 40 | Intergovernmental | Intergovernmental: "confidential", "division of oil, gas, and mining", "dogm" |
+| SLCo011005 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo011014 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo011141 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo011143 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo012289 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo012875 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo012924 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo012959 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013075 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013080 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013373 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013375 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013377 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013379 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo013456 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015049 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015083 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015087 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015090 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015097 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015135 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015145 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015521 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo015522 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo015523 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo015524 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo015529 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo015530 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo015544 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo015547 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo015550 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo015639 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015641 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015654 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015658 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo015704 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo017031 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo017232 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo017234 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo017247 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo018338 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo018475 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo018476 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 17-41-402 |
+| SLCo018548 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo018550 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo018570 | 40 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo007418 | 35 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo007425 | 35 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo010972 | 35 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo010984 | 35 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo015515 | 35 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo002540 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002586 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo002588 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo002590 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo002592 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo002617 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo002745 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
+| SLCo002747 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
+| SLCo003040 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003041 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo003229 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo003231 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo003365 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
+| SLCo003776 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo003779 | 30 | Economic Impact, Investment Expectations | Economic Impact: "mineral rights"; Investment Expectations: "mining operations" |
+| SLCo003782 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo003785 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo003815 | 30 | Economic Impact, Investment Expectations, Intergovernmental | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "water rights" |
+| SLCo004013 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo004021 | 30 | Government Character, Bad Faith Enforcement | Government Character: "not going to happen"; Bad Faith Enforcement: "shut down" |
+| SLCo004050 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo004051 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo004052 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo004060 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo004117 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo004150 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo004177 | 30 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo004988 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo005396 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo005412 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo006466 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
+| SLCo006467 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006485 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo006487 | 30 | Government Character, Bad Faith Enforcement | Government Character: "not going to happen"; Bad Faith Enforcement: "shut down" |
+| SLCo006528 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo006548 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo006553 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo006610 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo006616 | 30 | Intergovernmental | Intergovernmental: "confidential", "division of oil, gas, and mining", "dogm" |
+| SLCo006634 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo006898 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006979 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007081 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007110 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007131 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo007246 | 30 | Economic Impact, Investment Expectations, Intergovernmental | Economic Impact: "mining rights"; Investment Expectations: "vested mining rights"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo007274 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo007333 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo008424 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo008466 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo008470 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo008474 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo008479 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo008483 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo008535 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo008539 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo008541 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo008909 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
+| SLCo008910 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
+| SLCo008912 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
+| SLCo008913 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
+| SLCo009528 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
+| SLCo009529 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009540 | 30 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo009562 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo009585 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo009609 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo009614 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo009690 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo009704 | 30 | Intergovernmental | Intergovernmental: "confidential", "division of oil, gas, and mining", "dogm" |
+| SLCo009722 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo010236 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010303 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010418 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo010499 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010533 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010559 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010561 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo010574 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo010692 | 30 | Economic Impact, Investment Expectations, Intergovernmental | Economic Impact: "mining rights"; Investment Expectations: "vested mining rights"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo011116 | 30 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo011118 | 30 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo011129 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
+| SLCo011147 | 30 | Economic Impact, Investment Expectations, Intergovernmental | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "water rights" |
+| SLCo011158 | 30 | Economic Impact, Investment Expectations, Intergovernmental | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "water rights" |
+| SLCo011160 | 30 | Economic Impact, Investment Expectations, Intergovernmental | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "water rights" |
+| SLCo011337 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo011338 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo011339 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo011342 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo011369 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo011391 | 30 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo011761 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo012168 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo012851 | 30 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013369 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo013396 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo013398 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo013421 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo013425 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo013638 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
+| SLCo013640 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
+| SLCo015489 | 30 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo015598 | 30 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo015604 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo015607 | 30 | Economic Impact, Investment Expectations | Economic Impact: "mineral rights"; Investment Expectations: "mining operations" |
+| SLCo015611 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo015716 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo015730 | 30 | Government Character, Bad Faith Enforcement | Government Character: "not going to happen"; Bad Faith Enforcement: "shut down" |
+| SLCo015835 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015853 | 30 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo016366 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo016774 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo017246 | 30 | Economic Impact, Investment Expectations, Intergovernmental | Economic Impact: "eliminate mineral extraction"; Investment Expectations: "mining operations"; Intergovernmental: "water rights" |
+| SLCo017288 | 30 | Government Character, Bad Faith Enforcement | Government Character: "not going to happen"; Bad Faith Enforcement: "shut down" |
+| SLCo017370 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo017371 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo017372 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo017375 | 30 | Economic Impact | Economic Impact: "eliminate mineral extraction"; Statute refs: 19.12.030 |
+| SLCo017438 | 30 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo017449 | 30 | Intergovernmental | Intergovernmental: "flood control"; Statute refs: 19.12.030 |
+| SLCo017811 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo018219 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo018528 | 30 | Economic Impact, Intergovernmental | Economic Impact: "mineral rights"; Intergovernmental: "water rights" |
+| SLCo018533 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo018541 | 30 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo018552 | 30 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
+| SLCo002497 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo002750 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002757 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002786 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002790 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002793 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002795 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "large mine permit"; Intergovernmental: "dogm" |
+| SLCo002796 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002799 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002865 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002869 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002872 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002875 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002878 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002881 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002884 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002887 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002890 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002893 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002896 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002899 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo002926 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
+| SLCo003110 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
+| SLCo003368 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003372 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003390 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003392 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "large mine permit"; Intergovernmental: "dogm" |
+| SLCo003393 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003396 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003427 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003430 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003433 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003436 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003439 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003442 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003445 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003450 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003453 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003456 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo003530 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
+| SLCo003620 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
+| SLCo003622 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
+| SLCo003778 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo003781 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo003822 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
+| SLCo003831 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
+| SLCo003838 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
+| SLCo003844 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
+| SLCo004040 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo004042 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
+| SLCo004044 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
+| SLCo004130 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
+| SLCo004472 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo005415 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo005496 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006137 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo006208 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
+| SLCo006339 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006349 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006353 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006356 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006359 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006379 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006381 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "large mine permit"; Intergovernmental: "dogm" |
+| SLCo006382 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006385 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006400 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006403 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006406 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006409 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006412 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006415 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006418 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006421 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006424 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006427 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006430 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006433 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006436 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006441 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006448 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006454 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006457 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006464 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006474 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006478 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006483 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006505 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006508 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006511 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006514 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006518 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006522 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006526 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006530 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006535 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006571 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006592 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006639 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006643 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006668 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006674 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006679 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
+| SLCo006785 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo006795 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
+| SLCo006808 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
+| SLCo006820 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006829 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo006834 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006836 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo006871 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006883 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006957 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006974 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo006986 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006988 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006990 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo006992 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo006997 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007004 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007010 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007025 | 20 | Intergovernmental | Intergovernmental: "water rights", "dogm" |
+| SLCo007038 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007046 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007056 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007070 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007087 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
+| SLCo007101 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007108 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007143 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007146 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007160 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007165 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007168 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007176 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007178 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo007179 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007186 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
+| SLCo007213 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007216 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007220 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007222 | 20 | Economic Impact, Intergovernmental | Economic Impact: "property value"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo007223 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007226 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007244 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007248 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo007255 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007257 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007267 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007299 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007302 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007349 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo007965 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
+| SLCo007968 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
+| SLCo007980 | 20 | Intergovernmental, Bad Faith Enforcement | Intergovernmental: "water rights"; Bad Faith Enforcement: "shut down" |
+| SLCo008008 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo008033 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo008463 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
+| SLCo008506 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
+| SLCo008543 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
+| SLCo008907 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "business license" |
+| SLCo008923 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo008994 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo008997 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009000 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009077 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009081 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009084 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009106 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009139 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009141 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "large mine permit"; Intergovernmental: "dogm" |
+| SLCo009142 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009147 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009420 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009423 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009426 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009429 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009432 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009435 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009438 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009441 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009446 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009449 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009452 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009479 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009486 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009501 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining" |
+| SLCo009503 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining" |
+| SLCo009510 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining" |
+| SLCo009513 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining" |
+| SLCo009516 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009526 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009546 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo009551 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009555 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009560 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009564 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009567 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009571 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009575 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009579 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009583 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009587 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009596 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009632 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009672 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009727 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009731 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009753 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009765 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo009786 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo009793 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
+| SLCo009910 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo009920 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
+| SLCo010025 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo010035 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
+| SLCo010127 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010135 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo010142 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo010147 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010149 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo010186 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010198 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010281 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010298 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo010310 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010318 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010320 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010322 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo010327 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010331 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010343 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010349 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010416 | 20 | Intergovernmental | Intergovernmental: "water rights", "dogm" |
+| SLCo010447 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010455 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010467 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010505 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
+| SLCo010524 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010531 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010598 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010601 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010615 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010620 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010623 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010629 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010631 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo010632 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010649 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010652 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010656 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010658 | 20 | Economic Impact, Intergovernmental | Economic Impact: "property value"; Intergovernmental: "division of oil, gas, and mining" |
+| SLCo010659 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010662 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010690 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010694 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo010701 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010703 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010713 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010737 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010740 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010855 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo010900 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo011149 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
+| SLCo011166 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
+| SLCo011323 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo011326 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo011329 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo011331 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "mining operations"; Intergovernmental: "dogm" |
+| SLCo011333 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
+| SLCo011335 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
+| SLCo011350 | 20 | Intergovernmental | Intergovernmental: "confidential" |
+| SLCo011352 | 20 | Intergovernmental | Intergovernmental: "confidential" |
+| SLCo012182 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012228 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012431 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo012438 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo012441 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo012806 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo012850 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012889 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012893 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012896 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012898 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "large mine permit"; Intergovernmental: "dogm" |
+| SLCo012899 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012903 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012926 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012929 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012932 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012935 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012938 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012941 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012944 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012949 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012952 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo012955 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013072 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
+| SLCo013307 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo013359 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013642 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013649 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013713 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013717 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013720 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013736 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013738 | 20 | Investment Expectations, Intergovernmental | Investment Expectations: "large mine permit"; Intergovernmental: "dogm" |
+| SLCo013739 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo013742 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015051 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015054 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015057 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015060 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015063 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015066 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015069 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015074 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015077 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015080 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo015330 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
+| SLCo015432 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
+| SLCo015434 | 20 | Intergovernmental | Intergovernmental: "water rights", "flood control" |
+| SLCo015606 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo015609 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo015653 | 20 | Intergovernmental | Intergovernmental: "confidential" |
+| SLCo015665 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
+| SLCo015672 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
+| SLCo015684 | 20 | Intergovernmental | Intergovernmental: "confidential" |
+| SLCo015726 | 20 | Intergovernmental | Intergovernmental: "confidential" |
+| SLCo015749 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo015807 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
+| SLCo015966 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo016790 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo016848 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo017182 | 20 | Intergovernmental | Intergovernmental: "dogm" |
+| SLCo017256 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
+| SLCo017262 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
+| SLCo017307 | 20 | Investment Expectations | Investment Expectations: "mining operations" |
+| SLCo017416 | 20 | Bad Faith Enforcement | Bad Faith Enforcement: "shut down" |
+| SLCo018235 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo018285 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo018543 | 20 | Investment Expectations, Government Character | Investment Expectations: "mining operations"; Government Character: "targeted" |
+| SLCo018652 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+| SLCo018697 | 20 | Intergovernmental | Intergovernmental: "division of oil, gas, and mining", "dogm" |
+
+### LOW Relevance Documents: 269 (not listed)
+
+> 269 documents matched cause of action keywords at LOW relevance and are omitted from this report to reduce noise. These documents contain minimal keyword overlap and are unlikely to be useful as primary exhibits. The full list is available in the underlying scan data.
+
+---
+
+# COA 5: County Counterclaim — 17-41-402(6)(1) Does Not Preempt
+
+**Legal Basis:** County's Declaratory Relief that 17-41-402(6)(1) does not preempt the ordinance
 **Total Documents:** 2175
 
-> COUNTY'S DEFENSE. The County's strongest arguments are: (1) Tree Farm never obtained a conditional use permit and has no vested rights (NOTE: this is wrong -- vested rights under 17-41-501 do not require a CUP); (2) the County acted within its police power; (3) significant public opposition supports legitimate governmental interest; and (4) the 2002 Carrier decision already prohibits sand/gravel extraction (NOTE: Carrier addresses zoning, not pre-existing vested rights). Review these documents to anticipate and counter the County's defense.
+> COUNTY'S COUNTERCLAIM. The County seeks a declaration that Utah Code 17-41-402(6)(1) does not preempt the ordinance. The County's strongest arguments are: (1) the ordinance does not reference 'critical infrastructure materials' by statutory name; (2) the County acted within its police power to protect public health, safety, and environmental quality; (3) Tree Farm never obtained a conditional use permit; and (4) significant public opposition supports the County's governmental interest. NOTE: The County's vested-rights argument is wrong -- vested rights under 17-41-501 do not require a CUP. Review these documents to anticipate and counter the County's defense.
 
 ### Relevance Breakdown:
 
@@ -10233,13 +11353,13 @@
 
 ### LOW Relevance Documents: 337 (not listed)
 
-> 337 documents matched packet keywords at LOW relevance and are omitted from this report to reduce noise. These documents contain minimal keyword overlap and are unlikely to be useful as primary exhibits. The full list is available in the underlying scan data.
+> 337 documents matched cause of action keywords at LOW relevance and are omitted from this report to reduce noise. These documents contain minimal keyword overlap and are unlikely to be useful as primary exhibits. The full list is available in the underlying scan data.
 
 ---
 
-# PACKET 6: Documents Not Tied to a Cause of Action
+# COA 6: Documents Not Tied to a Cause of Action
 
-**2468 documents** did not match any packet's bracketed terms.
+**2468 documents** did not match any cause of action's search terms.
 These documents may include:
 - Public comments without specific legal references
 - Calendar entries / meeting invites without substantive content

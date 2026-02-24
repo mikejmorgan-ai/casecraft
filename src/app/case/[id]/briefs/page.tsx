@@ -1,4 +1,4 @@
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { redirect, notFound } from 'next/navigation'
 import { cookies } from 'next/headers'
 import Link from 'next/link'
@@ -25,10 +25,9 @@ export default async function BriefsPage({
   let claims: ClaimForRelief[] = []
 
   try {
-    const supabase = await createServerSupabase()
-    const { data } = await supabase.auth.getUser()
-    const user = data.user
-    if (!user && !hasBetaBypass) redirect('/login')
+    const userId = await getAuthUserId()
+    if (!userId && !hasBetaBypass) redirect('/login')
+    const supabase = getSupabase()
 
     const { data: caseResult, error: caseError } = await supabase
       .from('cases')

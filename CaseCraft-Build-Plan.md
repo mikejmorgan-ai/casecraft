@@ -3,7 +3,10 @@
 
 **Owner:** Mike Morgan, CEO — AI Venture Holdings LLC
 **Pilot Customer:** Jesse Lassley / Tree Farm LLC + Parr Brown Gee & Loveless
+**Lead Counsel:** Kassidy J. Wallin (Kass) — Parr Brown Gee & Loveless, P.C.
 **Date:** February 14, 2026
+
+> **Platform Polish Status (Feb 2026):** Complete. 12 dashboard pages built, auth migrated from Supabase to Clerk. Platform is production-ready for pilot.
 
 ---
 
@@ -21,7 +24,7 @@
 ├─────────────────────────────────────────────────────────────┤
 │  OpenAI GPT-4o  │  Pinecone RAG  │  Utah Statutes Module    │
 ├─────────────────┴────────────────┴──────────────────────────┤
-│              Supabase (Auth + PostgreSQL + RLS)               │
+│              Clerk (Auth) + Supabase (PostgreSQL + RLS)        │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -60,7 +63,7 @@ Response: MotionAnalysisResponse (structured JSON)
 ```
 
 Pipeline:
-1. Auth check (Supabase)
+1. Auth check (Clerk)
 2. Fetch case context + facts from Supabase
 3. Inject getUtahMiningLawContext() into system prompt
 4. Call OpenAI with motion_analyzer system prompt + motion text as user message
@@ -162,8 +165,8 @@ System prompt must include:
   4. Limestone quarrying vs gravel stockpiling = categorically different mining uses
   5. Corporate succession: Portland Cement (1896) → Ideal → Holnam → Lone Star → Tree Farm
 - Government overreach framework
-- Vested rights expansion under § 17-41-502
-- State preemption argument under § 17-41-402
+- Vested rights expansion under § 17-81-402 (formerly 17-41-502)
+- State preemption argument under § 17-81-402(6) (formerly 17-41-402)
 
 **Defense Attorney — Add litigation strategy depth:**
 - Carrier controls argument with specific holdings
@@ -234,7 +237,7 @@ CREATE POLICY "Users can manage own brief drafts"
 ```
 
 ### Phase 1 Validation Checkpoint
-Jesse logs in → navigates to Tree Farm case → clicks "Analyze Motion" → pastes defense motion text → gets structured analysis with strengths, weaknesses, procedural issues, and citations to § 17-41-501 and Carrier → clicks "Draft Response" → gets draft brief language with statement of facts, legal argument, counterarguments, and proposed relief → opens chat with Judge Stormont → asks about § 17-41-501 interpretation → gets response citing verbatim statute text with both old and new section numbers → opens chat with Statute Expert → asks about HB288 amendment history → gets accurate timeline with effective dates
+Jesse logs in → navigates to Tree Farm case → clicks "Analyze Motion" → pastes defense motion text → gets structured analysis with strengths, weaknesses, procedural issues, and citations to § 17-81-401 (formerly 17-41-501) and Carrier → clicks "Draft Response" → gets draft brief language with statement of facts, legal argument, counterarguments, and proposed relief → opens chat with Judge Stormont → asks about § 17-81-401 (formerly 17-41-501) interpretation → gets response citing verbatim statute text with both old and new section numbers → opens chat with Statute Expert → asks about HB288 amendment history → gets accurate timeline with effective dates
 
 ---
 
@@ -387,7 +390,7 @@ Start oral argument simulation → Plaintiff Attorney argues vested mining right
 - Database tables: voice_agents, voice_calls
 
 ### Phase 5 Validation
-Click "Call Judge Stormont" → browser microphone activates → speak question about § 17-41-501 → Judge responds by voice with accurate statutory analysis → call logged in database
+Click "Call Judge Stormont" → browser microphone activates → speak question about § 17-81-401 (formerly 17-41-501) → Judge responds by voice with accurate statutory analysis → call logged in database
 
 ---
 

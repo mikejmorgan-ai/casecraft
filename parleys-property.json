@@ -500,9 +500,9 @@
       },
       {
         "bates": "SLCo002501",
-        "type": "statute",
+        "type": "bill",
         "date": "2019",
-        "description": "H.B. 288 'Critical Infrastructure Materials' — enrolled copy found in County files",
+        "description": "H.B. 288 'Critical Infrastructure Materials' — enrolled copy found in County files (bill, not statute; it created the VMU and CIM statutory protections at Utah Code 17-41-101 et seq., now 17-81-101 et seq.)",
         "evidentiary_value": "B+",
         "key_quote": "State will oppose land use plans or designations that impede access to mine, produce, process, or transport mineral resources",
         "proves": ["County had copy of the very state law that preempts their ordinance", "State policy explicitly favors mining and opposes local restrictions"]

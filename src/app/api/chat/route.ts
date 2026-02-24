@@ -1,5 +1,5 @@
 import { NextRequest } from 'next/server'
-import { createServerSupabase, createServiceSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { generateEmbedding } from '@/lib/ai/embeddings'
 import { buildAgentSystemPrompt } from '@/lib/ai/prompts'
 import { searchByRole, formatResultsForContext, validateWithBracketedTerms } from '@/lib/pinecone/search'
@@ -14,13 +14,12 @@ export const maxDuration = 60
 
 export async function POST(request: NextRequest) {
   try {
-    const supabase = await createServerSupabase()
-    const serviceSupabase = createServiceSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return new Response('Unauthorized', { status: 401 })
     }
+    const supabase = getSupabase()
+    const serviceSupabase = getSupabase()
 
     const {
       messages: rawMessages,

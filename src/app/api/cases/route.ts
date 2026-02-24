@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { z } from 'zod'
 import { AGENT_ROLE_TEMPLATES } from '@/lib/ai/prompts'
 import { ErrorCodes, type FieldError } from '@/lib/api-error'
@@ -96,16 +96,15 @@ function errorResponse(
 
 export async function GET() {
   try {
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return errorResponse(
         'Please sign in to view your cases',
         ErrorCodes.UNAUTHORIZED,
         401
       )
     }
+    const supabase = getSupabase()
 
     const { data, error } = await supabase
       .from('cases')
@@ -141,17 +140,15 @@ export async function GET() {
 
 export async function POST(request: NextRequest) {
   try {
-    const supabase = await createServerSupabase()
-
-    // Check authentication
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return errorResponse(
         'Please sign in to create a case',
         ErrorCodes.UNAUTHORIZED,
         401
       )
     }
+    const supabase = getSupabase()
 
     // Parse request body
     let body: unknown
@@ -180,7 +177,7 @@ export async function POST(request: NextRequest) {
     // Create case
     const { data: caseData, error: caseError } = await supabase
       .from('cases')
-      .insert({ ...parsed.data, user_id: user.id })
+      .insert({ ...parsed.data, user_id: userId })
       .select()
       .single()
 
