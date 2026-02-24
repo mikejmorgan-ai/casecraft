@@ -1932,10 +1932,11 @@
 
 ---
 
-# COA 1: Declaratory Relief — Ordinance Invalid
+# COA 1: Declaratory Relief — Ordinance Invalid (SECONDARY — CIM preemption served as strategic decoy)
 
 **Legal Basis:** Utah Code 17-41-402(6) (now 17-81-402) — ordinance preempted by state law
 **Total Documents:** 1922
+**Strategic Note:** CIM preemption (this claim) was a deliberate decoy. The Bateman letters were sent to distract the County into defending against preemption while the PRIMARY claim — vested mining rights (COA 3) — was developed. See COA 3 for the primary theory.
 
 > Tree Farm seeks a declaration that Salt Lake County Ordinance No. 1822 is invalid because it conflicts with Utah Code 17-41-402(6), which prohibits any county from adopting an ordinance that restricts operations involving sand, gravel, and rock aggregate -- the exact materials the ordinance prohibits. The documents below establish: (1) the ordinance expressly prohibits extraction of protected materials; (2) the County received repeated written warnings that the ordinance violated state law and proceeded anyway; and (3) the County's own District Attorney evaded the preemption question rather than addressing it on the merits.
 

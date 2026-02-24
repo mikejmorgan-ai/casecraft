@@ -43,7 +43,7 @@ This is the enrolled text of H.B. 288, which codified the legal framework Tree F
 Bates: SLCo003377 (also SLCo009126, SLCo013723)
 Recorded: November 12, 2021 | Entry No. 13822822, Book 11268, Pages 4405-4413
 
-This is the formal recorded instrument filed by Tree Farm under 17-41-501. It declares:
+This is the formal recorded instrument filed by Tree Farm under 17-81-401 (formerly 17-41-501). It declares:
 
 > *"A mining use... existed or was conducted or was otherwise engaged in on the Property by Portland Cement Company of Utah... **at least as early as the 1890s, before statehood**, and well before Salt Lake County restricted or otherwise limited mining use in the area."*
 
@@ -51,7 +51,7 @@ The declaration establishes the chain of title through Portland Cement Company o
 
 - **Large mine permit approved by DOGM in 1996** -- remains active
 - **Commercial production:** 90,000+ tons (1994), 725,000+ tons (2009), 386,000+ tons (2019)
-- **Expansion rights** under 17-41-502 to "any surface or subsurface land or mineral estate that the mine operator owns or controls"
+- **Expansion rights** under 17-81-402 (formerly 17-41-502) to "any surface or subsurface land or mineral estate that the mine operator owns or controls"
 - Property includes patented mining claims: Shale and Limestone Placer (Mineral Survey No. 5031), Compromise Placer, Union Limestone Quarry Placer, Portland Cement Nos. 1 and 2
 
 > *"the present or future boundary described in the Large Mine Permit **does not limit the scope of the Declarant's vested mining rights** and does not limit the protection provided under Utah law for a mining protection area."*
@@ -98,7 +98,7 @@ The ordinance adds: *"The following uses are explicitly prohibited in this chapt
 
 The County included a carve-out for "property within the FR zone that currently has approved, permitted, and operational mineral extraction/processing" -- but this is narrower than the statutory protection, which protects uses that "existed or was conducted or otherwise engaged in" before the prohibition.
 
-**Why it matters:** The County's own staff report admits the ban was triggered by Tree Farm's NOI filings. This is the "political subdivision prohibits, restricts, or otherwise limits a mining use" event that activates the vested mining rights protections under 17-41-101(26). The ban came five months after Tree Farm's Declaration of Vested Mining Use was recorded. The County's carve-out attempts to limit protection to "approved, permitted, and operational" uses -- ignoring that the statute protects uses that merely "existed or was conducted" before the prohibition.
+**Why it matters:** The County's own staff report admits the ban was triggered by Tree Farm's NOI filings. This is the "political subdivision prohibits, restricts, or otherwise limits a mining use" event that activates the vested mining rights protections under 17-81-101 (formerly 17-41-101(26)). The ban came five months after Tree Farm's Declaration of Vested Mining Use was recorded. The County's carve-out attempts to limit protection to "approved, permitted, and operational" uses -- ignoring that the statute protects uses that merely "existed or was conducted" before the prohibition.
 
 ---
 

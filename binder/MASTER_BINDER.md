@@ -4,6 +4,10 @@
 
 ### 5,576 Documents Reviewed | February 22, 2026
 
+**Last updated:** February 24, 2026
+**Platform status:** Auth migrated from Supabase to Clerk; all 12 dashboard pages built; zero 404s remaining
+**Kass feedback implemented:** HB288 reclassified as "bill" (not "statute"); VMU statute numbers updated to 17-81-401 to -403; Vested Mining Rights elevated to PRIMARY claim; CIM repositioned as secondary decoy
+
 ---
 
 > **Prepared for litigation use.** This binder organizes all 5,576 bates-stamped
@@ -14,7 +18,7 @@
 > **Documents assigned to at least one cause of action:** 3,108
 > **Documents not assigned to any cause of action:** 2,468
 >
-> **PRIMARY CLAIM:** COA 3 -- Vested Mining Use under Utah Code 17-41-501 to -503.
+> **PRIMARY CLAIM:** COA 3 -- Vested Mining Use under Utah Code 17-81-401 to -403 (formerly 17-41-501 to -503).
 > Mining on this property dates to the 1890s, before Utah statehood and decades before
 > Salt Lake County adopted zoning.
 

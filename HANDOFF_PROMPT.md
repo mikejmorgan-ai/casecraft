@@ -1,6 +1,6 @@
 # HANDOFF PROMPT FOR NEW CLAUDE CODE SESSION
 ## CaseCraft — Tree Farm LLC v. Salt Lake County
-### February 21, 2026
+### February 24, 2026
 
 ---
 
@@ -8,14 +8,14 @@
 
 CaseCraft is a legal case management platform with TWO parts:
 
-1. **A Next.js web app** (`src/`) — AI-powered litigation simulation platform with agents (Judge, attorneys, experts), document RAG via Pinecone, chat interface, predictions, and hearing simulations. Currently at Milestone 2 of a 7-phase build plan. 89 tests passing.
+1. **A Next.js web app** (`src/`) — AI-powered litigation simulation platform with Clerk auth, agents (Judge, attorneys, experts), document RAG via Pinecone, chat interface, predictions, and hearing simulations. Currently at Milestone 2 of a 7-phase build plan. 89 tests passing. Auth migrated from Supabase to Clerk (Supabase still used for database).
 
 2. **A Python-based discovery analysis pipeline** (root `*.py` files + `binder/`) — Analyzes 5,576 Bates-stamped documents produced by Salt Lake County in Tree Farm LLC v. Salt Lake County (Case No. 220903418). Complete analysis exists in `binder/` with 8 PDFs ready for attorney use.
 
 **Repo:** `mikejmorgan-ai/casecraft`
 **Working directory:** `/home/user/casecraft`
-**Current branch:** `claude/review-casecraft-next-steps-Ibqot`
-**PR #45** was just resolved (merge conflicts fixed, pushed).
+**Current branch:** `main`
+**Last commit:** `732cb56` — Auth migrated to Clerk, all dashboard pages built
 
 ---
 
@@ -54,33 +54,40 @@ CaseCraft is a legal case management platform with TWO parts:
 - PDFs in `binder/pdfs/` — 8 files, ~927KB total
 
 ### Web App
-- Full Next.js 16 app with Supabase auth, 40+ API routes, 27 component directories
+- Full Next.js 16 app with Clerk auth, 40+ API routes, 27 component directories
 - Dashboard, case detail pages with 9 tabs, agent system, chat interface
 - Discovery, evidence, findings, claims pages exist but need data population
 - 89 tests passing across 5 test suites
-- Tech stack: Next.js 16, React 19, Supabase, OpenAI, Pinecone, shadcn/ui, Tailwind
+- Tech stack: Next.js 16, React 19, Clerk (auth), Supabase (database), OpenAI, Pinecone, shadcn/ui, Tailwind
+
+### Web App — Platform Polish (February 24, 2026)
+- **Auth migrated from Supabase to Clerk** — 60+ files, ClerkProvider, clerkMiddleware(), Clerk SignIn/SignUp components
+- All 12 missing dashboard pages built (Documents, Analysis, Simulations, Predictions, Weaknesses, Timeline, Discovery, Settings, Messages + 3 admin pages)
+- Settings page tailored for Parr Brown: profile fields with bar number, jurisdiction, firm name
+- Custom 404 page ("This matter has been dismissed"), breadcrumbs, loading skeletons
+- New auth helper: `src/lib/auth/clerk.ts` with getSupabase(), getAuthUserId(), getUserProfile(), etc.
+- `.env.example` created with Clerk + Supabase + OpenAI + Pinecone variables
+- Zero `supabase.auth` calls remaining — Supabase used for database only
+- All sidebar navigation links resolve to real pages
+- TypeScript clean: 0 source code errors
 
 ---
 
 ## WHAT NEEDS TO HAPPEN NEXT
 
-### Immediate (based on Kass's direction)
+### Immediate
 
-1. **Rebuild the analysis with vested-mining-only focus.** Modify `build_packets.py` to either:
-   - Add a mode that excludes CIM terminology and elevates Packet 3 to primary
-   - Or create a new script that searches specifically for Kass's key phrases: "vested mining rights", "mining protection area", "mine operator", "mining use", "vested mining use", "mine operator"
+1. **Import discovery analysis into the web app database** — The Python analysis results are in markdown/PDFs but not yet in Supabase. The schema supports it (migrations 007-010 added claims, evidence, filter_key_terms tables).
 
-2. **Search the 5,576 documents for evidence the County knew about vested mining rights.** This is the critical question — did any County staff email mention "mine operator", "vested mining", "mining protection area"? If not, that proves the County was blindsided by the real legal theory.
+2. **Run the 4 blind test cases to establish accuracy baseline** — Validate the AI agent predictions against known case outcomes.
 
-3. **Regenerate the PDFs** with the vested mining focus as primary and CIM as secondary.
+3. **Add DOCX text extraction (mammoth.js)** — Enable the platform to ingest Word documents directly.
 
 ### Medium-term (platform development)
 
-4. **Import discovery analysis into the web app database** — The Python analysis results are in markdown/PDFs but not yet in Supabase. The schema supports it (migrations 007-010 added claims, evidence, filter_key_terms tables).
+4. **Continue Phase 1 of the build plan** — Motion Analyzer, Brief Drafter, Utah Statute Expert agents.
 
-5. **Continue Phase 1 of the build plan** — Motion Analyzer, Brief Drafter, Utah Statute Expert agents.
-
-6. **Integrate the statute database** — `src/lib/legal/utah-mining-statutes.ts` has comprehensive statute text including the November 2025 recodification (17-41-xxx → 17-81-xxx).
+5. **Integrate the statute database** — `src/lib/legal/utah-mining-statutes.ts` has comprehensive statute text including the November 2025 recodification (17-41-xxx → 17-81-xxx).
 
 ---
 
@@ -109,6 +116,9 @@ CaseCraft is a legal case management platform with TWO parts:
 - `src/components/` — 27 component directories
 - `src/lib/legal/` — Utah statute database and bracketed terms
 - `src/lib/types.ts` — Core type definitions
+- `src/lib/auth/clerk.ts` — Clerk auth helpers (getSupabase, getAuthUserId, getUserProfile)
+- `src/app/(dashboard)/dashboard/settings/page.tsx` — Settings page (Parr Brown customized)
+- `.env.example` — Required environment variables for Clerk + Supabase
 - `supabase/migrations/` — 10 migration files
 
 ### Configuration
@@ -136,7 +146,7 @@ CaseCraft is a legal case management platform with TWO parts:
 
 ---
 
-## PACKET STATISTICS (current, pre-pivot)
+## PACKET STATISTICS (current, post-pivot)
 
 | Packet | Cause of Action | Docs | CRITICAL | HIGH |
 |--------|----------------|------|----------|------|
@@ -147,15 +157,14 @@ CaseCraft is a legal case management platform with TWO parts:
 | 5 | County Counterclaim | 2175 | 91 | 168 |
 | 6 | Unassigned | 2468 | — | — |
 
-**After the pivot, Packet 3 becomes primary.** The 28 CRITICAL and 64 HIGH docs for vested mining are the core evidence. Kass wants to know if there are MORE docs about vested mining rights hiding in the 2,468 unassigned documents or misfiled in other packets.
+**Kass's strategic pivot has been IMPLEMENTED.** Packet 3 is primary. The 28 CRITICAL and 64 HIGH docs for vested mining are the core evidence. HB288 reclassified as "bill" (not "statute"), VMU statute numbers updated to 17-81-401 to -403. Kass wants to know if there are MORE docs about vested mining rights hiding in the 2,468 unassigned documents or misfiled in other packets.
 
 ---
 
 ## GIT STATE
 
-- **Branch:** `claude/review-casecraft-next-steps-Ibqot`
-- **Last commit:** `931de6e` — Merge main, keep enhanced packet versions
-- **PR #45:** Conflicts resolved, pushed, should be mergeable
+- **Branch:** `main`
+- **Last commit:** `732cb56` — Auth migrated to Clerk, all dashboard pages built
 - **Working tree:** Clean
 - **Tests:** 89 passing (5 suites)
 
@@ -166,6 +175,7 @@ CaseCraft is a legal case management platform with TWO parts:
 ```bash
 cd /home/user/casecraft
 git status                    # Verify clean state
+# Required: Set Clerk keys in .env.local (see .env.example)
 python3 build_packets.py      # Rebuild packet analysis (~30 seconds)
 python3 generate_pdfs.py      # Regenerate PDFs (~10 seconds)
 npm test                      # Run web app tests
