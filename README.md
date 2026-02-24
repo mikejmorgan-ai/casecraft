@@ -133,4 +133,4 @@ casecraft/
 
 ## License
 
-MIT
+This software is proprietary and confidential. All rights reserved. Unauthorized copying, distribution, or modification of this software is strictly prohibited.
