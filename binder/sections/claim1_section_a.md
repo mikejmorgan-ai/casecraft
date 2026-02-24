@@ -4,7 +4,7 @@
 
 **1.** **[SLCo002501]** **SUPPORTS**
 
-**WHY CRITICAL:** This is the CIM statute itself (HB 288 / Utah Code 17-41-402(6)), found within county files. Its presence in the county's own records proves that the county had direct access to and was aware of the state statute that explicitly prohibits counties from adopting ordinances restricting critical infrastructure materials operations.
+**WHY CRITICAL:** This is the enrolled copy of H.B. 288, the bill that created both CIM and VMU protections (now codified at Utah Code 17-81-101 et seq.), found within county files. H.B. 288 is a bill, not a statute; the relevant statutes are 17-81-402 (CIM preemption) and 17-81-401 to -403 (VMU). Its presence in the county's own records proves that the county had direct access to and was aware of the state law that explicitly prohibits counties from adopting ordinances restricting critical infrastructure materials operations.
 
 **RECOMMENDED USE:** Use as the foundational exhibit to establish the preemption standard. Present alongside the text of the challenged ordinance to demonstrate that the ordinance directly violates the plain language of the state statute.
 

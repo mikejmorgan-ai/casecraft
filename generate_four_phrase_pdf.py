@@ -152,7 +152,7 @@ def build_analysis_section() -> str:
     <h2>Key Findings Summary</h2>
     <table>
         <tr><th>#</th><th>Document Type</th><th>Copies</th><th>Source</th><th>All 4?</th></tr>
-        <tr><td>1</td><td>H.B. 288 statute text</td><td>4</td><td>Legislature (not County)</td><td>3 of 4</td></tr>
+        <tr><td>1</td><td>H.B. 288 enrolled bill text</td><td>4</td><td>Legislature (not County)</td><td>3 of 4</td></tr>
         <tr><td>2</td><td>Tree Farm's Supplemental Declaration</td><td>13</td><td>Tree Farm's own filing</td><td>YES — ALL 4</td></tr>
         <tr><td>3</td><td>County calendar entries</td><td>5</td><td>County (Tim Bywater)</td><td>1 of 4</td></tr>
         <tr><td>4</td><td>Division Response briefs</td><td>4</td><td>AG/DOGM (not County)</td><td>2 of 4</td></tr>

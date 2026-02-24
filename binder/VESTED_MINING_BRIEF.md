@@ -19,18 +19,20 @@ The County produced 5,576 documents. After scanning all of them, 40 scored as CR
 
 ---
 
-### DOCUMENT 1: The Statute
+### DOCUMENT 1: The Bill That Created VMU and CIM Protections
 **H.B. 288 -- "Critical Infrastructure Materials" (2019 General Session)**
 Bates: SLCo002501 (also SLCo008382, SLCo012814, SLCo013323)
 
-This is the enrolled text of H.B. 288, which created the legal framework Tree Farm relies on. It establishes two parallel protections:
+**NOTE:** H.B. 288 is a bill, not a statute. It created the VMU and CIM statutory protections now codified at Utah Code 17-81-101 et seq. (formerly 17-41-101 et seq.). The relevant VMU statutes are 17-81-401, -402, and -403 (formerly 17-41-501, -502, and -503). H.B. 288 created CIM and VMU protections but did not create VMU itself -- vested mining rights predated the bill.
 
-**Vested Mining Use** (Utah Code 17-41-101(26)): A mining use by a "mine operator" that existed before the County restricts mining. Requires that, as of January 1, 2009, the operator (a) owns or manages a mining use under a large mine permit issued by DOGM, and (b) has produced commercial quantities of a mineral deposit. A vested mining use:
+This is the enrolled text of H.B. 288, which codified the legal framework Tree Farm relies on. It establishes two parallel protections:
 
-- **"runs with the land"** (17-41-502(2))
-- **"is conclusively presumed to be a use consistent with the highest priority use"** (17-41-502(3)(a))
-- **cannot become a nuisance** if operating for more than three years (17-41-503(2))
-- can only be abandoned by **"a written declaration of abandonment"** by the owner (17-41-502(5))
+**Vested Mining Use** (Utah Code 17-81-101 (formerly 17-41-101(26))): A mining use by a "mine operator" that existed before the County restricts mining. Requires that, as of January 1, 2009, the operator (a) owns or manages a mining use under a large mine permit issued by DOGM, and (b) has produced commercial quantities of a mineral deposit. A vested mining use:
+
+- **"runs with the land"** (17-81-402(2), formerly 17-41-502(2))
+- **"is conclusively presumed to be a use consistent with the highest priority use"** (17-81-402(3)(a), formerly 17-41-502(3)(a))
+- **cannot become a nuisance** if operating for more than three years (17-81-403(2), formerly 17-41-503(2))
+- can only be abandoned by **"a written declaration of abandonment"** by the owner (17-81-402(5), formerly 17-41-502(5))
 
 **Why it matters:** Tree Farm meets every statutory element. Large mine permit since 1996. Commercial production of 725,000+ tons in 2009 alone. No written abandonment. The County cannot override these rights with a zoning amendment.
 
@@ -165,7 +167,7 @@ Bond calculation: $186,000 (escalated to 2026 dollars).
 
 ## THE NARRATIVE: HOW THESE 8 DOCUMENTS BUILD THE CASE
 
-**Step 1 -- The Law Exists (Document 1):** H.B. 288 created vested mining rights that run with the land, cannot be zoned away, and can only be abandoned by written declaration.
+**Step 1 -- The Law Exists (Document 1):** H.B. 288 codified vested mining use protections (Utah Code 17-81-401 to -403, formerly 17-41-501 to -503). VMU rights run with the land, cannot be zoned away, and can only be abandoned by written declaration.
 
 **Step 2 -- Tree Farm Qualifies (Document 2):** Mining since the 1890s. Large mine permit since 1996. 725,000+ tons produced in 2009. Declaration recorded November 12, 2021.
 
@@ -197,7 +199,7 @@ This search is pending and will be reported separately.
 
 | Document | Primary Bates | Duplicate Bates Numbers |
 |----------|--------------|------------------------|
-| H.B. 288 (Statute) | SLCo002501 | SLCo008382, SLCo012814, SLCo013323 |
+| H.B. 288 (Bill) | SLCo002501 | SLCo008382, SLCo012814, SLCo013323 |
 | Declaration of Vested Mining Use | SLCo003377 | SLCo009126, SLCo013723 |
 | RAA -- NOI Filing | SLCo003551 | SLCo003560, SLCo003569, SLCo003602, SLCo003611, SLCo003699, SLCo010728, SLCo010795, SLCo010804, SLCo010813, SLCo015369, SLCo015414, SLCo015423 |
 | County Ban Ordinance | SLCo005003 | SLCo004662, SLCo011435, SLCo011775, SLCo016040, SLCo016381, SLCo017485, SLCo017826, SLCo018710 |

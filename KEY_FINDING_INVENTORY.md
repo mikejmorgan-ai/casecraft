@@ -2,7 +2,7 @@
 ## Tree Farm, LLC v. Salt Lake County — Discovery Analysis
 ### Comprehensive Evidence of Illegal Government Action
 
-*Compiled from systematic review of 5,576 discovery files (SLCo000001–SLCo018710) across discovery folders 0001–0006*
+*Compiled from systematic review of 5,576 discovery files (SLCo002489–SLCo018710) across discovery folders 0001–0006. NOTE: This covers only the most recent SLCO production. An earlier production (Bates SLCo000001–SLCo002488) has not yet been incorporated.*
 
 ---
 
