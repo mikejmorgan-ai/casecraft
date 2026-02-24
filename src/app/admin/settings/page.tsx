@@ -228,13 +228,6 @@ export default function AdminSettingsPage() {
               color: 'text-green-500',
             },
             {
-              name: 'Vercel',
-              description: 'Deployment and edge functions',
-              status: 'connected',
-              icon: Cloud,
-              color: 'text-green-500',
-            },
-            {
               name: 'Westlaw / LexisNexis',
               description: 'Legal research database integration',
               status: 'not_configured',
