@@ -1,4 +1,4 @@
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { redirect, notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -16,12 +16,11 @@ export default async function FindingsPage({
 }) {
   const { id } = await params
 
-  const supabase = await createServerSupabase()
-
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) {
+  const userId = await getAuthUserId()
+  if (!userId) {
     redirect('/login')
   }
+  const supabase = getSupabase()
 
   // Verify case access
   const { data: caseData, error: caseError } = await supabase

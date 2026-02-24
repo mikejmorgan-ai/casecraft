@@ -1,4 +1,4 @@
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { redirect, notFound } from 'next/navigation'
 import { cookies } from 'next/headers'
 import Link from 'next/link'
@@ -38,9 +38,9 @@ export default async function MotionsPage({
   let caseData: any = null
 
   try {
-    const supabase = await createServerSupabase()
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user && !hasBetaBypass) redirect('/login')
+    const userId = await getAuthUserId()
+    if (!userId && !hasBetaBypass) redirect('/login')
+    const supabase = getSupabase()
 
     const { data: caseResult, error } = await supabase
       .from('cases')

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { searchAll } from '@/lib/pinecone/search'
 import OpenAI from 'openai'
 
@@ -161,12 +161,11 @@ export async function POST(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
+    const supabase = getSupabase()
 
     const body: PredictionRequest = await request.json()
     const { mode = 'standard', includeReasoning = true } = body
@@ -258,7 +257,7 @@ Return your analysis as valid JSON.`
       .from('case_predictions')
       .insert({
         case_id: caseId,
-        user_id: user.id,
+        user_id: userId,
         predicted_outcome: prediction.outcome,
         predicted_ruling_summary: prediction.summary,
         confidence_score: prediction.confidence,

@@ -16,11 +16,15 @@ export {
   hasMinimumCasePermission,
 } from './rbac'
 
-// Permission Checking Utilities
+// Clerk-based Auth Utilities
 export {
+  getSupabase,
+  getAuthUserId,
+  requireAuth,
   getUserProfile,
+  getUserRole,
   checkPermission,
-  checkCaseAccess,
   requirePermission,
+  checkCaseAccess,
   requireCaseAccess,
-} from './check-permission'
+} from './clerk'

@@ -1,4 +1,4 @@
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId } from '@/lib/auth/clerk'
 import { redirect } from 'next/navigation'
 import { cookies } from 'next/headers'
 import Link from 'next/link'
@@ -14,12 +14,11 @@ export default async function NewCasePage() {
   let userRole: UserRole = 'attorney'
 
   try {
-    const supabase = await createServerSupabase()
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user && !hasBetaBypass) redirect('/login')
+    const userId = await getAuthUserId()
+    if (!userId && !hasBetaBypass) redirect('/login')
 
     // Check permissions (default to attorney for beta bypass)
-    const profile = user ? await getUserProfile() : null
+    const profile = userId ? await getUserProfile() : null
     userRole = profile?.role || 'attorney'
   } catch {
     if (!hasBetaBypass) redirect('/login')

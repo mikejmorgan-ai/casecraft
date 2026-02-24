@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { z } from 'zod'
 
 const createShareSchema = z.object({
@@ -20,12 +20,11 @@ export async function GET(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
+    const supabase = getSupabase()
 
     // Verify user owns the case
     const { data: caseData, error: caseError } = await supabase
@@ -38,7 +37,7 @@ export async function GET(
       return NextResponse.json({ error: 'Case not found' }, { status: 404 })
     }
 
-    if (caseData.user_id !== user.id) {
+    if (caseData.user_id !== userId) {
       return NextResponse.json({ error: 'Access denied' }, { status: 403 })
     }
 
@@ -74,12 +73,11 @@ export async function POST(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
+    const supabase = getSupabase()
 
     // Verify user owns the case
     const { data: caseData, error: caseError } = await supabase
@@ -92,7 +90,7 @@ export async function POST(
       return NextResponse.json({ error: 'Case not found' }, { status: 404 })
     }
 
-    if (caseData.user_id !== user.id) {
+    if (caseData.user_id !== userId) {
       return NextResponse.json({ error: 'Only case owners can share cases' }, { status: 403 })
     }
 
@@ -107,11 +105,6 @@ export async function POST(
     }
 
     const { email, permission_level, expires_at } = parsed.data
-
-    // Prevent sharing with self
-    if (email.toLowerCase() === user.email?.toLowerCase()) {
-      return NextResponse.json({ error: 'You cannot share a case with yourself' }, { status: 400 })
-    }
 
     // Check for existing share
     const { data: existingShare } = await supabase
@@ -135,7 +128,7 @@ export async function POST(
         shared_with_user_id: null,
         permission_level,
         expires_at: expires_at || null,
-        shared_by: user.id,
+        shared_by: userId,
       })
       .select()
       .single()
@@ -159,12 +152,11 @@ export async function PATCH(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
+    const supabase = getSupabase()
 
     // Verify user owns the case
     const { data: caseData, error: caseError } = await supabase
@@ -177,7 +169,7 @@ export async function PATCH(
       return NextResponse.json({ error: 'Case not found' }, { status: 404 })
     }
 
-    if (caseData.user_id !== user.id) {
+    if (caseData.user_id !== userId) {
       return NextResponse.json({ error: 'Access denied' }, { status: 403 })
     }
 
@@ -223,7 +215,6 @@ export async function DELETE(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
     const { searchParams } = new URL(request.url)
     const shareId = searchParams.get('shareId')
 
@@ -231,10 +222,11 @@ export async function DELETE(
       return NextResponse.json({ error: 'Share ID is required' }, { status: 400 })
     }
 
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
+    const supabase = getSupabase()
 
     // Verify user owns the case
     const { data: caseData, error: caseError } = await supabase
@@ -247,7 +239,7 @@ export async function DELETE(
       return NextResponse.json({ error: 'Case not found' }, { status: 404 })
     }
 
-    if (caseData.user_id !== user.id) {
+    if (caseData.user_id !== userId) {
       return NextResponse.json({ error: 'Access denied' }, { status: 403 })
     }
 

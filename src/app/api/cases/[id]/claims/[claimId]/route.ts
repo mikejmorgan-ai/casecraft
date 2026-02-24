@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { updateClaimSchema } from '@/lib/validations/claim'
 import { ErrorCodes, type FieldError } from '@/lib/api-error'
 import { z } from 'zod'
@@ -43,16 +43,15 @@ export async function GET(
 ) {
   try {
     const { id: caseId, claimId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return errorResponse(
         'Please sign in to view this claim',
         ErrorCodes.UNAUTHORIZED,
         401
       )
     }
+    const supabase = getSupabase()
 
     // Verify case exists
     const { data: caseData } = await supabase
@@ -114,16 +113,15 @@ export async function PUT(
 ) {
   try {
     const { id: caseId, claimId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return errorResponse(
         'Please sign in to update this claim',
         ErrorCodes.UNAUTHORIZED,
         401
       )
     }
+    const supabase = getSupabase()
 
     // Verify case ownership
     const { data: caseData } = await supabase
@@ -216,16 +214,15 @@ export async function DELETE(
 ) {
   try {
     const { id: caseId, claimId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return errorResponse(
         'Please sign in to delete this claim',
         ErrorCodes.UNAUTHORIZED,
         401
       )
     }
+    const supabase = getSupabase()
 
     // Verify case ownership
     const { data: caseData } = await supabase

@@ -1,14 +1,12 @@
 import { NextRequest } from 'next/server'
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { generateSpeech, AGENT_VOICES } from '@/lib/voice/openai-tts'
 import type { AgentRole } from '@/lib/types'
 
 export async function POST(request: NextRequest) {
   try {
-    const supabase = await createServerSupabase()
-    const { data: { user } } = await supabase.auth.getUser()
-
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return new Response('Unauthorized', { status: 401 })
     }
 

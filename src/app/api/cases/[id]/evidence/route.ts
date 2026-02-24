@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { z } from 'zod'
 import { ErrorCodes, type FieldError } from '@/lib/api-error'
 import type { EvidenceRelevance } from '@/lib/types'
@@ -87,16 +87,15 @@ export async function GET(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return errorResponse(
         'Please sign in to view evidence',
         ErrorCodes.UNAUTHORIZED,
         401
       )
     }
+    const supabase = getSupabase()
 
     // Verify case exists and user has access
     const { data: caseData, error: caseError } = await supabase
@@ -182,17 +181,15 @@ export async function POST(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
-
-    // Check authentication
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return errorResponse(
         'Please sign in to link evidence',
         ErrorCodes.UNAUTHORIZED,
         401
       )
     }
+    const supabase = getSupabase()
 
     // Verify case exists
     const { data: caseData, error: caseError } = await supabase

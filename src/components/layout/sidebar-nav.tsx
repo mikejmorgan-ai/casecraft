@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { SignOutButton } from '@clerk/nextjs'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -250,9 +251,8 @@ export function SidebarNav({ user, userRole = 'attorney' }: SidebarNavProps) {
             </div>
           )}
 
-          <form action="/auth/signout" method="POST">
+          <SignOutButton>
             <Button
-              type="submit"
               variant="ghost"
               size={collapsed ? 'icon' : 'default'}
               className={cn(
@@ -263,7 +263,7 @@ export function SidebarNav({ user, userRole = 'attorney' }: SidebarNavProps) {
               <LogOut className="h-5 w-5" />
               {!collapsed && <span className="ml-3">Sign Out</span>}
             </Button>
-          </form>
+          </SignOutButton>
         </div>
 
         {/* Collapse Toggle (Desktop only) */}

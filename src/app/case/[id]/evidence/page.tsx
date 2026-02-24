@@ -1,4 +1,4 @@
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { redirect, notFound } from 'next/navigation'
 import { cookies } from 'next/headers'
 import Link from 'next/link'
@@ -14,14 +14,10 @@ export default async function EvidencePage({
   const cookieStore = await cookies()
   const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  let user: any = null
-
   try {
-    const supabase = await createServerSupabase()
-    const { data } = await supabase.auth.getUser()
-    user = data.user
-    if (!user && !hasBetaBypass) redirect('/login')
+    const userId = await getAuthUserId()
+    if (!userId && !hasBetaBypass) redirect('/login')
+    const supabase = getSupabase()
 
     // Fetch case with related data
     const { data: caseData, error: caseError } = await supabase

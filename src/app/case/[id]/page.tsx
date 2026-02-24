@@ -1,4 +1,4 @@
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { redirect, notFound } from 'next/navigation'
 import { cookies } from 'next/headers'
 import Link from 'next/link'
@@ -63,16 +63,14 @@ export default async function CaseDetailPage({
   const cookieStore = await cookies()
   const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  let user: any = null
+  let userId: string | null = null
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let caseData: any = null
 
   try {
-    const supabase = await createServerSupabase()
-    const { data } = await supabase.auth.getUser()
-    user = data.user
-    if (!user && !hasBetaBypass) redirect('/login')
+    userId = await getAuthUserId()
+    if (!userId && !hasBetaBypass) redirect('/login')
+    const supabase = getSupabase()
 
     const { data: caseResult, error } = await supabase
       .from('cases')
@@ -134,7 +132,7 @@ export default async function CaseDetailPage({
               <CaseSharing
                 caseId={id}
                 caseName={caseData.name}
-                isOwner={user ? caseData.user_id === user.id : false}
+                isOwner={userId ? caseData.user_id === userId : false}
               />
               <ExportCaseButton
                 caseId={id}

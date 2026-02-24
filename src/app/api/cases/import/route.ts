@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { z } from 'zod'
 import { AGENT_ROLE_TEMPLATES } from '@/lib/ai/prompts'
 import { ErrorCodes } from '@/lib/api-error'
@@ -105,17 +105,15 @@ function detectDocType(filename: string): string {
  */
 export async function POST(request: NextRequest) {
   try {
-    const supabase = await createServerSupabase()
-
-    // Check authentication
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return errorResponse(
         'Please sign in to import a case',
         ErrorCodes.UNAUTHORIZED,
         401
       )
     }
+    const supabase = getSupabase()
 
     // Parse multipart form data
     let formData: FormData
@@ -216,7 +214,7 @@ export async function POST(request: NextRequest) {
       .from('cases')
       .insert({
         ...caseInfoResult.data,
-        user_id: user.id,
+        user_id: userId,
       })
       .select()
       .single()
