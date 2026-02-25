@@ -1,0 +1,109 @@
+From db7c13329c49887cc55d1be46859ea036479099f Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Wed, 25 Feb 2026 00:34:28 +0000
+Subject: [PATCH] Fix critical security vulnerabilities
+
+- Prevent open redirect in OAuth callback by validating the `next`
+  parameter (must start with / and not //)
+- Block self-assigning admin role at signup: validate requested role
+  against allowlist in handle_new_user() trigger
+- Change default role from attorney to client (least privilege) in
+  both DB default and check-permission.ts fallback
+- Gate beta_bypass cookie to NODE_ENV=development only
+
+https://claude.ai/code/session_017MjmHJM8NC2VZYKhegu9uN
+---
+ src/app/auth/callback/route.ts   |  4 +++-
+ src/lib/auth/check-permission.ts |  4 ++--
+ src/middleware.ts                |  3 ++-
+ supabase/migrations/004_rbac.sql | 16 ++++++++++++++--
+ 4 files changed, 21 insertions(+), 6 deletions(-)
+
+diff --git a/src/app/auth/callback/route.ts b/src/app/auth/callback/route.ts
+index ba8740a..1e85c43 100644
+--- a/src/app/auth/callback/route.ts
++++ b/src/app/auth/callback/route.ts
+@@ -24,7 +24,9 @@ import { NextResponse } from 'next/server'
+ export async function GET(request: Request) {
+   const { searchParams, origin } = new URL(request.url)
+   const code = searchParams.get('code')
+-  const next = searchParams.get('next') ?? '/dashboard'
++  // Validate redirect path to prevent open redirects
++  const rawNext = searchParams.get('next') ?? '/dashboard'
++  const next = rawNext.startsWith('/') && !rawNext.startsWith('//') ? rawNext : '/dashboard'
+   const error = searchParams.get('error')
+   const errorDescription = searchParams.get('error_description')
+ 
+diff --git a/src/lib/auth/check-permission.ts b/src/lib/auth/check-permission.ts
+index 7fa057f..c00030b 100644
+--- a/src/lib/auth/check-permission.ts
++++ b/src/lib/auth/check-permission.ts
+@@ -21,11 +21,11 @@ export async function getUserProfile(): Promise<UserProfile | null> {
+     return profile as UserProfile
+   }
+ 
+-  // Fallback: Return basic profile with default role
++  // Fallback: Return basic profile with least-privilege default role
+   // This handles users created before RBAC migration
+   return {
+     id: user.id,
+-    role: 'attorney' as UserRole, // Default role
++    role: 'client' as UserRole, // Least-privilege default
+     onboarding_completed: false,
+     preferences: {},
+     created_at: user.created_at,
+diff --git a/src/middleware.ts b/src/middleware.ts
+index e0bb75f..42de7bf 100644
+--- a/src/middleware.ts
++++ b/src/middleware.ts
+@@ -27,7 +27,8 @@ export async function middleware(request: NextRequest) {
+     }
+   )
+ 
+-  const hasBetaBypass = request.cookies.get('beta_bypass')?.value === 'true'
++  const hasBetaBypass = process.env.NODE_ENV === 'development' &&
++    request.cookies.get('beta_bypass')?.value === 'true'
+ 
+   // Protected routes
+   const protectedPaths = ['/dashboard', '/case']
+diff --git a/supabase/migrations/004_rbac.sql b/supabase/migrations/004_rbac.sql
+index c5f5eb8..b47f16f 100644
+--- a/supabase/migrations/004_rbac.sql
++++ b/supabase/migrations/004_rbac.sql
+@@ -7,7 +7,7 @@ CREATE TYPE user_role AS ENUM ('attorney', 'paralegal', 'client', 'admin', 'rese
+ -- Create user profiles table (extends auth.users)
+ CREATE TABLE IF NOT EXISTS user_profiles (
+   id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
+-  role user_role NOT NULL DEFAULT 'attorney',
++  role user_role NOT NULL DEFAULT 'client',
+   full_name VARCHAR(255),
+   phone VARCHAR(50),
+   bar_number VARCHAR(50), -- For attorneys
+@@ -177,11 +177,23 @@ CREATE POLICY "Users can view own and shared cases"
+ -- Function to automatically create user profile on signup
+ CREATE OR REPLACE FUNCTION handle_new_user()
+ RETURNS TRIGGER AS $$
++DECLARE
++  v_requested_role TEXT;
++  v_allowed_roles TEXT[] := ARRAY['attorney', 'paralegal', 'client', 'researcher'];
++  v_role user_role;
+ BEGIN
++  v_requested_role := NEW.raw_user_meta_data->>'role';
++  -- Only allow non-admin roles from user metadata; default to client (least privilege)
++  IF v_requested_role IS NOT NULL AND v_requested_role = ANY(v_allowed_roles) THEN
++    v_role := v_requested_role::user_role;
++  ELSE
++    v_role := 'client'::user_role;
++  END IF;
++
+   INSERT INTO user_profiles (id, role, terms_accepted_at)
+   VALUES (
+     NEW.id,
+-    COALESCE((NEW.raw_user_meta_data->>'role')::user_role, 'attorney'),
++    v_role,
+     (NEW.raw_user_meta_data->>'terms_accepted_at')::TIMESTAMPTZ
+   );
+   RETURN NEW;
+-- 
+2.43.0
+
