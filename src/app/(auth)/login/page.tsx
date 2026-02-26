@@ -11,8 +11,7 @@ function LoginPage() {
             card: 'bg-card border-border shadow-lg',
           },
         }}
-        routing="path"
-        path="/login"
+        routing="hash"
         signUpUrl="/signup"
         fallbackRedirectUrl="/dashboard"
       />

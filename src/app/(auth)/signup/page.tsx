@@ -10,8 +10,7 @@ export default function SignupPage() {
             card: 'bg-card border-border shadow-lg',
           },
         }}
-        routing="path"
-        path="/signup"
+        routing="hash"
         signInUrl="/login"
         fallbackRedirectUrl="/dashboard"
       />
