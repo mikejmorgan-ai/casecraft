@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
     "*.replit.dev",
     "*.spock.replit.dev",
   ],
+  turbopack: {},
   webpack: (config) => {
     const setCssLoaderUrlFalse = (obj: any) => {
       if (!obj || typeof obj !== 'object') return;
