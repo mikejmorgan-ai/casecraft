@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-CaseCraft is an AI-powered legal simulation platform built with Next.js 15, React 19, TypeScript, Supabase, and OpenAI. The codebase is well-structured and demonstrates strong architectural choices, but has several issues that need attention before production use:
+CaseCraft is an AI-powered legal simulation platform built with Next.js 16.1.5, React 19, TypeScript, Supabase, and OpenAI. The codebase is well-structured and demonstrates strong architectural choices, but has several issues that need attention before production use:
 
 | Category | Severity | Count |
 |----------|----------|-------|
