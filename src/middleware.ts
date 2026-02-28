@@ -31,13 +31,16 @@ export async function middleware(request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser()
 
+  const hasBetaBypass = process.env.NODE_ENV === 'development' &&
+    request.cookies.get('beta_bypass')?.value === 'true'
+
   // Protected routes
   const protectedPaths = ['/dashboard', '/case']
   const isProtectedPath = protectedPaths.some(path =>
     request.nextUrl.pathname.startsWith(path)
   )
 
-  if (isProtectedPath && !user) {
+  if (isProtectedPath && !user && !hasBetaBypass) {
     const url = request.nextUrl.clone()
     url.pathname = '/login'
     return NextResponse.redirect(url)
