@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { ArrowLeft, Users, FileText, MessageSquare, Scale, ClipboardList, Gavel } from 'lucide-react'
+import { ArrowLeft, Users, FileText, MessageSquare, Scale, ClipboardList, Gavel, Shield } from 'lucide-react'
 import { AgentsList } from '@/components/agents/agents-list'
 import { DocumentsList } from '@/components/documents/documents-list'
 import { DocumentUpload } from '@/components/documents/document-upload'
@@ -203,6 +203,28 @@ export default async function CaseDetailPage({
               <div className="md:col-span-2">
                 <TurboSimulator caseId={id} />
               </div>
+
+              {/* Rule 26 Quick Link */}
+              <Card className="md:col-span-2">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Shield className="h-5 w-5" />
+                    Rule 26 Discovery Management
+                  </CardTitle>
+                  <CardDescription>
+                    Track disclosure obligations, manage deadlines, and maintain compliance with
+                    FRCP 26 or URCP 26 requirements
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <Link href={`/case/${id}/rule26`}>
+                    <Button className="gap-2">
+                      <Scale className="h-4 w-4" />
+                      Open Rule 26 Dashboard
+                    </Button>
+                  </Link>
+                </CardContent>
+              </Card>
             </div>
           </TabsContent>
 

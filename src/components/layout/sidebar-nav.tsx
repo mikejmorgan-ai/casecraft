@@ -46,6 +46,7 @@ const secondaryItems = [
   { href: '/import-test', label: 'Import Test Case', icon: Upload },
   { href: '/dashboard/timeline', label: 'Timeline', icon: History },
   { href: '/dashboard/discovery', label: 'Discovery', icon: Search },
+  { href: '/dashboard/rule26', label: 'Rule 26', icon: Gavel },
 ]
 
 export function SidebarNav({ user }: SidebarNavProps) {

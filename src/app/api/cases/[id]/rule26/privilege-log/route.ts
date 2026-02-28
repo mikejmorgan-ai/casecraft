@@ -1,0 +1,219 @@
+import { NextRequest, NextResponse } from 'next/server'
+import { createServerSupabase } from '@/lib/supabase/server'
+import { createPrivilegeLogSchema, updatePrivilegeLogSchema } from '@/lib/validations/discovery'
+import { z } from 'zod'
+
+function zodErrorToFieldErrors(error: z.ZodError) {
+  return error.issues.map((issue: z.ZodIssue) => ({
+    field: issue.path.join('.') || 'unknown',
+    message: issue.message,
+    code: issue.code,
+  }))
+}
+
+function errorResponse(
+  error: string,
+  code: string,
+  statusCode: number,
+  options?: { fieldErrors?: { field: string; message: string; code?: string }[]; details?: string }
+) {
+  return NextResponse.json(
+    {
+      error,
+      code,
+      message: error,
+      fieldErrors: options?.fieldErrors,
+      details: options?.details,
+      timestamp: new Date().toISOString(),
+    },
+    { status: statusCode }
+  )
+}
+
+// GET /api/cases/[id]/rule26/privilege-log — Fetch all privilege log entries for case
+export async function GET(
+  request: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  try {
+    const { id: caseId } = await params
+    const supabase = await createServerSupabase()
+
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) {
+      return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
+    }
+
+    const { data: caseData } = await supabase
+      .from('cases')
+      .select('id')
+      .eq('id', caseId)
+      .single()
+
+    if (!caseData) {
+      return errorResponse('Case not found', 'CASE_NOT_FOUND', 404)
+    }
+
+    const { data, error } = await supabase
+      .from('privilege_log_entries')
+      .select('*')
+      .eq('case_id', caseId)
+      .order('created_at', { ascending: true })
+
+    if (error) {
+      return errorResponse(error.message, 'DATABASE_ERROR', 500)
+    }
+
+    return NextResponse.json(data)
+  } catch (err) {
+    console.error('GET /api/cases/[id]/rule26/privilege-log error:', err)
+    return errorResponse('Internal server error', 'INTERNAL_ERROR', 500)
+  }
+}
+
+// POST /api/cases/[id]/rule26/privilege-log — Create a new privilege log entry
+export async function POST(
+  request: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  try {
+    const { id: caseId } = await params
+    const supabase = await createServerSupabase()
+
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) {
+      return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
+    }
+
+    const { data: caseData } = await supabase
+      .from('cases')
+      .select('id')
+      .eq('id', caseId)
+      .single()
+
+    if (!caseData) {
+      return errorResponse('Case not found', 'CASE_NOT_FOUND', 404)
+    }
+
+    let body
+    try {
+      body = await request.json()
+    } catch {
+      return errorResponse('Invalid JSON body', 'INVALID_INPUT', 400)
+    }
+
+    const parsed = createPrivilegeLogSchema.safeParse(body)
+    if (!parsed.success) {
+      return errorResponse('Validation error', 'VALIDATION_ERROR', 400, {
+        fieldErrors: zodErrorToFieldErrors(parsed.error),
+      })
+    }
+
+    const { data, error } = await supabase
+      .from('privilege_log_entries')
+      .insert({ ...parsed.data, case_id: caseId })
+      .select()
+      .single()
+
+    if (error) {
+      return errorResponse(error.message, 'DATABASE_ERROR', 500)
+    }
+
+    return NextResponse.json(data, { status: 201 })
+  } catch (err) {
+    console.error('POST /api/cases/[id]/rule26/privilege-log error:', err)
+    return errorResponse('Internal server error', 'INTERNAL_ERROR', 500)
+  }
+}
+
+// PATCH /api/cases/[id]/rule26/privilege-log?entryId=xxx — Update a privilege log entry
+export async function PATCH(
+  request: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  try {
+    const { id: caseId } = await params
+    const supabase = await createServerSupabase()
+
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) {
+      return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
+    }
+
+    const { searchParams } = new URL(request.url)
+    const entryId = searchParams.get('entryId')
+
+    if (!entryId) {
+      return errorResponse('Entry ID is required', 'MISSING_PARAM', 400)
+    }
+
+    let body
+    try {
+      body = await request.json()
+    } catch {
+      return errorResponse('Invalid JSON body', 'INVALID_INPUT', 400)
+    }
+
+    const parsed = updatePrivilegeLogSchema.safeParse(body)
+    if (!parsed.success) {
+      return errorResponse('Validation error', 'VALIDATION_ERROR', 400, {
+        fieldErrors: zodErrorToFieldErrors(parsed.error),
+      })
+    }
+
+    const { data, error } = await supabase
+      .from('privilege_log_entries')
+      .update({ ...parsed.data, updated_at: new Date().toISOString() })
+      .eq('id', entryId)
+      .eq('case_id', caseId)
+      .select()
+      .single()
+
+    if (error) {
+      return errorResponse(error.message, 'DATABASE_ERROR', 500)
+    }
+
+    return NextResponse.json(data)
+  } catch (err) {
+    console.error('PATCH /api/cases/[id]/rule26/privilege-log error:', err)
+    return errorResponse('Internal server error', 'INTERNAL_ERROR', 500)
+  }
+}
+
+// DELETE /api/cases/[id]/rule26/privilege-log?entryId=xxx — Delete a privilege log entry
+export async function DELETE(
+  request: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  try {
+    const { id: caseId } = await params
+    const supabase = await createServerSupabase()
+
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) {
+      return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
+    }
+
+    const { searchParams } = new URL(request.url)
+    const entryId = searchParams.get('entryId')
+
+    if (!entryId) {
+      return errorResponse('Entry ID is required', 'MISSING_PARAM', 400)
+    }
+
+    const { error } = await supabase
+      .from('privilege_log_entries')
+      .delete()
+      .eq('id', entryId)
+      .eq('case_id', caseId)
+
+    if (error) {
+      return errorResponse(error.message, 'DATABASE_ERROR', 500)
+    }
+
+    return NextResponse.json({ success: true })
+  } catch (err) {
+    console.error('DELETE /api/cases/[id]/rule26/privilege-log error:', err)
+    return errorResponse('Internal server error', 'INTERNAL_ERROR', 500)
+  }
+}
