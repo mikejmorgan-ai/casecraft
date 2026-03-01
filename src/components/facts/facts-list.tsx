@@ -2,10 +2,9 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
 import { Switch } from '@/components/ui/switch'
@@ -215,12 +214,12 @@ function AddFactDialog({ caseId, documents }: { caseId: string; documents: Docum
           {documents.length > 0 && (
             <div className="grid gap-2">
               <Label>Source Document (optional)</Label>
-              <Select value={sourceDocId || ''} onValueChange={(v) => setSourceDocId(v || null)}>
+              <Select value={sourceDocId || 'none'} onValueChange={(v) => setSourceDocId(v === 'none' ? null : v)}>
                 <SelectTrigger id="select-fact-source">
                   <SelectValue placeholder="Select source document" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">None</SelectItem>
+                  <SelectItem value="none">None</SelectItem>
                   {documents.map((doc) => (
                     <SelectItem key={doc.id} value={doc.id}>
                       {doc.name}

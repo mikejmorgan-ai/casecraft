@@ -1,0 +1,8 @@
+Event
+Start Date: 2022-08-24 12:00:00 -0600
+End Date: 2022-08-24 13:00:00 -0600
+Date Created: 2022-08-23 09:27:59 -0600
+Date Modified: 2022-09-21 11:50:18 -0600
+Attendee: Kade Moncur <KMoncur@slco.org>
+
+

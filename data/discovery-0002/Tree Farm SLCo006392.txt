@@ -1,0 +1,12 @@
+Event: Accepted: Tree Farm/Parleys Canyon Mine Application
+Start Date: 2022-01-14 14:00:00 -0700
+End Date: 2022-01-14 14:30:00 -0700
+Location: Webex
+Class: X-PERSONAL
+Date Created: 2022-01-12 22:17:22 -0700
+Date Modified: 2022-01-12 22:17:24 -0700
+Priority: 5
+DTSTAMP: 2022-01-12 22:17:22 -0700
+Attendee: Catherine Kanter <CKanter@slco.org>
+
+

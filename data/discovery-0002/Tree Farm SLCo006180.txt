@@ -1,0 +1,12 @@
+Event: Accepted: Discussion of Parleys Canyon Limestone Quarry Application
+Start Date: 2021-11-29 08:00:00 -0700
+End Date: 2021-11-29 09:00:00 -0700
+Location: WebEx
+Class: X-PERSONAL
+Date Created: 2021-11-24 16:04:25 -0700
+Date Modified: 2021-11-24 16:04:25 -0700
+Priority: 5
+DTSTAMP: 2021-11-24 16:04:25 -0700
+Attendee: Catherine Kanter <CKanter@slco.org>
+
+

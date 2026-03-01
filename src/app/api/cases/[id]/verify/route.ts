@@ -1,23 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { searchAll } from '@/lib/pinecone/search'
 import OpenAI from 'openai'
 
 const openai = new OpenAI()
 
 export const maxDuration = 120
-
-interface VerificationResult {
-  claim: string
-  status: 'verified' | 'contradicted' | 'unverified' | 'partially_verified'
-  confidence: number
-  sources: Array<{
-    document: string
-    excerpt: string
-    relevance: number
-  }>
-  notes: string
-}
 
 const VERIFICATION_PROMPT = `You are a legal fact-checker with zero tolerance for hallucination. Your job is to verify claims against provided source documents.
 
@@ -68,12 +56,11 @@ export async function POST(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
+    const supabase = getSupabase()
 
     const body = await request.json()
     const { claims } = body

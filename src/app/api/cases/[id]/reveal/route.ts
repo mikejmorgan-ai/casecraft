@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import OpenAI from 'openai'
 
 const openai = new OpenAI()
@@ -32,12 +32,11 @@ export async function POST(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
+    const supabase = getSupabase()
 
     // Get case with actual ruling
     const { data: caseData, error: caseError } = await supabase
@@ -63,7 +62,7 @@ export async function POST(
       .from('case_predictions')
       .select('*')
       .eq('case_id', caseId)
-      .eq('user_id', user.id)
+      .eq('user_id', userId)
       .order('created_at', { ascending: false })
 
     if (predError || !predictions?.length) {

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerSupabase, createServiceSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { generateEmbeddingsBatch, chunkText } from '@/lib/ai/embeddings'
 
 export const maxDuration = 60
@@ -10,13 +10,11 @@ export async function POST(
 ) {
   try {
     const { id: caseId, docId } = await params
-    const supabase = await createServerSupabase()
-    const serviceSupabase = createServiceSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
+    const supabase = getSupabase()
 
     // Verify case ownership
     const { data: caseData } = await supabase
@@ -45,7 +43,7 @@ export async function POST(
     }
 
     // Delete existing chunks
-    await serviceSupabase
+    await supabase
       .from('document_chunks')
       .delete()
       .eq('document_id', docId)
@@ -86,7 +84,7 @@ export async function POST(
     }
 
     // Insert chunks using service role (bypasses RLS for vector column)
-    const { error: insertError } = await serviceSupabase
+    const { error: insertError } = await supabase
       .from('document_chunks')
       .insert(allChunks)
 

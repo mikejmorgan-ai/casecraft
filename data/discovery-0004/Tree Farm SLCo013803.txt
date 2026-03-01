@@ -1,0 +1,45 @@
+Event
+Start Date: 2022-02-23 12:00:00 -0700
+End Date: 2022-02-23 13:00:00 -0700
+Class: X-PERSONAL
+Date Created: 2022-08-31 11:16:05 -0600
+Date Modified: 2025-05-11 03:58:11 -0600
+Priority: 5
+
+-- Do not delete or change any of the following text. --
+
+When it's time, join your Webex meeting here.
+
+Join meeting
+More ways to join:
+Join from the meeting link
+
+https://slco.webex.com/slco/j.php?MTID=m89fedef47724f7ae3601b63a629ee800
+
+Join by meeting number
+
+Meeting number (access code): 2491 431 4282
+Meeting password: nUSM7ABj7M7
+Tap to join from a mobile device (attendees only)
+
++1-213-306-3065,,24914314282## United States Toll (Los Angeles)
++1-602-666-0783,,24914314282## United States Toll (Phoenix)
+Join by phone
+
++1-213-306-3065 United States Toll (Los Angeles)
++1-602-666-0783 United States Toll (Phoenix)
+Global call-in numbers
+Join from a video system or application
+
+Dial 24914314282@slco.webex.com
+You can also dial 173.243.2.68 and enter your meeting number.
+
+Join using Microsoft Lync or Microsoft Skype for Business
+
+Dial 24914314282.slco@lync.webex.com
+
+If you are a host, click here to view host information.
+
+Need help? Go to https://help.webex.com
+
+

@@ -1,0 +1,11 @@
+Event: Accepted: Tree Farm Business License application
+Start Date: 2021-12-14 14:30:00 -0700
+End Date: 2021-12-14 15:00:00 -0700
+Class: X-PERSONAL
+Date Created: 2021-12-14 12:21:09 -0700
+Date Modified: 2022-02-20 13:57:43 -0700
+Priority: 5
+DTSTAMP: 2021-12-14 12:21:05 -0700
+Attendee: Zachary Shaw <ZShaw@slco.org>
+
+

@@ -1,0 +1,23 @@
+Event: Meeting Forward Notification: Tree Farm
+Start Date: 2022-03-22 13:00:00 -0600
+End Date: 2022-03-22 14:00:00 -0600
+Organizer: Abigail Roberson <ARoberson@slco.org>
+Location: In Person - Mayor's Large Conference Room
+Class: X-PERSONAL
+Date Created: 2022-03-22 10:04:31 -0600
+Date Modified: 2022-03-22 11:52:23 -0600
+Priority: 5
+DTSTAMP: 2022-03-22 10:00:05 -0600
+Attendee: Lisa Hartman <LHartman@slco.org>
+Your meeting was forwarded
+Abigail Roberson has forwarded your meeting request to additional recipients.
+Meeting
+Tree Farm
+Meeting Time
+Tuesday, 22 March 2022 13:00-14:00.
+Recipients
+Jenny Wilson
+All times listed are in the following time zone: (UTC-07:00) Mountain Time (US & Canada)
+Sent by Microsoft Exchange Server
+
+

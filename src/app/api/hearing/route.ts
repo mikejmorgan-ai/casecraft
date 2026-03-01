@@ -1,5 +1,5 @@
 import { NextRequest } from 'next/server'
-import { createServerSupabase, createServiceSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { openai } from '@ai-sdk/openai'
 import { generateText } from 'ai'
 import {
@@ -8,9 +8,7 @@ import {
   getNextSpeaker,
   getCurrentPhase,
   buildHearingPrompt,
-  PHASE_PROMPTS,
 } from '@/lib/hearing/orchestrator'
-import { buildAgentSystemPrompt } from '@/lib/ai/prompts'
 import type { AgentRole } from '@/lib/types'
 
 export const maxDuration = 300 // 5 minutes for full hearing
@@ -26,12 +24,11 @@ interface HearingTurn {
 
 export async function POST(request: NextRequest) {
   try {
-    const supabase = await createServerSupabase()
-    const { data: { user } } = await supabase.auth.getUser()
-
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return new Response('Unauthorized', { status: 401 })
     }
+    const supabase = getSupabase()
 
     const {
       case_id,

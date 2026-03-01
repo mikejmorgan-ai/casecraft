@@ -31,9 +31,7 @@ interface StrengthAnalysis {
 }
 
 export function CaseStrengthMeter({
-  caseId,
   facts,
-  caseName,
   plaintiffName = 'Plaintiff',
   defendantName = 'Defendant',
 }: CaseStrengthMeterProps) {
@@ -180,8 +178,9 @@ export function CaseStrengthMeter({
 
   useEffect(() => {
     if (facts.length > 0 && !analysis) {
-      analyzeCase()
+      setTimeout(() => analyzeCase(), 0)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [facts])
 
   const getScoreColor = (score: number) => {

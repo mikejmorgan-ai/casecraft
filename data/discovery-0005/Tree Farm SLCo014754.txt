@@ -1,0 +1,15 @@
+Event
+Start Date: 2022-08-24 12:00:00 -0600
+End Date: 2022-08-24 13:00:00 -0600
+Class: X-PERSONAL
+Date Created: 2022-08-31 11:16:15 -0600
+Date Modified: 2025-05-14 20:04:11 -0600
+Priority: 5
+Attendee: Catherine Kanter <CKanter@slco.org>; Dina Blaes <DBlaes@slco.org>; Michael Shea
+<MShea@slco.org>; William G. Garbina <WGarbina@slco.org>; Melinda Bowen
+<MBowen@slco.org>; Zachary Shaw <ZShaw@slco.org>; Tim Bywater <TBywater@slco.org>;
+Ralph Chamness <RChamness@slco.org>; Helen Peters <HPeters@slco.org>; Scott Baird
+<SBaird@slco.org>; Lisa Hartman <LHartman@slco.org>; Justin Stewart <JCStewart@slco.org>;
+Kade Moncur <KMoncur@slco.org>
+
+

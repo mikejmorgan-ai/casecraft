@@ -1,0 +1,47 @@
+Event
+Start Date: 2022-10-14 16:15:00 -0600
+End Date: 2022-10-14 17:00:00 -0600
+Organizer: Schedule Mayor <ScheduleMayor@slco.org>
+Location: Webex; https://slco.webex.com/slco/j.php?
+MTID=m8a8fb75c2f865dc4c3f6d047dde27e94
+Class: X-PERSONAL
+Date Created: 2024-08-15 14:11:16 -0600
+Date Modified: 2024-08-15 14:11:16 -0600
+Priority: 5
+DTSTAMP: 2022-10-14 15:42:46 -0600
+Attendee: Jenny Wilson <JWilson@slco.org>; Erin Litvack <ELitvack@slco.org>; Abigail Roberson
+<ARoberson@slco.org>
+
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-- Do not delete or change any of the following text. --
+
+When it's time, join your Webex meeting here.
+
+Join meeting
+More ways to join:
+Join from the meeting link
+
+https://slco.webex.com/slco/j.php?MTID=m8a8fb75c2f865dc4c3f6d047dde27e94
+Join by meeting number
+
+Meeting number (access code): 2487 045 6079
+Meeting password: ANmDcQfU226
+Tap to join from a mobile device (attendees only)
+
++1-213-306-3065,,24870456079## United States Toll (Los Angeles)
++1-602-666-0783,,24870456079## United States Toll (Phoenix)
+Join by phone
+
++1-213-306-3065 United States Toll (Los Angeles)
+
++1-602-666-0783 United States Toll (Phoenix)
+Global call-in numbers
+Join from a video system or application
+
+Dial 24870456079@slco.webex.com
+You can also dial 173.243.2.68 and enter your meeting number.
+
+If you are a host, click here to view host information.
+
+Need help? Go to https://help.webex.com
+
+

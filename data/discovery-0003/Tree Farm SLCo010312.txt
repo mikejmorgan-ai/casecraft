@@ -1,0 +1,62 @@
+Required Rulemaking
+Utah Division of Oil, Gas, and Mining
+Natasha Ballif
+
+Basalt Definition
+Updating the definition to reflect 2021 legislation changes
+
+• R647-1-106
+– “Basalt” (a) means fine-grained [dark-colored igneous rock associated with
+a lava flow or igneous intrusion composed primarily of plagioclase and
+pyroxene]mafic igneous rock formed in the tertiary or quaternary periods.
+(b) A Utah Geological Survey or [the]a United States Geological Survey
+published [maps that classify]map that classified material as “basalt” is
+prima facie evidence that the material meets the requirements of
+Subsection (a). An unmapped area [can]may be classified by a Utah
+Geological Survey geologist or a [licensed] professional geologist licensed
+in the state.
+
+Form 15 Submittal Timeframe
+Changing form submittal from 90 days to 180 days
+• R649-3-23
+–
+
+6. For the purpose of qualifying for a tax credit under Utah Code Ann. Section 59-5-102(7), the
+operator on his behalf and on behalf of each working interest owner must file a request with the
+division on Form 15, Designation of Workover or Recompletion. The request must be filed within
+[90]180 days after completing the workover or recompletion operations.
+
+• R649-8-17
+–
+
+1. In accordance with Rule R649-3-23, each operator desiring to claim a tax credit for workover or
+recompletion work performed must submit this report within [90]180 days after the workover or
+recompletion work is completed. Upon determination and notification by the division that the
+described work qualifies for a tax credit under this rule, the operator may claim the tax credit on
+reports submitted to the Tax Commission during the third quarter after completion of the work.
+
+Class IV Injection Well Comment Period
+Changing comment timeframe from 15 days to 30 days
+• R649-5-3
+– 3. If no written objection to the application for administrative approval of an injection
+well is received by the division within [15]30 days after the publication of the notice of
+agency action, or an aquifer exemption is not required in accordance with Section
+R649-5-4, and a board hearing is not otherwise required, the application may be
+considered and approved administratively.
+– 4. If a written objection to an application for administrative approval of an injection
+well is received by the division within [15]30 days after publication of the notice of
+application, or if a hearing is required by these rules or deemed advisable by the
+director, the application shall be set for notice and hearing by the board.
+
+Form 10 Monthly Submittal Process
+Change
+Changing Form 10 to be submitted electronically
+
+• R649-8-11
+– 1. [The division will provide this report monthly to operators of all oil and gas wells
+within the state. Each operator shall complete the form to properly account for all oil,
+gas, and water produced from each well.]Each operator is required to electronically
+submit Form 10 monthly to properly account for all oil, gas, and water produced from
+each well. The form may be found on the division’s oil and gas website.
+
+

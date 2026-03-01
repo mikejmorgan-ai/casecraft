@@ -1,5 +1,6 @@
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { redirect, notFound } from 'next/navigation'
+import { cookies } from 'next/headers'
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
@@ -13,6 +14,8 @@ const CONV_TYPE_LABELS: Record<ConversationType, string> = {
   strategy_session: 'Strategy Session',
   research: 'Research',
   general: 'General',
+  statutory_quiz: 'Statutory Quiz',
+  voice_call: 'Voice Call',
 }
 
 export default async function ConversationPage({
@@ -21,29 +24,45 @@ export default async function ConversationPage({
   params: Promise<{ id: string; convId: string }>
 }) {
   const { id: caseId, convId } = await params
-  const supabase = await createServerSupabase()
+  const cookieStore = await cookies()
+  const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) redirect('/login')
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let caseData: any = null
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let conversation: any = null
 
-  // Fetch case with agents
-  const { data: caseData } = await supabase
-    .from('cases')
-    .select('*, agents(*)')
-    .eq('id', caseId)
-    .single()
+  try {
+    const userId = await getAuthUserId()
+    if (!userId && !hasBetaBypass) redirect('/login')
+    const supabase = getSupabase()
 
-  if (!caseData) notFound()
+    // Fetch case with agents
+    const { data: caseResult } = await supabase
+      .from('cases')
+      .select('*, agents(*)')
+      .eq('id', caseId)
+      .single()
 
-  // Fetch conversation with messages
-  const { data: conversation } = await supabase
-    .from('conversations')
-    .select('*, messages(*)')
-    .eq('id', convId)
-    .eq('case_id', caseId)
-    .single()
+    if (!caseResult) notFound()
+    caseData = caseResult
 
-  if (!conversation) notFound()
+    // Fetch conversation with messages
+    const { data: convResult } = await supabase
+      .from('conversations')
+      .select('*, messages(*)')
+      .eq('id', convId)
+      .eq('case_id', caseId)
+      .single()
+
+    if (!convResult) notFound()
+    conversation = convResult
+  } catch (err) {
+    if (!hasBetaBypass) redirect('/login')
+    notFound()
+  }
+
+  if (!caseData || !conversation) notFound()
 
   const activeAgents = caseData.agents?.filter((a: { is_active: boolean }) => a.is_active) || []
 

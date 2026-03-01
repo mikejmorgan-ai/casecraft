@@ -1,0 +1,12 @@
+Event: Accepted: Meeting re: Tree Farm
+Start Date: 2022-02-01 16:00:00 -0700
+End Date: 2022-02-01 17:00:00 -0700
+Organizer: Catherine Kanter <CKanter@slco.org>
+Location: Mayor's Office Large Conference Room (In Person)
+Class: X-PERSONAL
+Date Created: 2022-01-31 10:52:29 -0700
+Date Modified: 2022-06-23 18:34:52 -0600
+Priority: 5
+DTSTAMP: 2022-01-31 10:52:27 -0700
+
+

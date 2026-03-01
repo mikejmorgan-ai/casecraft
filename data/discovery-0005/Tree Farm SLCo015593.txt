@@ -1,0 +1,21 @@
+Event: Tree Farm NOI options
+Start Date: 2022-05-09 09:00:00 -0600
+End Date: 2022-05-09 09:30:00 -0600
+Organizer: Tim Bywater <TBywater@slco.org>
+Location: Virtual
+Class: X-PERSONAL
+Date Created: 2022-05-04 16:46:07 -0600
+Date Modified: 2023-01-13 21:28:25 -0700
+Priority: 5
+DTSTAMP: 2022-05-04 16:46:03 -0600
+Attendee: Ralph Chamness <RChamness@slco.org>; Zachary Shaw <ZShaw@slco.org>; Michael
+A. Zody <MZody@parsonsbehle.com>; Samantha Hawe <SHawe@parsonsbehle.com>
+Alarm: Display the following message 15m before start
+Reminder
+All,
+I’ve had computer issues this week and I can’t send a WebEx invite right now. I’ll be in my office tomorrow and
+will send an updated invite from there, but I wanted to get this out so you can block your calendars.
+Thanks,
+Tim
+
+

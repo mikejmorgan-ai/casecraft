@@ -110,6 +110,7 @@ export function DragDropUpload({ caseId, onUploadComplete }: DragDropUploadProps
     } else {
       processFiles(e.dataTransfer.files)
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [processFiles])
 
   const traverseDirectory = (dirEntry: FileSystemDirectoryEntry): Promise<File>[] => {
@@ -286,7 +287,7 @@ export function DragDropUpload({ caseId, onUploadComplete }: DragDropUploadProps
               ref={folderInputRef}
               type="file"
               multiple
-              // @ts-ignore - webkitdirectory is valid but not in types
+              // @ts-expect-error - webkitdirectory is valid but not in types
               webkitdirectory=""
               onChange={handleFileSelect}
               className="hidden"

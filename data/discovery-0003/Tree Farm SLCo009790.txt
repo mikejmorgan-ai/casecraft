@@ -1,0 +1,23 @@
+Event: Meeting Forward Notification: Meeting re: Tree Farm
+Start Date: 2022-02-01 16:00:00 -0700
+End Date: 2022-02-01 17:00:00 -0700
+Organizer: Gregory Baptist <GBaptist@msd.utah.gov>
+Location: Mayor's Office Large Conference Room (In Person)
+Class: X-PERSONAL
+Date Created: 2022-01-31 10:52:20 -0700
+Date Modified: 2022-06-23 18:34:52 -0600
+Priority: 5
+DTSTAMP: 2022-01-28 13:42:27 -0700
+Attendee: Catherine Kanter <CKanter@slco.org>
+Your meeting was forwarded
+Gregory Baptist has forwarded your meeting request to additional recipients.
+Meeting
+Meeting re: Tree Farm
+Meeting Time
+Tuesday, February 1, 2022 4:00 PM-5:00 PM.
+Recipients
+Melissa Anderson
+All times listed are in the following time zone: (UTC-07:00) Mountain Time (US & Canada)
+Sent by Microsoft Exchange Server
+
+

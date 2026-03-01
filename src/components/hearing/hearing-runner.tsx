@@ -120,6 +120,7 @@ export function HearingRunner({
     }
   }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const startHearing = async () => {
     setIsRunning(true)
     setTranscript([])
@@ -179,6 +180,7 @@ export function HearingRunner({
     }
   }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const stopHearing = () => {
     if (abortRef.current) {
       abortRef.current.abort()
@@ -218,7 +220,7 @@ export function HearingRunner({
     content += `\n${'='.repeat(60)}\n\n`
     content += `PROCEEDINGS:\n\n`
 
-    transcript.forEach((turn, i) => {
+    transcript.forEach((turn) => {
       const time = new Date(turn.timestamp).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit' })
       content += `[${time}] ${turn.agentName.toUpperCase()} (${turn.phase.replace('_', ' ')}):\n\n`
       content += `${turn.content}\n\n`
@@ -302,6 +304,7 @@ export function HearingRunner({
       description: 'Download PDF',
       category: 'hearing',
     },
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   ], [toggleHearing, toggleMute, transcript.length, isRunning, downloadPDF])
 
   useKeyboardShortcuts({ shortcuts: hearingShortcuts })

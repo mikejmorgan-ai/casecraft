@@ -1,11 +1,12 @@
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { redirect, notFound } from 'next/navigation'
+import { cookies } from 'next/headers'
 import Link from 'next/link'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
-import { ArrowLeft, Users, FileText, MessageSquare, Scale, ClipboardList, Gavel, Shield } from 'lucide-react'
+import { ArrowLeft, Users, FileText, MessageSquare, Scale, ClipboardList, Gavel, Shield, Search, Lightbulb, FolderSearch, BookOpen, ScrollText, Target as TargetIcon, FlaskConical, Bot, Filter } from 'lucide-react'
+import { CaseSharing } from '@/components/cases/case-sharing'
 import { AgentsList } from '@/components/agents/agents-list'
 import { DocumentsList } from '@/components/documents/documents-list'
 import { DocumentUpload } from '@/components/documents/document-upload'
@@ -21,6 +22,20 @@ import { ExportCaseButton } from '@/components/cases/export-case-button'
 import { BlindPrediction } from '@/components/predictions/blind-prediction'
 import { Target } from 'lucide-react'
 import type { CaseStatus, CaseType, Case, Agent, Document, CaseFact } from '@/lib/types'
+
+const CASE_NAV_SECTIONS = (caseId: string) => [
+  { label: 'Overview', href: `/case/${caseId}`, icon: Scale, isActive: true },
+  { label: 'Claims', href: `/case/${caseId}/claims`, icon: Shield },
+  { label: 'Evidence', href: `/case/${caseId}/evidence`, icon: Search },
+  { label: 'Key Findings', href: `/case/${caseId}/findings`, icon: Lightbulb },
+  { label: 'Discovery', href: `/case/${caseId}/discovery`, icon: FolderSearch },
+  { label: 'Motions', href: `/case/${caseId}/motions`, icon: Gavel },
+  { label: 'Briefs', href: `/case/${caseId}/briefs`, icon: BookOpen },
+  { label: 'Statutes', href: `/case/${caseId}/statutes`, icon: ScrollText },
+  { label: 'Filters', href: `/case/${caseId}/filters`, icon: Filter },
+  { label: 'Blind Test', href: `/case/${caseId}/blind-test`, icon: FlaskConical },
+  { label: 'Rule 26', href: `/case/${caseId}/rule26`, icon: Scale },
+]
 
 const STATUS_COLORS: Record<CaseStatus, string> = {
   draft: 'bg-gray-100 text-gray-800',
@@ -46,24 +61,40 @@ export default async function CaseDetailPage({
   params: Promise<{ id: string }>
 }) {
   const { id } = await params
-  const supabase = await createServerSupabase()
+  const cookieStore = await cookies()
+  const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) redirect('/login')
+  let userId: string | null = null
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let caseData: any = null
 
-  const { data: caseData, error } = await supabase
-    .from('cases')
-    .select(`
-      *,
-      agents (*),
-      documents (*),
-      conversations (*),
-      case_facts (*)
-    `)
-    .eq('id', id)
-    .single()
+  try {
+    userId = await getAuthUserId()
+    if (!userId && !hasBetaBypass) redirect('/login')
+    const supabase = getSupabase()
 
-  if (error || !caseData) {
+    const { data: caseResult, error } = await supabase
+      .from('cases')
+      .select(`
+        *,
+        agents (*),
+        documents (*),
+        conversations (*),
+        case_facts (*)
+      `)
+      .eq('id', id)
+      .single()
+
+    if (error || !caseResult) {
+      notFound()
+    }
+    caseData = caseResult
+  } catch (err) {
+    if (!hasBetaBypass) redirect('/login')
+    notFound()
+  }
+
+  if (!caseData) {
     notFound()
   }
 
@@ -99,6 +130,11 @@ export default async function CaseDetailPage({
               )}
             </div>
             <div className="flex items-center gap-2 shrink-0">
+              <CaseSharing
+                caseId={id}
+                caseName={caseData.name}
+                isOwner={userId ? caseData.user_id === userId : false}
+              />
               <ExportCaseButton
                 caseId={id}
                 caseData={caseData as Case}
@@ -111,6 +147,31 @@ export default async function CaseDetailPage({
           </div>
         </div>
       </header>
+
+      {/* Section Navigation */}
+      <nav id="case-section-nav" className="bg-white border-b sticky top-0 z-10">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="flex items-center gap-1 overflow-x-auto no-scrollbar py-2">
+            {CASE_NAV_SECTIONS(id).map((section) => {
+              const Icon = section.icon
+              return (
+                <Link
+                  key={section.href}
+                  href={section.href}
+                  className={`inline-flex items-center gap-1.5 px-3 py-2 text-xs sm:text-sm font-medium rounded-md whitespace-nowrap transition-colors ${
+                    section.isActive
+                      ? 'bg-primary text-primary-foreground'
+                      : 'text-muted-foreground hover:text-foreground hover:bg-muted'
+                  }`}
+                >
+                  <Icon className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+                  {section.label}
+                </Link>
+              )
+            })}
+          </div>
+        </div>
+      </nav>
 
       {/* Content */}
       <main id="case-detail-content" className="container mx-auto px-4 sm:px-6 py-4 sm:py-8">
@@ -204,27 +265,22 @@ export default async function CaseDetailPage({
                 <TurboSimulator caseId={id} />
               </div>
 
-              {/* Rule 26 Quick Link */}
-              <Card className="md:col-span-2">
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <Shield className="h-5 w-5" />
-                    Rule 26 Discovery Management
-                  </CardTitle>
-                  <CardDescription>
-                    Track disclosure obligations, manage deadlines, and maintain compliance with
-                    FRCP 26 or URCP 26 requirements
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <Link href={`/case/${id}/rule26`}>
-                    <Button className="gap-2">
-                      <Scale className="h-4 w-4" />
-                      Open Rule 26 Dashboard
-                    </Button>
-                  </Link>
-                </CardContent>
-              </Card>
+              {/* Rule 26 Discovery Compliance */}
+              <div className="md:col-span-2">
+                <Link href={`/case/${id}/rule26`}>
+                  <Card className="hover:border-primary/50 transition-colors cursor-pointer">
+                    <CardHeader>
+                      <CardTitle className="flex items-center gap-2 text-lg font-serif">
+                        <Shield className="h-5 w-5 text-primary" />
+                        Rule 26 Discovery
+                      </CardTitle>
+                      <CardDescription>
+                        Manage disclosures, deadlines, privilege logs, and compliance tracking
+                      </CardDescription>
+                    </CardHeader>
+                  </Card>
+                </Link>
+              </div>
             </div>
           </TabsContent>
 

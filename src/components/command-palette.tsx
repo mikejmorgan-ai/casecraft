@@ -10,8 +10,6 @@ import {
   Plus,
   Scale,
   Search,
-  Settings,
-  User,
   Zap,
 } from 'lucide-react'
 
@@ -53,10 +51,10 @@ export function CommandPalette({ cases = [] }: CommandPaletteProps) {
     return () => document.removeEventListener('keydown', down)
   }, [])
 
-  const runCommand = React.useCallback((command: () => void) => {
+  const runCommand = (command: () => void) => {
     setOpen(false)
     command()
-  }, [])
+  }
 
   return (
     <CommandDialog open={open} onOpenChange={setOpen}>

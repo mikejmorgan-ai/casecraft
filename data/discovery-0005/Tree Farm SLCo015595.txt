@@ -1,0 +1,12 @@
+Event: Accepted: Tree Farm NOI options
+Start Date: 2022-05-09 09:00:00 -0600
+End Date: 2022-05-09 09:30:00 -0600
+Organizer: Tim Bywater <TBywater@slco.org>
+Location: Virtual
+Class: X-PERSONAL
+Date Created: 2022-05-04 17:38:06 -0600
+Date Modified: 2023-01-13 21:28:41 -0700
+Priority: 5
+DTSTAMP: 2022-05-04 17:37:52 -0600
+
+

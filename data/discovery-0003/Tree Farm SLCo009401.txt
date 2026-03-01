@@ -1,0 +1,26 @@
+Event: Meeting Forward Notification: Tree Farm/Parleys Canyon Mine
+Application
+Start Date: 2022-01-14 14:00:00 -0700
+End Date: 2022-01-14 14:30:00 -0700
+Organizer: Catherine Kanter <CKanter@slco.org>
+Location: Webex
+Class: X-PERSONAL
+Date Created: 2022-01-14 13:59:05 -0700
+Date Modified: 2022-06-23 18:35:34 -0600
+Priority: 5
+DTSTAMP: 2022-01-12 21:21:22 -0700
+Attendee: Catherine Kanter <CKanter@slco.org>
+Your meeting was forwarded
+Catherine Kanter has forwarded your meeting request to additional recipients.
+Meeting
+Tree Farm/Parleys Canyon Mine Application
+Meeting Time
+Friday, 14 January 2022 14:00-14:30.
+Recipients
+Michael Shea
+Justin Stewart
+Lisa Hartman
+All times listed are in the following time zone: (UTC-07:00) Mountain Time (US & Canada)
+Sent by Microsoft Exchange Server
+
+

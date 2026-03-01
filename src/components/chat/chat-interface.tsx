@@ -47,6 +47,11 @@ interface ChatInterfaceProps {
   initialMessages: StoredMessage[]
 }
 
+// Create a map of agent IDs to agents for quick lookup
+function createAgentMap(agents: Agent[]): Map<string, Agent> {
+  return new Map(agents.map(a => [a.id, a]))
+}
+
 // Get text content from message parts
 function getMessageContent(message: { content?: string; parts?: Array<{ type: string; text?: string }> }): string {
   if (message.content) return message.content
@@ -70,6 +75,20 @@ export function ChatInterface({
   const [selectedAgentId, setSelectedAgentId] = useState(agents[0]?.id || '')
   const [inputValue, setInputValue] = useState('')
 
+  // Create agent lookup map
+  const agentMap = useMemo(() => createAgentMap(agents), [agents])
+
+  // Track agent_id for each message (keyed by message id)
+  const [messageAgentMap] = useState<Map<string, string>>(() => {
+    const map = new Map<string, string>()
+    initialMessages.forEach(m => {
+      if (m.agent_id) {
+        map.set(m.id, m.agent_id)
+      }
+    })
+    return map
+  })
+
   const transport = useMemo(() => new DefaultChatTransport({
     api: '/api/chat',
     body: {
@@ -91,6 +110,15 @@ export function ChatInterface({
       parts: [{ type: 'text' as const, text: m.content }],
     })),
   })
+
+  // When new messages arrive, track which agent responded
+  useEffect(() => {
+    messages.forEach(m => {
+      if (m.role === 'assistant' && !messageAgentMap.has(m.id)) {
+        messageAgentMap.set(m.id, selectedAgentId)
+      }
+    })
+  }, [messages, selectedAgentId, messageAgentMap])
 
   const isLoading = status === 'streaming' || status === 'submitted'
 
@@ -197,7 +225,9 @@ export function ChatInterface({
 
           {messages.map((message) => {
             const isUser = message.role === 'user'
-            const agent = !isUser ? selectedAgent : null
+            // Look up the actual agent who sent this message, not the currently selected one
+            const messageAgentId = messageAgentMap.get(message.id) || selectedAgentId
+            const agent = !isUser ? agentMap.get(messageAgentId) || selectedAgent : null
             const Icon = agent ? (ROLE_ICONS[agent.role as AgentRole] || User) : User
             const bgColor = agent ? ROLE_COLORS[agent.role as AgentRole] : 'bg-primary'
             const content = getMessageContent(message)

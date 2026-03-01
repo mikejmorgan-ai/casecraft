@@ -1,11 +1,11 @@
 import { NextRequest } from 'next/server'
-import { createServerSupabase, createServiceSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { generateEmbedding } from '@/lib/ai/embeddings'
 import { buildAgentSystemPrompt } from '@/lib/ai/prompts'
-import { searchByRole, formatResultsForContext } from '@/lib/pinecone/search'
+import { searchByRole, formatResultsForContext, validateWithBracketedTerms } from '@/lib/pinecone/search'
 import { openai } from '@ai-sdk/openai'
 import { streamText, createUIMessageStream, createUIMessageStreamResponse } from 'ai'
-import type { AgentRole } from '@/lib/types'
+import type { AgentRole, ConversationType } from '@/lib/types'
 
 // All cases use Pinecone for RAG (39K+ Tree Farm documents indexed)
 const USE_PINECONE = true
@@ -14,13 +14,12 @@ export const maxDuration = 60
 
 export async function POST(request: NextRequest) {
   try {
-    const supabase = await createServerSupabase()
-    const serviceSupabase = createServiceSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return new Response('Unauthorized', { status: 401 })
     }
+    const supabase = getSupabase()
+    const serviceSupabase = getSupabase()
 
     const {
       messages: rawMessages,
@@ -63,6 +62,17 @@ export async function POST(request: NextRequest) {
       return new Response('Agent not found', { status: 404 })
     }
 
+    // Fetch conversation to determine type (e.g., statutory_quiz)
+    let conversationType: ConversationType | null = null
+    if (conversation_id) {
+      const { data: convData } = await supabase
+        .from('conversations')
+        .select('conversation_type')
+        .eq('id', conversation_id)
+        .single()
+      conversationType = convData?.conversation_type as ConversationType | null
+    }
+
     // Fetch case facts
     const { data: facts } = await supabase
       .from('case_facts')
@@ -95,9 +105,14 @@ export async function POST(request: NextRequest) {
           )
 
           if (pineconeResults.length > 0) {
-            documentContext = formatResultsForContext(pineconeResults)
+            // RULE 1 & 2: Validate results against bracketed terms.
+            // Re-rank results so documents with exact phrase matches
+            // (not just semantic similarity) are prioritized.
+            // Uses all claim terms (claim 3 = broadest for Tree Farm case)
+            const validatedResults = validateWithBracketedTerms(pineconeResults, 3)
+            documentContext = formatResultsForContext(validatedResults)
 
-            pineconeResults.forEach((result) => {
+            validatedResults.forEach((result) => {
               const docName = result.metadata.filename || result.metadata.source.split('/').pop() || 'Unknown'
               citations.push({
                 document_id: result.id,
@@ -155,7 +170,8 @@ export async function POST(request: NextRequest) {
       { role: agent.role as AgentRole, name: agent.name, persona_prompt: agent.persona_prompt },
       caseData,
       facts?.map(f => f.fact_text) || [],
-      documentContext || undefined
+      documentContext || undefined,
+      conversationType || undefined
     )
 
     // Stream response using UI message stream for v4 SDK

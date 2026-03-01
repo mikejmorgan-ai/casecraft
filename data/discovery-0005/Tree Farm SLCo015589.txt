@@ -1,0 +1,48 @@
+Event: Greg Baptist & Tree Farm
+Start Date: 2022-05-04 11:00:00 -0600
+End Date: 2022-05-04 11:30:00 -0600
+Organizer: Zachary Shaw <ZShaw@slco.org>
+Location: https://slco.webex.com/slco/j.php?MTID=ma23f510283c3980f00207df214911e72
+Class: X-PERSONAL
+Date Created: 2022-05-02 14:02:35 -0600
+Date Modified: 2022-05-02 14:19:33 -0600
+Priority: 5
+Attendee: Catherine Kanter <CKanter@slco.org>; Tim Bywater <TBywater@slco.org>; Ralph
+Chamness <RChamness@slco.org>
+Alarm: Display the following message 15m before start
+Reminder
+
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-- Do not delete or change any of the following text. --
+
+When it's time, join your Webex meeting here.
+
+Join meeting
+More ways to join:
+Join from the meeting link
+
+https://slco.webex.com/slco/j.php?MTID=ma23f510283c3980f00207df214911e72
+Join by meeting number
+
+Meeting number (access code): 2491 165 6299
+Meeting password: PDeaXMjt744
+Tap to join from a mobile device (attendees only)
+
++1-213-306-3065,,24911656299## United States Toll (Los Angeles)
++1-602-666-0783,,24911656299## United States Toll (Phoenix)
+Join by phone
+
++1-213-306-3065 United States Toll (Los Angeles)
+
++1-602-666-0783 United States Toll (Phoenix)
+Global call-in numbers
+
+Join from a video system or application
+
+Dial 24911656299@slco.webex.com
+You can also dial 173.243.2.68 and enter your meeting number.
+
+If you are a host, click here to view host information.
+
+Need help? Go to https://help.webex.com
+
+

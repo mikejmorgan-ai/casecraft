@@ -1,0 +1,55 @@
+Event: Deputy Mayor Time - Erin
+Start Date: 2022-01-27 10:30:00 -0700
+End Date: 2022-01-27 11:30:00 -0700
+Organizer: Schedule Mayor <ScheduleMayor@slco.org>
+Location: Webex; https://slco.webex.com/slco/j.php?
+MTID=mf9b9a8dcf6b7529cddcfce481227dcce
+Class: X-PERSONAL
+Date Created: 2022-10-26 10:59:44 -0600
+Date Modified: 2024-08-15 14:13:20 -0600
+Priority: 5
+DTSTAMP: 2023-08-31 13:20:11 -0600
+Attendee: Schedule Mayor <ScheduleMayor@slco.org>; Jenny Wilson <JWilson@slco.org>; Erin
+Litvack <ELitvack@slco.org>; Katherine Fife <KFife@slco.org>; Ashley Perry <APerry@slco.org>
+Recurs: Weekly on TH until 2023-09-08
+Attach: 409.ics; 40a.ics; 40b.ics; 40c.ics; 40d.ics; 40e.ics; 40f.ics; 410.ics; 411.ics; 412.ics; 413.ics;
+414.ics; 415.ics; 416.ics; 417.ics; 418.ics; 419.ics; 41a.ics; 41b.ics; 41c.ics; 41d.ics; 41e.ics; 41f.ics;
+420.ics; 421.ics; 422.ics; 423.ics; 424.ics; 425.ics; 426.ics; 427.ics; 428.ics; 429.ics; 42a.ics; 42b.ics;
+42c.ics; 42d.ics; 42e.ics; 42f.ics; 430.ics; 431.ics; 432.ics; 433.ics; 434.ics; 435.ics; 436.ics; 437.ics;
+438.ics; 439.ics; 43a.ics; 43b.ics; 43c.ics; 43d.ics; 43e.ics; 43f.ics; 440.ics
+Alarm: Display the following message 15m before start
+Reminder
+
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-- Do not delete or change any of the following text. --
+
+When it's time, join your Webex meeting here.
+
+Join meeting
+
+More ways to join:
+Join from the meeting link
+
+https://slco.webex.com/slco/j.php?MTID=mf9b9a8dcf6b7529cddcfce481227dcce
+Join by meeting number
+
+Meeting number (access code): 2494 446 2520
+Meeting password: ANmDcQfU226
+Tap to join from a mobile device (attendees only)
+
++1-213-306-3065,,24944462520## United States Toll (Los Angeles)
++1-602-666-0783,,24944462520## United States Toll (Phoenix)
+Join by phone
+
++1-213-306-3065 United States Toll (Los Angeles)
++1-602-666-0783 United States Toll (Phoenix)
+Global call-in numbers
+Join from a video system or application
+
+Dial 24944462520@slco.webex.com
+You can also dial 173.243.2.68 and enter your meeting number.
+
+If you are a host, click here to view host information.
+
+Need help? Go to https://help.webex.com
+
+

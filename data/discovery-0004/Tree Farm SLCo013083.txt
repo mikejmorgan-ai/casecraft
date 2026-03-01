@@ -1,0 +1,18 @@
+Event: Canceled: FR ordinance revisions - Granicus
+Start Date: 2022-03-22 11:00:00 -0600
+End Date: 2022-03-22 11:30:00 -0600
+Organizer: Dina Blaes <DBlaes@slco.org>
+Location: https://slco.webex.com/slco/j.php?MTID=m3ae7287ea1285127e00248223e718bc6
+Class: X-PERSONAL
+Date Created: 2022-03-21 21:07:26 -0600
+Date Modified: 2022-03-22 10:55:52 -0600
+Priority: 1
+DTSTAMP: 2022-03-22 08:12:39 -0600
+Attendee: Helen Peters <HPeters@slco.org>; Zachary Shaw <ZShaw@slco.org>
+Alarm: Display the following message 15m before start
+Reminder
+Purpose of the check in is to make sure I am on the right page with regard to the Granicus entries I’m supposed to be
+approving. The email thread on this topic today is confusing.
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+
+

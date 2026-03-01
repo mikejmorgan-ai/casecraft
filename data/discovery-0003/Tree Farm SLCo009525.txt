@@ -1,0 +1,13 @@
+Event: Accepted: Unincorporated County legal costs (i.e. Tree Farm and
+Cardiff Fork)
+Start Date: 2022-01-20 13:00:00 -0700
+End Date: 2022-01-20 13:30:00 -0700
+Organizer: Scott Baird <SBaird@slco.org>
+Location: webex
+Class: X-PERSONAL
+Date Created: 2022-01-19 16:19:05 -0700
+Date Modified: 2022-01-19 17:00:18 -0700
+Priority: 5
+DTSTAMP: 2022-01-19 16:19:03 -0700
+
+

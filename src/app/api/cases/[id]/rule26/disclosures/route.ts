@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { createInitialDisclosureSchema, updateInitialDisclosureSchema } from '@/lib/validations/discovery'
 import { z } from 'zod'
 
@@ -37,12 +37,11 @@ export async function GET(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
     }
+    const supabase = getSupabase()
 
     const { data: caseData } = await supabase
       .from('cases')
@@ -81,12 +80,11 @@ export async function POST(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
     }
+    const supabase = getSupabase()
 
     const { data: caseData } = await supabase
       .from('cases')
@@ -136,7 +134,6 @@ export async function PATCH(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
     const { searchParams } = new URL(request.url)
     const disclosureId = searchParams.get('disclosureId')
 
@@ -144,10 +141,11 @@ export async function PATCH(
       return errorResponse('Disclosure ID required', 'MISSING_PARAM', 400)
     }
 
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
     }
+    const supabase = getSupabase()
 
     const { data: caseData } = await supabase
       .from('cases')
@@ -199,7 +197,6 @@ export async function DELETE(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
     const { searchParams } = new URL(request.url)
     const disclosureId = searchParams.get('disclosureId')
 
@@ -207,10 +204,11 @@ export async function DELETE(
       return errorResponse('Disclosure ID required', 'MISSING_PARAM', 400)
     }
 
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
     }
+    const supabase = getSupabase()
 
     const { data: caseData } = await supabase
       .from('cases')

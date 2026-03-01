@@ -1,0 +1,8 @@
+Event
+Start Date: 2022-06-29 12:00:00 -0600
+End Date: 2022-06-29 13:00:00 -0600
+Date Created: 2022-06-29 11:59:05 -0600
+Date Modified: 2022-08-27 02:15:11 -0600
+Attendee: Tim Bywater <TBywater@slco.org>; Lisa Hartman <LHartman@slco.org>
+
+

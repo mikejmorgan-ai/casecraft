@@ -18,10 +18,18 @@ export type DocumentType =
 export type ConversationType =
   | 'hearing' | 'deposition' | 'mediation'
   | 'strategy_session' | 'research' | 'general'
+  | 'statutory_quiz' | 'voice_call'
 
 export type FactCategory =
   | 'undisputed' | 'disputed' | 'evidence_based'
   | 'testimony' | 'expert_opinion' | 'stipulated'
+
+export type ReliefType =
+  | 'declaratory' | 'injunctive' | 'regulatory_taking'
+  | 'damages' | 'restitution' | 'specific_performance'
+  | 'attorneys_fees' | 'other'
+
+export type EvidenceRelevance = 'direct' | 'corroborative' | 'circumstantial' | 'impeachment'
 
 export interface Case {
   id: string
@@ -164,6 +172,269 @@ export interface CaseFact {
   updated_at: string
 }
 
+export interface ClaimForRelief {
+  id: string
+  case_id: string
+  claim_number: number
+  title: string
+  relief_type: ReliefType
+  description: string
+  legal_basis: string | null
+  is_alternative: boolean
+  alternative_to: number | null
+  metadata: Record<string, unknown>
+  created_at: string
+  updated_at: string
+  // Joined evidence (populated via query)
+  evidence?: ClaimEvidence[]
+}
+
+export interface ClaimEvidence {
+  id: string
+  claim_id: string
+  fact_id: string | null
+  document_id: string | null
+  relevance: EvidenceRelevance
+  discovery_file: string | null
+  tier: number | null
+  description: string | null
+  is_smoking_gun: boolean
+  created_at: string
+  updated_at: string
+}
+
+// Brief draft types
+export type BriefType = 'response' | 'motion' | 'memorandum' | 'opposition' | 'reply'
+
+export type BriefTone = 'formal' | 'aggressive' | 'measured'
+
+export interface MotionAnalysis {
+  id: string
+  case_id: string
+  user_id: string
+  title: string
+  motion_text: string
+  analysis_result: string | null
+  source_document_id: string | null
+  created_at: string
+  updated_at: string
+}
+
+export interface BriefDraft {
+  id: string
+  case_id: string
+  user_id: string
+  brief_type: BriefType
+  title: string
+  topic: string | null
+  instructions: string | null
+  tone: BriefTone
+  content: string | null
+  claim_ids: string[]
+  created_at: string
+  updated_at: string
+}
+
+export interface DiscoveryCategory {
+  id: string
+  case_id: string
+  name: string
+  description: string | null
+  document_count: number
+  created_at: string
+  // Joined document categories (populated via query)
+  document_categories?: DocumentCategory[]
+}
+
+export interface DocumentCategory {
+  id: string
+  document_id: string
+  category_id: string
+  relevance_score: number | null
+  ai_summary: string | null
+  is_reviewed: boolean
+  created_at: string
+}
+
+// Legal standard types for statutory analysis
+export type LegalStandardType =
+  | 'constitutional'
+  | 'statutory'
+  | 'regulatory'
+  | 'common_law'
+  | 'procedural'
+
+export interface LegalStandard {
+  id: string
+  title: string
+  citation: string
+  standard_type: LegalStandardType
+  jurisdiction: string | null
+  text: string
+  summary: string | null
+  elements: LegalElement[]
+  effective_date: string | null
+  is_active: boolean
+}
+
+export interface LegalElement {
+  element: string
+  description: string
+  burden: 'plaintiff' | 'defendant' | 'court'
+  is_required: boolean
+}
+
+// Filter Key Terms Types
+export type FilterType = 'exclude' | 'include'
+
+export interface FilterKeyTerm {
+  id: string
+  case_id: string
+  term: string
+  filter_type: FilterType
+  category: string | null
+  created_by: string
+  created_at: string
+  is_active: boolean
+}
+
+// Retell Voice Call Types
+export type CallStatus = 'registered' | 'ongoing' | 'ended' | 'error'
+
+export interface RetellAgentMapping {
+  id: string
+  casecraft_agent_id: string
+  retell_agent_id: string
+  voice_id: string
+  voice_provider: 'elevenlabs' | 'openai' | 'deepgram'
+  created_at: string
+  updated_at: string
+}
+
+export interface VoiceCall {
+  id: string
+  conversation_id: string
+  case_id: string
+  agent_id: string
+  retell_call_id: string
+  retell_agent_id: string
+  call_status: CallStatus
+  from_number: string | null
+  to_number: string | null
+  call_duration_seconds: number | null
+  call_summary: string | null
+  recording_url: string | null
+  metadata: Record<string, unknown>
+  started_at: string | null
+  ended_at: string | null
+  created_at: string
+}
+
+// Extended types for queries with relations
+export interface CaseWithRelations extends Case {
+  agents?: Agent[]
+  documents?: Document[]
+  conversations?: Conversation[]
+  case_facts?: CaseFact[]
+  claims_for_relief?: ClaimForRelief[]
+  motion_analyses?: MotionAnalysis[]
+  brief_drafts?: BriefDraft[]
+  discovery_categories?: DiscoveryCategory[]
+}
+
+// Database type for Supabase client
+export interface Database {
+  public: {
+    Tables: {
+      cases: {
+        Row: Case
+        Insert: Omit<Case, 'id' | 'created_at' | 'updated_at'> & { id?: string }
+        Update: Partial<Omit<Case, 'id' | 'created_at' | 'updated_at'>>
+      }
+      agents: {
+        Row: Agent
+        Insert: Omit<Agent, 'id' | 'created_at' | 'updated_at'> & { id?: string }
+        Update: Partial<Omit<Agent, 'id' | 'created_at' | 'updated_at'>>
+      }
+      documents: {
+        Row: Document
+        Insert: Omit<Document, 'id' | 'created_at' | 'updated_at'> & { id?: string }
+        Update: Partial<Omit<Document, 'id' | 'created_at' | 'updated_at'>>
+      }
+      document_chunks: {
+        Row: DocumentChunk
+        Insert: Omit<DocumentChunk, 'id' | 'created_at'> & { id?: string }
+        Update: Partial<Omit<DocumentChunk, 'id' | 'created_at'>>
+      }
+      conversations: {
+        Row: Conversation
+        Insert: Omit<Conversation, 'id' | 'created_at' | 'updated_at'> & { id?: string }
+        Update: Partial<Omit<Conversation, 'id' | 'created_at' | 'updated_at'>>
+      }
+      messages: {
+        Row: Message
+        Insert: Omit<Message, 'id' | 'created_at'> & { id?: string }
+        Update: Partial<Omit<Message, 'id' | 'created_at'>>
+      }
+      case_facts: {
+        Row: CaseFact
+        Insert: Omit<CaseFact, 'id' | 'created_at' | 'updated_at'> & { id?: string }
+        Update: Partial<Omit<CaseFact, 'id' | 'created_at' | 'updated_at'>>
+      }
+      claims_for_relief: {
+        Row: ClaimForRelief
+        Insert: Omit<ClaimForRelief, 'id' | 'created_at' | 'updated_at'> & { id?: string }
+        Update: Partial<Omit<ClaimForRelief, 'id' | 'created_at' | 'updated_at'>>
+      }
+      claim_evidence: {
+        Row: ClaimEvidence
+        Insert: Omit<ClaimEvidence, 'id' | 'created_at' | 'updated_at'> & { id?: string }
+        Update: Partial<Omit<ClaimEvidence, 'id' | 'created_at' | 'updated_at'>>
+      }
+      motion_analyses: {
+        Row: MotionAnalysis
+        Insert: Omit<MotionAnalysis, 'id' | 'created_at' | 'updated_at'> & { id?: string }
+        Update: Partial<Omit<MotionAnalysis, 'id' | 'created_at' | 'updated_at'>>
+      }
+      brief_drafts: {
+        Row: BriefDraft
+        Insert: Omit<BriefDraft, 'id' | 'created_at' | 'updated_at'> & { id?: string }
+        Update: Partial<Omit<BriefDraft, 'id' | 'created_at' | 'updated_at'>>
+      }
+      discovery_categories: {
+        Row: DiscoveryCategory
+        Insert: Omit<DiscoveryCategory, 'id' | 'created_at'> & { id?: string }
+        Update: Partial<Omit<DiscoveryCategory, 'id' | 'created_at'>>
+      }
+      document_categories: {
+        Row: DocumentCategory
+        Insert: Omit<DocumentCategory, 'id' | 'created_at'> & { id?: string }
+        Update: Partial<Omit<DocumentCategory, 'id' | 'created_at'>>
+      }
+      filter_key_terms: {
+        Row: FilterKeyTerm
+        Insert: Omit<FilterKeyTerm, 'id' | 'created_at'> & { id?: string }
+        Update: Partial<Omit<FilterKeyTerm, 'id' | 'created_at'>>
+      }
+    }
+    Functions: {
+      match_document_chunks: {
+        Args: {
+          query_embedding: number[]
+          match_case_id: string
+          match_threshold?: number
+          match_count?: number
+        }
+        Returns: {
+          id: string
+          document_id: string
+          content: string
+          similarity: number
+        }[]
+      }
+    }
+  }
+}
 // ============================================================
 // Rule 26 Discovery Management Types
 // ============================================================
@@ -497,61 +768,3 @@ export interface CaseWithRelations extends Case {
   discovery_config?: DiscoveryConfig
 }
 
-// Database type for Supabase client
-export interface Database {
-  public: {
-    Tables: {
-      cases: {
-        Row: Case
-        Insert: Omit<Case, 'id' | 'created_at' | 'updated_at'> & { id?: string }
-        Update: Partial<Omit<Case, 'id' | 'created_at' | 'updated_at'>>
-      }
-      agents: {
-        Row: Agent
-        Insert: Omit<Agent, 'id' | 'created_at' | 'updated_at'> & { id?: string }
-        Update: Partial<Omit<Agent, 'id' | 'created_at' | 'updated_at'>>
-      }
-      documents: {
-        Row: Document
-        Insert: Omit<Document, 'id' | 'created_at' | 'updated_at'> & { id?: string }
-        Update: Partial<Omit<Document, 'id' | 'created_at' | 'updated_at'>>
-      }
-      document_chunks: {
-        Row: DocumentChunk
-        Insert: Omit<DocumentChunk, 'id' | 'created_at'> & { id?: string }
-        Update: Partial<Omit<DocumentChunk, 'id' | 'created_at'>>
-      }
-      conversations: {
-        Row: Conversation
-        Insert: Omit<Conversation, 'id' | 'created_at' | 'updated_at'> & { id?: string }
-        Update: Partial<Omit<Conversation, 'id' | 'created_at' | 'updated_at'>>
-      }
-      messages: {
-        Row: Message
-        Insert: Omit<Message, 'id' | 'created_at'> & { id?: string }
-        Update: Partial<Omit<Message, 'id' | 'created_at'>>
-      }
-      case_facts: {
-        Row: CaseFact
-        Insert: Omit<CaseFact, 'id' | 'created_at' | 'updated_at'> & { id?: string }
-        Update: Partial<Omit<CaseFact, 'id' | 'created_at' | 'updated_at'>>
-      }
-    }
-    Functions: {
-      match_document_chunks: {
-        Args: {
-          query_embedding: number[]
-          match_case_id: string
-          match_threshold?: number
-          match_count?: number
-        }
-        Returns: {
-          id: string
-          document_id: string
-          content: string
-          similarity: number
-        }[]
-      }
-    }
-  }
-}

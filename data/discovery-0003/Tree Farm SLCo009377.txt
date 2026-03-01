@@ -1,0 +1,10 @@
+Event
+Start Date: 2022-06-29 12:00:00 -0600
+End Date: 2022-06-29 13:00:00 -0600
+Class: X-PERSONAL
+Date Created: 2022-08-16 16:41:24 -0600
+Date Modified: 2022-09-21 11:50:19 -0600
+Priority: 5
+Attendee: Tim Bywater <TBywater@slco.org>; Lisa Hartman <LHartman@slco.org>
+
+

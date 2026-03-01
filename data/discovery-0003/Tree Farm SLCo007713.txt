@@ -1,0 +1,111 @@
+Event: Council Agenda - Staff Meeting
+Start Date: 2022-01-06 13:30:00 -0700
+End Date: 2022-01-06 14:30:00 -0700
+Organizer: Shykell Ledford <SLedford@slco.org>
+Location: RS Room CC N2-220 and Webex
+Class: X-PERSONAL
+Date Created: 2022-01-19 14:25:10 -0700
+Date Modified: 2024-09-05 20:25:21 -0600
+Priority: 5
+DTSTAMP: 2022-01-19 15:34:17 -0700
+Attendee: CC-Council Advisors and Staff DL <CC-CouncilAdvisorsandStaffDL@slco.org>;
+Catherine Kanter <CKanter@slco.org>; Lisa Hartman <LHartman@slco.org>; Darrin Casper
+<DCasper@slco.org>; Jill Miller <JiMiller@slco.org>; Erin Litvack <ELitvack@slco.org>; Kimberly
+Barnett <KBarnett@slco.org>; Kerri Nakamura <KNakamura@slco.org>; Sherri Trujillo
+<ShTrujillo@slco.org>; Megan Hillyard <MHillyard@slco.org>; Robin Chalhoub
+<RChalhoub@slco.org>; Karen G. Crompton <KGCrompton@slco.org>; Sharon Roux
+<SRoux@slco.org>; Scott Baird <SBaird@slco.org>; Patrick Craig <PCraig@slco.org>; Dina Blaes
+<DBlaes@slco.org>; Michelle Hicks <MHicks@slco.org>; Destiny Garcia <DGarcia@slco.org>;
+Mariah Espinal <MEspinal@slco.org>; Ralph Chamness <RChamness@slco.org>; Chris Stavros
+<CStavros@slco.org>; Scott Tingley <STingley@slco.org>; Roswell M Rogers <RRogers@slco.org>;
+Matt Smith <MSmith@slco.org>; Brad Neff <BNeff@slco.org>; Rashelle Hobbs
+<RHobbs@slco.org>; Sherry L. Anderson <SLAnderson@slco.org>; Reid Demman
+<RDemman@slco.org>; K. Wayne Cushing <KWCushing@slco.org>; Jim Sakellariou
+<JSakellariou@slco.org>; Gayelene Gudmundson <GGudmundson@slco.org>; Kim Stanger
+<KStanger@slco.org>; Nichole Watt <NWatt@slco.org>; Amy Pitt <APitt@slco.org>; Helen Peters
+<HPeters@slco.org>; Derrick L. Sorensen <DLSorensen@slco.org>; Nick Steffens
+<NSteffens@slco.org>; Ann Lee <GYLee@slco.org>; Lisa O'Bryan <LOBryan@slco.org>
+Recurs: Weekly on TH
+Attach: 403.ics; image001.jpg; image002.png; image003.jpg; image006.png; image007.jpg;
+image004.png; image005.jpg; image006.png; image007.jpg; 40d.ics; 40e.ics; 40f.ics; 410.ics;
+411.ics; 412.ics; 413.ics
+Alarm: Display the following message 15m before start
+Reminder
+Hi everyone:
+
+This is a reoccurring meeting invite. Please feel free to ignore and/or delete it on days you don’t need to come to Staff
+Meeting. I am leaving it on all of you to forward this reoccurring or individual meeting date invitations to others who will
+need it and are not included here (you should be able to see the list by clicking on “Scheduling Assistant” across the top
+menu bar).
+Please let me know if you have any questions.
+Best wishes,
+Shykell M. Ledford
+Communications & Administrative
+Coordinator
+Salt Lake County Council
+
+Titl
+Fa
+e:
+ce
+Tw
+b
+itt
+o
+er
+ok
+De
+scr
+ipti
+on:
+im
+ag
+e
+of
+Tw
+itt
+er
+ico
+n
+
+Email: SLedford@slco.org
+Phone: 385-468-7469
+2001 S. State St. N2-200
+Salt Lake City, UT 84114
+www.slco.org/council
+
+-- Do not delete or change any of the following text. --
+
+When it's time, join your Webex meeting here.
+
+Join meeting
+More ways to join:
+Join from the meeting link
+
+https://slco.webex.com/slco/j.php?MTID=mb7c1e8b3ca8e23a1d0b46d92f18bb9f9
+Join by meeting number
+
+Meeting number (access code): 2486 629 8054
+Meeting password: vpHpP8kjJ32
+Tap to join from a mobile device (attendees only)
+
++1-213-306-3065,,24866298054## United States Toll (Los Angeles)
++1-602-666-0783,,24866298054## United States Toll (Phoenix)
+Join by phone
+
++1-213-306-3065 United States Toll (Los Angeles)
++1-602-666-0783 United States Toll (Phoenix)
+Global call-in numbers
+Join from a video system or application
+
+Dial 24866298054@slco.webex.com
+You can also dial 173.243.2.68 and enter your meeting number.
+
+Join using Microsoft Lync or Microsoft Skype for Business
+
+Dial 24866298054.slco@lync.webex.com
+If you are a host, click here to view host information.
+
+Need help? Go to https://help.webex.com
+
+

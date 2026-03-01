@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { searchAll } from '@/lib/pinecone/search'
 import OpenAI from 'openai'
 
@@ -17,29 +17,17 @@ interface TurnResult {
   reasoning: string
 }
 
-interface TurboResult {
-  total_turns: number
-  plaintiff_score: number
-  defendant_score: number
-  win_probability: number
-  critical_evidence: { doc: string; status: string; impact: string }[]
-  vulnerabilities: string[]
-  path_to_100: string[]
-  turns: TurnResult[]
-}
-
 export async function POST(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
+    const supabase = getSupabase()
 
     // Get case data
     const { data: caseData } = await supabase

@@ -1,4 +1,5 @@
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
+import { cookies } from 'next/headers'
 import { redirect, notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Badge } from '@/components/ui/badge'
@@ -19,18 +20,29 @@ export default async function Rule26Page({
   params: Promise<{ id: string }>
 }) {
   const { id } = await params
-  const supabase = await createServerSupabase()
+  const cookieStore = await cookies()
+  const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) redirect('/login')
+  let userId: string | null = null
+  let caseData: any = null
 
-  const { data: caseData, error } = await supabase
-    .from('cases')
-    .select('*')
-    .eq('id', id)
-    .single()
+  try {
+    userId = await getAuthUserId()
+    if (!userId && !hasBetaBypass) redirect('/login')
+    const supabase = getSupabase()
 
-  if (error || !caseData) {
+    const { data, error } = await supabase
+      .from('cases')
+      .select('*')
+      .eq('id', id)
+      .single()
+
+    if (error || !data) {
+      notFound()
+    }
+    caseData = data
+  } catch (err) {
+    if (!hasBetaBypass) redirect('/login')
     notFound()
   }
 

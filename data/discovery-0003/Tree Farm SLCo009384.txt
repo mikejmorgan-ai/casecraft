@@ -1,0 +1,10 @@
+Event
+Start Date: 2022-04-27 12:00:00 -0600
+End Date: 2022-04-27 13:00:00 -0600
+Class: X-PERSONAL
+Date Created: 2022-08-16 16:41:23 -0600
+Date Modified: 2022-09-09 12:25:25 -0600
+Priority: 5
+Attendee: Dina Blaes <DBlaes@slco.org>
+
+

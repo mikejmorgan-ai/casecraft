@@ -66,11 +66,8 @@ interface BlindPredictionProps {
 
 export function BlindPrediction({
   caseId,
-  caseName,
   isBlindTest,
   rulingRevealed,
-  actualRuling,
-  actualRulingSummary,
   onPredictionComplete,
 }: BlindPredictionProps) {
   const [loading, setLoading] = useState(false)

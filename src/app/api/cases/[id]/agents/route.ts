@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { z } from 'zod'
 import { AGENT_ROLE_TEMPLATES } from '@/lib/ai/prompts'
 import type { AgentRole } from '@/lib/types'
@@ -24,12 +24,11 @@ export async function GET(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
+    const supabase = getSupabase()
 
     const { data, error } = await supabase
       .from('agents')
@@ -54,12 +53,11 @@ export async function POST(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
-
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
+    const supabase = getSupabase()
 
     // Verify case ownership
     const { data: caseData } = await supabase
@@ -115,7 +113,6 @@ export async function PATCH(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
     const { searchParams } = new URL(request.url)
     const agentId = searchParams.get('agentId')
 
@@ -123,10 +120,11 @@ export async function PATCH(
       return NextResponse.json({ error: 'Agent ID required' }, { status: 400 })
     }
 
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
+    const supabase = getSupabase()
 
     const body = await request.json()
     const parsed = updateAgentSchema.safeParse(body)
@@ -160,7 +158,6 @@ export async function DELETE(
 ) {
   try {
     const { id: caseId } = await params
-    const supabase = await createServerSupabase()
     const { searchParams } = new URL(request.url)
     const agentId = searchParams.get('agentId')
 
@@ -168,10 +165,11 @@ export async function DELETE(
       return NextResponse.json({ error: 'Agent ID required' }, { status: 400 })
     }
 
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) {
+    const userId = await getAuthUserId()
+    if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
+    const supabase = getSupabase()
 
     const { error } = await supabase
       .from('agents')

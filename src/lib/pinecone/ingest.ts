@@ -1,7 +1,6 @@
 import { getPineconeIndex } from './client'
 import { routeDocument, DocumentMeta } from './namespaces'
-import { generateEmbedding, generateEmbeddingsBatch, chunkText } from '@/lib/ai/embeddings'
-import { v4 as uuid } from 'uuid'
+import { generateEmbeddingsBatch, chunkText } from '@/lib/ai/embeddings'
 
 export interface DocumentToIngest {
   id: string

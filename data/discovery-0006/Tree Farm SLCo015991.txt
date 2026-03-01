@@ -1,0 +1,43 @@
+From: "EmailAdmin@slco.org" <EmailAdmin@slco.org>
+To: <llstringham@slco.org>
+Subject: Salt Lake County Spam Quarantine Notification
+Date: Fri, 01 Apr 2022 06:00:56 -0600
+Importanc
+Normal
+e:
+
+Salt Lake County Spam Quarantine Notification
+There are 1 message(s) total in your Spam Quarantine
+There are 1 new messages in your Spam Quarantine since you received your last Spam Quarantine Notification. If the messages
+below are spam, you do not need to take any action. Messages will be automatically removed from the quarantine after 21 day(s).
+To see all quarantined messages view your email quarantine.
+Quarantined Email
+
+Release
+
+From
+
+Subject
+
+Date
+
+ANDREW SMITH
+<awsmith4@comcast.net>...
+
+Prohibit Mineral Extraction in Forestry and Recreation
+Zones...
+
+31 Mar 2022
+
+View All Quarantined Messages(1)
+Note: This message has been sent by a notification only system. Please do not reply
+If the above links do not work, please copy and paste the following URL into a Web browser:
+https://MAILSMA300v.slcounty.org:83/Search?
+h=Jr2%2BcYFFK8YvbP3yQzxspybpOZHN7cbQziyoe%2FYmlr5A0neTSszZAM8n3y9IzExaqZOJD8d%2Bbg0%2BlLYHGq4j5bBHus3KJ
+wOzBOGR0kFmAA8%3D&email=llstringham%40slco.org
+In order to access spam quarantine in NextGen portal, please copy and paste the following URL into a Web browser:
+https://MAILSMA300v.slcounty.org:4431/quarantine?
+h=PcBr4LoaROs6lfeOUI%2B6CcWZfvjryG%2FwpaF4uJ3dtSlSHrzkpTO4Nd7A%2F%2FOb1Dchrm3Zk219IyPauArrt9qrkvfkQULXaCc
+006GlEQVEHI8%3D&email=llstringham%40slco.org
+
+

@@ -1,14 +1,16 @@
-import { createServerSupabase } from '@/lib/supabase/server'
+import { getSupabase, getAuthUserId } from '@/lib/auth/clerk'
 import { redirect } from 'next/navigation'
+import { cookies } from 'next/headers'
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { ImportBlindTest } from '@/components/cases/import-blind-test'
 
 export default async function ImportTestPage() {
-  const supabase = await createServerSupabase()
+  const cookieStore = await cookies()
+  const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) redirect('/login')
+  const userId = await getAuthUserId()
+  if (!userId && !hasBetaBypass) redirect('/login')
 
   return (
     <div className="min-h-screen bg-[var(--color-legal-cream)]">
