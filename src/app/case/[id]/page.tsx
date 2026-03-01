@@ -34,6 +34,7 @@ const CASE_NAV_SECTIONS = (caseId: string) => [
   { label: 'Statutes', href: `/case/${caseId}/statutes`, icon: ScrollText },
   { label: 'Filters', href: `/case/${caseId}/filters`, icon: Filter },
   { label: 'Blind Test', href: `/case/${caseId}/blind-test`, icon: FlaskConical },
+  { label: 'Rule 26', href: `/case/${caseId}/rule26`, icon: Scale },
 ]
 
 const STATUS_COLORS: Record<CaseStatus, string> = {
@@ -262,6 +263,23 @@ export default async function CaseDetailPage({
 
               <div className="md:col-span-2">
                 <TurboSimulator caseId={id} />
+              </div>
+
+              {/* Rule 26 Discovery Compliance */}
+              <div className="md:col-span-2">
+                <Link href={`/case/${id}/rule26`}>
+                  <Card className="hover:border-primary/50 transition-colors cursor-pointer">
+                    <CardHeader>
+                      <CardTitle className="flex items-center gap-2 text-lg font-serif">
+                        <Shield className="h-5 w-5 text-primary" />
+                        Rule 26 Discovery
+                      </CardTitle>
+                      <CardDescription>
+                        Manage disclosures, deadlines, privilege logs, and compliance tracking
+                      </CardDescription>
+                    </CardHeader>
+                  </Card>
+                </Link>
               </div>
             </div>
           </TabsContent>

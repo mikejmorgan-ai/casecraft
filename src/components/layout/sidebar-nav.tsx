@@ -30,6 +30,7 @@ import {
   History,
   Users,
   MessageSquare,
+  Gavel,
 } from 'lucide-react'
 
 interface SidebarNavProps {
@@ -52,6 +53,7 @@ const secondaryItems: { href: string; label: string; icon: React.ElementType; pe
   { href: '/import-test', label: 'Import Test Case', icon: Upload, permission: 'cases:create' },
   { href: '/dashboard/timeline', label: 'Timeline', icon: History, permission: 'cases:read' },
   { href: '/dashboard/discovery', label: 'Discovery', icon: Search, permission: 'documents:read' },
+  { href: '/dashboard/rule26', label: 'Rule 26', icon: Gavel, permission: 'cases:read' },
 ]
 
 const adminItems: { href: string; label: string; icon: React.ElementType; permission?: Permission }[] = [
