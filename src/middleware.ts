@@ -1,7 +1,7 @@
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server'
 import { NextResponse, type NextRequest } from 'next/server'
 
-const isProtectedRoute = createRouteMatcher(['/dashboard(.*)', '/case(.*)'])
+const isProtectedRoute = createRouteMatcher(['/dashboard(.*)', '/case(.*)', '/admin(.*)'])
 
 export default clerkMiddleware(async (auth, request: NextRequest) => {
   // Only enforce auth on protected routes — public routes pass through
@@ -28,5 +28,6 @@ export const config = {
   matcher: [
     '/dashboard/:path*',
     '/case/:path*',
+    '/admin/:path*',
   ],
 }
