@@ -7,18 +7,24 @@ export const metadata: Metadata = {
   description: "Practice case strategy with AI-powered agents. Run mock hearings, depositions, and strategy sessions.",
 };
 
+const clerkPubKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <ClerkProvider>
-      <html lang="en">
-        <body className="font-sans antialiased">
-          {children}
-        </body>
-      </html>
-    </ClerkProvider>
-  );
+  const content = (
+    <html lang="en">
+      <body className="font-sans antialiased">
+        {children}
+      </body>
+    </html>
+  )
+
+  if (!clerkPubKey) {
+    return content
+  }
+
+  return <ClerkProvider>{content}</ClerkProvider>
 }
