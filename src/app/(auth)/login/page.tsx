@@ -1,8 +1,9 @@
+import { Suspense } from 'react'
 import { SignIn } from '@clerk/nextjs'
 
 export const dynamic = 'force-dynamic'
 
-export default function LoginPage() {
+function LoginPage() {
   return (
     <div className="dark min-h-screen flex items-center justify-center bg-background p-4">
       <SignIn
@@ -17,5 +18,13 @@ export default function LoginPage() {
         fallbackRedirectUrl="/dashboard"
       />
     </div>
+  )
+}
+
+export default function LoginPageWrapper() {
+  return (
+    <Suspense fallback={null}>
+      <LoginPage />
+    </Suspense>
   )
 }

@@ -4,9 +4,10 @@
 CaseCraft is a legal simulation platform that allows users to practice case strategy with AI-powered agents. It enables running mock hearings, depositions, and strategy sessions with intelligent legal personas.
 
 ## Tech Stack
-- **Framework**: Next.js 16.1.3 with React 19
+- **Framework**: Next.js 16.1.5 with React 19
 - **Styling**: Tailwind CSS v4
 - **UI Components**: Radix UI, shadcn/ui
+- **Auth**: Clerk (switched from Supabase Auth)
 - **Database**: Supabase (PostgreSQL)
 - **AI**: OpenAI API, Vercel AI SDK
 - **Vector Search**: Pinecone (optional, for document RAG)
@@ -38,10 +39,14 @@ Optional:
 - `PINECONE_INDEX_NAME` - Pinecone index name
 
 ## Running the Project
-The development server runs on port 5000:
+The development server runs on port 5000 using webpack mode (required to work around Tailwind CSS v4 url() resolution issue):
 ```bash
-npm run dev -- -p 5000 -H 0.0.0.0
+npm run dev -- -p 5000 -H 0.0.0.0 --webpack
 ```
+
+## Known Issues / Workarounds
+- **Tailwind CSS v4 mask-[url(...)] bug**: Tailwind v4 generates a `.mask-[url(...)]` utility class with `mask-image: url(...)` in its CSS output. Next.js tries to resolve the literal `...` as a module path, causing a build error. Fixed by using webpack mode (`--webpack` flag) and setting `css-loader` `url: false` in `next.config.ts` to prevent URL resolution in CSS.
+- **Clerk auth**: Auth was switched from Supabase to Clerk by external tooling. Requires `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` secrets to be configured.
 
 ## Scripts
 - `npm run dev` - Start development server

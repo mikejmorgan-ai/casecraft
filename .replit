@@ -21,13 +21,13 @@ args = "Next.js Dev Server"
 name = "Next.js Dev Server"
 author = "agent"
 
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "npm run dev -- -p 5000 -H 0.0.0.0"
-waitForPort = 5000
-
 [workflows.workflow.metadata]
 outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm run dev -- -p 5000 -H 0.0.0.0 --webpack"
+waitForPort = 5000
 
 [[ports]]
 localPort = 3000
@@ -39,5 +39,5 @@ externalPort = 80
 
 [deployment]
 deploymentTarget = "autoscale"
-run = ["npm", "run", "start", "--", "-p", "5000"]
+run = ["npm", "run", "start", "--", "-p", "5000", "-H", "0.0.0.0"]
 build = ["npm", "run", "build"]
