@@ -1,5 +1,7 @@
 import { SignUp } from '@clerk/nextjs'
 
+export const dynamic = 'force-dynamic'
+
 export default function SignupPage() {
   return (
     <div className="dark min-h-screen flex items-center justify-center bg-background p-4">
@@ -10,8 +12,7 @@ export default function SignupPage() {
             card: 'bg-card border-border shadow-lg',
           },
         }}
-        routing="path"
-        path="/signup"
+        routing="hash"
         signInUrl="/login"
         fallbackRedirectUrl="/dashboard"
       />
