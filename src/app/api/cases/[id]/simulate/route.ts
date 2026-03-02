@@ -1,9 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { searchAll } from '@/lib/pinecone/search'
-import OpenAI from 'openai'
-
-const openai = new OpenAI()
+import { getOpenAIClient } from '@/lib/ai/openai'
 
 export const maxDuration = 60
 
@@ -219,7 +217,7 @@ Provide a BRIEF (3-4 sentences) strategic assessment:
 
 Be specific to THIS case. No generic advice.`
 
-    const aiResponse = await openai.chat.completions.create({
+    const aiResponse = await getOpenAIClient().chat.completions.create({
       model: 'gpt-4o',
       messages: [{ role: 'user', content: analysisPrompt }],
       temperature: 0.5,

@@ -1,9 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { searchAll } from '@/lib/pinecone/search'
-import OpenAI from 'openai'
-
-const openai = new OpenAI()
+import { getOpenAIClient } from '@/lib/ai/openai'
 
 export const maxDuration = 120
 
@@ -170,7 +168,7 @@ Be thorough but specific. For each weakness, provide actionable fixes with reali
 
 Return your analysis as valid JSON.`
 
-    const response = await openai.chat.completions.create({
+    const response = await getOpenAIClient().chat.completions.create({
       model: 'gpt-4o',
       messages: [
         { role: 'system', content: WEAKNESS_SYSTEM_PROMPT },

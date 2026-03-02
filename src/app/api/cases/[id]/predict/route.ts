@@ -1,9 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { searchAll } from '@/lib/pinecone/search'
-import OpenAI from 'openai'
-
-const openai = new OpenAI()
+import { getOpenAIClient } from '@/lib/ai/openai'
 
 export const maxDuration = 120
 
@@ -299,7 +297,7 @@ Return your analysis as valid JSON.`
 }
 
 async function runStandardPrediction(prompt: string): Promise<PredictionResult> {
-  const response = await openai.chat.completions.create({
+  const response = await getOpenAIClient().chat.completions.create({
     model: 'gpt-4o',
     messages: [
       { role: 'system', content: JUDGE_SYSTEM_PROMPT },
@@ -357,7 +355,7 @@ ${p.bias !== 'neutral' ? `While maintaining objectivity, note arguments favoring
 
 ${prompt}`
 
-      const response = await openai.chat.completions.create({
+      const response = await getOpenAIClient().chat.completions.create({
         model: 'gpt-4o',
         messages: [
           { role: 'system', content: JUDGE_SYSTEM_PROMPT },

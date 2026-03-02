@@ -1,5 +1,6 @@
 import type { AgentRole } from '@/lib/types'
-import OpenAI from 'openai'
+import type OpenAI from 'openai'
+import { getOpenAIClient } from '@/lib/ai/openai'
 
 // OpenAI TTS voices mapped to agent roles
 export const AGENT_VOICES: Record<AgentRole, OpenAI.Audio.Speech.SpeechCreateParams['voice']> = {
@@ -15,17 +16,13 @@ export const AGENT_VOICES: Record<AgentRole, OpenAI.Audio.Speech.SpeechCreatePar
   dogm_agent: 'onyx',         // Technical, regulatory
 }
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-})
-
 export async function generateSpeech(
   text: string,
   agentRole: AgentRole
 ): Promise<ArrayBuffer> {
   const voice = AGENT_VOICES[agentRole]
 
-  const response = await openai.audio.speech.create({
+  const response = await getOpenAIClient().audio.speech.create({
     model: 'tts-1',
     voice,
     input: text,
@@ -41,7 +38,7 @@ export async function streamSpeech(
 ): Promise<ReadableStream<Uint8Array>> {
   const voice = AGENT_VOICES[agentRole]
 
-  const response = await openai.audio.speech.create({
+  const response = await getOpenAIClient().audio.speech.create({
     model: 'tts-1',
     voice,
     input: text,

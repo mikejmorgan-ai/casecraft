@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
-import OpenAI from 'openai'
-
-const openai = new OpenAI()
+import { getOpenAIClient } from '@/lib/ai/openai'
 
 export const maxDuration = 60
 
@@ -199,7 +197,7 @@ Return as JSON:
 }`
 
   try {
-    const response = await openai.chat.completions.create({
+    const response = await getOpenAIClient().chat.completions.create({
       model: 'gpt-4o',
       messages: [{ role: 'user', content: comparisonPrompt }],
       temperature: 0.3,
