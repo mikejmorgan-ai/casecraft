@@ -1,11 +1,9 @@
-import OpenAI from 'openai'
-
-const openai = new OpenAI()
+import { getOpenAIClient } from './openai'
 
 export async function generateEmbedding(text: string): Promise<number[]> {
   const truncated = text.substring(0, 8000)
 
-  const response = await openai.embeddings.create({
+  const response = await getOpenAIClient().embeddings.create({
     model: 'text-embedding-3-small',
     input: truncated,
     encoding_format: 'float',
@@ -17,7 +15,7 @@ export async function generateEmbedding(text: string): Promise<number[]> {
 export async function generateEmbeddingsBatch(texts: string[]): Promise<number[][]> {
   const truncated = texts.map(t => t.substring(0, 8000))
 
-  const response = await openai.embeddings.create({
+  const response = await getOpenAIClient().embeddings.create({
     model: 'text-embedding-3-small',
     input: truncated,
     encoding_format: 'float',

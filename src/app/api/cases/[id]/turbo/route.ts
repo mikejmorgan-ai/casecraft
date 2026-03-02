@@ -1,9 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
 import { searchAll } from '@/lib/pinecone/search'
-import OpenAI from 'openai'
-
-const openai = new OpenAI()
+import { getOpenAIClient } from '@/lib/ai/openai'
 
 export const maxDuration = 120
 
@@ -119,7 +117,7 @@ Return ONLY valid JSON in this exact format:
 
 Be realistic. Use actual document names from the evidence. Score must total 100.`
 
-    const response = await openai.chat.completions.create({
+    const response = await getOpenAIClient().chat.completions.create({
       model: 'gpt-4o',
       messages: [{ role: 'user', content: simulationPrompt }],
       temperature: 0.7,
