@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import type { Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
@@ -17,7 +18,9 @@ export default function RootLayout({
   const content = (
     <html lang="en">
       <body className="font-sans antialiased">
-        {children}
+        <Suspense fallback={null}>
+          {children}
+        </Suspense>
       </body>
     </html>
   )
