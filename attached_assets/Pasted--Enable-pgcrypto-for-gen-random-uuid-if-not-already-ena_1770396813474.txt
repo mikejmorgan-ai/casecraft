@@ -1,0 +1,64 @@
+-- Enable pgcrypto for gen_random_uuid (if not already enabled)
+create extension if not exists "pgcrypto";
+
+-- Enable pgvector extension for embeddings
+create extension if not exists "vector";
+
+do $$ begin
+  if not exists (select 1 from pg_type t join pg_namespace n on n.oid = t.typnamespace
+                 where t.typname = 'case_type' and n.nspname = 'public') then
+    create type public.case_type as enum (
+      'civil', 'criminal', 'family', 'contract',
+      'tort', 'property', 'constitutional', 'administrative'
+    );
+  end if;
+end $$;
+
+do $$ begin
+  if not exists (select 1 from pg_type t join pg_namespace n on n.oid = t.typnamespace
+                 where t.typname = 'case_status' and n.nspname = 'public') then
+    create type public.case_status as enum (
+      'draft', 'active', 'closed', 'archived'
+    );
+  end if;
+end $$;
+
+do $$ begin
+  if not exists (select 1 from pg_type t join pg_namespace n on n.oid = t.typnamespace
+                 where t.typname = 'agent_role' and n.nspname = 'public') then
+    create type public.agent_role as enum (
+      'judge', 'plaintiff_attorney', 'defense_attorney',
+      'court_clerk', 'witness', 'expert_witness', 'mediator'
+    );
+  end if;
+end $$;
+
+do $$ begin
+  if not exists (select 1 from pg_type t join pg_namespace n on n.oid = t.typnamespace
+                 where t.typname = 'document_type' and n.nspname = 'public') then
+    create type public.document_type as enum (
+      'complaint', 'answer', 'motion', 'brief', 'discovery',
+      'deposition', 'exhibit', 'order', 'judgment', 'other'
+    );
+  end if;
+end $$;
+
+do $$ begin
+  if not exists (select 1 from pg_type t join pg_namespace n on n.oid = t.typnamespace
+                 where t.typname = 'conversation_type' and n.nspname = 'public') then
+    create type public.conversation_type as enum (
+      'hearing', 'deposition', 'mediation',
+      'strategy_session', 'research', 'general'
+    );
+  end if;
+end $$;
+
+do $$ begin
+  if not exists (select 1 from pg_type t join pg_namespace n on n.oid = t.typnamespace
+                 where t.typname = 'fact_category' and n.nspname = 'public') then
+    create type public.fact_category as enum (
+      'undisputed', 'disputed', 'evidence_based',
+      'testimony', 'expert_opinion', 'stipulated'
+    );
+  end if;
+end $$;

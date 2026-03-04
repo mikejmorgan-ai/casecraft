@@ -1,0 +1,32 @@
+# Cloudflare Pages Configuration for CaseBrake.ai
+name = "casebrake"
+compatibility_date = "2024-12-18"
+
+[env.production]
+compatibility_flags = ["nodejs_compat"]
+
+# Build configuration
+[build]
+command = "npm run build"
+publish = ".next"
+
+# Environment variables (set in Cloudflare dashboard)
+[env.production.vars]
+NODE_ENV = "production"
+
+# Custom headers for security
+[[headers]]
+for = "/*"
+[headers.values]
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+Referrer-Policy = "strict-origin-when-cross-origin"
+Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# Cache static assets
+[[redirects]]
+from = "/_next/static/*"
+to = "/_next/static/:splat"
+status = 200
+[redirects.headers]
+cache-control = "public, max-age=31536000, immutable"
