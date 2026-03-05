@@ -1,0 +1,1003 @@
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+2019 WL 8356023 (Utah App.) (Appellate Brief)
+Court of Appeals of Utah.
+
+LD III, LLC, a Utah limited liability company, Petitioner/Appellant,
+v.
+MAPLETON CITY, Respondent/Appellee.
+No. 20190090-CA.
+June 19, 2019.
+District Court Civil No. 170401683
+Appeal from the Final Judgment of the Fourth District Court, Utah County, Provo Division, The Honorable James R. Taylor
+* Oral Argument Requested
+Appellant's Corrected Opening Brief on Appeal
+Eric Johnson, Blaisdell, Church & Johnson, LLC, 5995 South Redwood Road, Salt Lake City, Utah 84123, Telephone:, Email:
+eric@bcjlaw.net, for respondent-appellee, Mapleton City.
+Denver C. Snuffer , Jr.(3032), Nelson, Snuffer, Dahle & Poulsen, P.C., 10885 South State, Sandy, UT 84070, Telephone: (801)
+576-1400, for petitioner-appellant LD III, LLC.
+PRIORITY NO.: 15
+*ii APPELLANT'S BRIEF
+Appellant, LD III, LLC submits this brief in the appeal before this Court.
+LIST OF ALL PARTIES TO THE PROCEEDING BELOW
+The Petitioner-Appellant:
+LD III, LLC, a Utah limited liability company.
+
+The Respondent-Appellee:
+Mapleton City.
+
+*iii TABLE OF CONTENTS
+LIST OF ALL PARTIES TO THE PROCEEDING BELOW .................................................................
+TABLE OF CONTENTS .........................................................................................................................
+TABLE OF AUTHORITIES ....................................................................................................................
+INTRODUCTION ....................................................................................................................................
+STATEMENT OF THE ISSUES .............................................................................................................
+STANDARD OF REVIEW ......................................................................................................................
+STATEMENT OF THE CASE ................................................................................................................
+Facts established in the District Court Record ........................................................................................
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+ii
+iii
+v
+1
+2
+2
+8
+8
+1
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+Procedural History ....................................................................................................................................
+Disposition in the Trial Court ..................................................................................................................
+SUMMARY OF ARGUMENTS .............................................................................................................
+ARGUMENT ............................................................................................................................................
+I. The Summary Judgement Standard ......................................................................................................
+II. The Trial Court Erred in Concluding LDIII Is Time Barred from Asserting the Property's Vested
+Development Rights .................................................................................................................................
+A. The Trial Court Erred in Concluding Mapleton's Zoning Ordinances Preclude the Application of a
+TDR Overlay Zone to a PRC Base Zone ................................................................................................
+III. The Property's Vested Rights Survive Foreclosure ............................................................................
+*iv A. LDIII Succeeded to All Rights, Titles and Interests of the Prior Owners When it Obtained
+Title to the Property Through Foreclosure ..............................................................................................
+B. The Development Agreement Is Ambiguous Requiring the Interpretation Most Favorable to LDIII,
+The Trial Court Erred in Concluding the Development Agreement Does Not Run with the Land ..........
+C. Disputed Issues of Fact Exist as to Whether LDIII Succeeded to the Development Rights
+Regarding Density and Zoning Acknowledged in the Development Agreement ....................................
+D. Mapleton was Required to Comply with Utah Zoning Code to Change the Property's Zoning ..........
+III. There was No Waiver or Agreement to Remove the Property's Vested Density Development Rights
+....................................................................................................................................................................
+IV. The Voter Referendum Was Invalid ...................................................................................................
+CONCLUSION .........................................................................................................................................
+CERTIFICATE OF COMPLIANCE ........................................................................................................
+CERTIFICATE OF SERVICE ..................................................................................................................
+ADDENDUM TABLE OF CONTENTS .................................................................................................
+*v TABLE OF AUTHORITIES
+Court Cases and Other Authorities
+Am. Interstate Mortgage Corp. v. Edwards, 2002 UT App 16,
+41 P.3d 1142 ............................................................................
+Arnold v. Grigsby, 2009 UT 88, 225 P.3d 192 .........................
+Baker v. Carlson, 2018 UT 59, 437 P.3d 333 ..........................
+Daines v. Vincent, 2008 UT 51, 190 P.3d 1269 .......................
+Fox v. Park City, 2008 UT 85, ¶¶ 21 & 30, 200 P.3d 182 ........
+G.G.A., Inc. v. Leventis, 773 P.2d 841, 845 (Utah Ct. App.
+1989) ........................................................................................
+Krejci v. City of Saratoga Springs, 2013 UT 74, 322 P.3d 662
+Mind & Motion Utah Investments, LLC v. Celtic Bank Corp.,
+2016 UT 6, 367 P.3d 994 ........................................................
+Pioneer Builders Co. of Nev. v. K D A Corp., 2018 UT App
+206, ¶ 13, 437 P.3d 539 ...........................................................
+Republic Outdoor Advertising, LC v. Dept. of Transp., 2011
+UT App 198, 258 P.3d 619 ......................................................
+Rees v. Albertson's, Inc., 587 P.2d 130, 133 (Utah 1978) .........
+Richardson v. Hart, 2009 UT App 387, 223 P.3d 484 .............
+*vi Salt Lake County v. Holiday Water Co., 2010 UT 45,
+234 P.3d 1105 ..........................................................................
+SME Industries, Inc. v. Thompson, Ventulett, Stainback &
+Assocs., Inc., 2001 UT 54, 28 P.3d 669 ...................................
+USA Power, LLC v. PacifiCorp, 2010 UT 31, 235 P.3d 749 ....
+Utah v. Pena, 869 P.2d 932, 926 (Utah 1994) .........................
+Ward v. Intermountain Farmers Association, 907 P.2d 264
+(Utah 1995) ..............................................................................
+WebBank v. American General Annuity Service Corp., 2002
+UT 88, 54 P.3d 1139 ................................................................
+Constitutions, Statutes, and Regulations
+Utah Code Ann. § 10-3-701 ....................................................
+Utah Code Ann. § 10-3-702 ....................................................
+Utah Code Ann. § 10-9a-209 ..................................................
+
+12
+13
+13
+15
+15
+16
+19
+21
+22
+23
+29
+30
+33
+38
+40
+41
+42
+43
+
+22
+3, 4, 7
+39,40
+6
+18
+28
+39, 40
+15
+28
+18
+15
+5, 6
+2, 5, 6, 7, 8
+26, 27
+15, 16
+3,4,7
+25, 26
+25, 26
+30, 31
+31
+17, 33
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+2
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+Utah Code Ann. § 10-9a-502 ..................................................
+Utah Code Ann. § 10-9a-503 ..................................................
+Utah Code Ann. § 10-9a-509.7 ...............................................
+Utah Code Ann. § 10-9a-602(1) ..............................................
+Utah Code Ann. 10-9a-801 ......................................................
+Utah Code Ann.§ 17-27a-509.7 ...............................................
+Utah Code Ann.§ 20A-7-601 ..................................................
+Utah Code Ann.§ 20A-7-101(13) ............................................
+*vii Utah Code Ann.§ 57-1-22.5 ...........................................
+Utah Code Ann.§ 57-1-28(3) ...................................................
+Mapleton City Code § 1.01.020 ..............................................
+Mapleton City Code § 18.82.070 ............................................
+Mapleton City Code §18.82D ..................................................
+Other Sources
+None.
+
+31, 32
+32
+9
+37, 36
+17, 33
+9
+38
+38
+23
+22
+30
+10, 12, 18, 19, 20
+12
+
+*1 INTRODUCTION
+This is an appeal from summary judgment. It involves designation by Mapleton City (“Mapleton”) of real property (“Property”)
+belonging to LD III (“LDIII”) located in Mapleton, Utah as a Transferable Development Rights Receiving (TDR-R) site. That
+designation allows a property owner to use Transferable Development Rights (“TDRs”) to increase density above what is
+otherwise allowable under a property's base zoning designation. TDRs are available for several base zones, including both
+zoning designations (A-2 and PRC-4) LDIII's property received.
+The Property was designated a TDR-R site in 2003. Mapleton refuses to recognize its TDR-R status. The Development
+Agreement with Mapleton (“Development Agreement”) agrees it is a TDR-Receiving site that may be developed into 136
+building lots. It also states the TDR-R designation and right for 136 building lots run with the land. Mapleton received 76 acres
+as consideration for the Property's TDR-R designation and the vested right to 136 building lots for the Property. Mapleton kept
+those 76 acres. The Mapleton City Council (“City Council”) explicitly recognized it approved the density and TDR-R overlay
+zoning status in exchange for the 76 acres.
+The trial court disregarded Development Agreement language stating it runs with the land. It decided Mapleton removed the
+TDR-R overlay zoning status in 2006 when it changed the Property's base zoning from A-2 to PRC-4. There is no evidence
+the Property's TDR-R overlay zoning was removed. There is no evidence Mapleton gave public notice of an intent to remove
+the TDR-R overlay zoning status. There is no evidence Mapleton's *2 repeal of the Property's TDR-R overlay zoning was
+discussed in any City Council meeting. There is no evidence the City Council addressed repealing the Property's TDR-R overlay
+zoning in any ordinance or resolution.
+In granting summary judgment to Mapleton, the trial court weighed evidence, ignored facts favorable to LDIII, made inferences
+in Mapleton's favor and misconstrued and misapplied statutes and ordinances. Therefore, this Court should reverse the trial
+court's summary judgment.
+STATEMENT OF THE ISSUES
+A. Whether the trial court improperly weighed evidence and made inferences in favor of Mapleton and against LDIII when
+granting summary judgment to Mapleton?
+Standard of Review: “We review a summary judgment determination for correctness, granting no deference to the district
+court's legal conclusions. Salt Lake County v. Holiday Water Co., 2010 UT 45, ¶ 45, 234 P.3d 1105 (citations omitted). We
+determine only whether the district court erred in applying the governing law and whether the district court correctly held that
+there were no disputed issues of material fact.” Id. (citations omitted).
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+3
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+Preservation for Review: See Ruling on Cross Motions for Summary Judgment, R.578-592; Motion Pursuant to Rules 59(a)
+(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.604-677; Reply Memorandum in Support of
+Motion Pursuant to Rules 59(a)(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, Rec. 967-980;
+Ruling on Motion to Alter or Amend Judgment; R.983-986.
+*3 B. Whether the trial court erred in concluding as a matter of law LDIII was time barred from asserting the Property's vested
+development rights?
+Standard of Review: “The application of a statute of limitations is a question of law. Statutory interpretation is also a question
+of law. We review conclusions of law for correctness, granting the [the lower court] no deference.” Arnold v. Grigsby, 2009
+UT 88, ¶ 7, 225 P.3d 192 (citations omitted).
+Preservation for Review: See Ruling on Cross Motions for Summary Judgment, R.578-592; Motion Pursuant to Rules 59(a)
+(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.604-677; Reply Memorandum in Support of
+Motion Pursuant to Rules 59(a)(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.967-980; Ruling
+on Motion to Alter or Amend Judgment; R.983-986.
+C. Whether the trial court erred in concluding as a matter of law Mapleton gave the required and legally sufficient notice before
+claiming to remove the Property's TDR-R overlay zone or revoke its TDR-R overlay zone, or was the lack of notice waived
+or legally excused?
+Standard of Review: “Appellate review of a trial court's determination of the law is usually characterized by the term
+‘correctness.’ Controlling Utah case law teaches that ‘correctness' means the appellate court decides the matter for itself and
+does not defer in any degree to the trial judge's determination of law. This is because appellate courts have traditionally been
+seen as having the power and duty to say what the law is and to ensure that it is uniform throughout the jurisdiction.” *4
+State or Utah v. Pena, 869 P.2d 932, 926 (Utah 1994) (citations omitted). “Statutory interpretation is also a question of law.
+We review conclusions of law for correctness, granting the [the lower court] no deference.” Arnold v. Grigsby, 2009 UT 88,
+¶ 7, 225 P.3d 192 (citations omitted).
+Preservation for Review: See Ruling on Cross Motions for Summary Judgment, R.578-592; Motion Pursuant to Rules 59(a)
+(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.604-677; Reply Memorandum in Support of
+Motion Pursuant to Rules 59(a)(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.967-980.
+D. Whether the trial court erred in concluding as a matter of law Mapleton's zoning ordinances preclude the application of a
+TDR-R overlay zone to a PRC base zone?
+Standard of Review: “[A]ppellate review of a trial court's determination of the law is usually characterized by the term
+‘correctness.’ Controlling Utah case law teaches that ‘correctness' means the appellate court decides the matter for itself and
+does not defer in any degree to the trial judge's determination of law. This is because appellate courts have traditionally been
+seen as having the power and duty to say what the law is and to ensure that it is uniform throughout the jurisdiction.” State or
+Utah v. Pena, 869 P.2d 932, 926 (Utah 1994) (citations omitted). “Statutory interpretation is also a question of law. We review
+conclusions of law for correctness, granting the [the lower court] no deference.” Arnold v. Grigsby, 2009 UT 88, ¶ 7, 225 P.3d
+192 (citations omitted).
+Preservation for Review: See Ruling on Cross Motions for Summary Judgment, R.578-592; Motion Pursuant to Rules 59(a)
+(6), 59(a)(7 and/or 59(e) for a New Trial and/or *5 to Alter or Amend Judgment, R.604-677; Reply Memorandum in Support
+of Motion Pursuant to Rules 59(a)(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.967-980.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+4
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+E. Whether the trial court erred in concluding LDIII did not succeed to all the previous owner's rights, title and interest in the
+Property, when it obtained legal and equitable title to the Property through foreclosure?
+Standard of Review: “We review a summary judgment determination for correctness, granting no deference to the district
+court's legal conclusions. Salt Lake County v. Holiday Water Co., 2010 UT 45, ¶ 45, 234 P.3d 1105 (citations omitted). “We
+determine only whether the district court erred in applying the governing law and whether the district court correctly held that
+there were no disputed issues of material fact.” Id. (citations omitted.
+Preservation for Review: See Ruling on Cross Motions for Summary Judgment, R.578-592; Motion Pursuant to Rules 59(a)
+(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.604-677; Reply Memorandum in Support of
+Motion Pursuant to Rules 59(a)(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.967-980; Ruling
+on Motion to Alter or Amend Judgment; R.983-986.
+F. Whether the trial court erred in concluding the Development Agreement was unambiguous and its terms did not run with
+the land?
+Standard of Review: “We review a district court's interpretation of a written contract for correctness, granting no deference to
+the court below.” *6 Richardson v. Hart, 2009 UT App 387, ¶ 6, 223 P.3d 484 (citations omitted). “[F]acial ambiguity with
+regard to the language of the contract … presents a question of law ....” Daines v. Vincent, 2008 UT 51, ¶ 25, 190 P.3d 1269.
+Preservation for Review: See Ruling on Cross Motions for Summary Judgment, R.578-592; Motion Pursuant to Rules 59(a)
+(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.604-677; Reply Memorandum in Support of
+Motion Pursuant to Rules 59(a)(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.967-980; Ruling
+on Motion to Alter or Amend Judgment; R.983-986.
+G. Whether disputed facts preclude summary judgment deciding LDIII did not succeed to all development rights, density and
+zoning established in the Development Agreement?
+Standard of Review: “We review a summary judgment determination for correctness, granting no deference to the district
+court's legal conclusions. We determine only whether the district court erred in applying the governing law and whether the
+district court correctly held that there were no disputed issues of material fact.” Salt Lake County v. Holiday Water Co., 2010
+UT 45, ¶ 45, 234 P.3d 1105 (citations omitted).
+Preservation for Review: See Ruling on Cross Motions for Summary Judgment, R.578-592; Motion Pursuant to Rules 59(a)
+(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.604-677; Reply Memorandum in Support of
+Motion Pursuant to Rules 59(a)(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.967-980; Ruling
+on Motion to Alter or Amend Judgment; R.983-986.
+*7 H. Whether the trial court erred in concluding as a matter of law Mapleton could change the Property's zoning through the
+general ordinance procedure, without complying with Utah Code zoning requirements?
+Standard of Review: “Appellate review of a trial court's determination of the law is usually characterized by the term
+‘correctness.’ Controlling Utah case law teaches that ‘correctness' means the appellate court decides the matter for itself and
+does not defer in any degree to the trial judge's determination of law. This is because appellate courts have traditionally been
+seen as having the power and duty to say what the law is and to ensure that it is uniform throughout the jurisdiction.” State or
+Utah v. Pena, 869 P.2d 932, 926 (Utah 1994) (citations omitted). “Statutory interpretation is also a question of law. We review
+conclusions of law for correctness, granting the [the lower court] no deference.” Arnold v. Grigsby, 2009 UT 88, ¶ 7, 225 P.3d
+192 (citations omitted).
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+5
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+Preservation for Review: See Ruling on Cross Motions for Summary Judgment, R.578-592; Motion Pursuant to Rules 59(a)
+(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.604-677; Reply Memorandum in Support of
+Motion Pursuant to Rules 59(a)(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.967-980.
+I. Whether the City Council's decision approving the Property's development was an administrative act not subject to a
+referendum?
+Standard of Review: “We review a summary judgment determination for correctness, granting no deference to the district
+court's legal conclusions. Salt Lake County *8 v. Holiday Water Co., 2010 UT 45, ¶ 45, 234 P.3d 1105 (citations omitted). “We
+determine only whether the district court erred in applying the governing law and whether the district court correctly held that
+there were no disputed issues of material fact.” Id. (citations omitted.
+Preservation for Review: See Ruling on Cross Motions for Summary Judgment, R.578-592; Motion Pursuant to Rules 59(a)
+(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.604-677; Reply Memorandum in Support of
+Motion Pursuant to Rules 59(a)(6), 59(a)(7 and/or 59(e) for a New Trial and/or to Alter or Amend Judgment, R.967-980; Ruling
+on Motion to Alter or Amend Judgment; R.983-986.
+STATEMENT OF THE CASE
+Facts established in the District Court Record:
+1. In 2003, Suburban Land Reserve, Inc. (“SLR”) owned approximately 245.6 acres of real estate on Mapleton's east bench.
+R.2 and R.3.
+2. On May 7, 2003, SLR entered into a Development Agreement with Mapleton. R.2, R.3 and R.38.
+3. The Development Agreement gave approximately 76 of SLR's 245.6 acres (“Upper Open Space”) to Mapleton. Those 76 acres
+were re-zoned CE-1 (TDR-S), meaning it was a TDR sending site. That zoning change was final and not subject to appeal. R.39.
+*9 4. Mapleton zoned the remaining approximately 170 acres A-2 (TDR-R), meaning it was a TDR receiving site and eligible
+for increased density, and entitled to use TDRs.1 R.3, R.13, and R.39.
+
+5. SLR agreed to convey to Mapleton the Upper Open Space property and “the density to be transferred shall be transferred on
+a 5:1 ratio.” SLR and Mapleton agreed 15 units could have been built on the Upper Open Space property and therefore SLR
+would be entitled to have 75 density units transferred to the Property. R.40.
+6. The Development Agreement states SLR “has a vested right” to develop a maximum of 136 single family residential units
+on the Property. R.41(emphasis added).
+7. The Development Agreement states it is binding on the successors and assigns of SLR. R.45.
+8. The Development Agreement states “public notice of this Agreement shall be recorded immediately as a covenant running
+with the Property herein described ....” R.47 (emphasis added).
+9. In conjunction with the Development Agreement, the land was zoned A-2 (TDR-R). SLR transferred 76 acres to Mapleton
+by a Quit Claim Deed. In exchange, SLR received TDRs and the Property was zoned A-2 (TDR-R). That meant the Property
+was an A-2 zone and a TDR receiving site. R.4 and R.13.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+6
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+*10 10. On December 14, 2005, SLR transferred the Property, along with water rights and TDRs, to Craig Thueson via a
+Special Warranty Deed. R.36.
+11. The same day, Craig Thueson transferred the Property, water rights and TDRs to The Preserve at Mapleton Development
+Company, LLC (“The Preserve”) via a Special Warranty Deed. R.67.
+12. On December 21, 2005, the City Council approved the Development Agreement's assignment to The Preserve. R.14, R.14
+and R.76.
+13. At the City Council meeting, the minutes reflect the “Mayor briefly summarized the background history associated with the
+acquisition of the Suburban Land Reserve property located on the east side of Mapleton Canal.” The Mayor stated that “under
+the provisions of the May 7, 2003 Development Agreement between Suburban Land Reserve and the City Council, Suburban
+Land Reserve received development approval for 134 properties plus 77 Transferable Development Rights in exchange for the
+dedication to the City of 77 acres of Land.” R.76.
+14. On May 17, 2006, the City Council approved a change of the base zoning from A-2 to PRC-4 formalized as Mapleton City
+Council Resolution No. 2006-15. Both of these zones allow TDR-R status. R.4, R.14, R.79-80 and R.84; MCC § 18.82.070.
+15. On December 6, 2006, The Preserve executed a promissory note and a Deed of Trust in favor of LDIII encumbering the
+Property. R.86 and R.88.
+16. LDIII foreclosed the Property through a Trustee's sale. A Trustee's Deed was executed and recorded on December 23, 2008,
+conveying the Property to LDIII. R.96.
+*11 17. A developer for LDIII approached Mapleton with a development plan for the Property. R.5 and R.14.
+18. Mapleton informed the developer the Property was not a TDR-R overlay zone and the developer could not use TDRs on
+the Property without Mapleton again designating the Property as a TDR receiving site. R.5 and R.14.
+19. In preparation for a City Council meeting regarding the application of the developer to designate the Property as a TDR
+receiving site, Mapleton staff prepared a report that stated “[t]he original zoning for the property was A-2, which required a
+minimum of two acres per lot. The adopted PRC zone did not change the allowed density, but it did allow for flexibility in
+lot sizes.” R.105.
+20. On June 7, 2017, the City Council approved the developer's request to designate the Property as a TDR receiving site. R.5,
+R.15 and R.512.
+21. At the June 7, 2017 City Council meeting, Mapleton's City Attorney stated, “Plats A, B, and C were subject to a development
+agreement for 136 lots and if you continued the additional plats you have a total of 191 lots which is a higher density than what
+the current applicant is applying for.” R.513.
+22. Opponents of the Property's development filed for and obtained a Referendum on the City Council's action in approving
+the TDR-R overlay status for the Property. A “yes” vote supported the action of the City Council. The Referendum failed. R.6
+and R.15.
+23. Mapleton maps of the Property show the Property was designated A-2 (TDR-R) from 2003 until 2007. R.196.
+*12 24. The Mapleton City Ordinance for PRC zones specifically allows the use of TDRs to increase the density in PRC
+zone. R.200.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+7
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+25. The trial court held that “[a]n A-2 designation allowed for the use of TDRs to increase the density of development, whereas
+the PRC-4 designation would not.” The trial court then referred to Mapleton City Code (“MCC”) §18.82D.110. R.579.
+26. MCC § 18.82D.110 does not mention TDRs and only addresses the base zoning for the Property as envisioned by the
+previous owners. MCC § 18.82D.110.
+27. MCC § 18.82.070 specifically allows the use of TDRs in a PRC zone. MCC § 18.82.070.
+Procedural History
+LDIII filed a Complaint for a Declaratory Judgment on November 14, 2017. Mapleton filed an Answer on December 19,
+2017. LDIII filed a Motion for Summary Judgment on February 26, 2018. Mapleton filed its Opposition to LDIII's Motion for
+Summary Judgment and its own Motion for Summary Judgment on March 16, 2018. LDIII filed its Memorandum Opposing
+Respondent's Motion for Summary Judgment and Reply Memorandum in Support of Petitioner's Motion for Summary Judgment
+on April 6, 2018. Mapleton then filed its Reply in Support of Mapleton's Motion for Summary Judgment on May 2, 2018. Oral
+argument on both motions for summary judgment was held on July 9, 2018. The trial court entered its Ruling on Cross Motions
+for Summary Judgment on August 1, 2018 and entered Judgment on August 16, 2018.
+*13 LDIII filed a Motion Pursuant to Rules 59(a)(6), 59(a)(7) for a New Trial and/or to Alter or Amend Judgment on September
+13, 2018. Mapleton filed its Opposition to LDIII's Rule 59 Motion for New Trial or Amended Judgment on October 4, 2018.
+LDIII filed its Reply Memorandum in Support of Motion Pursuant to Rules 59(a)(6), 59(a)(7) for a New Trial and/or to Alter or
+Amend Judgment on November 9, 2018. The trial court entered its Ruling on Motion to Alter or Amend Judgment on January
+8, 2019, denying LDIII's motion.
+Disposition in the Trial Court
+The trial court denied LDIII's Motion for Summary Judgment and granted Mapleton's M otion for Summary Judgment. The
+District Court denied LDIII's M otion Pursuant to Rules 59(a)(6), 59(a)(7) for a New Trial and/or to Alter or Amend Judgment.
+The trial court's grant of summary judgment decided all issues in the case.
+SUMMARY OF ARGUMENTS
+This appeal is to correct the trial court's errors in making inferences and weighing evidence when deciding a motion for summary
+judgment. All facts and all reasonable inferences from those facts must be construed in favor of the non-moving party. The trial
+court erred in its interpretation of Utah zoning laws and of Mapleton City ordinances and failed to acknowledge the ambiguity
+in the Development Agreement.
+The trial court's error arose from a failure to consider facts offered by the LDIII in opposition to Mapleton's motion for summary
+judgment. The trial court found the City Council voted to remove the Property's TDR-R overlay zoning. However, no notice
+was ever given by Mapleton of a meeting in which the issue of removing the Property's TDR-R *14 overlay zoning would
+be considered. The removal of the Property's TDR-R overlay zoning was never explicitly discussed or voted on by the City
+Council. Rather the trial court wrongly inferred the Property's TDR-R overlay zoning was removed by a change to the Property's
+base zoning.
+The trial court further held under Mapleton City Code the Property could not have TDR-R overlay zoning when the base zoning
+was changed from A-2 to PRC-4. However, Mapleton City Code expressly also permits property with PRC base zoning to have
+a TDR-R overlay zoning status.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+8
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+The trial court held Mapleton could remove the Property's TDR-R overlay zoning using Mapleton's general ordinance procedure
+rather than complying with the notice and other requirements in the Utah Code. Utah Code requires Mapleton to give specific
+notice when addressing zoning changes. Such notice was never given.
+Further, the trial court held LDIII did not succeed to the vested development rights Mapleton granted to the Property when
+Mapleton received approximately 76 acres of land in return for development rights. The trial court also concluded it could, as a
+matter of law, interpret ambiguous terms of the Development Agreement. It made a determination the Development Agreement
+does not run with the land, even though there is plain language in the Development Agreement stating it runs with the land and
+the rights granted to the Property are vested.
+The trial court also held LDIII is time barred from asserting the Property retained its TDR-R zoning overlay. It held LDIII
+had at most one year to contest the adequacy of the *15 notice of the meeting in which the Property's undiscussed TDR-R
+zoning overlay status was removed, which the trial court found occurred in 2006. However, Utah Code requires that notice of
+a proposed zoning change actually be given, not implied. The trial court ignored that no notice was ever given of a meeting to
+consider removing the Property's TDR-R overlay zoning. Further, the removal of the Property's TDR-R zoning overlay status
+was never explicitly considered or decided on by the City Council.
+ARGUMENT
+I. The Summary Judgment Standard.
+Summary judgment is permissible only if there is no genuine dispute as to any material fact, and if the moving party is entitled
+to judgment as a matter of law based on the undisputed facts. All facts and all reasonable inferences drawn from the facts must
+be construed in the light most favorable to a party opposing summary judgment. See Mind & Motion Utah Investments, LLC
+v. Celtic Bank Corp., 2016 UT 6, ¶ 15, 367 P.3d 994.
+“A party should not be deprived of the privilege of having … an adjudication of his claims unless it appears that even upon
+the facts claimed by him he could not establish a basis for recovery. Moreover, when there is doubt about the matter, it should
+be resolved in favor of permitting the party to go to trial.” Rees v. Albertson's, Inc., 587 P.2d 130, 133 (Utah 1978) (citations
+omitted).
+The Utah Supreme Court stated, “[e]ven absent a complete conflict as to certain facts, a dispute of the understanding, intention,
+and consequences of those facts may defeat summary judgment.” USA Power, LLC v. PacifiCorp, 2010 UT 31, ¶ 32, 235 P.3d
+749 *16 (citations omitted). It added “the trial court must recognize that a party's claim that there are no issues of fact relates
+to that party's theory of the case and should not be construed as support for the adversary's argument or motion.” Id. The court
+further explained:
+In some cases, the parties may agree on the objective statement of the facts, but may fundamentally disagree on the reasonable
+inferences to be made from those facts. In such instances, if we were to hold that the nonmoving party must present a specific
+fact to controvert a statement of fact by the moving party, we would diminish the important role reasonable inferences play in a
+district court's decision to grant summary judgment. Even if the moving party's objective statement of the facts are agreed upon,
+reasonable inferences made from those undisputed facts can indeed create a genuine issue of material fact. That the objective
+facts are undisputed does not mean that no genuine issues remain as to those facts.
+
+Id. at ¶ 33.
+Examples of the lower court weighing evidence and making inferences against the non-moving party are discussed in each
+section below.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+9
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+II. The Trial Court Erred in Concluding LDIII Is Time Barred
+from Asserting the Property's Vested Development Rights.
+The trial court found LDIII is time-barred from asserting the Property continuously has been zoned within the TDR Overlay
+Zone, and approved as a TDR receiving site since 2003. The trial court incorrectly found the Property's TDR-R overlay zoning
+was removed by the City Council in 2006 when the City Council changed the Property's base zoning from A-2 to PRC-4. The
+trial court wrongly found LDIII was required to contest any removal of the Property's TDR-R overlay zoning within thirty days
+from when the action was taken, or at best within one year.
+*17 There is no evidence Mapleton provided any notice of an intent to remove the Property's TDR-R overlay zoning. Other
+than the change to the Property's base zoning designation, there is no evidence of any intent by Mapleton or The Preserve to
+remove or repeal the Property's TDR-R overlay zoning, for which Mapleton received 76 acres of land. It is impossible for a
+statute of limitations to begin running when Mapleton failed to comply with Utah Code notice requirements, and in fact gave
+no notice of an intent to remove the Property's TDR-R overlay zoning at all.
+The trial court found Utah Code § 10-9a-209 required LDIII to challenge the lack of notice within 30 days from the time of the
+meeting or from the time the action was taken. R.581. The trial court failed to recognize Mapleton's failure to give any notice
+of a proposed change to the Property's TDR-R overlay zoning. Utah Code § 10-9a-209 limits challenges only for the adequacy
+of notice actually given. The statute twice states notice must be given. Id. Because Mapleton failed to give the required notice,
+the time limitation to challenge the notice is inapplicable.
+Further, the thirty-day bar cited to by the trial court and found in Utah Code § 10-9a-801 (5) does not apply unless “the
+municipality has complied with Section 10-9a-205.” Mapleton failed to comply with the requirements for a zoning change
+found in Utah Code § 10-9a-205 when it allegedly removed the Property's TDR-R overlay zoning in 2006 by changing the
+base zoning designation.
+Even if the thirty-day bar applies, Utah's appellate courts have recognized the period to appeal does not begin to run until the
+aggrieved party receives actual notice of the land use *18 regulation or decision in question. See, Republic Outdoor Advertising,
+LC v. Dept. of Transp., 2011 UT App 198, ¶27, 258 P.3d 619 (holding that the initial administrative appeal period begins to run
+upon receipt of actual or constructive notice); Fox v. Park City, 2008 UT 85, ¶¶ 21 & 30, 200 P.3d 182.
+There is no evidence Mapleton ever gave notice of an intent to remove the Property's TDR-R overlay zoning status. There is
+also no evidence that prior to filing this action, LDIII received actual knowledge the Property's TDR-R overlay zoning was
+removed. There is no evidence the City Council or The Preserve intended to remove the TDR-R overlay zoning. There are only
+inferences made by the trial court.
+The trial court held LDIII's claim for higher density was untimely. But the trial court ignored that no notice was ever provided. If
+no notice was provided, no time period began running. The trial court's holding that when the Property's base zoning designation
+was changed from A-2 to PRC-4, it lost its TDR-R overlay zoning is not supported by the law or the facts. A property eligible
+for TDR-R overlay zoning becomes entitled with such zoning by “apply [ing] for and receiv[ing] approval to have the property
+placed in the TDR overlay zone pursuant to rezoning procedures set forth in [Title 18 of the City Code].” MCC § 18-76-070.B.
+When zoning approval is granted to a particular property, “[t]he property owner shall be eligible to transfer development
+rights to the property in accordance with the requirements of [Chapter 18.76 of Mapleton City Code].” MCC § 18-76-070.B.2.
+An approved TDR receiving site is eligible to be developed at a density that does not “exceed the density *19 limitations
+established by the General Plan” but may increase the density to “double of what the underlying zone designation would allow.”
+MCC § 18-76-070.B.3.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+10
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+Once property has been rezoned with TDR-R overlay zoning status, the entitlements to the property cannot be revoked, removed
+or extinguished, and such status certainly cannot be revoked, removed or extinguished without notice and without compliance
+with notice and substantive requirements for rezoning under Utah Code.
+The undisputed facts demonstrate Mapleton never gave notice it intended to remove the Property's TDR-R overlay zoning.2
+Mapleton's failure to give any notice regarding a change to the Property's TDR-R overlay zoning renders any purported change to
+the Property's TDR-R overlay zoning illegal and ineffective. Therefore, the trial court's grant of summary judgment to Mapleton
+should be reversed.
+A. The Trial Court Erred in Concluding Mapleton's Zoning Ordinances
+Preclude the Application of a TDR Overlay Zone to a PRC Base Zone.
+In finding LDIII's efforts to claim the higher density were untimely, the trial court misinterpreted the applicable statutes it
+relied upon to decide untimeliness. The trial court made a clear error of law when it decided “[a]n A-2 designation allowed for
+the use of TDRs to increase the density of development, whereas the PRC-4 designation would not.” R.579. Contrary to the
+trial court's holding, Mapleton City Code states the opposite. MCC § *20 18.76.040.B expressly provides “the A-2, … [and]
+planned residential community (PRC) … zones” are eligible to be TDR “receiving areas.” MCC § 18.76.070.A expressly and
+unambiguously provides “Transferable development right receiving sites” are permitted in “the A-2, RA-1, PRC, PRD, PD,
+SDP, R-2-B and R-3 Zone designations…” (emphasis added).
+MCC § 18.82.070.B provides, “[a] density bonus shall only be permitted exclusively with the use of TDRs. TDRs may be used
+to increase the overall density. The maximum density shall be no more than double of the established density in the original
+General Plan designation.” The Property's base density after being rezoned to PRC-4 is 92 units. Therefore, with TDRs, the
+density could be increased to “no more than double” 92 units. There is no evidence in the record regarding the General Plan
+density designation, but clearly it would allow the 136 units density Mapleton granted the Property when it received Upper
+Open Space. When the Property's base zoning was changed from A-2 to PRC in December 2005, the TDR-R overlay zoning
+and TDR receiving site eligibility was not addressed nor affected. Therefore, the trial court's conclusion is contrary to the plain
+language of Mapleton Code and summary judgment should be reversed.
+Once the trial court wrongly determined the Property could not retain its TDR-R overlay zoning while subject to a PRC base
+zoning, it erred in concluding the change of the Property's base zoning from A-2 to PRC-4 resulted in the removal and the
+forfeiture of its TDR-R overlay zoning.
+*21 Inferences from Mapleton's actions and Mapleton's arguments, which should have been made in LDIII's favor, contradict
+the trial court's ruling. In June 2017, the City Council adopted the recommendation of the planning commission, and voted
+to recognize the Property as a TDR receiving site. R.513. Mapleton's action acknowledges a PRC-4 zone is eligible to be a
+TDR receiving site.
+Mapleton argued, “[i]n June 2017, Mapleton City took steps to increase the development density on the subject property ....
+The first step was to newly apply the TDR-R overlay zone.”3 R.566. In other words, Mapleton admits TDR-R overlay zoning
+status may be applied to a property with PRC-4 base zoning. Therefore, the trial court's decision that a PRC-4 zone could not
+be a TDR-R zone is contrary to Mapleton's ordinances, and the opposite of the City Council's understanding.
+Mapleton concedes the Property was eligible for TDR-R overlay zone in June 2017 without any change to the PRC-4 base
+zoning. The 2006 change to the Property's base zoning cannot, or at least in light of the standard of review applicable on
+summary judgment, should not, be construed to support an inference that the “overlay” zoning was revoked by silence and
+implication. Therefore, the trial court's grant of summary judgment should be reversed.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+11
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+III. The Property's Vested Rights Survive Foreclosure.
+*22 A. LDIII Succeeded to All Rights, Titles and Interests of the Prior
+Owners When it Obtained Title to the Property Through Foreclosure.
+The trial court held LDIII did not succeed to any of the rights vested in The Property. LDIII obtained its legal and equitable title
+to the Property pursuant to foreclosure. As a matter of law, it succeeded to, and acquired all rights, titles and privileges owned
+by the prior land owners. Utah law specifically provides:
+The trustee's deed shall operate to convey to the purchaser, without right of redemption, the trustee's title and all right, title,
+interest, and claim of the trustor and the trustor's successors in interest and of all persons claiming by, through, or under them,
+in and to the property sold, including all right, title, interest, and claim in and to the property acquired by the trustor or the
+trustor's successors in interest subsequent to the execution of the trust deed, which trustee's deed shall be considered effective
+and relate back to the time of the sale.
+
+Utah Code § 57-1-28(3); c.f. Am. Interstate Mortgage Corp. v. Edwards, 2002 UT App 16, ¶ 27; 41 P.3d 1142 (holding that the
+buyer of real property at a Sheriff's Sale succeeds to the title held by its predecessor and all rights that accompany that title).
+LDIII succeeded to all the development rights vested in the Property.
+Likewise, the Trust Deed itself expressly conveyed the Property, “[t]ogether with all buildings, fixtures, and improvements
+thereon, and all water rights, rights of way, easements, rents, issues, profits, income, tenements, hereditaments, privileges and
+appurtenances thereon belonging, now or hereafter used or enjoyed with said property, or any part thereof ....” R.88. This broad
+assignment language is not susceptible to the interpretation that The Preserve intended to carve out, or withhold assignment
+of density rights, its rights under the *23 Development Agreement, or any other rights that do or may accompany title to the
+Property. At least a disputed issue of fact exists, which precludes summary judgment.
+The trial court mistakenly relied on Utah Code § 57-1-22.5 in concluding LDIII did not succeed to the development rights and
+density entitlements under the Development Agreement when it acquired title by foreclosure. However, Utah Code § 57-1-22.5
+deals with the assignment of a beneficial interest under a trust deed to another party when another party acquires the beneficial
+rights under the trust deed. The purpose of the statute is to give the public notice when the identity of the beneficiary of a
+trust deed has changed. It does not govern or dictate what rights pass to a holder of a trust deed or to a successful bidder at
+a nonjudicial foreclosure sale.
+B. The Development Agreement Is Ambiguous Requiring the Interpretation Most Favorable to LDIII.
+The Trial Court Erred in Concluding the Development Agreement Does Not Run with the Land.
+Relying on only one section of the Development Agreement, and ignoring numerous others, the trial court found the
+Development Agreement did not run with the land, and LDIII was unable to rely on it for increased density. Paragraph 10 of
+the Development Agreement states, “Owner's rights under this Agreement shall be personal to Owner and shall only run with
+the land” when approved by the city. R.43.
+However, Paragraph 21 of the Development Agreement expressly provides “this Agreement or a memorandum providing public
+notice of the existence of this Agreement shall be recorded immediately as a covenant running with the Property....” R.47.
+*24 Paragraph 19 of the Development Agreement provides, “[t]his Agreement shall be binding on the successors and assigns
+of Owner.” R.45.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+12
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+Paragraph 2 of the Development Agreement expressly provides, “the Property shall be the recipient of the density transferred
+from the Upper Open Space property” and upon conveyance of the Upper Open Space property to Mapleton, “seventy-five (75)
+density units [shall be] transferred to the remainder of Owner Development Property” R.39.
+Paragraph 6 of the Development Agreement provides, once the “transfer of density” occurs, “the Owner has a vested right to
+develop a maximum of one hundred thirty-six single family residential units on individual lots.” R.41. The Property's density
+of 136 units to be developed was recognized in the Mapleton staff report. R.105.
+A reasonable interpretation of the Development Agreement is the density entitlement and other rights under it run with the land.
+The Development Agreement includes “seventy-five (75) density units transferred to the remainder of Owner Development
+Property” from the Upper Open Space will run with the land.
+In several paragraphs, the Development Agreement explicitly states it runs with the land. Elsewhere, it states it is assignable
+only with Mapleton's consent.4 If these conflict, it creates an ambiguity that precludes summary judgment. The Development
+Agreement is also ambiguous regarding what constitutes an “Owner's right.” That term is used in Paragraph 10. The
+Development Agreement acknowledges vested property entitlements that *25 run with the land, include the “seventy-five (75)
+density units transferred to the remainder of Owner Development Property.” R.39 (Italics added).
+Summary judgment requires the trial court to construe all facts and draw all reasonable inferences in favor of LDIII before ruling
+against it. For purposes of Mapleton's motion for summary judgment, the trial court must adopt the reasonable interpretation
+of the Development Agreement that favors LDIII, that is, it runs with the land. Rather than interpreting the ambiguous contract
+terms, the trial court should have taken evidence regarding the intent of the parties. Such contradictions in the Development
+Agreement precludes summary judgment
+The Utah Supreme Court's decision in Ward v. Intermountain Farmers Association, 907 P.2d 264 (Utah 1995) is directly on point.
+In Ward, the trial court granted summary judgment adopting one of two reasonable constructions of an ambiguous contract. The
+Utah Supreme Court reversed and remanded, explaining:
+Because the language of the agreement is reasonably susceptible to Ward's contended interpretation, we conclude that it is
+ambiguous, and any evidence relevant to prove its meaning is admissible. Indeed, exclusion of such evidence would deny
+the relevance of the parties' intentions and defeat the principle of contract interpretation that the intentions of the parties are
+controlling.... This is not a case where extrinsic evidence, if believed by the fact finder, would contradict the parties' written
+agreement. Accordingly, we hold that extrinsic evidence is admissible ....
+
+Id. at 269 (citations omitted).
+Likewise, in WebBank v. American General Annuity Service Corp., 2002 UT 88, 54 P. 3d 1139, the Utah Supreme Court reversed
+a trial court's grant of summary judgment where the contract at issue was ambiguous:
+*26 Because the nature and character of the transaction is ambiguous and the intent of the parties unclear, resort to extrinsic
+evidence is required to determine the intent of the parties .... Such ambiguity may be resolved only by the trier of fact after
+consideration of parol or extrinsic evidence as to the parties' intentions, that is, a review and evaluation of all the facts and
+circumstances surrounding the substance of the transaction. Therefore, the trial court erred in granting summary judgment ....
+Because the grant of summary judgment was improper due to the existence of a disputed factual issue as to [the parties']
+intentions and the nature and character of the transaction, we reverse and remand for trial in order that extrinsic evidence maybe
+presented as to [the parties'] intentions regarding the nature and character of the transaction.
+
+Id. at ¶¶ 28-29 (citations omitted).
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+13
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+The WebBank court explained “[a]n ambiguity exists in a contract term or provision if it is capable of more than one reasonable
+interpretation because of uncertain meanings of terms, missing terms, or other facial deficiencies. Id. at ¶ 20 (citations omitted).
+The court added,
+Whether an ambiguity exists in a contract is a question of law. When ambiguity exists, the intent of the parties becomes a
+question of fact. A motion for summary judgment may not be granted if a legal conclusion is reached that an ambiguity exists
+in the contract and there is a factual issue as to what the parties intended. Therefore, in considering a motion for summary
+judgment, failure to resolve an ambiguity by determining the parties' intent from parol evidence is error.
+
+Id. at ¶22 (citations omitted).
+In SME Industries, Inc. v. Thompson, Ventulett, Stainback & Assocs., Inc., 2001 UT 54, 28 P.3d 669, the Utah Supreme Court
+reversed the trial court's grant of summary judgment. The court held ambiguities in a contract precluded summary judgment
+and required reversal,. It stated:
+*27 The parties' arguments highlight the ambiguities that should have prevented the trial court from granting summary
+judgment .... The basic purpose in construing or interpreting a contract … is to determine the intentions of the parties, which are
+controlling. Accordingly, we have held that a court may consider extrinsic evidence if the meaning of the contractual provision
+at issue is ambiguous or uncertain. A contract provision is ambiguous if it is capable of more than one reasonable interpretation
+because of uncertain meanings of terms, missing terms, or other facial deficiencies. When ambiguity exists, the intent of the
+parties becomes a question of fact. Therefore, in considering a motion for summary judgment, failure to resolve an ambiguity
+by determining the parties' intent from parol evidence is error.
+Here, the parties have presented contrary, tenable interpretations of the language contained in [the contract].... Because the
+intent of the parties is unclear, extrinsic evidence is necessary to determine the meaning of the [contract] provision, and the trial
+court erred in granting judgment as a matter of law on this issue.
+
+Id. at ¶¶ 14-15(citations omitted).
+The trial court stated:
+LD III contends that the Development Agreement states its terms are to run with the land. However, the relevant language of
+the Development Agreement is not in accord:
+Owner's rights under this Agreement shall be personal to Owner and shall only run with the land so long as Owner or a company
+which is affiliated with it under common ownership and control of Owner shall own and be the Owner of the Property. In the
+event that Owner intends to sell the Property or any portion thereof to any other party, Owner shall advise the city of such
+intention. Only upon express prior written approval by the City, shall any rights of Owner with respect to the portion of the
+Property being sold be deemed transferred to the new owner thereof. City may withhold such approval in the exercise of its
+reasonable business judgment, based upon conditions that exist at the time of the transfer, the proposed transferee and the history
+of the development of the Project prior to such time.
+
+*28 R.582. In its summary judgment ruling, the trial court ignored these other directly contradictory paragraphs discussed
+above (¶¶2, 6, 19, 21). For the trial court to decide as it did, it had to choose to focus on one term and ignore another. This
+is improper at summary judgment. The trial court failed to consider, or even mention, this language anywhere in its ruling.
+The trial court's failure to consider the language stating the Development Agreement runs with the land disregards an obvious
+ambiguity and is error.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+14
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+The trial court decided the Development Agreement terms it cited were the only relevant terms. By doing so, it made inferences
+against LDIII, improperly construed the Development Agreement against LDIII, and misapplied the summary judgment
+standard.
+The trial court was obligated to consider the portions of the Development Agreement that favor LDIII's position and to construe
+it in LDIII's favor before ruling against it. “The cardinal rule in contract interpretation is to “give effect to the intentions of the
+parties as they are expressed in the plain language of the [agreement] itself.” New York Ave. LLC v. Harrison, 2016 UT App
+240, ¶ 21, 391 P.3d 268. We examine “the entire [agreement] and all of its parts in relation to each other, giving an objective
+and reasonable construction to the [agreement] as a whole.” G.G.A., Inc. v. Leventis, 773 P.2d 841, 845 (Utah Ct. App. 1989).
+Our goal is to interpret the agreement “so as to harmonize all of its terms and provisions, and all of its terms should be given
+effect if possible.” Pioneer Builders Co. of Nev. v. K D A Corp., 2018 UT App 206, ¶ 13, 437 P.3d 539. Failing to consider each
+of the Development Agreement's terms and giving weight to one contradictory term over another was error.
+*29 Here, there are ambiguities in the Development Agreement and the parties' intent is unclear. Therefore, it was error for
+the trial court to grant Mapleton summary judgment.
+C. Disputed Issues of Fact Exist as to Whether LDIII Succeeded to the Development
+Rights Regarding Density and Zoning Acknowledged in the Development Agreement.
+In granting summary judgment, the trial court improperly held there was “no evidence … the development rights regarding
+density and zoning outlined in the Development Agreement were assigned to LD III .... [And] there are no indications that the
+parties to the agreement specifically intended the Development Agreement to survive the foreclosure....” R.584
+However, Paragraph 2 of the Development Agreement expressly provides, “the Property shall be the recipient of the density
+transferred from the Upper Open Space property” and upon conveyance of the Upper Open Space to the City, “seventy-five (75)
+density units [shall be] transferred to the remainder of Owner Development Property” R.39. Paragraph 6 of the Development
+Agreement provides, once the “transfer of density” occurs, “the Owner has a vested right to develop a maximum of one hundred
+thirty-six (136) single family residential units on individual lots.” R.41. These are not merely contractual rights, they are vested
+property rights.
+When SLR deeded the Upper Open Space to Mapleton, “seventy-five (75) density units [were] transferred” to the Property
+and vested in the Property, giving all of its then and future owners “a vested right to develop a maximum of one hundred
+thirty-six (136) single family residential units on individual lots.” R.41. The Property must continue to possess its *30 vested
+development rights, otherwise, Mapleton was unjustly enriched when it received the Upper Open Space. Mapleton will have
+received that land and withdrawn what it gave for it.
+There is no evidence the density, zoning, and development rights in the Development Agreement were not assigned to LDIII.
+Further, there is no evidence the parties to the Development Agreement intended it would not survive a foreclosure. The
+summary judgment standard of review prohibits the trial court from adopting facts or drawing inferences against LDIII.
+Substantial evidence supports the conclusion that when LDIII acquired title by foreclosure it succeeded to all rights in the
+Property, including the development rights regarding density and zoning that are acknowledged in the Development Agreement.
+This evidence and the controlling legal authorities are more specifically discussed in Section III A. A disputed issue of material
+fact exists as to whether LDIII succeeded to the density entitlements acknowledged in the Development Agreement. As such,
+the trial court's ruling is not supported by sufficient evidence and should be reversed.
+D. Mapleton was Required to Comply with Utah Zoning Code to Change the Property's Zoning.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+15
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+The trial court held Mapleton City Ordinance 2007-18 “which applied the PRC-4 zone and removed the TDR-R overlay to limit
+density to 92 units, was enacted pursuant to MCC § 1.01.020 ....” R.589. MCC § 1.01.020 is found at the very beginning of
+Mapleton Code. MCC§ 1.01.20 states, “[t]his code shall be adopted by an ordinance enacted in accordance with the applicable
+provisions of section 10-3-701 of Utah Code Annotated, as amended, and *31 shall become effective at the time set forth
+in the enacting ordinance.” This section of Mapleton Code does not relate to zoning changes. It is the language that allowed
+Mapleton to enact its city code.
+Utah Code § 10-3-701, the section referenced in the Mapleton code, states, “[e]xcept as otherwise specifically provided, the
+governing body of each municipality shall exercise its legislative powers through ordinances.” There is no authority or process
+set forth to allow Mapleton to make zoning changes without complying with the notice and other requirements set forth in
+Utah Code.
+The trial court cited Utah Code § 10-3-702 which states, “[t]he governing body may pass any ordinance to regulate, require,
+prohibit, govern, control, or supervise any activity, business, conduct or condition authorized by this act or any other provision
+of law.” R.590. This statute does not give Mapleton authority to enact zoning laws outside of the specific process and procedures
+set forth in Utah Code § 10-9a-502 et sq.
+The trial court found “the Utah Municipal Code permits the City Council to modify density of development through the general
+ordinance procedures rather than the more specific zoning amendments.” Id. The trial court held Mapleton “chose to adhere
+to the general procedure for ordinances found in section 1.01.20 of Mapleton City Code.” R.590. The trial court did not cite
+to any decision of any appellate court or any statute to support its holding that Mapleton could change the Property's zoning
+status without complying with Utah Code § 10-9a-502 et seq.
+Utah Code § 10-9a-502 states:
+*32 (1) The planning commission shall:
+(a) provide notice as required by Subsection 10-9a-205(1)(a) and, if applicable, Subsection 10-9a-205(4);
+(b) hold a public hearing on a proposed land use regulation;
+(c) if applicable, consider each written objection filed in accordance with Subsection 10-9a-205(4) prior to the public hearing;
+and
+(d) (i) review and recommend to the legislative body a proposed land use regulation that represents the planning commission's
+recommendation for regulating the use and development of land within all or any part of the area of the municipality; and
+(ii) forward to the legislative body all objections filed in accordance with subsection 10-9a-205(4).
+(2) (a) The legislative body shall consider each proposed land use regulation that the planning commission recommends to the
+legislative body
+(b) After providing notice as required by Subsection 10-9a-205(1)(b) and holding a public meeting, the legislative body may
+adopt or reject the land use regulation described in subsection (2)(a):
+(i) as proposed by the planning commission; or
+(ii) after making any revision the legislative body considers appropriate.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+16
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+Utah Code § 10-9a-503 states:
+(1) Only a legislative body may amend:
+(a) the number, shape, boundaries, area, or general uses of any zoning district;
+(b) any regulation of or within the zoning district; or
+(c) any other provision of a land use regulation.
+(2) A legislative body may not make any amendment authorized by this section unless the legislative body first submits the
+amendment to the planning commission for the planning commission's recommendation.
+(3) A legislative body shall comply with the procedure specified in Section 10-9a-502 in preparing and adopting an amendment
+to a land use regulation.
+
+Contrary to the trial court's holding, Mapleton could not alter the Property's zoning through the general procedures for
+ordinances. Utah Code requires Mapleton to strictly comply with notice and other requirements relating to zoning issues.
+Mapleton could not remove the Property's TDR-R overlay zoning without strictly complying with these requirements. The trial
+court committed error in finding Mapleton could enact land use *33 regulation through its general ordinance procedure and
+therefore its decision granting Mapleton summary judgment should be reversed.
+III. There was No Waiver or Agreement to Remove the Property's Vested Density Development Rights.
+The trial court found the Property's TDR-R overlay zoning was eliminated on May 17, 2006 when the Property's base zoning
+was changed. Id. The trial court cites the City Council Minutes for the May 17, 2006 meeting to support its ruling. R.587.
+The trial court cited Utah Code § 10-9a-209, “[i]f notice is given under authority of this part is not challenged under Section
+10-9a-801 within 30 days after the meeting for which notice is given, the notice is considered adequate and proper.” R.581
+(emphasis added). In this case, notice was never given.
+The undisputed facts show on May 7, 2003 the City Council passed Ordinance No. 2003-13, stating “the TDR-S and TDR-R
+applications have received favorable recommendations from the Mapleton City Planning Commission” … “portions of parcels
+27-034-0001 & 0047, identified in the Plat Map Exhibit ‘A’, shall be designated as a TDR-R site of 166 acres in the A-2 zone.”
+R.55. The zoning decision to designate the Property as a TDR-R overlay zone demonstrates a TDR-R overlay zone designation
+is separate and distinct from a base zoning designation. This difference was ignored.
+Despite relying on the notice statute, the trial court ignored the lack of notice in 2006 that the City Council was going to consider
+the removal of the Property's TDR-R overlay zoning status. There was never a City Council meeting in which the elimination
+of the Property's TDR-R overlay zoning was discussed, considered or decided. As such, there *34 could never be notice.
+Mapleton admitted the Property's TDR-R overlay zoning was “impliedly repealed,” which admission contradicts the trial court's
+finding the Property's TDR-R overlay zoning was explicitly removed at the City Council meeting of May 17, 2006. Further,
+Mapleton claims the Property's TDR-R overlay zoning was changed by “removing the TDR-R designation … from the official
+zoning map.” R.227.
+The City Council Minutes from May 17, 2006 do not mention the Property's TDR-R overlay zoning. R.80. The record is devoid
+of any evidence The Preserve expressly requested the TDR overlay zoning be changed or terminated, or that The Preserve
+intended to forfeit the Property's TDR-R overlay zoning. There is no mention of removing or repealing the Property's TDR-R
+overlay zoning in City Council Minutes for May 17, 2006 or in any ordinance or resolution.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+17
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+Further, despite the trial court's conclusions, a change in a property's TDR-R overlay zoning is not the same as a change to the
+base zoning. The trial court made improper inferences in favor of Mapleton in holding the Property's TDR-R overlay zoning
+was removed by the base zoning change. This conclusion is contradicted by Mapleton's staff report, stating the change from A-2
+to PRC base zoning “did not change the allowed density.” R.105. The allowed TDR-R density was 136 units under both base
+zoning designations. The trial court improperly inferred notice of a City Council meeting to consider a change to the Property's
+base zoning designation was sufficient notice of Mapleton's intent to also change the Property's TDR-R overlay zoning.
+*35 Likewise, there is no evidence to support the trial court's finding on summary judgment the vested density rights to develop
+136 units which were transferred to the Property in exchange for the Upper Open Space were surrendered, forfeited or taken.
+There is no evidence Mapleton considered, much less specifically voted, to remove the Property's TDR-R overlay zoning.
+The trial court made improper inferences in Mapleton's favor and weighed evidence in finding, “by considering the totality of
+the circumstances that the right to develop the Property at a higher density was waived.” R.587. If the trial court considered the
+totality of the circumstances in arriving at its decision, it necessarily made inferences and weighed evidence. Weighing evidence
+and making inferences in favor of Mapleton to arrive at the “totality of the circumstances” is improper on summary judgment.
+There is nothing in the record explicitly supporting the trial court's finding and conclusion.
+There was never any explicit change made to the Property's TDR-R overlay zoning. The trial court could only infer the Property's
+TDR-R overlay zoning was removed when its base zoning was changed, and The Preserve and Mapleton intended to remove the
+Property's TDR-R overlay zoning. There is no evidence of the parties' intent at the time the base zoning was changed. The trial
+court could only make an inference from what occurred. The trial court is not allowed to make such an inference in Mapleton's
+favor when considering its motion for summary judgment.
+On summary judgment, the trial court must draw all reasonable inferences in favor of, not against, LDIII in deciding whether
+The Preserve voluntarily forfeited, and Mapleton *36 removed, the Property's TDR-R overlay zoning in 2006. Where the
+record is silent, the absence of evidence should not be construed against LDIII. Therefore, the trial court's grant of summary
+judgment should be reversed.
+Additionally, the undisputed evidence establishes the 2006 modification to the Property's base zoning was contingent, and could
+be revoked by Mapleton. The May 17, 2006 City Council meeting minutes state, “the application be further reviewed in 5
+months on the basis that if the concept plan has not been submitted to the City Council for final approval, consideration will
+be given to rezoning the land to its original A2 zone designation.” R.80. A reasonable inference is The Preserve did not intend
+to forfeit or remove the Property's TDR-R overlay zoning, and wanted to preserve it in case the Property's base zoning was
+changed back A-2. The trial court was required to make such an inference in LDIII's favor when considering Mapleton's motion
+for summary judgment.
+The trial court found City Council's approval of TDR-R overlay zoning to the Property in 2017 was a legislative act. R.588.
+Assuming, as the trial court did, that an action to apply the TDR-R overlay zoning to the Property is a legislative act to modify
+the Property's zoning, an action to remove the Property's TDR-R overlay zoning also must also constitute a legislative act. That
+would necessitate formal notice, not “implied” notice.
+Utah Code § 10-9a-602(1) imposes statutory conditions and requirements for any zoning change to a property. Utah law
+mandates that the planning commission:
+(a) prepare and recommend a proposed ordinance to the legislative body that regulates the subdivision of land;
+(b) prepare and recommend or consider and recommend a proposed ordinance that amends the regulation of the subdivision
+of the land in the municipality;
+*37 (c) provide notice consistent with Section 10-9a-205; and
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+18
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+(d) hold a public hearing on the proposed ordinance before making its final recommendation to the legislative body.
+
+Utah Code § 10-9a-602(1).
+Mapleton followed this process and satisfied these requirements when it enacted Ordinance 200-13 in 2003, which applied the
+TDR-R status to the Property and specifically approved the Property's TDR-R overlay zoning. In contrast, the undisputed facts
+show in 2006 the Planning Commission never made a recommendation with respect to the removal of, or any other change
+to, the Property's TDR-R overlay zoning. The requirement that Mapleton comply with Utah Code addressing zoning changes
+to the Property is critical, but was ignored by the trial court.5 It is unreasonable to believe statutory requirements need only
+be followed on occasion.
+The trial court seems to have held as a matter of law that overlay zoning is modified by “implication” or “inference” whenever a
+property's base zoning is changed, even if neither the property owner nor the land use authority gives notice, expressly mentions,
+or actually discusses the overlay zoning. This is incorrect as a matter of law and public policy and is contrary to Utah Code.
+*38 There is no evidence to support the trial court's finding the parties intended to remove the Property's TDR-R overlay
+zoning, or that it actually occurred. Making all reasonable inferences in LDIII's favor, there are disputed issues of material fact
+regarding whether the Property's TDR-R overlay zoning was removed when it was rezoned PRC-4. Therefore, the trial court's
+grant of summary judgment should be reversed.
+IV. The Voter Referendum Was Invalid.
+On June 7, 2017, even though it was unnecessary and redundant, the City Council again designated the Property as a TDR
+receiving site. Subsequently, opponents of that decision were allowed to present a referendum on the November 2017 ballot
+which, if passed, would reverse the City Council's decision. The referendum passed. It is Mapleton's position the action it took
+was reversed and the Property does not possess TDR-R overlay zoning.
+However, Mapleton should never have allowed the referendum vote to occur. It was illegal and can have no effect. Utah Code
+§ 20A-7-601 deals with local referenda procedures. Utah Code § 20A-7-601(1) provides that “a person seeking to have a local
+law passed by the local legislative body submitted to a vote of the people ....” (Emphasis added.) It is important this refers to a
+“local law.” Utah Code § 20A-7-101(13) defines a “local law”: “(a)'Local law' includes: (i) an ordinance; (ii) a resolution; (iii)
+a master plan; (iv) a comprehensive zoning regulation adopted by ordinance or resolution; or (v) other legislative action of a
+local legislative body, (b) 'Local law' does not include an individual property zoning decision.” Utah Code § 20A-7-101(13)
+(emphasis added).
+*39 Mapleton has throughout its pleadings referred to TDR-R overlay as a zoning status. The action by the City Council to
+apply TDR-R overlay zoning to the Property was an individual property zoning decision. It only applied to the Property. It was
+not eligible for a referendum, and the 2017 action by the City Council approving TDR-R status for The Property is not affected
+by the referendum. The referendum is invalid and not binding. Therefore, the Property retains its TDR-R overlay zoning.
+The Utah Supreme Court recently decided this question in Baker v. Carlson, 2018 UT 59, 437 P.3d 333 (Sup.Ct.). In Baker, the
+Court was tasked with determining whether two different resolutions in Holladay City regarding the development and use of the
+former Cottonwood Mall were referable. Ultimately, they concluded one (2018-16) was, and the other (2018-17) was not. Id.
+at 334. The decision turned on “[i]f the municipality's decision is ‘open-ended’ and made without reference to ‘fixed criteria,’
+then the decision may be legislative.” Id. at 339 (citing Krejci v. City of Saratoga Springs, 2013 UT 74, ¶ 34, 322 P.3d 662.)
+“But if the municipality's decision involves the ‘application of existing law to the facts presented by an individual applicant’ or
+is ‘limited to the evaluation of specific criteria fixed by law,’ then the decision is administrative.” Id. Unlike here, Resolution
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+19
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+2018-16 concerned whether or not the city should adopt a site master development plan for that location, without regard to
+any specific entity. Id. at 334. Resolution 2018-17, like this case, concerned the amendment of an existing Agreement for the
+Development of Land, which was an agreement between specific parties. Id. Because “[t]he Amended ADL *40 applie[d] only
+to the contracting parties and its approval involved the application of law to specific facts Resolution 2018-17 [was] therefore
+not referable.” Id. at 342.
+In this case, the referendum concerned only whether the increased density would be specifically allowed on The Property. This
+was a decision that should have been made in accordance with the existing agreement between the parties. Therefore, it was
+administrative and not legislative. The trial court was in error in determining that it was referable.
+CONCLUSION
+Pursuant to the foregoing arguments and law, Appellant respectfully requests this Court reverse the summary judgment of the
+trial court and remand for resolution of the party's claims on the merits.
+DATED this 17th day of June, 2019.
+NELSON, SNUFFER, DAHLE & POULSEN
+/s/ Denver C. Snuffer, Jr.
+Denver C. Snuffer, Jr.
+Steven R. Paul
+Daniel B. Garriott,
+Nelson, Snuffer, Dahle & Poulsen
+Attorneys for Appellant
+Appendix not available.
+Footnotes
+Utah Code §§10-9a-509.7 and 17-27a-509.7 established TDRs so property that has been designated as TDR-R can receive density
+1
+from TDR-S property, to allow more density than would otherwise be permitted.
+
+2
+
+Mapleton's planning commission never considered or recommended such an action, and the City Council never considered or voted
+to adopt removal of the Property's TDR-R overlay zoning status or revocation of its entitlement as a TDR receiving site. Mapleton's
+planning commission and the City Council did consider and approve an application to change the base zoning from A-2 to PRC.
+Changing the base zoning, however, did not and could not effect the Property's TDR-R overlay zoning.
+
+3
+
+LDIII disputes, as both a matter of fact and law, the Property's designation as a TDR-R overlay zone was ever changed since 2003.
+Mapleton's actions in June 2017 did not “newly apply” the TDR-R overlay zoning, but merely recognized what existed since 2003.
+Mapleton's admission shows the error in the Court's reasoning. Mapleton admitted property subject to the PRC-4 base zoning is
+eligible for TDR-R overlay zoning status.
+
+4
+
+Here there was no assignment, but LDIII gained ownership through nonjudicial foreclosure, making Paragraph 10 of the Development
+Agreement inapplicable to this case.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+20
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356023...
+
+5
+
+Mapleton argued that there was an “implied repeal” of the Property's TDR-R overlay zoning when the base zoning was changed
+from A-2 to PRC-4 and that such a repeal was not subject to Utah Code's notice requirements. R.226. Yet Mapleton also argues the
+application of TDR-R is a legislative act, subject to the Utah Code's notice requirements and therefore eligible for a referendum vote.
+It cannot be both ways. Either the Property retains its TDR-R overlay zoning because it was never legally removed or the Property
+has TDR-R overlay zoning because the referendum in 2017 was improper because dealing with TDR overlay zoning is not subject
+to Utah Code zoning requirements and therefore not a legislative act.
+
+End of Document
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+21
+
+

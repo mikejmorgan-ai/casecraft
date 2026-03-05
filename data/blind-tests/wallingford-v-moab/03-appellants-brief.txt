@@ -1,0 +1,1233 @@
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+2018 WL 10399915 (Utah App.) (Appellate Brief)
+Court of Appeals of Utah.
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol Mayer, David
+Bodner, Meeche Bodner, Sarah Stock, Josephine Kovash, Individuals,
+Living Rivers, a Nonprofit Corporation, Plaintiffs and Appellants,
+v.
+MOAB CITY, Moab City Council, Defendants and Appellees,
+and
+THE UTAH SCHOOL AND INSTITUTIONAL TRUST LANDS ADMINISTRATION
+and LB Moab Land Company LLC, Intervenor Defendants and Appellees.
+No. 201880524-CA.
+October 17, 2018.
+(Oral Argument is Requested)
+Appeal from the Seventh Judicial District Court, Grand County, State of Utah
+the Honorable Lyle R. Anderson, Seventh District Court, Civil No. 170700009
+Brief of Appellants
+Christopher G. McAnany (7933), mcanany@dwmk.com, Dufford, Waldeck, Milburn & Krohn, 744 Horizon Court, Suite 300,
+Grand Junction, CO 81506, Telephone: (970) 241-5500, Facsimile: (970) 243-7738, for defendant and appellee Moab City and
+Moab City Council.
+Daniel J. McDonald (7935), dan@mcdonaldfielding.com, Kyle C. Fielding (#12088), kyle@mcdonaldfielding.com, McDonald
+Fielding, PLLC, the Mill at Dry Creek, 175 W. Canyon Crest Rd., Suite 204, Alpine, Utah 84004, Telephone: (801) 610-0010,
+for appellants.
+Jody K. Burnett (0499), jkb@scmlaw.com, Robert C. Keller (4861), rck @scmlaw.com, Snow Christensen & Martineau, 10
+Exchange Place, 11th Floor, P.O. Box 45000, Salt Lake City, Utah 84111, Phone: (801) 521-9000, Facsimile: (801) 363-0400,
+for defendant intervenors and appellee Utah School and Institutional Trust Lands Administration and LB Moab Land Company,
+LLC.
+List of Current and Former Parties.
+Plaintiffs/Appellants: Lucy Wallingford, Kiley Miller, John Rzeczycki, Carol Mayer, David Bodner, Meeche Bodner, Sarah
+Stock, Josephine Kovash, Living Rivers, a Nonprofit Corporation.
+Counsel: Daniel J. McDonald, Kyle C. Fielding.
+Defendants/Appellees: Moab City, Moab City Council.
+Counsel: Christopher G. McAnany.
+Intervenors/Appellees: the Utah School and Institutional Trust, Lands Administration, LB Moab Land Company, LLC., Counsel:
+Jody K. Burnett, Robert C. Keller.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+1
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+*iv TABLE OF CONTENTS
+TABLE OF CONTENTS ................................................................................................................................
+TABLE OF AUTHORITIES ...........................................................................................................................
+INTRODUCTION ...........................................................................................................................................
+STATEMENT OF THE ISSUES .....................................................................................................................
+STATEMENT OF THE CASE ........................................................................................................................
+I. Facts of the Case .........................................................................................................................................
+II. The Procedural History of the Case ...........................................................................................................
+III. The Trial Court's Disposition of the Case ................................................................................................
+SUMMARY OF THE ARGUMENT ..............................................................................................................
+ARGUMENT ...................................................................................................................................................
+I. PASSAGE OF RESOLUTION NO. 14-2017 WITHOUT A PUBLIC HEARING WAS ILLEGAL ..........
+A. LUDMA and the MMC require a public hearing ......................................................................................
+B. Public policy requires a public hearing ......................................................................................................
+II. ALTERNATIVELY, THE TRIAL COURT ERRED IN CONCLUDING THAT RESOLUTION NO.
+14-2017 WAS IMMUNE FROM REVIEW BY THE MOAB CITY APPEAL AUTHORITY BECAUSE
+RESOLUTION NO. 14-2017 WAS A “LAND USE DECISION” UNDER LUDMA ..................................
+III. THE TRIAL COURT INCORRECTLY CREATED AND THEN MISAPPLIED AN ERRONEOUS
+STANDARD OF JUDICIAL REVIEW ..........................................................................................................
+A. The trial court created and used the wrong standard of review .................................................................
+B. The trial court incorrectly applied this new standard ................................................................................
+CONCLUSION ................................................................................................................................................
+CERTIFICATE OF COMPLIANCE WITH RULES 24(g)(1) AND 21(g) ....................................................
+CERTIFICATE OF SERVICE .........................................................................................................................
+ADDENDUM ..................................................................................................................................................
+*v TABLE OF AUTHORITIES
+Cases
+Bahr v. Imus, 2011 UT 19, 250 P.3d 56 ................................
+Bradley v. Payson City Corp., 2003 UT 16, ¶ 28, 70 P.3d 47,
+55 ...........................................................................................
+Cattani v. Drake, 2018 UT App 77, ¶ 27, ___ P.3d ___ ........
+Cedar River Water and Sewer Dist. v. King County, 315 P.3d
+1065 (Wash. 2013) ................................................................
+Checketts v. Providence City, 2018 UT App 48, ¶ 14, 420
+P.3d 71, 76 .............................................................................
+Chung v. Sarasota County, 686 So.2d 1358 (Fla. App. 2
+Dist. 1996) .............................................................................
+City of Kansas City v. Ku, 282 S.W.3d 23, 32 (Mo. App.
+W.D. 2009) ............................................................................
+Clayton v. Salt Lake City, 15 Utah 2d 57, 387 P.2d 93 (1963)
+.................................................................................................
+Commonwealth v. Parisi, 873 A.2d 3, 9 (Pa. Cmwlth. 2005)
+Dacy v. Village of Ruidoso, 845 P.2d 793, 797 (N.M. 1992) .
+Dillingham v. McLaughlin, 44 S. Ct. 362, 68 L.Ed. 742
+(1924) .....................................................................................
+Ench v. Mayor & Council of Tp. of Pequannock, 47 N.J.
+535, 539, 222 A.2d 1 (1966) .................................................
+Fox v. Park City, 2008 UT 85, ¶ 11, 200 P.3d 182 ................
+Garcia v. Jones, 29 Utah 2d 409, 411, 510 P.2d 1099, 1100
+(Utah 1973) ...........................................................................
+Gillmor v. Summit County, 2010 UT 69, ¶ 21, 246 P.3d 102,
+107 .........................................................................................
+Green v. Brown, 2014 UT App 155, 330 P.3d 737 ................
+Hale v. Osborn Coal Enterprises, Inc. 729 So. 2d 853 (Ala.
+Civ. App. 1997) .....................................................................
+
+iv
+v
+1
+4
+8
+8
+17
+17
+18
+20
+20
+20
+25
+32
+38
+39
+42
+46
+47
+48
+49
+
+5, 6, 7
+30
+P.3d ___ 5
+28
+6
+28
+42
+39
+42
+27
+26
+29
+5
+38
+33
+1, 15, 35, 37
+27
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+2
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+Harmon City, Inc. v. Draper City, 2000 UT App 31, ¶ 26,
+997 P.2d 321 ..........................................................................
+Jacob v. Bate, 2015 UT App 206, ¶ 13, 358 P.3d 346 ...........
+Marshall v. Salt Lake City, 105 Utah 111, 119, 141 P.2d 704,
+708 (1943) .............................................................................
+McElhaney v. City of Moab, 2017 UT 65, ¶ 26, ___ P.3d ___
+.................................................................................................
+Moab Local Green Party, et al. v. Moab, 2012 UT App 113,
+276 P.3d 1230 ........................................................................
+Murphy Citizens Advisory Committee v. Josephine County,
+878 P.2d 414 (Or. 1994) ........................................................
+Patterson v. Amerocan Fork City, 2003 UT 7, ¶ 17, 67 P.3d
+466 .........................................................................................
+Potter v. South Salt Lake City, 2018 UT 21, ¶ 2, ___ P.3d
+___ .........................................................................................
+Retan v. Salt Lake City, 63 Utah 459, 226 P. 1095 (1924) .....
+Smith Inv. Co. v. Sandy City, 958 P.2d 245, 252-53 (Utah Ct.
+App. 1998) .............................................................................
+Stark Liquidation Co. v. Florists' Mut. Ins. Co., 243 S.W.3d
+385, 400 (Mo.App. E.D.2007) ..............................................
+State v. Hutchinson, 624 P.2d 1116, 1125 (Utah 1980) ..........
+State v. Vaughn, 2011 UT App 411, ¶ 9, 266 P.3d 202, 205 ...
+Suarez v. Grand County, 2012 UT 72, ¶ 20, 296 P.3d 688 .....
+Suski v. Mayor & Comm'rs of Borough of Beach Haven, 132
+N.J.Super. 158, 164, 333 A.2d 25 (App. Div. 1975) ..............
+Town of Alta v. Ben Hame Corp., 836 P.2d 797, 803 (Utah
+Ct. App. 1992) .......................................................................
+Trancas Property Owners Ass'n v. City of Malibu, 138 Ca.
+App. 4th 172, 182-83 (Ca. Ct. App. 2006) ............................
+United States v. Church of Jesus Christ of Latter-day Saints,
+5 Utah 361, 369, 15 P. 473, 477 (1887) ................................
+Utah County v. Baxter, 635 P.2d 61, 65 (Utah 1981) ............
+*vi Utah Dept. of Admin. Servs. v. Public Service Comm'n,
+658 P.2d 601 (Utah 1983) .....................................................
+Warm Springs Co. v. Salt Lake City, 50 Utah 58, 65, 165 P.
+788, 790 (1917) .....................................................................
+Warner Co. v. Sutton, 644 A.2d 656 (N.J. Super. A.D. 1994)
+Western Land Equities, Inc. v. City of Logan, 617 P.2d 388,
+390 (Utah 1980) ....................................................................
+Whispering Woods at Bamm Hollow, Inc. v. Township of
+Middletown Planning Board, 531 A.2d 770 (N.J. Super. L.
+1987) ......................................................................................
+Codes and Statutes
+Ca. Gov. Code § 65867 .........................................................
+MMC § 16.08.010 .................................................................
+MMC § 16.08.050 .................................................................
+MMC § 17.04.070 .................................................................
+MMC § 17.65.080 .................................................................
+MMC § 17.65.130 .................................................................
+MMC § 17.67.090 .................................................................
+MMC § 17.72.100 .................................................................
+MMC § 17.72.130 .................................................................
+MMC § 17.72.150 .................................................................
+Utah Code § 17-27a-801 .......................................................
+Utah Code Ann. § 10-9a-102 ................................................
+Utah Code Ann. § 10-9a-103 ................................................
+Utah Code Ann. § 10-9a-205 ................................................
+Utah Code Ann. § 10-9a-304 ................................................
+
+30
+7
+26
+P.3d ___ 6
+1
+36
+38
+P.3d ___ 31
+26
+26
+42
+27
+5
+21, 40
+29
+26
+28
+26
+26
+25, 26
+26
+27, 28, 29
+26
+29
+
+28
+23
+23
+22
+22, 23, 34, 38
+2, 11, 22, 23, 35
+34
+34
+37
+34, 35, 37, 38
+40
+25
+12, 21, 22, 24, 32, 33, 34
+20
+44
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+3
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+Utah Code Ann. § 10-9a-305 ................................................
+Utah Code Ann. § 10-9a-502 ................................................
+Utah Code Ann. § 10-9a-503 ................................................
+Utah Code Ann. § 10-9a-509 ................................................
+Utah Code Ann. § 10-9a-707 ................................................
+Utah Code Ann. § 10-9a-801 ................................................
+Utah Code Ann. § 10-9a-207 ................................................
+Other Authorities
+3 McQuillin Mun. Corps. § 1169 ..........................................
+Black's Law Dictionary 281 (8th Ed. 2004) ..........................
+Judith W. Wegner, Moving Toward the Bargaining
+Table: Contract Zoning, Development Agreements, and the
+Theoretical Foundations of Government Land Use Deals, 65
+N.C. L. Rev. 976, 982-83 (1987) ..........................................
+Terry Lewis et al., Spot Zoning, Contract Zoning, &
+Conditional Zoning, 2 Florida Environmental & Land Use
+Law 9-1, 9-13 (James J. Brown, ed., 2d ed. 1994) ................
+Rules
+Utah R. App. P. 21 ................................................................
+Utah R. App. P. 24 ................................................................
+Utah R. Civ. P. 56(a) .............................................................
+*vii Utah R. Civ. P. 65B .....................................................
+
+44
+21
+20, 21
+44
+37
+5, 6, 38, 40
+23
+26
+42
+27
+
+28
+
+47
+47
+5, 6, 7, 20, 38, 46
+38
+
+*1 INTRODUCTION
+Plaintiffs and Appellants Lucy Wallingford, Kiley Miller, John Rzeczycki, Carol Mayer, David Bodner, Meeche Bodner, Sarah
+Stock, and Josephine Kovash (collectively, with Living Rivers, the “Appellants”) are real property owners, taxpayers and
+residents of Moab whose properties are located less than one mile away from land owned by the Utah School and Institutional
+Trust Lands Administration (“SITLA”) that SITLA and a developer, LB Moab Land Company, LLC (“Developer”), are trying
+to develop into a 175-acre luxury hotel resort and commercial and mixed use development (the “Project” or “Development”).
+The Project is located at the Slick Rock Trailhead near the ancient Lion's Back sandstone formation located on a bench above
+Moab City on the east side of the Moab-Spanish Valley. Plaintiff and Appellant Living Rivers is a nonprofit corporation
+whose members have interests they seek to protect and who will be adversely affected by the Project, which is situated upon
+environmentally-sensitive lands in the City's Sensitive Area Resort (“SAR”) Zone.
+In 2008, the Moab City Council granted conditional approval of a Preliminary Master Planned Development (“MPD”) for the
+Project. Certain injured parties brought a suit against the City relating to the MPD. See Moab Local Green Party, et al. v. Moab,
+2012 UT App 113, 276 P.3d 1230 (hereinafter “Lionsback I”). Following the resolution of Lionsback I, the Developer submitted
+an amended MPD application to the City doubling the size of the building footprint(s) from 41,630 square feet to 81,668 square
+feet, more than doubling the parking capacity from 104 spaces to 230 spaces, and changing the *2 accommodations from 50
+dispersed commercial lodging units to a single 150-room hotel with nearly twice the total square footage (“Amended MPD
+Application”).
+The City initially took the position that these changes were “Major Changes” under the Moab Municipal Code (“MMC”)
+§ 17.65.130 requiring planning commission review and approval after a public hearing, among other things. However, to
+prevent the public from being able to engage in the public hearings required by Moab's ordinances, SITLA and the Developer
+pressured the City to characterize the revisions as “Minor Changes” that would not require the same formal review processes
+or a public hearing. The City succumbed to that pressure and, thereafter, SITLA and City staff drafted a “Zoning Status
+Agreement” (“ZSA”) that provided, among other things, that the Amended MPD Application “is deemed to be a Minor
+Amendment, which will be reviewed and acted upon by the Moab City planning department staff” without the requirement of a
+public hearing, and that future land use applications would also be reviewed and approved by staff without planning commission
+review or a public hearing. In short, the ZSA effectively removed the Development from future public scrutiny and public
+participation through the normal public processes.
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+4
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+Without submitting the ZSA to the planning commission or holding a public hearing on the ZSA, the City Council adopted
+Resolution No. 14-2017 in a City Council meeting. Resolution No. 14-2017, which authorized Moab's mayor to execute the
+ZSA, passed by a 3-2 vote with one City Council member wanting to change her swing vote from approval to disapproval
+immediately after the vote was taken. That City Council member was told *3 she couldn't change her vote unless there was
+another City Council meeting, which never occurred.
+Plaintiffs and Appellants filed an administrative appeal seeking, among other things, review of the City's determination that the
+proposed changes were “Minor Changes” and could, therefore, bypass the requirement of planning commission review and a
+public hearing. However, the City, through its attorney, notified the Appellants that the City's appeal authority would not hear
+their appeal because the City's appeal authority lacked jurisdiction. The City claimed the ZSA was a settlement agreement that
+was immune to review and beyond the scope of the appeal authority's jurisdiction. Having nowhere else to turn, the Appellants
+brought this action in the district court.
+The Appellants asked the trial court to declare that the City's enactment of Resolution No. 14-2017 approving the ZSA was
+illegal because, among other things, it was enacted without a public hearing and never went before the planning commission
+as required by City Code. Alternatively, Appellants sought a writ of mandamus requiring the Moab City Appeal Authority to
+consider their administrative appeal. The trial court granted a summary judgment motion filed by SITLA and the Developer
+and joined by the City. The trial court concluded, among other things, that the City had authority to enter into the ZSA without
+planning commission review or a public hearing, that the court's review of the ZSA “needs to be very generous,” “is limited to
+circumstances where it appears from the record that there's been collusion or bad faith between the parties to the agreement”
+or “where it looks like there has been an attempt to use a settlement process to completely eviscerate the ordinances.” Without
+giving the Appellants the chance to conduct discovery *4 or present evidence under this newly-created evidentiary standard,
+which has never before been used by a Utah court in a land use case, the trial court dismissed the Appellants, holding that they
+had not satisfied the newly-minted affirmative burden of proving collusion or bad faith.
+This appeal seeks nothing more than to give the Appellants their day at city hall to have the required public hearing before a
+large-scale luxury hotel development forever alters the Southeastern Utah landscape and watershed. Had the Appellants had
+their chance to present evidence in the required public hearing, they believe they very likely would have persuaded that 3-2
+swing vote to change her decision, thereby avoiding damage to the Appellants' property interests and long term degradation
+of this environmentally-sensitive and beautiful area of Utah. At the very least, if the Appellants are not entitled to have the
+ZSA reviewed at a public hearing or by the Moab City Appeal Authority, they ask the Court for at least the chance to conduct
+discovery and present evidence to the trial court under the newly-created “collusion or bad faith” standard of review.
+STATEMENT OF THE ISSUES
+I. Did the trial court incorrectly conclude the City Council had authority to enact Resolution No. 14-2017 approving the ZSA,
+which it held was immune to review absent a showing of bad faith or collusion to completely eviscerate the ordinances, when
+the resolution was admittedly legislative action undertaken without notice and a public hearing?
+A. Standard of Review: Appellate review of a trial court's grant of summary judgment is a de novo review for correctness with
+no deference to the trial *5 court. See Bahr v. Imus, 2011 UT 19, ¶ 16, 250 P.3d 56, 62. Summary judgment is warranted only
+“if the moving party shows that there is no genuine dispute as to any material fact and the moving party is entitled to judgment
+as a matter of law.” Utah R. Civ. P. 56(a).
+Review of a “land use regulation” under the Land Use Development and Management Act (“LUDMA”) is to “determine only
+whether ... the land use regulation ... was enacted contrary to[] state or federal law; and ... [whether] it is reasonably debatable
+that the land use regulation is consistent with [LUDMA.]” Utah Code Ann. § 10-9a-801(3)(a). “A decision is illegal if the
+decision is ... based on an incorrect interpretation of a land use regulation; or ... contrary to law.” Id. § 10-9a-801(3)(c)(ii). A
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+5
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+land use decision “is illegal if it violates a law, statute, or ordinance in effect at the time the decision was made.” Fox v. Park
+City, 2008 UT 85, ¶ 11, 200 P.3d 182 (citations and internal quotation marks omitted).
+Questions of legality or illegality present questions of law, which the Court reviews for correctness. See, e.g., Cattani v. Drake,
+2018 UT App 77, ¶ 27, P.3d State v. Vaughn, 2011 UT App 411, ¶ 9, 266 P.3d 202, 205.
+B. Preservation: This issue was asserted in the Amended Complaint (R. at 71, ¶ 81; 72, ¶ 85; 73; 107; 124, ¶ 47; 127, ¶ 62;
+127-28, ¶ 63; 130, ¶ 81), the summary judgment briefing (R. at 1442; 1454; 1460; 1462-63; 1465; 1885), and at oral argument
+(1968; 1972; 1974).
+II. Alternatively, did the trial court incorrectly hold that Resolution No. 14-2017 approving the ZSA was immune to review
+absent a showing of bad faith or *6 collusion, ignoring whether the ZSA effected a “land use decision” within the meaning
+of LUDMA, which provides a statutory right “to appeal a land use authority's decision to a separate appeal authority,” Utah
+Code Ann. § 10-9a-302 (5)(b)(ii)?
+A. Standard of Review: Appellate review of a trial court's grant of summary judgment is a de novo review for correctness
+with no deference to the trial court. See Imus, 2011 UT 19, ¶ 16. Summary judgment is warranted only “if the moving party
+shows that there is no genuine dispute as to any material fact and the moving party is entitled to judgment as a matter of law.”
+Utah R. Civ. P. 56(a).
+“[T]he Utah Supreme Court recently clarified the appropriate standard for reviewing a district court's disposition of a petition
+for review of an administrative decision.” Checketts v. Providence City, 2018 UT App 48, ¶ 14, 420 P.3d 71, 76. This Court
+should “review the district court's decision rather than an administrative body's decision directly,” id., and, in doing so, this Court
+should “‘afford no deference to the [district] court's decision and apply the statutorily defined standard to determine whether the
+court correctly determined whether the administrative decision was arbitrary, capricious, or illegal.”’ Id. (quoting McElhaney
+v. City of Moab, 2017 UT 65, ¶ 26, ___ P.3d ___ Utah Code Ann. § 10-9a-801(3)(a)(ii)). A land use “decision of a land use
+authority” is reviewed to determine whether that decision was “arbitrary and capricious; or illegal.” Id. § 10-9a-801(3)(b).
+B. Preservation: This issue was asserted in the Amended Complaint (R. at 60, ¶ 2; 61; ¶¶ 15-16; 62, ¶¶ 17-26; 69, ¶¶ 65-70; 72,
+¶ 1), discussed in the briefing *7 (R. at 231-233; 439-447; 449-40; 1441; 1452; 1455-58; 1464; 1628-29; 1637-39; 1884-87),
+and debated at oral argument (R. at 1960-62; 1965-67).
+III. Alternatively (to the first and second issues), did the trial court incorrectly (1) create a new standard of judicial review
+for land use agreements that requires an affirmative showing of bad faith or collusion to completely eviscerate the relevant
+municipal ordinances, and (2) hold Appellants to this new standard without giving them the opportunity to conduct discovery,
+present evidence, or identify disputed issues of fact under the new standard?
+A. Standard of Review: Appellate review of a trial court's grant of summary judgment is a de novo review for correctness
+with no deference to the trial court. See Imus, 2011 UT 19, ¶ 16. “[W]hether the trial court applied the proper legal standard is
+a question of law that is reviewed for correctness.” Jacob v. Bate, 2015 UT App 206, ¶ 13, 358 P.3d 346 (alteration omitted)
+(citation and internal quotation marks omitted). Summary judgment is warranted only “if the moving party shows that there is
+no genuine dispute as to any material fact and the moving party is entitled to judgment as a matter of law.” Utah R. Civ. P. 56(a).
+B. Preservation: The issue of the appropriate standard of review was raised or discussed in the Complaint (R. at 1, ¶ 2; 8, ¶ 45;
+10, ¶ 57; 11, ¶¶ 62-65), the Amended Complaint (R. at 60, ¶ 2; 67, ¶ 54; 68, ¶ 62; 70, ¶ 73; 71, ¶¶ 78, 81-83; 73, ¶ 2(a)), the
+summary judgment briefing (R. at 1442, 1458; 1463-65; 1883-84), and at oral argument (R. at 1950-54; 1957-59; 1967).
+*8 STATEMENT OF THE CASE
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+6
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+I. Facts of the Case
+Defendant Moab City is a political subdivision of the State of Utah. (R. at 61, ¶ 13; R at 96, ¶ 3.) Defendant Moab City Council
+is the legislative body of the City. (R. at 61, ¶ 14; R at 96, ¶ 3.)1 SITLA is the owner of the real property located in Grand
+County, Utah, that is the subject of this case (the “Subject Property”). (R. 213.) The Subject Property consists of 175 acres of
+land located at the trailhead of the Slick Rock Trail near the ancient Lion's Back sandstone formation. (R. at 4, ¶ 25; 63, ¶ 34;
+97, ¶ 10; 122, ¶ 34; 213; 264-67; 294-98; 300-01; 303-04; 306-34; 443.) It sits on a bench above Moab City on the east side of
+the Moab-Spanish Valley. (Id.) SITLA and the Developer entered into the MPD with Moab City to develop and construct the
+Development on the Subject Property. (R. 213; 264-67; 294-98; 300-01; 303-04; 306-34; 443.) The MPD included, in phased
+development, residential subdivisions, commercial development and a luxury hotel resort that was originally limited to just 50
+units. (R. at 214-15, 297, 326, and 355.)
+
+In October, 2008, the City and the Developer, joined by SITLA, entered into a Pre-Annexation Agreement (Addendum - Ex. 1)
+to annex the Subject Property into the City. (R. 213; 240-262.) The Agreement addressed the parties' development rights and
+obligations, including the annexation process, land use and planning processes, subdivision improvements, water and sanitary
+sewer services, utilities and roads, as well as drinking *9 water source protections. (R. 213.) The agreement was accompanied
+by a detailed MPD plan. (R. 213.)
+Upon annexation into the City, the Subject Property, being situated upon environmentally-sensitive lands, was assigned the
+City's SAR zoning designation. Also, following annexation, the Developer and the City entered a Development and Phasing
+Agreement (“Development Agreement”). (R. 213; 306-334.) The body of the Development Agreement (Addendum - Ex. 2)
+limited the luxury resort component of the MPD to just 50 units. (R. at 214-15, 297, 326; 355.) As approved in the preliminary
+plan, phase one of Lionsback included a 50-unit hotel of 41,360 square feet and a parking lot of 38,760 square feet with 104
+spaces. (R. at 29, ¶ 7; 1328-30; 1445.)
+The Development was delayed for several years due to the Great Recession and Lionsback I, among other things. After resolution
+of the Recession and Lionsback I, SITLA, the Developer and the City began discussing potential revisions to the MPD to
+include, among other things, the 150-room luxury hotel. (R. 214.) SITLA and the Developer claimed that because some of the
+hotel/condo suites in the original approval had three bedrooms, the prior City approval of 50 units actually approved 150 units.
+(See R. at 215-16.) SITLA and the Developer also claimed that certain members of the City staff agreed with their interpretation
+and told them they would not need to submit a new development application to change the Project from its original approval
+of 50 units to a 150-room hotel, only to be told by the City attorney at a later time (Addendum - Ex. 3) that they would have
+to submit a formal application to obtain planning commission *10 approval for the modification, after a public hearing on the
+modification was held. (R. at 215-16; 345-46.)
+In response, the Developer filed the Amended MPD Application. (R. at 216; 348-387.) SITLA joined in the application. (Id.)
+The proposed changes in the Amended MPD Application included, without limitation, nearly double the hotel footprint from
+41,360 square feet to 81,688 square feet and more than double the parking lot from 104 spaces over 38,760 square feet to 230
+spaces over 90,160 square feet. (R. at 378, 1445.) It also added “Retail Space,” a “Restaurant,” “Pool Area,” “Back of House
+facilities,” a “Conference Center” and “separate Service Entry” to Phase One of the Development. (R. at 363.)
+After filing the Amended MPD Application, SITLA and the Developer tried, once again, to secure a commitment from the
+City staff to process the Amended MPD Application administratively, rather than subject it to the formal processes required
+by the MMC, which would require another public hearing. (R. at 216-17.) On August 11, 2016, The Developer and SITLA
+met with the mayor and city manager to discuss the processing of the Amended MPD Application. (R. at 216.) SITLA and the
+Developer thought that the mayor and city manager had committed at this meeting that the Amended MPD Application would
+be processed by the City as a “Minor” plan amendment under applicable provisions of the MMC, thereby avoiding a future
+public hearing on the application. (R. at 216-217.)
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+7
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+*11 This desire of SITLA and the Developer to avoid a public hearing shows up in the very first sentences of the Developer's
+August 12, 2016, letter to the City confirming the parties' discussions the prior day:
+I am writing to follow up and confirm my understanding of what was decided by and committed to by the City of Moab, LB
+Moab Land, LLC and SITLA in the course of our meeting yesterday. The parties agreed that the process for amending the
+various elements of the City land use approvals for the Lionsback project as outlined in our previously submitted application
+dated June 30, 2016 on file with the City would be processed administratively as a minor amendment by the City staff. Such
+an administrative review process does not require a public hearing.
+(R. at 389 (emphasis added).)
+On September 12, 2016, the City's attorney sent a letter to the Developer (Addendum - Ex. 4) explaining that the revisions to
+the Project should be processed as a “major change” requiring a public hearing under MMC § 17.65.130. (R. at 65, ¶ 48; 98,
+¶ 17; 393-94.) In relevant part, the letter stated as follows:
+The initial question was whether this concept would qualify as a “minor change” under the City's Master Planned Development
+Ordinance, MMC § 17.65.130. Although a revised plan containing the Deletion Option has not been submitted for review,
+I conclude that the scope of the changes contemplated under either scenario would likely be major changes under the Moab
+ordinance.
+MMC § 17.65.130 provides that amendments “that change the character, basic design, building density and intensity, open space
+or any other requirements and conditions” require planning commission review and approval. The “minor change” provision,
+subsection A, allows staff approval of minor changes “in the location and placement of buildings” where these are the product of
+unforeseen circumstances - such as engineering difficulties. Changes as to “structural types” and the “arrangement of multiple
+lots and blocks” or the “overall design or intent of the project” are major changes requiring land use authority approval Id. at B.
+*12 Given the scope of the changes under either the Deletion Option or the June 30 submittal, it is my conclusion that this
+project should be processed as a “major change” under Section 130. Under either proposal the applicant would be substantially
+changing the configuration, building types, phasing, and total square footage of the structures. These are not minor changes
+due, for example, to site constrains [sic].
+As you know, under Utah law municipalities are bound to adhere to their own land use ordinances. Although a minor change
+might appear to be expedient, in my opinion that would run contrary to the Moab ordinance...
+(R. at 65-66, ¶ 49; 98, ¶ 17; 393-94.)
+SITLA and the Developer threatened to pull the Project from the City2 unless they were allowed to have their application
+amendments processed administratively by the City staff without a further public hearing, which culminated in their proposal
+of the ZSA between SITLA, Developer and the City. (R. at 217.) The ZSA was first presented to the Moab City Council for
+approval without a public hearing on December 13, 2016. (R. 218.) It was discussed by the City Council in a special workshop
+meeting on February 1, 2017. (R. 218.) A resolution approving the ZSA was presented but tabled, without a public hearing,
+at a February 14, 2017, City Council meeting. (R. 535-540.) Finally, in the regular City Council meeting held on February 28,
+2017, the City Council passed Resolution 14-2017, which approved the ZSA by a 3-2 vote and authorized the Mayor to execute
+it without a public hearing. (R. at 1423-26.)3 A copy of the ZSA (R. 571-79) and Resolution *13 No. 14-20174 approving the
+ZSA are found in the Addendum as Exhibits 5 and 6, respectively.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+8
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+The concerns about conducting a public hearing on the amended application were front and center in the discussions about
+the ZSA during each of these City Council meetings. For example, Troy Herald, SITLA's project manager, commented in one
+of these meetings:
+A major amendment requires public hearings, requires public scrutiny, requires a lot of time. Also, it opens it back up for
+potential legal challenge. That's a concern from us and our developer when our developer is ready to go on this project right
+now, and they have investors ready to go and they have a hotel operator ready to go. This project is ready to move into the
+final stages right now.
+(R. at 499; R. at 1364.)
+The City Attorney, Chris McAnany, advised the City Council that the Developer's desire to avoid application of the MPD
+ordinance and the concomitant public hearing process was “part of what is driving this” agreement, as the following dialogue
+reveals:
+Kyle Bailey [City Council member]: Chris, so the staff has looked at this and said it's a major change, the applicant is saying
+it's not a major change. The applicant is asking the council to override the staff and say that it isn't a major change. And so,
+what is the process if it is deemed a major change? What has to happen then?
+Chris McAnany: Well a major change goes before Planning Commission, there's staff level review, Planning Commission
+review, and then ultimately decision at the City Council.
+Jeff Reinhart [City Planning Director]: Public hearing.
+*14 Chris McAnany [City Attorney]: With public hearings. I think part of what is driving this is that perhaps the developer
+doesn't believe that those concerns are, or doesn't want to go through those steps I suspect.
+Rani Derasary [City Council member]: So, without stating the obvious, is the choice we're being asked to be made to either
+call it a minor change and sign the agreement or call it a major change and have the hearings and have SITLA exempt
+themselves?
+Chris McAnany: Yes, in a nutshell we've been told that the developer does not want to go through a major change process.
+We've been asked to approve this zoning status agreement that would approve this as a minor change that would be reviewed
+at the staff level....
+(R. at 525-26 (emphasis added); R. at 1389-90 (emphasis added).)
+John Andrews, the attorney for SITLA stated in one of these meetings:
+Again the concern being that we have heard here in some of the comments from the community that the project is entitled
+and reopening all of the myriad issues that were address[ed] at length in the planning process but also fully addressed through
+the courts, is something that from the developer's perspective is going to be another 5 or 6 years in the courts before they are
+actually allowed to move forward. We're looking for a solution to this problem and our hope is that the City can work with us
+to find a way to do that. Again, the concern is this potential reopening of the whole thing ....
+(R. at 532 (emphasis added).)
+Mr. McAnany summed up the impetus behind the ZSA best when he stated, “I would say that the one big attribute of this
+Project that has been a focus of a lot of discussion is that it requires that this Change Application be reviewed at the staff level
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+9
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+without going through that public hearing process that would otherwise supply for large scale changes. That's really been the
+main bone of contention.” (R. at 558.)
+As mentioned, no public hearing was held on the Amended MPD Application approved in the ZSA via Resolution No. 14-2017.
+(R. at 67, ¶ 55; R at 99, ¶ 22.) While *15 the meetings discussing them were open to the public, there was no meaningful
+opportunity for the public to submit evidence or testimony on the record, either in favor or in opposition to the Amended
+MPD Application, the ZSA and Resolution No. 14-2017. The closest the process came to allowing public participation was the
+February 1, 2017, workshop meeting where “twenty members of the public and press [were] in attendance.” (R. at 509.)
+The meeting began at 12:03 p.m. (R. at 509.) It was adjourned at 1:40 p.m. (R. at 513.) At one point during the meeting a
+resident in attendance wanted to ask a question and the following dialogue ensued:
+Resident: yes I have a question (inaudible)
+[Interim City Manager] David Everitt: Sorry, hold on just a second. I think that we're going to keep the conversation that he
+meant for the council members for now and then we'll figure it out for the public.
+Resident: Oh sorry.
+(R. at 517.) Thereafter, there was no public comment or questions allowed until the last 10-12 minutes of the meeting,
+commenced by the following dialogue:
+Tawny Knuteson-Boyd [Council Member]: Oh Goodness, I was going to ask Dave. Yes I think for the last ten minutes the
+public can ask questions.
+...
+Tawny Knuteson-Boyd [Council Member]: Just of note, keep your questions kind of brief. We've only got 12 minutes.
+(R. at 529.) An unidentified citizen (R. at 529), a citizen named Kelly Green (R. at 529), another unidentified citizen (R. at
+530), and Mayor Dave Erley of Castle Valley (R. at 530) asked one question each. SITLA's attorney took most of the remaining
+time in the meeting. (See R. at 529-533.)
+*16 When explaining to the City Council what it would be doing by passing Resolution No. 14-2017, the City Attorney
+stated, “if you were to approve this agreement, you would essentially be saying to staff, process this change application as a
+minor amendment; engage in the land use review process internally and without the whole major amendment process that our
+ordinance would otherwise require in my opinion.” (R. at 501.) In other words, the City Council would be changing the “land
+use review process” through legislative action. The City Attorney also stated, “What you as policy makers have to decide is
+what you want to do.” (R. at 533 (emphasis added).)
+As mentioned, Resolution No. 14-2017 approving the ZSA passed by a 3-2 vote. (R. at 1425.) However, as the following
+dialogue shows, immediately after the vote was taken, council member Heila Ershadi stated that she wanted to change her vote
+but was told that she couldn't unless the matter was re-opened at the next city council meeting, which never occurred:
+Tawny Knuteson-Boyd [City Council Member]: Motion passes 3 to 2.
+Heila Ershadi: [City Council Member]: Tawny, I want to change my vote to no. I just can't. I have too many unanswered
+questions about this. Is it not possible?
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+10
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+Chris McAnany [City Attorney]: I think the vote is the vote.
+(R. at 564;1425; 1616.)
+On March 30, 2017, the Plaintiffs filed this action in the district court and simultaneously appealed the City's decision to enact
+Resolution No. 14-2017 to the City's Appeal Authority. (R. at 61, ¶ 16; R at 97, ¶ 4; R. at 219, ¶ 24; 438-47.) On June 5, 2017,
+the City Attorney sent the Appellants' legal counsel a letter denying the Plaintiffs' request *17 for an appeal to the Appeal
+Authority (Addendum - Ex. 7), claiming that the requested appeal was not within the jurisdiction of the City's Appeal Authority
+because, among other things, the ZSA approved by Resolution No. 14-2017 was immune from review as a land use settlement
+agreement. (R. at 449-50.)
+II. The Procedural History of the Case
+Plaintiffs filed their Amended Complaint and Petition for Review on July 5, 2017. (R. at 59-73.) SITLA and the Developer filed
+a summary judgment motion. (R. at 209-34; 239-579.) The City filed a separate response, joining in the Developer's motion for
+summary judgment. (R. at 1626-1878.) The Plaintiffs/Appellants opposed the motion. (R. at 1440-1625.) After oral argument
+(R. at 1947-85), the trial court granted the Developer's summary judgment motion. (R. at 1977; 1981-21.) This appeal followed.
+III. The Trial Court's Disposition of the Case
+The trial court ruled from the bench at oral argument (Addendum - Ex. 8), granting the summary judgment motion filed by
+SITLA and the Developer. (R. at 1977.) The trial court's written Order Granting Defendants' Motion for Summary Judgment
+(Addendum - Ex. 9) was entered on June 7, 2018. It provides, in pertinent part as follows:
+2. The Court concludes that the City had authority to enter into the ZSA as a settlement agreement.
+3. The Court concludes that on review of its decision, the City must be afforded flexibility to resolve issues in a grey area by
+negotiation, and emphatically more so in the circumstances presented by this case where the City's authority to legislate and
+regulate at all is dubious; therefore, the Court's review of the settlement agreement needs to be very generous.
+4. The Court's review recognizes the City's discretion to resolve grey areas and that the Court's review is limited to circumstances
+where it *18 appears from the record that there's been collusion or bad faith between the parties to the agreement. The Court's
+review is limited to those cases where it looks like there has been an attempt to use a settlement process to completely eviscerate
+the ordinances.
+5. The Court concludes that there has been no collusion between the parties in entering into the ZSA, and concludes as a matter
+of law that the settlement agreement is not “arbitrary, capricious or illegal” as Plaintiffs allege.
+6. Under the circumstances the Court also denies Plaintiffs' request for a writ of mandamus to order that Plaintiffs' administrative
+appeal be submitted to the Moab City Appeal Authority.
+(R. at 1918-21.) Appellants timely filed a Notice of Appeal in the trial court on July 5, 2018. (R. at 1924-26.)
+SUMMARY OF THE ARGUMENT
+The City Council undertook legislative action without notice and a public hearing when it passed Resolution No. 14-2017
+approving the ZSA, which made Resolution No. 14-2017 and the ZSA illegal. While the trial court correctly held that agreements
+resolving land use disputes are subject to substantive judicial review, it unnecessarily reached this question when it first should
+have addressed the threshold procedural question of whether Resolution No. 14-2017 approving the ZSA was illegal. Because
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+11
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+Resolution No. 14-2017 approved the ZSA without a public hearing, the trial court never should have examined the substance
+of the ZSA under its “collusion or bad faith” standard. Instead, it incorrectly held that the City Council had authority to enact
+Resolution No. 14-2017 when it should have remanded Resolution No. 14-2017 for the required public hearing. This outcome
+is mandated by LUDMA and considerations of public policy and due process.
+*19 Alternatively, the trial court erred when it addressed whether and to what extent municipal settlement of land use disputes
+by agreement are subject to judicial review when it first should have addressed the alternatively-presented threshold issue of
+whether Resolution No. 14-2017 and the ZSA constituted an administrative “land use decision” subject to review by the Moab
+City Appeal Authority under both the MMC and LUDMA. Under LUDMA, a decision is either a legislative or an administrative
+decision (or, in other contexts not relevant here, a quasi-judicial decision). But the trial court apparently treated the City Council's
+decision as some sort of uncategorized super-action, not really a decision at all, but rather some type of “nondecision” immune
+from review. LUDMA simply does not recognize nondecisions that are immune from review.
+Rather than swaddling land use settlements with immunity from review, the law requires courts to look to the substance of the
+settlement or stipulation to determine if the decision, if made through the normal land use processes, would have been a “land
+use decision” subject to administrative appeal authority. The ZSA was a “land use decision” under LUDMA. Consequently, the
+trial court lacked subject matter jurisdiction to review the substance of the ZSA and erred when it “leap-frogged over” the Moab
+City Appeal Authority and the appeal processes mandated by LUDMA and the MMC. The trial court should have remanded
+the ZSA for consideration by the Appeal Authority instead of creating and then applying its own standard of judicial review.
+Finally, the trial court erred when it created a standard of judicial review for land use agreements that has never been applied
+before by any Utah court and then upheld the ZSA under that standard without giving Appellants the opportunity to conduct
+discovery, *20 present evidence or identify disputed issues of fact under the newly-minted standard. See Utah R. Civ. P. 56(a).
+At the very least, this matter should be remanded to the trial court to allow Appellants the chance to conduct discovery on the
+issues of “collusion or bad faith.”
+ARGUMENT
+I. PASSAGE OF RESOLUTION NO. 14-2017 WITHOUT A PUBLIC HEARING WAS ILLEGAL.
+The trial court erred in concluding the City Council had authority to enact Resolution No. 14-2017 approving the ZSA, which it
+held was immune to review absent a showing of collusion or bad faith, because the City effectively undertook legislative action
+without notice and a public hearing when it passed Resolution No. 14-2017, thereby making Resolution No. 14-2017 and the
+ZSA illegal. Passing Resolution No. 14-2017 without a public hearing was illegal for two reasons. First, it was a legislative
+decision that required a public hearing under LUDMA and the MMC. Second, as a matter of public policy, a legislative body's
+approval of a land use settlement agreement requires a public hearing.
+A. LUDMA and the MMC require a public hearing.
+Under LUDMA, the “adoption” or “any modification of a land use regulation” requires a “public hearing” preceded by “notice
+of the date, time, and place of the first public hearing” to consider the modification. Utah Code Ann. § 10-9a-205(1)(a).
+State law is very clear. “Only a legislative body may amend [] ... any regulation of or within the zoning district; or any other
+provision of a land use regulation[,]” id. § 10-9a-503(1)(b)-(c), *21 after a public hearing before the planning commission,
+id. § 10-9a-503(2).5 A “land use regulation” under LUDMA “means a legislative decision enacted by ordinance, law, code,
+map, resolution, specification, fee, or rule that governs the use or development of land[.]” Id. § 10-9a-103(29)(a) (emphasis
+added). Thus, to invoke the requirement of a public hearing, LUDMA requires two things: (1) a “legislative decision” (2) to
+modify a “land use regulation.”
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+12
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+The only real question here is whether Resolution No. 14-2017 was a “modification of a land use regulation” under LUDMA
+because, by the City's own admission, Resolution No. 14-2017 was a legislative decision by the City's governing body.6 As
+the following *22 analysis demonstrates, Resolution No. 14-2017 clearly amended or modified a “land use regulation” - in
+particular, MMC §§ 17.65.080 and 17.65.130. It was also a “land use regulation” because it approved a ZSA that “governs the
+use or development of land[.]” Utah Code Ann. § 10-9a-103(29)(a).
+To begin, what happened in this case was not what was outlined in the MMC. By the City's own admission, under MMC
+Chapter 17.65 (Addendum - Ex. 10) any modification to the MPD required “1. review of the application for completeness and
+notice to the applicant of any revisions or additional submittals; 2. staff review; 3. public hearing (advisory review) before the
+Planning Commission; and 4. Decision by City Council (the land use authority).” (R. at 346; Addendum - Ex. 3.) See also
+MMC § 17.65.130.
+The process here skipped step three and went straight to the fourth step, without review by the planning commission or a
+public hearing. Hence, Resolution No. 14-2017 was, itself, a de facto modification of MMC § 17.65.130. It essentially ratified
+a modification to (or violation of) MMC § 17.65.130 because it took the Developer's Amended MPD Application in the form
+of the ZSA, subjected it to staff review, and then approved it in a vote by the City Council without a public hearing, completely
+bypassing the planning commission.
+That's not the process outlined in MMC § 17.65.130, which provided that any proposed “[a]mendments that change the character,
+basic design, building density and *23 intensity, open space or any other requirements and conditions in the MPD shall not
+be permitted without prior review and approval by the planning commission.” MMC § 17.65.130 (R. at 289.) The proposed
+changes in the Amended MPD Application include, without limitation, nearly double the hotel footprint from 41,360 square feet
+to 81,688 square feet and more than double the parking lot from 104 spaces over 38,760 square feet to 230 spaces over 90,160
+square feet - which would obviously impact “building density and intensity” as well as “open space.” (R. at 378, 1445.) It also
+adds “Retail Space,” a “Restaurant,” “Pool Area,” “Back of House facilities,” a “Conference Center” and “separate Service
+Entry” to Phase One of the Development. (R. at 363.)
+Resolution No. 14-2017 amended or modified a “land use regulation” - in particular, MMC §§ 17.65.080 and 17.65.130 because it effectively enacted the ZSA (itself a “land use regulation”) and shifted the review of MPD amendments (for not just
+this application but all future applications) from the planning commission to the City Council by changing the process outlined
+in MMC § 17.65 for how “future land use applications concerning the Property and the Project would be handled ....” (R. at
+572, ¶ O.)
+Among other things, the ZSA modified the requirement in MMC § 17.65.080 that the developer “shall ... be required to complete
+a final plat or site plan review for individual phases or portions of the development.” Id. § 17.65.080. Normal Moab City
+plat approval processes required the developer to submit any amended plats or future-phase preliminary plats to the planning
+commission, which would hold “a public hearing noticed according to Utah State Code 10-9a-207 ...” Id. § 16.08.010.B.; see
+also id. § 16.08.050 (see the *24 chart showing a public hearing requirement for all preliminary plat approvals - “Yes PC” and plat amendments - “Yes PC & CC”). However, Resolution No. 14-2017 approved the ZSA's modification of this and other
+unspecified land use review processes.
+Resolution No. 14-2017 was also a “land use regulation” because it approved the ZSA, which “governs the use or development
+of land[.]” Utah Code Ann. § 10-9a-103(29)(a). As just one example of this, the ZSA broadly provides that “future final plats,
+permits and other reviews required to be undertaken by the City pursuant to the City Code[] ... will occur administratively by
+the City Planning Department, without a requirement for a public hearing.” (R. at 574, ¶ 7 (emphasis added).) This shift in
+approval processes, alone, undoubtedly “governs the use or development of land.”
+The actions of the City in avoiding a public hearing to consider passage of Resolution No. 14-2017 and these legislativelyapproved provisions of the ZSA that circumvent the requirement for a public hearing in the future for a broad array of unspecified
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+13
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+land use reviews and approvals are repugnant to the designs and purposes of LUDMA. As our Supreme Court has recognized,
+“[i]n requiring a public hearing, our legislature contemplated that interested parties would have an opportunity to give their
+views, pro and con, regarding a specific legislative proposal, and thereby aid the municipal government in making its land use
+decisions.” Call v. City of West Jordan, 727 P.2d 180, 183 (Utah 1986) (citing 1 R. Anderson, American Law of Zoning § 4.11
+(2d ed. 1976); 8A E. McQuillin, The Law of Municipal Corporations § 25.251 (rev. 3d ed., 1976)). Consequently, passage of
+Resolution No. 14-2017 should have been preceded by a public hearing.
+*25 In short, the failure of Moab City to hold a public hearing on Resolution No. 14-2017 is fatal to its validity because it
+not only modified a “land use regulation” but was, itself, a “land use regulation,” requiring a public hearing. “Failure to strictly
+follow the statutory requirements in enacting the ordinance renders it invalid.” Id. Hence, this Court should reverse the trial
+court's decision that the City Council had authority to enact Resolution No. 14-2017 approving the ZSA, which it held was
+immune to review absent a showing of collusion or bad faith, and remand Resolution No. 14-2017 for a public hearing in
+compliance with LUDMA.
+B. Public policy requires a public hearing.
+There's no doubt that Utah cities have the authority to enter into contracts and agreements. See Utah Code Ann. § 10-9a-102(2).
+It's also beyond dispute that the settlement of land use disputes is favored under Utah law and that Utah municipalities have
+the authority to enter into land use development agreements. Id. “One reason public policy favors the settlement of disputes by
+compromise is that this avoids the delay and the public and private expense of litigation.” Utah Dept. of Admin. Servs. v. Public
+Service Comm'n, 658 P.2d 601, 613 (Utah 1983). However, since the settlement of land use disputes invariably results in de
+facto land use regulations, adjustment of land use policies, decisions that affect neighboring properties, or impacts on the public,
+in general, legislative approval of land use settlements requires that the public interest be vindicated through a public hearing.
+As a starting point, the Utah Supreme Court has recognized that “[t]he policy in favor of settlements applies to controversies
+before regulatory agencies so long as the *26 settlement is not contrary to law and the public interest is safeguarded by review
+and approval by the appropriate public authority.” Id. at 613-14 (emphasis added). So, for example, the Utah Supreme Court
+upheld a settlement agreement between the Public Service Commission, the Division of Public Utilities and several private
+parties - but only after the settlement agreement was reviewed in multiple public hearings before the PSC. See id. at 604, 606,
+614-15.
+Land use regulation is perhaps the quintessential form of “public regulation.” Indeed, “[c]ity zoning is authorized only as an
+exercise of the police power of the state.” Marshall v. Salt Lake City, 105 Utah 111, 119, 141 P.2d 704, 708 (1943). See Smith
+Inv. Co. v. Sandy City, 958 P.2d 245, 252-53 (Utah Ct. App. 1998) (citing Western Land Equities, Inc. v. City of Logan, 617
+P.2d 388, 390 (Utah 1980)); Town of Alta v. Ben Hame Corp., 836 P.2d 797, 803 (Utah Ct. App. 1992) (“Zoning ordinances
+are governmental acts which rest upon the police power[.]”); Utah County v. Baxter, 635 P.2d 61, 65 (Utah 1981) (“Zoning
+ordinances are governmental acts which rest upon the police power [.] ...”)7 *27 Hence, every zoning-related action - whether
+undertaken by means of a development agreement, a settlement agreement, or the amending thereof - being derivative of the
+state's police powers, must “protect the health, morals, peace and good order of the community, to promote its welfare in trade,
+commerce, industry, and manufacture, and to carry out every appropriate object contemplated in the creation of the municipal
+corporation.” State v. Hutchinson, 624 P.2d 1116, 1125 (Utah 1980).
+That is why some courts have held development agreements or land use settlement agreements to be illegal, per se, reasoning
+“that a municipality may not contract away the exercise of its zoning power by settlement[.]” Dacy v. Village of Ruidoso, 845
+P.2d 793, 797 (N.M. 1992) (citing Judith W. Wegner, Moving Toward the Bargaining Table: Contract Zoning, Development
+Agreements, and the Theoretical Foundations of Government Land Use Deals, 65 N.C. L. Rev. 976, 982-83 (1987)). See also
+Warner Co. v. Sutton, 644 A.2d 656, 661-62 (N.J. Super. A.D. 1994). The common rationale seems to be that such an agreement
+“denigrates the statutory process because it purports to commit itself to certain action before listening to the public's comments
+on that action[]... to the possible detriment of affected landowners and the community as a whole.” Dacy, 845 P.2d at 797. See
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+14
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+also Hale v. Osborn Coal Enterprises, Inc. 729 So. 2d 853 (Ala. Civ. App. 1997) (holding that a settlement agreement was an
+illegal form of contract zoning).
+For example, in holding that a land use settlement agreement was illegal, the Florida Court of Appeals explained, “‘[t]he
+legislative power to enact and amend zoning *28 regulations requires due process, notice, and hearings.”’ Chung v. Sarasota
+County, 686 So.2d 1358, 1359 (Fla. App. 2 Dist. 1996) (quoting Terry Lewis et al., Spot Zoning, Contract Zoning, & Conditional
+Zoning, 2 Florida Environmental & Land Use Law 9-1, 9-13 (James J. Brown, ed., 2d ed. 1994)). The court reasoned that while
+“[w]e are concerned about impairing a local government's ability to settle litigation[.]... [o]n the other hand, we can envision
+developers filing an unacceptable plan for rezoning, appealing its denial, and then obtaining approval of a modified plan by
+settlement agreement before satisfying the public notice and hearing requirements.” Id. at 1360.
+Instead of outright banning land use settlement agreements, courts in other jurisdictions follow a policy of protecting the public
+interest with the requirement of a public hearing as a prerequisite to an agreement's validity.8 For example, in Sutton, 644 A.2d
+at 666, the court required a proposed land use settlement agreement to be remanded to the township's governing body for zoning
+amendment approval or modification “after public hearings are conducted.” Id. The court cited the overarching rationale for
+requiring remand to the legislative body for a public hearing:
+A municipality has no power to circumvent these substantive powers and procedural safeguards by contract with a private
+property owner. A zoning ordinance may not be amended or repealed “by any act of a governing body of less dignity than that
+which created the ordinance in the first place.” *29 Suski v. Mayor & Comm'rs of Borough of Beach Haven, 132 N.J.Super.
+158, 164, 333 A.2d 25 (App. Div. 1975). If a municipality desires to allow a deviation from the permitted uses under the zoning
+ordinance, it must either amend the ordinance “or follow the necessary procedures for granting a variance; it cannot short cut
+these procedures and permit the ... use by means of ... a contract with the landowner.” Ench v. Mayor & Council of Tp. of
+Pequannock, 47 N.J. 535, 539, 222 A.2d 1 (1966).
+Sutton, 644 A.2d at 659.
+Implicit in these holdings is not only the courts' concern with the municipality's surrender of its legislative function, but also
+the effect such consent judgments have on the public's right to be heard.
+
+Id. at 661.
+In short, the public interest inherent in land use decisions cannot be side-stepped by the expediency of a settlement or
+development agreement approved without a public hearing. And this is why:
+A public interest is always present. It would be unthinkable that a Planning Board, for example, charged with the proper
+enforcement of local planning and zoning ordinances deny an application only to turn around and negotiate a final, binding
+approval of it in a modified form to settle the very litigation which ensued upon the denial.... If such a settlement could be
+final and binding that could be the hypothetical result. But it cannot be. The settlement must necessarily (as it was here) be
+conditioned upon a public hearing on the agreed plan - just as if a new application were being presented to the Board. In other
+words, any settlement must lead to a further official action by the public body. That action is subject to all of the statutory
+conditions necessary to vindicate the public interest - notice, public hearing, public vote, written resolution, etc.
+
+Whispering Woods at Bamm Hollow, Inc. v. Township of Middletown Planning Board, 531 A.2d 770 (N.J. Super. L. 1987)
+(internal citations omitted).
+“Courts do, of course, favor settlements. They conserve judicial time but, more importantly, represent a rational resolution of
+a problem by the parties most closely involved and affected.” Id. That principle applies with equal force in settlement of land
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+15
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+use *30 disputes “so long as the public interest is not disserved thereby. If the settlement must be made known to the public;
+subject to the public voice and voted upon in legal fashion, the public interest has been served.” Id.
+That did not occur here. As admitted by the City, there was no public hearing to consider approval of Resolution No. 14-2017 or
+the ZSA. (R. at 67, ¶ 55; R. at 99, ¶ 22.) As our Utah courts have recognized, “[i]t is beyond question [] ... that public hearings and
+citizen comments are a legitimate source of information for city council members to consider in making legislative decisions.”
+Bradley v. Payson City Corp., 2003 UT 16, ¶ 28, 70 P.3d 47, 55 (citing Harmon City, Inc. v. Draper City, 2000 UT App 31, ¶
+26, 997 P.2d 321 (noting that “a city may rely on the concerns of interested citizens when performing legislative functions”).
+In this case, “Plaintiffs would have presented evidence at a public hearing regarding impact to water recharge rates for springs
+which are the primary source for Lucy Wallingford's water right, water quality issues, aquifer contamination, storm water
+runoff impacts, drainage impacts, ground water concerns, water conservation issues, drinking water contamination, sewer issues,
+increased contamination and leaching risks from the nearby landfill, recreational impacts, traffic flow and congestion impacts,
+road usage issues, public health and safety impacts, and construction impacts based on the proposed changes to MPD.” (R. at
+127-28, ¶ 63.) Thus, the Appellants have been prejudiced because there is a very reasonable likelihood that, if given a chance to
+hear these and other public concerns at a public hearing, the City Council would have voted differently on Resolution 14-2017,
+which approved the ZSA on a 3-2 vote with one member of the City Council *31 wanting to reverse her vote immediately
+after it was taken. (R. at 1425; 1616.) See, e.g., Potter v. South Salt Lake City, 2018 UT 21, ¶ 2, P.3d (“we conclude that a party
+can establish prejudice by showing a reasonable likelihood that the error changed the land use authority's decision”).9
+In short, the serious deprivation of the right to public participation, coupled with concerns about the abdication of the police
+power, have led many courts to conclude that agreements like the ZSA are illegal and void altogether. The Appellants, however,
+don't think this Court should go so far as to entirely ban such agreements due to the important and countervailing public policy
+interests served by the resolution of land use disputes through settlement or development agreements.
+The proper balance between the right to public participation and the expediency of development agreements or land use
+settlement agreements has been achieved by those jurisdictions that have judicially or legislatively required all such agreements
+to be subjected to a public hearing prior to approval. The structure of LUDMA is consistent with those jurisdictions. The
+Appellants would therefore urge this Court to follow the approach taken in those jurisdictions, and outlined in LUDMA, and
+hold that the ZSA is illegal because it was approved through Resolution No. 14-2017 by the City's legislative body without a
+public hearing. Because the trial court incorrectly held that the City Council had *32 authority to enact Resolution No. 14-2017
+approving the ZSA (and that it was immune to review absent a showing of collusion or bad faith) this Court should remand
+Resolution No. 14-2017 for a public hearing.
+II. ALTERNATIVELY, THE TRIAL COURT ERRED IN CONCLUDING THAT RESOLUTION
+NO. 14-2017 WAS IMMUNE FROM REVIEW BY THE MOAB CITY APPEAL AUTHORITY
+BECAUSE RESOLUTION NO. 14-2017 WAS A “LAND USE DECISION” UNDER LUDMA.
+There is no such thing as a nondecision under LUDMA. Land use applications, such as the Amended MPD Application, are
+resolved either through legislative or administrative decisions. The former are subject to a public hearing, the latter to an appeal
+to the appeal authority. Here, it is undisputed that the Amended MPD Application was resolved by City Council passage of
+Resolution No. 14-2017, which authorized the mayor to sign the ZSA. If that was not a “legislative decision” that “governs the
+use or development of land” or modifies or amends a “land use regulation” by “resolution” within the meaning of LUDMA,
+as argued in Part I, above, then it was an administrative “land use decision” by the City Council acting in its capacity as the
+“land use authority” and subject to appeal to the Moab City Appeal Authority. See Utah Code Ann. § 10-9a-103(29)(c)(i). The
+trial court erred when it held that Resolution No. 14-2017 was beyond LUDMA classification and immune to review absent a
+showing of bad faith or collusion because, as the following analysis demonstrates, Resolution No. 14-2017 effected a “land use
+decision” entitling Appellants to an administrative appeal under the plain language of LUDMA.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+16
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+The “nondecision” method of placing parties affected by a land use authority's decisions into an unappealable, unreviewable
+administrative no man's land under LUDMA *33 was squarely rejected by the Utah Supreme Court in Gillmor v. Summit
+County, 2010 UT 69, ¶ 21, 246 P.3d 102, 107 (“the noncompliance of Gillmor's applications does not render the County's
+rejections ‘nondecisions' and does not shield these rejections from ... review”). Rather, under the plain language of LUDMA a
+“land use decision” is “an administrative decision of a land use authority or appeal authority regarding: (a) a land use permit;
+(b) a land use application; or (c) the enforcement of a land use regulation, land use permit, or development agreement.” Utah
+Code Ann. § 10-9a-103(27). The ZSA met all three touchstones for constituting a “land use decision.”
+First, it decided that “with respect to future final plats, permits and other reviews required to be undertaken by the City pursuant
+to the City Code” that those reviews and permits “will occur administratively by the City Planning Department, without a
+requirement for a public hearing.” (R. at 574, ¶ 7 (emphasis added).) Second, it decided that the Amended MPD Application
+proposed Minor Amendments, not “Major” ones. (R. at 573, ¶ 2 (emphasis added).) Third, it decided not to enforce MMC §
+17.65.130's requirement that “[a]mendments that change the character, basic design, building density and intensity, open space
+or any other requirements and conditions contained in the MPD shall not be permitted without prior review and approval by
+the planning commission.” It also waived the enforcement of other land use regulations, such as the processes governing plat
+submissions and other land use approvals, as explained above.
+Under LUDMA, the Appellants have a statutory right “to appeal a land use authority's decision to a separate appeal authority,”
+Utah Code Ann. § 10-9a-302(5)(b)(ii). The establishment of an appeal authority is not optional. Rather, “[e]ach municipality ...
+*34 shall ... establish one or more appeal authorities to hear and decide ... appeals from decisions applying the land use
+ordinances” whereby “each adversely affected person shall timely and specifically challenge a land use authority's decision, in
+accordance with local ordinance.” Id. § 10-9a-701 (1)-(2).
+As required by LUDMA, the City has created an appeal authority and enacted multiple ordinances providing for appeals to that
+appeal authority. For example, MMC § 17.65.080.C. provides, “[n]o person may challenge in district court any decision under
+this chapter until that person has exhausted all administrative remedies and a final decision is issued by the appeal body [,]”
+suggesting that “any decision” under Chapter 17.65 may be appealed by any person. Id. See also, e.g., id. § 17.67.090.B (site
+plan appeals go the appeal authority); id. § 17.72.100 (setting out an appeal authority matrix). The MMC expressly provided
+that “any. person. adversely affected by a decision administering or interpreting a zoning ordinance may appeal that decision
+applying the zoning ordinance ...” to the Appeal Authority. (R. 232; 1637 (quoting former MMC § 17.72.150).)10
+As shown above, Resolution No. 14-2017 was certainly a “land use decision” (Utah Code Ann. § 10-9a-103(27)) “applying” (id.
+§ 10-9a-701(1)(b)) or “interpreting” ( MMC *35 § 17.72.150) the provisions of the MMC. After all, by virtue of the ZSA,
+Section 17.65.130 of the MPD ordinance was interpreted so that the Developer's Amended MPD Application “is deemed to
+be a Minor Amendment” instead of a Major Amendment, among other things. (R. at 573.) As such, LUDMA and the MMC
+give Appellants the right to an appeal.
+These texts cannot be casually avoided merely because this land use decision was couched in the language of the ZSA, which
+the Appellees and the trial court refer to as a settlement agreement (even though it wasn't called a settlement agreement in the
+ZSA, itself, and didn't have many of the hallmarks of a settlement agreement such as a general release, covenant not to sue,
+etc.). Rather, in determining whether particular government action constitutes a “land use decision” this Court has interpreted
+the phrase “land use decision” broadly, looking to the reality of what the particular municipal action accomplished. Our courts
+do not believe in “nondecisions” under LUDMA.
+For example, in Green v. Brown, 2014 UT App 155, 330 P.3d 737, this Court held that even though a planner may have lacked
+authority to issue a building permit, the planner's decision nonetheless started the appeal process for appeals to the appeal
+authority. Id. at ¶ 18. Importantly,
+The planner's decision to issue a building permit allowing the ROW to be used as a driveway is not rendered a “nondecision”
+by Brown's argument that the planner lacked the authority to issue the permit. Put another way, Brown's belief that the planner
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+17
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+lacked the proper authority to make that land use decision did not alter the reality that a land use decision had been issued and
+that the decision, properly issued or not, had adversely affected her property interests.
+
+Id. at ¶ 16. Likewise, the City's decision to wrap its land use decisions in the swaddling clothes of a “Zoning Status Agreement”
+also “did not alter the reality that a land use *36 decision had been issued and that the decision, properly issued or not, had
+adversely affected” the Appellants' property interests. Id. And if the ZSA, itself, was not a “land use decision,” the City's letter
+denying Appellants an appeal certainly was. (R. at 449-50.)
+Moreover, to prevent parties from eviscerating by agreement important statutory processes such as public notice, the right of
+public participation, and third-party rights to appeal, courts look to the substance of the settlement or stipulation to determine
+if the decision, if made through the normal land use processes, would have been a “land use decision.”
+For example, in Murphy Citizens Advisory Committee v. Josephine County, 878 P.2d 414 (Or. 1994), the Oregon Supreme Court
+held that a stipulation between the county and the applicant to settle a mandamus action was appealable by a citizen group to
+the Land Use Board of Appeals (LUBA) as a “land use decision” under a statutory land use scheme not unlike Utah's LUDMA.
+That court correctly reasoned as follows:
+The County had a choice between agreeing to the terms of the stipulation and continuing its defense of the mandamus action. The
+County chose to agree to the terms of the stipulation and thereby made a voluntary decision to approve Copeland's application
+conditionally. That decision to approve the issuance of a development permit was no less a “land use decision” for the
+particular context in which it was made.
+
+Id. at 417 (emphasis added). Consequently, it concluded:
+Because the stipulation between the County and Copeland was a final “land use decision” within the meaning of ORS
+197.015(10)(a)(A), LUBA [the Land Use Board of Appeals] has subject matter jurisdiction over MCAC's appeal from that
+document.
+
+*37 Id. Likewise, because the ZSA was a final “land use decision” under LUDMA, the Moab City Appeal Authority has
+subject matter jurisdiction over Appellants' appeal from that document. See MMC § 17.72.130.A.
+Aside from the fact that the Appellees' contention that land use settlements are immune from review as “land use decisions”
+ignores the text of LUDMA and the MMC, the concept that development agreements, zoning status agreements or land use
+settlement agreements are somehow immune to the processes mandated by state and municipal law, such as public notice,
+public hearing and the right to appeal, is also fundamentally flawed for all of the same reasons that other jurisdictions have
+determined that such agreements are ultra vires and illegal per se or, at a minimum, must be subjected to the requirement of
+a public hearing. See Part I.
+Finally, the concept that such agreements are immune from the requirements of LUDMA and municipal appeal authority
+ordinances such as MMC § 17.72.150 has no legislative authorization or support under Utah case law. The position advanced by
+Appellees - that cities can avoid land use appeals by the mere expedient of shrouding land use decisions within the encasements
+of development or settlement agreements - is completely uncharted territory in Utah.
+In sum, the “reality” - to borrow from Green v. Brown - is that the ZSA was a “land use decision” under the text of LUDMA.
+As explained above, because it “applied a land use regulation to a particular land use application, person or parcel” it “may be
+appealed to an appeal authority.” Utah Code Ann. § 10-9a-707(6). Consequently, the trial court lacked subject matter jurisdiction
+and erred when it “leap-frogged over” the appeal processes *38 mandated by LUDMA and the MMC. See Patterson v.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+18
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+American Fork City, 2003 UT 7, ¶ 17, 67 P.3d 466. See also Utah Code Ann. § 10-9a-801(1); MMC § 17.65.080.C.; id. §
+17.72.150. To resolve that jurisdictional defect, this Court should remand the issues back to the Moab Appeal Authority to hear
+the appeal and issue a final decision on the legitimacy of the land use interpretations and decisions made by the City Council
+in the ZSA. That remand should be coupled with a writ of mandamus.11
+III. THE TRIAL COURT INCORRECTLY CREATED AND THEN
+MISAPPLIED AN ERRONEOUS STANDARD OF JUDICIAL REVIEW.
+Even if the law did not require a public hearing before the legislative enactment of Resolution No. 14-2017 as argued in Part
+I, and even if the law didn't entitle Appellants to administrative review of the City Council's administrative action to the Moab
+City Appeal Authority, as alternatively argued in Part II, the trial court still erred when it created a standard of judicial review
+for land use agreements that has never been applied before by any Utah court and then upheld the ZSA under that standard
+without giving Appellants the opportunity to conduct discovery, present evidence or identify disputed issues of fact under the
+newly-minted standard. See Utah R. Civ. P. 56(a). As the following analysis demonstrates, these errors were fundamentally
+flawed, unfair and should be reversed.
+*39 A. The trial court created and used the wrong standard of review.
+The “collusion or bad faith” standard created by the trial court is nowhere to be found in Utah land use case law or LUDMA.
+There was no land use case law from any other jurisdiction cited in the trial court's decision to support this standard of review.
+In fact, there was no such case law cited or discussed by the parties in their briefing below that utilized or applied this standard
+of review in a land use context. This standard appeared for the first time in the trial court's decision with no explanation as
+to where it came from.
+Counsel exhaustively searched for, but never found, case law outside of Utah requiring parties challenging a municipal land use
+settlement to demonstrate that the settlement was the product of “collusion or bad faith between the parties to the agreement ...
+to completely eviscerate the ordinances.” (R. at 1920, ¶ 4.)12 Instead, counsel's search for such a standard revealed the case law
+holding that settlement of land use disputes is an illegal abdication of the police power or, alternatively, that such agreements
+must be subjected to normal land use processes such as the requirement of a public hearing and/or appeal, as explained above.
+*40 Thus far, the way Utah courts appear to have treated similar land use agreements is to focus on the modality by which they
+were entered, classifying them as either legislative acts or administrative acts, and to then apply the appropriate, statutorilymandated standard of review, depending upon whether the action was legislative or administrative. For example, the Court in
+Suarez, 2012 UT 72, first determined that passage of Ordinance 454 approving amendments to a development agreement was a
+“legislative” act and then applied the LUDMA-dictated standard of review. See id. at ¶ 57 (quoting Utah Code § 17-27a-801(3)
+(a)(ii) (the county version of LUDMA). Cf. id. § 10-9a-801(3)(b) (the same provision in the municipal version of LUDMA).
+As explained above, the plain language of LUDMA only gave the trial court authority to do one of two things: (1) treat Resolution
+No. 14-2017 as a “land use regulation” (or modification of a “land use regulation”) under Utah Code Ann. § 10-9a-801(3)(a)
+and “determine only whether[] ...[it] was enacted contrary to[] state or federal law; and ... [whether] it is reasonably debatable
+that the land use regulation is consistent with [LUDMA;]”; or (2) treat Resolution No. 14-2017 as a land use “decision of a land
+use authority” under Utah Code Ann. § 10-9a-801(3)(b) and determine whether that decision was “arbitrary and capricious; or
+illegal.” While the trial did purport to conclude “that the settlement agreement is not ‘arbitrary, capricious or illegal’ as Plaintiffs
+allege[,]” (R. at 1920, ¶ 5), it do so only after applying its “collusion or bad faith” standard instead of the statutory criteria set
+forth in Utah Code Ann. § 10-9a-801(3)(c).
+That section of LUDMA provides that “[a] decision is arbitrary and capricious if the decision is not supported by substantial
+evidence in the record.” Id. § 10-9a-801(3)(c)(i). *41 It also provides that “[a] decision is illegal if the decision is ... based
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+19
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+on an incorrect interpretation of a land use regulation; or ... contrary to law.” Id. § 10-9a-801(3)(c)(ii). The trial court did not
+have the authority to ignore these statutorily-mandated and prescribed standards of review or to superimpose upon them the
+additional burden of demonstrating “collusion or bad faith.”
+Had the Appellants known that they would be required to show “collusion” between SITLA, the Developer and the City or
+their “bad faith” in order to satisfy the requisite standard of review, the Appellants would have handled this case with an
+entirely different strategy. Instead of relying upon the administrative record, alone, Appellants would have conducted significant
+discovery, seeking, for example, emails between and among SITLA, the Developer and the City in an effort to explore whether
+there was collusion. Appellants would have put key witnesses under oath and taken their depositions to discover what offrecord communications occurred between the Appellees. Appellants then would have presented any discovered evidence of
+“collusion” or “bad faith” in opposition to the motion for summary judgment.
+Appellants had no way of knowing that they would be required to show “collusion” or “bad faith” until after the trial court's
+decision was rendered. By then, of course, it was too late for Appellants to make their case. Simply put, the trial court shouldn't
+have created a new standard to begin with and it certainly shouldn't have held the Appellants to that evidentiary standard without
+first giving Appellants notice this standard would be applicable, followed by an opportunity to conduct discovery and present
+evidence under that new standard.
+*42 B. The trial court incorrectly applied this new standard.
+Assuming, for purposes of argument, that the trial court's standard of collusion or bad faith is, in fact, the standard that Appellants
+were required to meet in order to show that Resolution No. 14-2017 was arbitrary, capricious or illegal, the trial court erred in
+concluding “there has been no collusion between the parties in entering into the ZSA” (R. at 1920, ¶ 5) “to use a settlement
+process to completely eviscerate the ordinances.” (R. at 1920, ¶ 4.)
+“Collusion is defined as ‘an agreement between two or more persons to defraud another under the forms of law, or to
+accomplish an illegal purpose.”’ City of Kansas City v. Ku, 282 S.W.3d 23, 32 (Mo. App. W.D. 2009) (quoting Stark Liquidation
+Co. v. Florists' Mut. Ins. Co., 243 S.W.3d 385, 400 (Mo.App. E.D.2007) (quotation marks and citation omitted)). Accord
+Commonwealth v. Parisi, 873 A.2d 3, 9 (Pa. Cmwlth. 2005) (quoting Black's Law Dictionary 281 (8th Ed. 2004) (“The term
+‘collusion’ is defined as ‘[a]n agreement to defraud another or to do or obtain something forbidden by law.”’).)
+There's no dispute that the ZSA was an agreement between two or more persons. And the record, when viewed in a light most
+favorable to Appellants, as is required on summary judgment, shows that SITLA and the Developer wanted to accomplish the
+illegal purpose of, among other things, avoiding a public hearing for this and any future land use approvals or decisions. (See,
+e.g., R. at 389, 499, 525-26, 532, 558, 1364, & 1389-90.) The record shows that the Developer's desire to avoid a public hearing
+is what was “driving” the entire ZSA. The Developer unabashedly stated “the concern is this potential reopening of the whole
+thing” (R. at 532) and the City Attorney said “[t]hat's really been *43 the main bone of contention.” (R. at 558.) So, to avoid
+the requirement of a public hearing, the Appellees agreed to a process in the ZSA that eliminated all public hearings and altered
+the processes for approval otherwise required by law. Collusion to avoid statutorily-required public participation is repugnant
+to the very foundations of democracy and the legitimate exercise of the police power. It is illegal, as demonstrated above.
+The Appellees claim that the ZSA resolved larger concerns and issues between them, such as the City's power to regulate
+SITLA altogether. Being an agency of the State of Utah, the argument goes, SITLA could have pulled the Project from the
+City's jurisdiction any time it wanted. However, this contention actually helps establish - rather than avoid - the presence of
+collusion because SITLA couldn't have withdrawn from the City's jurisdiction had it wanted to. Hence this argument appears
+to be nothing more than elaborate pretext for the collusion to avoid public participation.
+SITLA had agreed to allow the property to be annexed into Moab City in the Pre-Annexation Agreement. (See R. at 239-262.)
+That agreement provided, “SITLA has joined in this Agreement to evidence its consent to the terms and conditions of this
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+20
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+Agreement.” (R. at 240, ¶ D.) It agreed “to develop the Property in accordance with the applicable codes, laws and regulations
+of the City of Moab ....” (Id. at ¶ E.) SITLA agreed that “[t]he Project will be subject to the provisions of the City of Moab
+Code.” (R. at 243, ¶ 2.2.9.; see also id. at 246, ¶ 2.6.1.) It agreed that if it terminated its agreement with the Developer, “SITLA
+shall succeed to the rights and interests of [the Developer] under this Agreement, including the duties and obligations imposed
+upon [the Developer] hereunder and under the City Approvals.” (R. at 258, ¶ 9.12.) That included being “subject to all legal
+obligations to *44 the same extent as all other City of Moab residents and property owners ....” (R. at 259, ¶ 9.23.) The Subject
+Property was, in fact, annexed into Moab City.
+While it is conceded that a municipality does not generally have “jurisdiction over property owned by the state,” Utah Code
+Ann. § 10-9a-304(1), once a public agency or specified public agency decides that it wants the benefits of seeking municipal
+development approval, it comes within the regulatory jurisdiction of the municipality. Hence, Utah Code Ann. § 10-9a-305(8)
+(a)(ii)(A) provides, “A specified public agency intending to develop its land shall submit to the land use authority a development
+plan and schedule ... with sufficient detail to enable the land use authority to assess ... the specified public agency's compliance
+with applicable land use ordinances[.]”
+In fact, a public agency such as SITLA can obtain vested development rights from a municipality under Utah Code Ann. §
+10-9a-509(4), which provides, “Upon a specified public agency's submission of a development plan and schedule as required
+in Subsection 10-9a-305(8) that complies with the requirements of that subsection, the specified public agency vests in the
+municipality's applicable land use maps, zoning map, hookup fees, impact fees, other applicable development fees, and land
+use regulations in effect on the date of submission.”
+SITLA's legal counsel conceded, in the deliberations before the City Council, regarding Resolution No. 14-2017, that once a
+public agency or specified public agency decides that it wants the benefits of seeking municipal development approval it comes
+within the regulatory jurisdiction of the municipality:
+*45 Heila Ershadi [City Council Member]: If we enter into this agreement, can SITLA still withdraw in the future? No?
+
+John Andrews [SITLA legal counsel]: No, we are committing ourselves. (R. at 559.) Hence, all parties to the ZSA were well
+aware of this principal, including the City, whose attorney stated, on the record, that SITLA's prior consent to City jurisdiction
+was “contained in multiple binding documents including the pre-annexation agreement ....” (R. at 548.) As such, the notion
+that SITLA could not and did not previously submit itself to the jurisdiction of Moab City is just sophisticated pretext for the
+collusive and illegal agreement to avoid public participation.
+In sum, while the Appellants dispute that the trial court's “collusion or bad faith” standard was the correct standard for reviewing
+land use agreements, there was ample evidence that the ZSA was approved so that the Amended MPD Application - and all
+future land use applications under the Amended MPD Application - could be approved without the nuisance of a public hearing.
+In fact, the ZSA is nothing more than a written memorialization of the concerted effort of the Appellees to avoid LUDMA, the
+MMC and the legal requirement of a public hearing, as is amply demonstrated in the record. The record is tainted with their
+intent to avoid a public hearing for this and any future land use approvals or decisions. (See, e.g., R. at 389, 499, 525-26, 532,
+558, 1364, & 1389-90.) The record shows that the Developer's desire to avoid a public hearing is what was “driving” the entire
+ZSA. Thus the trial court erred when it refused to construe this evidence in a light most favorable to the Appellants, which
+created a genuine issue of material fact precluding summary judgment on the issue of whether there was collusion or *46
+bad faith. See Utah R. Civ. P. 56(a) (summary judgment is warranted only “if the moving party shows that there is no genuine
+dispute as to any material fact and the moving party is entitled to judgment as a matter of law”).
+CONCLUSION
+Based upon the foregoing, the Appellants respectfully request that this Court reverse the trial court's decision granting the
+motion for summary judgment filed by SITLA and the Developer and (a) remand the case for a public hearing on Resolution
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+21
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+No. 14-2017 in compliance with LUDMA and the MMC; (b) alternatively, remand the case to the Moab City Appeal Authority;
+or (c) alternatively, remand the case to the trial court to allow Appellants the chance to conduct discovery and present its case
+under the newly-created “collusion or bad faith” standard of review.
+DATED this 17th day of October, 2018.
+/s/ Daniel J. McDonald
+Daniel J. McDonald
+Kyle C. Fielding
+McDonald Fielding, PLLC
+Attorneys for Plaintiffs and Appellants
+
+Appendix not available.
+Footnotes
+Sometimes Moab City and the Moab City Council are referred to collectively as the “City.”
+1
+2
+
+Whether SITLA and the Developer had the legal right to do this under the prior Development Agreement and Pre-Annexation
+Agreement is a matter of dispute.
+
+3
+
+It must be noted that each of these meetings was a public meeting. However, under LUDMA, a public meeting does not require that
+members of the public are provided a reasonable opportunity to comment as is required for each public hearing. Compare Utah Code
+Ann. § 10-9a-103(45) with id. § - 103(46).
+
+4
+
+Resolution No. 14-2017 was inadvertently left out of the trial court record. Counsel have stipulated that the Court may take judicial
+notice of it and/or that it may be considered part of the record.
+
+5
+
+Also, “The legislative body shall comply with the procedure specified in Section 10-9a-502 in preparing and adopting an amendment
+to a land use regulation.” Id. § 10-9a-503(3). Section 10-9a-502(1)(b) provides, in turn, “[t]he planning commission shall[] ... hold
+a public hearing ...” Id. § 10-9a-502(1)(b).
+
+6
+
+Citing Suarez v. Grand County, 2012 UT 72, ¶ 20, 296 P.3d 688, the City admitted in its summary judgment papers that “to determine
+whether it was proper for the City to settle the dispute with SITLA - the question is a legislative one ...” (R. at 1638.) The City admitted
+that its City Council's passage of Resolution No. 14-2017 involved questions of “the overall public interest” and “broader questions
+of policy.” (R. at 1639.) At oral argument the City conceded “the zoning status agreement involved questions of kind of legislative
+discretion, policy discretion on behalf of the City Council ....” (R. at 1960-61.) The City admits that in passage of Resolution No.
+14-2017, “the City Council had to weigh multiple policy decisions” and exercise “policy judgments” (R. at 1961-62) Hence, the City
+concedes Resolution No. 14-2017's approval of the ZSA clearly involved the City's exercise of legislative powers. See also Suarez,
+2012 UT 72 ¶¶ 19-56 (outlining the analysis of whether an action is “legislative” and holding that an amendment to a development
+agreement via ordinance was “legislative”). As in Suarez, the City denied the Plaintiffs' request for an appeal, claiming that the
+requested appeal was not within the jurisdiction of the City's Authority. (R. at 449-50; cf Suarez, 2012 UT 72, ¶¶ 42-43.) As in Suarez,
+the City Council acted in a capacity reserved to legislative bodies under LUDMA. Cf. Suarez, 2012 UT 72, ¶¶ 45-46; Utah Code Ann.
+§ 10-9a-503(1)(b) (“[o]nly a legislative body may amend ... any regulation of or within the zoning district” or “any other provision
+of a land use regulation”). Finally, Resolution No. 14-2017 was adopted through a formal process more consistent with the process
+MMC prescribes for legislative action than the process it prescribes for administrative action. Cf. Suarez, 2012 UT 72, ¶¶ 53-56;
+MMC § 17.04.070 (zoning text amendments “are committed to the sound discretion of the city council”).
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+22
+
+Lucy WALLINGFORD, Kiley Miller, John Rzeczycki, Carol..., 2018 WL 10399915...
+
+7
+
+The legality of development agreements or land use settlement agreements is thus questionable, to begin with, because “[a] city cannot
+by contract deprive itself of any of its legislative powers[] ... A common council ‘cannot bargain away or divest itself of the right
+to make reasonable laws, and to exercise the police power whenever it becomes necessary to conserve or promote the health, safety
+or welfare of the community.”’ Warm Springs Co. v. Salt Lake City, 50 Utah 58, 65, 165 P. 788, 790 (1917) (quoting 3 McQuillin
+Mun. Corps. § 1169). “‘The operation of reasonable laws for the protection of the public cannot be headed off by making contracts
+reaching into the future.”’ Retan v. Salt Lake City, 63 Utah 459, 226 P. 1095 (1924) (quoting Dillingham v. McLaughlin, 44 S. Ct.
+362, 68 L.Ed. 742 (1924)). Moreover, legislative bodies are “without authority to give or to contract away powers to make laws to
+govern the people so that private parties may gain vested rights in them.” United States v. Church of Jesus Christ of Latter-day Saints,
+5 Utah 361, 369, 15 P. 473, 477 (1887). Consequently, at the very least, such agreements should receive some level of public scrutiny
+as a predicate to their validity to vindicate the public interest inherent in this somewhat treacherous exercise of the police power.
+
+8
+
+See, e.g., Ca. Gov. Code § 65867 (public hearings are required on all development agreements); Trancas Property Owners Ass'n v.
+City of Malibu, 138 Ca. App. 4th 172, 182-83 (Ca. Ct. App. 2006) (“Such departures from standard zoning, however, by law require
+administrative proceedings, including public hearings ....”); Cedar River Water and Sewer Dist. v. King County, 315 P.3d 1065, 1074,
+¶ 23, and 1076, ¶ 28 (Wash. 2013) (“Local governments must hold a public hearing before approving a development agreement and
+must approve it by either ordinance or resolution”).
+
+9
+
+The closest the process came to allowing public participation for this important legislative decision was the February 1, 2017,
+workshop meeting. But it was not a public hearing and the “twenty members of the public and press in attendance” (R. at 509) were
+forbidden to ask questions or make comments (R. at 517) until the last 10-12 minutes of the meeting. (R. at 529.) Surely we can
+do better than that in Utah.
+
+10
+
+Counsel was not involved in the litigation below. However, it appears that at the time of the Appellants' land use appeal and the trial
+court's decision the section of the MMC setting out the jurisdiction of the Moab City Appeal Authority was numbered 17.72.150.
+(See, e.g., R. at 232; 1637.) This section was subsequently renumbered to its current section, 17.72.130. Unfortunately, the older
+version of the MMC where the appeal authority's jurisdiction is set out in 17.72.150 was not included in the record. The current
+jurisdictional provision for the appeal authority under the MMC provides, “[t]he appeal authority shall have jurisdiction to hear and
+decide ... [a]ppeals of decisions interpreting this title (zoning) ...” id. § 17.72.130.A.
+
+11
+
+A writ of mandamus is necessary to ensure that the relevant “inferior court, administrative agency, corporation or person[s]” shall
+perform the “act required by law ....” Utah R. Civ. P. 65B(d)(2)(B). The party seeking a writ of mandamus must demonstrate (1) a
+“clear legal right to the performance of the act demanded” and (2) that there exists “a plain duty of the officer, board, or other tribunal
+to perform as demanded.” Garcia v. Jones, 29 Utah 2d 409, 411, 510 P.2d 1099, 1100 (Utah 1973). This was demonstrated above.
+
+12
+
+The Utah Supreme Court has applied a similar standard to the decision to accept competitive bids, holding that “[t]he court is reluctant
+to interfere ... and would do so only if facts were shown to indicate dishonesty, fraud, collusion or lack of good faith in performing
+the duty mentioned.” Clayton v. Salt Lake City, 15 Utah 2d 57, 387 P.2d 93 (1963). However, the Clayton case was not cited by the
+trial court or any of the parties as providing a basis for reviewing land use settlements, which invoke substantially different public
+policy concerns due to the proximity of any given tract of land to its neighbors and the impact that neighbors will experience from
+land use decisions encased within settlement agreements.
+
+End of Document
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+23
+
+

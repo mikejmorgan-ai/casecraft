@@ -1,0 +1,605 @@
+J. Craig Smith (4143)
+jcsmith@shutah.law
+Jennie B. Garner (5486)
+jgarner@shutah.law
+Aaron M. Worthen (15292)
+aworthen@shutah.law
+SMITH HARTVIGSEN, PLLC
+175 South Main Street, Suite 300
+Salt Lake City, Utah 84111
+Telephone: (801) 413-1600
+Facsimile: (801) 413-1620
+Attorneys for Plaintiffs/Petitioners
+SEVENTH DISTRICT COURT – MONTICELLO DEPARTMENT
+SAN JUAN COUNTY, STATE OF UTAH
+NORTHERN MONTICELLO ALLIANCE,
+LLC, a Utah limited liability company,
+Plaintiff/Petitioner,
+v.
+
+NORTHERN MONTICELLO
+ALLIANCE, LLC’S, COMBINED REPLY
+SAN JUAN COUNTY COMMISSION, a
+MEMORANDUM SUPPORTING NMA’S
+political subdivision of the State of Utah and MOTION FOR SUMMARY JUDGMENT
+SAN JUAN COUNTY, a political
+AND RESPONSE OPPOSING
+subdivision of the State of Utah.
+COUNTY’S CROSS-MOTION FOR
+SUMMARY JUDGMENT
+Defendants/Respondents.
+Case No. 170700006
+SUSTAINABLE POWER GROUP, LLC
+and LATIGO WIND PARK, LLC,
+Judge Lyle Anderson
+Intervening Respondents.
+Plaintiff and Petitioner Northern Monticello Alliance, LLC (“NMA”) by and through its
+undersigned counsel, respectfully submits this Combined Reply Memorandum Supporting NMA’s
+Motion for Summary Judgment and Response Opposing San Juan County’s Cross-Motion for
+Summary Judgment.
+
+TABLE OF CONTENTS
+NEW MATTERS RAISED IN COUNTY’S OPPOSING MEMORANDUM .............................. 1
+RESPONSE TO COUNTY’S STATEMENT OF UNDISPUTED RELEVANT FACTS ............ 1
+ARGUMENT .................................................................................................................................. 4
+NMA’S ARGUMENTS ARE NOT BARRED BY THE “LAW OF THE CASE” DOCTRINE. ................ 4
+
+I.
+A.
+
+This Appeal is Not the “Same Case” as NMA’s Prior Appeal. ....................................... 4
+
+B.
+
+Exceptional Circumstances Preclude Application of “Law of the Case” Doctrine. ....... 5
+1.
+
+There has Been an Intervening Change of Controlling Authority. ............................... 6
+
+2.
+
+The County Has Refused to Consider New Evidence. ................................................. 6
+
+3.
+
+The Commission’s Failure to Remand the Revocation Decision Back to the Planning
+Commission for Findings of Fact Was Clearly Erroneous. .......................................... 7
+
+II.
+
+MCELHANEY REQUIRES THE PLANNING COMMISSION, AS A LAND USE AUTHORITY, AND THE
+COMMISSION, AS A LAND USE APPEAL AUTHORITY, TO MAKE FINDINGS OF FACT CAPABLE
+OF REVIEW ON APPEAL.......................................................................................................... 7
+
+III.
+
+NMA HAS A PROTECTABLE PROPERTY INTEREST. .............................................................. 12
+
+IV.
+
+MATERIAL THE COUNTY CHARACTERIZES AS “EVIDENCE” DOES NOT SUPPORT SPOWER’S
+CLAIMS OF MITIGATION. ..................................................................................................... 15
+
+CONCLUSION ............................................................................................................................. 17
+
+ii
+
+TABLE OF AUTHORITIES
+
+CASES
+Canfield v. Layton City, 2005 UT 60, 122 P.3d 622 ..................................................................... 15
+IHC Health Servs., Inc. v. D&K Mgmt., Inc., 2008 UT 73, 196 P. 3d 588..................................... 6
+McElhaney v. City of Moab, 2017 UT 65 ..................................................................... 1, 6, 8, 9, 11
+Salt Lake City Corp. v. Jordan River Restoration Network, 2012 UT 84, 299 P. 3d 990 ............ 14
+Smith v. Hruby-Mills, 2016 UT App 159, 380 P. 3d 349 ............................................................... 4
+State v. Johnson, 2017 UT 76 ......................................................................................................... 5
+United States v. James Daniel Good Real Prop., 510 U. S. 43 (1993) ........................................ 13
+
+ZONING ORDINANCES
+SAN JUAN COUNTY ZONING ORDINANCE § 6-4 ......................................................................... 7, 13
+SAN JUAN COUNTY ZONING ORDINANCE § 6-10 ........................................................................... 13
+
+STATUTES
+Utah Code Ann. § 17-27a-801 ........................................................................................................ 2
+
+iii
+
+PREFERRED DISPOSITION
+NMA requests that the Court deny the County’s Cross-Motion for Summary Judgment
+(“Cross-Motion”) and grant NMA’s Motion for Summary Judgment (“NMA’s Motion”).
+NEW MATTERS RAISED IN COUNTY’S OPPOSING MEMORANDUM
+In its Opposition to Petitioner NMA’s Motion for Summary Judgment (“Opposition
+Memo”) and Cross-Motion, the County argues that NMA’s Motion is faulty in four ways. First,
+the County argues that NMA’s claim that the Amended Written Decision on Remand (“Remand
+Decision”) issued by the San Juan County Commission (“Commission”) is arbitrary and
+capricious is precluded by the “law of the case” doctrine. (Opposition Memo at 9.) Second, the
+County argues that the Utah Supreme Court’s decision in McElhaney v. City of Moab, 2017 UT
+65, is inapplicable because this Court is not reviewing a decision to deny a conditional use permit
+and because NMA has failed to marshal the evidence in support of the Commission’s decision.
+(Id. at 9-11.) Third, the County argues that NMA’s due process arguments fail because NMA has
+no protectable property interest in sPower’s compliance with its Amended CUP conditions. (Id. at
+11.) Fourth, the County asserts that, contrary to NMA’s arguments, substantial evidence supports
+the Remand Decision. (Cross-Motion at 13-16.) Each of the County’s arguments fail.
+RESPONSE TO COUNTY’S STATEMENT OF UNDISPUTED RELEVANT FACTS
+As this Court knows, this is an on-the-record appeal. Thus, this Court must consider the
+entire record and determine if substantial evidence supports the Commission’s Remand Decision.
+Even if substantial evidence supports the Remand Decision, it must still be legal. Utah Code Ann.
+§ 17-27a-801(3)(c). Thus, unlike a typical motion for summary judgment, the existence of disputed
+material facts is not at issue. The record is the record. The law governing this appeal does not
+contemplate, or even allow, a trial to resolve disputed facts. See Utah Code Ann. § 17-27a-801.
+
+Rather than arguing facts, NMA will simply comment on selected facts highlighted in the County’s
+Opposition Memo.
+3.
+
+As amended by the planning commission, the following conditions were added to the
+CUP:
+[I]ncorporate as much flicker, light, sound[] mitigation as possible, and to meet all
+industry standards of those challenges, . . . and reiterating that all and any new land
+purchase lease deals be in writing for any contiguous and affected landowners. . .. [A]ny
+mitigation and standards and conditions of this CUP must be met by any and all project
+development people, be they owners now or in the future, and all of these be met at the time
+of building permit issuance. (R0568, R057-71, R0855, R0860-61.)
+RESPONSE: While the County cites to the transcript of the October 4, 2012, hearing
+
+where the amended conditional use permit (“Amended CUP”), issued to Wasatch Wind, sPower’s
+predecessor-in-interest, was approved, it fails to provide a complete picture of all of the conditions,
+imposed by the San Juan County Planning Commission (“Planning Commission”), on the CUP
+at that meeting.1
+In amending the CUP, the Planning Commission approved “voluntary standards” and “selfimposed” conditions presented by Wasatch Wind regarding industry standards, monetary
+mitigation, and ice throw mitigation, in addition to those imposed at the time of the original CUP.
+(R0853, R0855-0856, R0859-0860.) As stated by Marcia Hadenfeldt, the Chair of the Planning
+Commission and the moving member, “we already gave them a CUP, we’re adding what
+[Wasatch Wind] told us tonight, which are mostly mitigation issues.” (R0855 (emphasis added).)
+
+1
+
+The Planning Commission failed to make any written findings or create a written record of the
+conditions upon which either the original or Amended CUP was issued. Thus, the conditions
+must be gleaned from the minutes and transcript of the October 4, 2012, meeting of the Planning
+Commission in which the Amended CUP was acted upon.
+2
+
+The Planning Commission further determined to hold both Wasatch Wind, as well as its successors
+in interest, to the self-imposed mitigation standards proposed by Wasatch Wind. (R0803-0804.)
+6. sPower provided the County evidence of its mitigation efforts, including the following
+related to flicker, light, and sound:
+a. Flicker
+i. sPower decided against turbines from Siemens and Vestas in favor of a new
+turbine manufactured by GE that had a shorter hub height that reduced the amount
+of flicker because it casts a smaller shadow. (R1606.)
+ii. In the expected scenario, none of the eleven receptors sPower tested exceeded
+the baseline industry standard of flicker exposure not exceeding thirty minutes a day
+for more than thirty hours a year. According to industry standards, there is no flicker
+threshold to be met for undeveloped land like the NMA properties. (R1607-08.)
+b. Light
+i. sPower worked with the FAA to reduce the number of turbines required to
+have navigation lights from twenty-seven to fourteen. (R1608-09.)
+ii. sPower also developed a lighting plan for its substation and operations
+building that eliminated lighting at night unless they are in use. Downward facing
+lights will be used wherever possible. (R1609.)
+c. Sound
+i. sPower decided against turbines from Siemens and Vestas in favor of a new
+turbine manufactured by GE that runs quieter than the Vestas model. (R1606.)
+ii. sPower conducted sound studies to confirm that, through its placement of
+turbines and selection of a quieter turbine, the wind park met all sound limits for
+existing residences and businesses. Only two of the NMA parcels exceeded the
+recommended threshold of fifty-five decibels for vacant land—roughly equivalent to
+conversational speech or an air conditioning unit—along the edges of those
+properties closest to the turbines. (R1606-07.)
+RESPONSE: The County is citing bare assertions made by sPower in a letter dated
+September 23, 2015 – after the Planning Commission had already made its decision not to revoke
+the Amended CUP on September 14, 2015 (the “Revocation Decision”). (R1605-1611.) The
+3
+
+County cites no evidence that the Planning Commission ever considered the September 23, 2015
+letter, or that the Planning Commission ever reviewed any independent authority or studies
+supporting sPower’s assertions in the September 23, 2015 letter.
+Further, sPower’s Updated Shadow Flicker Impact Assessment dated August 21, 2015, did
+not even utilize data from receptors L-W located in the NMA Property, which had been used in
+the initial Shadow Flicker Impact Assessment dated September 28, 2012, because “the Project
+[had] the option to purchase this land once the wind farm is built” and the plan was that “these
+lands [would] become part of the Project once the wind farm is operational.” (R0613, R0619.)
+ARGUMENT
+I.
+
+NMA’S ARGUMENTS ARE NOT BARRED BY THE “LAW OF THE CASE” DOCTRINE.
+The County invokes the “law of the case” doctrine to argue that the merits of this appeal
+
+have already been determined and that the Court’s ruling in a prior appeal should be left
+“undisturbed.” However, the “law of the case” doctrine does not apply.
+A. This Appeal is Not the “Same Case” as NMA’s Prior Appeal.
+As noted by the County, the “law of the case” doctrine “is a legal doctrine courts apply
+when refusing to readdress an issue previously decided in the same case.” Smith v. Hruby-Mills,
+2016 UT App 159, ¶ 15, 380 P. 3d 349 (emphasis added). What the County omits to state, or does
+not appreciate, is that this appeal is not the same case as NMA’s previous appeal to this Court
+(“NMA I”). In NMA I, this Court concluded that the Commission’s Amendment to Written
+Decision dated December 8, 2015 (“Amended Decision”) was supported by substantial evidence,
+but remanded the Amended Decision on due process grounds. See Memorandum of Decision on
+the August 30, 2016 Hearing (“Memorandum Decision”), attached as Exhibit A.
+4
+
+NMA appealed this Court’s ruling to the Utah Court of Appeals, which dismissed the
+appeal because “[a]lthough NMA preferred a different rationale, the end result was that the
+amended order was vacated.” Order of Summary Dismissal, attached as Exhibit B, at 1 (emphasis
+added). The Court of Appeals clarified that “the proceedings on remand will supercede [sic]
+anything in this appeal, also making the matter moot.” Id. (emphasis added.) Since NMA I is now
+moot, NMA is not precluded from attacking the Remand Decision with similar arguments as those
+challenging the now-vacated Amended Decision.
+In fact, if NMA did not raise all available arguments in this appeal of the Remand Decision,
+it would be precluded from making any omitted arguments to an appellate court. See State v.
+Johnson, 2017 UT 76, ¶ 15. While NMA preserved its arguments in its appeal of the Amended
+Decision, an appellate court would likely find such preservation irrelevant to the current case –
+which involves a different final land use decision. Thus, although the Court has previously ruled
+on the validity of the Amended Decision, NMA is entitled to a ruling in this case on the validity
+of the Remand Decision so it can reassert all available arguments on appeal if the Court against
+NMA. Following the County’s rationale would deprive NMA of its right to appellate court review
+of issues such as whether the Commission had the authority to render an “amended” decision.
+B. Exceptional Circumstances Preclude Application of “Law of the Case” Doctrine.
+Even if the law of the case doctrine applied, which it does not, “[t]here are three exceptional
+circumstances in which the law of the case doctrine does not apply: (1) when there has been an
+intervening change of controlling authority; (2) when new evidence has become available; or (3)
+when the court is convinced that its prior decision was clearly erroneous and would work a
+
+5
+
+manifest injustice.” IHC Health Servs., Inc. v. D&K Mgmt., Inc., 2008 UT 73, ¶ 34, 196 P. 3d 588.
+All three exceptions apply here.
+1.
+
+There has Been an Intervening Change of Controlling Authority.
+
+Since this Court issued its Memorandum Decision, the Utah Supreme Court issued its
+opinion in McElhaney v. City of Moab, 2017 UT 65, which significantly changed the way that
+district courts and other appellate bodies, performing substantial evidence review, must review
+land use decisions. Before McElhaney, district courts had broad discretion in determining whether
+a land use decision was supported by substantial evidence. There were no statutes or caselaw
+requiring remand of decisions lacking findings of fact and conclusions of law.
+McElhaney changed this rubric, by requiring courts to remand land use authority decisions
+that lack written findings back to the land use authority that should have, but failed, to create
+written findings. In this case, neither the Planning Commission’s Revocation Decision nor the
+Commission’s Remand Decision contain any express, written findings. Accordingly, this Court
+must remand to the Planning Commission for findings of fact and conclusions of law, regardless
+of what happened in NMA’s previous appeal.
+2.
+
+The County Has Refused to Consider New Evidence.
+
+The Remand Decision affirms the Planning Commission’s unsupported conclusion that
+sPower has, and is, complying with the conditions of the Amended CUP based on outdated and
+one-sided evidence considered by the Planning Commission. (Remand Decision at 9, R1836.) The
+County has refused to allow NMA to provide any new evidence of sPower’s non-compliance.
+NMA was not allowed to participate at the revocation hearing and the Chair of the Planning
+Commission expropriated materials NMA tried to present to the Planning Commission. (R0047:5-
+
+6
+
+15; R0087:1-3.) The Chair further refused to disseminate to other Planning Commission Members
+questions emailed by NMA in advance of the September 14, 2015 hearing. (R0086:11-R0087:3.)
+There is new evidence, including materials suppressed by the Chair of the Planning Commission.
+The County has simply refused ever to hear or consider it.
+3.
+
+The Commission’s Failure to Remand the Revocation Decision Back to
+the Planning Commission for Findings of Fact Was Clearly Erroneous.
+
+In its Memorandum Decision, this Court remanded the Amended Decision to the County
+Commission on due process grounds, finding that “NMA did not have the … opportunity to argue
+its side of the case with regard to [the] evidence or to present its own evidence.” (Memorandum
+Decision, 8 (emphasis added).) As an appeal authority, the Commission did not have the authority
+to receive evidence. SAN JUAN COUNTY ZONING ORDINANCE, § 6-4. Accordingly, the Commission
+should have remanded the revocation issue back to the Planning Commission for a fair evidentiary
+proceeding, with resulting findings of fact and conclusions of law. Instead, the Commission
+decided to hear the matter on the one-sided record and disallowed any opportunity for NMA to
+provide rebuttal evidence. This decision failed to comport with the Memorandum Decision, was
+clearly erroneous and has resulted in manifest injustice.
+II.
+
+MCELHANEY REQUIRES THE PLANNING COMMISSION, AS A LAND USE AUTHORITY, AND
+THE COMMISSION, AS A LAND USE APPEAL AUTHORITY, TO MAKE FINDINGS OF FACT
+CAPABLE OF REVIEW ON APPEAL.
+The County attempts to distinguish McElhaney, arguing that the opinion is so narrow it
+
+covers only land use decisions to deny a conditional use permit, not decisions on revocation of a
+conditional use permit. In the County’s view, the problem in McElhaney was that the reviewing
+court had to “divine the city council’s reasoning for denying the permit from comments made
+during the hearing.” (Opposition Memo at 9-10.) Ironically, the County fails to appreciate that the
+7
+
+original CUP, the Amended CUP, the Revocation Decision, and the Remand Decision in this
+matter all share this same infirmity. Throughout proceedings before the Commission and this
+Court, the parties and the Court have had to divine the conditions of the Amended CUP and the
+basis for the Revocation Decision from hearing transcripts and minutes. The Planning Commission
+never prepared written findings for any of its land use decisions.
+The mandate in McElhaney is premised on a much broader principle than the County
+acknowledges. The Supreme Court noted that without sufficiently detailed findings disclosing the
+steps by which a land use authority reaches its ultimate conclusions, a reviewing authority cannot
+properly review its decision. Id. ¶¶ 36-37. Thus, “if a city council is going to sit as an adjudicative
+body, it needs to produce findings of fact capable of review on appeal.” Id. ¶ 41. This is a generally
+applicable principle for all land use authorities, from which the County, the Commission, and the
+Planning Commission are not exempt.
+The County further asserts this appeal is dissimilar to McElhaney because “the issue here
+is whether the planning commission based its decision not to revoke sPower’s extant CUP on
+substantial evidence. … The only question is whether the evidence was substantial enough to
+justify the County’s decision.” (Id. at 10.) This attempt to distinguish McElhaney is similarly
+unpersuasive. Significantly, the only question before the court in McElhaney was also whether
+there was substantial evidence in the record to justify the relevant land use authority’s decision, as
+required by MLUDMA. McElhaney, 2017 UT 65, ¶ 31. The Supreme Court knew what evidence
+had been presented to the city. Id. ¶¶ 4-6. What the Court didn’t have was “findings of fact capable
+of review on appeal.” Id. ¶ 41. Accordingly, the absence of written findings of fact was lethal to
+Moab City’s decision to deny the conditional use permit because “[b]y mandating that a reviewing
+8
+
+court must uphold a city council's decision as long as it is supported by substantial evidence, the
+legislature has utilized a term of art that presupposes written findings.” Id. ¶ 41 (emphasis added).
+In the present matter, this Court’s review of the Remand Decision (the Commission’s
+review of the Planning Commission’s Revocation Decision) is based on the exact same term of art
+– “substantial evidence” – which the Supreme Court held presupposes written findings. As in
+McElhaney, there is a substantial record containing evidence allegedly presented to, and
+considered by, the County. However, contrary to the County’s assertions, the Planning
+Commission, as the land use authority, made no written findings – a fatal error.
+That the Remand Decision came from a land use appeal authority and not directly from a
+land use authority does not negate the principles articulated in McElhaney. While the Commission
+was not acting as a fact-finder and was merely reviewing the Revocation Decision, the County has
+still put this Court in a position of attempting to determine whether the Revocation Decision and
+the Remand Decision are supported by “substantial evidence” without the aid of findings of fact
+and conclusions of law capable of review on appeal. On remand, the Commission easily could and
+should have remanded this matter to the Planning Commission with instructions to make the
+required findings. Despite the urging of NMA, the Commission failed and refused to do so. Where
+the Commission has upheld the Planning Commission’s unsupported Revocation Decision, the
+County now asks the Court to revert to the pre-McElhaney world and divine the facts and reasoning
+underlying both the land use authority’s decision and the appeal authority’s decision.
+Perceiving this difficulty, the County now asserts that the Planning Commission did, in
+fact, make “written findings and conclusions,” referring to the Planning Commission’s Written
+Brief submitted to the Commission on November 5, 2015, as part of NMA’s prior appeal
+9
+
+proceedings. (Opposition Memo at 10; R0568-0581.) However, the Commission itself already
+conceded, in the now-vacated Amended Decision, that the Planning Commission “did not make
+any written findings from their revocation hearing.” (R0003) (emphasis added.)
+Further, the County’s purported “written findings and conclusions” are insufficient for two
+reasons. First, they are not part of the appealed decision. Instead, the Planning Commission’s
+Written Brief was a post-hoc attempt to justify its decision retroactively, without making any
+written findings regarding mitigation of the adverse effects of the Wind Facility on the NMA
+Property. By the County’s logic, Moab City’s appeal brief justifying its decision would have been
+sufficient for the McElhaney Court. It clearly was not.
+Furthermore, the Planning Commission’s Written Brief did not actually contain any
+findings of fact. The Written Brief states only that “the [Planning Commission] received studies
+concerning sound, flicker, and light [and] [i]t received information on thresholds and how they
+were determined and what neighboring lands were affected.” (R0571.) It then jumps straight to the
+conclusion: “the [Planning Commission] decided by unanimous vote that as much mitigation as
+possible had occurred under the conditions it set for the project in 2012.” (Id.)
+There was no discussion about what the actual standards are, how the Planning
+Commission determined those standards, what specifically sPower had done to mitigate sound,
+flicker, and light impacts on the NMA Property pursuant to those standards, or what specific
+evidence supported any of sPower’s assertions. 2 Thus, even after the Planning Commission
+
+2
+
+Throughout these proceedings, including in the Remand Decision and the County’s written
+filings to this Court, the County has justified upholding the Revocation Decision based merely
+on the assumption that sPower presented unspecified studies and reports to the Planning
+Commission. But neither the Remand Decision, nor the Planning Commission’s decision the
+Commission was reviewing, discuss or apply any specific content of those studies or reports.
+10
+
+submitted its Written Brief, the Commission had no way of knowing with any specificity what
+findings were made by the Planning Commission and what substantial evidence supported the
+supposed findings. The County’s valiant, but futile, effort to parse comments made in hearings and
+its eleventh-hour attempt to transform the Planning Commission’s Written Brief into reviewable
+findings of fact and conclusions of law does and must fail.
+Perhaps more troubling, the Commission did nothing to correct these problems in the
+Remand Decision now before this Court. The Remand Decision merely states that “[w]e cannot
+say that the Planning Commission’s decision not to revoke the Latigo CUP lacked substantial
+evidence.” (Remand Decision at 9; R1835.) The Commission’s scant analysis, which fails to
+“disclose the steps by which” the Commission – or the Planning Commission – reached their
+decisions, prevents this Court from “protecting the parties and the public from arbitrary and
+capricious administrative action.” McElhaney, 2017 UT 65, ¶ 36.
+Finally, the County’s contention that NMA has failed “to marshal the evidence supporting
+the County’s finding” underscores the problems with the land use decision-making procedures
+employed by the County. The Planning Commission never made any written findings or
+conclusions respecting the conditions of the Amended CUP or supporting its Revocation Decision.
+NMA has recited all the “findings” it could discern from both the Planning Commission and the
+Commission and has presented and discussed the statements in the relevant decisions about
+sPower’s purported mitigation. (Motion at 15-16.) It has also analyzed all the “evidence” presented
+by sPower that NMA believed could possibly support sPower’s claims. (Motion at 16-19.) So, to
+
+The County’s justification appears to be that because studies exist, sPower must be doing as
+much mitigation as possible.
+11
+
+the extent NMA has failed to marshal the evidence supporting the County’s findings, it is only
+because NMA – like the Court – has been left to divine what the County’s actual findings are and
+what substantial evidence supports any such findings.
+Moreover, given the limited participation NMA has been permitted throughout these
+proceedings, NMA’s appeals have basically been confined to the record before the Planning
+Commission, which is incomplete due to the preclusion of evidence from NMA. Additional
+evidence NMA has attempted to bring before the Planning Commission and the Commission has
+been disregarded as irrelevant or outside the scope of review. So, under the County’s theory, NMA
+has a burden it can never satisfy. It must provide evidence to contradict sPower’s assertions
+(Opposition Memo at 11), but it was not allowed to provide evidence in the one hearing where that
+evidence could be meaningfully considered – the Planning Commission’s revocation hearing on
+September 9, 2015. (Cross-Motion at 21).
+III. NMA HAS A PROTECTABLE PROPERTY INTEREST.
+The County next disputes NMA’s due process claim, contending that NMA had no
+protectable property interest at stake in the Planning Commission’s revocation hearing. Despite
+this Court’s prior affirmation in its Memorandum Decision of NMA’s due process rights, which
+are necessarily based on a protectable property interest, the County asserts that NMA was
+rightfully excluded from participating in the revocation hearing because there was only one right
+at issue in that hearing – sPower’s right to the Amended CUP. (Cross-Motion at 21.) This is a
+mistakenly narrow view of the competing property rights associated with a conditional use permit.
+With any conditional use permit there are necessarily competing property rights. While a
+CUP applicant has the right to use its property in the most economically beneficial manner, that
+12
+
+use may not injure the use and enjoyment of neighboring or adjacent property. As it must, the
+County recognizes and acknowledges these competing property interests in its conditional use
+permit ordinances. Under those ordinances, a conditional use permit can be granted only if the
+proposed use “will not, under the circumstances of the particular case, be detrimental to the health,
+safety or general welfare of persons residing or working in the vicinity, or injurious to property
+or improvements in the vicinity,” and the Planning Commission must “impose such requirements
+and conditions as are necessary for the protection of adjacent properties and the public welfare.”
+SAN JUAN COUNTY ZONING ORDINANCE § 6-4 (emphases added).
+It is undisputed that the conditions in each conditional use permit expressly protect the
+adjacent properties, and the adjacent property owners accordingly have a property interest in
+ensuring that those conditions are imposed and satisfied. The mechanism provided by the County
+for ensuring compliance is a revocation hearing. SAN JUAN COUNTY ZONING ORDINANCE § 6-10.
+So, neighboring property owners negatively affected by a lack of compliance unquestionably have
+a property interest at stake in such hearings – the unrestricted use and enjoyment of their property.
+See United States v. James Daniel Good Real Prop., 510 U. S. 43, 54 (1993).
+The County claims that NMA’s interests have been adequately protected in these
+proceedings because NMA’s pre-hearing complaints “were among those that prompted the
+planning commission to hold the revocation hearing, and it could have included whatever
+statements and evidence it wished with those complaints.” (Cross-Motion at 21 (citation omitted).)
+Of course, the County omits to state that the Planning Commission precluded NMA from
+participating in the revocation hearing or providing any testimony or evidence. (R0568-0569.) A
+
+13
+
+useful analogy would be permitting a litigant file a complaint, but precluding the litigant from
+presenting evidence or argument at trial.
+The County’s argument is unavailing in any event, as neither the Remand Decision, nor
+the Revocation Decision – such as it is – so much as alludes to any evidence presented in NMA’s
+complaints. Due process requires “an opportunity to be heard in a meaningful manner.” Salt Lake
+City Corp. v. Jordan River Restoration Network, 2012 UT 84, ¶ 111, 299 P. 3d 990 (emphasis
+added). Such a hearing “must provide parties the opportunity to present ‘evidence, objections, and
+arguments, to the end that the … court may be enabled to fairly and intelligently pass upon and
+determine the questions presented for decision.’” Id. The Planning Commission received no
+evidence or arguments from NMA at the September 9, 2015 revocation hearing. In fact, NMA
+was not allowed to participate at the revocation hearing and the Planning Commission Chair
+expropriated materials NMA intended to present at the revocation hearing. (R0047:5-15; R0087:13; R0568-0569.) The Chair further refused to disseminate to other Planning Commission Members
+materials emailed by NMA in advance of the revocation hearing. (R0086:11-R0087:3.)
+Further, the Commission failed – or refused – to consider the evidence presented by NMA
+in its “Written arguments for the appeal of the San Juan County Planning Commission with
+Respect to the Latigo Wind Park” dated November 5, 2015 (“2015 Appeal Brief”), and its nearly
+200 pages of supporting documentation (R1629-1826) regarding Oregon standards for wind farms
+(R1631-1632; R1653-1791), Oregon standards for wind turbine noise (R1631-1632; R1704),
+relocation of the wind turbines (one of which was moved over a mile) (R1630, R1651); increased
+Flicker, Sound and Ice Throw impacts on the NMA Property from relocated turbines (R1634;
+R1805), increased Sound impacts based on turbine selection (R1631), and failure to implement
+14
+
+any meaningful light mitigation through “OCAS” or “Dark Sky” technology (R1633-1644). This
+evidence fairly detracts from evidence presented by sPower, but was never addressed by the
+Commission in either its Amended Decision or its Remand Decision.
+The County effectively limited NMA to the record made by the Planning Commission at
+its revocation hearing on September 9, 2015 – a hearing at which NMA was precluded from
+presenting evidence, objections, and argument – and allowed sPower to augment the record by
+letter dated September 23, 2015, after the Planning Commission had already made its Revocation
+Decision. The County’s proceedings failed to afford NMA any fairness or due process.
+IV. MATERIAL THE COUNTY CHARACTERIZES AS “EVIDENCE” DOES NOT SUPPORT SPOWER’S
+CLAIMS OF MITIGATION.
+In addition to its defense of its deficient land use decision-making procedure, the County
+also presents what it characterizes as evidence supporting its determination that sPower’s complied
+with the Amended CUP. This effort falls short. First, the County argues that NMA’s claims are
+not based on flicker mitigation, but only on sound and light mitigation and on the self-imposed
+financial mitigation and ice-throw mitigation conditions. (Opposition Memo at 11.) This assertion
+is puzzling, since NMA’s Complaint makes multiple references to flicker and expressly refers to
+sPower’s failure to provide flicker mitigation as part of several of its causes of action. (Complaint
+¶¶ 27-34.) NMA was required only to give “fair notice of the nature and basis or grounds” of its
+claims. See Canfield v. Layton City, 2005 UT 60, ¶ 14, 122 P.3d 622. NMA’s Complaint does so.
+In any event, the record is clear that adverse flicker impacts on the NMA Property were
+not even considered by sPower, since all parties expected that the NMA Property would be
+incorporated into the Wind Facility. There is no evidence regarding flicker impacts on the NMA
+Property, let alone “substantial evidence.”
+15
+
+To demonstrate sound mitigation, the County briefly refers to a “2015 sound study” as the
+sole evidence supporting a determination that sPower mitigated sound impacts on the NMA
+Property. (Cross-Motion at 15.)3 The County asserts that the “study” demonstrates that portions
+of only one of the NMA Properties might experience noise greater than the 47-decibel residential
+standard (Id.) However, there was no actual sound study performed in 2015. Instead, sPower’s
+sound consultants provided only a letter dated July 28, 2015 (“Sound Letter”), in which the
+consultants speculated that putting unspecified turbines with a hypothetical sound power level of
+107.5 dBA (as high or higher than the Vestas turbines previously evaluated [R0589]) “would result
+in nearly identical noise exposure.” (R0587.)
+However, the July 28, 2015 Sound Letter is, ironically, silent regarding sound impacts on
+the NMA Property. (R0587.) There is simply no way to determine from the Sound Letter what
+noise levels are generated by the turbines sPower actually used or the sound impacts on the NMA
+Property. What we do know, however, is that if the turbines are actually “nearly identical” to those
+evaluated in the earlier sound study, NMA parcels L through T are all at or above 47 dBA, not just
+one as the County now claims. (R0600.) This is not “substantial evidence” of sound mitigation. In
+fact, this is evidence of unmitigated sound impacts on NMA Members’ Property.
+Similarly, the “evidence” the County suggests sPower presented regarding light mitigation
+
+3
+
+The County seems to believe it must blindly accept sPower’s word for all industry standards
+because “sPower asserts that there is no industry limit for noise on vacant agricultural land like
+NMA’s [and] NMA presented no evidence suggesting otherwise.” (Cross-Motion at 15.)
+However, NMA did present evidence regarding the Oregon Noise Standard for Wind Energy
+Facilities with its 2015 Appeal Brief and 2016 Brief on Remand. (R1665; R2095-2096.) The
+Commission simply disregarded it. Further, considering the County prohibited NMA’s
+participation in the revocation hearing, and continues to allege this prohibition was proper, NMA
+wonders when exactly the County suggests NMA should have presented such evidence.
+16
+
+consists only of unsupported, self-serving statements from sPower. The County does not point to
+any evidence in the record that sPower did anything to mitigate adverse light effects on the NMA
+Property. Instead, it asserts only that “sPower asserted that it had implemented a lighting plan . .
+.” and that “sPower also explained that it worked with the FAA to get a lighting plan approved . .
+..” (Cross-Motion at 15-16.) This is exactly the type of bald assertion the Commission originally
+found to be lacking in its Initial Written Decision. (R0035-36.) Such unsupported, self-serving
+claims are not “substantial evidence” supporting the Commission’s Remand Decision.
+Finally, rather than attempting to show sPower complied with the self-imposed conditions
+of the Amended CUP, the County now argues that those self-imposed conditions were never
+actually approved by the Planning Commission as part of the Amended CUP. (Cross-Motion at 35.) However, the record plainly demonstrates that, not only were the self-imposed conditions
+adopted, the Planning Commission also made them binding on subsequently owners of the Wind
+Facility. (See R0803-0804; R0574; R1807-1809.) If the self-imposed conditions were not part of
+the Amended CUP, why did both the Planning Commission, as the land use authority, and the
+Commission, as the appeal authority, consider whether sPower satisfied the self-imposed
+conditions when determining if sPower had complied with the Amended CUP? (See R0004;
+R0021.) The simple answer is that the self-imposed conditions were, and are, part of the Amended
+CUP and the County should be required to recognize and enforce them. It has not, and now
+pretends they don’t exist.
+CONCLUSION
+For the foregoing reasons, the Court should grant NMA’s Motion for Summary Judgment
+and deny the County’s Cross-Motion for Summary Judgment.
+17
+
+DATED this 8th day of December, 2017.
+/s/ J. Craig Smith
+J. Craig Smith
+Jennie B. Garner
+Aaron M. Worthen
+SMITH HARTVIGSEN, PLLC
+Attorneys for Plaintiffs/Petitioners
+
+18
+
+CERTIFICATE OF SERVICE
+I hereby certify that on the 8th day of December, 2017, I caused a true and correct copy of
+COMBINED REPLY MEMORANDUM SUPPORTING NMA’S MOTION FOR
+SUMMARY JUDGMENT AND RESPONSE OPPOSING THE COUNTY’S CROSSMOTION FOR SUMMARY JUDGMENT, via the Court’s electronic filing system, to the
+following:
+Barton H. Kunz II
+CHRISTENSEN & JENSEN, P. C.
+257 East 200 South, Suite 1100
+Salt Lake City, Utah 84111
+Telephone: (801) 323-5000
+Facsimile: (801) 355-3472
+bart.kunz@chrisjen.com
+Attorneys for County Respondents and Defendants
+Wade Budge
+Paul W Shakespear
+Elizabeth M. Brereton
+SNELL & WILMER LLP
+15 West South Temple, Suite 1200
+Gateway Tower West
+Salt Lake City, Utah 84101
+Telephone: 801. 257. 1900
+Facsimile: 801. 257. 1800
+wbudge@swlaw.com
+pshakespear@swlaw.com
+lbrereton@swlaw.com
+Attorneys for Intervenors Sustainable Power Group, LLC and Latigo Wind Park, LLC
+SMITH HARTVIGSEN, PLLC
+/s/ Jay L. Springer
+Jay L. Springer, Legal Assistant
+Attorneys for Plaintiff / Petitioner
+
+4816-5737-4039, v.7
+
+19
+
+

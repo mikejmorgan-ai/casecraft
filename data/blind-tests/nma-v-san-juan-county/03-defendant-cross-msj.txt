@@ -1,0 +1,661 @@
+Barton H. Kunz II (USB# 08827)
+GOEBEL ANDERSON PC
+405 South Main Street, Suite 200
+Salt Lake City, Utah 84111
+Telephone: (801) 441-9393
+bkunz@gapclaw.com
+Attorneys for County Respondents
+SEVENTH DISTRICT COURT – MONTICELLO DEPARTMENT
+SAN JUAN COUNTY, STATE OF UTAH
+NORTHERN MONTICELLO ALLIANCE,
+LLC,
+
+COUNTY’S CROSS-MOTION FOR
+SUMMARY JUDGMENT
+
+Petitioner,
+vs.
+SAN JUAN COUNTY COMMISSION et al.,
+Respondents,
+SUSTAINABLE POWER GROUP, LLC;
+and LATIGO WIND PROJECT, LLC,
+
+Case No. 170700006
+Judge Lyle R. Anderson
+
+Intervening Respondents.
+Respondents San Juan County Commission and San Juan County (collectively
+“County”), through counsel and under Utah Rules of Civil Procedure 7 and 56, hereby
+cross-move for summary judgment against petitioner Northern Monticello Alliance,
+LLC (“NMA”).
+//
+//
+
+INTRODUCTION
+This is the second time this matter has come before the Court for review. In its
+first petition for review, NMA challenged an amended written decision issued by the
+County upholding the county planning commission’s decision not revoke the conditional
+use permit (CUP) for the Latigo Wind Park held by Sustainable Power Group, LLC
+(“sPower”). The amended decision revised the County’s previous written decision that
+had reversed and remanded the planning commission’s decision based on its
+determination that sPower had not presented any evidence that it was meeting the
+CUP’s requirements to mitigate light, sound, and noise impacts. After that decision
+issued, sPower wrote to the County and asked it to reconsider its decision, explaining
+that it had indeed submitted binders of evidence showing that it was mitigating the
+impacts as the CUP required. sPower, however, did not copy the letter to NMA and the
+County did not invite NMA to respond or otherwise inform it of the letter. The county
+commission met in a closed meeting and determined it was mistaken about whether
+sPower had presented mitigation evidence, and issued an amended written decision that
+partially superseded its prior written decision and affirmed the planning commission’s
+decision not to revoke the CUP.
+The Court in NMA’s first challenge (“NMA I”) held that, while the County’s
+decision affirming the planning commission’s decision not to revoke the CUP was
+supported by substantial evidence, the County violated NMA’s procedural due process
+rights when it revisited its decision without allowing it an opportunity to respond to
+
+2
+
+sPower’s letter. The Court remanded the case back to the county commission for action
+consistent with its ruling.
+On remand, the county commission noticed a hearing on sPower’s request for it
+to reconsider its initial written decision and invited both sPower and NMA to submit
+briefs. It held a hearing at which attorneys for each presented argument, and
+subsequently issued an Amended Written Decision on Remand. The County again
+reversed in part its initial written decision and instead affirmed the planning
+commission’s decision not to revoke sPower’s CUP, finding that it was supported by
+substantial evidence. Because it was no longer remanding the issue to the planning
+commission, and finding no legal obligation to do so, the County also reversed its
+instruction to the planning commission to allow NMA to comment at a new revocation
+hearing.
+NMA then filed this second petition for review, but essentially re-alleged the
+claims it raised in NMA I.
+RELIEF REQUESTED AND GROUNDS THEREFOR
+The County seeks summary judgment on NMA’s petition for review. Whether
+evaluated for arbitrariness and capriciousness or for illegality, the County’s decision
+withstands scrutiny.
+NMA argues that the County’s decision is arbitrary and capricious because
+sPower allegedly failed to meet the CUP’s sound and light conditions, as well as what it
+terms self-imposed conditions to purchase NMA’s properties or make mitigation
+payments. But the Court already ruled in NMA I that the enforceable conditions are
+
+3
+
+those imposed by the County, not the so-called self-imposed conditions, and the
+County’s decision affirming the planning commission’s decision not to revoke the CUP
+was supported by substantial evidence. Thus, the law of the case doctrine warrants
+leaving the Court’s determinations undisturbed. Even if the Court nonetheless decided
+to address NMA’s assertions anew, NMA’s claims fail because the alleged self-imposed
+conditions are not the CUP’s conditions, and there is substantial evidence in the record
+supporting the County’s decision.
+NMA contends that the County’s decision on remand is illegal. It asserts that the
+county commission shouldn’t have been allowed to reconsider its initial written decision
+and that the County should have instead remanded the dispute to the planning
+commission. Again, this Court decided those issues in NMA I, and the law of the case
+doctrine instructs against reconsidering them here. If the Court were inclined to reach
+them, however, NMA had no statutory or constitutional right to be heard because the
+protectable property interest at issue was sPower’s, not NMA’s.
+STATEMENT OF UNDISPUTED MATERIAL FACTS
+1.
+
+The county planning commission issued the CUP in dispute for the Latigo
+
+wind power project to sPower’s predecessor in interest, Wasatch Wind, at a 4 October
+2012 meeting. (R0574-75, R855, R860-61.)
+2.
+
+At that meeting, Wasatch Wind made various representations about what
+
+it voluntarily would do to address flicker, light, sound, and other impacts on the
+surrounding area, including its efforts to purchase NMA’s property or make mitigation
+payments to the property owners. (R0787-R0804, R0818-22.) It also submitted a
+
+4
+
+document setting forth proposed findings, conclusions, and conditions (“Summary of
+Findings and Conclusions”) that set forth several representations made by Wasatch
+Wind about how it intended to build the Latigo project and treat NMA. Wasatch Wind’s
+attorney, Tom Ellison, referenced it at the hearing, describing “the second document
+that I brought to the table, and it addresses, or I mean, this is a proposed set of
+findings.” But the document was not adopted by the planning commission as embodying
+conditions on the CUP. (R0570, R0795, R0818, R0820-22, R0831.)
+3.
+
+As amended by the planning commission, the following conditions were
+
+added to the CUP:
+[I]ncorporate as much flicker, light, sound[] mitigation as possible, and to
+meet all industry standards of those challenges, . . . and reiterating that all
+and any new land purchase lease deals be in writing for any contiguous
+and affected landowners. . . . [A]ny mitigation and standards and
+conditions of this CUP must be met by any and all project development
+people, be they owners now or in the future, and all of these be met at the
+time of building permit issuance.
+(R0568, R057-71, R0855, R0860-61.)
+4.
+
+Following the planning commission’s grant of the CUP to Wasatch Wind,
+
+sPower acquired the Latigo project. (R0028.)
+5.
+
+Sometime after that, upon receiving complaints, including from NMA, that
+
+sPower was not complying with the CUP’s conditions, the county planning commission
+met to consider whether to revoke the CUP. (R0087, R0568.) It received evidence and
+testimony from sPower, including studies, information on thresholds, how they were
+determined, and what neighboring lands were affected. (R0568, R0571, R0578-79.)
+
+5
+
+6.
+
+sPower provided the county evidence of its mitigation efforts, including
+
+the following related to flicker, light, and sound:
+a.
+
+Flicker
+i.
+
+sPower decided against turbines from Siemens and Vestas in
+
+favor of a new turbine manufactured by GE that had a shorter hub height that reduced
+the amount of flicker because it casts a smaller shadow. (R1606.)
+ii.
+
+In the expected scenario, none of the eleven receptors
+
+sPower tested exceeded the baseline industry standard of flicker exposure not exceeding
+thirty minutes a day for more than thirty hours a year. According to industry standards,
+there is no flicker threshold to be met for undeveloped land like the NMA properties.
+(R1607-08.)
+b.
+
+Light
+i.
+
+sPower worked with the FAA to reduce the number of
+
+turbines required to have navigation lights from twenty-seven to fourteen. (R1608-09.)
+ii.
+
+sPower also developed a lighting plan for its substation and
+
+operations building that eliminated lighting at night unless they are in use. Downward
+facing lights are used wherever possible. (R1609.)
+
+[intentionally left blank]
+
+6
+
+c.
+
+Sound
+i.
+
+sPower decided against turbines from Siemens and Vestas in
+
+favor of a new turbine manufactured by GE that runs quieter than the Vestas model.
+(R1606.)
+ii.
+
+sPower conducted sound studies to confirm that, through its
+
+placement of turbines and selection of a quieter turbine, the wind park met all sound
+limits for existing residences and businesses. There is no industry sound standard for
+vacant agricultural land, and a 2015 sound study based on the quieter GE turbines
+sPower selected found that one NMA member’s parcel might experience noise higher
+than 47 decibels, the accepted limit for residential property. (R1899-R1901.)
+7.
+
+NMA appealed the planning commission’s decision not to revoke the CUP,
+
+asserting that the planning commission erred when it determined that sPower was
+satisfactorily meeting the CUP’s conditions. (R0569-70, R1826.)
+8.
+
+The county commission, acting as the county’s land use appeal authority,
+
+held a hearing on NMA’s appeal. It received briefing from the planning commission,
+NMA, and sPower, and heard from both NMA and sPower at a hearing. (R0030, R0043123, R0321-566, R1629-825.)
+9.
+
+The County issued a written decision reversing and remanding the
+
+planning commission’s decision that sPower had complied with the CUP’s requirement
+that it mitigate flicker, light, and sound because the county commission said it had not
+received any evidence of studies or mitigation beyond sPower’s bare representations.
+(R0001, R0035-36.)
+
+7
+
+10.
+
+sPower’s attorneys wrote to the county commission noting that, contrary
+
+to its written decision, sPower had provided the county with relevant studies on sound,
+light, and flicker, and requested that the county commission reconsider its decision.
+(R0025-29.) The county commission then issued an “Amendment to Written Decision,”
+wherein it acknowledged that it had issued its prior decision without considering the
+mitigation evidence sPower had presented. The commission stated that it had since
+reviewed sPower’s evidence after having its attention called to it, and had decided to
+amend its decision to instead uphold the planning commission’s decision not to revoke
+the CUP because sPower had satisfied the CUP’s condition to implement as much
+flicker, sound, and light as much as possible according to industry standards. (R000203.)
+11.
+
+NMA petitioned for review of the amended decision to this Court in
+
+Northern Monticello Alliance, LLC v. San Juan County Commission et al., case no.
+160700001 (“NMA I”). It asserted that the county commission’s decision was arbitrary
+and capricious because the sound exceeded 55 decibels on some NMA property, sPower
+had not used dark sky technology, and sPower had not met self-imposed conditions
+regarding ice throw, purchasing NMA properties, or making mitigation payments.
+(NMA I, Am. Compl. ¶ 101(c).)
+12.
+
+While the Court held that it could not “find that the County’s decision was
+
+unsupported by substantial evidence” and that every tribunal has inherent authority to
+correct its mistakes (NMA I, Mem. of Decision on the Aug. 30, 2016 Hr’g at 6-7 (Sept. 9,
+2016)), it nonetheless held that the County’s decision was illegal because it had deprived
+
+8
+
+NMA of due process when it considered sPower’s letter without giving NMA notice or an
+opportunity to be heard. (Id. at 7-8.) The Court remanded the dispute to the county
+commission to take action consistent with its order. (NMA I, Am. J. at 2 (Nov. 17,
+2016).)
+13.
+
+On remand, the County asked for briefing on the issues raised by sPower’s
+
+letter, which both sPower and NMA submitted. The County held a hearing on 3 January
+2017, at which both sPower and NMA appeared and made arguments. The County also
+limited sPower and NMA to the record as already constituted. (R1832, R1834.)
+14.
+
+The County issued an Amended Written Decision on Remand on 21
+
+February 2017. In it, the County found that “sPower had, indeed, submitted extensive
+documentation, including studies and reports, to the Planning Commission regarding its
+efforts to mitigate light, sound and flicker,” and that, therefore, the County’s “statement
+that sPower had offered nothing more than bare oral representations was, we now
+recognize, erroneous.” (R1834.) In light of that evidence, the County decided that it
+could not say that “the Planning Commission’s decision not to revoke the Latigo CUP
+lacked substantial evidence.” The County held that it would not, “in light of the record
+evidence,” “disturb the Planning Commission’s conclusions that sPower has and is
+meeting the Latigo CUP’s conditions and its decision not to revoke the permit.” (R1835.)
+Finally, the County reversed its remand instruction to allow NMA to address the
+planning commission. It explained that, “upon rehearing and considering all the record
+evidence,” it “no longer view[ed] such a remand as helpful because now its sole purpose
+would be to allow NMA to comment, which [it] ha[d] determined is not a right that the
+
+9
+
+Planning Commission was obligated to recognize.” (R1835-R1836.) This suit followed.
+(Docket.)
+LEGAL STANDARDS
+a.
+
+Summary Judgment
+
+Summary judgment is appropriate when the movant “shows that there is no
+genuine dispute as to any material fact and the moving party is entitled to judgment as a
+matter of law.” Utah R. Civ. P. 56(a). Where, as here, the nonmoving party bears the
+burden of proof, the movant “may satisfy its burden on summary judgment by showing,
+by reference to” materials in the record “that there is no genuine issue of material fact.”
+Orvis v. Johnson, 2008 UT 2, ¶ 18, 177 P.3d 600 (citation omitted). “Upon such a
+showing, whether or not supported by additional affirmative factual evidence, the
+burden then shifts to the nonmoving party, who ‘may not rest upon the mere allegations
+or denials in the pleadings,’ but ‘must set forth specific facts showing that there is a
+genuine issue for trial.’” Id. (quoting and citing former Utah R. Civ. P. 56(e)).
+b.
+
+Review of a Land Use Decision under CLUDMA
+
+A county appeal authority’s decision is presumed valid, and reviewed only to
+determine, based on the record, whether it is arbitrary, capricious, or illegal. Utah Code
+§ 17-27a-801(3)(a) & (8)(a). The decision at issue here – a county planning
+commission’s decision not to revoke a CUP – is an administrative decision reviewed
+under the substantial evidence standard. Utah Code § 17-27a-801(3)(b) & (c); Salon
+Tropicana Midvale, Inc. v. Midvale City, Case No. 20090057-CA, 2009 UT App 327,
+*6-*8, 2009 Utah App. LEXIS 345 (Nov. 13, 2009) (Mem. Dec.) (unpublished)
+
+10
+
+(reviewing city appeal authority’s decision upholding its planning commission’s decision
+to revoke a CUP under the substantial evidence standard).
+“‘Substantial evidence is that quantum and quality of relevant evidence that is
+adequate to convince a reasonable mind to support a conclusion.’” Patterson v. Utah
+County Board of Adjustment, 893 P.2d 602, 604 n. 6 (Utah Ct. App. 1995) (quoting
+First Nat’l Bank of Boston v. County Bd. of Equalization, 799 P.2d 1163, 1165 (Utah
+1990) (quotation marks omitted).) “It is ‘more than a mere scintilla of evidence . . .
+though something less than the weight of the evidence.’” Id. (quoting Grace Drilling Co.
+v. Board of Review, 776 P.2d 63, 68 (Utah Ct. App. 1989) (quotation marks and citation
+omitted)).
+A decision is illegal if it “violates a law, statute, or ordinance in effect at the time
+the decision was made . . . .” Utah Code § 17-27a-801(3)(d).
+ARGUMENT
+I.
+
+The County’s decision not to revoke the CUP was not arbitrary or
+capricious. (Third ¶¶ 138-401, Fourth ¶¶ 141-42, and Fifth ¶¶ 143-60 Causes of
+Action)
+a.
+
+NMA’s claims that the County’s decision on remand is arbitrary or
+capricious should be dismissed under the doctrine of the law of the case.
+
+NMA’s challenge to county commission’s decision as arbitrary or capricious
+based on sPower’s alleged failure to meet the CUP’s sound, light, and so-called selfimposed conditions to purchase NMA’s properties or make mitigation payments has
+1 Although NMA labels its third claim as asserting illegality, its foundational allegation
+
+that the County is not enforcing what it claims are the CUP’s conditions rests upon a
+prerequisite factual determination that the County erred in determining that what NMA
+claims are conditions in fact are not, i.e., that the County’s decision finding substantial
+evidence that sPower is meeting the CUP’s conditions was error.
+11
+
+already been heard and decided by this Court, and therefore falls under the doctrine of
+the law of the case. The Court has already held, based on the same evidence, that the
+county commission’s decision affirming the county planning commission’s decision not
+to revoke sPower’s CUP was supported by substantial evidence. (Stmt. of Facts ¶ 12.) No
+exception to the doctrine applies that warrants the Court’s reconsideration.
+“Law of the case is a legal doctrine courts apply when refusing to readdress an
+issue previously decided in the same case.” Smith v. Hruby-Mills, 2016 UT App 159, ¶
+15, 380 P.3d 349 (quotation marks omitted). “‘[U]nder the law of the case doctrine, a
+decision made on an issue during one stage of a case is binding in successive stages of
+the same litigation.’” Id. (quoting IHC Health Servs., Inc. v. D&K Mgmt., Inc., 2008 UT
+73, ¶ 26, 196 P.3d 588). “‘[A] court should not reconsider and overrule a decision made
+by a co-equal court.’” Id. (quoting State v. O’Neil, 848 P.2d 694, 697 (Utah Ct. App.
+1993) (emphasis original), abrogated on different grounds by State v. Doporto, 935
+P.2d 484 (Utah 1997).
+NMA asserted in NMA I that the county commission’s decision was arbitrary and
+capricious because the sound exceeded 55 decibels on some NMA property, sPower had
+not used dark sky technology, and sPower had not met self-imposed conditions
+regarding ice throw, purchasing NMA properties, or making mitigation payments.
+(Stmt. of Facts ¶ 11.) NMA makes the same arguments here. (Compl. ¶¶ 138-60.) But the
+Court nonetheless held in NMA I that the county commission’s decision was supported
+by substantial evidence. (Stmt. of Facts ¶ 12.) The law of the case doctrine therefore
+advises that the Court adhere to its prior decision.
+
+12
+
+The doctrine does not apply under certain exceptional circumstances, none of
+which apply here. “There are three exceptional circumstances in which the law of the
+case doctrine does not apply: (1) when there has been an intervening change of
+controlling authority; (2) when new evidence has become available; or (3) when the
+court is convinced that its prior decision was clearly erroneous and would work a
+manifest injustice.” IHC Health Servs., Inc. v. D&K Mgmt., Inc., 2008 UT 73, ¶ 34, 196
+P.3d 588) (quotation marks omitted). But there has been no intervening change in
+controlling authority, no new evidence is available because the parties were limited to
+the same record that was before the Court in NMA I (Stmt. of Facts ¶ 13), and NMA has
+not alleged that the Court’s prior decision is clearly erroneous or would work a manifest
+injustice. Under these circumstances, the law of the case advises leaving the Court’s
+decision undisturbed.
+b.
+
+NMA’s claims regarding self-imposed conditions would nonetheless fail
+because the County did not impose such conditions.
+
+Only sound, light, and flicker mitigation are included in the County-approved
+CUP. Proposed conditions regarding ice throw, purchasing the NMA properties, and
+mitigation payments were suggested by sPower’s predecessor, Wasatch Wind, not
+imposed by the County. To the extent NMA bases its challenge on those so-called selfimposed conditions, it fails because they were not imposed by the County and therefore
+cannot serve as a basis for revoking the permit.
+Although the planning and zoning commission discussed Wasatch Wind’s
+proposed conditions at the time it issued the CUP, the county never adopted them. The
+
+13
+
+only conditions the county adopted were those reflected in the motion approved by the
+planning and zoning commission:
+[I]ncorporate as much flicker, light, sound[ ] mitigation as possible, and to
+meet all industry standards of those challenges, . . . and reiterating that all
+and any new land purchase lease deals be in writing for any contiguous
+and affected landowners. . . . [A]ny mitigation and standards and
+conditions of this CUP must be met by any and all project development
+people, be they owners now or in the future, and all of these be met at the
+time of building permit issuance.
+(Stmt. of Facts ¶¶ 2-3.)
+NMA instead appears to rely on a document entitled “Summary of Findings and
+Conclusions,” which was prepared by Wasatch Wind and discusses what NMA calls the
+self-imposed conditions. (Stmt. of Facts ¶ 2.) During the October 2012 CUP hearing,
+Wasatch Wind’s attorney, Tom Ellison, referenced it, describing “the second document
+that I brought to the table, and it addresses, or I mean, this is a proposed set of
+findings.” (Id.) There is no evidence, however, that the County ever adopted those
+conditions.
+c.
+
+Regardless, substantial evidence that sPower was complying with the
+CUP’s conditions supports the county commission’s decision to affirm the
+decision not to revoke it.
+
+The only arguments upon which NMA bases its claims that implicate the CUP’s
+actual conditions are that the windmills’ noise exceeds fifty-five decibels on portions of
+some NMA properties and possibly that sPower has not implemented “dark sky
+technology” – a technology that turns on aircraft warning lights on the windmills when
+aircraft are sensed nearby, but otherwise keeps them dark – although that specific
+condition was not imposed by the planning commission. (Compl. ¶¶ 140(a) & (c),
+
+14
+
+142(d)(i) & (iii), 150(b)(i) & (iii); Stmt. of Facts ¶¶ 2-3.) But the County’s decision that
+the noise level and lack of dark sky technology do not violate the CUP’s conditions is
+supported by substantial evidence.
+i.
+
+sPower presented substantial evidence that it was meeting the
+CUP’s noise mitigation condition.
+
+sPower asserts that there is no industry limit for noise on vacant agricultural land
+like NMA’s. (Stmt. of Facts ¶ 6.c.ii.) NMA presented no evidence suggesting otherwise.
+It argued that the County should have adopted other limits as the standard, but it did
+not show that those standards are common throughout the industry. Thus, whatever
+NMA’s noise complaint, it does not violate the CUP’s condition.
+According to a 2015 sound study based on the quieter GE turbines sPower chose
+to use, portions of only one of the NMA properties might experience noise greater than
+the 47-decibel residential standard.
+In light of this evidence, the County commission concluded that it would not
+disturb the planning commission’s decision and could not say that it lacked substantial
+evidence. (Stmt. of Facts ¶ 14.) The County’s decision to affirm the planning
+commission’s decision was therefore supported by more than a scintilla of evidence.
+ii.
+
+sPower presented substantial evidence that it was meeting the
+CUP’s light mitigation condition.
+
+In response to the complaints that it was not satisfying the CUP’s condition to
+mitigate light pollution, sPower asserted that it had implemented a lighting plan for its
+substation and regular operations that prescribed turning on external light only when
+employees were present and using the facilities. sPower pointed its light downward
+
+15
+
+where possible, including on its substation. sPower also explained that it worked with
+the FAA to get a lighting plan approved that required only fourteen of its twenty-seven
+windmills to be equipped with red safety lights. (Stmt. of Facts ¶ 6.b.i.)
+NMA alleges that sPower failed to meet the CUP’s light mitigation requirement
+because it didn’t implement dark sky technology, which, according to NMA, turns off the
+red safety lights when aircraft aren’t present. (Compl. ¶¶ 34, 140(c), 142(d)(iii),
+150(b)(iii).) Not only is dark sky technology itself one of the so-called self-imposed
+conditions that the County cannot enforce, but NMA also offers no evidence that
+implementing such technology is standard across the industry to mitigate light pollution
+affecting vacant agricultural land.
+The County’s decision that sPower is providing sufficient light pollution
+mitigation is, considering NMA’s failure to provide any evidence that a higher standard
+is warranted, supported by more than a scintilla of evidence.
+II.
+
+The County’s decision not to revoke the CUP was not illegal. (First ¶¶
+122-28, Second ¶¶ 129-37, and Sixth ¶¶ 161-63 Causes of Action)
+a.
+
+NMA’s argument that the County’s decision is illegal because it was not
+permitted to reconsider its written decision contradicts the law of the
+case.
+
+NMA argued in NMA I that the County erred when it reconsidered its initial
+written decision. According to NMA, the County lacked the authority to reconsider its
+decision without a specific statutory authorization, and, regardless, NMA argued, the
+reconsideration was illegal because NMA wasn’t allowed to respond to sPower’s letter.
+(NMA I, Pl.’s Mot. for Summ. J. at 18-19; NMA I, Pl.’s Comb. Opp’n and Reply to County
+at 12-15.) The Court held that, while the County had inherent authority to reconsider its
+
+16
+
+decisions, it had violated NMA’s rights by not allowing it to respond to sPower’s request.
+(Stmt. of Facts ¶ 12.) Because NMA’s claim has been considered and decided by this
+Court, the law of the case advises against its reconsideration unless certain exceptional
+circumstances are present, which NMA has not alleged. See supra, Part I.a.
+b.
+
+Regardless whether the Court chooses to revisit the issue, the county
+commission had inherent authority to reconsider its decision upon
+receiving sPower’s letter.
+
+Utah has adopted the majority rule that tribunals like county land use appeal
+authorities have inherent power to reconsider decisions over which they haven’t lost
+control unless prohibited by law. The county commission properly exercised that
+authority here when it reconsidered its initial written decision on remand in light of
+sPower’s letter.
+“Inherent in the power to make an administrative decision is the authority to
+reconsider a decision. The absence of specific authority in the governing statutes is not
+determinative. Every tribunal has some power to correct its own mistakes.” Clark v.
+Hansen, 631 P.2d 914, 915 (Utah 1981) (citations omitted). See also DLB Collection
+Trust by Helgesen & Waterfall v. Harris, 893 P.2d 593, 595 n. 1 (Utah Ct. App. 1995)
+(describing Clark’s conclusion as “axiomatic”). “Utah is among the majority of western
+states to have held that administrative agencies have the power to reconsider their
+decisions in the absence of statutory provisions to the contrary.” Career Service Review
+Board v. Utah Dep’t of Corrections (“CSRB”), 942 P.2d 933, 945 (Utah 1997).
+Unless prohibited by law, therefore, the county commission acted within its
+inherent authority to reconsider and amend its decision on remand. After briefing and a
+
+17
+
+hearing in which NMA was allowed to – and did – fully participate, the county
+commission amended its decision to reflect that, after considering evidence that it had
+mistakenly failed to consider before it rendered its initial decision, it had instead
+decided to affirm the planning commission’s decision not to revoke sPower’s CUP.
+(Stmt. of Facts ¶¶ 13-14.)
+Although CLUDMA’s appeal provisions explain that the appeal authority’s
+decision is effective when the written decision is issued, and that it is considered a final
+decision ripe for judicial review, Utah Code §§ 17-27a-708 & -801, the statutes do not
+prohibit the appeal authority (here, the county commission) from exercising its inherent
+authority to reconsider its decision.
+Both CSRB and Clark occurred in the context of statutory judicial review schemes
+analogous to CLUDMA’s, but the supreme court nonetheless decided that the
+government bodies at issue could reconsider their decisions under inherent, rather than
+statutory, authority. In CSRB, the supreme court found the board’s attempt to justify its
+decision to revisit a prior order under the controlling Utah Administrative Procedures
+Act “unconvincing” before affirming the board’s action under its inherent authority.2
+CSRB, 942 P.2d at 945. And in Clark the review was under Utah Code § 73-3-14 (1943),
+which required those aggrieved with the state engineer’s decision to “bring a civil action
+
+The majority implicitly rejected the argument NMA makes here, as Justice Howe
+authored a dissent in part relying on Utah Code § 63-46b-13 (1997), the predecessor to
+the statute NMA relies on, Utah Code § 63G-4-302. CSRB, 942 P.2d at 948 (Howe, J.
+dissenting).
+2
+
+18
+
+in the district court for a plenary review thereof” within sixty days after mailed notice.3
+Id.; Clark, 631 P.2d at 915. CSRB and Clark therefore confirm that a statutory review
+scheme is not equivalent to a prohibition against a government body exercising its
+inherent authority to reconsider its decision.
+In DLB Collection Trust, the Utah Court of Appeals cited Clark to support its
+conclusion that a district court has authority to correct its mistakes. Id., 893 P.2d at 595,
+n. 1. That holding is particularly relevant here, because the county commission’s
+decision was quasi-judicial. In CSRB, the supreme court subsequently accepted as
+established that Utah courts “have the authority in the absence of a controlling statute to
+modify orders still under their control.” CSRB, 942 P.2d at 945.
+Taken to its logical end, prohibiting a government tribunal from reconsidering its
+decision under these circumstances would yield absurd results. A county appeal
+authority, for example, could not reconsider its decision even to correct an obvious,
+indisputable error. The parties would have no choice but to incur the time and expense
+of review if they wished to correct the error, far from the “just, speedy, and inexpensive
+determination,” Utah R. Civ. P. 1, to which Utah’s courts aspire.
+c.
+
+NMA’s claim that the county commission’s decision on remand is illegal
+because it was not allowed to present evidence at the planning
+commission revocation hearing fails because it doesn’t identify a
+protectable property interest.
+
+NMA’s attempt to raise a claim that its due process rights were violated because it
+wasn’t allowed to present evidence at the planning commission’s revocation hearing
+
+3 Clark, decided in 1981, does not specifically address any other statute and appears to
+
+predate Utah Code § 63-46b-13 (section 63G-4-302’s precursor), enacted in 1987.
+19
+
+fails because it has not identified a protectable property interest that required such
+process.
+“‘To state a cognizable substantive [or procedural] due process claim, [plaintiffs]
+must first allege sufficient facts to show a property or liberty interest warranting due
+process protection.’” Petersen v. Riverton City, 2010 UT 58, ¶ 21, 243 P.3d 1261
+(quoting Patterson v. Am. Fork City, 2003 UT 7, ¶ 23, 67 P.3d 466) (alterations
+original) (quotation marks and citations omitted). “The United States Supreme Court
+has defined a property interest ‘as a legitimate claim of entitlement to some benefit.’” Id.
+(quoting Hyde Park Co. v. Santa Fe City Council, 226 F.3d 1207, 1210 (10th Cir. 2000))
+(quotation marks and citations omitted). “‘An abstract need for, or unilateral
+expectation of, a benefit does not constitute property.’” Id. ¶ 22 (quoting Hyde Park,
+226 F.3d at 1210) (alteration and quotation marks omitted). “Rather, a property interest
+exists only where ‘existing rules and understandings that stem from an independent
+source such as state law . . . secure certain benefits and [ ] support claims of entitlement
+to those benefits.’” Id. (alterations original).
+NMA has identified nothing more than its members’ abstract right to unrestricted
+use and enjoyment of their property. (Pl.’s Mot. for Summ. J. at 21 (quoting United
+States v. James Daniel Good Real Prop., 510 U.S. 43 (1993), a civil forfeiture case
+addressing a physical taking, not a decision refusing to revoke an allegedly
+noncompliant conditional use permit).) That is insufficient under the controlling law,
+which requires instead a legitimate claim of entitlement to a benefit. In contrast,
+sPower’s legitimate claim to entitlement to a benefit – its conditional use permit – was
+
+20
+
+threatened with revocation, giving it a due process right to be heard. The County’s
+ordinances reflect this critical distinction by explicitly allowing the permit holder the
+right to be heard at a revocation hearing. SJZO § 6-10.
+The right at issue before the planning commission that gave rise to these petitions
+was sPower’s CUP, not any permit or application held by NMA members. The planning
+commission was therefore within its authority to limit comment at the hearing to just
+the permit holder, sPower. NMA, moreover, was heard. Its complaints were among
+those that prompted the planning commission to hold the revocation hearing (Pl.’s Mot.
+for Summ. J. at 9, ¶ 40), and it could have included whatever statements and evidence it
+wished with those complaints. NMA doesn’t explain whether the comments it sought to
+present at the revocation hearing would have been any different than what it included in
+its complaints, or, if not, why the comments couldn’t have been included with its
+complaints. Because it lacked a protectable property interest in sPower’s permit, and
+because it regardless had a meaningful opportunity to be heard, NMA’s claim that the
+County’s decision is illegal because it should have remanded the dispute back to the
+planning commission with an instruction to allow NMA to comment at a hearing fails.
+CONCLUSION
+For the foregoing reasons, summary judgment should be entered for the County.
+DATE: 20 November 2017.
+GOEBEL ANDERSON PC
+/s/Barton H. Kunz II
+Barton H. Kunz II
+Attorneys for County Respondents
+
+21
+
+CERTIFICATE OF SERVICE
+I hereby certify that I caused a true and correct copy of the foregoing crossmotion for summary judgment to be served upon the following by an electronic filing
+service on 20 November 2017:
+For petitioner:
+J. Craig Smith, jcsmith@shutah.law
+Jennie B. Garner, jgarner@shutah.law
+For Intervening Respondents:
+Paul W. Shakespear, pshakespear@swlaw.com
+Elizabeth M. Brereton, lbrereton@swlaw.com
+/s/Barton H. Kunz II
+Barton H. Kunz II
+Attorney for County Respondents
+
+22
+
+

@@ -1,0 +1,1152 @@
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+2019 WL 8356024 (Utah App.) (Appellate Brief)
+Court of Appeals of Utah.
+
+LD III, LLC, Petitioner/ Appellant,
+v.
+MAPLETON CITY, Respondent/Appellee.
+No. 20190090-CA.
+July 17, 2019.
+District Court Case No. 170401683
+Appeal from Final Judgment Fourth District Court, Utah County, Judge James Taylor
+Brief of Appellee Mapleton City
+Denver C. Snuffer, Jr. #3032, Nelson, Snuffer, Dahle & Poulsen, P.C., 10885 South State, Sandy, Utah 84070, Telephone:
+801.576.1400, Email: denversnuffer @gmail.com, for petitioner/appellant LDIII, LLC.
+Eric Todd Johnson #6901, Robert A. Patterson #15703, Blaisdell, Church & Johnson, LLC, 5995 South Redwood Road, Salt
+Lake City, Utah 84123, Telephone: 801.261.3407, Email: eric@bcjlaw.net, Email: rob@bcjlaw.net, for respondent/appellee
+Mapleton City.
+*2 Parties to Proceedings
+Petitioner/Appellant: LDIII, LLC, a Utah limited liability company
+Respondent/Appellee: Mapleton City, a Utah municipality
+*3 Table of Contents
+Parties to Proceedings .....................................................................................................................................
+Table of Contents .............................................................................................................................................
+Table of Authorities .........................................................................................................................................
+Introduction ......................................................................................................................................................
+Statement of Issues ..........................................................................................................................................
+Statement of the Case ......................................................................................................................................
+I. Facts .............................................................................................................................................................
+II. Procedural History ......................................................................................................................................
+III. Disposition .................................................................................................................................................
+Summary of Argument ....................................................................................................................................
+Argument ..........................................................................................................................................................
+I. The District Court Properly Entered Summary Judgment Because There Are No Disputed Facts .............
+II. The District Court Correctly Determined that the Density Rights Granted to SLR Were Voluntarily and
+Permanently Relinquished by the Preserve .....................................................................................................
+A. The Preserve Waived Its Right to Develop More than 92 Units on the Property ......................................
+B. The Preserve and Mapleton Amended the Original Agreement to Limit Density on the Property to 92
+Units .................................................................................................................................................................
+III. The District Court Correctly Determined that LDIII's Claims Are Time-Barred .....................................
+A. LDIII's Claims Are Barred by the 30-Day Limitation for Land Use Claims .............................................
+B. LDIII's Claims Are Barred by the 6-Year Limitation for Contract Claims ................................................
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+2
+3
+5
+7
+10
+14
+14
+20
+20
+21
+23
+23
+26
+27
+33
+37
+38
+40
+
+1
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+C. LDIII Should Be Equitably Estopped from Raising Its Claims Due to the Preserve's Relinquishment of
+41
+Rights and LDIII's Acquiescence Thereto ......................................................................................................
+IV. The District Court Correctly Determined that the TDR-R Zoning Overlay Was Removed When
+42
+Mapleton Rezoned the Property ......................................................................................................................
+V. The District Court Correctly Determined that LDIII Did Not Succeed to the Original Agreement ...........
+46
+*4 A. LDIII's Acquisition of the Property through Foreclosure Did Not Transfer the Preserve's Contract
+48
+Rights ...............................................................................................................................................................
+B. The Original Agreement Did Not Run With the Land Without Mapleton's Prior, Written Approval ......... 50
+VI. The District Court Correctly Determined the Re-Application of the TDR-R Overlay Was Legislative
+54
+Referable ..........................................................................................................................................................
+Conclusion .......................................................................................................................................................
+56
+Certificate of Compliance ................................................................................................................................ 58
+Certificate of Service ....................................................................................................................................... 58
+Addendum ........................................................................................................................................................ 59
+Addendum 1. Preserve at Mapleton Subdivision, Planned Residential Community (PRC-4) Zone – MCC 18.82D
+Addendum 2. Ruling on Cross Motions for Summary Judgment
+Addendum 3. Ruling on Motion to Alter or Amend Judgment
+Addendum 4. Original Development Agreement
+Addendum 5. Memorandum of Understanding
+*5 Table of Authorities
+Cases
+B.R. Woodward Mktg. v. Collins Food Serv., 754 P.2d 99 (Utah Ct.
+App. 1988) ...........................................................................................
+Bahr v. Imus, 2011 UT 19, 250 P.3d 56 ..............................................
+Baker v. Carlson, 2018 UT 59, 437 P.3d 333 ......................................
+Bradshaw v. Burningham, 671 P.2d 196 (Utah 1983) .........................
+Burrow v. Vrontikis, 788 P.2d 1046 (Utah Ct. App. 1990) ..................
+Carter v. Lehi City, 2012 UT 2, 269 P.3d 141 .....................................
+Cheney v. Rucker, 381 P.2d 86 (Utah 1963) .......................................
+Colvin v. Giguere, 2014 UT 23, 330 P.3d 83 ......................................
+Daines v. Vincent, 2008 UT 51, 190 P.3d 1269 ..................................
+Drazich v. Lasson, 964 P.2d 324 (Utah Ct. App. 1998) .......................
+Fox v. Park City, 2008 UT 85, 200 P.3d 182 ......................................
+Gardner v. Bd. of County Comm'rs, 2008 UT 6, 178 P.3d 893 ...........
+Gillmor v. Macey, 2005 UT App 351, 121 P.3d 57 .............................
+Hansen v. Green River Grp., 748 P.2d 1102 (Utah Ct. App. 1988) ......
+Heslop v. Bear River Mutual, 2017 UT 5, 390 P.3d 314 .....................
+Hillcrest Inv. Co. v. DOT, 2015 UT App 140, 352 P.3d 128 ...............
+IHC Health Servs. v. D&K Mgmt, Inc., 2003 UT 5, 73 P.3d 320 ........
+IHC Health Servs. v. D&K Mgmt., Inc., 2008 UT 73, 196 P.3d 588 ...
+Keith v. Mt. Resorts Dev., LLC, 2014 UT 32, 337 P.3d 213 ...............
+Krejci v. City of Saratoga Springs, 2013 UT 74, 322 P.3d 662 ...........
+McCleve Properties, LLC v. D. Ray Hult Family Ltd., 2013 UT App
+185, 307 P.3d 650 ................................................................................
+Mounteer Enters. v. Homeowners Ass'n, 2018 UT 23, 422 P.3d 809 ..
+Oquirrh Assocs. v. First Nat'l Leasing, 888 P.2d 659 (Utah Ct. App.
+1994) ....................................................................................................
+Orton v. Carter, 970 P.2d 1254 (Utah 1998) ........................................
+Powder Run at Deer Valley Owner Ass'n v. Black Diamond Lodge at
+Deer Valley Ass'n, 2014 UT App 43, 320 P.3d 1076 ..........................
+Rapp v. Mountain States Tel. & Tel. Co., 606 P.2d 1189 (Utah 1980) .
+Richard Barton Enters. v. Tsern, 928 P.2d 368 (Utah 1996) ................
+Saleh v. Farmers Ins. Exch., 2006 UT 20, 133 P.3d 428 .....................
+Smith Inv. Co. v. Sandy City, 958 P.2d 245 (Utah Ct. App. 1998) ......
+Snow v. Rudd, 2000 UT 20, 998 P.2d 262 ..........................................
+Stern v. Metro. Water Dist., 2012 UT 16, 274 P.3d 935 ......................
+Suarez v. Grand County, 2012 UT 72, 296 P.3d 688 ...........................
+
+28
+12
+13, 55
+34, 35
+41, 42
+56
+27, 34
+24
+51
+27
+11, 40
+39
+11, 12, 51, 52
+48, 49
+24
+11, 12, 48
+10, 28
+27
+47
+55
+27, 28
+32
+48
+38
+39
+34
+34
+51
+47
+11
+50
+12, 43, 44
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+2
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+Sunridge Dev. Corp. v. RB&G Eng. Inc., 2010 UT 6, 230 P.3d 1000 ..
+27
+Surety Underwriters v. E & C Trucking, 2000 UT 71, 10 P.3d 338 ..... 23, 24, 25
+Warrick v. Prop. Reserve Inc., 2018 UT App 197, 437 P.3d 439 ......... 10, 23
+West v. Case, 2006 UT App 325, 142 P.3d 576 .................................. 48
+*6 Rules
+Utah Rules of Civil Procedure 56(a) ................................................... 23
+Statutes
+Utah Code 10-9a-201(1) ...................................................................... 44
+Utah Code 10-9a-202(2) ...................................................................... 40, 44
+Utah Code 10-9a-209 ..........................................................................
+39, 44
+Utah Code 10-9a-801(2)(a) .................................................................. 38
+Utah Code 10-9a-801(4) ...................................................................... 39, 40
+Utah Code 10-9a-801(5) ...................................................................... 38, 39
+Utah Code 20A-7-607(4)(c) ................................................................
+55
+Utah Code 57-1-1(3) ............................................................................ 49
+Utah Code 57-1-22.5 ........................................................................... 47
+Utah Code 78B-2-303 .......................................................................... 38
+Utah Code 78B-2-309(1)(b) ................................................................
+40
+City Codes (Mapleton City Code “MCC”)
+MCC 18.12.010(A)(1) .........................................................................
+44
+MCC 18.24.010 ...................................................................................
+55
+MCC 18.24.020(A) .............................................................................. 17, 45
+MCC 18.28.050(A) .............................................................................. 15
+MCC 18.76.070(B) .............................................................................. 15
+MCC 18.82.030(K) .............................................................................. 45
+MCC 18.82.040 ...................................................................................
+46
+MCC 18.82.050 ...................................................................................
+45
+MCC 18.82D.110 ................................................................................. 19, 26, 31
+MCC 18.84.460(D) .............................................................................. 38
+The Mapleton City Code may be found online at: https://www.sterlingcodifiers.com/codebook/index.php?book_id=801
+*7 Introduction
+On December 14, 2005, the Preserve at Mapleton Development Company (“Preserve”), acquired approximately 170 acres
+of property (“Property”) in Mapleton, Utah (“Mapleton” or “City”). The next day, December 15, 2005, the Preserve filed an
+application with Mapleton to rezone the Property and reduce development density. On May 17, 2006, the Mapleton City Council
+approved the zoning change requested by the Preserve and adopted the PRC-4 zone for the Property. The Preserve itself drafted
+the zoning text for the PRC-4 zone. That text expressly restricts the maximum number of homes on the Property to 92 units.
+It is undisputed that Mapleton only rezoned the Property with the owner's knowing consent and approval, capping density at
+92 units. There are no contrary inferences.
+Before the Preserve limited the density on its Property to 92 units, the zoning was A-2 (TDR-R). This meant that the Property
+had an agricultural zoning allowing one home for every two acres, with the right to apply transferable development rights to
+increase the density of development to allow up to 136 units. In Mapleton, a transferable development right is created when a
+property owner restricts development on some property in exchange for a transferable development right or TDR that can be
+applied to increase development density on approved properties elsewhere in Mapleton.
+The A-2 (TDR-R) zoning was applied to the Property in 2003 by Mapleton in harmony with a development agreement
+(“Original Agreement”) between Mapleton and the prior owner of the Property, Suburban Land Reserve (“SLR”). In the Original
+Agreement, SLR agreed to restrict development on a portion of its Property in return for *8 77 TDRs and the rezoning of
+another portion of the Property as a TDR receiving site that would allow up to 136 units on the Property. This was the zoning
+density until the Preserve purchased and reduced it, in favor of large, estate-type lots.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+3
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+In 2006, when Mapleton City rezoned the property to PRC-4, as requested by the Property owner, it expressly restricted density
+to 92 units. The PRC-4 zone did not add the TDR-R designation because the Preserve could develop all 92 units on the Property
+without expending TDRs. This left the Preserve free to sell its TDRs to others or gain value from them by applying them in
+another zone with a TDR-R designation. The Preserve intentionally waived any contractual or other development right it had
+to more than 92 units and even agreed to that change in a written memorandum of understanding with Mapleton. The Preserve
+would be estopped from claiming breach of contract and so should LDIII.
+LDIII entered the picture when it acquired the Property through foreclosure in 2008. Almost a decade later, in 2017, LDIII
+sought to increase the development density on the Property back to what SLR had. The Mapleton City Council agreed to
+rezone the Property with a TDR-R designation in the summer of 2017. In addition, due to the express language in the PRC-4
+zone restricting development to 92 units, the Council would also need to modify the PRC-4 zoning text to allow increased
+development density on the Property. However, before the PRC-4 zoning text could be modified, citizens in Mapleton sought
+a referendum to overturn the Council's legislative action to rezone the property with a TDR-R designation. When sufficient
+signatures were obtained, Mapleton *9 called a referendum election, which was held in November 2017. That election resulted
+in overturning the Council's action to apply the TDR-R designation to the Property.
+Only after the November 2017 election, and more than a decade after the Property had been rezoned to PRC-4 without a TDRR designation, LDIII belatedly sued Mapleton for breach of the Original Agreement and for an order declaring that at all times
+since 2003, the Property was zoned to be a TDR receiving site and that the density rights granted to SLR were left unchanged
+by the Preserve's seeking and obtaining Mapleton's approval for a new zoning and new development approval. This lawsuit was
+untimely. Any defect in the rezoning and any breach of contract occurred a decade earlier and must have been raised before
+2017. The District Court correctly entered summary judgment that LDIII's lawsuit was untimely and that any right to greater
+density was waived or amended by the Preserve.
+*10 Statement of Issues
+1. Whether the District Court correctly determined that there were no disputes regarding the material facts or the reasonable
+inferences therefrom.
+a. Standard of Review: The Court “review[s] the district court's grant of summary judgment for correctness, ‘considering only
+whether the [district] court correctly applied the law and correctly concluded that no disputed issues of material fact existed.”’
+Warrick v. Prop. Reserve Inc., 2018 UT App 197, ¶ 6, 437 P.3d 439
+b. Preservation: Summary Judgment Ruling, R578-592; Rule 59 Ruling, R983-986.
+2. Whether the District Court correctly determined that the Preserve waived its right to construct 136 units on the Property.
+a. Standard of Review: “[T]he legal conclusions underlying a trial court's grant of summary judgment on a waiver issue are
+reviewed with some measure of deference.” IHC Health Servs. v. D&K Mgmt., Inc., 2003 UT 5, ¶ 6, 73 P.3d 320.
+b. Preservation: Summary Judgment Ruling, R585-587; Rule 59 Ruling, R985; Mapleton's Answer, R17; Mapleton's Summary
+Judgment Motion, R231-233; Mapleton's Summary Judgment Reply, R565-567; Mapleton's Opposition to Rule 59 Motion,
+R682-684.
+3. Whether the Preserve and Mapleton mutually amended the contractual right to 136-unit density.
+*11 a. Standard of Review: The grant of summary judgment on contract issues is reviewed for correctness. Hillcrest Inv. Co.
+v. DOT, 2015 UT App 140, ¶¶ 5, 14, 352 P.3d 128; Gillmor v. Macey, 2005 UT App 351, ¶ 9, 121 P.3d 57.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+4
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+b. Preservation: Summary Judgment Ruling, R585-587; Mapleton's Summary Judgment Reply, R565-567; Mapleton's
+Opposition to Rule 59 Motion, R682-684.
+4. Whether the District Court correctly determined that LDIII's claims were time-barred.
+a. Standard of Review: The grant of summary judgment on a statute of limitations issue is reviewed for correctness. Snow v.
+Rudd, 2000 UT 20, ¶ 9, 998 P.2d 262; Fox v. Park City, 2008 UT 85, ¶¶ 9-11, 200 P.3d 182.
+b. Preservation:
+i. 30-day limitation for land use actions and notices: Summary Judgment Ruling, R580-582; Mapleton's Answer, R16;
+Mapleton's Summary Judgment Motion, R224-226; Mapleton's Opposition to Rule 59 Motion, R687-689.
+ii. 6-year contract limitation: Mapleton's Answer, R17; Mapleton's Summary Judgment Motion, R230-231; Hearing on
+Summary Judgment Motions, R1043.
+5. Whether LDIII should be estopped from asserting its claims due to the Preserve's affirmative relinquishment of rights and
+LDIII's acquiescence.
+a. Standard of Review: The grant of summary judgment on an estoppel *12 claim is reviewed for correctness. Bahr v. Imus,
+2011 UT 19, ¶ 16, 250 P.3d 56.
+b. Preservation: Mapleton's Answer, R17; Mapleton's Summary Judgment Motion, R231-234.
+6. Whether the District Court correctly determined that Mapleton properly removed the TDR-R overlay from the Property.
+a. Standard of Review: The grant of summary judgment on the interpretation and application of land use regulations and statutes
+is reviewed for correctness. Suarez v. Grand County, 2012 UT 72, ¶ 18, 296 P.3d 688.
+b. Preservation: Summary Judgment Ruling, R581-582, 586-587; Mapleton's Summary Judgment Motion, R226-229;
+Mapleton's Opposition to Rule 59 Motion, R686-687.
+7. Whether the District Court correctly determined that LDIII did not succeed to the Preserve's rights under the Original
+Agreement.
+a. Standard of Review: The grant of summary judgment on contract issues is reviewed for correctness. Hillcrest Inv. Co. v. DOT,
+2015 UT App 140, ¶¶ 5, 14, 352 P.3d 128; Gillmor v. Macey, 2005 UT App 351, ¶ 9, 121 P.3d 57.
+b. Preservation: Summary Judgment Ruling, R582-585; Rule 59 Ruling, R985-986; Mapleton's Motion for Summary Judgment,
+R234-245 Mapleton's Opposition to Rule 59 Motion, R689-694.
+8. Whether the District Court correctly determined that the referendum was proper.
+a. Standard of Review: The grant of summary judgment on the *13 propriety of a referendum is reviewed for correctness.
+Baker v. Carlson, 2018 UT 59, ¶ 10, 437 P.3d 333.
+b. Preservation: Summary Judgment Ruling, R587-591; Mapleton's Summary Judgment Reply, R564-565; Hearing on Summary
+Judgment Motions, R1041-1043.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+5
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+*14 Statement of the Case
+I. Facts
+1. In 2003, Suburban Land Reserve (“SLR”) owned approximately 245 acres of real property in Mapleton (“Property”). R249.
+2. On May 7, 2003, SLR executed an agreement with Mapleton regarding the development of the Property (“Original
+Agreement”). This agreement contemplated a specific development plan for the Property, with terms for density, lot layouts,
+and design elements. R251-253.
+3. To carry out this development plan, the parties agreed that SLR would transfer 76 acres of the Property to Mapleton to be
+re-zoned a Transferable Development Right sending site. SLR and Mapleton agreed that 15 units could have been built on the
+76 acres, and that SLR would receive density bonuses for the transfer “on a 5:1 ratio.” Accordingly, SLR was “entitled to have
+seventy-five (75) density units transferred to the remainder” of the Property. SLR ultimately received 77 TDRs that it could use
+on any property zoned to receive increased density from TDRs, including its own Property or other approved locations within
+Mapleton. R250-251, 252-253, 269.
+4. Mapleton zoned the remaining approximately 170 acres of the Property as A-2 (TDR-R), meaning it was a Transferable
+Development Right receiving site that could be developed with TDRs. R250-251.
+5. Under the A-2 zone, the maximum density allowed is one lot per two acres, which would have permitted approximately 85
+lots on the 170 acres. With a TDR-R overlay and the use of TDRs, the density could be doubled to one lot per one acre. MCC
+*15 18.28.050(A), 18.76.070(B); R352.
+6. The Original Agreement provides that, after transferring the 76 acres to Mapleton and “[w]ith the transfer of density completed
+by the zoning of the Property to the A-2 (TDR-R) Zone, [SLR] has a vested right to develop a maximum of one hundred thirtysix (136) single family residential units on individual lots.” R252.
+7. Paragraph 10 provides that SLR's rights under the Original Agreement were “personal” and “shall only run with the land so
+long as [SLR or a related entity] shall own and be the Owner of the Property.” It also gave Mapleton the right to approve any
+transfer of the rights granted by the Original Agreement: “Only upon the express prior written approval by the City, shall any
+rights of Owner with respect to the potion of the Property being sold be deemed transferred to the new owner thereof.” R254.
+8. On December 14, 2005, SLR transferred the Property to Craig Thueson, on the condition that Mapleton grant “approval to
+the assignment as required under the [Original] Agreement.” R298, 301-302, 473-479.
+9. The same day, Thueson transferred the Property to The Preserve at Mapleton Development Company (“Preserve”). R481-488.
+10. SLR also transferred 67 of its 77 TDRs to the Preserve. R269-283.
+11. The next day, December 15, 2005, Nathan Simpson on behalf of the Preserve applied to rezone the Property from A-2
+to PRC-4 in order to develop 55 units. There is no reference in the application regarding the retention of the TDR-R overlay
+zoning. R304.
+12. The PRC-4 zone is properly titled, “Preserve at Mapleton Subdivision, *16 Planned Residential Community (PRC-4)
+Zone.” A “PRC” zone is a master-planned development that has specific terms and conditions that are contained in a zoning
+ordinance tailored to the specific development. The only land in Mapleton subject to the PRC-4 zone is the Property. R285-290,
+352, 368.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+6
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+13. Under the application submitted by Nathan Simpson for the Preserve, TDRs were no longer needed to develop the Property
+because the Preserve sought to develop 55 units on 111 acres, or one unit for every approximately two acres (the maximum
+density allowed without TDRs). R304, 352 (“The original zoning for the property was A-2, which required a minimum of two
+acres per lot. The adopted PRC zone did not change the allowed density.... No TDRs were used as part of this project.”).
+14. On December 21, 2005, the Mapleton City Council considered whether to approve SLR's transfer of the Property and
+assignment of the Original Agreement to the Preserve. R298.
+15. The City Council granted approval through Resolution 2005-61. In its resolution, the City Council recognized that “Suburban
+has agreed to sell its remaining interest in the Property … to Craig Thueson subject to the approval of the City to said transfer,”
+“the Preserve has agreed to purchase Suburban's remaining interest in the Property subject to the terms and conditions of the
+Development Agreement,” and that “pursuant to section 10 of the Development Agreement the City has the right to grant or
+withhold its approval of a transfer of the Property.” R301.
+16. The City Council's approval of the transfer was “subject to the further representations by Mr. Thueson and the Preserve that
+no more than 52 homes will be *17 constructed on the Property,” and the City Council specifically conditioned its approval
+on “Thueson or the Preserve entering into an agreement with the City that no more than 52 homes will be built on the Property.”
+R298, 301-302.
+17. Nathan Simpson, on behalf of the Preserve Property, subsequently amended his application to ask that the PRC-4 rezoning
+apply to additional property as part of a new development plan allowing for “102 lots on 246 acres, or a density of one dwelling
+unit per 2.4 acres.” Again, no TDRs were needed because the density was less than one unit per two acres. R352, 490-491.
+18. As part of the rezoning process, Mapleton provided certain notices and had the application reviewed and approved by the
+City staff, Planning Commission, and Council. R306-307, 311, 490-492.
+19. On May 17, 2006, the Mapleton City Council rezoned the Preserve Property from A-2 (TDR-R) to PRC-4, formalized as
+Ordinance 2006-15. The rezoning was contingent on “the approval of the final plan for the 92 lots … as set out in the concept
+plan, on the understanding … that in all other respects [the development] would comply with the provisions of the development
+agreement.” R306-307, 311.
+20. Mapleton's official zoning maps from 2003 and June 20, 2006, show the Property designated A-2 (TDR-R). The zoning
+maps from May 7, 2007, August 29, 2008, March 21, 2012, and February 2, 2017, show the Property zoned as PRC-4 with no
+TDR overlay. R270-271, 285-290. These maps are just “as much a part of [the City's code] as if the boundary lines and other
+references and information set forth thereon were fully described [therein].” MCC 18.24.020(A).
+*18 21. On December 6, 2006, the Preserve executed a trust deed note and trust deed in favor of LDIII, LLC. (“LDIII”). While
+the Deed of Trust encumbered the Property, it made no reference to the Original Agreement, development or density rights,
+and was not recorded until April 1, 2008. R339-347, 525.
+22. The trust deed gave LDIII the right to appear in or defend any action that could affect the Property. R242.
+23. Mapleton and the Preserve executed a “Memorandum of Understanding” (“MOU”) on January 10, 2007, which
+“Memorandum sets forth the understanding of The Preserve … and Mapleton City with regard to the final approval” of the
+Preserve's new development plan for the Property. R264-265.
+24. The MOU provides that “[e]verything in this Memorandum shall be in harmony with the development agreement” and the
+Preserve “is the authorized assignee” of the Original Agreement. R264.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+7
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+25. Each PRC zone requires an individualized zoning text specific to the development being approved. R325-328, 352; MCC
+18.82.030. The MOU required the Preserve to “submit the Zoning Text for the PRC-4 zone” that had been previously applied
+to the Property in May 2006. R265.
+26. The zoning text submitted by the Preserve for the PRC zone was adopted by the City Council on August 21, 2007, after
+being reviewed by City staff and Planning Commission. R313-316, 318-323, 325-337.
+27. As submitted by the Preserve, the zoning text contained an express limitation on the maximum allowable density of the
+Property: “The total density allowed *19 in the Preserve at Mapleton PRC zone is 92 individual building lots and Common
+area Buildings. No new subdivision lots shall be permitted beyond those originally approved for the purpose of increasing this
+density.” This provision was adopted word-for-word by the City Council and remains part of the PRC-4 zone today. R316,
+322, 334; MCC 18.82D.110.
+28. LDIII foreclosed on and purchased the Property through a trustee's sale. The trustee's deed was executed and recorded on
+December 23, 2008. R498-502.
+29. Of the 67 TDRs transferred to the Preserve by SLR, 55 were transferred to unrelated entities to develop unrelated properties
+between 2006 and 2017, with the remaining 12 TDRs retained by the Preserve. No TDRs resulting from the Original Agreement
+were transferred to LDIII. R269-283.
+30. Neither LDIII nor the Preserve requested or received approval from Mapleton in connection with the execution of the trust
+deed note and deed of trust or the subsequent foreclosure and transfer of the Property from the Preserve to LDIII. Neither LDIII
+nor the Preserve entered into an agreement with Mapleton regarding the promissory note, deed of trust, trustee's sale and deed,
+or the rights of the owner of the Property. R268, 527.
+31. In January 2017, LDIII entered into a contract to sell the Property to Balton Development (“Balton”). R5, 351.
+32. Balton approached Mapleton with yet another development plan for the Property in April and May of 2017. Balton's plan
+contemplated the development of more than 92 units on the Property, and therefore required the use of TDRs, the rezoning
+of the *20 Property to again allow for the use of TDRs, and the amendment of the PRC-4 zone to alter the 92-unit density
+cap. R349-352, R434-435.
+33. On June 7, 2017, Mapleton approved Balton's request to re-designate the Property with a TDR-R overlay. R512-513.
+34. In response, Mapleton citizens collected enough signatures to put the rezoning to a referendum vote. On November 7, 2017,
+a majority of Mapleton voters voted against the rezoning, undoing the re-application of the TDR-R overlay to the Property. R6.
+II. Procedural History
+Mapleton adopts LDIII's statement of the case's procedural history. Appellant's Brief, 12-13.
+III. Disposition
+Mapleton adopts LDIII's statement of the case's disposition. Appellant's Brief, 13.
+*21 Summary of Argument
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+8
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+This Court should affirm the District Court's grant of summary judgment to Mapleton because there are no disputes of fact in this
+case. The record in this case is made up almost entirely of contracts, public meeting minutes, deeds, and city ordinances. There is
+no dispute over what the public record shows, and there can be no dispute over the reasonable inferences to be drawn therefrom.
+The Preserve was the authorized assignee and transferee of property and development rights granted by Mapleton to SLR in
+2003. But the Preserve did not want SLR's development. It had its own plan, and it worked with Mapleton for twenty months
+to implement that plan. In so doing, the Preserve permanently modified and relinquished any development or contract right
+it inherited from SLR that did not align with its plan. Most critically, the Preserve applied for, drafted, and obtained approval
+of a new PRC-4 zoning ordinance for the Property that expressly restricts development density to 92 units. The District Court
+correctly determined that the Preserve's actions waived or amended the rights it obtained from SLR, and LDIII cannot reclaim
+those rights.
+The District Court also correctly determined that LDIII's claims are barred by various statutes of limitation. LDIII's challenges
+to Mapleton's land use approvals, notices, and decisions are barred by the 30-day limitation period in the Utah Land Use Act.
+LDIII's claim that Mapleton has violated its contract rights are barred by the 6-year limitation period for written agreements.
+Further, regardless of any specific statute of limitation, LDIII should be estopped as a matter of equity from raising stale
+challenges to long-settled zoning and land use decisions. A decade is simply far too long a time to wait.
+*22 While these issues are more than sufficient to warrant affirming the District Court's judgment, they are not the only
+flaws with LDIII's claims. LDIII asserts that the TDR-R overlay was not removed from the Property when the Preserve and
+Mapleton agreed to rezone the Property to PRC-4. LDIII does not challenge the PRC-4 rezone; instead, LDIII focuses on
+whether Mapleton used magic words to provide notice that the rezoning could affect all of the Property's zoning. There is no
+requirement to use specific language in notices, and Mapleton followed all appropriate procedures. Accordingly, the District
+Court correctly determined that the TDR-R overlay was removed in 2006.
+The District Court also correctly determined that, to the extent SLR's tree of development rights survived the Preserve's
+aggressive pruning, LDIII did not and could not succeed to those rights because LDIII never sought or obtained Mapleton's
+approval. The development approval Mapleton granted to SLR did not create free-floating rights that would attach to any future
+owner of the Property, especially not an owner who acquired the Property through involuntary foreclosure, as did LDIII. When
+the Original Agreement is read in its entirety and its terms harmonized, it is clear that Mapleton and SLR intended for the
+Original Agreement to pass to third-parties only with Mapleton's prior, written consent. Without that consent, LDIII acquired
+nothing more than the Property in the condition and zoning established by the Preserve.
+Finally, the District Court correctly determined that Mapleton's rezoning of the Property in 2017 to re-apply the TDR-R overlay
+was legislative and subject to referendum. LDIII belatedly claims that the election should never have been held, but it may not
+wait until after the votes are tallied to raise that claim. LDIII could and should *23 have filed a challenge to the referendum
+before the election. Regardless, the Utah Supreme Court has been crystal clear that a rezoning like this one is a legislative matter
+that may be referred. Accordingly, this Court should affirm the District Court's judgment.
+Argument
+I. The District Court Properly Entered Summary Judgment Because There Are No Disputed Facts
+Summary judgment was proper because there are no disputes of fact in this case. LDIII fails to identify a single disputed fact,
+and LDIII expressly conceded below that the facts were not contested. On appeal, LDIII only argues that the District Court
+should have drawn certain inferences LDIII desires. But while LDIII is entitled to reasonable factual inferences in its favor, it
+is not entitled to have the Court ignore crucial, undisputed facts or the reasonable, undeniable inferences that flow therefrom
+simply because they contradict LDIII's theory of the case. Summary judgment should be affirmed because Mapleton “show[ed]
+that there is no genuine dispute as to any material fact and [that it] is entitled to judgment as a matter of law.” Utah R. Civ.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+9
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+P. 56(a). This Court “review[s] the district court's grant of summary judgment for correctness, ‘considering only whether the
+[district] court correctly applied the law and correctly concluded that no disputed issues of material fact existed.”’ Warrick v.
+Prop. Reserve Inc., 2018 UT App 197, ¶ 6, 437 P.3d 439 (citation omitted).
+“The law requires that, as much as possible, the trial court view the facts and reasonable inferences drawn therefrom in a light
+most favorable to the nonmoving party.” Sur. Underwriters v. E & C Trucking, 2000 UT 71, ¶ 37, 10 P.3d 338. And “[e]ven
+where *24 the ‘underlying objective facts' are not in dispute, summary judgment may not be appropriate where the inferences
+drawn from the underlying facts are disputed.” Colvin v. Giguere, 2014 UT 23, ¶ 12, 330 P.3d 83 (citation omitted). That said,
+a court does not “draw every possible inference of fact, no matter how remote or improbable, in favor of the nonmoving party.”
+Heslop v. Bear River Mutual, 2017 UT 5, ¶ 21, 390 P.3d 314. The summary judgment standard “does not require unreasonable
+factual inferences, nor does it require that the court turn a blind eye to reasonable inferences based on uncontested facts.” Sur.
+Underwriters, 2000 UT 71, ¶ 37. “[S]ummary judgment will still be appropriate if ‘reasonable minds cannot differ’ as to the
+inferences to be drawn from the undisputed facts,” regardless where those inferences fall. Colvin, 2014 UT 23, ¶ 12 (citation
+omitted).
+LDIII claims that the Court may not draw any inferences in favor of Mapleton. This is incorrect. The Utah Supreme Court
+addressed this question in Surety Underwriters v. E & C Trucking. The key issue in that case was whether a Mr. Buffo signed
+a bond in Utah. 2000 UT 71, ¶ 30. The undisputed facts were that the bond had been delivered to Mr. Buffo in his Salt Lake
+office on May 18 and was signed by him that same day, though there was no direct evidence establishing exactly where he
+signed the bond. Id. ¶ 31. On appeal, the Utah Supreme Court addressed whether a “court may draw a reasonable inference from
+uncontested facts, even though adverse to the nonmoving parties. In other words, even though the facts support the reasonable
+inference that Buffo signed the bond in Utah on May 18, is such an inference prohibited simply because it is unfavorable to
+plaintiffs?” Id. ¶ 35. The Court held that the summary *25 judgment standard does not require a court to “ignor[e] the obvious
+and reasonable inference[s] supported by the uncontested sworn facts,” even if those inferences run contrary to the nonmovant's
+position, and affirmed summary judgment. Id. ¶ 37.
+The same principles apply here. The facts of the case, virtually all of which are drawn from the public record, are undisputed.
+LDIII had multiple opportunities to point out what facts it believes are disputed, but has failed to identify a single dispute.
+During the hearing on the motions for summary judgment, LDIII's counsel acknowledged the lack of disputed facts:
+THE JUDGE: I think, I think you all kind of agree MR. SNUFFER: Correct.
+THE JUDGE: - what happened. It's the legal effect of what happened that matters.
+MR. SNUFFER: I think that's true.
+THE JUDGE: Yes.
+MR. SNUFFER: And, and in sorting through all of that I think the legal effect of some of the facts are potentially dispositive
+and some of the facts are interesting theoretical issues but I don't think that they have a lot of bearing on an outcome for the
+case. But there are a lot of issues.
+I don't think the facts are contested. In fact, if you look at the complaint, you look at the answer and you look at the motion,
+many of the facts that are listed in our moving papers are not contested. And then many of the facts that they urge in response we
+question only relevancy, not whether or not something says a, things, but, but whether they have any bearing on the application
+of the a, of the law to resolving this dispute.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+10
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+R1002-1003 (emphasis added). Even now, LDIII does not argue that there are disputes of fact, but only that there are disputes
+over the inferences to be drawn from those *26 undisputed facts. However, LDIII's alleged disputes either are non-factual
+questions of law, such as the interpretation of unambiguous statutes and contracts, or depend entirely on the Court ignoring
+key facts and the obvious and reasonable inferences flowing therefrom. Indeed, LDIII has carefully avoided addressing several
+factual issues that run contrary to its claims, including the language of the PRC-4 zoning text restricting maximum development
+density on the Property to 92 units, the actions taken by the prior Property owner, the Preserve, to impose that density restriction
+on the Property, and the key provisions related to the assignability of the Original Agreement. As discussed below, LDIII's
+reliance on speculative inferences that are not supported by the undisputed facts cannot justify reversing the District Court's
+decision.
+II. The District Court Correctly Determined that the Density Rights Granted
+to SLR Were Voluntarily and Permanently Relinquished by the Preserve
+In 2006, the rightful owner of the Property intentionally and knowingly waived and gave up all rights to develop more than 92
+units. There are no facts or reasonable inferences to the contrary. This is the most important issue in this case. LDIII's focus on
+the TDR-R overlay zone ignores the crucial question of whether, even with a TDR-R overlay, LDIII can somehow turn back
+the clock and claim the right to density of 136 units described in Original Agreement despite the intervening actions of the
+Preserve to waive, amend, and extinguish those rights. LDIII ignores section 18.82D.110 of the PRC-4 zone, made applicable
+to the Property at the Preserve's request and still in place today: “The total density allowed in the Preserve at Mapleton PRC-4
+zone is ninety two (92) individual building lots and common area buildings. No new subdivision lots shall be *27 permitted
+beyond those originally approved for the purpose of increasing this density.” This ordinance was the result of and exemplifies
+the Preserve's voluntary and affirmative relinquishment of the prior density right of 136 units in favor of a maximum of 92
+units and different zoning regulations.
+A. The Preserve Waived Its Right to Develop More than 92 Units on the Property
+The District Court correctly concluded that the Preserve had waived any right to develop 136 units on the Property and LDIII was
+bound by the Preserve's waiver. “[W]aiver is the intentional relinquishment of a known right. To constitute waiver, there must
+be [1] an existing right, benefit or advantage, [2] a knowledge of its existence, and [3] an intention to relinquish it.” McCleve
+Props., LLC v. D. Ray Hult Family Ltd., 2013 UT App 185, ¶ 10, 307 P.3d 650 (citation omitted). Rights that have been waived
+may not thereafter be reclaimed or enforced by the waiving party or others that claim through the waiving party. Sunridge Dev.
+Corp. v. RB&G Eng. Inc., 2010 UT 6, ¶ 13, 230 P.3d 1000 (“[An] assignee is subject to any defenses that would have been good
+against the [assignor].”) Cheney v. Rucker, 381 P.2d 86, 90-91 (Utah 1963) (“[An assignee] could have nothing more than his
+assignor and is bound by any waiver, relinquishment or change of its rights which had occurred.”); Drazich v. Lasson, 964 P.2d
+324, 327 (Utah Ct. App. 1998). While “waiver is intensely fact-dependent, … a district court may grant summary judgment in
+favor of a party on the issue of waiver” so long as there are no genuine issues of fact “whether the totality of the circumstances
+warrants the inference of relinquishment.” IHC Health Servs. v. D&K Mgmt., Inc., 2008 UT 73, ¶¶ 15, 18-19, 196 P.3d 588.
+Further, “unlike most cases, the legal conclusions underlying a trial court's *28 grant of summary judgment on a waiver issue
+are reviewed with some measure of deference.” IHC Health Servs. v. D&K Mgmt., Inc., 2003 UT 5, ¶ 6, 73 P.3d 320.
+As the District Court correctly concluded, there are no disputes over the first two elements of waiver. First, there was “an
+existing right, benefit or advantage”: the Original Agreement granted to SLR, and then to its assignee the Preserve, the right
+“to develop a maximum of one hundred thirty-six (136) single family residential units on individual lots.” R252. Second, the
+Preserve had “knowledge of its existence”: The Preserve's acquisition of the Property was conditioned on Mapleton approving
+the assignment of the Original Agreement to the Preserve, and later the Preserve executed a MOU with Mapleton acknowledging
+the Preserve's status as SLR's assignee.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+11
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+The key issue is whether the Preserve had the “intention to relinquish” the density benefits of 136 units. This intention “may be
+express or implied, but it must be distinctly made under the totality of the circumstances.” McCleve Props., 2013 UT App 185,
+¶ 10. “[T]he unexpressed, subjective reasons for the relinquishment of a right are largely irrelevant. … [O]ne cannot prevent a
+waiver by a private mental reservation contrary to an intent to waive, where his or her actions clearly indicate such an intent.”
+B.R. Woodward Mktg. v. Collins Food Serv., 754 P.2d 99, 103 (Utah Ct. App. 1988). A party's prolonged silence or failure to
+insist on a right constitutes a waiver when the other party acts in a manner inconsistent with the right. Id. at 102-3 (failure to
+assert right to commissions during entirety of year-and-a-half contract when other side did not pay constituted waiver); McCleve,
+2013 UT App 185, ¶ 14 (acknowledgement of assignment without objection constituted waiver of right to approve assignment).
+*29 Here, the conclusion that the Preserve waived its density rights is the only possible conclusion based on the undisputed
+facts, summarized below:
+• On December 14, 2005, SLR “sold the property to Craig Thueson subject to City approval to the assignment as required under
+the Development Agreement, to build approximately 55 dwellings.” R298, 301-302, 473-479.
+• On December 15, 2005, Nathan Simpson for the Preserve submitted an application to rezone the Property from “A2” to
+“PRC-4” for 55 lots. R304
+• On December 21, 2005, Mapleton adopted resolution 2005-61, wherein Mapleton “approve[d] the transfer of [SLR's]
+remaining interest in the Property … subject to Mr. Thueson or the Preserve entering into an agreement with Mapleton that no
+more than 52 homes will be built on the Property.” R298-302.
+• At some point between December 21, 2005, and April 13, 2006, the Preserve modified its application or submitted a new
+application that added 80 more acres to the development and sought 102 lots across the entire property, though still under the
+same PRC-4 zoning. R490-492.
+• On May 17, 2006, Mapleton approved the rezoning of the expanded Property from A2 to PRC-4 “based on an application
+to construct 92 lots,” though “in all other respects [the development] would comply with the provisions of the development
+agreement.” R306-307, 311.
+• After Mapleton rezoned the Property for 92 lots under the PRC-4 zone, the Preserve executed a trust deed note and trust deed
+in favor of LDIII on December *30 1, 2006. R339-347.
+• On January 10, 2007, Mapleton and the Preserve memorialized the agreements and events that had transpired since the
+assignment to the Preserve of the Original Agreement in a Memorandum of Understanding (“MOU”). This MOU (1) confirmed
+the Preserve as “the authorized assignee” of the Original Agreement, (2) required the Preserve to dedicate certain property to
+Mapleton, (3) confirmed the PRC-4 zoning and required the Preserve to submit the individualized zoning text of the PRC-4
+zone, and (4) authorized the recording of the final plats of two portions of the development. R264-265.
+• At some point before August 7, 2007, the Preserve submitted the individualized zoning text for the PRC-4 zone and asked that
+Mapleton adopt the same. Consistent with the rezoning approval from May 17, 2006, and the MOU, the zoning text provided that
+“[t]he total density allowed in the Preserve at Mapleton PRC zone is 92 individual building lots and Common area Buildings.
+No new subdivision lots shall be permitted beyond those originally approved for the purpose of increasing this density.” R265,
+313-316, 318-323, 325-337.
+• Consistent with the Preserve's repeated land use applications from December 2005 through August 2007, the rezoning to PRC-4
+with a density of 92 lots in May 2006, and the MOU from January 2007, Mapleton adopted on August 7, 2007, the PRC-4 zoning
+text confirming that the total density allowed on the Property was 92 units. Mapleton Council made only minor modifications to
+the zoning text that had been submitted by the Preserve, all of which were unrelated to maximum *31 allowable density. The
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+12
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+provision limiting density on the Property to 92 units was adopted by the City Council word-for-word as it had been drafted,
+submitted, and requested by the Preserve. R316, 322, 334; MCC 18.82D.110.
+• Well after the Preserve requested rezoning, the rezoning was approved, the MOU was executed, and the density on the Property
+specifically restricted to 92 units, LDIII recorded the Trust Deed between LDIII and the Preserve on April 1, 2008, and eventually
+foreclosed on and acquired the Property on December 23, 2008. R339-347, 498-502, 525.
+
+These undisputed facts confirm that (1) the Preserve was the authorized assignee of the Original Agreement; (2) even before
+the Preserve was assigned the Original Agreement, it wanted to change the allowable density on the Property; (3) the Preserve
+engaged in multiple affirmative acts to change and restrict the allowable density on the Property between December 2005 and
+August 2007; (4) Mapleton's actions were taken at the express requests of the Preserve; and (5) by the time LDIII had any
+interest in the Property - and long before LDIII was the actual owner of the Property - the Preserve had already sought and
+obtained the zoning and density modifications it desired.
+The only reasonable conclusion that can be drawn from these undisputed facts is that the Preserve waived its right to develop
+more than 92 units. The Preserve started in December 2005 with the A-2 (TDR-R) zone and the right to develop up to 136
+units, and then spent the next twenty months working with Mapleton to get the PRC-4 zone and the right to develop no more
+than 92 units. Regardless of the wisdom of the Preserve's actions in hindsight, their impact and import could hardly be clearer.
+The Preserve had a *32 specific development plan, and to implement that plan it asked Mapleton to modify both contractual
+rights and development standards for the Property. The Preserve's intent to implement a new development plan with reduced lot
+density was not expressed in some off-the-cuff, one-time statement; there are multiple, repeated applications, submissions, and
+requests from the Preserve between December 2005 and August 2007 asking the City Council to modify the Property's zoning
+and development rights - particularly density. Mapleton simply did as the Preserve asked. The fact that the Preserve chose to
+give up its bargained-for rights does not mean Mapleton was unjustly enriched. Each side got exactly what it asked for. No fact
+disputes this and no reasonable inference can be drawn to the contrary.
+LDIII argues that the Preserve did not waive the density rights because Mapleton allegedly failed to comply with certain notice
+regarding the TDR-R overlay in connection with the rezoning. This is a non-sequitur. First, waiver looks solely to the waiving
+party's actions.1 No notice needed to be given of the Preserve's desires or of the MOU amending the Original Agreement. Second,
+issues with the TDR-R overlay do not affect whether the Preserve's implementation of the PRC-4 zoning, with its unambiguous
+cap on density at 92 units, constitutes a waiver of its prior density rights. LDIII also argues that the City Council's statement
+during its May 17, 2006, meeting that it would consider rezoning the *33 Property to its original zoning if the Preserve failed
+to submit a concept plan somehow negates the Preserve's intent to relinquish its density rights. Again, the Preserve's waiver
+does not depend on Mapleton's actions. Further, the Preserve pressed forward after May 17, 2006, to implement its plans by
+submitting additional requests and plans, executing the MOU with Mapleton, and drafting and submitting the zoning text of the
+PRC-4 ordinance that caps the density of the Property to 92 units. Regardless of the City Council's statement on May 17, 2006,
+the Preserve continued to seek and obtain the modifications and changes it wanted to its contract and property rights.
+The District Court was correct when it concluded, “There are no other circumstances that suggest that the Preserve had any
+intent except to abandon the bargained-for higher density on the Property to pursue the modified plan.” R587. LDIII is bound
+by the Preserve's waiver of its rights and not entitled to more than 92 units. The District Court's grant of summary judgment
+should be affirmed.
+B. The Preserve and Mapleton Amended the Original Agreement to Limit Density on the Property to 92 Units
+In the event this Court determines that the contractual and development rights to more than 92 units were not waived, it may
+affirm the District Court's decision on the ground that the contractual rights were amended. The District Court referred to this
+principle as “acquiescence or mutual agreement,” though its discussion focused on the issue of waiver. R585-587. The mutual
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+13
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+agreements between the Preserve and Mapleton, reflected in the rezoning, land use approvals, and execution of the MOU,
+constitute an express amendment of the Original Agreement to restrict development density to 92 units *34 in exchange for
+the benefits of the PRC-4 zone. By so doing, the Preserve's right to 136 units was modified and extinguished. Accordingly, to
+the extent LDIII has any claim to benefit from the Original Agreement - which Mapleton disputes and the District Court ruled
+it did not - it can only benefit from the Original Agreement as amended by the Preserve and Mapleton.
+“It is well-settled law that the parties to a contract may, by mutual consent, alter all or any portion of that contract by agreeing
+upon a modification thereof.” Rapp v. Mountain States Tel. & Tel. Co., 606 P.2d 1189, 1191 (Utah 1980). “Where such a
+modification is agreed upon, the terms thereof govern the rights and obligations of the parties under the contract, and any premodification contractual rights which conflict with the terms of the contract as modified must be deemed waived or excused.”
+Id. And such modifications are binding on all who attempt to claim the rights of the amended agreement: “What justification
+is there for the plaintiff, assignee of [a contract], to rescind [the amendment] and go back to the original … agreement? We
+think the trial court correctly concluded that there was none.” Cheney, 381 P.2d at 90. An assignee can “have nothing more than
+his assignor and is bound by any waiver, relinquishment or change of its rights which had occurred by virtue of its execution
+of the new agreement.” Id. at 91. All that is required to show that a binding, permanent amendment has occurred is proof of
+“a meeting of the minds of the parties, which must be spelled out, either expressly or impliedly, with sufficient definiteness.”
+Richard Barton Enters. v. Tsern, 928 P.2d 368, 373 (Utah 1996) (citation omitted).
+For example, in Bradshaw v. Burningham, 671 P.2d 196 (Utah 1983), the parties *35 to a contract for digging a well entered into
+a separate compromise contract when they encountered problems with drilling the well. This compromise contract recognized
+and incorporated the original contract, though it provided new and different payment terms. Id. at 197. The parties disputed
+the amount owed to the driller, with the driller asserting entitlement to the payment terms defined by the compromise contract
+rather than the terms set forth in the original contract. Id. at 197-98. The Utah Supreme Court agreed with the driller, holding
+that the compromise agreement was an amendment to the first contract. As such, the compromise contract, “in conjunction with
+those terms of the original contract it [did] not contradict, create[d] a substitute contract and thereby extinguish[ed] any rights
+under the original contract now defined by the amendment.” Id. at 198.
+In this case, the District Court held that LDIII was not a successor to any contract rights. Mapleton agrees. However, even
+if LDIII were somehow found to be a successor to the Preserve's contract rights, at most it only succeeded to the Preserve's
+contract rights as they were mutually amended by Mapleton and the Preserve. The Original Agreement provided that SLR (and
+later the Preserve) would be entitled to an A-2 (TDR-R) zoning and density of up to 136 units. This was clearly not what the
+Preserve wanted. As discussed above, between December 2005 and January 2007, the Preserve sought to rezone the Property to
+a less dense PRC zone in derogation of its rights under the Original Agreement. For Mapleton's part, when Mapleton approved
+the assignment of the Original Agreement to the Preserve in December 2005, it did so “subject to Mr. Thueson or the Preserve
+entering into an agreement with the City that no more than 52 *36 homes will be built on the Property.” R298, 301-302. While
+the amount of property subject to the agreement and the number of units were both later increased, the parties' intent to amend
+the terms of the Original Agreement to restrict density on the Property below that previously allowed remained the same.
+In order to clarify the rights of the parties and to fulfill the agreement requirement from Mapleton's approval of the assignment of
+the Original Agreement, the Preserve and Mapleton executed the MOU in January 2007. The MOU expressly incorporated the
+Original Agreement by reference, confirmed the actions that had already taken place, and set forth certain terms and conditions
+for the continued development of the Property that were materially different from those set forth in the Original Agreement. In
+particular, the MOU recognized the rezoning of the Property to PRC-4 and required the Preserve to submit the individualized
+zoning text for the zone defining the terms and conditions of the PRC-4 zone - including maximum allowable density. The
+density had already been identified and approved by the Preserve and Mapleton on May 17, 2006, as 92 units, but the specific
+text that would become part of Mapleton's zoning code still needed to be finalized in accordance with the parties' previous
+agreements. The Preserve submitted the text pursuant to the MOU, and included within that text the explicit restriction that no
+more than 92 units could be built on the Property. Mapleton adopted that restriction, as requested by the Preserve. The MOU's
+incorporation of the Original Agreement, coupled with its recognition of the PRC-4 zone and its accompanying 92-unit density
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+14
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+restriction, means the MOU functions as an amendment to the Original agreement that extinguishes the inconsistent zoning
+and density terms therein.
+*37 There was a clear meeting of the minds between Mapleton and the Preserve to modify the terms and conditions of the
+development of the Property and amend the Original Agreement's provisions related to zoning and density. This is reflected in
+both the MOU and the land use applications submitted by the Preserve and approved by Mapleton. The Original Agreement
+cannot exist or be viewed separately from the MOU or the acts by the Preserve and Mapleton in derogation of the rights granted
+by the Original Agreement. Neither the Preserve nor any subsequent Property owner can attempt to return to the terms of the
+Original Agreement. To the extent LDIII has any rights under the Original Agreement, it can only exercise those rights as they
+were mutually amended by the Preserve and Mapleton. Based on the foregoing undisputed facts and the unequivocal inferences
+flowing from them, the District Court correctly concluded that LDIII is not entitled to the 136-unit density described in the
+Original Agreement.
+III. The District Court Correctly Determined that LDIII's Claims Are Time-Barred
+The District Court correctly ruled that, regardless of the substance of LDIII's claims, all such claims are barred by the fact that
+LDIII failed to raise any claim in a timely manner. The crucial events regarding the zoning and density rights of the Property
+all occurred between December 2005 and August 2007. LDIII had a security interest in the Property as early as December 6,
+2006 (though it was not recorded until April 2008), and became the owner of the Property on December 23, 2008, well after
+the property had been rezoned and its density restricted to 92 units. LDIII filed its complaint on November 14, 2017 - nearly
+a decade later and only after a duly called referendum election overturned the City Council's decision to reapply the TDR-R
+zoning overlay to the *38 Property. The District Court focused on the 30-day limitation period provided in the City Code and
+the Utah Land Use Act,2 and Mapleton raised two other bases for finding that LDIII's claims are untimely: the 6-year limitation
+period for contract claims and equitable estoppel. This Court “may affirm a ‘judgment, order, or decree appealed from if it is
+sustainable on any legal ground or theory apparent on the record.” Orton v. Carter, 970 P.2d 1254, 1260 (Utah 1998). In the
+end, no matter which, if any, statute of limitation applies, LDIII has simply waited far too long to raise any of its claims.
+A. LDIII's Claims Are Barred by the 30-Day Limitation for Land Use Claims
+The District Court correctly determined that LDIII's claims are barred by the requirement that any challenge to Mapleton's land
+use decisions and regulations be brought within 30 days. Both the Mapleton City Code and the Utah Land Use Act impose a
+30-day window for any person adversely affected by the City Council's land use decision or regulation to file a challenge. MCC
+18.84.460(D) (“Any person aggrieved by any decision of the city council may have and maintain a plenary action for relief
+therefrom in any court of competent jurisdiction; provided petition for such relief is presented to the court within thirty (30) days
+after the final decision by the city council.”); Utah Code § 10-9a-801(2)(a) (“Any person adversely affected by a final decision
+made in the exercise of or in violation of the provisions of this chapter may file … with the district court within 30 days after
+the decision is final.”); id. § 10-9a-801(5) *39 (“[A] challenge to the enactment of a land use regulation or general plan may
+not be filed with the district court more than 30 days after the enactment.”). LDIII's claims regarding the Property's density and
+zoning are in fact challenges to the City Council's actions from 2005-2007, when Mapleton granted the Preserve's requests to
+modify the development rights of the Property. LDIII's claims also challenge Mapleton's actions in May and June of 2017, when
+the City Council affirmed that the TDR-R zoning overlay had been removed, the maximum density allowed on the Property
+was 92 units, and the Property would have to be rezoned to increase density and re-apply a TDR-R overlay. LDIII claims to
+have been adversely affected by all of these actions. See Powder Run at Deer Valley Owner Ass'n v. Black Diamond Lodge at
+Deer Valley Ass'n, 2014 UT App 43, ¶¶ 8-12 & n.6, 320 P.3d 1076. By filing in November 2017, LDIII's claims are untimely.
+LDIII argues that the 30-day limitation period could not run because Mapleton failed to give proper notice of specific actions
+related to the TDR-R zoning overlay (though LDIII has never argued that Mapleton failed to give notice of its other actions
+and meetings). Utah Code § 10-9a-801(4)-(5). This argument is unavailing because, pursuant to Utah Code section 10-9a-209,
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+15
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+notice is deemed to be adequate and proper if not challenged within 30 days after the action or meeting. All notices of the
+relevant City actions and meetings are, at this point, deemed to be adequate and proper.3 Accordingly, even if Mapleton's notice
+was initially defective, after 30 days the notice was deemed to be proper, and the 30-day challenge period would have triggered
+and expired. Gardner v. *40 Bd. of County Comm'rs, 2008 UT 6, ¶¶ 19-20, 178 P.3d 893.
+Further, Utah Code section 10-9a-801(4) provides that the 30-day period runs regardless of notice given “for any person who
+had actual notice,” and section 10-9a-202(2) provides that the applicant may waive any deficiencies regarding notice. Mapleton
+was acting at the express requests of the land owner, the Preserve, and the record shows that the Preserve's agents were present
+for at least some of the meetings involved. R307. The MOU was recorded on September 23, 2008, before LDIII acquired the
+Property. R292-296. All of Mapleton's actions were made in public meetings and became part of the public record in public
+agendas, meeting minutes, the City Code, and the City's zoning maps (which have shown the Property zoned as PRC-4 without
+a TDR-R overlay since 2007), without being challenged for years. LDIII's principal, Dee Mower, was present at the May 3,
+2017, City Council meeting when the City Council discussed the history of the Property, the MOU, the density restrictions,
+and whether to rezone the Property again. R459. Both the Preserve and LDIII had actual and constructive notice of Mapleton's
+actions, and that is sufficient to trigger the limitations period. See Fox v. Park City, 2008 UT 85, ¶¶ 34, 39-42, 200 P.3d 182.
+Under City Code and Utah law, LDIII's was required to raise its claims within 30 days of Mapleton's actions. Because it did
+not do so in 2006, 2007, or 2017, its claims are time-barred.
+B. LDIII's Claims Are Barred by the 6-Year Limitation for Contract Claims
+As Mapleton argued below, LDIII's claims are barred by the 6-year limitation period for contract claims provided by Utah Code
+section 78B-2-309(1)(b). R230-231, 1043. LDIII's principal claim is that it is entitled to develop up to 136 units on the *41
+Property, as set forth in the Original Agreement. Assuming, arguendo, LDIII is correct, Mapleton would have breached the
+Original Agreement when it imposed a density cap of 92 units on the Property (at the Preserve's express request). That limit
+was initially put in place on May 17, 2006, when the City Council approved rezoning the Property to PRC-4 for up to 92 units,
+and confirmed on August 7, 2007, when the City Council adopted the Preserve's zoning text for the PRC-4 zone that included
+the express density restriction. Accordingly, any claim that Mapleton improperly restricted density on the Property in violation
+of the Original Agreement must have been brought by August 7, 2013.
+C. LDIII Should Be Equitably Estopped from Raising Its Claims Due to
+the Preserve's Relinquishment of Rights and LDIII's Acquiescence Thereto
+As Mapleton argued to the District Court below, LDIII should be equitably estopped from claiming development rights that
+were relinquished by the Preserve. R231- 234. Ultimately, at some point LDIII must be prohibited from challenging meetings,
+actions, and decisions that occurred over a decade ago. Even without a specific statute of limitation, LDIII's acquiescence to the
+development and density restrictions of the PRC-4 zone should estop LDIII from raising challenges to those restrictions now.
+Estoppel is an equitable doctrine which precludes parties from asserting their rights where their actions render it inequitable to
+allow them to assert those rights. Estoppel requires proof of three elements: (1) a statement, admission, act, or failure to act by
+one party inconsistent with a later-asserted claim; (2) the other party's reasonable action or inaction based upon the first party's
+statement, admission, act, or failure to act; and (3) injury to the second party that would result from allowing the first party to
+contradict or repudiate its statement, admission, act, or failure to act.
+
+Burrow v. Vrontikis, 788 P.2d 1046, 1048 (Utah Ct. App. 1990) (citation omitted). A party's failure to “make any request or to
+take any action” regarding a particular right for *42 many years, coupled with affirmative statements that the party would not
+seek to enforce that right warrants estopping the party from enforcing that right later. Id.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+16
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+LDIII should be estopped from increasing density in the PRC-4 zone to more than 92 units because the prior owner, the Preserve,
+plainly and repeatedly requested and agreed to that density restriction. The Preserve spent almost two years working with
+Mapleton to change the development standards applicable to the Property, yet LDIII did nothing for almost a decade. Even in
+the absence of the applicable statutes of limitation, equity compels estoppel due to the extended amount of time the PRC-4
+zone has been in place, unquestioned and unchallenged by anyone. To everyone but LDIII, the terms and conditions of the
+development of the Property have been settled for years. Mapleton will be prejudiced and opened to harassment if every notice,
+land use approval, and zoning decision can be challenged a decade or more later.4 Accordingly, this Court should affirm the
+grant of summary judgment in favor of Mapleton.
+IV. The District Court Correctly Determined that the TDR-R Zoning
+Overlay Was Removed When Mapleton Rezoned the Property
+The District Court correctly concluded that the TDR-R overlay on the Property was removed as part of the PRC-4 rezone.
+The District Court's discussion of this removal focused on whether Mapleton could modify zoning issues through the general
+ordinance procedure. That discussion is, in Mapleton's view, beside the point. Nothing in LDIII's *43 complaint or its briefing
+on the motions for summary judgment, motion to amend judgment, or appeal suggests Mapleton failed to follow the appropriate
+procedures for adopting the PRC-4 zone, whether through the general ordinance procedure or the more specific procedures
+for land use ordinances, and LDIII may not challenge Mapleton's procedures in adopting the PRC-4 zone for the first time on
+appeal.5 LDIII's sole challenge regarding the rezone is that Mapleton did not provide special notice that the TDR-R overlay
+would be removed in connection with the otherwise admittedly proper rezoning of the Property, and that such failure means
+Mapleton did not and could not have removed the TDR-R overlay. The District Court properly recognized that Mapleton could
+and did remove the TDR-R overlay when it rezoned the Property to PRC-4 without any such special notice.
+It is undisputed that Mapleton gave notice of the rezoning of the Property. The staff report to the Planning Commission
+specifically states that the rezoning was “re-public noticed” and that “[a] letter ha[d] been sent to all property owners within
+500 feet of the proposed rezone as required by law.” R490. Mapleton does not need to use specific magic words in providing
+notice of a rezoning. The Utah Supreme Court addressed this issue in Suarez v. Grand County, 2012 UT 72, 296 P.3d 688.
+There, citizens complained that Grand County had failed to provide sufficient notice of a rezoning because the notice stated that
+a “hearing would be about ‘Amended Master Plan and Amended Preliminary Phase 1 Plat’ for ‘a Planned Unit Development,”’
+but “did not specifically refer to a *44 rezoning, zoning amendment, zone boundary change, a PUD amendment, a zoning
+ordinance, or a zoning code.” Id. ¶ 69. The Court held that the notice was sufficient to “inform the public that the Council would
+be making major decisions concerning the … [d]evelopment,” and that is all that is required. Id. ¶ 76.
+The record shows, and LDIII has not challenged, that Mapleton gave notice that it was considering rezoning the Property to
+the PRC-4 zone. That is sufficient. There is no requirement that Mapleton give additional, specific notice regarding the TDRR zone or use special language specifically identifying every aspect of the Property's zoning that could have been affected by
+Mapleton's action. Indeed, Utah Code section 10-9a-201(1) states that, “[a]t a minimum, each municipality shall provide actual
+notice or the notice required by this part.” The Preserve had actual notice as its representative, Nate Simpson, was present at
+the May 17, 2006, City Council meeting.6 R307. Any defect in the notice given by Mapleton could be and was waived by the
+Preserve's proceeding with the rezoning, and, at this point, all notices are deemed to be adequate and proper. UTAH CODE §
+109-9a-202(2), -209. Accordingly, Mapleton gave sufficient and proper notice of the potential removal of the TDR-R overlay,
+and the undisputed facts show that Mapleton did remove the overlay.
+Mapleton City Code requires rezoning applications to include “[d]esignation of the specific zone change or title amendment
+desired,” and the rezoning application submitted by the Preserve sought only “PRC-4.” R304; MCC 18.12.010(A)(1). The staff
+report to *45 the Planning Commission noted that the Property was zoned “A2 and A2 (TDR-R),” as it “was previously given
+a zone designation of A2 TDR-R,” but that the zone sought by the Preserve was just the “PRC-4 Zone.” R490-491. The rezoning
+was recommended by the Planning Commission and approved by the City Council. R306-307, 311, 490-492. Mapleton's official
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+17
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+zoning maps, which are just “as much a part of [the City's code] as if the boundary lines and other references and information
+set forth thereon were fully described [therein],” show the Property zoned as A-2 (TDR-R) in 2006, but just PRC-4, with no
+overlay, since 2007. R270-271, 285-290; MCC 18.24.020(A).
+Further, the removal of the TDR-R overlay as part of the rezoning was reasonable given that the PRC-4 zone, as drafted and
+applied for by the Preserve, is incompatible with the use of TDRs. Every PRC zone is designed for an individual, master-planned
+development, with an individualized zoning text that specifically identifies the maximum allowable density for the development
+agreed upon by Mapleton and the developer. Once that density is set, “no new subdivision lots shall be permitted beyond that
+which was originally approved, for the purpose of increasing the density.” MCC 18.82.030(K). It is the specific zoning text,
+with its specific density restriction, that ultimately governs development, rather than the general standards for PRC zones. MCC
+18.82.050 (“The applicant or developer of each PRC zone may create a zone text for the development that is more restrictive
+than this code. The governing text of each development that is more restrictive shall apply.”). So while PRC zones are, as a
+general matter, eligible for TDR density bonuses, those bonuses must be included in the maximum allowable density set out
+in the individualized PRC zoning text because no additional lots can be approved that *46 would increase the density of the
+development beyond the density cap, with or without TDRs.7 If, after the fact, a developer wants to use TDRs, the zoning text
+would need to be amended through the usual legislative process to increase the density.
+As LDIII acknowledges, the PRC-4 zone does not require the use of TDRs to obtain its maximum allowable density of 92 units
+across 200+ acres. R352, 523-524. Because the agreed-upon maximum density of the PRC-4 zone did not include a potential
+bonus from the use of TDRs, the only way TDRs can be used on the Property is if the PRC-4 zone is amended to allow more
+density. R352, 435. This was the City Council's plan when it approved the re-application of the TDR-R overlay to the Property
+in 2017. R352, 435, 512-513. Accordingly, a TDR-R overlay on the Property is incompatible with the PRC-4 zone. R579. The
+only reasonable inferences to be drawn from these undisputed facts is that the 2006 rezoning removed the A-2 and the TDRR zoning designations and replaced them with the specific rights and restrictions of the PRC-4 zone. Accordingly, the District
+Court correctly determined that the TDR-R overlay was removed from the Property.
+V. The District Court Correctly Determined that LDIII Did Not Succeed to the Original Agreement
+As an alternative basis for granting summary judgment in favor of Mapleton, the *47 District Court concluded that LDIII did
+not succeed to the Preserve's rights under the Original Agreement.8 As the District Court recognized, LDIII's acquisition of
+the Property through foreclosure does not entitle it to the Preserve's development and contract rights. The general rule is that a
+particular zoning or development right “is not a static thing which once established becomes set in concrete forever.” Smith Inv.
+Co. v. Sandy City, 958 P.2d 245, 258 n.19 (Utah Ct. App. 1998). Mapleton's approval of SLR's development plan did “not create
+independent free-floating vested property rights” that could be exercised by any other owner of the Property without Mapleton's
+approval. Keith v. Mt. Resorts Dev., LLC, 2014 UT 32, ¶¶ 31-35, 337 P.3d 213.
+The only way Mapleton's original authorization for SLR to develop 136 units on the Property may be claimed by LDIII now is if
+it somehow succeeded to and is entitled to exercise the rights granted by the Original Agreement unaffected by any intervening
+amendment or waiver of those rights. As discussed above, LDIII is bound by the Preserve's waiver and amendment of the rights
+granted by the Original Agreement, which limits any rights it has to the Original Agreement. However, even assuming arguendo
+that there was no relinquishment of rights, LDIII still must show that it succeeded to the Preserve's contractual rights under the
+Original Agreement. The undisputed facts and the interpretation of the Original Agreement confirm that LDIII did *48 not
+succeed to the Preserve's contractual rights, LDIII is not an assignee of the Original Agreement, and the Original Agreement
+does not run with the land.
+A. LDIII's Acquisition of the Property through Foreclosure Did Not Transfer the Preserve's Contract Rights
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+18
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+LDIII claims that it succeeded to the Preserve's rights under the Original Agreement when it foreclosed on and purchased
+the Property at the trustee's sale. However, a party's acquisition of property that is the subject of a contract does not, by
+itself, make that party an assignee of agreements related to the property. There must be a specific assignment of any such
+agreements in addition to the acquisition of property rights. Hillcrest Inv. Co. v. Utah DOT, 2012 UT App 256, ¶¶ 15-18, 287
+P.3d 427 (holding that purchase of property did not assign a related contract because the purchase agreement did not describe
+the contract or have any assignment-like language); West v. Case, 2006 UT App 325, ¶¶ 18-21, 142 P.3d 576 (holding that
+“a quit-claim grantee merely becomes a successor to the grantor's property interest” when “there [is] no formal assignment of
+the Agreement”); Oquirrh Assocs. v. First Nat'l Leasing, 888 P.2d 659, 663-64 (Utah Ct. App. 1994) (holding that a contract's
+language binding “‘successors and assigns' [only refers] to those who succeed to one party's interest in the contract through
+inheritance, assignment, or the like,” and does not assign the contract to someone who “merely became a successor to the …
+property interest”). Hansen v. Green River Grp., 748 P.2d 1102, 1104 & n.2 (Utah Ct. App. 1988) (holding that a sub-purchase
+contract did not assign certain rights because it lacked “the usual words of either an assumption or an assignment, such as
+‘assumes,’ ‘agrees to pay,’ ‘assigns,’ ‘transfers' or ‘conveys.”’).
+*49 LDIII's acquisition of the Preserve's property interests did not grant it the Preserve's contract rights because nothing in
+the contract between LDIII and the Preserve specifically assigned those rights. There are none of “the usual words of either
+an assumption or an assignment” of development or density rights. Hansen, 748 P.2d at 1104. Neither the Original Agreement
+nor the MOU is described in the property that secured the Preserve's debt, and LDIII acknowledged that the trust deed does not
+reference the Original Agreement. R339-347, 525. LDIII points to the trust deed's boilerplate language describing the property
+it conveyed,9 though LDIII does not provide any meaningful analysis of this language. LDIII simply asserts that this language
+did not “carve out or withhold” the assignment of the contract rights. This flips the standard on its head. LDIII must show that
+its agreement with the Preserve included an assignment of the Original Agreement, not just that it did not preclude such an
+assignment. If the Preserve intended to assign its contract rights, “such a provision should have and could have been stated in
+the contract with specificity.” Hansen, 748 P.2d at 1104.
+Regardless, even construing LDIII's foreclosure of the Property as an assignment of the Preserve's contract rights, such an
+assignment is invalid because it was not approved by the City. Unlike the transfer of the Property between SLR and the Preserve,
+LDIII was never approved as an assignee of the Original Agreement and there is no agreement with Mapleton regarding the
+rights LDIII would have as the owner of the *50 Property. R268, 527. Accordingly, the District Court correctly concluded
+that LDIII is not a successor to the Original Agreement.
+B. The Original Agreement Did Not Run With the Land Without Mapleton's Prior, Written Approval
+LDIII also argues that it may claim the density benefits granted in the Original Agreement because the Original Agreement
+runs with the land to all future owners of the Property. Again, this is an issue that requires the Court to first determine that the
+Preserve did not amend or waive its development rights under the Original Agreement. But even assuming that the development
+rights granted by Original Agreement in 2003 inexplicably passed through the Preserve's ownership of the Property unaltered
+by the Preserve's actions, the plain language of the Original Agreement provides that it runs with the Property only to those
+who have been previously approved by Mapleton. Because LDIII concedes it never sought or obtained Mapleton's approval to
+its alleged assumption of the Original Agreement, the District Court correctly granted summary judgment to the City.
+In order for a contractual covenant to run with the land such that it binds or benefits future land owners even without a specific
+assignment of the covenant, “(1) the covenant must touch and concern the land affected by the covenant, (2) the original parties
+to the covenant must have expressly or impliedly intended the covenant to run with the land, (3) there must be privity of estate,
+and (4) the covenant ‘must be in writing.”’ Stern v. Metro. Water Dist., 2012 UT 16, ¶ 40, 274 P.3d 935 (citation omitted). In
+this case, there is no dispute over the first, third, and fourth elements. The benefits *51 granted by the Original Agreement
+touch and concern the Property, there is privity of estate between SLR and LDIII, and the Original Agreement is in writing. The
+issue lies in whether Mapleton and SLR intended for the Original Agreement to run with the land. “[A]n express statement in
+a deed or testimony from the original covenantors that a covenant is intended to run (or not to run) with the land is normally
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+19
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+sufficient” to resolve the issue. Id. ¶ 43. As discussed below, the Original Agreement's statement that “Owner's rights under this
+agreement shall be personal to Owner and shall only run with the land” in limited circumstances is such an express statement.
+The interpretation of the Original Agreement is in this case a purely legal question. Gillmor v. Macey, 2005 UT App 351, ¶
+9, 121 P.3d 351. In interpreting the contract, “[i]t is axiomatic that a contract should be interpreted so as to harmonize all of
+its provisions and all of its terms, which terms should be given effect if it is possible to do so.” Id. ¶ 19 (citation omitted).
+While extrinsic evidence may be offered to show ambiguity, “the judge must ensure that ‘the interpretations contended for are
+reasonably supported by the language of the contract.” Dairies v. Vincent, 2008 UT 51, ¶ 26, 190 P.3d 1269 (citation omitted).
+“[W]ords and phrases do not qualify as ambiguous simply because one party seeks to endow them with a different interpretation
+according to his or her own interests.” Saleh v. Farmers Ins. Exch, 2006 UT 20, ¶ 17, 133 P.3d 428. Accordingly, “[i]f any
+apparent ambiguity or conflict can be resolved by harmonizing the ambiguous or conflicting terms, a court may not conclude
+as a matter of law that the contract is ambiguous and take extrinsic evidence to clarify the problem.” Gillmor, 2005 UT App
+351, ¶ 19 n.8.
+*52 In Gillmor v. Macey, a contract granted a right “for access by Gillmor and his immediate family to the first degree
+of consanguinity, and their spouses and children, to the Gillmor property.” Id. ¶ 15. The contract described these rights as
+“‘covenants and restrictions which run with [the properties],’ which “shall be binding upon and shall inure to the benefit of all
+present and future owners and/or purchasers, occupants and lessees of said Properties.” Id. ¶ 17 n.6. The contract also stated
+that it “shall be binding upon and shall inure to the benefit of the parties …, their officers, directors, invitees, agents, employees,
+heirs, personal representatives, successors, assigns, owners, occupants and lessees of the subject properties.” Id. Nevertheless,
+the Court of Appeals held, “[w]hile the Agreement states, in several places, that the grants and limitations in the Agreement are
+appurtenant to the land and run with the land to future successors in interest, the Agreement also details a specific and limited
+class of individuals who are to be benefitted.” Id. ¶ 17. By harmonizing all of the relevant provisions of the contract, the Court
+held as a matter of law that the contract's specification of a class of persons to be benefited by the contract “undermines any
+notion that this benefit is somehow intended to run with the land to the benefit of all future owners of the … property.” Id. ¶ 17.
+The same is true here. The parties to the Original Agreement did not intend to create free-floating rights that would continue in
+perpetuity to anyone and everyone that acquired the Property. While certain parts of the Original Agreement suggest in general
+manner that the Agreement could benefit future owners, “the Agreement also details a specific and limited class of individuals
+who are to be benefitted.” Id. ¶ 17.
+Paragraph 10 of the Original Agreement provides:
+*53 Owner's rights under this agreement shall be personal to Owner and shall only run with the land so long as Owner
+or a company which is affiliated with or under common ownership and control of Owner shall own and be the Owner of the
+Property. In the event that Owner intends to sell the Property or any portion thereof to any other party, Owner shall advise City
+of such intention. Only upon the express prior written approval by the City, shall any rights of Owner with respect to the
+potion of the Property being sold be deemed transferred to the new owner thereof.
+
+R254 (emphases added). Likewise, while paragraph 19 states that “This Agreement shall be binding on the successors and
+assigns of Owner,” it continues by limiting that statement's effect:
+Notwithstanding the foregoing, an approved purchaser of the Project or any portion thereof shall be responsible for
+performance of Owner's obligations hereunder as to any portion of the Project so transferred. In the event of an approved sale
+or transfer of the Project, or any portion thereof, the seller or transferor and the buyer or transferee shall be jointly and severally
+liable for the performance of each of the obligations contained in this Agreement, unless prior to such transfer an agreement
+satisfactory to the City, delineating and allocating between Owner and transferee the various rights and obligations of Owner
+under this Agreement, has been approved by City. Alternatively, prior to such approved sale or transfer, Owner shall obtain
+from the buyer or transferee a letter (i) acknowledging the existence of this Agreement and (ii) agreeing to be bound thereby.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+20
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+Said letter shall be signed by the buyer or transferee, notarized, and delivered to the City prior to the transfer or sale. In such
+event, the buyer or transferee of the parcel so transferred shall be fully substituted as Owner under this Agreement…
+
+Id. (emphases added). These paragraphs unambiguously provide that an “approved sale or transfer” is a prerequisite to any
+continuation of the rights and obligations of the Original Agreement to a third party. The general provisions stating that the
+contract would continue to future owners remain valid, but they are tempered and clarified by the more specific language
+in paragraphs 10 and 19 that details the terms and conditions for the contract to so continue. As in Gillmor, when all of the
+provisions of the Original *54 Agreement are read together, it is clear that the parties intended that the Original Agreement
+could continue to future third-parties, but that Mapleton would have final say in any such transfer or assignment. This is the
+way both SLR and Mapleton interpreted the contract when SLR wanted to sell the Property to the Preserve, R298-302, and this
+is the only tenable interpretation of the contract that harmonizes all of its provisions.
+LDIII raises two arguments regarding ambiguity for the first time on appeal: First, LDIII argues that the District Court erred
+by not taking evidence regarding the intent of the parties to the Original Agreement. LDIII never argued below that extrinsic
+evidence was necessary to interpret the Original Agreement, nor did LDIII offer any such evidence, nor did LDIII file a rule
+56(d) motion asking the District Court to grant it time to collect and present such evidence. Second, LDIII also argues for
+the first time on appeal that the phrase, “Owner's rights under this agreement” in paragraph 10 is ambiguous, though it does
+not describe how it is ambiguous or what meaning the phrase could have other than all of the rights granted to the Property
+owner under the Original Agreement. LDIII may not claim the District Court erred by not addressing ambiguities or considering
+extrinsic evidence that LDIII never attempted to present to the Court.
+VI. The District Court Correctly Determined the Re-Application of the TDR-R Overlay Was Legislative Referable
+Finally, LDIII challenges the propriety of calling the referendum election, but only after the election was held and the voters
+sided against LDIII's wishes. Again, LDIII's claims are both untimely and substantively baseless. LDIII asserts that Mapleton's
+action in June 2017 to rezone the Property with a TDR-R overlay was an administrative act, not *55 legislative. However,
+LDIII was well aware that citizens had obtained the necessary signatures for a referendum and Mapleton called an election on
+the issue for November 7, 2017. If LDIII disagreed with Mapleton's conclusion that the citizens were entitled to vote, then it
+was obligated to file suit and challenge it before the election was held. Utah Code section 20A-7-607(4)(c) provides a remedy
+to anyone who believes that “any petition filed is not legally sufficient.” LDIII gambled that it would prevail at the ballot box.
+It did not. Only after the election results came back against it did LDIII file its lawsuit claiming that the election never should
+have been held. LDIII cites Baker v. Carlson, 2018 UT 59, 437 P.3d 333 for support, but it cuts against it because in Baker, the
+challenge to the election came before the vote, not afterward. Id. ¶¶ 6-7. There is no basis for LDIII to challenge a lawfully and
+democratically held referendum election after the fact simply because it did not like the way the votes came out.
+LDIII's claims regarding the referendum are also substantively defective. “[W]hen a city council exercises its legislative
+authority, voters retain the constitutional prerogative of challenging its decisions by referendum.” Krejci v. City of Saratoga
+Springs, 2013 UT 74, ¶ 21, 322 P.3d 662. The Utah Supreme Court has held that applying a zoning designation to a parcel of
+land - site-specific zoning - is “a legislative act - and thus subject to referendum.” Id. ¶ 38. Under Mapleton City Code, a TDR-R
+overlay is a type of zoning designation. MCC 18.24.010. As such, it is a rule of general applicability. Had the voters supported
+it, the TDR-R zoning designation would have applied to all present and future owners of the Property. Krejci, 2013 UT 74, ¶ 32.
+In rezoning the Property in 2017, the City Council weighed numerous, broad policy *56 considerations in the detailed public
+hearing held immediately before its decision, including factors beyond the Property boundaries, such as development density
+on adjoining property and the impact the development would have on the general public. R 138-175, 457-462, 511-513. The
+general applicability of the zoning, including the TDR-R overlay, and the broad policy factors considered by the City Council
+are hallmarks of legislative action rather administrative tasks. Carter v. Lehi City, 2012 UT 2, ¶ 34, 269 P.3d 141. Mapleton's
+decision to rezone the Property with a TDR-R overlay was site-specific zoning, which is a legislative act subject to referendum.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+21
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+
+This Court should not indulge LDIII's attempt to undo an election that has been on the books for almost two years. The time for
+LDIII to challenge Mapleton's decision to reapply a TDR-R overlay to the Property or to challenge Mapleton's determination
+that such action was referable expired before this lawsuit was filed. LDIII's assertion that the rezoning of the Property with a
+TDR-R overlay was administrative directly contradicts the Supreme Court's holding in Krejci. Accordingly, the District Court
+properly granted summary judgment in favor of Mapleton.
+Conclusion
+For the reasons described above, this Court should affirm the District Court's grant of summary judgment to the City. There
+are no disputes of material fact, the record and all inferences to be drawn therefrom are unmistakable, and LDIII's claims fail
+for numerous, independent reasons.
+*57 DATED this 17th day of July, 2019.
+Blaisdell, Church & Johnson, LLC
+/s/ Robert A. Patterson
+For Respondent/Appellee Mapleton City
+Appendix not available.
+Footnotes
+Prejudice to the other party was once an element of waiver, but that element has been expressly abandoned by the Utah Supreme
+1
+
+Court in Mounteer Enters. v. Homeowners Ass'n, 2018 UT 23, ¶¶ 31–34, 422 P.3d 809. There are no elements of waiver that look to
+the non-waiving party. Nonetheless, Mapleton would be greatly prejudiced if its land use acts, taken at the written request of the land
+owner, and an unchallenged election are allowed to be attacked and overturned this late. Infra Section III.C.
+
+2
+
+The District Court also relied on the general one-year period provided by section 78B-2-303. By its terms, that statute applies to
+claims that have been presented and rejected. LDIII failed to present any claims for a decade, denying the City the chance to address
+and reject them. So while the City agrees with the District Court that LDIII's claims are untimely, the City believes that other statutes
+and estoppel are more directly applicable.
+
+3
+
+Mapleton gave notice of the rezoning of the Property in 2006. R306-307, 311, 490-492.
+
+4
+
+Mapleton is not arguing that LDIII is forever precluded from seeking to change the zoning of the Property. LDIII has the same
+right to apply for and seek rezoning as any property owner. Mapleton's argument is that LDIII's delay and acquiescence to the status
+quo, coupled with the Preserve's express waiver and amendment of its rights, prevent LDIII from obtaining increased density on the
+Property by any means other than the usual application and review process.
+
+5
+
+LDIII acknowledged that Mapleton properly rezoned the Property to PRC-4: “Petitioner admits that the Mapleton City Council
+rezoned the Preserve Property from A-2 to PRC-4. Respondents dispute that the TDR-R overlay status was removed.” R524-525.
+
+6
+
+LDIII had no interest in the Property at this point in time and, regardless, there is no requirement for Mapleton to give notice to a
+holder of a security interest. See Bv Lending, LLC v. Jordanelle Special Serv. Dist., 2013 UT App 9, ¶3, 294 P.3d 656.
+
+7
+
+MCC 18.82.040 (“When a planned residential community is adopted and the subject property has been placed in a PRC zone, the
+development plan and development standards associated with the zone shall be strictly construed. No variations shall be made from
+the development plan and standards adopted in the zone unless expressly approved by the city council with recommendation from
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+22
+
+LD III, LLC, Petitioner/ Appellant, v. MAPLETON CITY,..., 2019 WL 8356024...
+the planning commission.... In taking such action the planning commission and city council… [are] bound by the standards set forth
+in the text of the applicable PRC zone which governs the development plan.”).
+
+8
+
+The Court discussed Utah Code section 57-1-22.5 in concluding that LDIII did not acquire the density and zoning rights outlined in
+the Original Agreement. That section focuses on the assignment of a beneficial interest of a trust deed, which is not directly applicable
+to the assignment of development rights. However, the District Court's key conclusion is correct: LDIII's foreclosure did not grant it
+any contract rights due to the lack of an express assignment and the lack of City approval to any such assignment.
+
+9
+
+The trust deed's language covers “all buildings, fixtures, and improvements thereon, and all water rights, rights of way, easements,
+rents, issues, profits, income, tenements, hereditaments, privileges and appurtenances thereon belonging, now or hereafter used or
+enjoyed with” the Property, which is virtually identical to the general, statutory definition of real property. R341; UTAH CODE §
+57-1-1(3).
+
+End of Document
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+23
+
+
