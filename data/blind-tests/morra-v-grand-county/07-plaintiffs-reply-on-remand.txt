@@ -1,0 +1,469 @@
+SEVENTH DISTRICT COURT
+
+FILED
+SEP 3 02010
+
+J. Craig Smith (4143) GRAND COUNTY
+jcsmith@smithlawonline.com By:
+R. Christopher Preston (9195)
+chris@smithlawonline.com
+SMITH HARTVIGSEN, PLLC
+Walker Center
+175 South Main Street, Suite 300
+Salt Lake City, Utah 84111
+Tel.: (801) 413-1600
+Fax.: (801) 413-1620
+
+Attorneys for Plaintiffs
+
+IN THE SEVENTH JUDICIAL DISTRICT COURT
+IN AND FOR GRAND COUNTY STATE OF UTAH
+
+BARBARA A. MORRA; MICHAEL K.
+
+SUAREZ; JOHN S. WEISHEIT; HAROLD ° REPLY MEMORANDUM IN
+SHEPHERD; JENNIFER P. SPEERS; . OPPOSITION TO CLOUDROCK
+TARA COLLINS; WILLIAM LOVE; , LAND COMPANY LLC’S
+SARAH M. FIELDS; JOHN C. : SUPPLEMENTAL MEMORANDUM
+DOHRENWEND; PAUL JANOS; STEVE AND IN SUPPORT OF PLAINTIFFS’
+MULLIGAN, : MOTION FOR SUMMARY
+JUDGMENT
+
+Plaintiffs,
+
+V. Case No. 070700108
+GRAND COUNTY, UTAH; and the | Honorable Lyle R. Anderson
+GRAND COUNTY COUNCIL, ,
+
+Defendants; and
+CLOUDROCK LAND COMPANY LLC,
+
+Defendant-Intervenor.
+
+Plaintiffs (collectively “Citizens”), respectfully submit their reply memorandum in
+support of their Motion for Summary Judgment, which was originally filed on January 31, 2008,
+
+pursuant to the Order Regarding Record of Proceedings Before Grand County and Briefing
+
+4852-6758-6822.M0006.001
+
+Schedule and Notice of Hearing, entered by this Court on July 6, 2010 (“Order Regarding
+
+Record”).
+TABLE OF CONTENTS
+
+TABLE OF CONTENTS. .ecssssssssssssssssssseesseseseeensernste eT
+TABLE OF AUTHORITIES ........cccccsccsessesseseeseeessssaessessesseeseseaeeneessseaesaseaesesssssssesessssensensensones ii
+ARGUMENT. ........cssssssssssssssscscscesesescceeecesescscseeesenecesesesesssassescssssssssesesecsusesecaeseseeseseeesseaeseseeneseseseegs 1
+I. The Enactment of Ordinance 454 was an Administrative ACt. ........ccccsssseseesseceereeeeeeeeees 1
+Il. The County Acted Illegally When it Enacted Ordinance 454. ....... sss
+A. The County Cannot Disregard Mandatory Requirements of the Applicable LUC............ 4
+B. The County’s Violations of the Applicable LUC are Numerous and Substantial. ............ 6
+
+1. Cloudrock’s Subdivision Approval had Lapsed and Preliminary Plat Could not be
+AMENdEG. .........csccssessesceccececescesescessseesseacseeassssssssssssssssesscssesseseessenseseensensenseasesenssssensesseneneenes 6
+
+2. Ordinance 454 was Not Consistent with the 1996 General Plan. ..............::ccccssssccceees 7
+
+3. The County Failed to Strictly Comply with the Requirements for a Zone Change....9
+
+CONCLUSION ........:ccsccsssscsscecesecseesceceseesseessseasscessscsssecsessscsssssecseeseeseeseeseeaeensessesseassesssasenseneenents 10
+TABLE OF AUTHORITIES
+
+Cases
+
+BRAVE vy. Beaver County, 2009 UT 8, 203 P.3d 937 .....ssssscssessessessessessessereetseessesseeseesseesensees 1,2
+Citizen’s Awareness Now v. Marakis, 873 P.2d 1117 (Utah 1994)... escssccescescsscsserseeeseeneees 2
+Citizens for Responsible Trans. v. Draper City, 2008 UT 43, 190 P.3d 1245.00... .sessseseeeeereees 4
+Culbertson v. Board of County Commissioners, 2008 UT App 22, 177 P.3d 621 .......sscsesessseesees 6
+Friends of. Maple Mountain, Inc. v. Mapleton City, 2010 UT 11, 228 P.3d 1238.0... 1, 2,4
+Hatch v. Boulder Town Council, 2001 UT App 55, 21 P.3d 245 wo. eeecsceseeceeceeseceesesseeeesonees 4
+
+4851-6193-1783.M0006.001 ii
+
+Low v. Monticello, 2002 UT 90, 54 P.3d 1153.0... ee eeseesssesseeeseeessesessessensescssssensssesseessseceeeeseeene 3
+Morra v. Ground County, 2010 UT 21, 230 P.3d 1022.0... cccscesessesessesreeseeseeesecessseseeseseeeeensees 5
+
+Springville Citizens for a Better Community v. City of Springville, 1999 UT 25, 993 P.2d 2524, 5
+
+Statutes
+
+Utah Code Ann. § 17-27a-801(d) oe ee esesesssssscscssssssssssssscescsssscsssseseesessessenessenseesseseenessesessesenneneees 4
+Utah Code Ann. § 17-52-5022) on... essessesssesesecssesssscsecscssssscsssssssessssssseeseesssssessessessensensensesesssnsenss 3
+Other Authorities
+
+Applicable LUC Art. TID R.2.D oc ccccssssssseseseesesesesenesesssesesesesesesesesesesesseseneneassenenesseseseseasnssesessacegs 8
+Applicable LUC Art. TILR.3 0. sesssessssssessssecssscsssssssssscsssessesesssesseseesesesesessesesessessseseesessasanenenees 3
+Applicable LUC Art. VI.D.7.b.....ccccsesssssseseseseesessseeesesseseessessesssseeseessesesenseseeeaeacaceeeacasecsenseasaess 7
+Applicable LUC Art. VI.L.6.6 ....cccccesessssssessesseseseesessesssseeeesessenenesseeseneasenenensaeeneneasasensssasensscaeangss 8
+Applicable LUC, Art. VI.B.2.a-.Bo.. ic ccsssssssssssssssseseesesesssseseneesesenessessnessessessseseseneeseeneneeseneneees 10
+Applicable LUC, Art. VI.B.5.€.......cssssssssssssssssssssssssssssssssesessesesesesesessessssssscseseseseseseeeeeeeeensenenees 8
+
+4851-6193-1783.MO006.001 lili
+
+ARGUMENT
+I. The Enactment of Ordinance 454 was an Administrative Act.
+
+On February 4, 2002, the Grand County Council (“Council”) approved development
+applications for the Johnson’s Up-on-Top Development, including land use applications for (1)
+PUD rezoning, (2) Preliminary Plat, Phase 1 and Preliminary Master Plan, (3) Use-on Review
+for Wilderness Lodge, and (4) Special Exception for Design Standards. Prior to this approval,
+the land subject to these applications had been zoned “RG, Range and Grazing.” [R. at
+GC00295.] Over five years later, Cloudrock Land Development, LLC (“Cloudrock”), obtained
+approval from the Council for “the Johnson’s Up-On-Top Preliminary PUD and Master Plan as
+proposed, and the Amended and Restated Johnson’s Up-On-Top Mesa Development
+Agreement” on May 8, 2007. [R. at GC00603.] The Council’s action to approve amendments to
+land use approvals obtained five years previously constituted an administrative act, nothing
+more.
+
+Cloudrock’s argument that the 2007 action was legislative is the age old “form over
+
+substance.” Ordinance 454, the form by which the Council selected to document its approval of
+| Cloudrock’s application, did not seek a new zoning classification.' The land use application
+submitted by the Cloudrock also did not seek a “PUD Amendment;” it only requested approval
+of an “Amended Preliminary Plat.” [R. at GC00315.] At most, Ordinance 454 is an amendment
+to an already existing PUD zoning classification. No evidence in the record even suggests that
+
+Cloudrock applied for a new zoning classification. Any rezoning of the Johnson’s Up-on-Top
+
+' This fact alone distinguishes this matter from Friends of Maple Mountain, Inc. v. Mapleton City, 2010 UT 11, 228
+P.3d 1238, and BRAVE v. Beaver County, 2009 UT 8, 203 P.3d 937; both were a zoning change. Both the
+underlying zone (Range and Grazing) and the existence of a PUD remained unchanged by the amendment. [R. at
+GC00602-3.]
+
+4851-6193-1783.M0006.001 1
+
+Development as PUD occurred on February 4, 2002, when the Council passed Resolution
+#2002-2568. [R. at GC00297.]
+
+Cloudrock argues that Ordinance 454 is per se a legislative act given the Utah Supreme
+Court’s holding in Friends of Maple Mountain, Inc. v. Mapleton City, 2010 UT 11, 415, 228
+P.3d 1238. However, as Citizens pointed out and as Cloudrock has overlooked, “when a
+municipality acts to adjust an existing zone, [as is the case here,] it more likely acts
+administratively.” Jd. at 17. The adoption of Ordinance 454 did not involve a zone change. It
+served only to amend the preliminary plat and preliminary master plan for the already approved
+Development. Therefore Ordinance 454 is distinguished from Friends of Maple Mountain and
+cannot be considered per se legislative.
+
+Cloudrock secondly relies on the Utah Supreme Court’s decision in BRAVE v. Beaver
+County, 2009 UT 8, 203 P.3d 937. Once again its reliance is misplaced. BRAVE involved a
+comprehensive set of actions by Beaver County, including a zone change. Jd. at 73. It also
+
+invoked estoppel, which is absent here.” “If a county does not label its action either legislative or
+administrative, then a determination under the test we set forth in Citizen’s Awareness Now v.
+Marakis, 873 P.2d 1117 (Utah 1994), would be appropriate.” BRAVE, 2009 UT 8 at 420.
+Cloudrock asserts that the Council declared “it was ‘acting in its legislative capacity’ in entering
+
+993
+
+into the agreement.” This assertion is inaccurate and misleading. In Ordinance 454, the Council
+
+did not say that it was acting in its legislative capacity in entering into an amended development
+agreement; the Council did not give any label to its action. [R. at GC00603.] In the Amended
+
+? Also, both Friends of Maple Mountain and BRAVE are referenda matters, one more distinguishing factor. See
+Friends of Maple Mt. 2010 UT 11at {7 and BRAVE, 2009 UT 8 at (16.
+
+3 Cloudrock Land Company LLC’s Supplemental Memorandum in Opposition to Plaintiff's Cross Motion for
+Summary Judgment and in Support of Its Motion for Summary Judgment (“Cloudrock’s Brief”) at 9.
+
+4851-6193-1783.MO006.001 2
+
+and Restated Johnson’s Up-on-Top Mesa Development Agreement (“Amended Development
+Agreement”), there is a statement that the Council “acting in its legislative capacity, has made
+the following determinations with respect to the Project, including all findings of fact and
+conclusions of law as are necessary to make each of the following determinations.” [R. at
+GC00624.] When such determinations were made is not stated. A plain reading of this language
+establishes only that the Council acting in its legislative capacity at some previous time had
+made particular findings allowing it to enter into the Amended Development Agreement. Indeed,
+identical language and findings are found in the Original Development Agreement, signed in
+October 2001, showing that the legislative action of the Council in creating a PUD occurred at
+that time when the PUD zoning was established in 2002. [R. at GC00283.] It says nothing about
+whether the Council was acting in its administrative or legislative capacity as it approved
+- Ordinance 454 in 2007.
+
+It is true that the Council must approve a PUD District. Applicable LUC Art. TII.R.3..[R.
+at GC00067.] However, the Applicable LUC says nothing about whether the Council acts
+administratively or legislatively in amending an already existing PUD. According to state law,
+the Council “is both the county legislative body and the county executive” and exercises both
+legislative and executive (or administrative) powers. Utah Code Ann. § 17-52-502(2). Because
+the Council exercises both types of power, the use of an ordinance to approve amendments to an
+existing, approved development has no bearing on the true nature of its action.
+
+Utah courts have held that “[tJhe formal label of a city council’s action is not
+determinative; courts must look to the substance of the city council’s action to determine if it is
+
+legislative or administrative.” Low v. Monticello, 2002 UT 90, 24, 54 P.3d 1153 (cited with
+
+4851-6193-1783.MO006.001 3
+
+approval in Friends of Maple Mt., 2010 UT 11 at 8. Indeed, the Council chose to approve the
+original PUD rezoning for the Johnson’s Up-on-Top Development by resolution. [R. at
+GC00294.] It is not the form but rather “what an action accomplishes [that] determines if it is
+legislative or administrative in nature.” Citizens for Responsible Trans. v. Draper City, 2008 UT
+43, 912, 190 P.3d 1245. Substantial evidence in the record establishes only that Ordinance 454
+approved an amended preliminary plat and the Amended Development Plan, nothing more.
+[GC00603.] Such action is administrative in nature and was therefore properly appealed to the
+Grand County Board of Adjustment (“Board”) and should now be remanded to the Board for
+further action.
+
+II. The County Acted Illegally When it Enacted Ordinance 454.
+
+If, arguendo, this Court holds that Ordinance 454 was legislative, the action was void
+because it was illegal. Unlike the arbitrary and capricious standard for legislative enactments
+that yield substantial deference to the legislative body, illegality is reviewed by this Court under
+a correctness standard.* The Council illegally approved Ordinance 454 and failed to strictly
+comply with the Applicable LUC. Accordingly, Ordinance 454 is invalid. See Hatch v. Boulder
+Town Council, 2001 UT App 55, 7, 21 P.3d 245. |
+
+A. The County Cannot Disregard Mandatory Requirements of the Applicable LUC.
+
+Cloudrock tries to evade this straightforward question of legality by once again trotting
+out Springville Citizens for a Better Community v. City of Springville, 1999 UT 25, 930, 993
+
+P.2d 252. This same argument was made, unsuccessfully, to the Utah Supreme Court which
+
+“ The question that must be considered is whether the Council acted illegally. The Utah Land Use, Development,
+and Management Act specifies that a county’s decision is illegal when “the decision, ordinance, or regulation
+violates a law, statute, or ordinance in effect at the time the decision was made or the ordinance or regulation
+adopted.” Utah Code Ann. § 17-27a-801(d).
+
+4851-6193-1783.MO006.001 4
+
+found that Citizens had standing without referring to Springville Citizens. See Morra v. Ground
+County, 2010 UT 21, 22, 230 P.3d 1022. The Supreme Court also noted the specific and serious
+injuries alleged by Citizens. See id. at 417 and 22.°
+
+Despite the Utah Supreme Court’s determination of standing and alleged injury by
+Citizens, Cloudrock ignores the holding in Hatch and relies on dicta in Springville Citizens that
+parties challenging a land use decision should “establish that they were prejudiced by the
+[County]’s noncompliance with its ordinances or, in other words, how, if at all, the [County]’s
+decision would have been different and what relief, if any, they are entitled to as a result.”
+Springville Citizens, 1999 UT 25 at {31 (emphasis added).° Substantial evidence in the record
+shows, and the Utah Supreme Court recognized that that Citizens were adversely affected and
+thus prejudiced by the Council’s actions and that the outcome would have been different had the
+Council followed its own ordinances because it could not have adopted Ordinance 454.
+
+The County is “not entitled to disregard its mandatory ordinances” and is “bound by the
+terms and standards of applicable zoning ordinances.” Springville Citizens, 1999 UT 25 at 930.
+The stated policy of the County was to reject incomplete applications. [R. at GC00315.] Had the
+Council had followed the Applicable LUC and its express policy regarding land use
+
+applications, Ordinance 454 could not have been approved. Rather, the Council would have
+
+> Citizens have alleged that the amended development will result in dangerous increases of pollution in the water
+delivered to their property--water they drink and use to cook and clean. Jd. at 422.
+
+6 This standard enunciated in Springville Citizens seems better suited to resolve questions of standing. While it is
+not entirely clear what this brief statement of dicta in the Springville Citizens opinion means, the most likely
+interpretation is that technical deficiencies in the local governmental land use process alone are not sufficient to
+overturn a land use decision — they must also suggest that a different result could have been obtained. Cloudrock
+argues that Citizens must show a substantial likelihood that the Council would not have enacted Ordinance 454.
+Cloudrock’s Brief at 11. The Springville Citizens decision does not support such a requirement. See Springville
+Citizens, 1999 UT 25 at § 31.
+
+4851-6193-1783.M0006.001 5
+
+required Cloudrock to complete and file the appropriate land use applications.
+Finally, the Council is a public body and has a duty to the citizens of the County to
+adhere to the law for the benefit of the public good. Accordingly, an action to curb a county’s
+
+99 66
+
+“willful disregard of its own ordinances and procedures” “serves the important public policy of
+‘ensur[ing] that [the] County was governed by rule of law, not of man.’” Culbertson v. Board of
+County Commissioners, 2008 UT App 22, §§12 and 13, 177 P.3d 621. Though this statement
+arose in another context, it demonstrates not only the established public policy that counties be
+held responsible to follow their own ordinances and procedures, but also that the Council’s
+failure to strictly follow the Applicable LUC in adopting Ordinance 454 was against public
+policy and prejudiced Citizens.
+
+B. The County’s Violations of the Applicable LUC are Numerous and Substantial.
+
+The approval of Ordinance 454 was illegal for a number of reasons. Each illegality is
+
+independently sufficient to void the County’s action.
+
+1. Cloudrock’s Subdivision Approval had Lapsed and Preliminary Plat Could not be
+Amended.
+
+It is undisputed that the only land use application before the Council in 2007 was
+Cloudrock’s application for an Amended Preliminary Plat. [R at GC00315.] However, the
+subdivision approved in 2002 had lapsed and the preliminary plat could not be amended.’
+
+The Original Development Agreement required the parties (both Cloudrock and the
+County) to “comply with the standards and procedures contemplated by the Code and the
+
+General Plan . . . with respect to all required development approvals of the uses, densities, and
+
+7 Of course, Cloudrock could go back and follow the proper steps to seek a new subdivision approval, but it has
+chosen not to do so.
+
+4851-6193-1783.M0006.001 6
+
+general configuration of the Project.” [R. at GC00286.] As Cloudrock must acknowledge, the
+Original Development Agreement required continued compliance with the procedural
+requirements of the Applicable LUC, including the time periods for approvals and requirements
+to seek and obtain extensions.
+
+Given the standards and procedures in the Applicable LUC, the preliminary plat
+approved in 2002 had expired and could not simply be amended. According to the Applicable
+LUC, the Grand County Planning Commission’s “preliminary approval of [a] subdivision shall
+be deemed voided unless a final plat is submitted within the 12 month period or unless the 12
+month period is extended by the Planning Commission at the request of the subdivider.”
+Applicable LUC Art. VI.D.7.b (emphasis added). [R. at GC00110.] This same standard applies
+for multi-phase subdivisions “unless at least one (1) phase of the subdivision is submitted whitn
+12 months following approval of the previous final plat for the subdivision.” See id. (emphasis
+added). It is undisputed that a final plat has never been submitted by Cloudrock and that that
+neither the Planning Commission nor the Council extended approval of the preliminary plat
+prior to Cloudrock’s application in 2006. Thus, the Council could not approve an amendment to
+a void preliminary plat; the subdivision approval lapsed; and Cloudrock must start the
+subdivision process anew.®
+
+2. Ordinance 454 was Not Consistent with the 1996 General Plan.
+
+According to the Original Development Agreement, “the County and the Developer
+
+agree that each shall comply with the standards and procedures contemplated by the Code and
+
+8 Cloudrock attempts to minimize the impact of the lapsing of its preliminary plat by arguing that it only needs to
+submit a new preliminary plat. This is incorrect; its 2002 subdivision approval lapsed and is void. See Applicable
+LUC Art. VI.D.7.b. [R. at GC00110.] Whatever rights Cloudrock may have pursuant to its development agreement
+in a new subdivision process is separate issue for another day.
+
+4851-6193-1783.M0006.001 7
+
+the General Plan.” [R. at GC00286.] According to the Applicable LUC, the Council must find
+that a PUD is “consistent with the Grand County General Plan.” Applicable LUC Art. IILR.2.b.
+[R. at GC00067.] Citizens do not assert that there is a requirement for compliance with the 1996
+Public Facilities Analysis,’ but Cloudrock’s Johnson-Up-on-Top Development must be
+consistent with the General Plan, which refers to the 1996 Public Facilities Analysis.’ [R. at
+GC00858.] Further, if the Council was indeed acting to rezone the PUD as now argued by
+Cloudrock, then the Council was required to consider whether there was adequate public
+facilities and services for the development. See Applicable LUC, Art. VI.B.5.e and Art. VI.L.6.c.
+[R. at GC00105 and GC00126.]
+
+In order to conduct this inquiry, the Council must have compared the proposed
+development to the Public Facilities Analysis referenced in the General Plan. However, no
+evidence has been presented to show that the Council even considered the 1996 Public Facilities
+Analysis. The Public Facilities Analysis in 1996 did not contemplate infrastructure for
+Cloudrock’s Johnson’s Up-On-Top Development. See Cloudrock’s Brief at 15. That, of course,
+is precisely why the County’s consulting planner for the 1996 General Plan stated that the
+County could not approve any amendment to Cloudrock’s Development until the 1996 Public
+Facilities Analysis was updated. [GC00258-042, Exh. 16.]
+
+In addition, the 1996 General Plan contained a checklist to be followed by the County in
+
+9 Given the County’s refusal to include the 1996 Public Facilities Analysis in the record, Citizens have now filed a
+formal motion to supplement the record.
+
+!0 The express purpose of the Public Facilities Analysis was to provide Grand County and other local governmental
+entities “with the information needed to ensure that land use and public investment decisions are based on an
+accurate assessment of the current availability of, and future demand for, public facilities and services.” (Public
+Facilities Analysis at p. i, attached as Tab A to Citizens’ Supplemental Memorandum in Support of Plaintiffs’
+Motion for Summary Judgment.)
+
+4851-6193-1783.M0006.001 8
+
+reviewing a land use application. [GC00864-8868, Exh. 82.] Cloudrock argues that the General
+Plan does not prohibit its development, but it provides no evidence to demonstrate that these
+checklist items were considered by the Council when it approved Ordinance 454. The Council’s
+failure to consider the checklist of items in the General Plan to determine whether approval of
+Ordinance 454 would be consistent with the General Plan, including the 1996 Public Facilities
+Analysis, renders the Ordinance 454 illegal and void.
+
+3. The County Failed to Strictly Comply with the Requirements for a Zone Change.
+
+Essentially, Cloudrock argues that its 2006 land use application sought to do more than
+merely amend the County’s 2002 approvals of the Johnson’s Up-on-Top Development; it sought
+to completely replace the 2002 approvals with a new PUD and thereby changed the zone. If this
+Court finds that Ordinance 454 was a legislative PUD rezoning as urged by Cloudrock, and not
+an administrative amendment, then all of the requirements in the Applicable LUC governing
+PUD applications should have been followed by the Council.
+
+Assuming, arguendo, that Cloudrock’s Application constituted a PUD rezone, the public
+notices for Ordinance 454 were fatally deficient as they all failed to identify a zone change had
+been applied for. [R. at GC00325, GC00357.] The published agenda for the February 6 2007
+public hearing only gave notice “for an Amended Preliminary Plat Phase 1 for Johnson’s Up-on-
+Top Mesa Amended PUD.” [R. at GC00374.] The County did not provide the public notice of
+any rezone of the Johnson’s Up-on-Top Mesa Development. It did not give notice even of an
+amendment to the already approved PUD. Rather, it only gave notice of an Amended
+Preliminary Plat Phase 1.
+
+Further, Cloudrock’s Application was incomplete because it was unaccompanied by a
+
+4851-6193-1783.MO006.001 9
+
+title report, a treasurer’s report regarding the status of taxes, a certified boundary survey, a list of
+adjacent owners, or a statement of the applicant, all required for a zone change application under
+the Applicable LUC.'! See Applicable LUC, Art. VI.B.2.a-.h. [R. at GC00102-103.] In response
+to Citizens pointing out that the 2006 land use application was incomplete, Cloudrock refers this
+Court to a Sketch Plan submitted to the Planning Commission in November 2000. [R. at
+GC00775 and GC00143.] However, Cloudrock cannot point to any evidence in the record that
+the necessary documents were submitted with its application in 2006. The 2000 Sketch Plan was
+submitted in support of the land use applications approved by the Council (by resolution) in
+February 2002. [R. at GC00294-297.] Such documents were six years out of date when
+Cloudrock submitted its application for an Amended Preliminary Plat in November 2006. [R. at
+GC00315.] Thus, Cloudrock has not identified any evidence to show that its 2006 application
+was complete.
+CONCLUSION
+
+In failing to adhere to its own land use code, the Council put the interests of a developer
+ahead of the general welfare of the County and failed to address major issues related to the
+development that could adversely affect the health, welfare, livelihood and/or property values of
+Citizens and others. Therefore, Citizens respectfully request this Court to grant its Motion for
+Summary Judgment and either remand the consideration of Ordinance 454 to the Grand County
+
+Board of Adjustment or find the approval of Ordinance 454 to be illegal and void.
+
+‘| Citizens notified the Council that its actions failed to comply with its own ordinances, particularly the procedure
+of Article VI.B in the Applicable LUC governing zoning map and text amendments. [R. at GC00573-584.]
+
+4851-6193-1783.M0006.001 10
+
+Ie
+
+RESPECTFULLY SUBMITTED this day of September, 2010.
+
+SMITH HARTVIGSEN, PLLC
+
+Attorneys for Plaintiffs
+
+4851-6193-1783.M0006.001 11
+
+CERTIFICATE OF SERVICE
+
+, ib
+I hereby certify that on the day of September, 2010, I caused to be mailed via U.S.
+
+mail, first-class postage pre-paid, a true and correct copy of the foregoing to the following:
+
+Michael D. Zimmerman
+
+Wade R. Budge
+
+Troy Booher
+
+SNELL & WILMER L.L.P.
+
+15 West South Temple, Suite 1200
+Gateway Tower West
+
+Salt Lake City, Utah 84101-1004
+Attorneys for Cloudrock
+
+Todd Karl Jenson
+
+GREAT WEST LEGAL, PLLC
+PO Box 1182
+
+Salt Lake City, Utah 84110
+
+Happy J. Morgan
+Grand County Attorney
+125 E. Center Street
+Moab, Utah 84532
+
+Attorneys for Grand County, Utah and the Grand County Council
+
+4851-6193-1783.M0006.001 12

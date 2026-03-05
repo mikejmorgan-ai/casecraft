@@ -1,0 +1,386 @@
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356022...
+
+2019 WL 8356022 (Utah App.) (Appellate Brief)
+Court of Appeals of Utah.
+
+LD III, LLC, a Utah limited liability company, Petitioner/Appellant,
+v.
+MAPLETON CITY, Respondent/ Appellee.
+No. 20190090-CA.
+August 14, 2019.
+District Court Civil No. 170401683
+Appeal from the Final Judgment of the Fourth District Court, Utah County, Provo Division, The Honorable James R. Taylor
+* Oral Argument Requested
+Appellants' Reply Brief
+Eric Johnson (3032), Robert Patterson (15703), Blaisdell, Church & Johnson, LLC, 5995 South Redwood Road, Salt Lake City,
+UT 84123, Telephone: (801) 2612-3407, Email: eric@bcjlaw.net, Email: rob@bcjlaw.net, for respondent/appellee, Mapleton
+City.
+Denver C. Snuffer , Jr.(3032), Nelson, Snuffer, Dahle & Poulsen, P.C., 10885 South State, Sandy, UT 84070, Telephone: (801)
+576-1400, Email: denversnuffer @gmail.com, for petitioner/appellant LD III, LLC.
+PRIORITY NO.: 15
+*ii TABLE OF CONTENTS
+TABLE OF CONTENTS .........................................................................................................................
+TABLE OF AUTHORITIES ....................................................................................................................
+ARGUMENT ............................................................................................................................................
+I. Summary Judgment Was Inappropriate ................................................................................................
+II. Mapleton City Waived Any Right to Contest a Density of Less Than 176 Units ...............................
+III. There Was No Waiver of the Right to Develop More than 92 Units on the Property ........................
+IV. The Original Agreement Was Never Modified to Limit Density to 92 Units ....................................
+V. LDIII Is Not Time Barred From Asserting the Property's Vested Development Rights ......................
+VI. The Property's TDR Receiving Site Status Was Never Properly Removed ......................................
+VII. LD III Succeeded to the Vested Property Rights in the Original Agreement ...................................
+VIII. The Development Agreement Ran With the Land .........................................................................
+IX. The Agreement is Ambiguous ...........................................................................................................
+X. The City Council's 2017 Decision was Not Referable .......................................................................
+CONCLUSION .........................................................................................................................................
+CERTIFICATE OF COMPLIANCE ........................................................................................................
+CERTIFICATE OF SERVICE ..................................................................................................................
+*iii TABLE OF AUTHORITIES
+Court Cases and Other Authorities
+Baker v. Carlson, 2018 UT 59, 437 P.3d 333 (Sup.Ct.) ........................................................
+Gillmor v. Macey, 2005 UT App 351, 121 P.3d 57 ..............................................................
+Heslop v. Bear River Mutual Insurance Co., 2017 UT 5, 390 P.3d 314 ...............................
+IHC Health Services, Inc. v. D&K Management, Inc., 2008 UT 73, 196 P.3d 588 ...............
+Krejci v. City of Saratoga Springs, 2013 UT 74, 322 P.3d 662 ............................................
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+ii
+iii
+1
+1
+2
+3
+5
+6
+7
+10
+11
+12
+13
+16
+17
+18
+
+14, 15
+12, 13
+1
+3
+14
+
+1
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356022...
+
+McCleve Properties, LLC v. D. Ray Hult Family LTD. Partnership, 2013 UT App 185, 307
+P.3d 650 .................................................................................................................................
+Powder Run at Deer Valley Owner Association v. Black Diamond Lodge at Deer Valley
+Association of Unit Owners, 2014 UT App 43, 320 P.3d 1076 ............................................
+Suarez v. Grand County, 2012 UT 72, 296 P.3d 688 ............................................................
+Surety Underwriters v. E&C Trucking, Inc., 2000 UT 71, 10 P.3d 338 ................................
+Town of Marble v. Darien, 181 P.3d 1148 (Colo. 2008) .......................................................
+Constitutions, Statutes, and Regulations
+Utah Code Ann. § 20A-7-101(13) ........................................................................................
+Utah Code Ann. § 20A-7-601 ...............................................................................................
+Utah Code Ann. § 20A-7-601(1) ..........................................................................................
+
+2, 3
+6, 7
+8
+1
+8
+14
+14
+14
+
+*1 ARGUMENT
+I. Summary Judgment Was Inappropriate.
+Mapleton City (“Mapleton”) argues the trial court was correct in granting it summary judgment. Mapleton relies on Heslop v.
+Bear River Mutual Insurance Co., 2017 UT 5, 390 P.3d 314 for the proposition that a court does not have to draw every possible
+inference in favor of the nonmoving party. Heslop states:
+In determining whether a factual dispute exists, we apply an objective standard. The objective standard asks whether reasonable
+jurors properly instructed, would be able to come to only one conclusion, or if they might come to different conclusions, thereby
+making summary judgment inappropriate. But where there could be no reasonable difference of opinion on a question of fact
+in light of the available evidence, the decision is one of law for the trial judge or for an appellate court.
+
+Id. at ¶ 20. “[A] reasonable inference exists when there is a least a foundation in the evidence upon which the ultimate conclusion
+is based while in the case of speculation, there is no underlying evidence to support the conclusion.” Id. at ¶ 22. Here, LD III,
+LLC (“LDIII”) has shown the evidence supports inferences in its favor, which the trial court altogether failed to draw.
+Mapleton also relies on Surety Underwriters v. E&C Trucking, Inc., 2000 UT 71, 10 P.3d 338. The Surety Underwriters court
+stated, “[t]he question before us, however, is whether the court may draw a reasonable inference from the uncontested facts,
+even though adverse to the nonmoving party.” Id. at ¶ 35. The court added, “[t]he law requires that the trial court view the facts
+and all reasonable inferences drawn therefrom in the light most favorable to the nonmoving party.” Id. at ¶ 36.
+*2 Accordingly, while the trial court may make inferences against the nonmoving party, if there is a reasonable inference
+favoring the nonmoving party, the trial court is obligated to make that reasonable inference. Mapleton fails to explain why
+inferences LDIII argues the trial court should have made in its favor are not reasonable. Instead, it argues inferences in its favor,
+and against LDIII, are the only reasonable inferences. That is not the standard.
+II. Mapleton City Waived Any Right to Contest a Density of Less Than 176 Units.
+Mapleton argues any density rights in excess of 92 units were waived. The requirements for waiver are “[1] an existing right,
+benefit or advantage, [2] a knowledge of its existence, and [3] an intention to relinquish it.” McCleve Properties, LLC v. D. Ray
+Hult Family LTD. Partnership, 2013 UT App 185, 307 P.3d 650. Mapleton points this argument in the wrong direction. Under
+the doctrine of waiver, Mapleton was the party that waived any rights it had to cap the Property's density at 92 units, and also
+waived any claim the Property is not entitled to TDR receiving site (“TDR-R”) status.
+Mapleton argues the zoning was set at 92 units. It admits it knew about the zoning cap. Mapleton admits in 2017 it changed
+the Property's base zoning from 92 units to 176 units and it applied a TDR-R status to the Property. Mapleton clearly approved
+the density of 176 units. Therefore, Mapleton intended to relinquish and waive the 92 unit density limit and set it at 176 units.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+2
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356022...
+
+Because of Mapleton's knowing change of the Property's density, if there was a waiver by one of the parties, it was Mapleton
+that waived any right to enforce a 92 unit limit.
+*3 III. There Was No Waiver of the Right to Develop More than 92 Units on the Property.
+Mapleton argues The Preserve, LDIII's predecessor in interest, earlier waived the right to build more than 92 units when it
+applied to change the Property's base zoning from A-2 to PRC-4. Trial courts are cautioned to be especially careful in considering
+evidence in questions of waiver, especially where waiver is merely implied. Id. at ¶ 10. Because waiver is intensely factdependent, district courts should exercise care when granting summary judgment on this issue.” IHC Health Services, Inc. v.
+D&K Management, Inc., 2008 UT 73, ¶ 15, 196 P.3d 588.
+[A] district court is precluded from granting summary judgment if the facts shown by the evidence on a summary judgment
+motion support more than one plausible but conflicting inference on a pivotal issue in the case particularly if the issue turns on
+credibility or if the inferences depend upon subjective feelings or intent.
+
+Id. at ¶ 18 (emphasis in original).
+The intent of the parties is pivotal when considering the issue of waiver. Mapleton clearly did intend to waive the lower density.
+But there is nothing other than an argument based on an unproven inference that The Preserve intended to waive the Property's
+TDR-R status. A change of the Property's base zoning from A-2 to PRC-4 has nothing to do with TDR-R status, because both
+zones allow TDR-R rights. Mapleton ignores that there is no evidence the application to change the Property's base zoning
+mentioned removing or was accompanied with the intention to remove the Property's TDR-R status. Removing the Property's
+TDR-R status was never discussed or mentioned by either of the parties.
+*4 Mapleton makes the unsupported argument that the only “reasonable” inference is that The Preserve intended to remove
+the TDR-R status because it was not mentioned in the application to change the Property's base zoning.1 However, it is equally
+reasonable to infer omitting mention of TDRs implies The Preserve intended to keep the Property's TDR-R status. The Property's
+TDR-R status was not addressed in the Mapleton City Council Meeting and there is no evidence of the application to change
+the Property's base zoning. Because either inference is reasonable, the trial court was required to make the reasonable inference
+in favor of LDIII, which it failed to do. Contrary to Mapleton's argument, there are other reasonable conclusions to be drawn
+from the facts in the record.
+As set forth above, an element of waiver is an intention to relinquish the right. There is no evidence in the record regarding the
+intent of The Preserve or any other party. The only way the trial court could determine The Preserve's intent was by making
+improper inferences in favor of Mapleton when there are equally reasonable inferences to be made in favor of LDIII. Fact finding
+through discovery would allow the trial court to establish The Preserve's intent by direct evidence, not by making inferences
+about the parties' intent. Mapleton makes the unwarranted leap that because it unilaterally, without making the required notices
+and without explicitly addressing the issue, removed the Property's TDR-R status, the only reasonable inference is The Preserve
+intended to relinquish the Property's TDR-R status. It is just as reasonable to infer The Preserve intended to keep the Property's
+TDR-R status.
+*5 IV. The Original Agreement Was Never Modified to Limit Density to 92 Units.
+Mapleton argues the original Development Agreement (“Development Agreement”) was amended when the Property's base
+zoning was changed from A-2 to PRC-4. However, Mapleton ignores the Development Agreement's plain language. It states it
+“shall not be modified or amended except in written form mutually agreed to and signed by each of the parties.” R.48 (emphasis
+added). As Mapleton admits, the trial court did not address whether the agreement was modified. There is no evidence of a
+written instrument, signed by both parties, modifying the Development Agreement.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+3
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356022...
+
+Rather, Mapleton argues the Development Agreement was amended when the Property's base zoning was changed. The only
+way to arrive at Mapleton's conclusion is to make the inference the parties intended to modify the Development Agreement
+when the Property's base zoning was changed. This requires a double inference against LDIII: First, the trial court had to infer
+The Preserve intended to remove the Property's TDR-R status, even though there is no notice or mention of removing it. Then,
+second, the trial court must infer that by doing so The Preserve intended to modify the Development Agreement. Such inferences
+are improper on summary judgment and unsupported by the evidence. It is just as reasonable to infer The Preserve did not intend
+to remove the Property's TDR-R status and therefore did not intend to amend or modify the Development Agreement. This is
+the inference the trial court should have made in favor of LDIII, the non-moving party. If it had done so, summary judgment
+against LDIII could not be granted.
+*6 V. LDIII Is Not Time Barred From Asserting the Property's Vested Development Rights.
+The crux of this issue is whether the failure of Mapleton to give any notice of its alleged intent to remove the Property's TDRR status somehow constitutes notice. It is uncontested Mapleton did not give notice of any intent to remove the Property's TDRR status. It is uncontested when the Property's base zoning was changed from A-2 to PRC-4 there was no mention of removing
+its TDR-R status. It is uncontested the Property's TDR-R status was only changed when Mapleton city staff, in an unnoticed
+administrative act on an unknown date, changed the Property's status on city maps.
+Mapleton argues notice is deemed adequate and proper if not challenged within 30 days after the action or the meeting. Mapleton
+fails to address that it failed to give any notice to anyone of its action amending and deleting the TDR status. Mapleton asks
+this Court to hold that if a municipality fails to give notice of an action it intends to take, and if no one complains about it
+within 30 days from an unpublished date, the municipality can ignore Utah's notice requirements. Such an argument contradicts
+Utah's notice requirements and contradicts the clear language of Utah law. This Court emphasized the time period to challenge
+an enactment of a land use ordinance only applies “[if] the municipality has complied with the notice provisions of Section
+10-9a-295.” Powder Run at Deer Valley Owner Association v. Black Diamond Lodge at Deer Valley Association of Unit Owners,
+2014 UT App 43, n. 6, 320 P.3d 1076. There is no evidence in the record to prove Mapleton *7 complied with Utah's notice
+requirements in a way that would cause a statute of limitations to begin to run.
+Mapleton further argues all of its actions were made in public meetings and became part of the public record. However, it is
+uncontested there was never any notice of Mapleton's alleged intent to remove the Property's TDR-R status. It is uncontested
+the minutes from the Mapleton City Council meeting in which the Property's base zoning was changed from A-2 to PRC-4 do
+not mention removing the Property's TDR-R status. It is uncontested the Property's TDR-R status was sometime later removed
+on an unknown date when Mapleton City staff changed the city maps. Contrary to Mapleton's argument, there is no record
+showing the removal of the Property's TDR-R status was noticed or ever explicitly considered in the public record. The only
+place it can be found is in the map changed by city staff on an unknown date without any public notice or public discussion.
+VI. The Property's TDR Receiving Site Status Was Never Properly Removed.
+Mapleton argues the Property's TDR-R status was removed when the Property's base zoning was changed from A-2 to PRC-4,
+even though there is no mention of its removal in the notice or in the discussion by the Mapleton City Council. Mapleton
+argues it is undisputed it gave notice of the removal of the TDR receiving site status. Mapleton refers to a staff report stating
+the rezoning was “re-public noticed” and that a letter was sent to all property owners within 500 feet of the proposed rezone.
+However, the record cited by Mapleton makes no mention of the removal of the Property's TDR-R status. It only refers to
+changing the Property's base zoning from A-2 to PRC-4. R.490. Mapleton argues, *8 without support, that giving notice of
+a proposed change of the Property's base zoning from A-2 to PRC-4 is sufficient and there is no requirement to give notice of
+a change in the Property's TDR-R status.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+4
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356022...
+
+Mapleton relies on Suarez v. Grand County, 2012 UT 72, 296 P.3d 688 for the proposition its notice of changing the zoning
+from A-2 to PRC-4, without mentioning removal of the property's TDR receiving site status, was sufficient. However, Suarez
+is not applicable here.
+In Suarez, the court considered the adequacy of a notice given by Grand County regarding amending the master plan and
+preliminary plats for a development. See Id. at ¶ 76. The Utah Supreme Court adopted the “reasonable relation” standard for
+the adequacy of notice, which followed the Colorado Supreme Court's reasoning.
+The reasonable relation standard, as explained by the Colorado Supreme Court, states the “notice is sufficient as long as the
+items actually considered at the meeting are reasonably related to the subject matter indicated by the notice.” Id. at 74 (citing
+Town of Marble v. Darien, 181 P.3d 1148, 1152 (Colo. 2008). Here, there is no evidence regarding what was in the notice of any
+meeting. Mapleton cannot cite any part of the record containing the actual notice given. Rather, Mapleton refers to a Mapleton
+City Planning Commission Staff Report. R.490. There is nothing showing the content of the City's notice.
+Further, the document offered by Mapleton refers to the Planning Commission which cannot change zoning. It does not address
+anything related to the consideration of the rezoning by the Mapleton City Council and there is no mention of removing the
+Property's *9 TDR-R status in the Mapleton City Council minutes. Therefore, it was error for the trial court to conclude the
+notice given was adequate when there is nothing in the record showing the contents of the notice.
+Mapleton argues its city code requires rezoning applications include the designation of the specific zone change or title
+amendment desired. Mapleton argues the Planning Commission Staff Report shows the Property was zoned A-2 and A-2 (TDRR) but the zone sought was PRC-4. While the record reflects such statements in the staff report, Mapleton takes them out of
+context to support its argument. Further, there is no mention of the removal of the Property's TDR-R status in the Mapleton
+City Council Minutes.
+It is a logical fallacy for Mapleton to rely on an ordinance setting forth what is required in a zoning application and then rely
+on the staff report rather than the actual zoning application, which would presumably be available to Mapleton. Mapleton's
+argument should fail because they rely on a staff report and conceal the actual application.
+Further, the staff report refers to two different properties, one owned by Jack Perry and the Property at issue here. At the time,
+Perry's property was zoned A-2 and the Property at issue here was zoned A-2 (TDR-R), which explains the dual reference. R.490.
+Although the report refers to the Property's A-2 (TDR-R) status, it never mentions the removal of the Property's TDR-R status.
+Mapleton's argument supports LDIII's position. Mapleton's ordinance requires a rezoning application to include the designation
+of the specific zone change or title amendment desired. Here, the record lacks any specific mention of a change of the *10
+Property's TDR-R status. The only specific mention is the change of the base zoning from A-2 to PRC-4. Because this matter
+was decided on summary judgment, the trial court should have made the reasonable inference that because the removal of the
+Property's TDR-R status was not specifically designated, it was not part of the rezoning application. Such an inference is more
+in line with the requirements of Mapleton's ordinance.
+VII. LDIII Succeeded to the Vested Property Rights in the Original Agreement.
+Mapleton further argues LDIII did not succeed to the vested property rights granted the property in the Development Agreement.
+It argues “Mapleton's approval of SLR's development plan did not create independent free floating vested property rights.”
+However, it is uncontested the Development Agreement states there is a vested right to develop 136 single units. R.41. Therefore,
+there were vested rights attached to the Property.
+Mapleton cites a plethora of cases to support its argument LDIII did not succeed to the vested rights in the Development
+Agreement. However, Mapleton fails to cite a single case dealing with a situation where a subsequent owner came to the
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+5
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356022...
+
+ownership of the property through foreclosure of a trust deed. The cases cited by Mapleton deal with situations of purchase of
+property, title by quit claim deed or sub-purchases. It is uncontested the trust deed deeded all of The Preserves' interest in the
+property to LDIII, including any vested rights.2
+VIII. The Development Agreement Ran With the Land.
+*11 Mapleton argues the Development Agreement runs with the property “only to those who have been previously approved
+by Mapleton.” However, there is no dispute the Development Agreement states it runs with the land. R.47. The Development
+Agreement also states it is binding on the successors and assigns. R.45. In the referenced sections of the Development
+Agreement, there is no condition on when it runs with the land, nor when it is binding on successors.
+Mapleton correctly explains an element of whether the Development Agreement runs with the land is the intent of the parties.
+But once again, Mapleton requests the Court to ignore inferences in favor of LDIII and only make inferences in its favor.
+Mapleton ignores the plain language of the Development Agreement stating it runs with the land. Without any direct evidence
+of the parties' intent, the trial court must make all reasonable inferences in favor of LDIII. It is certainly reasonable to infer
+that because the Development Agreement itself states it runs with the land and is binding on successors, the parties intended
+just that. Therefore, it was error for the trial court to determine the parties did not intend for the Development Agreement to
+run with the land.
+IX. The Agreement is Ambiguous.
+To support its argument the Property's vested rights did not run with the land, Mapleton argues the Development Agreement is
+not ambiguous and its parts can be harmonized. However, Mapleton only harmonizes the Development Agreement's terms by
+ignoring the Development Agreement language stating it runs with the land, it is to be recorded (which Mapleton failed to do)
+and it is binding on all successors. As set forth in *12 LDIII's opening brief, because the Development Agreement contains
+conflicting terms, it is ambiguous and the trial court erred in not taking extrinsic evidence regarding the parties' intent.
+This Court stated:
+Harmonizing conflicting or apparently ambiguous contract language before concluding that provisions are actually ambiguous
+is an important step in the hierarchy of rules for contract interpretation. A trial court must first attempt to harmonize all of the
+contract's provisions and all of its terms when determining whether the plain language of the contract is ambiguous.
+
+Gillmor v. Macey, 2005 UT App 351, ¶ 19, 121 P.3d 57. Here, the trial court entirely ignored the Development Agreement's
+language stating it runs with the land and is to be recorded. It also ignored language stating it is binding on all successors and
+assigns. The trial court neither attempted to harmonize, nor consider in any way, that conflicting and ambiguous language of
+the Development Agreement existed here. Such is error.
+Mapleton relies on Gillmor for the idea that the Development Agreement did not “create free-floating rights” However, Gillmor
+dealt with an easement which was granted and which placed specific limitations on the purposes for which the easement could
+be used. See Id. at ¶ 3. The easement specifically prohibited the use of “three-wheeled motorized All Terrain Vehicles” on the
+easement. See Id. at 4. The original party to the easement died and the easement was used by that person's children. Id. The
+easement specifically stated it was for the benefit of “Gillmor and his immediate family to the first degree of consanguinity, and
+their spouses and children.” Id. at ¶ 15. The Court found the easement “details a specific *13 and limited class of individuals
+who are benefitted by this specific right of vehicular access.” Id. at ¶ 17.
+Here, the Development Agreement does not state it is just for the benefit of Suburban Land Reserve or The Preserve. More
+importantly, the trial court never considered the language in the Development Agreement which states it runs with the land and
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+6
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356022...
+
+is binding on successors and assigns. It never attempted to harmonize any of the conflicting language. It simply ignored any
+language which conflicted with the conclusion to which it came. It was error for the trial court to ignore the contrary language and
+never even consider the contrary and ambiguous language, especially because this matter was decided on summary judgment,
+X. The City Council's 2017 Decision was Not Referable.
+Mapleton failed to respond to the fact that on June 7, 2017 the Property retained its TDR status and the City Council again
+affirmed the Property as a TDR receiving site. Subsequently, a referendum on the November 2017 ballot passed intending to
+reverse the City Council's decision. It is Mapleton's position now that the action the City Council took was reversed by that
+referendum.
+The referendum was illegal and can have no effect. Utah Code § 20A-7-601 deals with local referenda procedures. Utah Code
+§ 20A-7-601(1) provides that “a person seeking to have a local law passed by the local legislative body submitted to a vote of
+the people ....” (Emphasis added.) It is important this refers to a “local law.” Utah Code § 20A-7- 101(13) defines a “local law”:
+“(a)'Local law' includes: (i) an ordinance; (ii) a resolution; (iii) a master plan; (iv) a comprehensive zoning regulation adopted
+by ordinance or resolution; *14 or (v) other legislative action of a local legislative body, (b) 'Local law' does not include an
+individual property zoning decision.” Utah Code § 20A-7-101(13) (emphasis added).
+Mapleton attempts to distinguish Baker v. Carlson, 2018 UT 59, 437 P.3d 333 (Sup.Ct.) by arguing about timing. The question
+of timing is not relevant to whether a referendum can be held. The Baker decision clarifies the earlier decision of Krejci v. City
+of Saratoga Springs, 2013 UT 74, ¶ 34, 322 P.3d 662. Baker and Krejeci both support the proposition that whether a referendum
+is appropriate turns on “[i]f the municipality's decision is ‘open-ended’ and made without reference to ‘fixed criteria,’ then the
+decision may be legislative.” Baker at 339 (citing Krejci ¶ 34). “But if the municipality's decision involves the ‘application
+of existing law to the facts presented by an individual applicant’ or is ‘limited to the evaluation of specific criteria fixed by
+law,’ then the decision is administrative.” Id. Unlike this case, the issue in Baker concerned whether the city should adopt a site
+master development plan for that location, without regard to any specific entity. Id. at 334. Resolution 2018-17, like this case,
+concerned the amendment of an existing Agreement for the Development of Land, which was an agreement between specific
+parties. Id. Because “[t]he Amended ADL applie [d] only to the contracting parties and its approval involved the application of
+law to specific facts Resolution 2018-17 [was] therefore not referable.” Id. at 342.
+Here, the referendum concerned only whether the increased density allowed by the use of TDRs would be specifically allowed
+on the Property. This decision was necessarily made *15 in accordance with the parties' Development Agreement. Therefore,
+it was administrative and not legislative. The trial court was in error in determining that it was referable.
+In 2017 when approving development of the Property, Mapleton complied with all Utah notice requirements for a zoning change.
+But their only act was to confirm the Property retained its TDR-R status! That issue was specifically mentioned in notices and
+was specifically discussed in the Mapleton City Council Meeting. Mapleton allowed a referendum vote on the issue. Yet its
+position in this appeal is based entirely on the opposite position: Notice was not required when it removed the Property's TDRR status, and the issue did not need to be specifically discussed in a city council meeting, and it could be removed by city staff
+changing the city maps. If Mapleton's appeal position is correct, the TDR-R status could have been added through the same
+informal procedure. It is clear Mapleton wants to treat the removal of the Property's TDR-R status as a permitted administrative
+act, but the approval of TDR-R status for the Property must be a legislative action. Either the Property's TDR-R status was
+legislative and improperly removed in 2007, or addressing the TDR-R status is an administrative act which is not appropriate for
+a referendum. It must be one or the other. It cannot be both. Either way, summary judgment for LDIII should have been granted.
+CONCLUSION
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+7
+
+LD III, LLC, a Utah limited liability company,..., 2019 WL 8356022...
+
+Pursuant to the foregoing arguments and law, Appellant respectfully requests this Court reverse the error of the trial court and
+remand for resolution of the party's claims on the merits.
+*16 DATED this 14th day of August, 2019.
+NELSON, SNUFFER, DAHLE & POULSEN
+/s/ Denver C. Snuffer, Jr.
+Denver C. Snuffer, Jr.
+Attorney for Appellant
+
+Footnotes
+Importantly, Mapleton has failed to produce a copy of the application but only refers to parts of a staff report to support its contention
+1
+of what was in the application. Such omission is fatal to Mapleton's claims.
+
+2
+
+Mapleton admits the trial court's ruling was erroneous in footnote 8. It is uncontested the trial court based its ruling LDIII did not
+succeed to the vested property rights on a statute that has no applicability. That alone is sufficient for this Court to remand this issue.
+
+End of Document
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+© 2026 Thomson Reuters. No claim to original U.S. Government Works.
+
+8
+
+

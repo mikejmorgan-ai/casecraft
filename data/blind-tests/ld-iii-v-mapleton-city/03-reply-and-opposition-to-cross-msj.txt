@@ -1,0 +1,2131 @@
+Denver C. Snuffer, Jr. (3032)
+NELSON, SNUFFER, DAHLE & POULSEN, P.C.
+10885 South State Street
+Sandy, Utah 84070
+Telephone: (801) 57686-1400
+Email: denversnuffer@gmail.com
+Attorneys for Petitioner
+IN THE FOURTH JUDICIAL DISTRICT COURT
+UTAH COUNTY, STATE OF UTAH
+*******
+)
+LD III, LLC, a Utah limited liability)
+company,
+)
+)
+Petitioner;
+)
+)
+v.
+)
+)
+MAPLETON CITY,
+)
+)
+Respondent.
+)
+)
+)
+)
+)
+)
+
+M E M O R AN D U M O P P O S I N G
+RESPONDENT'S MOTION FOR
+SUMMARY JUDGMENT AND
+R E P L Y M E M O R AN D U M I N
+SUPPORT OF PETITIONER'S
+MOTI O N F O R S UMMARY
+JUDGMENT
+Civil No. 170401683
+
+Judge James R. Taylor
+
+Pursuant to Rules 7 and 56 of the Utah Rules of Civil Procedure, Petitioner hereby
+submits the following Memorandum Opposing Respondent's Motion for Summary
+Judgment and Reply Memorandum in Support of Petitioner's Motion for Summary
+Judgment1.
+1
+
+Because Respondent filed their m otion and their opposition to Petitioner's m otion as one docum ent
+and did not distinguish in the docum ent what parts were in support of their m otion for sum m ary judgm ent and
+what parts were in opposition to Petitioner's m otion for sum m ary judgm ent, Petitioner will adopt Respondent's
+practice for this m em orandum Petitioner is allowed 25 pages for its opposition to Respondent's m otion for
+sum m ary judgm ent and is allowed 15 pages for its rely m em orandum in support of its m otion. Therefore,
+Petitioner is allowed a total of 40 pages. This m em orandum contains only a total of 32 pages, with 17 of those
+pages dedicated to responding to proposed factual statem ents. Petitioner's argum ent is 15 pages.
+
+TABLE OF CONTENTS
+PREFERRED DISPOSITION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NEW MATTERS RAISED BY RESPONDENT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+PETITIONER'S RESPONSE TO RESPONDENT'S STATEMENT OF ADDITIONAL
+UNDISPUTED FACTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+RECITATION OF STATEMENT OF UNDISPUTED FACTS, RESPONSES AND REPLIES
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+DISCUSSION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+I.
+
+The Referendum Was Improper and Therefore Not Binding . . . . . . . . 17
+
+II.
+
+The Earlier TDR-R Overlay Designation for The Preserve Was Never Legally
+Removed . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+III.
+
+The Development Agreement's Terms Run with the Land . . . . . . . . . . 20
+
+IV.
+
+The Development Agreement Grants the Right to Build 136 Individual Units
+on The Preserve Property . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+
+V.
+
+Statute of Limitations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+
+VI.
+
+Statute of Frauds . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+
+VII.
+
+Estoppel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+
+CONCLUSION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+ORAL ARGUMENT REQUESTED . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+
+ii
+
+TABLE OF AUTHORITIES
+Case Authority
+Billings v. Union Bankers Ins. Co., 819 P.2d 801 (Utah 1991) . . . . . . . . . . . . . . . . . . 16
+Ellis v. Utah State Retirement Board, 757 P.2d 882 (Utah Ct. App. 1988) . . . . . . . . 20
+Flying Diamond Oil v. Newton Sheep Co., 776 P.2d 618 (Utah 1989) . . . . . . . . . 24, 26
+Gold Standard, Inc. v. Getty Oil Co., 915 P.2d 1060 (Utah 1996) . . . . . . . . . . . . . . . 16
+Hansen v. Green River Group,748 P.2d 1102 (Utah Ct. App. 1998) . . . . . . . . . . . . . 23
+Oquirrh Associates v. First National Leasing Company, 888 P.2d 659 (Utah Ct. App.1994)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23, 24
+West v. Case, 2006 UT App 325, 142 P.3d 576 . . . . . . . . . . . . . . . . . . . . . . . . . . 22, 23
+Western Land Equities, Inc. v. City of Logan, 617 P.2d 388 (Utah 1988) . . . . . . . . . 28
+
+Statutes, Rules, Regulations
+Utah Code Ann. § 10-9a-103(29) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+Utah Code Ann. § 10-9a-103 (60) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+Utah Code Ann. § 10-9a-501(1) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+Utah Code Ann. § 10-9a-502(1) and (2) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+Utah Code Ann. § 20A-7-601 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+Utah Code Ann. § 20A-7-101(13) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+Utah R. Civ. P. Rule 56(c) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11, 16
+
+iii
+
+PREFERRED DISPOSITION
+Petitioner requests the Court grant its motion for summary judgment and deny
+Respondent's Motion for Summary Judgment. Respondent has not disputed any of
+Petitioner's facts. The referendum conducted by Mapleton City was illegal. A referendum
+cannot be held on individual zoning decisions according to Utah Code.
+
+Therefore the
+
+action of the Mapleton City Council in 2017 designating the Preserve Property a TDR
+receiving site is valid, despite the referendum.
+However, the designation of the Preserve Property as a TDR receiving site in 2017
+was unnecessary and redundant because the TDR receiving site designation for the
+Preserve Property was never legally removed. Mapleton City received title to 76 acres of
+property in return for designating the Preserve Property a TDR receiving site. In addition,
+Mapleton City gave the Preserve Property a vested right to have 136 individual lots. It is
+clear the right to have the Preserve Property remain a TDR receiving site and the right to
+develop 136 individual lots runs with the land. Therefore, Petitioner is entitled to a
+declaratory judgment that the Preserve Property is a TDR receiving site and it has a vested
+right to 136 units to be developed.
+NEW MATTERS RAISED BY RESPONDENT
+Because Respondent combined its Motion for Summary Judgment with its
+Opposition to Petitioner's Motion for Summary Judgment, it is difficult to understand what
+new matters Respondent raised in responding to Petitioner's Motion for Summary
+Judgment and what matters were raised as part of Respondent's Motion for Summary
+Judgment. Therefore, Petitioner will treat every issued raised not originally in Petitioner's
+
+1
+
+Motion for Summary Judgment as a new issue for the purposes of Petitioner's Reply
+Memorandum.
+Respondent raises the following new matters:
+(1)
+
+LD III, LLC's ("LD III") claims are procedurally barred because LD III did not
+
+timely assert them;
+(2) Mapleton City's actions constitute an implied repeal of the TDR-R overlay zone;
+(3) The Statute of Frauds does not bar the Mapleton City's actions;
+(4) LD III cannot claim the benefits of the 2003 Development Agreement because
+it is barred from enforcing any contractual benefits because of the Statute of Limitations
+and Estoppel;
+(5) LD III cannot claim the benefits of the 2003 Development Agreement because
+it has no rights under the Development Agreement because LD III in not an assignee or
+successor to the Development Agreement or Memorandum of Understanding;
+(6) LD III Cannot claim the benefits of the 2003 Development Agreement because
+it has no rights under the Development Agreement because the covenants of the
+Development Agreement do not run with the land; and
+(7) LD III cannot claim the benefits of the 2003 Development Agreement because
+it has no rights under the Development Agreement because it would be in breach of the
+Development Agreement.
+PETITIONER'S RESPONSE TO RESPONDENT'S STATEMENT OF ADDITIONAL
+UNDISPUTED FACTS
+1. The Utah Code permits municipalities to adopt ordinances regarding the creation
+and us of "transferable development rights" or "TDRs" UTAH CODE § 10-9a-509.7.
+TDRs allow "a land owner in a designated sending zone to transfer land use rights
+2
+
+from a designated sending zone to a designated receiving zone." Id. § 10-9a-103
+(60).
+RESPONSE: Undisputed as far as the relevant code sections are cited correctly.
+2. Mapleton City adopted a TDR ordinance in 1998, which provided that certain
+properties could be designated as "TDR Sending Sites:" and receive a "TDR-S"
+overlay zone in addition to their base zoning status. This requires the owner to
+grant a conservation easement or transfer property to the City on order to prevent
+all future development on that property. Exhibit 17, Ordinance 98-36, §§ 18.90.040,
+060; MCC § 18.76.040, 060.
+RESPONSE: Undisputed as far as the ordinances are cited correctly.
+3. In exchange, the owner would receive TDR certificates, commonly referred to
+simply as "TDRs", based on the size and zoning of the TDR Sending Site property.
+TDRs are a property right that can be bought and sold as any other property
+independently of the property for which they were granted. Exhibit 17, § 18.90.060;
+MCC § 18.76,060; Exhibit 3 ¶¶ 12-13.
+RESPONSE: Undisputed as far as the ordinances are cited correctly.
+4.
+TDRs grant the owner the right to increase the permitted density of a
+development. In effect, TDRs allow for a transfer of density rights from one property
+to another. And the TDRs used for a particular development do not need to come
+from the property sought to be developed. Exhibit 17 § 18.90.070; MCC §
+18.76.070; Exhibit 3 ¶ 12-14 [sic].
+RESPONSE: Undisputed as far as the ordinances are cited correctly.
+5.
+In order to use TDRs, the property must be designated as "TDR Receiving
+Site" on the City's official zoning map, meaning that the property has received
+"TDR-R" zoning in addition to its base zoning status. Exhibit 17 § 18.90.070(1)(a);
+MCC § 18.76.045.
+RESPONSE: Undisputed as far as the ordinances are cited correctly.
+6.
+In 2003, Suburban Land Reserve, Inc. ("Suburban Land Reserve") owned
+approximately 245 acres of real property in Mapleton City ("Preserve Property").
+Exhibit 1, ¶ A.
+RESPONSE: Undisputed.
+
+3
+
+7.
+On May 7, 2003, Suburban Land Reserve entered into a Development
+Agreement with Mapleton City ("Development Agreement"). Exhibit 1.
+RESPONSE: Undisputed.
+8.
+The Development Agreement provides that approximately 76 acres out of the
+approximately 245.6 total acres owned by Suburban Land Reserve, defined as the
+"Upper Open Space" would be transferred to Mapleton City via quit-claim deed and
+re-zoned from CE-1 to CE-1 (TDR-S), meaning it was a Transferable Development
+Right sending site. Exhibit 1 ¶ 2.
+RESPONSE: Undisputed.
+9.
+Suburban Land Reserve further agreed that the Upper Open Space property
+would be conveyed to Mapleton City in exchange for TDRs "on a 5:1 ratio."
+Suburban Land Reserve and Mapleton City agreed that 15 units could have been
+built on the Upper Open Space property and therefore Suburban Land Reserve
+would be entitled to have 75 TDRs that could be transferred to the Preserve
+Property or any other property zoned to receive increased density from TDRs.
+Exhibit 1 ¶ 2.
+RESPONSE: Disputed. The Development Agreement does not state the Upper Open
+Space property would be conveyed to Mapleton City in exchange for TDRs. It states the
+Upper Open Space property shall be conveyed to the City and "therefore, density to be
+transferred shall be transferred on a 5:1 ratio. The parties have agreed that fifteen (15)
+units could have been built on the property designated herein as the Upper Open Space
+and, therefore, Owner shall be entitled to have seventy-five (75) density units transferred
+to the remainder of the Owner Development Property." See Development Agreement,
+attached to Petitioner's Motion for Summary Judgment as Exhibit 1 at ¶ 2. There is no
+mention of TDRs. The Development Agreement states the density is to be transferred to
+the remainder of the property, not that TDRs are to be issued.
+10.
+Ultimately, Suburban Land Reserve received 77 TDRs for its transfer of the
+Upper Portion. Exhibit 1 ¶ 2.
+
+4
+
+RESPONSE: Disputed. The paragraph referred to does not show that Suburban Land
+Reserve received 77 TDRs for its transfer of the Upper Portion. It simply states that
+Suburban Land Reserve would receive a density transferred to the remaining land of a 5:1
+ratio. The paragraph referred to never mentions TDRS. Further, it is only evidence of the
+agreement, not what ultimately happened. See Development Agreement, attached to
+Petitioner's Motion for Summary Judgment as Exhibit 1 at ¶ 2
+11.
+In May 2003, Mapleton City zoned the remaining approximately 170 acres
+as A-2 (TDR-R), meaning it was a Transferable Development Right receiving site
+and could be developed with the use of TDRs. Exhibit 1 ¶ 2; [sic]
+RESPONSE: Disputed. There is nothing in paragraph 2 of the Development Agreement
+that shows the property was rezoned in May 2003. Paragraph 2 simply states "[t]he upper
+portion of the Development Property, consisting of approximately 76 acres (the "Upper
+Open Space") has been rezoned CE-1 (TDR-S) …." There is no mention of when it
+occurred. See Development Agreement, attached to Petitioner's Motion for Summary
+Judgment as Exhibit 1 at ¶ 2
+12.
+Under the A-2 zone, the maximum density allowed is one lot per two acres,
+which would have permitted approximately 85 lots on the 170 acres. MCC §
+18.76.070(B). The same density restrictions apply to the PRC zone what was later
+applied to the Preserve Property. Exhibit 15 at 4.
+RESPONSE: Undisputed.
+13.
+On December 14, 2005, Suburban Land Reserve transferred the Preserve
+Property and its water rights to Craig Thueson via a Special Warranty Deed. Exhibit
+18, SLR-CT Deed.
+RESPONSE: Undisputed.
+14.
+The same day, Craig Thueson transferred the Preserve Property and the
+water rights to The Preserve at Mapleton Development Company, LLC (The
+Preserve at Mapleton") via a Special Warranty Deed. Exhibit 19, CT-PMDC Deed.
+5
+
+RESPONSE: Undisputed.
+15. Also at that same time, Nathan Simpson, on behalf of The Preserve at
+Mapleton, applied for a rezoning of the Preserve Property from A-2 to PRC-4. No
+reference was made regarding the retention of the TDR-R overlay zoning. Exhibit
+7.
+RESPONSE: Undisputed. However, Petitioner objects to any implication that by not
+referencing the TDR-R overlay zoning that it was intended to be removed.
+16.
+Under this application, no TDRs would have been needed because the
+Preserve at Mapleton sought to develop 55 units on 111 acres, or one unit for every
+approximately two acres (the minimum density allowed without TDRs). Exhibit 7;
+Exhibit 15 at 4.
+RESPONSE: Petitioner admits to the contents of the application. However, Petitioner
+disputes the statement that one unit for every approximately two acres was the minimum
+density for the Preserve Property. See Development Agreement, attached to Petitioner's
+Motion for Summary Judgment as Exhibit 1 at ¶ 2 and ¶ 6.
+17.
+On December 21, 2005, the Mapleton City Council took up consideration of
+whether to approve the assignment of the Development Agreement to The Preserve
+at Mapleton. Exhibit 5, CC Meeting Minutes 12/21/05.
+RESPONSE: Undisputed.
+18.
+The City Council meeting minutes reflect that Suburban Land Reserve "had
+sold the property to Craig Thueson subject to City approval to the assignment as
+required under the Development Agreement, to build approximately 55 dwellings."
+Exhibit 5 at 1.
+RESPONSE: Undisputed
+19.
+The City council approved the transfer by voting to adopt a resolution.
+Exhibit 5 at 2. That resolution, numbered 2005-61, provides, "pursuant to section
+10 of the Development Agreement the City has the right to grant or withhold its
+approval of a transfer of the Property," "Suburban Land Reserve has complied with
+certain other provisions of the Development Agreement, such as a transfer of
+certain lands to the City in exchange for Transferable Development Rights,"
+"Suburban has agreed to sell its remaining interest in the Property … to Craig
+6
+
+Thueson subject to the approval of the City to said transfer," "the Preserve has
+agreed to purchase Suburban's remaining interest in the Property subject to the
+terms and conditions of the Development Agreement," "the City Council finds it is
+in the best interest of the City and its citizens for the remaining interest in the
+Property to be developed subject to the terms and conditions of the Development
+Agreement and subject to the further representations by Mr. Thueson and the
+Preserve that no more than 52 homes will be constructed on the Property," and that
+"the City Council approves the transfer of Suburban's remaining interest in the
+Property as further described in the foregoing documents … [which] authorizations
+are subject to Mr. Thueson or the Preserve entering into an agreement with the City
+that no more than 52 homes will be build on the property." Exhibit 6, Resolution
+2005-61, 1-2.
+RESPONSE: Undisputed.
+20. Suburban Land Reserve transferred 67 of its 77 TDRs to The Preserve at
+Mapleton Development Company. Exhibit 3 ¶ 19.
+RESPONSE: Undisputed.
+21. Nathan Simpson, on behalf of the Preserve Property, subsequently amended
+his rezoning application to ask for the rezoning to apply to additional property as
+part of a new development plan allowing for "102 lots on 246 acres, or a density of
+one dwelling unit per 2.4 acres." Exhibit 20, PC Staff Report 4/13/06, at 2. Again,
+no TDRs would have been needed because the density was over the minimum of
+one unit per two acres.
+RESPONSE: Undisputed.
+22.
+On May 17, 2006, the Mapleton City Council rezoned the Preserve Property
+from A-2 (TDR-R) to PRC-4, and the action was formalized as Mapleton City
+Council Resolution No. 2006-15. Exhibit 8; Exhibit 9.
+RESPONSE: Petitioner admits that the Mapleton City Council rezoned the Preserve
+Property from A-2 to PRC-4. Respondents dispute that the TDR-R overlay status was
+removed. There was no mention in any of the ordinances or applications regarding the
+removal of the TDR-R overlay status. Neither the minutes of the Mapleton city Council
+meeting, nor the ordinance mention zoning of A-2 (TDR-R) or the removal of the TDR
+
+7
+
+overlay status.
+
+They simply address the base zoning from A-2 to PRC-4.
+
+See
+
+Respondent's Exhibits 8 and 9.
+23.
+On December 6, 2006, The Preserve at Mapleton executed a Trust Deed
+Note and a Deed of Trust in favor of LD III, LLC (LD, III) [sic]. While the Deed of
+Trust encumbered the Preserve Property, it made no reference to the Development
+Agreement or the TDRs that had ben transferred to the Preserve at Mapleton by
+Suburban Land Reserve. Exhibit 13; Exhibit 14.
+RESPONSE: Undisputed.
+24.
+The Deed of Trust gave LD III the right to appear in or defend any action that
+could affect the Preserve Property. Exhibit 14 at 2, ¶ 4.
+RESPONSE: Undisputed.
+25.
+Mapleton City and the Preserve at Mapleton entered into a "Memorandum
+of Understanding" ("MOU") on January 10, 2007, which Memorandum set[] forth the
+understanding of The Preserve at Mapleton Development Company, LLC … and
+Mapleton City with regard to the final approval" of the Preserve at Mapleton's
+subdivision plats. Exhibit 2.
+RESPONSE: Undisputed.
+26.
+The MOU stated that "[e]verything in this Memorandum shall be in harmony
+with the development agreement" and noted that The Preserve at Mapleton "is the
+authorized assignee" of "that certain Development Agreement dated May 7, 2003
+between Mapleton City and Suburban Land Reserve, Inc." Exhibit 2, Introduction
+& ¶ 2.
+RESPONSE: Undisputed.
+27.
+As described in the Mapleton City Code and Mapleton City staff report dated
+August 7, 2007, a "PRC zone requires a zone text for each proposed subdivision.
+Exhibit 12, at 2 ¶ 2; MCC § 18.82;030. Paragraph 5 of the MOU states that
+"Developer shall submit the Zoning Text for the PRC-4 zone." Exhibit 2 ¶ 5.
+RESPONSE: Undisputed.
+28.
+The zoning text submitted by the Preserve at Mapleton for the PR zone was
+adopted by the Mapleton City Council on August 21, 2007. Exhibit 10 at 3-4; Exhibit
+11; Exhibit 12 at 1-2 & Attachment 2. This zoning text included a provision
+regarding maximum allowed density: "The total density allowed in the Preserve at
+8
+
+Mapleton PRC zone is 92 individual building lots and Common area Buildings. No
+new subdivision lots shall be permitted beyond those originally approved for the
+purpose of increasing this density." Exhibit 11 at 5 (18.82D.110). This provision
+remains part of the PRC-4 zone today. MCC § 18.82D.110.
+RESPONSE: Undisputed.
+29.
+The Preserve at Mapleton defaulted on the Trust Deed on July 26, 2008, and
+the Preserve Property was consequently sold at a trustee's sale held on November
+7, 2008. Exhibit 21, Trustee's Notice of Default; Exhibit 22, Trustee's Deed.
+RESPONSE: Undisputed.
+30.
+LD III purchased The Preserve Property at the trustee's sale and a Trustee's
+Deed was executed and recorded on December 23, 2008. Exhibit 22.
+RESPONSE: Undisputed.
+31.
+Of the 67 TDRs transferred to The Preserve at Mapleton Development
+Company from Suburban Land Reserve in 2006, 55 were transferred to unrelated
+entities to develop properties other than the Preserve Property between 2006 and
+2017, with the remaining 12 TDRs retained by the Preserve at Mapleton
+Development Company. Exhibit 3 ¶ 19.
+RESPONSE: Undisputed.
+32.
+No TDRs resulting from the original Development Agreement were
+transferred to or acquired by LD III. Exhibit 3, ¶ 19. This issue was raised in
+separate litigation between LD III and the Preserve at Mapleton, wherein Judge
+Samuel McVey concluded that the TDRs were "not subject to the … trust deed and
+security agreement" and "[a]ccordingly, none of the Plaintiffs have an interest in the
+TDRs." Exhibit 23, Order in Case No. 090403844, at 3.
+RESPONSE: Disputed. Exhibit 3 is the Declaration of Sean Conroy who is not a judge
+or a lawyer and cannot testify as what was transferred or acquired by LD III. He can testify
+as to what the records of Mapleton City reflect, but not as to whether LD III acquired any
+TDRs. Further, Judge McVey entered two orders in relation to the Preliminary Injunction
+hearing. In open court when ruling, Judge McVey specifically stated that the findings and
+
+9
+
+order he entered were only for the purpose of the Preliminary Injunction hearing.2 The
+issue of LD III's interest in the TDRs has yet to be determined. See Petitioner's Exhibit A
+hereto, copy of Transcript of Judge McVey's Ruling.
+33.
+Neither LD III nor the Preserve at Mapleton requested or received approval
+from Mapleton City in connection with the execution of the Trust Deed Note and
+Deed of Trust or the subsequent transfer of the Preserve Property from the
+Preserve at Mapleton to LD III through the trustee's sale and deed. Neither LD III
+nor the Preserve at Mapleton entered into an agreement with the City regarding the
+promissory note, deed of trust, trustee's sale and deed, or the rights of the owner
+of the Preserve Property. Exhibit 3 ¶ 8.
+RESPONSE: Undisputed.
+34.
+On or about January 13, 2017, nearly a decade after acquiring the Preserve
+Property from the Preserve at Mapleton, LD III entered into a Real Estate Purchase
+Contract to sell the Preserve Property to Balton Development, led by Mr. Andy Ball
+("Balton Development"). Complaint ¶ 23; Answer ¶ 23; Exhibit 15, at 3.
+RESPONSE: Undisputed.
+35.
+Balton Development approached Mapleton City with a development plan for
+The Preserve Property in April and May of 2017 that required the use of TDRs and
+therefore the rezoning of the Preserve Property to allow for the use of TDRs.
+Exhibit15, at 1, 3-4.
+RESPONSE: Disputed. Whether a rezoning of the property to allow for the use of TDRs
+was necessary is the very issue in this dispute. See Complaint.
+36.
+On June 7, 2017, the Mapleton City Council approved Balton Development's
+request to designate the Preserve Property as a TDR receiving site. Exhibit 24, CC
+Meeting Minutes 6/7/17, at 2-3.
+RESPONSE: Undisputed.
+37.
+The re-designation of the Preserve Property as a TDR receiving site was
+subsequently reversed through a referendum vote. Complaint ¶¶ 27-30; Answer ¶¶
+27-30.
+
+2
+
+See Transcript (attached as Exhibit 1), page 4, lines 4-7.
+
+10
+
+RESPONSE: Respondent admits only that a referendum was held and the result of the
+voting was to reverse the action of the Mapleton City Council. However, as set forth below,
+the referendum was illegal and had no effect.
+38.
+Mapleton City's official zoning maps from 2003 and June 20, 2006, show that
+the Preserve Property was designated A-2 (TDR-R).. [sic] The zoning maps from
+May 7, 2007, August 29, 2008, March 21, 2012, and February 2, 2017, show the
+Preserve Property zone as PRC-4 with no TDR overlay. Exhibit 3 ¶¶ 23-25 &
+Exhibit B.
+RESPONSE: Undisputed.
+
+RECITATION OF STATEMENT OF UNDISPUTED FACTS, RESPONSES AND REPLIES.
+Rule 56(a)(2) of the Utah Rules of Civil Procedure requires a party opposing a
+motion for summary judgment to include a "verbatim restatement of each of the moving
+party's facts that is disputed with an explanation of the grounds for the dispute supported
+by citing materials in the record." Respondent only included a verbatim restatement of
+Petitioner's facts numbers 7, 8, 10, 11, 14, 15, 16, 24 and 25. Therefore, Petitioner's
+statement of facts numbers 1-6, 9, 12-13 and 17-23 are undisputed and deemed admitted.
+Petitioner replies to Respondent's response to Petitioner's other statement of facts as
+follows:
+7. The Development Agreement states it is binding on the successors and assigns
+of Suburban Land Reserve. See Development Agreement at ¶ 19.
+RESPONSE: LD III's characterization of the rights of successors and assigns of the
+Development Agreement is incomplete and misleading. Paragraph 19 of the
+Development Agreement does provide, "This Agreement shall be binding on the
+successors and assigns of Owner [Suburban Land Reserve]." Exhibit 1,
+Development Agreement ¶ 19. That paragraph continues by discussing the process
+through which "an approved purchaser of the Project or any portion thereof' [sic]
+takes on the obligations of the Development Agreement. Exhibit 1 ¶ 19 (emphasis
+11
+
+added). LD III omits entirely any discussion of paragraph 10 of the Development
+Agreement, entitled "Assignment of Agreement." Exhibit 1 ¶ 10. That paragraph
+provides, "Owner's rights under this Agreement shall be personal to Owner and
+shall only run with the land so long as Owner ora company which is affiliated with
+or under common ownership and control or Owner shall own and be the Owner of
+the Property. In the event that Owner shall advise City of such intention. Only
+upon the express prior written approval by the City, shall any rights of Owner
+with respect to the potion [sic] of the Property being sold be deemed
+transferred to the new owner thereof. Exhibit 1 ¶ 10 (emphasis added).
+REPLY: Respondent fails to dispute Petitioner's fact. Respondent's response is nothing
+but legal argument and an attempt to posit its own facts in a response, which is not in
+accord with the Utah Rules of Civil Procedure. Respondent admits the text of the
+paragraph at issue. Therefore, this fact is undisputed.
+8.
+
+The Development Agreement states "public notice of this Agreement shall
+
+be recorded immediately as a covenant running with the Property herein described
+…." See Development Agreement at ¶ 21 (emphasis added).
+RESPONSE: Again, LD III's statement is incomplete and misleading. Paragraph
+21 of the Development Agreement provides that after the rezoning was finalized, "this
+Agreement or a memorandum providing public notice of the existence of this Agreement
+shall be recorded immediately as a covenant running with the Property herein described
+in order to put prospective purchasers or other interested parties on notice as to the
+terms and provisions hereof." Exhibit 1 ¶ 21 (emphasis added). LD III again omits
+paragraph 10, which provides in part that "Owner's rights under this Agreement shall be
+personal to Owner and shall only run with the land so long as Owner or a company
+which is affiliated with or under common ownership and control of Owner shall own
+and be the Owner of the Property." Exhibit 1 ¶ 10 (emphasis added). The Development
+Agreement was never recorded, and nothing referencing the Development Agreement was
+recorded until September 2008. Exhibit 3, Declaration of Sean Conroy ¶ 7; Exhibit 4,
+Recorded Documents Regarding MOU.
+REPLY: Once again Respondents do not dispute Petitioner's statement of fact. Rather,
+it confirms it. Respondent's response is nothing but legal argument and an attempt to posit
+
+12
+
+its own facts in a response, which is not in accord with the Utah Rules of Civil Procedure.
+Respondent admits the text of the paragraph at issue. Therefore, this fact is undisputed.
+10.
+
+On December 14, 2005, Suburban Land Reserve transferred the Preserve
+
+Development Property, along with water rights and TDRs, to Craig Thueson via a Special
+Warranty Deed. See Exhibit 4, Special Warranty Deed.
+RESPONSE: LD III's Exhibit 4, the Special Warranty Deed conveying property
+between Suburban Land Reserve and Craig Thueson, does not purport to transfer any
+TDR certificates. The deed makes no reference to TDRs. The City's records show that
+Suburban Land Reserve received 77 TDR certificates and transferred 67 of those
+certificates to The Preserve at Mapleton and the other 10 to John May who has no
+connection to this lawsuit. Exhibit 3 ¶ 19 & Exhibit A.
+REPLY: Respondent does not dispute Petitioner's fact. Respondent admits the TDRS
+were transferred in relation to the sale of the land. Therefore, the fact is admitted.
+11.
+
+The same day, Craig Thueson transferred the Preserve Development
+
+Property, water rights and TDRs to The Preserve at Mapleton Development Company, LLC
+("The Preserve at Mapleton") via a Special Warranty Deed. See Exhibit 5, Special
+Warranty Deed.
+RESPONSE: Again, LD III's Exhibit 5, a Special Warranty Deed conveying property
+between Craig Thueson and The Preserve at Mapleton, does not purport to transfer any
+TDR certificates. The deed makes no reference to TDRs. The Preserve at Mapleton
+received 67 TDRs directly from Suburban Land Reserve. Exhibit 3 ¶ 19 & Exhibit A.
+REPLY: Respondent once again fails to dispute this fact. Respondent admits that TDRs
+were transferred. Therefore, the fact is admitted.
+14.
+
+As part of approving the transfer of the Development Agreement and
+
+approving the plats for a subdivision, Mapleton City changed the zoning of The Preserve
+property from A-2 to a PRC zone. See Complaint at ¶ 18 and Answer at ¶ 18.
+
+13
+
+RESPONSE: While the City does not dispute that the City changed the Preserve
+Property's zoning from A-2 (TDR) to PRC-4, LD III omitted several key facts, including: (a)
+the rezoning was done at the express request of the Preserve at Mapleton; Exhibit 7,
+Application for Rezoning; (b) the rezoning took place between 2006 and 2007, with several
+steps, hearings, and ordinances involved, Exhibit 8, CC Meeting Minutes 5/17/06, Exhibit
+9, Ordinance 2006-15, Exhibit 10, CC Meeting 7/8/07, Exhibit 11, Ordinance 2007-18; (c)
+the City and the Preserve at Mapleton entered into a Memorandum of Understanding in
+2007 regarding development and zoning of the Preserve Property, Exhibit 2, Memorandum
+of Understanding; (d) the text of the PRC zoning ordinance that was applied to the
+Preserve Property was drafted by the Preserve at Mapleton, Exhibit 10, at 3-4, Exhibit 12,
+CC Staff Report 8/7/07, at 1-2; (e) the PRC zoning text that was proposed and adopted
+restricted development of the Preserve Property to 92 units and expressly prohibited any
+increase in density, Exhibit 11, at 5 (18.82D.110), Exhibit 12, Attachment 2, at 5
+(18.82D.110). The City addresses these events more fully below.
+REPLY: Once again Respondent does not dispute the statement of fact and therefore it
+is admitted. Respondent attempts to posit its own facts in a response to a statement of
+fact which is not in accord with the Utah Rules of Civil Procedure and therefore any
+statement of fact made in the response should be stricken.
+15.
+
+On May 17, 2006, the Mapleton City Council approved a change of the
+
+zoning of the Preserve Development Property from A-2 to PRC-4 and the action was
+formalized as Mapleton City Council Resolution No. 2006-15. See Exhibit 7, Mapleton
+City Council Meeting Minutes and Exhibit 8, Ordinance No. 2006-15.
+RESPONSE: Again, the City does not dispute that this event took place, but that
+LD III has omitted much of the relevant and material surrounding facts described more fully
+in the City's response to statement of fact 14.
+REPLY: Respondent admits the statement of fact and therefore there is no dispute.
+Petitioner objects to the use by Respondent of a response to Petitioner's facts as a way
+to posit its own facts. Any such facts should be stricken.
+16.
+
+On December 6, 2006, The Preserve at Mapleton executed a promissory
+
+note and a Deed of Trust in favor of LD III, LLC. ("LD, III"). The Deed of Trust encumbered
+14
+
+the Preserve Development Property. See Exhibits 9 and 10, Trust Deed Note and Trust
+Deed with Assignment of Rents.
+RESPONSE: The City does not dispute that the Preserve at Mapleton executed the
+documents. Nothing in those documents references or incorporates an assignment of the
+Development Agreement or the TDR certificates that were issued to Suburban Land
+Reserve and transferred to the Preserve at Mapleton. Exhibit 13, Trust Deed Note; Exhibit
+14, Trust Deed.
+REPLY: This fact is undisputed. The response by Respondent is nothing but legal
+argument and is not allowed in a response to a statement of fact and should therefore be
+stricken.
+24.
+
+Maps of the Preserve Development Property from Mapleton City show that
+
+the Preserve Development Property was designated A-2 (TDR-R) from 2003 until 2007.
+See Exhibit 14, zoning maps of Mapleton City.
+RESPONSE: As described by Sean Conroy, the Mapleton City Community Director,
+the official zoning maps of Mapleton City show as follows: "The maps dated 2003 and June
+20, 2006, show that the Preserve Property was designated A-2 (TDR-R), meaning it was
+eligible for development with TDRs. The maps dated May 7, 2007, August 29, 2008,
+March 21, 2012, and February 2, 2017, show the Preserve Property zoned as PRC-4 with
+no TDR overlay, indicating that it was not eligible for development with TDRs." Exhibit 3
+¶¶ 23-25 & Exhibit B.
+REPLY: Petitioner fails to dispute the statement of fact and in fact confirms it. Therefore
+the fact is admitted. The response by Respondent is nothing but legal argument which is
+inappropriate for a response to a statement of fact and therefore should be stricken.
+25.
+
+The Mapleton City Ordinance for PRC zones specifically allows the use of
+
+TDRs to increase the density in PRC zone. See Exhibit 15, PRC Planned Residential
+Community at §18.82.070.
+RESPONSE: The PRC zone is designed to apply to individual developments in
+order to achieve a particular development theme, and it requires both a zoning text
+15
+
+designed specifically for that development and a development agreement with the City.
+MCC § 18.82.010. 030, 150. The zoning ordinance must "indicate the total density of the
+project: and "that no new subdivision lots shall be permitted beyond that which was
+originally approved, for the purpose of increasing the density." MCC § 18.82.030(K).
+Likewise, the development agreement must "detail[] the entire project [and] the total
+amount of units or lots." MCC § 18.82.150. Thus while the City's ordinance setting forth
+the guidelines for PRC zones generally provides that TDRs may be used to increase the
+overall density," it is the development agreement and the PRC zone text that applies to the
+specific development that governs the actual density allowed on the lot, including whether
+TDRs are necessary to achieve that density. The PRC-4 zoning ordinance that applies
+specifically to the Preserve Property provides that "[t]he total density allowed in the
+Preserve at Mapleton PRC-4 zone is ninety two (92) individual building lots and common
+area buildings. No new subdivision lots shall be permitted beyond those originally
+approved for the purpose of increasing this density." MCC § 18.82D.110 (emphasis
+added). Because the underlying density allowed on the Preserve Property under the City's
+general plan is two acres per lot, and because the Preserve Property encompasses 240
+acres of property, no TDRs were or are necessary to develop 92 units, the maximum
+number of lots allowed under the current PRC-4 zone. Exhibit 15, CC Staff Report 5/3/17,
+at 4-5; Exhibit 16, CC Staff Report 6/7/17, at 2.
+REPLY: Once again Respondent fails to dispute the factual statement and therefore it is
+admitted. Respondent simply uses the response as an opportunity to posit its own facts
+and to make legal argument. Such is not permitted by the Utah Rules of Civil Procedure
+and therefore the response should be stricken.
+DISCUSSION
+Summary judgment is only proper when there is no genuine issue as to any material
+fact and the moving party is entitled to judgment as a matter of law. See Rule 56(c),
+U.R.C.P.; Gold Standard, Inc. v. Getty Oil Co., 915 P.2d 1060, 1063 (Utah 1996) (quoting
+Billings v. Union Bankers Ins. Co., 819 P.2d 801, 805 n.2 (Utah 1991)). As is evident from
+the foregoing response by Mapleton City to Petitioner's statement of facts, there is no issue
+of material fact regarding Petitioner's Motion for Summary Judgment and the Court can
+rule as a matter of law. Regarding Mapleton City's statement of facts, there are material
+
+16
+
+issues and disputes regarding those facts and therefore there are no undisputed material
+facts upon which to base summary judgment for Mapleton City.
+I.
+
+The Referendum Was Improper and Therefore Not Binding
+
+On June 7, 2017, even though it was unnecessary and redundant, the Mapleton City
+Council again designated the Preserve Property as a TDR receiving site. Subsequently,
+opponents of that decision were allowed to present a referendum on the November 2017
+ballot which, if passed, would reverse the Mapleton City Council's decision.
+
+The
+
+referendum passed. It is Mapleton City's position the action it took was reversed and
+therefore, the Preserve Property does not possess the TDR receiving site zoning overlay
+status.
+However, Mapleton City should never have allowed the referendum vote to occur.
+It was illegal and can have no effect. Utah Code Annotated § 20A-7-601 deals with local
+referenda procedures. Utah Code Annotated § 20A-7-601(1) provides that "a person
+seeking to have a local law passed by the local legislative body submitted to a vote of
+the people …." (Emphasis added.) It is important to note it refers to a "local law." Utah
+Code Annotated § 20A-7-101(13) defines a "local law": "(a)'Local law' includes: (i) an
+ordinance; (ii) a resolution; (iii) a master plan; (iv) a comprehensive zoning regulation
+adopted by ordinance or resolution; or (v) other legislative action of a local legislative body.
+(b) 'Local law' does not include an individual property zoning decision." Utah Code
+Ann. 20A-7-101(13) (emphasis added).
+Mapleton City has throughout their pleadings referred to the TDR-R overlay status
+as a zoning status. The action by the Mapleton City Council to apply a TDR-R status to
+
+17
+
+the Preserve Property was therefore an individual property zoning decision. It only applied
+to the individual Preserve Property. It was not eligible for a referendum vote and the 2017
+action by the Mapleton City Council in approving the TDR-R status for the Preserve
+Property is not affected by the referendum. The referendum is invalid and not binding.
+Therefore, the Preserve Property retains a TDR-R overlay zoning designation.
+II.
+
+The Earlier TDR-R Overlay Designation for The Preserve Was Never
+Legally Removed
+
+Mapleton City's primary argument is that the Preserve Property does not possess
+a TDR-R overlay status because it was removed in 2006/2007 when the underlying zoning
+was changed from A-2 to PRC-4. Mapleton City fails to offer any evidence showing the
+TDR-R overlay status was removed in conformity with Utah law. Mapleton City conflates
+the issues of zoning status and TDR overlay status. Mapleton City fails to demonstrate
+when the TDR-R status was specifically removed and what formalities were observed.
+Rather, it argues that the it "impliedly repealed the previous TDR-R designation."
+An implied change of the TDR-R overlay status, without public notice and a public
+meeting in which that issue is addressed, fails to comply with Utah law. Utah Code
+specifically states that "only a legislative body may enact land use regulation." Utah Code
+Ann. § 10-9a-501(1). The removal of the TDR-R overlay status by a city administrator or
+city staff could not be legal. Utah Code further states the term "land use regulation" means
+"an ordinance, law, code, map, resolution, specification, fee, or rule that governs the use
+or development of land." Utah Code Ann. § 10-9a-103(29). As defined by the statute, the
+removal of a TDR-R status is a land use regulation. Only the Mapleton City Council can
+enact land use legislation.
+18
+
+However, the Mapleton City Council never specifically removed the TDR-R status
+for the Preserve Property. The only action taken by the Mapleton City Council was to
+rezone the Preserve Property from A-2 to PRC-4 and the subsequent alteration of the city
+map by city staff.
+Contrary to Mapleton City's arguments, rezoning a parcel may change the zoning
+classification, but it does not affect its TDR overlay status. There is difference between a
+zoning classification and a TDR-R overlay status. The TDR overlay status "overlays" the
+zoning classification. Therefore, as set forth in Mapleton City Ordinances, a piece of
+property may be zoned A-2 with a TDR-R overlay status, it may be zoned CE-1 with a
+TDR-S overlay status, or among other possibilities, a piece of property may be zoned PRC4 with a TDR-R overlay status, which is what happened here.
+Mapleton City could not "impliedly" remove the TDR-R status of the Preserve
+Property, especially when it received valuable consideration (title to 76 acres) for the
+designation in the first place. Such a result is repugnant to justice and equity, and is not
+supported by Utah law.
+Utah law requires that before any land use regulation is adopted by a municipality,
+it must provide notice and hold a public hearing. See Utah Code Ann. § 10-9a-502(1) and
+(2). Mapleton City admits that it did not do so. Instead, Mapleton City argues that when
+it rezoned the Preserve Property from A-2 to PRC-4, the TDR-R overlay was impliedly
+removed. Mapleton City cannot produce any document to show the removal of the TDR-R
+overlay was discussed in any public meeting, or that notice of a meeting in which removal
+of the TDR-R overlay status of the Preserve Property was on the agenda. The TDR-R
+
+19
+
+status of the Preserve Property was never properly removed. It is only convenient now in
+this litigation for Mapleton City to argue that it was "impliedly" removed, when in fact such
+action is illegal and never took place.
+Mapleton City admits, and cites Utah case law for the proposition, that under Utah
+law implied repeals are not favored. "As a general proposition, implied repeals are not
+favored and are found only if there is a manifest inconsistency or conflict between the
+earlier and later statutes." Ellis v. Utah State Retirement Board, 757 P.2d 882, 884
+(Utah Ct. App. 1988). The Ellis court went on to state, "[s]ubsequently enacted statutes
+relating to the same subject matter as previous statutes are, if possible, to be construed
+so as to make the later enactments harmonious with the former provisions." Id. (citations
+omitted).
+Mapleton City fails to show a "manifest inconsistency or conflict" between the earlier
+and later statutes. It is not inconsistent for a property to be zoned PRC-4 with a TDR-R
+overlay. In fact, the Mapleton City Ordinance for PRC zones specifically allows the use of
+TDRs to increase the density in PRC zone. See Exhibit 15 to Petitioner's Motion for
+Summary Judgment, PRC Planned Residential Community at §18.82.070. Therefore,
+there is no manifest inconsistency or conflict and the doctrine of implied repeal cannot be
+applied.
+III.
+
+The Development Agreement's Terms Run with the Land
+
+Mapleton City argues that the Development Agreements terms are personal to
+Suburban Land Reserve and Mapleton City and do not run with the land. To support its
+argument, Mapleton City relies on paragraph 10 of the Development Agreement, titled
+
+20
+
+"Assignment of Agreement." However, paragraph 10 speaks in terms of when the owner
+sells the property. It states that "in the event the Owner intends to sell the Property or any
+portion thereof to any other party, Owner shall advise city of such intention. Only upon the
+express prior written approval by the City, shall any rights of Owner with respect to the
+portion of the Property being sold be deemed transferred to the new owner thereof." See
+Development Agreement, ¶ 10 (Emphasis added).
+Here, the Preserve Property was not purchased from the owner. LD III was forced
+to foreclose on its Deed of Trust. It is not a purchaser from the owner. Rather, LD III is a
+secured creditor that was forced to foreclose on the property. While LD III is a successor
+in interest, it was not a purchaser and therefore paragraph 10 does not apply.
+Further, paragraph 19 is titled "Successors and Assigns." It states the "Agreement
+shall be binding on the successors and assigns of Owner." It then addresses issues when
+there is an approved purchaser. There is no requirement that a successor or assign must
+be an approved purchaser.
+Further, paragraph 21 is titled "Recording of Agreement." It states, "the ordinance
+rezoning the Property shall be finally executed and this Agreement or a memorandum
+providing public notice of the existence of this Agreement shall be recorded immediately
+as a covenant running with the Property herein described in order to put prospective
+purchasers or other interested parties on notice as to the terms and provisions hereof."
+(Emphasis added).
+Mapleton City points to the language of the Development Agreement which states
+that the rights under the Development Agreement are "personal to Owner and shall only
+
+21
+
+run with the land so long as Owner or a company which is affiliated with or under common
+ownership and control of Owner shall own and be the Owner of the Property."
+
+If this
+
+statement in the Development Agreement controls, there would never have been a reason
+to record the Development Agreement or a memorandum to give prospective purchasers
+or other interested parties notice of the terms of the Agreement. Suburban Land Reserve
+obviously knew of the terms of the Agreement, as did Mapleton City. Therefore, the only
+reason to record the Development Agreement would have been so others knew that the
+terms that applied to the property. Mapleton City failed to record the Development
+Agreement and therefore, LD III was not on notice of its terms.
+Rather, to harmonize the document with itself, it makes sense to construe it as
+requiring only a purchase of the property to be approved by Mapleton City, but acquiring
+the property through foreclosure not subject to approval by Mapleton City. It then makes
+sense that the recording of the document or another document giving notice of the
+Development Agreement's terms is required. If the Development Agreement is personal
+to Suburban Land Reserve and Mapleton City, there is no reason to record the document
+to give public notice.
+Mapleton City cites several cases for the proposition that acquisition of property that
+is the subject of an agreement does not make the acquiring party a successor or assignee
+of the agreement. Mapleton City first cites West v. Case, 2006 UT App 325, 142 P.3d 576.
+However, this matter is readily distinguishable from West. In West, a party was attempting
+to hold another party, who was not part of the agreement, liable for the obligations imposed
+by the agreement.
+
+Id.
+
+That is not the case here.
+
+22
+
+Mapleton City, a party to the
+
+Development Agreement, is attempting to avoid performance of its duty under the
+Development Agreement. Also, there is no indication in West that the agreement stated
+it ran with the land or that it was a right vested in the property. Here, the Development
+Agreement states it is to run with the property and that it is a vested right, and that it was
+to be recorded. Therefore, West is not applicable to this matter.
+Mapleton City also relies on Hansen v. Green River Group,748 P.2d 1102 (Utah Ct.
+App. 1998) to support their argument that the Development Agreement does not apply to
+LD III. Once again, the case cited is readily distinguishable from this case. In Hansen, the
+Hansens claimed a filled in real estate purchase contract evolved into an express
+assignment of all right and duties and an express assumption of all debt and payment
+obligations of a prior similar contract. See Id. at 1104. There is no mention of any terms
+running with the land or any vested rights in the property, as there are here. Therefore,
+Hansen is not applicable to this situation.
+Mapleton City also relies on Oquirrh Associates v. First National Leasing Company,
+888 P.2d 659 (Utah Ct. App.1994). However, in Oquirrh Associates, it was argued that the
+terms of a real estate purchase contract were assigned via a quit claim deed. See Id. at
+663. The court found the quit claim deed did not assign the contract when it contained
+language that it applied to "heirs, executors, administrators, successors and assigns of the
+respective parties hereto and the benefits shall inure to the Buyer or its assignee." Id.
+Once again in that case, a party was attempting to enforce obligations imposed by the
+contract on a non-party to the agreement. See Id. The court found the contract referring
+to heirs, executors, administrators, successors and assigns of the parties "can only refer
+
+23
+
+to those who succeed to one party's interest in the contract through inheritance,
+assignment, or the like." Id. (emphasis added). The court did not give any guidance on
+what it meant by "or the like."
+The issue in Oquirrh Associates was very different than the issue presented here.
+The key issue in Oquirrh Associates concerned what rights passed via a quit claim deed.
+See Id. This matter deals with a foreclosure, a covenant that runs with the land and a
+trustee's deed, not a quit claim deed.
+Mapleton City argues that the terms of the Development Agreement cannot run with
+the land because "in order for a covenant to run with the land, it must be recorded."
+Mapleton City cites Flying Diamond Oil v. Newton Sheep Co., 776 P.2d 618 (Utah 1989)
+to support its proposition that an agreement must be recorded to run with the land.
+Mapleton City refers the Court to page 628 to support its statement that the court found the
+agreement had to recorded to run with the land. However, there is no language in Flying
+Diamond Oil that states a covenant that runs with the land must be recorded.
+The Flying Diamond Oil court stated that for a covenant to run with the land, "(1)
+[t]he covenant must 'touch and concern' the land; (2) the covenanting parties must intend
+the covenant to run with the land; and (3) there must be privity of estate." Id. at 622
+(citations omitted). There is no mention of a requirement that it must be recorded.
+The touch and concern requirement focuses on the nature of the burdens and
+benefits of the covenant.
+What is essential is that the burdens and benefits created must relate to the
+land and the ownership of an interest in it; the burdens and benefits received
+are not the personal duties or rights of the parties to a covenant that exist
+independently from the ownership of an interest in the land.
+24
+
+Id. at 623 (citations omitted).
+The distinction between covenants which run with the land and covenants
+which are personal, must depend upon the effect of the covenant on the
+legal rights which otherwise flow from ownership of land and which are
+connected with the land. The problem then is: Does the covenant in purpose
+and effect substantially alter these rights?
+Id.
+The court added, "[t]hus, to touch and concern the land, a covenant must bear upon
+the use and enjoyment of the land and be of the kind that the owner of an estate or interest
+in land may make because of his ownership right." Id. "If the performance of a covenant
+can be enforced regardless of one's status as owner of an interest in the land, the
+covenant is personal …." Id. at 624 (citations omitted). "A real covenant bestows a benefit
+or imposes a burden only on the rights of a landholder, as landholder." Id. Further, "The
+test for whether a covenant touches and concerns the land is whether it enhances the
+land's value …." Id.
+Here, it is clear the terms if the Development Agreement touch and concern the
+land. The density and the TDR-R status certainly relate to the land. The terms of the
+Development Agreement alter the rights that flow from the ownership of the property. The
+terms of the Development Agreement affect the use and enjoyment of the property and the
+terms of the Development Agreement can only be enforced by the land owner. The terms
+of the Development Agreement certainly enhance the value of the property by giving it a
+vested right to develop 136 units and to be a TDR receiving site.
+The second requirement is that the original parties must have intended that the
+covenant run with the land. "An express statement in the document creating the covenant
+that the parties intend to create a covenant running with the land is usually dispositive of
+25
+
+the intent issue. The parties' intent may also be implied by the nature of the covenant
+itself. Id. at 627 (citations omitted). Here, the Development Agreement states that it is
+meant to run with the property. Further, the nature of the terms of the Development
+Agreement show it was meant to run with the land. First, Mapleton City received, and
+retains to this day, title to 76 acres of property it received as consideration. In return,
+Mapleton City gave the Preserve Development Property a density of 136 units. Mapleton
+City has kept the consideration it received but now seeks to eliminate the consideration it
+gave for the 76 acres. The covenant running with the land prevents that unjust result.
+The last requirement is there must have been privity of estate between the original
+parties. There is no argument that Suburban Land Reserve and Mapleton City were in
+privity. However, the court in Flying Diamond Oil stated, "a covenant created in connection
+with a conveyance of an estate from one of the parties to another" creates privity of estate.
+Id. at 628. Here, Suburban Land Reserve conveyed property to Mapleton City.
+There is no requirement that the covenant be recorded. Further, if there were,
+Mapleton City is the party who failed to record the Development Agreement. It cannot now
+complain that is was not recorded. To do so at this point invokes the doctrine of laches,
+which precludes such an argument. Accordingly, as set forth above, the terms of the
+Development Agreement run with the land and can be enforced by LD III.
+Lastly, LD III believes that the Development Agreement was prepared by Mapleton
+City. Therefore, it should be construed against Mapleton City and any questions regarding
+its intent resolved in LD III favor. Therefore, any questions about whether the Development
+Agreement runs with the land should be resolved in LD III's favor.
+
+26
+
+IV.
+
+The Development Agreement Grants the Right to Build 136 Individual
+Units on The Preserve Property
+
+Contrary to Mapleton City's argument and its reading of the Development
+Agreement, it clearly gives the Preserve Property the right to have 136 building lots.
+Paragraph 6 of the Development Agreement, titled "Approved Density" states that there
+is a
+vested right to develop a maximum of one hundred thirty-six (136) single
+family residential units on individual lots. Seventy (70) of such units shall be
+located in the interior of the Property as shown on the Master Plan and shall
+be constructed on smaller lots organized as a planned unit development to
+permit the common maintenance of landscaping ad other commonly owned
+improvements constructed upon applicable portions of the Property.
+See Development Agreement, ¶ 6. It also states, "[s]aid lots shall be a minimum of .64
+acres in size, net streets, roads and other dedications." Id.
+Contrary to Mapleton City's arguments, the Development Agreement does not state
+that TDRs must be used or that the issuance of the TDRs to Suburban Land Reserve were
+the consideration for the transfer of title to 76 acres to Mapleton City. Rather, the
+Development Agreement states that the Preserve Property is approved for 136 units build
+on individual lots, with a minimum lot size of .64 acres. The right to build 136 units was
+"vested." Now, Mapleton City attempts to take away that "vested" right.
+In paragraph 4, the Development Agreement addresses "Reserve Legislative
+Powers." It states:
+Nothing in this Agreement shall limit the future exercise of the police powers
+of City in enacting zoning, subdivision, development, growth management,
+platting, environmental, open space, transportation and other and use plans,
+policies, ordinances and regulations after the date of this Agreement.
+Notwithstanding the retained power of City to enact such legislation under its
+police power, such legislation shall not alter Owner's rights as set forth herein
+27
+
+unless facts and circumstances are present which meet the compelling,
+countervailing public interest exception to the vested rights doctrine as set
+forth in Western Land Equities, Inc. v. City of Logan, 617 P.2d 388 (Utah,
+1988) or successor case law. Any such proposed change affecting Owner's
+rights shall be of general application to all development activity in the
+City. Unless City declares an emergency, Owner shall be entitled to prior
+written notice and an opportunity to be heard with respect to the proposed
+change and its applicability to th Project.
+See Development Agreement at ¶4. The Development Agreement clearly states that the
+right to build 136 units is a vested right and that the only way Mapleton City can remove
+the right to 136 units is through the exercise of its police powers and through a change that
+is applicable to all activity in Mapleton, not just the Preserve Property.
+Mapleton City, through its attorney, in a public forum, admitted that the Preserve
+Property has the right to build 136 units. Mapleton City's attorney, Eric Johnson, stated
+"that Plats A, B, and C were subject to a development agreement for 136 lots and if you
+continued the additional plats you have a total of 191 lots which is a higher density than
+the current applicant is applying for." The statement, made through Mapleton City's
+counsel, is an admission by Mapleton City that the Preserve Development Property has
+the right for 136 lots. Mapleton City argues that in return for receiving 76 acres of real
+property on Maple Mountain, that it issued 77 TDRs.
+
+However, the Development
+
+Agreement relied upon by Mapleton City does not mention TDRs. It speaks in terms of
+transferring density to the Preserve Property. There is absolutely no mention of TDRs.
+V.
+
+Statute of Limitations
+
+Mapleton City argues LD III is foreclosed from challenging the TDR overlay status
+of The Preserve because it did not do so within 30 days after a decision or enactment.
+Mapleton City argues the decision or enactment took place in May 2006 when the City
+28
+
+approved rezoning the Preserve Property as a PRC-4 zone. Mapleton City argues that
+because the application for the rezone requested a rezone to PRC-4 and not to PRC-4
+(TDR-R). Its argument ignores that there was no need to ask for a rezone to PRC-4 (TDRR) because the property already possessed TDR-R status. It did not have to be rezoned
+to be a TDR receiving site. Contrary to Mapleton City's argument, whether TDR were
+required for a particular development proposal does not affect whether the property
+possessed TDR-R status.
+Further, LD III cannot be prevented from challenging the action taken by Mapleton
+City when such action was taken in secrecy, without any notice or public hearing. How was
+LD III to know that its rights were at issue when there was no hearing regarding the
+removal of the TDR(R) status. Mapleton City in essence argues that because the issue
+of the repeal of the TDR-R status for the Preserve Property was never discussed in a
+public meeting by the Mapleton City Council and it was "impliedly" repealed, that LD III is
+now prevented from challenging the illegal action taken by Mapleton City.
+Mapleton City argues that "it is clear that the City treated the 2006 application for
+a rezone request to remove the TDR-R overlay." Mapleton City fails to set forth how it was
+made clear at the time. The only evidence it can point to is its own action in removing the
+TDR-R overlay status and the change it made to the city map. Further, the issue is not
+how Mapleton city treated the 2006 application. The issue is that Mapleton City could not
+remove the TDR-R status for the Preserve Property without public notice and a public
+meeting regarding that issue. Mapleton City cannot produce any evidence the removal of
+
+29
+
+the TDR-R status was ever noticed or discussed in a public meeting. They simply
+arbitrarily changed the city maps, without the required steps mandated by the Utah Code.
+Further, Mapleton City fails to consider that the Mapleton City Council designated
+the Preserve Property as a TDR-R site in 2017. A referendum vote took place November
+7, 2018. This action was filed November 14, 2018. Therefore, it is not barred by any
+relevant statute of limitations.
+The removal of the TDR-R status for the Preserve Property that Mapleton City
+argues occurred in 2007 was never properly noticed and there was no public meeting as
+required by Utah law. Mapleton City cannot act in secret and then complain LD III did not
+act in time to protect its rights.
+VI.
+
+Statute of Frauds
+
+Mapleton City also argues that the Statute of Frauds does not apply to the removal
+of the TDR-R status for the Preserve Property. However Mapleton City fails to recognize
+that it received valuable consideration in the form of title to 76 acres in return for the TDRR overlay status. Further, Mapleton City cites case law that a zoning of property is not
+considered a property interest. However, once again Mapleton City, when it suits it,
+conflates zoning with TDR-R status. As previously set forth, TDR status is a zoning overlay
+and not a zoning designation. The existence of the TDR-R status is a valuable property
+interest that is not a zoning interest. Further, Mapleton City ignores that the TDR-R status
+became a "vested" property right that ran with the land.
+
+30
+
+VII.
+
+Estoppel
+
+Mapleton City also argues that LD III is estopped from claiming the City has
+wrongfully denied its request to a particular density. Mapleton City argues LD III is bound
+by its predecessor's in interest actions or inactions. However, it does not present any
+support for its claim. Mapleton City further argues LD III failed to act to protect its interest.
+Such an argument ignores that Mapleton City failed to record the Development Agreement
+and therefore LD III was not put on notice of its terms. It had no reason to take any action.
+Mapleton City continues to argue that a change from an A-2 zoning to a PRC-4 zoning in
+some way affected the TDR overlay status, even when the TDR overlay status was not
+mentioned in any of the public meetings or in any of the documents. LD III had no notice
+Mapleton intended for its rights to be in peril.
+Mapleton City also argues it acted in reasonable reliance on The Preserve at
+Mapleton's actions. Once again, the Preserve at Mapleton is not LD III. Mapleton relied
+on nothing from LD III. Lastly, Mapleton City argues it would suffer injury. The injury it
+posits is that it may be sued by LD III. Their reasoning is preposterous. If LD III is allowed
+to develop the Preserve Property pursuant to the Development Agreement, it would have
+no reason or grounds to sue Mapleton City. An imagined injury to Mapleton City is purely
+speculative and is unsupported.
+CONCLUSION
+The facts are uncontested in this matter. It is uncontested that Mapleton City
+received title to 76 acres of property and in return Mapleton City granted a vested right to
+construct 136 units on the Preserve Property and Mapleton City designated the Preserve
+
+31
+
+Property as a TDR receiving site. It is uncontested that Mapleton City never noticed a
+meeting or held a meeting in which the removal of the TDR receiving site status was
+discussed in a public meeting. Further, it is clear the that referendum vote which occurred
+in November was not legal and is of no effect. Therefore, the Mapleton City Council's
+action in re-designating the Preserve Property a TDR receiving site is still applicable,
+despite the result o the illegal referendum vote. It is clear that the covenants regarding the
+TDR receiving site status and the right to construct 136 units on the Preserve Property run
+with the land.
+
+Therefore, the Court should grant Petitioner's Motion for Summary
+
+Judgment and deny Respondent's Motion for Summary Judgment.
+ORAL ARGUMENT
+Petitioner hereby request oral argument.
+DATED this 6th day of April, 2018.
+NELSON, SNUFFER, DAHLE & POULSEN, P.C.
+/s/ Denver C. Snuffer, Jr.
+Denver C. Snuffer, Jr.
+Attorney for Petitioner
+
+32
+
+CERTIFICATE OF SERVICE
+I hereby certify that on this 6th day of April, 2018, I served a true an correct copy of
+the foregoing MEMORANDUM OPPOSING RESPONDENT'S MOTION FOR SUMMARY
+JUDGMENT AND REPLY MEMORANDUM IN SUPPORT OF PETITIONER'S MOTION
+FOR SUMMARY JUDGMENT on the following by mailing the same, United States mail,
+postage prepaid, addressed as follows:
+Eric Johnson
+BLAISDELL, CHURCH & JOHNSON, LLC
+5995 South Redwood Road
+Salt Lake City, Utah 84123
+eric@bcjlaw.net
+
+/s/ Denver C. Snuffer, Jr.
+Denver C. Snuffer, Jr.
+
+33
+
+EXHIBIT 1
+
+MOWER v. SIMPSON
+November 30, 2012
+
+TRANSCRIPT OF JUDGE'S RULING
+
+IN THE FOURTH DISTRICT COURT, UTAH COUNTY
+PROVO DEPARTMENT, STATE OF UTAH
+________________________________________________
+LESLIE D. MOWER, an
+Individual, et al.
+
+:
+:
+:
+Plaintiffs,
+:
+TRANSCRIPT OF
+:
+JUDGE'S RULING
+-vs:
+:
+DAVID R. SIMPSON an
+:
+individual, et al.,
+:
+Case No. 090403844
+:
+Judge Samuel D. McVey
+Defendants.
+:
+:
+and
+:
+:
+KOAMALU PLANTATION
+:
+INVESTMENT, LLC, et al. :
+:
+Rule 19 Defendants. :
+________________________________________________
+Date:
+
+November 30, 2012
+
+1
+ANN M. LOVE, RPR, CCR
+801.538.2333
+
+MOWER v. SIMPSON
+November 30, 2012
+
+TRANSCRIPT OF JUDGE'S RULING
+
+A P P E A R A N C E S
+For Plaintiffs:
+
+BART J. BAILEY
+WILLIAM T. JENNINGS
+Bailey & Jennings
+585 South State Street
+Orem, Utah 84058
+Telephone: 801-426-8600
+
+For Defendants CRAIG CARLILE
+Simpson, et al.:
+Ray Quinney & Nebeker
+86 N. University Avenue, Suite 430
+Provo, Utah 84601-4420
+Telephone: 801-342-2400
+
+2
+ANN M. LOVE, RPR, CCR
+801.538.2333
+
+MOWER v. SIMPSON
+November 30, 2012
+
+1
+
+November 30, 2012
+
+2
+3
+
+TRANSCRIPT OF JUDGE'S RULING
+
+2:30 p.m.
+
+P R O C E E D I N G S
+THE COURT:
+
+Looking at the irreparable harm
+
+4
+
+standard, there's an overlying--well, first of all,
+
+5
+
+the debris basin, the temporary restraining order is
+
+6
+
+released on that, because there's lack of evidence--
+
+7
+
+insufficient evidence to support it on that.
+
+8
+
+the parties have acknowledged that.
+
+9
+
+I think
+
+Looking at the irreparable harm issue, the
+
+10
+
+overarching reason why you can't have a temporary
+
+11
+
+restraining order on these other things, that would be
+
+12
+
+the preserve, the Hawaii property, the water and the
+
+13
+
+bond, assuming that they are covered by the security
+
+14
+
+agreement, is that you have a security agreement
+
+15
+
+there, you have a--you have a remedy there and so you
+
+16
+
+don't need an extraordinary remedy.
+
+17
+
+temporary restraining order is denied on that basis.
+
+18
+
+Now, looking at some other grounds, let's
+
+And so the
+
+19
+
+look at the Hawaii property.
+
+20
+
+evidence is that the managers are not doing anything
+
+21
+
+wrong, that Ms. Mower is secured on that, and she'll
+
+22
+
+have to be--she's entitled to be included in the
+
+23
+
+obligations.
+
+24
+
+things are going, I guess she can try and foreclose on
+
+25
+
+her interest.
+
+Right now the only
+
+If she doesn't like the things--way
+
+But--but right now the preponderance of
+
+3
+ANN M. LOVE, RPR, CCR
+801.538.2333
+
+MOWER v. SIMPSON
+November 30, 2012
+
+TRANSCRIPT OF JUDGE'S RULING
+
+1
+
+evidence standard has not been met to show that
+
+2
+
+there's some type of breach of fiduciary duty there
+
+3
+
+for purposes of today's hearing.
+
+4
+
+And all of these rulings, of course, are just
+
+5
+
+for purposes of today's hearing.
+
+6
+
+all of this that you gents still have to do discovery,
+
+7
+
+but...
+
+8
+
+And I recognize in
+
+With regard to the preserve, given the--given
+
+9
+
+the Utah Supreme Court's predilection to follow the
+
+10
+
+Restatements when there's Utah law on point, it would
+
+11
+
+appear that Ms. Mower does control the property under
+
+12
+
+that merger document.
+
+13
+
+all of her interest there and so you really can't find
+
+14
+
+irreparable harm.
+
+15
+
+again.
+
+16
+
+She's been able to take care of
+
+She's--she is protected there,
+
+Given the TDRs, the only evidence right now
+
+17
+
+is that those are not associated with the preserve.
+
+18
+
+We're looking at the city zoning map.
+
+19
+
+associated with the preserve, and so they're not--so I
+
+20
+
+think under the--under the issue of likelihood of
+
+21
+
+success on the merits, right now that standard has not
+
+22
+
+been met by the plaintiff--plaintiffs.
+
+23
+
+Those are not
+
+The bond, it does--it does appear that it's
+
+24
+
+probably covered by the security agreement.
+
+25
+
+other hand, the funds came from the preserve.
+
+On the
+They
+
+4
+ANN M. LOVE, RPR, CCR
+801.538.2333
+
+MOWER v. SIMPSON
+November 30, 2012
+
+TRANSCRIPT OF JUDGE'S RULING
+
+1
+
+were a loan to the preserve and the funds ultimately
+
+2
+
+would be traced back to the lender, the plaintiffs.
+
+3
+
+But on the other hand, those funds came from the
+
+4
+
+preserve.
+
+5
+
+which would be the loan balance.
+
+6
+
+Those were deposited with preserve assets,
+
+But on the other hand again, you gen--the
+
+7
+
+plaintiffs do have a security interest, it would
+
+8
+
+appear, in those.
+
+9
+
+have an interest in them, they don't necessarily own
+
+10
+
+them.
+
+11
+
+interest.
+
+12
+
+the likelihood of success on the merits standard.
+
+13
+
+They don't own them at this--they
+
+They have to foreclose, I suppose, to get that
+So then again, I don't really see meeting
+
+The water, I think that the security interest
+
+14
+
+would appear to be broad enough to include that for
+
+15
+
+today's purposes, where it--but on the other hand, it
+
+16
+
+only includes it if--if the water shares are somehow--
+
+17
+
+I mean, they have to be associated with the property.
+
+18
+
+Otherwise, anything that the Simpsons own privately or
+
+19
+
+anything like that for another development in
+
+20
+
+conjunction with another partner or something of that
+
+21
+
+nature, you would have to say that the security
+
+22
+
+agreement would go out and sweep all of that in.
+
+23
+
+Now, the clause after--it says "appurtenant
+
+24
+
+or associated with the property" is pretty broad.
+
+25
+
+says irrigation ditches, water shares, so forth and so
+
+It
+
+5
+ANN M. LOVE, RPR, CCR
+801.538.2333
+
+MOWER v. SIMPSON
+November 30, 2012
+
+TRANSCRIPT OF JUDGE'S RULING
+
+1
+
+on.
+
+2
+
+Mr. Warren indicated that the Mapleton water shares
+
+3
+
+had absolutely nothing to do with the preserve and
+
+4
+
+were all assigned elsewhere.
+
+5
+
+that there's a likelihood of success on the merits
+
+6
+
+there, based on his testimony.
+
+7
+
+that--that you're successful there.
+
+But on the other hand, the testimony of
+
+And so I don't think
+
+And so I don't think
+
+8
+
+And so regarding the balance of harm, I'm not
+
+9
+
+really going to reach that standard, other than to say
+
+10
+
+that when you weigh the equities in this matter I
+
+11
+
+would agree that there is a potential for harm.
+
+12
+
+on the other hand, you have to link that back to the
+
+13
+
+irreparable harm standard and say that Ms. Mower has
+
+14
+
+an opportunity to prevent that harm with other
+
+15
+
+remedies that she has without resorting to an
+
+16
+
+extraordinary writ--an extraordinary remedy.
+
+17
+
+But
+
+And then as far as the public policy--I would
+
+18
+
+agree that there's--there's probably a public policy
+
+19
+
+against letting someone waste or hide assets.
+
+20
+
+this case, the assets seem to me to be tied up under
+
+21
+
+the security agreement.
+
+22
+
+those to--and they're easily traceable, the water
+
+23
+
+shares; TDRs, if I'm wrong today; the--the Hawaii
+
+24
+
+property; the--you know, the--and again, the only
+
+25
+
+testimony today from Mr. Sumsion is that that property
+
+But in
+
+And so anybody that they sell
+
+6
+ANN M. LOVE, RPR, CCR
+801.538.2333
+
+MOWER v. SIMPSON
+November 30, 2012
+
+TRANSCRIPT OF JUDGE'S RULING
+
+1
+
+is tied up because the state won't do anything with it
+
+2
+
+unless Ms. Mower signs up for the agreement.
+
+3
+
+But--or the preserve, everybody would take--
+
+4
+
+take their interest subject to Ms. Mower's interest,
+
+5
+
+assuming she's the senior lienholder, and it appears
+
+6
+
+that she probably is.
+
+7
+
+we can say that there's any violation of public
+
+8
+
+interest in refusing to grant the TRO.
+
+9
+
+And so I really don't see where
+
+So because there's an adequate remedy, which
+
+10
+
+defeats the irreparable harm standard; because on a
+
+11
+
+couple of these points there is not a likelihood of
+
+12
+
+success on the merits--for purposes of today's
+
+13
+
+hearing, that has not been shown, at least for--on the
+
+14
+
+evidence presented today; and because the balance of
+
+15
+
+harm--balancing the equities would not support issuing
+
+16
+
+a TRO, since again, relating back, Ms. Mower does have
+
+17
+
+an opportunity to foreclose out her interest and she
+
+18
+
+is protected by the secured interest laws, the Court
+
+19
+
+must deny the temporary restraining order.
+
+20
+
+Counsel has reques--counsel for defendants
+
+21
+
+has requested attorney's fees.
+
+22
+
+MR. BAILEY:
+
+Your Honor, I--
+
+23
+
+THE COURT:
+
+He'll have to submit a--
+
+24
+
+MR. BAILEY:
+
+--neglected to address that.
+
+25
+
+THE COURT:
+
+Okay.
+
+Well, he's going to have
+
+7
+ANN M. LOVE, RPR, CCR
+801.538.2333
+
+MOWER v. SIMPSON
+November 30, 2012
+
+TRANSCRIPT OF JUDGE'S RULING
+
+1
+
+to submit an affidavit under Rule 72, because I'm not
+
+2
+
+going to make Calli stay here anymore tonight.
+
+3
+
+submit an affidavit.
+
+4
+
+on that, but that would be--it's typically done under
+
+5
+
+Rule 72, unless you want to cross-examine Mr. Carlile,
+
+6
+
+which I'll let you do--on that motion, which I would
+
+7
+
+let you do at some future date.
+
+8
+
+can submit a--you can submit an affidavit and we'll
+
+9
+
+take a look at it.
+
+10
+11
+
+So
+
+You've got to present evidence
+
+So you can both--you
+
+Okay?
+
+Will you prepare an order on this,
+Mr. Carlile?
+
+12
+
+MR. CARLILE:
+
+13
+
+THE COURT:
+
+Yes.
+Okay.
+
+Thank you, gentlemen.
+
+14
+
+And, you know, at some point we ought to talk on this
+
+15
+
+about getting this case moved along, whether we need
+
+16
+
+to do either bellwether trials or bifurcated trials or
+
+17
+
+whatever, whatever is going to work.
+
+18
+
+have some discovery to do, but I am interested in--in
+
+19
+
+assisting you in whatever way I can to get issues
+
+20
+
+resolved in this matter.
+
+21
+
+I know you still
+
+And I don't know whether you've talked about
+
+22
+
+mediation.
+
+23
+
+you got some real jerk mediator, maybe he'd be able to
+
+24
+
+get you together.
+
+25
+
+those, as you know.
+
+Maybe that's just a hopeless task, but if
+
+I don't know.
+
+There are some of
+
+Okay.
+
+8
+ANN M. LOVE, RPR, CCR
+801.538.2333
+
+MOWER v. SIMPSON
+November 30, 2012
+
+1
+2
+
+TRANSCRIPT OF JUDGE'S RULING
+
+So any other questions about the ruling
+today?
+
+3
+
+MR. CARLILE:
+
+4
+
+THE COURT:
+
+5
+
+okay?
+
+6
+
+Okay.
+
+No, Your Honor.
+Was it--was it--were my grounds
+
+You understood the grounds?
+
+7
+
+Okay.
+
+Very good.
+
+MR. BAILEY:
+
+Could I--just one clarification
+
+9
+
+THE COURT:
+
+Yes.
+
+10
+
+MR. BAILEY:
+
+The Court's going to hold the
+
+8
+
+11
+
+there.
+
+bond until the attorney's fee issue is--
+
+12
+
+THE COURT:
+
+Well--well, yes, we'd do that.
+
+13
+
+don't know if you filed a surety bond or a property
+
+14
+
+bond or--
+
+15
+
+MR. BAILEY:
+
+It was a cash bond.
+
+16
+
+THE COURT:
+
+--money.
+
+17
+
+Okay.
+
+18
+
+issue is resolved.
+
+It was a cash bond?
+
+Yeah, we'll--we'll safe-keep that until that
+Okay?
+
+19
+
+MR. BAILEY:
+
+Okay.
+
+20
+
+THE COURT:
+
+Thank you very much, gentlemen.
+
+21
+
+I
+
+Court's in recess.
+
+22
+
+MR. CARLILE:
+
+23
+
+(The hearing was concluded.)
+
+24
+
+* * *
+
+25
+
+* * *
+
+Thank you.
+
+9
+ANN M. LOVE, RPR, CCR
+801.538.2333
+
+MOWER v. SIMPSON
+November 30, 2012
+
+TRANSCRIPT OF JUDGE'S RULING
+
+C E R T I F I C A T E
+
+STATE OF UTAH
+
+)
+: ss.
+
+COUNTY OF SALT LAKE
+
+)
+
+I, Ann M. Love, a Registered Professional
+Reporter and Notary Public within and for the State of
+Utah, do hereby certify:
+That the foregoing tape-recorded proceedings were
+transcribed into typewriting under my direction and
+supervision and that the foregoing pages contain a
+true and correct transcription of said proceedings to
+the best of my ability to do so.
+IN WITNESS WHEREOF, I have hereunto subscribed my
+name and seal this 30th day of January 2013.
+
+_______________________________
+ANN M. LOVE, RPR
+
+10
+ANN M. LOVE, RPR, CCR
+801.538.2333
+
+
