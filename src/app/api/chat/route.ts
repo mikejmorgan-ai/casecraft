@@ -18,8 +18,8 @@ export async function POST(request: NextRequest) {
     if (!userId) {
       return new Response('Unauthorized', { status: 401 })
     }
-    const supabase = getSupabase()
-    const serviceSupabase = getSupabase()
+    const supabase = await getSupabase()
+    const serviceSupabase = await getSupabase()
 
     const {
       messages: rawMessages,

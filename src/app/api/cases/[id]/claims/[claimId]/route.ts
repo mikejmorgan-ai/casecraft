@@ -51,7 +51,7 @@ export async function GET(
         401
       )
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     // Verify case exists
     const { data: caseData } = await supabase
@@ -121,7 +121,7 @@ export async function PUT(
         401
       )
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     // Verify case ownership
     const { data: caseData } = await supabase
@@ -222,7 +222,7 @@ export async function DELETE(
         401
       )
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     // Verify case ownership
     const { data: caseData } = await supabase

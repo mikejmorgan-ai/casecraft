@@ -24,7 +24,7 @@ export async function GET(
     if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     // Verify user owns the case
     const { data: caseData, error: caseError } = await supabase
@@ -77,7 +77,7 @@ export async function POST(
     if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     // Verify user owns the case
     const { data: caseData, error: caseError } = await supabase
@@ -156,7 +156,7 @@ export async function PATCH(
     if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     // Verify user owns the case
     const { data: caseData, error: caseError } = await supabase
@@ -226,7 +226,7 @@ export async function DELETE(
     if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     // Verify user owns the case
     const { data: caseData, error: caseError } = await supabase

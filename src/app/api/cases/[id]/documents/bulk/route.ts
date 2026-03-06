@@ -59,7 +59,7 @@ export async function POST(
     if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     // Verify case exists and belongs to user
     const { data: caseData } = await supabase

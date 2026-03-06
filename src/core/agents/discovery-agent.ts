@@ -10,7 +10,8 @@
 
 import { writeFile, mkdir, copyFile, access } from 'fs/promises'
 import { join, dirname, basename } from 'path'
-import { documentIndexer, BatesEntry } from '@/lib/case-ledger'
+import { documentIndexer } from '@/lib/case-ledger/indexing'
+import type { BatesEntry } from '@/lib/case-ledger'
 import { searchByRole, validateWithBracketedTerms, formatResultsForContext } from '@/lib/pinecone/search'
 import type { AgentFindings, SourceCitation } from '../controller'
 

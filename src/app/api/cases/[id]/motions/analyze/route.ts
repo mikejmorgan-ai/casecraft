@@ -89,7 +89,7 @@ export async function POST(
     if (!userId) {
       return new Response('Unauthorized', { status: 401 })
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     const { motion_text, document_id } = await request.json()
 

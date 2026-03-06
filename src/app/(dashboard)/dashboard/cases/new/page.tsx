@@ -15,13 +15,13 @@ export default async function NewCasePage() {
 
   try {
     const userId = await getAuthUserId()
-    if (!userId && !hasBetaBypass) redirect('/login')
+    if (!userId && !hasBetaBypass) redirect('/sign-in')
 
     // Check permissions (default to attorney for beta bypass)
     const profile = userId ? await getUserProfile() : null
     userRole = profile?.role || 'attorney'
   } catch {
-    if (!hasBetaBypass) redirect('/login')
+    if (!hasBetaBypass) redirect('/sign-in')
   }
 
   if (!hasPermission(userRole, 'cases:create')) {

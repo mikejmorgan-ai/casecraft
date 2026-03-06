@@ -28,8 +28,8 @@ export default async function CasesPage() {
 
   try {
     const userId = await getAuthUserId()
-    if (!userId && !hasBetaBypass) redirect('/login')
-    const supabase = getSupabase()
+    if (!userId && !hasBetaBypass) redirect('/sign-in')
+    const supabase = await getSupabase()
 
     // Get user profile for permissions (default to attorney for beta bypass)
     const profile = userId ? await getUserProfile() : null
@@ -54,7 +54,7 @@ export default async function CasesPage() {
 
     casesList = cases || []
   } catch {
-    if (!hasBetaBypass) redirect('/login')
+    if (!hasBetaBypass) redirect('/sign-in')
   }
 
   // Calculate stats

@@ -10,7 +10,7 @@ export default async function ImportTestPage() {
   const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
 
   const userId = await getAuthUserId()
-  if (!userId && !hasBetaBypass) redirect('/login')
+  if (!userId && !hasBetaBypass) redirect('/sign-in')
 
   return (
     <div className="min-h-screen bg-[var(--color-legal-cream)]">

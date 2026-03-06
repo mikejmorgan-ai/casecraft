@@ -16,8 +16,8 @@ export default async function EvidencePage({
 
   try {
     const userId = await getAuthUserId()
-    if (!userId && !hasBetaBypass) redirect('/login')
-    const supabase = getSupabase()
+    if (!userId && !hasBetaBypass) redirect('/sign-in')
+    const supabase = await getSupabase()
 
     // Fetch case with related data
     const { data: caseData, error: caseError } = await supabase
@@ -121,7 +121,7 @@ export default async function EvidencePage({
       </div>
     )
   } catch (err) {
-    if (!hasBetaBypass) redirect('/login')
+    if (!hasBetaBypass) redirect('/sign-in')
     notFound()
   }
 }

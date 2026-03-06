@@ -141,7 +141,7 @@ export async function POST(
     if (!userId) {
       return new Response('Unauthorized', { status: 401 })
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     const body: BriefDraftRequest = await request.json()
     const {

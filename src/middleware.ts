@@ -23,7 +23,7 @@ export default clerkMiddleware(async (auth, request: NextRequest) => {
 
   if (!userId && !hasBetaBypass) {
     const url = request.nextUrl.clone()
-    url.pathname = '/login'
+    url.pathname = '/sign-in'
     return NextResponse.redirect(url)
   }
 

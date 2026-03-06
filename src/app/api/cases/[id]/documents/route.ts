@@ -48,7 +48,7 @@ export async function GET(
     if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     const { data, error } = await supabase
       .from('documents')
@@ -77,7 +77,7 @@ export async function POST(
     if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     // Verify case ownership
     const { data: caseData } = await supabase
@@ -189,7 +189,7 @@ export async function DELETE(
     if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     // Get file path before deleting
     const { data: doc } = await supabase

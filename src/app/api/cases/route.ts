@@ -104,7 +104,7 @@ export async function GET() {
         401
       )
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     const { data, error } = await supabase
       .from('cases')
@@ -148,7 +148,7 @@ export async function POST(request: NextRequest) {
         401
       )
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     // Parse request body
     let body: unknown

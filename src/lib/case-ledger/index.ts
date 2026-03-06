@@ -31,16 +31,8 @@ export {
   temporalService
 } from './services'
 
-// Document indexing
-export type {
-  IndexingResult,
-  SourceIndexResult
-} from './indexing'
-
-export {
-  DocumentIndexer,
-  documentIndexer
-} from './indexing'
+// Document indexing — server-only, import directly from './indexing' in API routes
+// Removed from barrel export to avoid pulling fs/promises into client bundles
 
 // Utility functions for case management
 export function getCurrentCaseName(): string {

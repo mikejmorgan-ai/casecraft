@@ -113,7 +113,7 @@ export async function POST(request: NextRequest) {
         401
       )
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     // Parse multipart form data
     let formData: FormData

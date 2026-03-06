@@ -18,7 +18,7 @@ export default async function AdminLayout({
   const { userId } = await auth()
 
   if (!userId && !hasBetaBypass) {
-    redirect('/login')
+    redirect('/sign-in')
   }
 
   let userRole: UserRole = 'attorney'
