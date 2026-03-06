@@ -51,3 +51,6 @@ next-env.d.ts
 webpack.*.hot-update.js
 webpack.*.hot-update.json
 .next/
+
+# claude code
+.claude/
