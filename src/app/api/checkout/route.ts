@@ -34,7 +34,7 @@ export async function POST(request: NextRequest) {
     // Create Stripe checkout session
     const checkoutSession = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
-      mode: selectedPlan.interval ? 'subscription' : 'payment',
+      mode: 'interval' in selectedPlan ? 'subscription' : 'payment',
       customer_email: undefined, // Will be populated from Clerk user data
       metadata: {
         organization_id: authContext.organizationId,
@@ -51,9 +51,9 @@ export async function POST(request: NextRequest) {
               description: selectedPlan.description,
             },
             unit_amount: selectedPlan.price,
-            ...(selectedPlan.interval && {
+            ...('interval' in selectedPlan && {
               recurring: {
-                interval: selectedPlan.interval,
+                interval: selectedPlan.interval as 'month' | 'year',
               },
             }),
           },
@@ -66,7 +66,7 @@ export async function POST(request: NextRequest) {
         enabled: true,
       },
       billing_address_collection: 'required',
-      invoice_creation: selectedPlan.interval ? undefined : {
+      invoice_creation: 'interval' in selectedPlan ? undefined : {
         enabled: true,
         invoice_data: {
           description: `${selectedPlan.name} - CaseBrake.ai Legal Intelligence`,
@@ -112,9 +112,9 @@ export async function GET() {
   try {
     return NextResponse.json({
       plans: Object.entries(PRICING_PLANS).map(([key, plan]) => ({
-        id: key,
         ...plan,
-        priceDisplay: `$${(plan.price / 100).toLocaleString()}${plan.interval ? `/${plan.interval}` : ''}`,
+        key,
+        priceDisplay: `$${(plan.price / 100).toLocaleString()}${'interval' in plan ? `/${plan.interval}` : ''}`,
       })),
     })
   } catch (error) {

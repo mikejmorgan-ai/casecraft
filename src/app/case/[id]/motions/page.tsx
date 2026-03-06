@@ -39,8 +39,8 @@ export default async function MotionsPage({
 
   try {
     const userId = await getAuthUserId()
-    if (!userId && !hasBetaBypass) redirect('/login')
-    const supabase = getSupabase()
+    if (!userId && !hasBetaBypass) redirect('/sign-in')
+    const supabase = await getSupabase()
 
     const { data: caseResult, error } = await supabase
       .from('cases')
@@ -56,7 +56,7 @@ export default async function MotionsPage({
     }
     caseData = caseResult
   } catch (err) {
-    if (!hasBetaBypass) redirect('/login')
+    if (!hasBetaBypass) redirect('/sign-in')
     notFound()
   }
 

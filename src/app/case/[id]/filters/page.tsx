@@ -21,8 +21,8 @@ export default async function FiltersPage({
 
   try {
     const userId = await getAuthUserId()
-    if (!userId && !hasBetaBypass) redirect('/login')
-    const supabase = getSupabase()
+    if (!userId && !hasBetaBypass) redirect('/sign-in')
+    const supabase = await getSupabase()
 
     // Fetch case details
     const { data: caseResult, error: caseError } = await supabase
@@ -51,7 +51,7 @@ export default async function FiltersPage({
       filterTerms = (termsResult || []) as FilterKeyTerm[]
     }
   } catch (err) {
-    if (!hasBetaBypass) redirect('/login')
+    if (!hasBetaBypass) redirect('/sign-in')
     notFound()
   }
 

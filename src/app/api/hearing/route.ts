@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
     if (!userId) {
       return new Response('Unauthorized', { status: 401 })
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     const {
       case_id,

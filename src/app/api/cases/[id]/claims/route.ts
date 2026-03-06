@@ -51,7 +51,7 @@ export async function GET(
         401
       )
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     // Verify case exists and user has access
     const { data: caseData } = await supabase
@@ -113,7 +113,7 @@ export async function POST(
         401
       )
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     // Verify case ownership
     const { data: caseData } = await supabase

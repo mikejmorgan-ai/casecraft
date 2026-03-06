@@ -27,7 +27,7 @@ export async function GET(request: NextRequest) {
     const mockPaymentStatus = {
       hasActiveSubscription: false, // Query from stripe_subscriptions table
       availableCredits: 0, // Query from user_credits table
-      trialEndsAt: null, // Query from organizations table
+      trialEndsAt: null as string | null, // Query from organizations table
       isTrialActive: true, // Calculate based on trial_ends_at
       plan: null as string | null,
       features: {

@@ -41,7 +41,7 @@ export async function GET(
     if (!userId) {
       return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     const { data: caseData } = await supabase
       .from('cases')
@@ -81,7 +81,7 @@ export async function POST(
     if (!userId) {
       return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     const { data: caseData } = await supabase
       .from('cases')
@@ -135,7 +135,7 @@ export async function PATCH(
     if (!userId) {
       return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     const { searchParams } = new URL(request.url)
     const discoveryId = searchParams.get('discoveryId')
@@ -188,7 +188,7 @@ export async function DELETE(
     if (!userId) {
       return errorResponse('Unauthorized', 'UNAUTHORIZED', 401)
     }
-    const supabase = getSupabase()
+    const supabase = await getSupabase()
 
     const { searchParams } = new URL(request.url)
     const discoveryId = searchParams.get('discoveryId')

@@ -18,9 +18,9 @@ export default async function FindingsPage({
 
   const userId = await getAuthUserId()
   if (!userId) {
-    redirect('/login')
+    redirect('/sign-in')
   }
-  const supabase = getSupabase()
+  const supabase = await getSupabase()
 
   // Verify case access
   const { data: caseData, error: caseError } = await supabase

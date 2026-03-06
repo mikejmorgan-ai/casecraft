@@ -18,8 +18,8 @@ export default async function DashboardPage() {
 
   try {
     const userId = await getAuthUserId()
-    if (!userId && !hasBetaBypass) redirect('/login')
-    const supabase = getSupabase()
+    if (!userId && !hasBetaBypass) redirect('/sign-in')
+    const supabase = await getSupabase()
 
     // Fetch user profile to get role (skip if beta bypass without user)
     if (userId) {
@@ -54,7 +54,7 @@ export default async function DashboardPage() {
     totalDocs = documentsResult.data?.count || 0
   } catch {
     // Supabase unreachable - allow beta bypass users through with empty data
-    if (!hasBetaBypass) redirect('/login')
+    if (!hasBetaBypass) redirect('/sign-in')
   }
 
   // Calculate stats

@@ -70,8 +70,8 @@ export default async function CaseDetailPage({
 
   try {
     userId = await getAuthUserId()
-    if (!userId && !hasBetaBypass) redirect('/login')
-    const supabase = getSupabase()
+    if (!userId && !hasBetaBypass) redirect('/sign-in')
+    const supabase = await getSupabase()
 
     const { data: caseResult, error } = await supabase
       .from('cases')
@@ -90,7 +90,7 @@ export default async function CaseDetailPage({
     }
     caseData = caseResult
   } catch (err) {
-    if (!hasBetaBypass) redirect('/login')
+    if (!hasBetaBypass) redirect('/sign-in')
     notFound()
   }
 
