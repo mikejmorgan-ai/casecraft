@@ -1,5 +1,5 @@
 /**
- * COMPREHENSIVE STATUTE DATABASE - CaseBrake.ai Legal Analysis Platform
+ * COMPREHENSIVE STATUTE DATABASE - CaseBreak.ai Legal Analysis Platform
  *
  * This module provides a structured knowledge base of statutes, elements,
  * key cases, effective dates, and amendments used for legal analysis.

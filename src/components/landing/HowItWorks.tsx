@@ -100,7 +100,7 @@ export function HowItWorks() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">
-            How CaseBrake.ai Works
+            How CaseBreak.ai Works
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             A powerful four-step process that transforms how you prepare for legal proceedings

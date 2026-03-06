@@ -1,5 +1,5 @@
 /**
- * LEGAL ROLE DEFINITIONS - CaseBrake.ai Legal Analysis Platform
+ * LEGAL ROLE DEFINITIONS - CaseBreak.ai Legal Analysis Platform
  *
  * Defines the legal responsibilities, decision frameworks, and analytical
  * approaches for each party role in a legal proceeding. These definitions

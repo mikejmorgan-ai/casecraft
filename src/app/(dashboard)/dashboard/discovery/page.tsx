@@ -154,7 +154,7 @@ export default function DiscoveryPage() {
         <CardHeader>
           <CardTitle className="font-serif">Discovery Workflow</CardTitle>
           <CardDescription>
-            CaseBrake.ai streamlines the discovery process from collection through production
+            CaseBreak.ai streamlines the discovery process from collection through production
           </CardDescription>
         </CardHeader>
         <CardContent>

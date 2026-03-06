@@ -1,8 +1,8 @@
-# CaseBrake.ai Judge Enablement Plan
+# CaseBreak.ai Judge Enablement Plan
 
 ## Executive Summary
 
-This document outlines the comprehensive architecture for enabling AI judges in the CaseBrake.ai platform for use by ANY law firm or attorney across ANY jurisdiction (county, city, state, federal, international). The judge must be the **BEDROCK** of legal case analysis - ensuring every judge follows THE LAW regardless of jurisdiction.
+This document outlines the comprehensive architecture for enabling AI judges in the CaseBreak.ai platform for use by ANY law firm or attorney across ANY jurisdiction (county, city, state, federal, international). The judge must be the **BEDROCK** of legal case analysis - ensuring every judge follows THE LAW regardless of jurisdiction.
 
 **Core Principle:** The judge applies the law AS WRITTEN, not as paraphrased, interpreted by advocates, or assumed. The judge is NEUTRAL - it does not care what either party thinks; it cares only about (1) THE LAW and (2) THE FACTS.
 
@@ -2467,7 +2467,7 @@ async function generateRecommendations(
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                           CASECRAFT JUDGE SYSTEM                         │
+│                           CASEBREAK JUDGE SYSTEM                         │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                          │
 │  ┌─────────────────────────────────────────────────────────────────┐    │
@@ -2864,4 +2864,4 @@ INSERT INTO jurisdictions (code, name, level, parent_id, path, legal_system) VAL
 
 ---
 
-*This document serves as the comprehensive technical specification for CaseBrake.ai Judge Enablement. Implementation teams should reference this document for all judge-related features.*
+*This document serves as the comprehensive technical specification for CaseBreak.ai Judge Enablement. Implementation teams should reference this document for all judge-related features.*

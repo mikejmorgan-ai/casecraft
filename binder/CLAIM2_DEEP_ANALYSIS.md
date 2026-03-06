@@ -494,7 +494,7 @@ The following Bates stamps are duplicates (same document appearing in different 
 
 ## APPENDIX B: COMPARISON WITH CLAIM 1 RESULTS
 
-The Claim 1 (Declaratory Judgment) vested mining analysis at `/home/user/casecraft/binder/VESTED_MINING_RESULTS.md` identified the same 8 key findings and a substantially overlapping set of critical documents. This confirms that the vested mining rights evidence supports both claims.
+The Claim 1 (Declaratory Judgment) vested mining analysis at `/home/user/casebreak/binder/VESTED_MINING_RESULTS.md` identified the same 8 key findings and a substantially overlapping set of critical documents. This confirms that the vested mining rights evidence supports both claims.
 
 **Key differences for Claim 2:**
 - Claim 2 adds the **enforcement timeline** as a separate evidentiary category
@@ -512,4 +512,4 @@ The Claim 1 (Declaratory Judgment) vested mining analysis at `/home/user/casecra
 
 ---
 
-*Report compiled from: CLAIM2_INJUNCTION_VESTED_RESULTS.md, VESTED_MINING_RESULTS.md, and direct review of discovery documents in /home/user/casecraft/data/discovery-0001 through discovery-0006.*
+*Report compiled from: CLAIM2_INJUNCTION_VESTED_RESULTS.md, VESTED_MINING_RESULTS.md, and direct review of discovery documents in /home/user/casebreak/data/discovery-0001 through discovery-0006.*

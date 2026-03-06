@@ -1,4 +1,4 @@
-# CaseBrake.ai - Codebase Review Report
+# CaseBreak.ai - Codebase Review Report
 
 **Date:** 2026-02-09
 **Reviewed by:** Claude (Automated Review)
@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-CaseBrake.ai is an AI-powered legal simulation platform built with Next.js 16.1.5, React 19, TypeScript, Supabase, and OpenAI. The codebase is well-structured and demonstrates strong architectural choices, but has several issues that need attention before production use:
+CaseBreak.ai is an AI-powered legal simulation platform built with Next.js 16.1.5, React 19, TypeScript, Supabase, and OpenAI. The codebase is well-structured and demonstrates strong architectural choices, but has several issues that need attention before production use:
 
 | Category | Severity | Count |
 |----------|----------|-------|

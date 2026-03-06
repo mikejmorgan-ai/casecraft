@@ -21,7 +21,7 @@ export const PRICING_PLANS = {
     name: 'Pay Per Case',
     price: 49900, // $499.00 in cents
     currency: 'usd',
-    description: 'CaseBrake.ai - Adversarial Analysis (Single Case)',
+    description: 'CaseBreak.ai - Adversarial Analysis (Single Case)',
     features: [
       'Complete adversarial simulation for 1 case',
       'Bates-strict evidence validation',
@@ -37,7 +37,7 @@ export const PRICING_PLANS = {
     price: 199900, // $1,999.00 in cents
     currency: 'usd',
     interval: 'month',
-    description: 'CaseBrake.ai - Adversarial Analysis (Unlimited Enterprise)',
+    description: 'CaseBreak.ai - Adversarial Analysis (Unlimited Enterprise)',
     features: [
       'Unlimited adversarial simulations',
       'Organization-wide access',

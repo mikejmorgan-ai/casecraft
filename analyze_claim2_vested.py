@@ -25,12 +25,12 @@ import hashlib
 from datetime import datetime
 
 DB_PATH = os.path.expanduser("~/tree-farm-discovery/master.db")
-DATA_ROOT = "/home/user/casecraft/data"
+DATA_ROOT = "/home/user/casebreak/data"
 FOLDERS = ["discovery-0001", "discovery-0002", "discovery-0003",
            "discovery-0004", "discovery-0005", "discovery-0006"]
 
 # Output file for results
-OUTPUT_PATH = "/home/user/casecraft/binder/CLAIM2_INJUNCTION_VESTED_RESULTS.md"
+OUTPUT_PATH = "/home/user/casebreak/binder/CLAIM2_INJUNCTION_VESTED_RESULTS.md"
 
 # ── CLAIM 2: INJUNCTION + VESTED MINING KEYWORD TIERS ─────────────────────────────────
 # NO CIM language in critical/high tiers. Pure vested mining focus.

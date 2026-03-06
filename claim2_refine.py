@@ -23,7 +23,7 @@ import sys
 from pathlib import Path
 
 DB_PATH = os.path.expanduser("~/tree-farm-discovery/master.db")
-DATA_BASE = "/home/user/casecraft/data"
+DATA_BASE = "/home/user/casebreak/data"
 
 
 def read_document(file_path, folder, filename):

@@ -1,4 +1,4 @@
-# CaseBrake.ai Testing Checklist
+# CaseBreak.ai Testing Checklist
 
 **Testers:** Kass, Jesse
 **Date:** February 7, 2026

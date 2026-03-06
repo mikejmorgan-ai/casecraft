@@ -1,7 +1,7 @@
-# CaseBrake.ai - Legal Simulation Platform
+# CaseBreak.ai - Legal Simulation Platform
 
 ## Overview
-CaseBrake.ai is a legal simulation platform that allows users to practice case strategy with AI-powered agents. It enables running mock hearings, depositions, and strategy sessions with intelligent legal personas.
+CaseBreak.ai is a legal simulation platform that allows users to practice case strategy with AI-powered agents. It enables running mock hearings, depositions, and strategy sessions with intelligent legal personas.
 
 ## Tech Stack
 - **Framework**: Next.js 16.1.5 with React 19

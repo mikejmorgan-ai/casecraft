@@ -1,5 +1,5 @@
 -- ============================================================
--- CaseBrake.ai - Complete Database Setup
+-- CaseBreak.ai - Complete Database Setup
 -- Run this entire file in Supabase SQL Editor
 -- Safe to run multiple times (all statements are idempotent)
 -- ============================================================

@@ -40,7 +40,7 @@ export default function HomePage() {
               </div>
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              CaseBrake.ai
+              CaseBreak.ai
             </span>
             <Badge variant="secondary" className="ml-2 text-xs">Enterprise</Badge>
           </div>
@@ -323,7 +323,7 @@ export default function HomePage() {
                 <div className="p-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg">
                   <Scale className="h-5 w-5 text-white" />
                 </div>
-                <span className="text-xl font-bold text-white">CaseBrake.ai</span>
+                <span className="text-xl font-bold text-white">CaseBreak.ai</span>
               </div>
               <p className="text-slate-400 text-sm">
                 Enterprise legal simulation platform trusted by top law firms worldwide.

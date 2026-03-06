@@ -13,7 +13,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <Scale className="h-6 w-6" />
-              <span className="font-serif font-bold text-lg">CaseBrake.ai</span>
+              <span className="font-serif font-bold text-lg">CaseBreak.ai</span>
             </div>
             <p className="text-gray-400 text-sm mb-4">
               Advanced legal simulation platform for legal professionals, law students, and educators.
@@ -100,7 +100,7 @@ export function Footer() {
         <div className="container mx-auto px-6 py-6">
           <div className="bg-gray-800/50 rounded-lg p-4 mb-6">
             <p className="text-gray-400 text-xs leading-relaxed">
-              <strong className="text-gray-300">Legal Disclaimer:</strong> CaseBrake.ai is a simulation platform for educational and practice purposes only. This is not a substitute for professional legal advice. No attorney-client relationship is formed through use of this platform. All simulated scenarios, AI responses, and case analyses are for training and educational purposes and should not be relied upon for actual legal matters. Users should consult with qualified legal professionals for specific legal advice.
+              <strong className="text-gray-300">Legal Disclaimer:</strong> CaseBreak.ai is a simulation platform for educational and practice purposes only. This is not a substitute for professional legal advice. No attorney-client relationship is formed through use of this platform. All simulated scenarios, AI responses, and case analyses are for training and educational purposes and should not be relied upon for actual legal matters. Users should consult with qualified legal professionals for specific legal advice.
             </p>
           </div>
         </div>
@@ -111,7 +111,7 @@ export function Footer() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-gray-400 text-sm">
-              &copy; 2024-{currentYear} CaseBrake.ai. All rights reserved.
+              &copy; 2024-{currentYear} CaseBreak.ai. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm">
               Powered by AIVH. All rights reserved.

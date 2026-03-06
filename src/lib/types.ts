@@ -1,4 +1,4 @@
-// CaseBrake.ai Type Definitions
+// CaseBreak.ai Type Definitions
 
 export type CaseType =
   | 'civil' | 'criminal' | 'family' | 'contract'
@@ -303,7 +303,7 @@ export type CallStatus = 'registered' | 'ongoing' | 'ended' | 'error'
 
 export interface RetellAgentMapping {
   id: string
-  casebrake_agent_id: string
+  casebreak_agent_id: string
   retell_agent_id: string
   voice_id: string
   voice_provider: 'elevenlabs' | 'openai' | 'deepgram'

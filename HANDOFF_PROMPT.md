@@ -1,19 +1,19 @@
 # HANDOFF PROMPT FOR NEW CLAUDE CODE SESSION
-## CaseBrake.ai — Tree Farm LLC v. Salt Lake County
+## CaseBreak.ai — Tree Farm LLC v. Salt Lake County
 ### February 24, 2026
 
 ---
 
 ## PROJECT OVERVIEW
 
-CaseBrake.ai is a legal case management platform with TWO parts:
+CaseBreak.ai is a legal case management platform with TWO parts:
 
 1. **A Next.js web app** (`src/`) — AI-powered litigation simulation platform with Clerk auth, agents (Judge, attorneys, experts), document RAG via Pinecone, chat interface, predictions, and hearing simulations. Currently at Milestone 2 of a 7-phase build plan. 89 tests passing. Auth migrated from Supabase to Clerk (Supabase still used for database).
 
 2. **A Python-based discovery analysis pipeline** (root `*.py` files + `binder/`) — Analyzes 5,576 Bates-stamped documents produced by Salt Lake County in Tree Farm LLC v. Salt Lake County (Case No. 220903418). Complete analysis exists in `binder/` with 8 PDFs ready for attorney use.
 
-**Repo:** `mikejmorgan-ai/casecraft`
-**Working directory:** `/home/user/casecraft`
+**Repo:** `mikejmorgan-ai/casebreak`
+**Working directory:** `/home/user/casebreak`
 **Current branch:** `main`
 **Last commit:** `732cb56` — Auth migrated to Clerk, all dashboard pages built
 
@@ -123,7 +123,7 @@ CaseBrake.ai is a legal case management platform with TWO parts:
 
 ### Configuration
 - `README.md` — Project overview
-- `CaseBrake.ai-Build-Plan.md` — 7-phase roadmap
+- `CaseBreak.ai-Build-Plan.md` — 7-phase roadmap
 - `MILESTONES.json` — Current: Milestone 2
 - `.env.example` — Required environment variables
 - `components.json` — shadcn/ui config
@@ -173,7 +173,7 @@ CaseBrake.ai is a legal case management platform with TWO parts:
 ## QUICK START
 
 ```bash
-cd /home/user/casecraft
+cd /home/user/casebreak
 git status                    # Verify clean state
 # Required: Set Clerk keys in .env.local (see .env.example)
 python3 build_packets.py      # Rebuild packet analysis (~30 seconds)

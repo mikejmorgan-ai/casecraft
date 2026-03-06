@@ -18,7 +18,7 @@ async function checkCases() {
     return
   }
 
-  console.log('Cases in CaseBrake.ai database:\n')
+  console.log('Cases in CaseBreak.ai database:\n')
 
   if (data.length === 0) {
     console.log('  (no cases found)')

@@ -1,4 +1,4 @@
-# CaseBrake.ai Development Handoff
+# CaseBreak.ai Development Handoff
 
 **Last Updated**: 2026-02-13
 **Session**: `session_018WihwqUkhYQ8rPmebe7zvn`
@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-**CaseBrake.ai** is an AI-powered legal case simulation platform for attorneys to practice litigation strategies through mock hearings, depositions, and strategy sessions with intelligent AI legal personas.
+**CaseBreak.ai** is an AI-powered legal case simulation platform for attorneys to practice litigation strategies through mock hearings, depositions, and strategy sessions with intelligent AI legal personas.
 
 ### Current Status
 - **Milestone**: 2 (Case Management) - In Progress
@@ -245,6 +245,6 @@ f824d6b Major homepage overhaul with Google OAuth
 
 ## Contact & Resources
 
-- **Repository**: mikejmorgan-ai/casebrake
+- **Repository**: mikejmorgan-ai/casebreak
 - **Current Branch**: `claude/review-repo-next-steps-Blfe0`
 - **Milestones**: See `MILESTONES.json`

@@ -19,7 +19,7 @@ export default function SignInPage() {
               <Scale className="h-8 w-8 text-white" />
             </div>
             <span className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              CaseBrake.ai
+              CaseBreak.ai
             </span>
           </div>
           <h1 className="text-2xl font-bold text-slate-900 mb-2">
@@ -61,11 +61,11 @@ export default function SignInPage() {
           signUpUrl="/sign-up"
         />
 
-        {/* New to CaseBrake.ai */}
+        {/* New to CaseBreak.ai */}
         <div className="mt-8 text-center">
           <div className="bg-white border border-slate-200 rounded-lg p-4">
             <p className="text-sm text-slate-600 mb-3">
-              New to CaseBrake.ai? Start your free trial today.
+              New to CaseBreak.ai? Start your free trial today.
             </p>
             <Link href="/sign-up">
               <button className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold text-sm">

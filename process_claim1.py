@@ -13,7 +13,7 @@ from pathlib import Path
 from datetime import datetime
 
 DB_PATH = os.path.expanduser("~/tree-farm-discovery/master.db")
-DATA_DIR = "/home/user/casecraft/data"
+DATA_DIR = "/home/user/casebreak/data"
 
 # Keywords and patterns for Claim 1 relevance scoring
 # Tier 1: CRITICAL indicators - directly about ordinance invalidity/preemption

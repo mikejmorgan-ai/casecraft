@@ -1,4 +1,4 @@
--- CaseBrake.ai Database Schema
+-- CaseBreak.ai Database Schema
 
 -- Enable pgcrypto for gen_random_uuid (if not already enabled)
 CREATE EXTENSION IF NOT EXISTS "pgcrypto";
