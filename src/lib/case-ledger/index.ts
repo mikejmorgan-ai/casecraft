@@ -18,6 +18,8 @@ export {
   DEFAULT_CASES
 } from './schema'
 
+import { caseManager, DEFAULT_CASES } from './schema'
+
 // Services
 export type {
   ValidationResult,
@@ -69,35 +71,7 @@ export function isDefendantDocument(filedBy: string): boolean {
   return getPartyRouting(filedBy) === 'defendant'
 }
 
-// Initialize the case ledger system
-export async function initializeCaseLedger(caseId?: string): Promise<void> {
-  console.log('🏛️  Initializing CaseLedger System')
-
-  // Set the current case
-  if (caseId && DEFAULT_CASES[caseId]) {
-    switchCase(caseId)
-    console.log(`📁 Switched to case: ${DEFAULT_CASES[caseId].displayName}`)
-  } else {
-    console.log(`📁 Using default case: ${caseManager.getCurrentCase()?.displayName}`)
-  }
-
-  // Index all data sources
-  try {
-    const indexingResult = await documentIndexer.indexAllSources()
-    console.log(`📊 Indexed ${indexingResult.totalDocuments} documents across ${indexingResult.sourceResults.length} sources`)
-
-    for (const result of indexingResult.sourceResults) {
-      console.log(`  └─ ${result.sourceName}: ${result.documentsIndexed} documents`)
-      if (result.errors.length > 0) {
-        console.warn(`     Errors: ${result.errors.join(', ')}`)
-      }
-    }
-  } catch (error) {
-    console.error('❌ Failed to initialize document indexing:', error)
-  }
-
-  console.log('✅ CaseLedger initialization complete')
-}
+// initializeCaseLedger is server-only — import from './init-enterprise' in API routes
 
 // Legacy compatibility layer
 export const LEGACY_MAPPINGS = {

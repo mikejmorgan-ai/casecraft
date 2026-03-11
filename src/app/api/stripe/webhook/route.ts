@@ -199,14 +199,15 @@ export async function POST(request: NextRequest) {
         const invoice = event.data.object as Stripe.Invoice
         console.log('✅ Payment succeeded for invoice:', invoice.id)
 
-        if (invoice.subscription) {
+        const invoiceSubscription = (invoice as unknown as { subscription?: string | null }).subscription
+        if (invoiceSubscription) {
           const { error: paymentError } = await supabase
             .from('organizations')
             .update({
               subscription_status: 'active',
               updated_at: new Date().toISOString()
             })
-            .eq('stripe_subscription_id', invoice.subscription)
+            .eq('stripe_subscription_id', invoiceSubscription)
 
           if (!paymentError) {
             console.log('✅ Subscription reactivated after payment')
@@ -220,14 +221,15 @@ export async function POST(request: NextRequest) {
         const invoice = event.data.object as Stripe.Invoice
         console.log('❌ Payment failed for invoice:', invoice.id)
 
-        if (invoice.subscription) {
+        const failedInvoiceSubscription = (invoice as unknown as { subscription?: string | null }).subscription
+        if (failedInvoiceSubscription) {
           const { error: failError } = await supabase
             .from('organizations')
             .update({
               subscription_status: 'past_due',
               updated_at: new Date().toISOString()
             })
-            .eq('stripe_subscription_id', invoice.subscription)
+            .eq('stripe_subscription_id', failedInvoiceSubscription)
 
           if (!failError) {
             console.log('⚠️ Subscription marked as past due')

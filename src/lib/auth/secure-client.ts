@@ -91,7 +91,7 @@ export async function createOrganizationScopedClient(organizationId: string) {
     userId,
     orgRole: membership.org_role,
     // Convenience method for organization-scoped queries
-    from: (table: string) => client.from(table).eq('organization_id', organizationId)
+    from: (table: string) => client.from(table).select('*').eq('organization_id', organizationId)
   }
 }
 

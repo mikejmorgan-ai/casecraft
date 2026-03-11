@@ -332,7 +332,7 @@ export class JudgeAgent {
 
     // Motion practice notes
     const counselFindings = summary.agentFindings.find(f => f.agentType === 'counsel')
-    if (counselFindings?.findings[0]?.primaryArguments?.some(arg =>
+    if (counselFindings?.findings[0]?.primaryArguments?.some((arg: string) =>
         arg.toLowerCase().includes('summary judgment'))) {
       notes.push({
         type: 'motion_practice',
