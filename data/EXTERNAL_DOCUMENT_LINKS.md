@@ -1,4 +1,4 @@
-# External Document Links - CaseBrake.ai
+# External Document Links - CaseBreak.ai
 
 **Repository Size Optimization**: Large discovery documents moved to Google Drive
 **Total Size Reduction**: ~2GB of legal research materials externalized
@@ -27,7 +27,7 @@
 
 ## 🔗 Integration Instructions
 
-**For CaseBrake.ai Legal Framework:**
+**For CaseBreak.ai Legal Framework:**
 1. Update discovery validation to accept external document references
 2. Modify Bates numbering to include external document IDs
 3. Create document verification system for Google Drive links

@@ -1,7 +1,7 @@
 /**
- * CaseBrake.ai Agent Persona Library
+ * CaseBreak.ai Agent Persona Library
  *
- * Comprehensive persona definitions for each legal role in the CaseBrake.ai platform.
+ * Comprehensive persona definitions for each legal role in the CaseBreak.ai platform.
  * Each persona includes: system prompt, behavioral rules, knowledge domains,
  * decision-making framework, interaction style, and recommended model parameters.
  *

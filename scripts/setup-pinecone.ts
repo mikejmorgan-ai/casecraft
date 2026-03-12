@@ -2,10 +2,10 @@ import { Pinecone } from '@pinecone-database/pinecone'
 import * as dotenv from 'dotenv'
 dotenv.config({ path: '.env.local' })
 
-const INDEX_NAME = process.env.PINECONE_INDEX_NAME || 'treefarm-casecraft'
+const INDEX_NAME = process.env.PINECONE_INDEX_NAME || 'treefarm-casebreak'
 
 async function setupPinecone() {
-  console.log('🌲 Setting up Pinecone index for Tree Farm CaseBrake.ai\n')
+  console.log('🌲 Setting up Pinecone index for Tree Farm CaseBreak.ai\n')
 
   const pinecone = new Pinecone({
     apiKey: process.env.PINECONE_API_KEY!,
@@ -67,7 +67,7 @@ async function setupPinecone() {
   // Print namespace structure
   console.log('\n📁 Namespace Structure:')
   console.log(`
-treefarm-casecraft/
+treefarm-casebreak/
 ├── judge-stormont--utah-code
 ├── judge-stormont--case-law
 ├── judge-stormont--court-orders

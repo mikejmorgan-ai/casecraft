@@ -168,7 +168,7 @@ export function SidebarNav({ user, userRole = 'attorney' }: SidebarNavProps) {
           <Scale className="h-8 w-8 text-sidebar-primary shrink-0" />
           {!collapsed && (
             <div>
-              <h1 className="font-bold text-lg">CaseBrake.ai</h1>
+              <h1 className="font-bold text-lg">CaseBreak.ai</h1>
               <p className="text-xs text-sidebar-foreground/60">Legal Intelligence</p>
             </div>
           )}

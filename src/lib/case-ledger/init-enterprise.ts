@@ -3,7 +3,7 @@
  * Bootstraps the modular case management system with all data sources
  */
 
-import { initializeCaseLedger, switchCase } from './index'
+import { switchCase } from './index'
 import { caseManager, DEFAULT_CASES } from './schema'
 import { documentIndexer } from './indexing'
 import { statuteValidator, temporalService } from './services'

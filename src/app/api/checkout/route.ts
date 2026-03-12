@@ -69,7 +69,7 @@ export async function POST(request: NextRequest) {
       invoice_creation: 'interval' in selectedPlan ? undefined : {
         enabled: true,
         invoice_data: {
-          description: `${selectedPlan.name} - CaseBrake.ai Legal Intelligence`,
+          description: `${selectedPlan.name} - CaseBreak.ai Legal Intelligence`,
           metadata: {
             organization_id: authContext.organizationId,
             plan_id: selectedPlan.id,

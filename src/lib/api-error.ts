@@ -1,5 +1,5 @@
 /**
- * API Error handling utilities for CaseBrake.ai
+ * API Error handling utilities for CaseBreak.ai
  * Provides standardized error handling for API responses
  */
 

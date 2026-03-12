@@ -1,5 +1,5 @@
 /**
- * CaseBrake.ai Agent Factory
+ * CaseBreak.ai Agent Factory
  *
  * Creates and configures agents for a case by injecting case-specific context
  * into persona templates. Provides default agent configurations based on case type.

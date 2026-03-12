@@ -1,5 +1,5 @@
 /**
- * LEGAL STANDARDS LIBRARY - CaseBrake.ai Legal Analysis Platform
+ * LEGAL STANDARDS LIBRARY - CaseBreak.ai Legal Analysis Platform
  *
  * Common legal standards, tests, and frameworks used in case analysis.
  * Each standard includes the elements to prove, burden of proof,

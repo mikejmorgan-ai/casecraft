@@ -4,7 +4,7 @@
 --
 -- IMPORTANT: This case has been fully adjudicated through the Utah Court of Appeals.
 -- The actual ruling is stored but HIDDEN until the user chooses to reveal it.
--- CaseBrake.ai's AI will predict the outcome based solely on the pleadings/motions,
+-- CaseBreak.ai's AI will predict the outcome based solely on the pleadings/motions,
 -- then compare its prediction against the actual ruling.
 --
 -- NOTE: This is a unique blind test because the TRIAL COURT ruled for the defendant,

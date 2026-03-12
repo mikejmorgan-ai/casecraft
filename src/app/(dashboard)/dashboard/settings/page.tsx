@@ -201,7 +201,7 @@ export default function SettingsPage() {
             <CardTitle className="font-serif">Preferences</CardTitle>
           </div>
           <CardDescription>
-            Customize your CaseBrake.ai experience
+            Customize your CaseBreak.ai experience
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-6">
@@ -509,7 +509,7 @@ export default function SettingsPage() {
       {/* Footer Note */}
       <div className="text-center py-4">
         <p className="text-xs text-muted-foreground">
-          CaseBrake.ai v1.0 &middot; Parr Brown Gee &amp; Loveless &middot; All settings are saved automatically
+          CaseBreak.ai v1.0 &middot; Parr Brown Gee &amp; Loveless &middot; All settings are saved automatically
         </p>
       </div>
     </div>

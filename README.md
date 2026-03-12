@@ -1,4 +1,4 @@
-# CaseBrake.ai - Legal Agent Simulation Platform
+# CaseBreak.ai - Legal Agent Simulation Platform
 
 AI-powered legal simulation platform for running mock hearings, depositions, and strategy sessions with intelligent legal personas.
 
@@ -36,7 +36,7 @@ AI-powered legal simulation platform for running mock hearings, depositions, and
 ### 1. Clone and Install
 
 ```bash
-cd casebrake
+cd casebreak
 npm install
 ```
 
@@ -121,7 +121,7 @@ The project includes tests for:
 ## Project Structure
 
 ```
-casebrake/
+casebreak/
 ├── src/
 │   ├── app/
 │   │   ├── (auth)/           # Login, Signup, Password reset

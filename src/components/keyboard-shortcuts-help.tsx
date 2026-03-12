@@ -86,7 +86,7 @@ export function KeyboardShortcutsHelp() {
             Keyboard Shortcuts
           </DialogTitle>
           <DialogDescription>
-            Use these shortcuts to navigate and interact with CaseBrake.ai more efficiently.
+            Use these shortcuts to navigate and interact with CaseBreak.ai more efficiently.
           </DialogDescription>
         </DialogHeader>
 

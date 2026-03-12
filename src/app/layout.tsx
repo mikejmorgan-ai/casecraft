@@ -3,7 +3,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "CaseBrake.ai - Legal Simulation Platform",
+  title: "CaseBreak.ai - Legal Simulation Platform",
   description: "Practice case strategy with AI-powered agents. Run mock hearings, depositions, and strategy sessions.",
 };
 

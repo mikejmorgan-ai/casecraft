@@ -115,7 +115,7 @@ export default function PricingPage() {
               <Gavel className="h-5 w-5 text-white" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              CaseBrake.ai
+              CaseBreak.ai
             </span>
           </Link>
           <div className="flex gap-4 items-center">

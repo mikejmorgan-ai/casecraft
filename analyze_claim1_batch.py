@@ -13,7 +13,7 @@ import json
 import sys
 
 DB_PATH = os.path.expanduser("~/tree-farm-discovery/master.db")
-DATA_ROOT = "/home/user/casecraft/data"
+DATA_ROOT = "/home/user/casebreak/data"
 FOLDERS = ["discovery-0004", "discovery-0005", "discovery-0006"]
 
 # ── keyword tiers for Claim 1 ──────────────────────────────────────────

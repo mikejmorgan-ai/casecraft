@@ -6,12 +6,8 @@
 
 import Stripe from 'stripe'
 
-if (!process.env.STRIPE_SECRET_KEY) {
-  throw new Error('STRIPE_SECRET_KEY is not defined in environment variables')
-}
-
-export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
-  apiVersion: '2024-12-18.acacia',
+export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || 'sk_placeholder_not_configured', {
+  apiVersion: '2026-02-25.clover',
 })
 
 // Stripe pricing configuration
@@ -21,7 +17,7 @@ export const PRICING_PLANS = {
     name: 'Pay Per Case',
     price: 49900, // $499.00 in cents
     currency: 'usd',
-    description: 'CaseBrake.ai - Adversarial Analysis (Single Case)',
+    description: 'CaseBreak.ai - Adversarial Analysis (Single Case)',
     features: [
       'Complete adversarial simulation for 1 case',
       'Bates-strict evidence validation',
@@ -37,7 +33,7 @@ export const PRICING_PLANS = {
     price: 199900, // $1,999.00 in cents
     currency: 'usd',
     interval: 'month',
-    description: 'CaseBrake.ai - Adversarial Analysis (Unlimited Enterprise)',
+    description: 'CaseBreak.ai - Adversarial Analysis (Unlimited Enterprise)',
     features: [
       'Unlimited adversarial simulations',
       'Organization-wide access',

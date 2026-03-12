@@ -29,7 +29,7 @@ export default clerkMiddleware(async (auth, request: NextRequest) => {
 
   // Role-based access control for adversarial simulations
   if (isAdversarialRoute(request) && userId) {
-    const userRole = sessionClaims?.metadata?.role as string
+    const userRole = (sessionClaims?.metadata as Record<string, unknown>)?.role as string
 
     // Only Admin and Attorney roles can access adversarial simulations
     if (userRole !== 'Admin' && userRole !== 'Attorney') {
@@ -41,7 +41,8 @@ export default clerkMiddleware(async (auth, request: NextRequest) => {
 
   // Organization isolation for API routes - ensure database partitioning
   if (userId && request.nextUrl.pathname.startsWith('/api/')) {
-    const organizationId = orgId || sessionClaims?.metadata?.organization_id
+    const claimsMeta = sessionClaims?.metadata as Record<string, unknown> | undefined
+    const organizationId = orgId || claimsMeta?.organization_id
 
     if (!organizationId) {
       return NextResponse.json(
@@ -53,7 +54,7 @@ export default clerkMiddleware(async (auth, request: NextRequest) => {
     // Add organization context to request headers for database partitioning
     const requestHeaders = new Headers(request.headers)
     requestHeaders.set('x-organization-id', organizationId as string)
-    requestHeaders.set('x-user-role', sessionClaims?.metadata?.role as string || 'User')
+    requestHeaders.set('x-user-role', (claimsMeta?.role as string) || 'User')
     requestHeaders.set('x-user-id', userId)
 
     return NextResponse.next({

@@ -263,7 +263,7 @@ export default function Rule26Page() {
         <CardHeader>
           <CardTitle className="font-serif">Supported Rule 26 Subsections</CardTitle>
           <CardDescription>
-            CaseBrake.ai supports both Federal Rules of Civil Procedure and Utah Rules of Civil Procedure
+            CaseBreak.ai supports both Federal Rules of Civil Procedure and Utah Rules of Civil Procedure
           </CardDescription>
         </CardHeader>
         <CardContent>

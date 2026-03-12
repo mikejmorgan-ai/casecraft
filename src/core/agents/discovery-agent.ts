@@ -488,5 +488,3 @@ export class DiscoveryAgent {
     return documentIndexer.getAllBatesEntries().length
   }
 }
-
-export { DiscoveryAgent }

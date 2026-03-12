@@ -343,7 +343,7 @@ export interface ValidationResult {
 
 interface PatternMatch {
   type: PatternType
-  matches: RegExpMatchArray[]
+  matches: RegExpMatchArray
   positions: number[]
 }
 

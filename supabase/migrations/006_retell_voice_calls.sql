@@ -12,17 +12,17 @@ BEGIN
   END;
 END $$;
 
--- Retell agent mappings (cache CaseBrake.ai agent -> Retell agent)
+-- Retell agent mappings (cache CaseBreak.ai agent -> Retell agent)
 CREATE TABLE IF NOT EXISTS retell_agent_mappings (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  casebrake_agent_id UUID NOT NULL REFERENCES agents(id) ON DELETE CASCADE,
+  casebreak_agent_id UUID NOT NULL REFERENCES agents(id) ON DELETE CASCADE,
   retell_agent_id VARCHAR(100) NOT NULL,
   voice_id VARCHAR(100) NOT NULL,
   voice_provider VARCHAR(20) NOT NULL DEFAULT 'elevenlabs'
     CHECK (voice_provider IN ('elevenlabs', 'openai', 'deepgram')),
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  UNIQUE(casebrake_agent_id)
+  UNIQUE(casebreak_agent_id)
 );
 
 -- Voice calls table
@@ -50,7 +50,7 @@ CREATE TABLE IF NOT EXISTS voice_calls (
 CREATE INDEX IF NOT EXISTS idx_voice_calls_conversation_id ON voice_calls(conversation_id);
 CREATE INDEX IF NOT EXISTS idx_voice_calls_case_id ON voice_calls(case_id);
 CREATE INDEX IF NOT EXISTS idx_voice_calls_retell_call_id ON voice_calls(retell_call_id);
-CREATE INDEX IF NOT EXISTS idx_retell_agent_mappings_agent_id ON retell_agent_mappings(casebrake_agent_id);
+CREATE INDEX IF NOT EXISTS idx_retell_agent_mappings_agent_id ON retell_agent_mappings(casebreak_agent_id);
 
 -- RLS
 ALTER TABLE voice_calls ENABLE ROW LEVEL SECURITY;
@@ -73,7 +73,7 @@ DO $$ BEGIN
       EXISTS (
         SELECT 1 FROM agents a
         JOIN cases c ON c.id = a.case_id
-        WHERE a.id = retell_agent_mappings.casebrake_agent_id
+        WHERE a.id = retell_agent_mappings.casebreak_agent_id
           AND c.user_id = auth.uid()
       )
     );
@@ -104,4 +104,4 @@ DO $$ BEGIN
 END $$;
 
 COMMENT ON TABLE voice_calls IS 'Tracks Retell AI voice calls linked to case conversations';
-COMMENT ON TABLE retell_agent_mappings IS 'Maps CaseBrake.ai agents to Retell voice agents';
+COMMENT ON TABLE retell_agent_mappings IS 'Maps CaseBreak.ai agents to Retell voice agents';

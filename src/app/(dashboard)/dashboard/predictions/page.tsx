@@ -108,7 +108,7 @@ export default function PredictionsPage() {
             <Badge variant="secondary" className="text-xs">Beta</Badge>
           </div>
           <CardDescription>
-            Track how CaseBrake.ai&apos;s predictions compare against actual case outcomes.
+            Track how CaseBreak.ai&apos;s predictions compare against actual case outcomes.
             Import resolved cases to validate AI accuracy and build confidence in predictions.
           </CardDescription>
         </CardHeader>
@@ -126,7 +126,7 @@ export default function PredictionsPage() {
               <Award className="h-8 w-8 text-muted-foreground/50 mb-3" />
               <p className="text-sm font-medium">No Blind Test Results Yet</p>
               <p className="text-xs text-muted-foreground mt-1 max-w-xs">
-                Import a case with a known outcome to run a blind test and see how CaseBrake.ai performs.
+                Import a case with a known outcome to run a blind test and see how CaseBreak.ai performs.
               </p>
             </div>
           </div>

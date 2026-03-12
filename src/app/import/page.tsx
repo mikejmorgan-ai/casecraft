@@ -1,7 +1,7 @@
 import { ImportWizard } from '@/components/import/import-wizard'
 
 export const metadata = {
-  title: 'Import Case | CaseBrake.ai',
+  title: 'Import Case | CaseBreak.ai',
   description: 'Import a new case with documents, claims, and AI agents',
 }
 

@@ -1,6 +1,6 @@
 # Utah Legal Cases for AI Prediction System Training
 
-Below is a curated collection of Utah cases across four categories suitable for training the CaseBrake.ai AI prediction system. These cases feature clear rulings, well-documented legal reasoning, and precedent-setting value ideal for blind prediction testing.
+Below is a curated collection of Utah cases across four categories suitable for training the CaseBreak.ai AI prediction system. These cases feature clear rulings, well-documented legal reasoning, and precedent-setting value ideal for blind prediction testing.
 
 ---
 

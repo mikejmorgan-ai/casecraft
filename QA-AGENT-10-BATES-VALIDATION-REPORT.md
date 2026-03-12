@@ -3,7 +3,7 @@
 **Mission**: Ensure all citations link to the correct TF- or SLC- prefix
 **Date**: March 4, 2026
 **Test Suite**: Comprehensive Bates-strict validation system
-**Location**: `/Users/allbots/casecraft/src/core/discovery.ts`
+**Location**: `/Users/allbots/casebreak/src/core/discovery.ts`
 
 ---
 

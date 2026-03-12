@@ -1,4 +1,4 @@
-# CaseBrake.ai Homepage Improvement Plan
+# CaseBreak.ai Homepage Improvement Plan
 
 ## Overview Assessment
 
@@ -59,7 +59,7 @@
 - [ ] Change "AI-powered legal simulation platform" to "Powered by AIVH"
 - [ ] Add "All rights reserved" with current year
 - [ ] Add legal disclaimer text:
-  - "CaseBrake.ai is a simulation platform for educational and practice purposes only"
+  - "CaseBreak.ai is a simulation platform for educational and practice purposes only"
   - "Not a substitute for professional legal advice"
   - "No attorney-client relationship is formed"
 
@@ -138,7 +138,7 @@ header {
 }
 ```
 
-#### 2.6 New Animated Section - "How CaseBrake.ai Works"
+#### 2.6 New Animated Section - "How CaseBreak.ai Works"
 Using Framer Motion to show:
 1. Judge AI as "The Law" (center figure)
 2. Cases flow in from sides

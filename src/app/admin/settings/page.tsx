@@ -275,7 +275,7 @@ export default function AdminSettingsPage() {
           <div className="grid gap-4 md:grid-cols-3">
             <div className="text-center space-y-1">
               <p className="text-xs text-muted-foreground uppercase tracking-wider">Platform</p>
-              <p className="text-sm font-medium">CaseBrake.ai v1.0</p>
+              <p className="text-sm font-medium">CaseBreak.ai v1.0</p>
             </div>
             <div className="text-center space-y-1">
               <p className="text-xs text-muted-foreground uppercase tracking-wider">Framework</p>

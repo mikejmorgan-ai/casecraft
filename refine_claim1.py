@@ -9,7 +9,7 @@ import os
 import re
 
 DB_PATH = os.path.expanduser("~/tree-farm-discovery/master.db")
-DATA_DIR = "/home/user/casecraft/data"
+DATA_DIR = "/home/user/casebreak/data"
 
 conn = sqlite3.connect(DB_PATH)
 c = conn.cursor()

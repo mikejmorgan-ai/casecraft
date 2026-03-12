@@ -17,7 +17,7 @@ from pathlib import Path
 from datetime import datetime
 
 DB_PATH = os.path.expanduser("~/tree-farm-discovery/master.db")
-DATA_BASE = "/home/user/casecraft/data"
+DATA_BASE = "/home/user/casebreak/data"
 
 # ─── Keyword tiers for Claim 2 relevance ─────────────────────────────────────
 

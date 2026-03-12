@@ -1,17 +1,18 @@
-# Cloudflare Pages Configuration for CaseBrake.ai
-name = "casebrake"
+# Cloudflare Pages Configuration for CaseBreak.ai
+name = "casebreak"
 compatibility_date = "2024-12-18"
-
-[env.production]
 compatibility_flags = ["nodejs_compat"]
 
-# Build configuration
-[build]
-command = "npm run build"
-publish = ".next"
+# Pages will auto-deploy from GitHub when connected
+# Build command and output directory are configured in Cloudflare Dashboard:
+#   Build command: npx @cloudflare/next-on-pages
+#   Build output directory: .vercel/output/static
 
-# Environment variables (set in Cloudflare dashboard)
-[env.production.vars]
+# Environment variables (set in Cloudflare Dashboard > Pages > Settings > Environment variables)
+# Required: NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY, CLERK_SECRET_KEY, NEXT_PUBLIC_SUPABASE_URL,
+#           NEXT_PUBLIC_SUPABASE_ANON_KEY, OPENAI_API_KEY, STRIPE_SECRET_KEY, etc.
+
+[vars]
 NODE_ENV = "production"
 
 # Custom headers for security
@@ -24,9 +25,7 @@ Referrer-Policy = "strict-origin-when-cross-origin"
 Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
 # Cache static assets
-[[redirects]]
-from = "/_next/static/*"
-to = "/_next/static/:splat"
-status = 200
-[redirects.headers]
+[[headers]]
+for = "/_next/static/*"
+[headers.values]
 cache-control = "public, max-age=31536000, immutable"

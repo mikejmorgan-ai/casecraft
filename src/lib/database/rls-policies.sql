@@ -3,7 +3,7 @@
 -- You may not use this file except in compliance with the License.
 
 -- ROW LEVEL SECURITY POLICIES
--- Enforces multi-tenant data isolation for CaseBrake.ai
+-- Enforces multi-tenant data isolation for CaseBreak.ai
 
 -- Enable RLS on all tables
 ALTER TABLE organizations ENABLE ROW LEVEL SECURITY;

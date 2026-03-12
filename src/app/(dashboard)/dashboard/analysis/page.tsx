@@ -153,7 +153,7 @@ export default function AnalysisPage() {
             <div className="space-y-1">
               <p className="text-sm font-medium">How Analysis Works</p>
               <p className="text-sm text-muted-foreground">
-                CaseBrake.ai uses multi-agent AI analysis to evaluate your cases from multiple perspectives.
+                CaseBreak.ai uses multi-agent AI analysis to evaluate your cases from multiple perspectives.
                 Each analysis considers the specific facts, applicable law, relevant precedent in Utah
                 jurisdiction, and the overall litigation landscape to provide actionable insights.
               </p>

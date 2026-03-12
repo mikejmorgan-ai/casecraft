@@ -74,7 +74,7 @@ export default function WeaknessesPage() {
               </div>
               <h3 className="font-semibold text-sm">3. Mitigation Strategy</h3>
               <p className="text-xs text-muted-foreground">
-                For each weakness, CaseBrake.ai provides actionable recommendations to address,
+                For each weakness, CaseBreak.ai provides actionable recommendations to address,
                 mitigate, or preemptively counter the issue.
               </p>
             </div>

@@ -1,8 +1,8 @@
-# CaseBrake.ai Platform Plan
+# CaseBreak.ai Platform Plan
 
 ## Executive Summary
 
-CaseBrake.ai is a legal AI prediction and case management platform. This document outlines the comprehensive roadmap for transforming it into a full-featured platform supporting diverse user roles from solo attorneys to enterprise legal teams.
+CaseBreak.ai is a legal AI prediction and case management platform. This document outlines the comprehensive roadmap for transforming it into a full-featured platform supporting diverse user roles from solo attorneys to enterprise legal teams.
 
 ---
 

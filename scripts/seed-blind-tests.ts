@@ -143,7 +143,7 @@ const BLIND_TEST_CASES: BlindTestCase[] = [
 // ---------------------------------------------------------------------------
 
 async function seedBlindTests() {
-  console.log('=== CaseBrake.ai Blind Test Document Loader ===\n')
+  console.log('=== CaseBreak.ai Blind Test Document Loader ===\n')
 
   let totalInserted = 0
   let totalSkipped = 0

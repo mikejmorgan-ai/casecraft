@@ -1,4 +1,4 @@
-# CaseBrake.ai Build Plan v1.0
+# CaseBreak.ai Build Plan v1.0
 ## Phased Execution Plan — From Pilot to Platform
 
 **Owner:** Mike Morgan, CEO — AI Venture Holdings LLC
@@ -14,7 +14,7 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    CaseBrake.ai Platform                         │
+│                    CaseBreak.ai Platform                         │
 ├─────────────┬──────────────┬──────────────┬─────────────────┤
 │  Agent Chat │ Motion       │ Brief        │ Voice           │
 │  (existing) │ Analyzer     │ Drafter      │ (Retell + TTS)  │
