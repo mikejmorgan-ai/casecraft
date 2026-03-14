@@ -6,8 +6,8 @@
 
 'use client'
 
-// import { UserButton } from '@clerk/nextjs'
-import { Bell, User } from 'lucide-react'
+import { UserButton } from '@clerk/nextjs'
+import { Bell } from 'lucide-react'
 
 export function Header() {
   return (
@@ -26,10 +26,16 @@ export function Header() {
             <Bell className="h-5 w-5" />
           </button>
 
-          {/* TODO: Replace with UserButton after Clerk setup */}
-          <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
-            <User className="h-4 w-4 text-blue-600" />
-          </div>
+          <UserButton
+            appearance={{
+              elements: {
+                avatarBox: "w-8 h-8",
+                userButtonPopoverCard: "shadow-lg",
+                userButtonPopoverActionButton: "hover:bg-gray-50"
+              }
+            }}
+            showName={false}
+          />
         </div>
       </div>
     </header>

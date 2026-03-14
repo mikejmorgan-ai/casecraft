@@ -4,21 +4,20 @@
  * You may not use this file except in compliance with the License.
  */
 
-// import { auth } from '@clerk/nextjs'
-// import { redirect } from 'next/navigation'
+import { auth } from '@clerk/nextjs/server'
+import { redirect } from 'next/navigation'
 import { Sidebar } from '@/components/layout/sidebar'
 import { Header } from '@/components/layout/header'
 
-export default function DashboardLayout({
+export default async function DashboardLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
-  // TODO: Re-enable auth check after Clerk setup
-  // const { userId } = auth()
-  // if (!userId) {
-  //   redirect('/sign-in')
-  // }
+  const { userId } = await auth()
+  if (!userId) {
+    redirect('/sign-in')
+  }
 
   return (
     <div className="flex h-screen bg-gray-100" id="dashboard-layout">

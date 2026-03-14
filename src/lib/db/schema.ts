@@ -21,6 +21,7 @@ import { relations } from 'drizzle-orm'
 // Organizations (law firms)
 export const organizations = pgTable('organizations', {
   id: uuid('id').primaryKey().defaultRandom(),
+  clerkId: text('clerk_id').unique(),
   name: text('name').notNull(),
   slug: text('slug').unique().notNull(),
   plan: text('plan').default('trial'), // trial, professional, enterprise

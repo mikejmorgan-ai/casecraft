@@ -1,305 +1,516 @@
-/**
- * Copyright (c) 2026 CaseBreak Technologies
- * Licensed under the Business Source License 1.1
- * You may not use this file except in compliance with the License.
- */
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Button } from '@/components/ui/button'
+import { Badge } from '@/components/ui/badge'
+import { Input } from '@/components/ui/input'
+import { Label } from '@/components/ui/label'
+import { Separator } from '@/components/ui/separator'
+import {
+  Settings,
+  User,
+  Bell,
+  Palette,
+  Shield,
+  Scale,
+  Mail,
+  Building2,
+  MapPin,
+  BookOpen,
+  Monitor,
+  Moon,
+  Sun,
+  Globe,
+  Clock,
+  FileText,
+  Lock,
+  Eye,
+  Briefcase,
+  Volume2,
+  MessageSquare,
+  AlertCircle,
+  CheckCircle2,
+  Smartphone,
+  ExternalLink,
+} from 'lucide-react'
 
 export default function SettingsPage() {
   return (
-    <div className="space-y-6" id="settings-page">
-      <div className="border-b border-gray-200 pb-4">
-        <h1 className="text-2xl font-bold text-gray-900" id="settings-title">Settings</h1>
-        <p className="text-gray-600 mt-1">Manage your organization and preferences</p>
+    <div className="p-6 lg:p-8 space-y-6 max-w-4xl">
+      {/* Header */}
+      <div className="flex items-center gap-3">
+        <div className="p-2 bg-primary/10 rounded-lg">
+          <Settings className="h-6 w-6 text-primary" />
+        </div>
+        <div>
+          <h1 className="text-2xl font-bold font-serif">Settings</h1>
+          <p className="text-muted-foreground">Manage your account preferences and application settings</p>
+        </div>
       </div>
 
-      {/* Organization Settings */}
-      <div className="bg-white rounded-lg shadow border" id="org-settings">
-        <div className="p-6 border-b border-gray-200">
-          <h3 className="text-lg font-semibold text-gray-900">Organization Settings</h3>
-        </div>
-        <div className="p-6 space-y-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div id="org-name-field">
-              <label htmlFor="orgName" className="block text-sm font-medium text-gray-700 mb-2">
-                Organization Name
-              </label>
-              <input
-                type="text"
-                id="orgName"
-                className="block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                defaultValue="Smith & Associates Law Firm"
+      {/* Profile Section */}
+      <Card>
+        <CardHeader>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <User className="h-5 w-5 text-primary" />
+              <CardTitle className="font-serif">Profile</CardTitle>
+            </div>
+            <Badge variant="outline" className="text-xs gap-1">
+              <Lock className="h-3 w-3" />
+              Managed by Clerk
+            </Badge>
+          </div>
+          <CardDescription>
+            Your profile information is managed through Clerk authentication. Contact your
+            administrator to update these fields.
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="space-y-6">
+          <div className="grid gap-6 md:grid-cols-2">
+            <div className="space-y-2">
+              <Label htmlFor="firstName" className="flex items-center gap-2 text-sm">
+                <User className="h-3.5 w-3.5 text-muted-foreground" />
+                First Name
+              </Label>
+              <Input
+                id="firstName"
+                placeholder="John"
+                disabled
+                className="bg-muted/50"
               />
+              <p className="text-xs text-muted-foreground">Managed by Clerk</p>
             </div>
 
-            <div id="org-type-field">
-              <label htmlFor="orgType" className="block text-sm font-medium text-gray-700 mb-2">
-                Organization Type
-              </label>
-              <select
-                id="orgType"
-                className="block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-              >
-                <option>Law Firm</option>
-                <option>Corporate Legal Department</option>
-                <option>Government Agency</option>
-                <option>Non-profit Legal Aid</option>
-              </select>
+            <div className="space-y-2">
+              <Label htmlFor="lastName" className="flex items-center gap-2 text-sm">
+                <User className="h-3.5 w-3.5 text-muted-foreground" />
+                Last Name
+              </Label>
+              <Input
+                id="lastName"
+                placeholder="Doe"
+                disabled
+                className="bg-muted/50"
+              />
+              <p className="text-xs text-muted-foreground">Managed by Clerk</p>
             </div>
 
-            <div id="jurisdiction-field">
-              <label htmlFor="jurisdiction" className="block text-sm font-medium text-gray-700 mb-2">
+            <div className="space-y-2">
+              <Label htmlFor="email" className="flex items-center gap-2 text-sm">
+                <Mail className="h-3.5 w-3.5 text-muted-foreground" />
+                Email Address
+              </Label>
+              <Input
+                id="email"
+                type="email"
+                placeholder="john.doe@parrbrown.com"
+                disabled
+                className="bg-muted/50"
+              />
+              <p className="text-xs text-muted-foreground">Managed by Clerk</p>
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="role" className="flex items-center gap-2 text-sm">
+                <Shield className="h-3.5 w-3.5 text-muted-foreground" />
+                Role
+              </Label>
+              <Input
+                id="role"
+                placeholder="Attorney"
+                disabled
+                className="bg-muted/50"
+              />
+              <p className="text-xs text-muted-foreground">Assigned by administrator</p>
+            </div>
+          </div>
+
+          <Separator />
+
+          <div className="grid gap-6 md:grid-cols-2">
+            <div className="space-y-2">
+              <Label htmlFor="barNumber" className="flex items-center gap-2 text-sm">
+                <Scale className="h-3.5 w-3.5 text-muted-foreground" />
+                Bar Number
+              </Label>
+              <Input
+                id="barNumber"
+                placeholder="UT-12345"
+                disabled
+                className="bg-muted/50"
+              />
+              <p className="text-xs text-muted-foreground">Utah State Bar registration number</p>
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="jurisdiction" className="flex items-center gap-2 text-sm">
+                <MapPin className="h-3.5 w-3.5 text-muted-foreground" />
                 Primary Jurisdiction
-              </label>
-              <select
+              </Label>
+              <Input
                 id="jurisdiction"
-                className="block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-              >
-                <option>California</option>
-                <option>New York</option>
-                <option>Texas</option>
-                <option>Federal</option>
-                <option>Other...</option>
-              </select>
-            </div>
-
-            <div id="practice-areas-field">
-              <label htmlFor="practiceAreas" className="block text-sm font-medium text-gray-700 mb-2">
-                Practice Areas
-              </label>
-              <select
-                id="practiceAreas"
-                multiple
-                className="block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-              >
-                <option>Civil Litigation</option>
-                <option>Corporate Law</option>
-                <option>Employment Law</option>
-                <option>Family Law</option>
-                <option>Criminal Defense</option>
-                <option>Intellectual Property</option>
-              </select>
-            </div>
-          </div>
-
-          <div className="flex justify-end">
-            <button
-              type="button"
-              className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
-              id="save-org-settings"
-            >
-              Save Changes
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* Billing Settings */}
-      <div className="bg-white rounded-lg shadow border" id="billing-settings">
-        <div className="p-6 border-b border-gray-200">
-          <h3 className="text-lg font-semibold text-gray-900">Billing & Subscription</h3>
-        </div>
-        <div className="p-6">
-          <div className="flex items-center justify-between p-4 bg-blue-50 rounded-lg mb-6">
-            <div>
-              <h4 className="font-medium text-blue-900">Professional Plan</h4>
-              <p className="text-sm text-blue-700">$299/month per attorney • 5 seats active</p>
-              <p className="text-sm text-blue-600">Next billing: March 15, 2026</p>
-            </div>
-            <button
-              type="button"
-              className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
-              id="manage-subscription"
-            >
-              Manage Subscription
-            </button>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div id="payment-method">
-              <h4 className="font-medium text-gray-900 mb-3">Payment Method</h4>
-              <div className="border border-gray-200 rounded-lg p-4">
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-blue-100 rounded flex items-center justify-center">
-                    💳
-                  </div>
-                  <div>
-                    <p className="font-medium text-gray-900">•••• •••• •••• 4242</p>
-                    <p className="text-sm text-gray-600">Expires 12/2028</p>
-                  </div>
-                </div>
-                <button
-                  type="button"
-                  className="text-blue-600 hover:text-blue-700 text-sm mt-2"
-                  id="update-payment"
-                >
-                  Update Payment Method
-                </button>
-              </div>
-            </div>
-
-            <div id="billing-history">
-              <h4 className="font-medium text-gray-900 mb-3">Recent Invoices</h4>
-              <div className="space-y-2">
-                <div className="flex items-center justify-between py-2">
-                  <span className="text-sm text-gray-600">February 2026</span>
-                  <div className="flex items-center space-x-2">
-                    <span className="text-sm font-medium text-gray-900">$1,495.00</span>
-                    <button className="text-blue-600 hover:text-blue-700 text-sm">Download</button>
-                  </div>
-                </div>
-                <div className="flex items-center justify-between py-2">
-                  <span className="text-sm text-gray-600">January 2026</span>
-                  <div className="flex items-center space-x-2">
-                    <span className="text-sm font-medium text-gray-900">$1,495.00</span>
-                    <button className="text-blue-600 hover:text-blue-700 text-sm">Download</button>
-                  </div>
-                </div>
-                <div className="flex items-center justify-between py-2">
-                  <span className="text-sm text-gray-600">December 2025</span>
-                  <div className="flex items-center space-x-2">
-                    <span className="text-sm font-medium text-gray-900">$1,495.00</span>
-                    <button className="text-blue-600 hover:text-blue-700 text-sm">Download</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* AI Preferences */}
-      <div className="bg-white rounded-lg shadow border" id="ai-preferences">
-        <div className="p-6 border-b border-gray-200">
-          <h3 className="text-lg font-semibold text-gray-900">AI Preferences</h3>
-        </div>
-        <div className="p-6 space-y-6">
-          <div id="ai-model-selection">
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Preferred AI Model
-            </label>
-            <select className="block w-full md:w-1/2 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
-              <option>GPT-4o (Recommended)</option>
-              <option>Claude 3 Opus</option>
-              <option>Hybrid Model</option>
-            </select>
-            <p className="text-sm text-gray-500 mt-1">
-              GPT-4o provides the best balance of accuracy and speed for legal analysis.
-            </p>
-          </div>
-
-          <div id="confidence-threshold">
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Confidence Threshold
-            </label>
-            <div className="flex items-center space-x-4">
-              <input
-                type="range"
-                min="70"
-                max="99"
-                defaultValue="85"
-                className="flex-1 md:w-64"
+                placeholder="Utah"
+                disabled
+                className="bg-muted/50"
               />
-              <span className="text-sm font-medium text-gray-900">85%</span>
+              <p className="text-xs text-muted-foreground">Primary practice jurisdiction</p>
             </div>
-            <p className="text-sm text-gray-500 mt-1">
-              AI predictions below this threshold will be flagged for review.
+
+            <div className="space-y-2">
+              <Label htmlFor="firm" className="flex items-center gap-2 text-sm">
+                <Building2 className="h-3.5 w-3.5 text-muted-foreground" />
+                Firm
+              </Label>
+              <Input
+                id="firm"
+                placeholder="Parr Brown Gee & Loveless"
+                disabled
+                className="bg-muted/50"
+              />
+              <p className="text-xs text-muted-foreground">Organization affiliation</p>
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="practiceArea" className="flex items-center gap-2 text-sm">
+                <BookOpen className="h-3.5 w-3.5 text-muted-foreground" />
+                Practice Area
+              </Label>
+              <Input
+                id="practiceArea"
+                placeholder="Commercial Litigation"
+                disabled
+                className="bg-muted/50"
+              />
+              <p className="text-xs text-muted-foreground">Primary practice area</p>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-2 p-3 bg-blue-500/5 border border-blue-500/20 rounded-lg">
+            <ExternalLink className="h-4 w-4 text-blue-500 shrink-0" />
+            <p className="text-xs text-blue-500">
+              To update your name, email, or password, visit your Clerk profile settings or contact your administrator.
             </p>
           </div>
+        </CardContent>
+      </Card>
 
-          <div id="notification-preferences">
-            <label className="block text-sm font-medium text-gray-700 mb-3">
-              Notification Preferences
-            </label>
-            <div className="space-y-3">
-              <label className="flex items-center">
-                <input type="checkbox" className="rounded border-gray-300 text-blue-600 focus:ring-blue-500" defaultChecked />
-                <span className="ml-2 text-sm text-gray-700">High-confidence AI predictions</span>
-              </label>
-              <label className="flex items-center">
-                <input type="checkbox" className="rounded border-gray-300 text-blue-600 focus:ring-blue-500" defaultChecked />
-                <span className="ml-2 text-sm text-gray-700">Low-confidence predictions requiring review</span>
-              </label>
-              <label className="flex items-center">
-                <input type="checkbox" className="rounded border-gray-300 text-blue-600 focus:ring-blue-500" />
-                <span className="ml-2 text-sm text-gray-700">Weekly analytics summaries</span>
-              </label>
-              <label className="flex items-center">
-                <input type="checkbox" className="rounded border-gray-300 text-blue-600 focus:ring-blue-500" />
-                <span className="ml-2 text-sm text-gray-700">New feature announcements</span>
-              </label>
-            </div>
+      {/* Preferences Section */}
+      <Card>
+        <CardHeader>
+          <div className="flex items-center gap-2">
+            <Palette className="h-5 w-5 text-primary" />
+            <CardTitle className="font-serif">Preferences</CardTitle>
           </div>
-
-          <div className="flex justify-end">
-            <button
-              type="button"
-              className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
-              id="save-ai-preferences"
-            >
-              Save Preferences
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* Security Settings */}
-      <div className="bg-white rounded-lg shadow border" id="security-settings">
-        <div className="p-6 border-b border-gray-200">
-          <h3 className="text-lg font-semibold text-gray-900">Security & Privacy</h3>
-        </div>
-        <div className="p-6 space-y-6">
-          <div id="two-factor-auth">
-            <div className="flex items-center justify-between">
+          <CardDescription>
+            Customize your CaseBreak.ai experience
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="space-y-6">
+          {/* Theme */}
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="p-2 bg-muted rounded-lg">
+                <Monitor className="h-4 w-4" />
+              </div>
               <div>
-                <h4 className="font-medium text-gray-900">Two-Factor Authentication</h4>
-                <p className="text-sm text-gray-600">Add an extra layer of security to your account</p>
+                <p className="text-sm font-medium">Theme</p>
+                <p className="text-xs text-muted-foreground">Choose your preferred color scheme</p>
               </div>
-              <button
-                type="button"
-                className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700"
-                id="enable-2fa"
-              >
-                Enable 2FA
-              </button>
+            </div>
+            <div className="flex items-center gap-1 p-1 bg-muted rounded-lg">
+              <Button variant="ghost" size="sm" className="h-8 px-3 gap-1.5 rounded-md">
+                <Sun className="h-3.5 w-3.5" />
+                <span className="text-xs">Light</span>
+              </Button>
+              <Button variant="secondary" size="sm" className="h-8 px-3 gap-1.5 rounded-md">
+                <Moon className="h-3.5 w-3.5" />
+                <span className="text-xs">Dark</span>
+              </Button>
             </div>
           </div>
 
-          <div id="session-management">
-            <h4 className="font-medium text-gray-900 mb-3">Active Sessions</h4>
-            <div className="space-y-3">
-              <div className="flex items-center justify-between p-3 border border-gray-200 rounded-lg">
-                <div>
-                  <p className="font-medium text-gray-900">Current Session</p>
-                  <p className="text-sm text-gray-600">MacBook Pro • San Francisco, CA</p>
-                </div>
-                <span className="text-sm text-green-600 font-medium">Active Now</span>
-              </div>
-              <div className="flex items-center justify-between p-3 border border-gray-200 rounded-lg">
-                <div>
-                  <p className="font-medium text-gray-900">iPad Session</p>
-                  <p className="text-sm text-gray-600">iPad Pro • 2 hours ago</p>
-                </div>
-                <button className="text-red-600 hover:text-red-700 text-sm">Revoke</button>
-              </div>
-            </div>
-          </div>
+          <Separator />
 
-          <div id="data-export">
-            <div className="flex items-center justify-between">
+          {/* Default Case View */}
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="p-2 bg-muted rounded-lg">
+                <Briefcase className="h-4 w-4" />
+              </div>
               <div>
-                <h4 className="font-medium text-gray-900">Data Export</h4>
-                <p className="text-sm text-gray-600">Download all your data in standard formats</p>
+                <p className="text-sm font-medium">Default Case View</p>
+                <p className="text-xs text-muted-foreground">How cases are displayed in the list</p>
               </div>
-              <button
-                type="button"
-                className="border border-gray-300 text-gray-700 px-4 py-2 rounded-md hover:bg-gray-50"
-                id="export-data"
-              >
-                Request Export
-              </button>
+            </div>
+            <div className="flex items-center gap-1 p-1 bg-muted rounded-lg">
+              <Button variant="secondary" size="sm" className="h-8 px-3 rounded-md">
+                <span className="text-xs">Cards</span>
+              </Button>
+              <Button variant="ghost" size="sm" className="h-8 px-3 rounded-md">
+                <span className="text-xs">Table</span>
+              </Button>
+              <Button variant="ghost" size="sm" className="h-8 px-3 rounded-md">
+                <span className="text-xs">List</span>
+              </Button>
             </div>
           </div>
-        </div>
+
+          <Separator />
+
+          {/* Language */}
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="p-2 bg-muted rounded-lg">
+                <Globe className="h-4 w-4" />
+              </div>
+              <div>
+                <p className="text-sm font-medium">Language</p>
+                <p className="text-xs text-muted-foreground">Display language for the interface</p>
+              </div>
+            </div>
+            <Badge variant="outline" className="text-xs">English (US)</Badge>
+          </div>
+
+          <Separator />
+
+          {/* Timezone */}
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="p-2 bg-muted rounded-lg">
+                <Clock className="h-4 w-4" />
+              </div>
+              <div>
+                <p className="text-sm font-medium">Timezone</p>
+                <p className="text-xs text-muted-foreground">Used for deadlines and scheduling</p>
+              </div>
+            </div>
+            <Badge variant="outline" className="text-xs">America/Denver (MT)</Badge>
+          </div>
+
+          <Separator />
+
+          {/* Default AI Model */}
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="p-2 bg-muted rounded-lg">
+                <FileText className="h-4 w-4" />
+              </div>
+              <div>
+                <p className="text-sm font-medium">AI Analysis Detail Level</p>
+                <p className="text-xs text-muted-foreground">Controls the depth of AI-generated analysis</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-1 p-1 bg-muted rounded-lg">
+              <Button variant="ghost" size="sm" className="h-8 px-3 rounded-md">
+                <span className="text-xs">Concise</span>
+              </Button>
+              <Button variant="secondary" size="sm" className="h-8 px-3 rounded-md">
+                <span className="text-xs">Standard</span>
+              </Button>
+              <Button variant="ghost" size="sm" className="h-8 px-3 rounded-md">
+                <span className="text-xs">Detailed</span>
+              </Button>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Notifications Section */}
+      <Card>
+        <CardHeader>
+          <div className="flex items-center gap-2">
+            <Bell className="h-5 w-5 text-primary" />
+            <CardTitle className="font-serif">Notifications</CardTitle>
+          </div>
+          <CardDescription>
+            Control how and when you receive notifications
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="space-y-4">
+          {/* Notification Rows */}
+          <div className="flex items-center justify-between p-3 rounded-lg hover:bg-muted/50 transition-colors">
+            <div className="flex items-center gap-3">
+              <div className="p-2 bg-green-500/10 rounded-lg">
+                <CheckCircle2 className="h-4 w-4 text-green-500" />
+              </div>
+              <div>
+                <p className="text-sm font-medium">Case Updates</p>
+                <p className="text-xs text-muted-foreground">When a case status changes or new analysis is ready</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              <Button variant="outline" size="sm" className="h-7 px-2 gap-1 text-xs">
+                <Mail className="h-3 w-3" />
+                Email
+              </Button>
+              <Button variant="secondary" size="sm" className="h-7 px-2 gap-1 text-xs">
+                <Smartphone className="h-3 w-3" />
+                Push
+              </Button>
+            </div>
+          </div>
+
+          <Separator />
+
+          <div className="flex items-center justify-between p-3 rounded-lg hover:bg-muted/50 transition-colors">
+            <div className="flex items-center gap-3">
+              <div className="p-2 bg-blue-500/10 rounded-lg">
+                <Eye className="h-4 w-4 text-blue-500" />
+              </div>
+              <div>
+                <p className="text-sm font-medium">Prediction Results</p>
+                <p className="text-xs text-muted-foreground">When AI predictions are complete</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              <Button variant="secondary" size="sm" className="h-7 px-2 gap-1 text-xs">
+                <Mail className="h-3 w-3" />
+                Email
+              </Button>
+              <Button variant="secondary" size="sm" className="h-7 px-2 gap-1 text-xs">
+                <Smartphone className="h-3 w-3" />
+                Push
+              </Button>
+            </div>
+          </div>
+
+          <Separator />
+
+          <div className="flex items-center justify-between p-3 rounded-lg hover:bg-muted/50 transition-colors">
+            <div className="flex items-center gap-3">
+              <div className="p-2 bg-orange-500/10 rounded-lg">
+                <AlertCircle className="h-4 w-4 text-orange-500" />
+              </div>
+              <div>
+                <p className="text-sm font-medium">Deadline Reminders</p>
+                <p className="text-xs text-muted-foreground">Upcoming case deadlines and filing dates</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              <Button variant="secondary" size="sm" className="h-7 px-2 gap-1 text-xs">
+                <Mail className="h-3 w-3" />
+                Email
+              </Button>
+              <Button variant="secondary" size="sm" className="h-7 px-2 gap-1 text-xs">
+                <Smartphone className="h-3 w-3" />
+                Push
+              </Button>
+            </div>
+          </div>
+
+          <Separator />
+
+          <div className="flex items-center justify-between p-3 rounded-lg hover:bg-muted/50 transition-colors">
+            <div className="flex items-center gap-3">
+              <div className="p-2 bg-purple-500/10 rounded-lg">
+                <MessageSquare className="h-4 w-4 text-purple-500" />
+              </div>
+              <div>
+                <p className="text-sm font-medium">Team Messages</p>
+                <p className="text-xs text-muted-foreground">When team members share cases or send messages</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              <Button variant="outline" size="sm" className="h-7 px-2 gap-1 text-xs">
+                <Mail className="h-3 w-3" />
+                Email
+              </Button>
+              <Button variant="outline" size="sm" className="h-7 px-2 gap-1 text-xs">
+                <Smartphone className="h-3 w-3" />
+                Push
+              </Button>
+            </div>
+          </div>
+
+          <Separator />
+
+          <div className="flex items-center justify-between p-3 rounded-lg hover:bg-muted/50 transition-colors">
+            <div className="flex items-center gap-3">
+              <div className="p-2 bg-muted rounded-lg">
+                <Volume2 className="h-4 w-4" />
+              </div>
+              <div>
+                <p className="text-sm font-medium">System Announcements</p>
+                <p className="text-xs text-muted-foreground">Platform updates, maintenance windows, and new features</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              <Button variant="secondary" size="sm" className="h-7 px-2 gap-1 text-xs">
+                <Mail className="h-3 w-3" />
+                Email
+              </Button>
+              <Button variant="outline" size="sm" className="h-7 px-2 gap-1 text-xs">
+                <Smartphone className="h-3 w-3" />
+                Push
+              </Button>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Security Section */}
+      <Card>
+        <CardHeader>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <Shield className="h-5 w-5 text-primary" />
+              <CardTitle className="font-serif">Security</CardTitle>
+            </div>
+            <Badge variant="outline" className="text-xs gap-1">
+              <Lock className="h-3 w-3" />
+              Managed by Clerk
+            </Badge>
+          </div>
+          <CardDescription>
+            Authentication and security settings are managed through Clerk
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="space-y-4">
+          <div className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
+            <div className="flex items-center gap-3">
+              <Lock className="h-4 w-4 text-muted-foreground" />
+              <div>
+                <p className="text-sm font-medium">Password</p>
+                <p className="text-xs text-muted-foreground">Last changed: Unknown</p>
+              </div>
+            </div>
+            <Button variant="outline" size="sm" className="text-xs" disabled>
+              Change via Clerk
+            </Button>
+          </div>
+
+          <div className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
+            <div className="flex items-center gap-3">
+              <Smartphone className="h-4 w-4 text-muted-foreground" />
+              <div>
+                <p className="text-sm font-medium">Two-Factor Authentication</p>
+                <p className="text-xs text-muted-foreground">Add an extra layer of security</p>
+              </div>
+            </div>
+            <Button variant="outline" size="sm" className="text-xs" disabled>
+              Configure via Clerk
+            </Button>
+          </div>
+
+          <div className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
+            <div className="flex items-center gap-3">
+              <Eye className="h-4 w-4 text-muted-foreground" />
+              <div>
+                <p className="text-sm font-medium">Active Sessions</p>
+                <p className="text-xs text-muted-foreground">Manage your active login sessions</p>
+              </div>
+            </div>
+            <Button variant="outline" size="sm" className="text-xs" disabled>
+              View via Clerk
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Footer Note */}
+      <div className="text-center py-4">
+        <p className="text-xs text-muted-foreground">
+          CaseBreak.ai v1.0 &middot; Parr Brown Gee &amp; Loveless &middot; All settings are saved automatically
+        </p>
       </div>
     </div>
   )

@@ -27,13 +27,14 @@ export default function DocumentsPage() {
             <p className="text-gray-600 mb-6">
               Upload legal documents to analyze with AI and use in mock trials.
             </p>
-            <button
-              className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary-600 hover:bg-primary-700"
+            <a
+              href="/dashboard/documents/upload"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
               id="documents-upload-button"
             >
               <Upload className="h-4 w-4 mr-2" />
               Upload Document
-            </button>
+            </a>
           </div>
         </div>
       </div>

@@ -1,52 +1,167 @@
-/**
- * Copyright (c) 2026 CaseBreak Technologies
- * Licensed under the Business Source License 1.1
- * You may not use this file except in compliance with the License.
- */
-
+import { getAuthUserId, getSupabase } from '@/lib/auth/clerk'
+import { redirect } from 'next/navigation'
+import { cookies } from 'next/headers'
 import Link from 'next/link'
-import { Plus } from 'lucide-react'
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
+import { Button } from '@/components/ui/button'
+import {
+  Briefcase,
+  Plus,
+  Scale,
+  FileText,
+  Target,
+  Sparkles,
+} from 'lucide-react'
+import { CasesListClient } from '@/components/cases/cases-list-client'
+import { CaseTemplates } from '@/components/cases/case-templates'
+import { getUserProfile } from '@/lib/auth/check-permission'
+import { hasPermission, type UserRole } from '@/lib/auth/rbac'
 
-export default function CasesPage() {
+export default async function CasesPage() {
+  const cookieStore = await cookies()
+  const hasBetaBypass = cookieStore.get('beta_bypass')?.value === 'true'
+
+  let userRole: UserRole = 'attorney'
+  let canCreateCase = hasPermission(userRole, 'cases:create')
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let casesList: any[] = []
+
+  try {
+    const userId = await getAuthUserId()
+    if (!userId && !hasBetaBypass) redirect('/sign-in')
+    const supabase = await getSupabase()
+
+    // Get user profile for permissions (default to attorney for beta bypass)
+    const profile = userId ? await getUserProfile() : null
+    userRole = profile?.role || 'attorney'
+    canCreateCase = hasPermission(userRole, 'cases:create')
+
+    // Fetch cases with counts
+    const { data: cases, error } = await supabase
+      .from('cases')
+      .select(`
+        *,
+        agents(count),
+        documents(count),
+        conversations(count),
+        case_predictions(count)
+      `)
+      .order('updated_at', { ascending: false })
+
+    if (error) {
+      console.error('Error fetching cases:', error)
+    }
+
+    casesList = cases || []
+  } catch {
+    if (!hasBetaBypass) redirect('/sign-in')
+  }
+
+  // Calculate stats
+  const totalCases = casesList.length
+  const activeCases = casesList.filter(c => c.status === 'active').length
+  const draftCases = casesList.filter(c => c.status === 'draft').length
+  const blindTests = casesList.filter(c => c.is_blind_test).length
+
   return (
-    <div className="space-y-6" id="cases-page">
-      <div className="flex items-center justify-between">
+    <div className="p-6 lg:p-8 space-y-8">
+      {/* Header */}
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900" id="cases-title">Cases</h1>
-          <p className="text-gray-600 mt-1">Manage all your legal cases</p>
+          <h1 className="text-3xl font-bold">Cases</h1>
+          <p className="text-muted-foreground mt-1">
+            Manage your litigation matters and case files
+          </p>
         </div>
-        <Link
-          href="/dashboard/cases/new"
-          className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary-600 hover:bg-primary-700"
-          id="cases-new-button"
-        >
-          <Plus className="h-4 w-4 mr-2" />
-          New Case
-        </Link>
+        {canCreateCase && (
+          <Link href="/dashboard/cases/new">
+            <Button className="gap-2">
+              <Plus className="h-4 w-4" />
+              New Case
+            </Button>
+          </Link>
+        )}
       </div>
 
-      {/* Cases List */}
-      <div className="bg-white shadow overflow-hidden sm:rounded-md" id="cases-list">
-        <div className="px-4 py-5 sm:p-6">
-          <div className="text-center" id="cases-empty-state">
-            <div className="w-12 h-12 bg-gray-100 rounded-lg mx-auto mb-4 flex items-center justify-center">
-              📁
+      {/* Stats */}
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <Card>
+          <CardContent className="pt-6">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-sm text-muted-foreground">Total Cases</p>
+                <p className="text-2xl font-bold">{totalCases}</p>
+              </div>
+              <div className="h-10 w-10 rounded-lg flex items-center justify-center bg-primary/10 text-primary">
+                <Briefcase className="h-5 w-5" />
+              </div>
             </div>
-            <h3 className="text-lg font-medium text-gray-900 mb-2">No cases yet</h3>
-            <p className="text-gray-600 mb-6">
-              Get started by creating your first case to organize documents and run mock trials.
-            </p>
-            <Link
-              href="/dashboard/cases/new"
-              className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary-600 hover:bg-primary-700"
-              id="cases-empty-cta"
-            >
-              <Plus className="h-4 w-4 mr-2" />
-              Create First Case
-            </Link>
-          </div>
-        </div>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardContent className="pt-6">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-sm text-muted-foreground">Active</p>
+                <p className="text-2xl font-bold">{activeCases}</p>
+              </div>
+              <div className="h-10 w-10 rounded-lg flex items-center justify-center bg-green-500/10 text-green-500">
+                <Scale className="h-5 w-5" />
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardContent className="pt-6">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-sm text-muted-foreground">Drafts</p>
+                <p className="text-2xl font-bold">{draftCases}</p>
+              </div>
+              <div className="h-10 w-10 rounded-lg flex items-center justify-center bg-orange-500/10 text-orange-500">
+                <FileText className="h-5 w-5" />
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardContent className="pt-6">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-sm text-muted-foreground">Blind Tests</p>
+                <p className="text-2xl font-bold">{blindTests}</p>
+              </div>
+              <div className="h-10 w-10 rounded-lg flex items-center justify-center bg-blue-500/10 text-blue-500">
+                <Target className="h-5 w-5" />
+              </div>
+            </div>
+          </CardContent>
+        </Card>
       </div>
+
+      {/* Quick Start Templates - Show for users who can create cases */}
+      {canCreateCase && (
+        <Card>
+          <CardHeader>
+            <div className="flex items-center gap-2">
+              <Sparkles className="h-5 w-5 text-primary" />
+              <CardTitle className="text-lg">Quick Start Templates</CardTitle>
+            </div>
+            <CardDescription>
+              Create a new case using one of our Utah-focused legal templates
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <CaseTemplates featured />
+          </CardContent>
+        </Card>
+      )}
+
+      {/* Cases List with Client-Side Filtering */}
+      <CasesListClient cases={casesList} canCreateCase={canCreateCase} />
     </div>
   )
 }
