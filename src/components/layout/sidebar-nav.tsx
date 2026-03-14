@@ -1,8 +1,9 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { useTheme } from 'next-themes'
 import { SignOutButton } from '@clerk/nextjs'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
@@ -70,31 +71,12 @@ const clientItems: { href: string; label: string; icon: React.ElementType }[] = 
 
 export function SidebarNav({ user, userRole = 'attorney' }: SidebarNavProps) {
   const pathname = usePathname()
+  const { theme, setTheme } = useTheme()
   const [collapsed, setCollapsed] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
-  const [isDark, setIsDark] = useState(true) // Default to dark
 
-  // Initialize theme from localStorage on mount
-  const [mounted, setMounted] = useState(false)
-
-  useEffect(() => {
-    // Check for saved preference or default to dark
-    const saved = localStorage.getItem('theme')
-    const prefersDark = saved === 'dark' || (!saved && true) // Default dark
-    if (prefersDark !== isDark) {
-      setIsDark(prefersDark)
-    }
-    document.documentElement.classList.toggle('dark', prefersDark)
-    setMounted(true)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [mounted])
-
-  const toggleTheme = () => {
-    const newIsDark = !isDark
-    setIsDark(newIsDark)
-    document.documentElement.classList.toggle('dark', newIsDark)
-    localStorage.setItem('theme', newIsDark ? 'dark' : 'light')
-  }
+  const isDark = theme === 'dark'
+  const toggleTheme = () => setTheme(isDark ? 'light' : 'dark')
 
   // Filter nav items based on user permissions
   const filteredNavItems = userRole === 'client'

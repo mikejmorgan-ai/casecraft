@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
+import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -16,11 +17,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const content = (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className="font-sans antialiased">
-        <Suspense fallback={null}>
-          {children}
-        </Suspense>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
+          <Suspense fallback={null}>
+            {children}
+          </Suspense>
+        </ThemeProvider>
       </body>
     </html>
   )

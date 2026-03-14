@@ -1,9 +1,8 @@
-import { Suspense } from 'react'
 import { SignUp } from '@clerk/nextjs'
 
 export const dynamic = 'force-dynamic'
 
-function SignupPage() {
+export default function SignupPage() {
   return (
     <div className="dark min-h-screen flex items-center justify-center bg-background p-4">
       <SignUp
@@ -13,18 +12,11 @@ function SignupPage() {
             card: 'bg-card border-border shadow-lg',
           },
         }}
-        routing="hash"
+        routing="path"
+        path="/signup"
         signInUrl="/login"
         fallbackRedirectUrl="/dashboard"
       />
     </div>
-  )
-}
-
-export default function SignupPageWrapper() {
-  return (
-    <Suspense fallback={null}>
-      <SignupPage />
-    </Suspense>
   )
 }

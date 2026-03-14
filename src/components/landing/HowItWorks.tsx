@@ -1,6 +1,7 @@
 'use client'
 
 import { motion, type Variants } from 'framer-motion'
+import Link from 'next/link'
 import { Upload, Brain, PlayCircle, Lightbulb, Gavel } from 'lucide-react'
 
 const steps = [
@@ -221,13 +222,15 @@ export function HowItWorks() {
           <p className="text-muted-foreground mb-4">
             Ready to experience the power of AI-driven legal simulation?
           </p>
-          <motion.span
-            className="text-[var(--color-royal-blue)] font-semibold cursor-pointer"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Start your first simulation today
-          </motion.span>
+          <Link href="/signup">
+            <motion.span
+              className="text-[var(--color-royal-blue)] font-semibold cursor-pointer"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Start your first simulation today
+            </motion.span>
+          </Link>
         </motion.div>
       </div>
     </section>
