@@ -1,0 +1,133 @@
+bates_number,document_type,date,author,recipient,organizations,key_people,relevance_score,kill_targets,summary,file_path,source_file,processing_phase,tier,litigation_tier,war_room_status
+TF001583,Email,"August 19, 2019",Dustin Christianson (Granite Construction),Samuel Stout (Granite Construction),Granite Construction,Dustin Christianson; Samuel Stout,999.0,MANUAL OVERRIDE: Pre-attack evidence building - 2 years before NOI,Granite Construction Aerial Image Search (Aug 2019) - Pre-attack-window investigation for 1985-2000 Parleys Canyon aerial images. Proves Granite was building vested rights evidence 2 years before NOI filed.,/Users/allbots/Downloads/2026.02.13 - Tree Farm Supplemental Production (TF001583-8251)/text/0001/TF001583.txt,Manual_Override_Foundation,Manual_Analysis_999,Nuclear,Foundation (999 pts),LITIGATION READY - FOUNDATION + SMOKING GUNS
+TF004538,PDF - U.S. Federal Mining Patent,"April 6, 1901",U.S. Federal Government,Portland Cement Company of Utah,U.S. Federal Government; Portland Cement Company,Federal Patent Authority,999.0,MANUAL OVERRIDE: U.S. Federal Mining Patent - Foundation of vested rights claim,"U.S. Federal Mining Patent, Portland Cement (1901) - Federal mineral patent for Parleys Canyon. Placer claims located Jan 1, 1896. Surveyor documented active quarry Dec 1899: ""open cut or quarry 25 ft wide, averaging 20 ft deep and 100 ft long."" Foundation of vested rights claim.",/Users/allbots/Downloads/2026.02.13 - Tree Farm Supplemental Production (TF001583-8251)/data/TF004538.pdf,Manual_Override_Foundation,Manual_Analysis_999,Nuclear,Foundation (999 pts),LITIGATION READY - FOUNDATION + SMOKING GUNS
+TF005007,PDF - U.S. Federal Mining Patent,"January 23, 1908",U.S. Federal Government,P.C. Lime & Stone Company,U.S. Federal Government; P.C. Lime & Stone Company; U.S. Forest Service,Federal Patent Authority; U.S. Forest Service,999.0,"MANUAL OVERRIDE: U.S. Federal Mining Patent - 519.15 acres, U.S. Forest Service confirmation","U.S. Federal Mining Patent, P.C. Lime & Stone (1908) - Patent No. 46366. 519.15 acres across 4 claims. U.S. Forest Service confirmed active mining: 160 ft quarries, 600 barrels cement daily, K tramway. Complete conveyance chain from original 1904 locators.",/Users/allbots/Downloads/2026.02.13 - Tree Farm Supplemental Production (TF001583-8251)/data/TF005007.pdf,Manual_Override_Foundation,Manual_Analysis_999,Nuclear,Foundation (999 pts),LITIGATION READY - FOUNDATION + SMOKING GUNS
+TF005469,PDF - Utah Historical Quarterly,1963,Utah Historical Society,Public Record,Utah Historical Society; Ideal Cement Company,Utah Historical Documentation,999.0,MANUAL OVERRIDE: State government publication proving mining in Parleys Canyon since 1888,Utah Historical Quarterly (1963) - State government publication proving mining in Parleys Canyon since 1888. Chain of title confirmation: Ideal Cement Company (1922). This is the single most important historical document in the production.,/Users/allbots/Downloads/2026.02.13 - Tree Farm Supplemental Production (TF001583-8251)/data/TF005469.pdf,Manual_Override_Foundation,Manual_Analysis_999,Nuclear,Foundation (999 pts),LITIGATION READY - FOUNDATION + SMOKING GUNS
+TF006665.pdf,.pdf,,,,,,168.0,"T1:['Portland cement', 'portland cement', 'PORTLAND CEMENT', 'lime', 'LIME', 'Lime', 'limestone', 'LIMESTONE', 'Limestone'], T2:['cement', 'CEMENT', 'Cement', 'concrete', 'CONCRETE', 'Concrete', 'aggregate', 'AGGREGATE', 'Aggregate'], T3:['plant', 'PLANT', 'Plant', 'quarry', 'QUARRY', 'Quarry', 'mining', 'MINING', 'Mining']","Michael A. Zody, USB 5830
+Samantha Hawe, USB 17615
+PARSONS BEHLE & LATIMER
+201 South Main Street, Suite 1800
+Salt Lake City, Utah 84111
+Telephone: 801.532.1234
+Facsimile: 801.536.6111
+MZody@parsonsbehle.com
+SHawe@parsonsbehle.com
+Sim Gill, USB 6389
+DISTRICT ATTORNEY FOR SALT LAKE COUNTY
+Ralph Chamness, USB 6511
+Timothy Bywater, USB 11321
+Zachary Shaw, USB 8999
+OFFICE OF THE SALT LAKE COUNTY DISTRICT ATTORNEY
+35 East 500 South
+Salt Lake City, Utah 84111
+Telephone: 385.468.7700
+RChamness@slco.org
+...",/Users/allbots/Downloads/2026.02.13 - Tree Farm Supplemental Production (TF001583-8251)/images/0001/TF006665.pdf,Enhanced_Part4_Nuclear,Enhanced_Nuclear,Nuclear,Nuclear (168 pts),LITIGATION READY - FOUNDATION + SMOKING GUNS
+TF005786.pdf,.pdf,,,,,,138.0,"T1:['Portland cement', 'portland cement', 'PORTLAND CEMENT', 'lime', 'LIME', 'Lime', 'limestone', 'LIMESTONE', 'Limestone'], T2:['cement', 'CEMENT', 'Cement', 'concrete', 'CONCRETE', 'Concrete'], T3:['plant', 'PLANT', 'Plant', 'quarry', 'QUARRY', 'Quarry', 'mining', 'MINING', 'Mining']","(--:~ ,,--.,
+( .····
+--,( )'
+November 9, 1989
+TO: Dotti Brockbank
+FROM: D. Wayne Hedberg
+SUBJECT: Lone Star Industries, Inc., Parley's Canyon Quarry &
+Plant, DOE/035/003, Salt Lake County, Utah
+The following is a brief summary of the permitting and
+mining background behind the Parley's Canyon Limestone Quarry.
+* Property ownership is primarily private with a small
+portion of state and federally leased (BLM) land.
+* 1896 - File memo indicates this was apparently about
+the time this quarry was fir...",/Users/allbots/Downloads/2026.02.13 - Tree Farm Supplemental Production (TF001583-8251)/images/0001/TF005786.pdf,Enhanced_Part4_Nuclear,Enhanced_Nuclear,Nuclear,Nuclear (138 pts),LITIGATION READY - FOUNDATION + SMOKING GUNS
+TF006756.pdf,.pdf,,,,,,129.0,"T1:['lime', 'LIME', 'Lime', 'limestone', 'LIMESTONE', 'Limestone'], T2:['cement', 'CEMENT', 'Cement', 'concrete', 'CONCRETE', 'Concrete', 'aggregate', 'AGGREGATE', 'Aggregate'], T3:['plant', 'PLANT', 'Plant', 'facility', 'FACILITY', 'Facility', 'quarry', 'QUARRY', 'Quarry', 'mining', 'MINING', 'Mining']",". DocuSio"" Envelope ID 4EADA45C-3D06-4AOC-BEEO-A5910A6E508E
+Form MR-SMO This Section for DOGM Use:
+Assigned DOGM File No.: S/0 3 `;76..)&5—S---
+(Revised July 25, 2012)
+DOGM Lead:
+Permit Fee $ r t Ck# c
+STATE OF UTAH
+DEPARTMENT OF NATURAL RESOURCES RECEIVED
+DIVISION OF OIL, GAS AND MINING
+1594 West North Temple Suite 1210 JUN 1 5 2022
+Box 145801
+Salt Lake City, Utah 84114-5801
+Telephone: (801) 538-5291 Fax: (801) 359-3940 ..)IV OF OIL, GAS & MINING
+NOTICE OF INTENTION TO COMMENCE SMALL MINING OPE...",/Users/allbots/Downloads/2026.02.13 - Tree Farm Supplemental Production (TF001583-8251)/images/0001/TF006756.pdf,Enhanced_Part4_Nuclear,Enhanced_Nuclear,Nuclear,Nuclear (129 pts),LITIGATION READY - FOUNDATION + SMOKING GUNS
+TF005847.pdf,.pdf,,,,,,123.0,"T1:['lime', 'LIME', 'Lime', 'kiln', 'KILN', 'Kiln', 'limestone', 'LIMESTONE', 'Limestone'], T2:['cement', 'CEMENT', 'Cement'], T3:['plant', 'PLANT', 'Plant', 'quarry', 'QUARRY', 'Quarry', 'mining', 'MINING', 'Mining']","(-~f- ,~, f)
+fl l- /;JJ~
+BLDG. ST. & LS - WPDISK
+Form Dated July 23, 1984
+MINERAL LEASE NO. 4__ '.:_ J_::~_~_J_S_· _· _
+PROOF READ --TOW- -DD ----
+MINERAL LEASE APPLICATION NO. _4_5_59'--9'- _ GRANT: RES
+UTAH STATE LEASE FOR
+BUILDING STONE & LIMESTONE
+THIS UT AH STATE MTh1ERAL LEASE AND AGREEMENT entered into and executed in duplicateas
+of the 6th day of Apri 1 , 19 92 , by and between the STA TE OF .UTAH,
+acting by and through the BOARD OF STATE LANDS & FORESTRY and DIVISION OF STATE LANDS
+& FO...",/Users/allbots/Downloads/2026.02.13 - Tree Farm Supplemental Production (TF001583-8251)/images/0001/TF005847.pdf,Enhanced_Part4_Nuclear,Enhanced_Nuclear,Nuclear,Nuclear (123 pts),LITIGATION READY - FOUNDATION + SMOKING GUNS
+TF005647.pdf,.pdf,,,,,,119.0,"T1:['lime', 'LIME', 'Lime', 'limestone', 'LIMESTONE', 'Limestone'], T2:['cement', 'CEMENT', 'Cement', 'building material', 'aggregate', 'AGGREGATE', 'Aggregate'], T3:['industrial', 'INDUSTRIAL', 'Industrial', 'plant', 'PLANT', 'Plant', 'quarry', 'QUARRY', 'Quarry', 'mining', 'MINING', 'Mining']","SSAALLTT LLAAKKEE CCOOUUNNTTYY
+RReessoouurrccee MMaannaaggeemmeenntt PPllaann
+a SALT LAKE
+COUNTY
+July 2017
+CONFIDENTIAL TF005647
+TERMS AND ABBREVIATIONS
+Areas of Critical Environmental Concern (ACECs)
+Animal and Plant Health Inspection Service (APHIS)
+animal unit months (AUMs)
+Aquatic Invasive Species (AIS)
+best management practices (BMPs)
+Cooperative Weed Management Area (CWMA)
+County Resource Management Plan (CRMP)
+Endangered Species Act (ESA)
+Federal Emergency Management Agency (FEMA)
+Federal...",/Users/allbots/Downloads/2026.02.13 - Tree Farm Supplemental Production (TF001583-8251)/images/0001/TF005647.pdf,Enhanced_Part4_Nuclear,Enhanced_Nuclear,Nuclear,Nuclear (119 pts),LITIGATION READY - FOUNDATION + SMOKING GUNS
+TF005806.pdf,.pdf,,,,,,117.0,"T1:['Portland cement', 'portland cement', 'PORTLAND CEMENT', 'lime', 'LIME', 'Lime', 'limestone', 'LIMESTONE', 'Limestone'], T2:['cement', 'CEMENT', 'Cement'], T3:['quarry', 'QUARRY', 'Quarry', 'mining', 'MINING', 'Mining']","8179642
+03/19/2002 02:18 Pti 15-00
+Book - 0577 Ps - 8290-0292
+GARY hi. OTT
+WHEN RECORDED, RETURN TO: REORDER, SALT LAKE COLRITTI UTAH
+Joseph C. Rust FIRST MERICAR TITLE
+Kester and Rust BY: LIM, DEPUTY - 41 3 r.
+36 S. State St., /moo
+Salt Lake City, Utah 84111
+CV
+Telephone: (801) 532-8000
+a) SEND TAX NOTICES TO:
+Rulon J. Harper
+P.O. Box 18400
+Q0 Kearns, Utah 84118
+92-75-7017920-0050
+92-70-T01-920-0050
+17-18/4-00-003
+PARCEL Z.D.#
+SPECIAL WARRANTY DEED
+P.G.L.C., LLC, a Utah Limited Liability Compan...",/Users/allbots/Downloads/2026.02.13 - Tree Farm Supplemental Production (TF001583-8251)/images/0001/TF005806.pdf,Enhanced_Part4_Nuclear,Enhanced_Nuclear,Nuclear,Nuclear (117 pts),LITIGATION READY - FOUNDATION + SMOKING GUNS
+TF006641.pdf,.pdf,,,,,,114.0,"T1:['lime', 'LIME', 'Lime', 'limestone', 'LIMESTONE', 'Limestone'], T2:['cement', 'CEMENT', 'Cement', 'concrete', 'CONCRETE', 'Concrete'], T3:['plant', 'PLANT', 'Plant', 'facility', 'FACILITY', 'Facility', 'quarry', 'QUARRY', 'Quarry', 'mining', 'MINING', 'Mining']","DocuSigo Envelope ID: 4EADA45C-3D06-4A0C-B, A5910A6E508E
+Form MR-SMO This Section for DOGM Use:
+(Revised July 25, 2012) Assigned DOOM File No.: S/0 5 `,5 /6.)
+DOGM Lead: ;114
+Permit Fee $ 5 c cc AAt
+STATE OF UTAH
+COMPLETE DEPARTMENT OF NATURAL RESOURCES RECEIVED
+DIVISION OF OIL, GAS AND MINING
+MiS 22 2(Q2 1594 West North Temple Suite 1210 JUN 1 5 2022
+Box 145801
+mole Salt Lake City, Utah 84114-5801
+a.
+Dm (ALGAE., Telephone: (801) 538-5291 Fax: (801) 359-3940 ::)IV OF OIL, GAS& MINING
+NOTICE OF I...",/Users/allbots/Downloads/2026.02.13 - Tree Farm Supplemental Production (TF001583-8251)/images/0001/TF006641.pdf,Enhanced_Part4_Nuclear,Enhanced_Nuclear,Nuclear,Nuclear (114 pts),LITIGATION READY - FOUNDATION + SMOKING GUNS
+TF005870.pdf,.pdf,,,,,,108.0,"T1:['lime', 'LIME', 'Lime', 'limestone', 'LIMESTONE', 'Limestone'], T2:['cement', 'CEMENT', 'Cement'], T3:['industrial', 'INDUSTRIAL', 'Industrial', 'quarry', 'QUARRY', 'Quarry', 'mining', 'MINING', 'Mining']","BEFORE THE DIVISION OF OIL, GAS, AND MINING
+DEPARTMENT OF NATURAL RESOURCES
+STATE OF UTAH
+IN THE MATTER OF:
+ORDER ON NOTICE OF INTENTION
+NOTICE OF INTENTION TO TO COMMENCE SMALL MINING
+COMMENCE SMALL MINING OPERATIONS AND OBJECTIONS
+OPERATIONS AT THE I-80 SOUTH
+QUARRY (TREE FARM) OF GRANITE File No. S/035/0055
+CONSTRUCTION COMPANY
+APPEARANCES:
+Kassidy J. Wallin for Granite Construction Company
+Trevor Gruwell for the Division of Oil, Gas & Mining
+Michael A. Zody for Salt Lake County
+Michael M. Le...",/Users/allbots/Downloads/2026.02.13 - Tree Farm Supplemental Production (TF001583-8251)/images/0001/TF005870.pdf,Enhanced_Part4_Nuclear,Enhanced_Nuclear,Nuclear,Nuclear (108 pts),LITIGATION READY - FOUNDATION + SMOKING GUNS

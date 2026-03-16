@@ -1,0 +1,56 @@
+priority_tier,bates_number,filename,file_type,relevance_score,review_reason,estimated_time_minutes,category,notes
+P1 IMMEDIATE,TF001583,TF001583.txt,txt,5042,nuclear-evidence,120,legal_filing,Law offices document with 408 mining keyword hits - HIGHEST ENHANCED SCORE requires full analysis
+P1 IMMEDIATE,TF002645,TF002645.pdf,pdf,205,nuclear-evidence,90,document_destruction,Document destruction evidence with attorney privilege markers - nuclear smoking gun
+P1 IMMEDIATE,TF002780,TF002780.pdf,pdf,185,nuclear-evidence,75,county_collusion,Portland cement coordination network - competitor coordination evidence
+P1 IMMEDIATE,TF006665,TF006665.pdf,pdf,168,nuclear-evidence,60,regulatory_coordination,Kanter Declaration with attack window coordination - admits knowing vested rights
+P1 IMMEDIATE,TF002413,TF002413.pdf,pdf,160,nuclear-evidence,45,chain_of_title,Wilson mayoral direction with attorney coordination - authority overreach
+P1 IMMEDIATE,TF005786,TF005786.pdf,pdf,138,nuclear-evidence,30,regulatory_coordination,Enhanced nuclear evidence with Portland cement references
+P1 IMMEDIATE,TF001798,TF001798_audio.mp3,audio,25,audio,45,regulatory_coordination,Utah DAQ Susan Weissberg coordination call - identical file signature (841418 bytes)
+P1 IMMEDIATE,TF001812,TF001812_audio.mp3,audio,25,audio,45,regulatory_coordination,Utah DAQ Susan Weissberg coordination call - identical file signature (841418 bytes)
+P1 IMMEDIATE,TF002023,TF002023_audio.mp3,audio,25,audio,45,regulatory_coordination,Utah DAQ Susan Weissberg coordination call - identical file signature (841418 bytes)
+P1 IMMEDIATE,TF002037,TF002037_audio.mp3,audio,25,audio,45,regulatory_coordination,Utah DAQ Susan Weissberg coordination call - identical file signature (841418 bytes)
+P1 IMMEDIATE,TF002138,TF002138_audio.mp3,audio,25,audio,45,regulatory_coordination,Utah DAQ Susan Weissberg coordination call - identical file signature (841418 bytes)
+P1 IMMEDIATE,TF002402,TF002402_audio.mp3,audio,25,audio,45,regulatory_coordination,Utah DAQ Susan Weissberg coordination call - identical file signature (841418 bytes)
+P1 IMMEDIATE,TF002495,TF002495_audio.mp3,audio,25,audio,45,regulatory_coordination,Utah DAQ Susan Weissberg coordination call - identical file signature (841418 bytes)
+P1 IMMEDIATE,TF002512,TF002512_audio.mp3,audio,25,audio,45,regulatory_coordination,Utah DAQ Susan Weissberg coordination call - identical file signature (841418 bytes)
+P1 IMMEDIATE,TF002554,TF002554_audio.mp3,audio,25,audio,45,regulatory_coordination,Utah DAQ Susan Weissberg coordination call - identical file signature (841418 bytes)
+P1 IMMEDIATE,TF005637,TF005637.mov,video,35,video,90,correspondence,Video file requiring manual transcription - only video in entire discovery
+P1 IMMEDIATE,TF002443,TF002443.xlsx,xlsx,45,financial-data,60,financial,SILVER MINE calculations - 509M cubic yards potential competitor intelligence
+P2 HIGH,TF006756,TF006756.pdf,pdf,129,high-score,45,regulatory_coordination,Lime and limestone processing coordination - industrial patterns
+P2 HIGH,TF005847,TF005847.pdf,pdf,123,high-score,45,regulatory_coordination,Kilns and lime processing facilities - industrial infrastructure
+P2 HIGH,TF005647,TF005647.pdf,pdf,119,high-score,45,regulatory_coordination,Building materials coordination - supply chain evidence
+P2 HIGH,TF005469,TF005469.pdf,pdf,119,high-score,75,historical,Utah Historical Society materials - vested rights historical proof
+P2 HIGH,TF004538,TF004538.pdf,pdf,115,high-score,60,chain_of_title,U.S. Federal Mining Patent 1901 - federal recognition of mining rights
+P2 HIGH,TF004781,TF004781.pdf,pdf,110,high-score,45,permits,Portland cement environmental compliance - regulatory coordination
+P2 HIGH,TF005310,TF005310.pdf,pdf,108,high-score,30,permits,Portland cement air quality permits - EPA coordination
+P2 HIGH,TF005309,TF005309.pdf,pdf,105,high-score,30,permits,Portland cement operations permits - environmental coordination
+P2 HIGH,TF005007,TF005007.pdf,pdf,103,high-score,60,chain_of_title,U.S. Federal Mining Patent P.C. Lime Stone 1908 - federal title chain
+P2 HIGH,TF004629,TF004629.pdf,pdf,100,high-score,30,regulatory_coordination,Building materials regulatory context
+P2 HIGH,TF002209,TF002209.xlsx,xlsx,25,financial-data,30,financial,Royalty spreadsheets with financial calculations - revenue analysis
+P2 HIGH,TF002690,TF002690.xlsx,xlsx,25,financial-data,30,financial,Royalty spreadsheets with financial calculations - revenue analysis
+P2 HIGH,[52 Enhanced PDFs],Various Enhanced PDFs,pdf,Various,missed-in-original,720,various,52 PDFs completely missed in original production - requires systematic review
+P3 STANDARD,TF003039,TF003039.pdf,pdf,75,supporting-evidence,30,regulatory_coordination,Previously reviewed - supporting regulatory evidence
+P3 STANDARD,TF003040,TF003040.pdf,pdf,70,supporting-evidence,30,regulatory_coordination,Previously reviewed - supporting regulatory evidence
+P3 STANDARD,TF003041,TF003041.pdf,pdf,68,supporting-evidence,30,regulatory_coordination,Previously reviewed - supporting regulatory evidence
+P3 STANDARD,TF003042,TF003042.pdf,pdf,65,supporting-evidence,30,regulatory_coordination,Previously reviewed - supporting regulatory evidence
+P3 STANDARD,TF003043,TF003043.pdf,pdf,60,supporting-evidence,30,regulatory_coordination,Previously reviewed - supporting regulatory evidence
+P3 STANDARD,TF003093,TF003093.pdf,pdf,58,supporting-evidence,30,zoning,Previously reviewed - zoning related evidence
+P3 STANDARD,TF003094,TF003094.pdf,pdf,55,supporting-evidence,30,zoning,Previously reviewed - zoning related evidence
+P3 STANDARD,TF003095,TF003095.pdf,pdf,52,supporting-evidence,30,zoning,Previously reviewed - zoning related evidence
+P3 STANDARD,TF003096,TF003096.pdf,pdf,51,supporting-evidence,30,zoning,Previously reviewed - zoning related evidence
+P3 STANDARD,TF003097,TF003097.pdf,pdf,50,supporting-evidence,30,zoning,Previously reviewed - zoning related evidence
+P3 STANDARD,TF006814,TF006814.pdf,pdf,48,supporting-evidence,15,permits,Previously reviewed - permits supporting evidence
+P3 STANDARD,TF006815,TF006815.pdf,pdf,47,supporting-evidence,15,permits,Previously reviewed - permits supporting evidence
+P3 STANDARD,TF006816,TF006816.pdf,pdf,46,supporting-evidence,15,permits,Previously reviewed - permits supporting evidence
+P3 STANDARD,TF006817,TF006817.pdf,pdf,45,supporting-evidence,15,permits,Previously reviewed - permits supporting evidence
+P3 STANDARD,TF006818,TF006818.pdf,pdf,44,supporting-evidence,15,permits,Previously reviewed - permits supporting evidence
+P3 STANDARD,TF008218,TF008218.pdf,pdf,43,supporting-evidence,15,correspondence,Previously reviewed - correspondence evidence
+P3 STANDARD,TF008219,TF008219.pdf,pdf,42,supporting-evidence,15,correspondence,Previously reviewed - correspondence evidence
+P3 STANDARD,TF008220,TF008220.pdf,pdf,41,supporting-evidence,15,correspondence,Previously reviewed - correspondence evidence
+P3 STANDARD,TF008221,TF008221.pdf,pdf,40,supporting-evidence,15,correspondence,Previously reviewed - correspondence evidence
+P4 LOW,TF008212,TF008212.pdf,pdf,15,handwritten,60,correspondence,Flagged for handwritten content - likely illegible requires OCR analysis
+P4 LOW,[Various Low Score],Various Low Score PDFs,pdf,5-25,degraded-OCR,15-30,various,Low score documents with degraded OCR requiring human verification
+P4 LOW,[Failed Extraction],Various Failed PDFs,pdf,0,failed-extraction,45,various,Documents where OCR completely failed - may be blank pages or severely degraded
+P4 LOW,[Corrupt Files],Various Corrupt Files,various,0,corrupted,30,various,Files with zero bytes or corrupted headers requiring technical analysis
+P4 LOW,[Image Files],Various Image Files,image,Variable,image-OCR,30,various,Standalone images requiring OCR analysis for text content
+P4 LOW,[Unusual Formats],Various Unusual Formats,other,Variable,unexpected-format,45,various,Non-PDF non-audio files requiring format analysis

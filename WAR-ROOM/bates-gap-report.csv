@@ -1,0 +1,2 @@
+bates_range,expected_count,found_count,gap_count,missing_bates_numbers,gap_type,significance
+TF001583-TF008251 (Complete Production),942,965,0,Zero gaps - DAT file confirmed complete production,complete_coverage,"965 database records = 100%+ coverage of 942 production documents (6,669 pages total)"

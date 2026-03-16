@@ -1,0 +1,17 @@
+bates_number,filename,duplicate_reason,phase1_score,phase2_score,final_score_used,keywords_merged,notes
+TF001583,TF001583.txt,processed_both_phases,0,5042,5042,"mining,law offices,408 keyword hits",Enhanced phase found massive content missed by original - kept enhanced result
+TF006665,TF006665.pdf,processed_both_phases,0,168,168,"Portland cement,lime,limestone,priority date,Kanter Declaration",Enhanced phase identified nuclear evidence missed by original
+TF005469,TF005469.pdf,different_scoring,119,1900,1900,"Portland cement,cement plant,kiln,quarry operations,1886,1887,1888,Save Our Canyons,Utah Historical Society",Enhanced scoring identified additional nuclear keywords
+TF001798,TF001798_audio.mp3,audio_transcription,0,25,25,"Susan Weissberg,Utah Division Air Quality,Lonson Quarry,I-80,NOI",Original phase ignored audio - enhanced phase transcribed and scored
+TF001812,TF001812_audio.mp3,audio_transcription,0,25,25,"Susan Weissberg,Utah Division Air Quality,Lonson Quarry,I-80,NOI",Original phase ignored audio - enhanced phase transcribed and scored
+TF002023,TF002023_audio.mp3,audio_transcription,0,25,25,"Susan Weissberg,Utah Division Air Quality,Lonson Quarry,I-80,NOI",Original phase ignored audio - enhanced phase transcribed and scored
+TF002037,TF002037_audio.mp3,audio_transcription,0,25,25,"Susan Weissberg,Utah Division Air Quality,Lonson Quarry,I-80,NOI",Original phase ignored audio - enhanced phase transcribed and scored
+TF002138,TF002138_audio.mp3,audio_transcription,0,25,25,"Susan Weissberg,Utah Division Air Quality,Lonson Quarry,I-80,NOI",Original phase ignored audio - enhanced phase transcribed and scored
+TF002402,TF002402_audio.mp3,audio_transcription,0,25,25,"Susan Weissberg,Utah Division Air Quality,Lonson Quarry,I-80,NOI",Original phase ignored audio - enhanced phase transcribed and scored
+TF002495,TF002495_audio.mp3,audio_transcription,0,25,25,"Susan Weissberg,Utah Division Air Quality,Lonson Quarry,I-80,NOI",Original phase ignored audio - enhanced phase transcribed and scored
+TF002512,TF002512_audio.mp3,audio_transcription,0,25,25,"Susan Weissberg,Utah Division Air Quality,Lonson Quarry,I-80,NOI",Original phase ignored audio - enhanced phase transcribed and scored
+TF002554,TF002554_audio.mp3,audio_transcription,0,25,25,"Susan Weissberg,Utah Division Air Quality,Lonson Quarry,I-80,NOI",Original phase ignored audio - enhanced phase transcribed and scored
+TF002443,TF002443.xlsx,excel_processing,0,45,45,"SILVER MINE,509531000 cubic yards,1120968000 tons,engineering slope",Original phase ignored Excel files - enhanced phase processed and scored
+TF002209,TF002209.xlsx,excel_processing,0,25,25,"royalty,retail price tracking",Original phase ignored Excel files - enhanced phase processed and scored
+TF002690,TF002690.xlsx,excel_processing,0,25,25,"royalty,retail price tracking",Original phase ignored Excel files - enhanced phase processed and scored
+TF005637,TF005637.mov,video_identification,0,35,35,"video file,audio extracted",Original phase ignored video files - enhanced phase identified and flagged for transcription
