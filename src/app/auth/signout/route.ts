@@ -1,11 +1,12 @@
-import { NextResponse } from 'next/server'
+import { NextResponse, type NextRequest } from 'next/server'
 
-export async function POST() {
-  return NextResponse.redirect(new URL('/login', process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'), {
+export async function POST(request: NextRequest) {
+  const baseUrl = request.nextUrl.origin
+  return NextResponse.redirect(new URL('/sign-in', baseUrl), {
     status: 302,
   })
 }
 
-export async function GET() {
-  return POST()
+export async function GET(request: NextRequest) {
+  return POST(request)
 }

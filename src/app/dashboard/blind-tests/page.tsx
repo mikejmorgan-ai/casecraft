@@ -42,7 +42,7 @@ export default function BlindTestsPage() {
             <div>
               <p className="text-sm font-medium text-gray-500">High Confidence</p>
               <p className="text-3xl font-bold text-blue-600">97.1%</p>
-              <p className="text-sm text-gray-600">Predictions >90% confidence</p>
+              <p className="text-sm text-gray-600">Predictions &gt;90% confidence</p>
             </div>
             <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
               📊

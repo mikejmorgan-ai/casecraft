@@ -218,13 +218,15 @@ export class DocumentIndexer {
       }
 
       if (ext === '.pdf') {
-        // TODO: Implement PDF text extraction
-        return '[PDF content extraction not implemented]'
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        const pdfParse = require('pdf-parse') as (buf: Buffer) => Promise<{ text: string }>
+        const buffer = await readFile(filePath)
+        const data = await pdfParse(buffer)
+        return data.text
       }
 
       if (ext === '.docx' || ext === '.doc') {
-        // TODO: Implement Word document extraction
-        return '[Word document extraction not implemented]'
+        return '[Word document extraction requires manual upload as text]'
       }
 
       return '[Unsupported file type]'
