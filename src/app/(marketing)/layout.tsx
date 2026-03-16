@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'
 /**
  * Copyright (c) 2026 CaseBreak Technologies
  * Licensed under the Business Source License 1.1
