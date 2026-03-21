@@ -19,8 +19,9 @@ export default function AboutPage() {
               <a href="/about" className="text-blue-600 font-medium">About</a>
               <a href="/pricing" className="text-gray-600 hover:text-gray-900">Pricing</a>
               <a href="/faq" className="text-gray-600 hover:text-gray-900">FAQ</a>
-              <a href="/dashboard" className="text-blue-600 hover:text-blue-700">Dashboard</a>
-              <a href="/dashboard" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+              <a href="/contact" className="text-gray-600 hover:text-gray-900">Contact</a>
+              <a href="/features" className="text-gray-600 hover:text-gray-900">Features</a>
+              <a href="/sign-up" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
                 Get Started
               </a>
             </nav>
@@ -96,19 +97,17 @@ export default function AboutPage() {
             </section>
 
             <section id="about-team">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Built by Legal Professionals</h2>
-              <p className="text-lg text-gray-600 mb-6">
-                Our team combines practicing attorneys, AI researchers, and legal technology experts.
-                We understand the law because we practice it, and we build technology that actually
-                serves the needs of legal professionals.
-              </p>
-              <div className="bg-blue-50 p-6 rounded-lg">
-                <blockquote className="text-lg text-blue-900 italic">
-                  "Every feature in CaseBreak.AI was born from a real frustration we experienced
-                  in our own practice. We built the platform we wished existed."
-                </blockquote>
-                <cite className="text-blue-700 font-medium mt-2 block">- CaseBreak.AI Founding Team</cite>
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Leadership</h2>
+              <div className="bg-blue-50 p-6 rounded-lg mb-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Michael J. Morgan</h3>
+                <p className="text-blue-600 font-medium mb-3">CEO &amp; Founder</p>
+                <p className="text-gray-600">
+                  Serial entrepreneur and inventor with expertise spanning AI, healthcare, construction, and IP strategy. Founder of AI Venture Holdings LLC and its portfolio companies including BeautifulDerma, AIDentist, ALLBOTS, and ClaimGold.ai. Named inventor on multiple U.S. patent applications.
+                </p>
               </div>
+              <p className="text-gray-600">
+                CaseBreak AI is a product of <strong>AI Venture Holdings LLC</strong>, a portfolio company building AI-powered solutions across healthcare, legal, and enterprise verticals.
+              </p>
             </section>
           </div>
         </div>

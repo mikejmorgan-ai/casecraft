@@ -1,0 +1,32 @@
+# CaseBreak AI robots.txt
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /dashboard/
+Disallow: /admin/
+Disallow: /sign-in
+Disallow: /sign-up
+Disallow: /auth
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+Sitemap: https://casebreak.ai/sitemap.xml

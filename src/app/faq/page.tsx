@@ -19,8 +19,9 @@ export default function FAQPage() {
               <a href="/about" className="text-gray-600 hover:text-gray-900">About</a>
               <a href="/pricing" className="text-gray-600 hover:text-gray-900">Pricing</a>
               <a href="/faq" className="text-blue-600 font-medium">FAQ</a>
-              <a href="/dashboard" className="text-blue-600 hover:text-blue-700">Dashboard</a>
-              <a href="/dashboard" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+              <a href="/contact" className="text-gray-600 hover:text-gray-900">Contact</a>
+              <a href="/features" className="text-gray-600 hover:text-gray-900">Features</a>
+              <a href="/sign-up" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
                 Get Started
               </a>
             </nav>
@@ -70,7 +71,7 @@ export default function FAQPage() {
                 Is my case data secure and confidential?
               </h3>
               <p className="text-gray-600">
-                Absolutely. We use bank-level encryption, SOC 2 compliance, and strict attorney-client
+                Absolutely. We use bank-level encryption, SOC 2-aligned security practices, and strict attorney-client
                 privilege protections. Your data is completely isolated from other firms and never used
                 to train AI models. We're GDPR and CCPA compliant.
               </p>
@@ -172,7 +173,7 @@ export default function FAQPage() {
                 Start with our free 30-day trial. No credit card required. Upload a case, run a mock trial,
                 and experience the power of statute-grounded AI for yourself.
               </p>
-              <a href="/dashboard" className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 font-medium">
+              <a href="/sign-up" className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 font-medium">
                 Start Free Trial →
               </a>
             </div>

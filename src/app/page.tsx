@@ -45,6 +45,15 @@ export default function HomePage() {
             <Badge variant="secondary" className="ml-2 text-xs">Enterprise</Badge>
           </div>
           <div className="flex gap-4 items-center">
+            <Link href="/features">
+              <Button variant="ghost" className="hover:bg-blue-50">Features</Button>
+            </Link>
+            <Link href="/pricing">
+              <Button variant="ghost" className="hover:bg-blue-50">Pricing</Button>
+            </Link>
+            <Link href="/about">
+              <Button variant="ghost" className="hover:bg-blue-50">About</Button>
+            </Link>
             <Link href="/sign-in">
               <Button variant="ghost" className="hover:bg-blue-50">
                 Sign In
@@ -130,7 +139,7 @@ export default function HomePage() {
           {/* Trust Indicators */}
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
             {[
-              { icon: <Shield />, label: "SOC 2 Compliant" },
+              { icon: <Shield />, label: "SOC 2-Aligned" },
               { icon: <Lock />, label: "End-to-End Encrypted" },
               { icon: <FileText />, label: "Bates Numbering" },
               { icon: <Target />, label: "99.9% Accuracy" }
@@ -314,10 +323,17 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* UPL Disclaimer */}
+      <div className="bg-slate-100 border-t border-slate-200 py-3">
+        <div className="container mx-auto px-6 text-center text-sm text-slate-500">
+          CaseBreak AI provides informational analysis only. This is not legal advice. <Link href="/acceptable-use#upl-disclaimer" className="text-blue-600 hover:underline">Read our legal disclaimer</Link>.
+        </div>
+      </div>
+
       {/* Footer */}
       <footer className="bg-slate-900 text-slate-300 py-16">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-5 gap-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <div className="p-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg">
@@ -340,22 +356,32 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold text-white mb-4">Security</h4>
               <div className="space-y-2 text-sm">
-                <div>SOC 2 Compliance</div>
+                <div>SOC 2-Aligned Practices</div>
                 <div>End-to-End Encryption</div>
                 <div>Role-Based Access</div>
               </div>
             </div>
             <div>
-              <h4 className="font-semibold text-white mb-4">Support</h4>
+              <h4 className="font-semibold text-white mb-4">Company</h4>
               <div className="space-y-2 text-sm">
-                <div>Enterprise Support</div>
-                <div>API Documentation</div>
-                <div>Training Programs</div>
+                <Link href="/about" className="block hover:text-white">About</Link>
+                <Link href="/features" className="block hover:text-white">Features</Link>
+                <Link href="/pricing" className="block hover:text-white">Pricing</Link>
+                <Link href="/contact" className="block hover:text-white">Contact</Link>
+                <Link href="/faq" className="block hover:text-white">FAQ</Link>
+              </div>
+            </div>
+            <div>
+              <h4 className="font-semibold text-white mb-4">Legal</h4>
+              <div className="space-y-2 text-sm">
+                <Link href="/terms" className="block hover:text-white">Terms of Service</Link>
+                <Link href="/privacy" className="block hover:text-white">Privacy Policy</Link>
+                <Link href="/acceptable-use" className="block hover:text-white">Acceptable Use</Link>
               </div>
             </div>
           </div>
           <div className="border-t border-slate-800 mt-12 pt-8 text-center text-sm text-slate-400">
-            <p>© 2026 AI Venture Holdings LLC. Licensed under BSL 1.1. All rights reserved.</p>
+            <p>© 2026 AI Venture Holdings LLC. All rights reserved.</p>
           </div>
         </div>
       </footer>
